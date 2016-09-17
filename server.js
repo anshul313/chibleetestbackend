@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var config = require('config');
 var autoIncrement = require('mongoose-auto-increment')
-var port = process.env.PORT || 8080; // set our port
+var port = process.env.PORT || 8081; // set our port
 var multer = require('multer');
 var elastic = require('./elasticsearch');
 // Bootstrap routes
