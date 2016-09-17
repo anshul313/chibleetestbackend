@@ -4,7 +4,7 @@
   "description": "Chiblee API",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_PATH=./config:./app/libs NODE_ENV=development node server.js"
+    "start": "node server.js"
   },
   "author": "Kunal Relan",
   "license": "ISC",
