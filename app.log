@@ -35411,3 +35411,30 @@ ReferenceError: Address_raw is not defined
     at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
 2016-09-21T07:49:06.962Z - info: 127.0.0.1 - - [21/Sep/2016:07:49:06 +0000] "GET /v2/areas HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-09-21T08:05:27.457Z - info: 127.0.0.1 - - [21/Sep/2016:08:05:27 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-09-21T08:06:08.858Z - error: uncaughtException: Route.get() requires callback functions but got a [object Undefined] date=Wed Sep 21 2016 13:36:08 GMT+0530 (IST), pid=8060, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105435136, heapTotal=76513376, heapUsed=51371432, loadavg=[1.93408203125, 1.9990234375, 1.849609375], uptime=87333
+Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:196:15)
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/login/server/routes/login.server.routes.js:31:6)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-09-21T08:07:50.240Z - error: uncaughtException: listen EADDRINUSE 0.0.0.0:8081 date=Wed Sep 21 2016 13:37:50 GMT+0530 (IST), pid=8080, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=117796864, heapTotal=94044256, heapUsed=67097472, loadavg=[1.80322265625, 1.92529296875, 1.8330078125], uptime=87435
+Error: listen EADDRINUSE 0.0.0.0:8081
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at net.js:1395:9
+    at nextTickCallbackWith3Args (node.js:453:9)
+    at process._tickCallback (node.js:359:17)
+2016-09-21T08:15:45.605Z - info: 127.0.0.1 - - [21/Sep/2016:08:15:45 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" 200 459 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-09-21T08:16:19.219Z - info: 127.0.0.1 - - [21/Sep/2016:08:16:19 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" 200 441 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+

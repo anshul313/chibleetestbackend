@@ -25,9 +25,22 @@ var multer = require('multer');
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 // var elasticsearch = require('elasticsearch');
-// var client = new elasticsearch.Client({
-//   host: 'localhost:9200',
-//   log: 'trace'
+// var es = elasticsearch.Client({
+//   hosts: '52.77.1.79:9200'
+// });
+//
+// es.ping({
+//   // ping usually has a 3000ms timeout
+//   requestTimeout: Infinity,
+//
+//   // undocumented params are appended to the query string
+//   hello: "elasticsearch!"
+// }, function(error) {
+//   if (error) {
+//     console.trace('elasticsearch cluster is down!');
+//   } else {
+//     console.log('All is well');
+//   }
 // });
 
 exports.login = function(req, res) {
@@ -110,6 +123,7 @@ exports.subcategory = function(req, res) {
       subCategory: 1,
       _id: 0
     }).toArray(function(err, docs) {
+      console.log(docs);
       if (err) {
         res.json({
           error: true,
@@ -118,7 +132,7 @@ exports.subcategory = function(req, res) {
       }
       res.json({
         error: false,
-        data: docs
+        data: docs[0].subCategory
       });
     });
   }
@@ -219,49 +233,46 @@ exports.listarea = function(req, res) {
 //   });
 // }
 //
-// exports.searchbyinput = function(req, res) {
-//
-//   var inp = req.params.input;
-//   var lat = req.params.lat;
-//   var lon = req.params.lon;
-//   var page = req.params.page;
-//   var loc = [parseFloat(lat), parseFloat(lon)]
-//   elastic.getSuggestions({
-//     index: 'chiblee',
-//     size: 10,
-//     from: 10 * (page - 1),
-//     body: {
-//       query: {
-//         filtered: {
-//           query: {
-//             multi_match: {
-//               "query": inp,
-//               "fields": ["Name", "Type"],
-//               "type": "phrase_prefix"
-//             }
-//           },
-//           filter: {
-//             "query": {
-//               "match": {
-//                 "area": 'Gurgaon Badshahpur'
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }).then(function(resp) {
-//     res.json({
-//       error: false,
-//       data: resp
-//     });
-//   }, function(err) {
-//     return res.status(400).send({
-//       message: errorHandler
-//         .getErrorMessage(err)
-//     });
-//   });
-// }
+exports.searchbyarea = function(req, res) {
+  var inp = req.params.input;
+  var area = req.params.area;
+  var page = req.params.page;
+  es.search({
+    index: 'chiblee',
+    size: 10,
+    from: 10 * (page - 1),
+    body: {
+      query: {
+        filtered: {
+          query: {
+            multi_match: {
+              "query": inp,
+              "fields": ["type", "type1", "name"],
+              "type": "phrase_prefix"
+            }
+          },
+          filter: {
+            "query": {
+              "match": {
+                "area": area
+              }
+            }
+          }
+        }
+      }
+    }
+  }).then(function(resp) {
+    res.json({
+      error: false,
+      data: resp
+    });
+  }, function(err) {
+    return res.status(400).send({
+      message: errorHandler
+        .getErrorMessage(err)
+    });
+  });
+}
 
 
 exports.googlelocationapi = function(req, res) {

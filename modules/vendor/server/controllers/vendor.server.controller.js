@@ -23,12 +23,10 @@ var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
 
-var elastic = require('../../../../config/lib/elasticsearch.js');
-// var elasticsearch = require('elasticsearch');
-// var client = new elasticsearch.Client({
-//   host: 'localhost:9200',
-//   log: 'trace'
-// });
+var elasticsearch = require('elasticsearch');
+var es = elasticsearch.Client({
+  hosts: '52.77.1.79:9200'
+});
 
 exports.addvendor = function(req, res) {
   console.log('add vendor');

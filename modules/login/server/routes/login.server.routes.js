@@ -27,8 +27,8 @@ module.exports = function(app) {
   app.route('/v2/googlelocationapi')
     .post(login.googlelocationapi);
 
-  // app.route('/v2/search/:lat/:lon/:input/:page')
-  //   .get(login.searchbyinput);
+  app.route('/v2/search/:area/:input/:page')
+    .get(login.searchbyarea);
   //
   // app.route('/v2/addIndex')
   //   .post(login.addIndex);

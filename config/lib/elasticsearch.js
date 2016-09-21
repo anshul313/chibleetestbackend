@@ -1,5 +1,3 @@
-// var elasticsearch = require('elasticsearch');
-//
 // var elasticClient = new elasticsearch.Client({
 //   host: 'localhost:9200',
 //   log: 'info'
@@ -37,6 +35,13 @@
 // }
 // exports.indexExists = indexExists;
 //
+//
+// indexExists.then(function(exists) {
+//   if (exists) {
+//     return deleteIndex();
+//   }
+// }).then(initIndex);
+//
 // function initMapping() {
 //   return elasticClient.indices.putMapping({
 //     index: indexName,
@@ -66,8 +71,8 @@
 //     index: indexName,
 //     type: "document",
 //     body: {
-//       Name: document.Name,
-//       Type: document.Type,
+//       title: document.title,
+//       content: document.content,
 //       suggest: {
 //         input: document.title.split(" "),
 //         output: document.title,
@@ -77,20 +82,3 @@
 //   });
 // }
 // exports.addDocument = addDocument;
-//
-// function getSuggestions(input) {
-//   return elasticClient.suggest({
-//     index: indexName,
-//     type: "document",
-//     body: {
-//       docsuggest: {
-//         text: input,
-//         completion: {
-//           field: "suggest",
-//           fuzzy: true
-//         }
-//       }
-//     }
-//   })
-// }
-// exports.getSuggestions = getSuggestions;
