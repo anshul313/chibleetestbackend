@@ -35409,3 +35409,5 @@ ReferenceError: Address_raw is not defined
     at ReadStream.Readable.push (_stream_readable.js:111:10)
     at onread (fs.js:1739:12)
     at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-09-21T07:49:06.962Z - info: 127.0.0.1 - - [21/Sep/2016:07:49:06 +0000] "GET /v2/areas HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+

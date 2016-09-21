@@ -10,7 +10,7 @@ module.exports = {
   // Binding to 127.0.0.1 is safer in production.
   host: process.env.HOST || '0.0.0.0',
   db: {
-    uri: 'mongodb://chiblee:chiblee1212@54.169.192.5:12528/chiblee',
+    uri: 'mongodb://localhost:27017/chiblee',
     // uri: 'mongodb://db.qykly.mobi:27017/qykly_dev',
 
     options: {

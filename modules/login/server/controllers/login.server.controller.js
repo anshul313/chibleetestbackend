@@ -23,7 +23,7 @@ var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
 
-var elastic = require('../../../../config/lib/elasticsearch.js');
+// var elastic = require('../../../../config/lib/elasticsearch.js');
 // var elasticsearch = require('elasticsearch');
 // var client = new elasticsearch.Client({
 //   host: 'localhost:9200',
@@ -126,7 +126,7 @@ exports.subcategory = function(req, res) {
 
 
 exports.areas = function(req, res) {
-  db.collection('vendor').distinct('Area', function(err, docs) {
+  db.collection('vendors').distinct('Area', function(err, docs) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -148,7 +148,7 @@ exports.listarea = function(req, res) {
   var area = req.params.area;
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
-  db.collection('vendor').find({
+  db.collection('vendors').find({
     'Sub-Cat': subcat,
     'night': false,
     'Area': new RegExp('^' + area + '$', "i")
@@ -168,100 +168,100 @@ exports.listarea = function(req, res) {
   });
 }
 
-exports.addIndex = function(req, res) {
-  elastic.indexExists().then(function(exists) {
-    if (exists) {
-      return elastic.deleteIndex();
-    }
-  }).then(function() {
-    return elastic.initIndex().then(elastic.initMapping).then(function() {
-      var promises = [{
-        "Area": "Gurgaon Badshahpur",
-        "Categories": "Utilities",
-        "Name": "Mukesh Communication",
-        "Remarks": "-",
-        "Open": "07:00 AM",
-        "Close": "10:00 PM",
-        "Multi": "-",
-        "Address": "Near 171,  Shahpur Jat",
-        "Others": "mobile recharge,  mobile accessories,  mobile repair,  sim cards",
-        "Image": "https://s3-ap-southeast-1.amazonaws.com/chiblee/Mukesh communication28.3877077.jpg",
-        "Type": "Mobile Shop",
-        "Time": "2016-04-11 15:17:35.892",
-        "Upload Time": "2016-04-13T12:20:15.170488",
-        "Colour Comment": 0,
-        "status": "live",
-        "Username": "Shivam",
-        "Count": 0,
-        "location": [
-          28.3877077,
-          77.0515903
-        ],
-        "id": 1,
-        "LAT": 28.3877077,
-        "LON": 77.0515903,
-        "Sub-Cat": "Mobile Shop",
-        "Home": "No",
-        "Contact": "-",
-        "tags": "mobile recharge,  mobile accessories,  mobile repair,  sim cards",
-        "night": false
-      }].map(function(doc) {
-        return elastic.addDocument({
-          Name: doc.Name,
-          Type: doc.Type,
-          metadata: {
-            contentTime: Date.now()
-          }
-        });
-      });
-      return Promise.all(promises);
-    });
-  });
-}
-
-exports.searchbyinput = function(req, res) {
-
-  var inp = req.params.input;
-  var lat = req.params.lat;
-  var lon = req.params.lon;
-  var page = req.params.page;
-  var loc = [parseFloat(lat), parseFloat(lon)]
-  elastic.getSuggestions({
-    index: 'chiblee',
-    size: 10,
-    from: 10 * (page - 1),
-    body: {
-      query: {
-        filtered: {
-          query: {
-            multi_match: {
-              "query": inp,
-              "fields": ["Name", "Type"],
-              "type": "phrase_prefix"
-            }
-          },
-          filter: {
-            "query": {
-              "match": {
-                "area": 'Gurgaon Badshahpur'
-              }
-            }
-          }
-        }
-      }
-    }
-  }).then(function(resp) {
-    res.json({
-      error: false,
-      data: resp
-    });
-  }, function(err) {
-    return res.status(400).send({
-      message: errorHandler
-        .getErrorMessage(err)
-    });
-  });
-}
+// exports.addIndex = function(req, res) {
+//   elastic.indexExists().then(function(exists) {
+//     if (exists) {
+//       return elastic.deleteIndex();
+//     }
+//   }).then(function() {
+//     return elastic.initIndex().then(elastic.initMapping).then(function() {
+//       var promises = [{
+//         "Area": "Gurgaon Badshahpur",
+//         "Categories": "Utilities",
+//         "Name": "Mukesh Communication",
+//         "Remarks": "-",
+//         "Open": "07:00 AM",
+//         "Close": "10:00 PM",
+//         "Multi": "-",
+//         "Address": "Near 171,  Shahpur Jat",
+//         "Others": "mobile recharge,  mobile accessories,  mobile repair,  sim cards",
+//         "Image": "https://s3-ap-southeast-1.amazonaws.com/chiblee/Mukesh communication28.3877077.jpg",
+//         "Type": "Mobile Shop",
+//         "Time": "2016-04-11 15:17:35.892",
+//         "Upload Time": "2016-04-13T12:20:15.170488",
+//         "Colour Comment": 0,
+//         "status": "live",
+//         "Username": "Shivam",
+//         "Count": 0,
+//         "location": [
+//           28.3877077,
+//           77.0515903
+//         ],
+//         "id": 1,
+//         "LAT": 28.3877077,
+//         "LON": 77.0515903,
+//         "Sub-Cat": "Mobile Shop",
+//         "Home": "No",
+//         "Contact": "-",
+//         "tags": "mobile recharge,  mobile accessories,  mobile repair,  sim cards",
+//         "night": false
+//       }].map(function(doc) {
+//         return elastic.addDocument({
+//           Name: doc.Name,
+//           Type: doc.Type,
+//           metadata: {
+//             contentTime: Date.now()
+//           }
+//         });
+//       });
+//       return Promise.all(promises);
+//     });
+//   });
+// }
+//
+// exports.searchbyinput = function(req, res) {
+//
+//   var inp = req.params.input;
+//   var lat = req.params.lat;
+//   var lon = req.params.lon;
+//   var page = req.params.page;
+//   var loc = [parseFloat(lat), parseFloat(lon)]
+//   elastic.getSuggestions({
+//     index: 'chiblee',
+//     size: 10,
+//     from: 10 * (page - 1),
+//     body: {
+//       query: {
+//         filtered: {
+//           query: {
+//             multi_match: {
+//               "query": inp,
+//               "fields": ["Name", "Type"],
+//               "type": "phrase_prefix"
+//             }
+//           },
+//           filter: {
+//             "query": {
+//               "match": {
+//                 "area": 'Gurgaon Badshahpur'
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }).then(function(resp) {
+//     res.json({
+//       error: false,
+//       data: resp
+//     });
+//   }, function(err) {
+//     return res.status(400).send({
+//       message: errorHandler
+//         .getErrorMessage(err)
+//     });
+//   });
+// }
 
 
 exports.googlelocationapi = function(req, res) {
