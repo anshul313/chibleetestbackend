@@ -44,6 +44,7 @@ exports.getvendor = function(req, res) {
     if (err)
       console.log('error : ', err);
     res.json({
+      error: false,
       data: data
     });
   });
