@@ -11,4 +11,6 @@ module.exports = function(app) {
 
   app.route('/v2/addvendor')
     .post(vendors.addvendor);
+  app.route('/v2/getvendor')
+    .post(vendors.getvendor);
 };

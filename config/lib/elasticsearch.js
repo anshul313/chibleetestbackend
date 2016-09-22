@@ -1,3 +1,5 @@
+// var elasticsearch = require('elasticsearch');
+//
 // var elasticClient = new elasticsearch.Client({
 //   host: 'localhost:9200',
 //   log: 'info'
@@ -34,13 +36,6 @@
 //   });
 // }
 // exports.indexExists = indexExists;
-//
-//
-// indexExists.then(function(exists) {
-//   if (exists) {
-//     return deleteIndex();
-//   }
-// }).then(initIndex);
 //
 // function initMapping() {
 //   return elasticClient.indices.putMapping({
@@ -82,3 +77,20 @@
 //   });
 // }
 // exports.addDocument = addDocument;
+//
+// function getSuggestions(input) {
+//   return elasticClient.suggest({
+//     index: indexName,
+//     type: "document",
+//     body: {
+//       docsuggest: {
+//         text: input,
+//         completion: {
+//           field: "suggest",
+//           fuzzy: true
+//         }
+//       }
+//     }
+//   })
+// }
+// exports.getSuggestions = getSuggestions;

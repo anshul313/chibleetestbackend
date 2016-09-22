@@ -26,7 +26,7 @@ var multer = require('multer');
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 // var elasticsearch = require('elasticsearch');
 // var es = elasticsearch.Client({
-//   hosts: '52.77.1.79:9200'
+//   hosts: 'localhost:9200'
 // });
 //
 // es.ping({
@@ -43,6 +43,37 @@ var multer = require('multer');
 //   }
 // });
 
+// var elastic = require('./elasticsearch');
+// elastic.indexExists().then(function(exists) {
+//   if (exists) {
+//     return elastic.deleteIndex();
+//   }
+// }).then(function() {
+//   return elastic.initIndex().then(elastic.initMapping).then(function() {
+//     //Add a few book titles for the autocomplete
+//     //elasticsearch offers a bulk functionality as well, but this is for a different time
+//     var promises = [
+//       'Thing Explainer',
+//       'The Internet Is a Playground',
+//       'The Pragmatic Programmer',
+//       'The Hitchhikers Guide to the Galaxy',
+//       'Trial of the Clone',
+//       'All Quiet on the Western Front',
+//       'The Animal Farm',
+//       'The Circle'
+//     ].map(function(bookTitle) {
+//       return elastic.addDocument({
+//         title: bookTitle,
+//         content: bookTitle + " content!",
+//         metadata: {
+//           titleLength: bookTitle.length
+//         }
+//       });
+//     });
+//     return Promise.all(promises);
+//   });
+// });
+
 exports.login = function(req, res) {
 
   user.findOne({
@@ -56,6 +87,7 @@ exports.login = function(req, res) {
       });
       return SendResponse(res);
     } else if (data) {
+      console.log(data);
       res.json({
         error: false,
         data: data.authToken
@@ -122,6 +154,7 @@ exports.subcategory = function(req, res) {
       subCategory: 1,
       _id: 0
     }).toArray(function(err, docs) {
+      console.log(docs);
       if (err) {
         res.json({
           error: true,
@@ -232,9 +265,9 @@ exports.listarea = function(req, res) {
 // }
 //
 exports.searchbyarea = function(req, res) {
-  // var inp = req.params.input;
-  // var area = req.params.area;
-  // var page = req.params.page;
+  var inp = req.params.input;
+  var area = req.params.area;
+  var page = req.params.page;
   // es.search({
   //   index: 'chiblee',
   //   size: 10,
@@ -260,6 +293,7 @@ exports.searchbyarea = function(req, res) {
   //     }
   //   }
   // }).then(function(resp) {
+  //   console.log(resp);
   //   res.json({
   //     error: false,
   //     data: resp

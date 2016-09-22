@@ -22,11 +22,33 @@ var fs = require('fs');
 var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
+var MongoClient = require("mongodb").MongoClient;
 
-var elasticsearch = require('elasticsearch');
-var es = elasticsearch.Client({
-  hosts: '52.77.1.79:9200'
-});
+// var elasticsearch = require('elasticsearch');
+// var es = elasticsearch.Client({
+//   hosts: '52.77.1.79:9200'
+// });
+
+exports.getvendor = function(req, res) {
+  console.log('start ......');
+  vendor.find({
+    coords: {
+      $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
+      $minDistance: 0,
+      $maxDistance: req.body.radius * 1000,
+    },
+    category: req.body.cat,
+    subCategory: req.body.subcat
+
+  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
+    if (err)
+      console.log('error : ', err);
+    res.json({
+      data: data
+    });
+  });
+}
+
 
 exports.addvendor = function(req, res) {
   console.log('add vendor');
