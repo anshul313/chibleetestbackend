@@ -12,22 +12,22 @@ module.exports = function(app) {
   app.route('/v2/login')
     .post(login.login);
 
-  app.route('/v2/category').all(util.userAuthenticate)
+  app.route('/v2/category')
     .get(login.category);
 
-  app.route('/v2/subcategory/:category').all(util.userAuthenticate)
+  app.route('/v2/subcategory/:category')
     .get(login.subcategory);
 
-  app.route('/v2/listarea/:subcat/:area/:page').all(util.userAuthenticate)
+  app.route('/v2/listarea/:subcat/:area/:page')
     .get(login.listarea);
 
-  app.route('/v2/areas').all(util.userAuthenticate)
+  app.route('/v2/areas')
     .get(login.areas);
   // Finish by binding the article middleware
-  app.route('/v2/googlelocationapi').all(util.userAuthenticate)
+  app.route('/v2/googlelocationapi')
     .post(login.googlelocationapi);
 
-  app.route('/v2/search/:area/:input/:page').all(util.userAuthenticate)
+  app.route('/v2/search/:area/:input/:page')
     .get(login.searchbyarea);
 
 

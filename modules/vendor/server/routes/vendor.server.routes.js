@@ -18,9 +18,9 @@ module.exports = function(app) {
     .get(vendors.getelasticvendor);
   app.route('/v2/addcomment').all(util.userAuthenticate)
     .post(vendors.addcomment);
-  app.route('/v2/getcomments/:vendorId').all(util.userAuthenticate)
+  app.route('/v2/getcomments/:vendorId')
     .get(vendors.getcomments);
-  app.route('/v2/getvendorsbyrating').all(util.userAuthenticate)
+  app.route('/v2/getvendorsbyrating')
     .get(vendors.getVendorsByRating);
   app.route('/v2/getelasticsearchbylatlng/:input/:lat/:lon/:page')
     .get(vendors.getelasticsearchbylatlng);
