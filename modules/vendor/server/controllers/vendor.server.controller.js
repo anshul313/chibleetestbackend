@@ -461,10 +461,7 @@ exports.addNewVendor = function(req, res) {
     "home": req.query.vendor_home,
     'uploadTime': Date.now(),
     "status": "Pending",
-    "type": req.query.vendor_type,
-    landMark,
-
-
+    "type": req.query.vendor_type
   });
 
   var storage = multer.diskStorage({
