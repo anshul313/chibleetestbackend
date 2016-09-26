@@ -11,7 +11,7 @@ var path = require('path'),
   comment = mongoose.model('vendorcomments'),
   errorHandler = require(path.resolve(
     './modules/core/server/controllers/errors.server.controller')),
-  _ = require('underscore'), // npm install underscore to install
+  _ = require('lodash'), // npm install underscore to install
   app = require('../../../../config/lib/app.js'),
   db = app.db(),
   async = require('async');
@@ -26,6 +26,7 @@ var multer = require('multer');
 var MongoClient = require("mongodb").MongoClient;
 var ObjectID = require('mongodb').ObjectID;
 var moment = require('moment');
+var async = require("async");
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 
@@ -54,8 +55,9 @@ client.ping({
 //   hosts: '52.77.1.79:9200'
 // });
 
-exports.getvendor = function(req, res) {
-  console.log('start ......');
+exports.getvendors = function(req, res) {
+  var finalresult = [];
+  var asyncTasks = [];
   vendor.find({
     coords: {
       $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
@@ -65,52 +67,91 @@ exports.getvendor = function(req, res) {
     category: req.body.cat,
     subCategory: req.body.subcat
   }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
-    if (err)
-      console.log('error : ', err);
-    res.json({
-      error: false,
-      data: data
+    // console.log('Data : ', data);
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var vendorId = doc['_id'].toString();
+        comment.find({
+          vendorId: vendorId
+        }, function(err, result) {
+          if (err) {
+            return res.status(400).send({
+              message: errorHandler
+                .getErrorMessage(
+                  err)
+            });
+          }
+          var totalRating = 0;
+          for (var i = 0; i < result.length; i++)
+            totalRating += result[i].commentRating;
+          if (totalRating > 0)
+            totalRating = totalRating / result.length;
+          var obj = new Object({
+            _id: doc['_id'],
+            latitude: doc['latitude'],
+            longitude: doc['longitude'],
+            coords: doc['coords'],
+            others: doc['others'],
+            multiTime: doc['multiTime'],
+            image: doc['image'],
+            closingTiming: doc['closingTiming'],
+            openingTiming: doc['openingTiming'],
+            area: doc['area'],
+            address: doc['address'],
+            subCategory: doc['subCategory'],
+            category: doc['category'],
+            contact: doc['contact'],
+            name: doc['name'],
+            homeDelivery: doc['homeDelivery'],
+            tags: doc['tags'],
+            saveTime: doc['saveTime'],
+            rating: totalRating
+          });
+          finalresult.push(obj);
+          callback(err, obj);
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalresult
+      });
     });
   });
 }
 
 exports.getelasticsearchbylatlng = function(req, res) {
-  var inp = req.params.input;
-  var lat = req.params.lat;
-  var lon = req.params.lon;
-  var page = req.params.page;
-  client.search({
-    index: 'cleanvendors',
-    type: 'Document',
-    size: 10,
-    from: 10 * (page - 1),
-    body: {
+  MongoClient.connect('mongodb://localhost:27017/chiblee', function(err, db1) {
+    console.log(db1);
+    db1.collection('cleanvendor').find({
+      geoNear: {
+        type: "Point",
+        coordinates: [77.15911, 28.7197545]
+      },
+      spherical: true,
       query: {
-        filtered: {
-          query: {
-            multi_match: {
-              "query": inp,
-              "fields": ["category"],
-              "type": "phrase_prefix"
-            }
-          },
-          filter: {
-            geo_distance: {
-              distance: "5km",
-              coords: [
-                77.2823415,
-                28.6713119
-              ]
-            }
-          }
-        }
-
+        category: "Food"
       }
-    }
-  }).then(function(resp) {
-    console.log('Response : ', resp);
-  }, function(err) {
-    console.log('Error : ', err);
+    }).toArray(function(err, result) {
+      if (err)
+        console.log('error : ', err);
+      console.log('result : ', result);
+    });
   });
 }
 
@@ -322,6 +363,7 @@ exports.addvendor = function(req, res) {
 exports.addcomment = function(req, res) {
   var vendorId = new ObjectID(req.body.vendorId);
   var milliseconds = (new Date).getTime();
+  milliseconds = milliseconds + 19800000;
   var newcomment = {
     commentText: req.body.commentText,
     commentRating: req.body.commentRating,
@@ -354,6 +396,8 @@ exports.addcomment = function(req, res) {
 }
 
 exports.getcomments = function(req, res) {
+  var asyncTasks = [];
+  var finalResult = [];
   var vendorId = new ObjectID(req.params.vendorId)
   comment.find({
     vendorId: vendorId
@@ -368,16 +412,53 @@ exports.getcomments = function(req, res) {
     var totalRating = 0;
     for (var i = 0; i < result.length; i++)
       totalRating += result[i].commentRating;
-    totalRating = totalRating / result.length;
-    if (totalRating == null)
-      totalRating = 0;
-    res.json({
-      error: false,
-      data: {
-        result: result,
-        totalRating: totalRating
-      }
+    if (totalRating > 0)
+      totalRating = totalRating / result.length;
+    result.forEach(function(item) {
+      asyncTasks.push(function(callback) {
+        var now = (new Date).getTime();
+        var then = item.commentTime;
+        var diff = moment(moment(now).diff(then)).format(
+          'DD:HH:mm:ss');
+        var date = diff.split(':');
+        var day = 0;
+        if (date[0] > 1)
+          day = date[0];
+        var hours = 0;
+        if (date[1] > 0)
+          hours = date[1];
+        var minutes = 0;
+        if (date[2] > 0)
+          minutes = date[2];
+        var second = 0;
+        if (date[3] > 0)
+          second = date[3];
+        var obj = new Object({
+          _id: item['_id'],
+          commentText: item['commentText'],
+          commentUserId: item['commentUserId'],
+          commentRating: item['commentRating'],
+          vendorId: item['vendorId'],
+          commentUserName: item['commentUserName'],
+          day: day,
+          hours: hours,
+          minutes: minutes,
+          second: second
+        });
+        finalResult.push(obj)
+        callback();
+      });
     });
+    async.parallel(asyncTasks, function() {
+      res.json({
+        error: false,
+        data: {
+          result: finalResult,
+          totalRating: totalRating
+        }
+      });
+    });
+
   });
 }
 
@@ -393,7 +474,7 @@ exports.getVendorsByRating = function(req, res) {
     $group: {
       "_id": "$vendorId",
       "commentRating": {
-        $sum: '$commentRating'
+        $avg: '$commentRating'
       },
       count: {
         $sum: 1

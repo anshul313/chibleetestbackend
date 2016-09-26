@@ -13,7 +13,7 @@ module.exports = function(app) {
   app.route('/v2/addvendor').all(util.userAuthenticate)
     .post(vendors.addvendor);
   app.route('/v2/getvendor').all(util.userAuthenticate)
-    .post(vendors.getvendor);
+    .post(vendors.getvendors);
   app.route('/v2/getelasticvendor/:input/:area/:page').all(util.userAuthenticate)
     .get(vendors.getelasticvendor);
   app.route('/v2/addcomment').all(util.userAuthenticate)
@@ -22,6 +22,6 @@ module.exports = function(app) {
     .get(vendors.getcomments);
   app.route('/v2/getvendorsbyrating').all(util.userAuthenticate)
     .get(vendors.getVendorsByRating);
-  app.route('/v2/getelasticsearchbylatlng/:input/:lat/:lon/:page').all(util.userAuthenticate)
+  app.route('/v2/getelasticsearchbylatlng/:input/:lat/:lon/:page')
     .get(vendors.getelasticsearchbylatlng);
 };

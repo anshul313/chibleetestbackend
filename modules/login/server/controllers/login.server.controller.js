@@ -24,55 +24,6 @@ var crypto = require('crypto');
 var multer = require('multer');
 
 var elastic = require('../../../../config/lib/elasticsearch.js');
-// var elasticsearch = require('elasticsearch');
-// var es = elasticsearch.Client({
-//   hosts: 'localhost:9200'
-// });
-//
-// es.ping({
-//   // ping usually has a 3000ms timeout
-//   requestTimeout: Infinity,
-//
-//   // undocumented params are appended to the query string
-//   hello: "elasticsearch!"
-// }, function(error) {
-//   if (error) {
-//     console.trace('elasticsearch cluster is down!');
-//   } else {
-//     console.log('All is well');
-//   }
-// });
-
-// var elastic = require('./elasticsearch');
-// elastic.indexExists().then(function(exists) {
-//   if (exists) {
-//     return elastic.deleteIndex();
-//   }
-// }).then(function() {
-//   return elastic.initIndex().then(elastic.initMapping).then(function() {
-//     //Add a few book titles for the autocomplete
-//     //elasticsearch offers a bulk functionality as well, but this is for a different time
-//     var promises = [
-//       'Thing Explainer',
-//       'The Internet Is a Playground',
-//       'The Pragmatic Programmer',
-//       'The Hitchhikers Guide to the Galaxy',
-//       'Trial of the Clone',
-//       'All Quiet on the Western Front',
-//       'The Animal Farm',
-//       'The Circle'
-//     ].map(function(bookTitle) {
-//       return elastic.addDocument({
-//         title: bookTitle,
-//         content: bookTitle + " content!",
-//         metadata: {
-//           titleLength: bookTitle.length
-//         }
-//       });
-//     });
-//     return Promise.all(promises);
-//   });
-// });
 
 exports.login = function(req, res) {
 
@@ -87,7 +38,7 @@ exports.login = function(req, res) {
       });
       return SendResponse(res);
     } else if (data) {
-      console.log(data);
+      // console.log(data);
       res.json({
         error: false,
         data: data.authToken
@@ -154,7 +105,7 @@ exports.subcategory = function(req, res) {
       subCategory: 1,
       _id: 0
     }).toArray(function(err, docs) {
-      console.log(docs);
+      // console.log(docs);
       if (err) {
         res.json({
           error: true,
