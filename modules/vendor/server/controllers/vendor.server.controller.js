@@ -327,7 +327,7 @@ exports.addcomment = function(req, res) {
     commentUserId: req.user._id,
     vendorId: vendorId,
     commentUserName: req.user.name,
-    commentTime: parseInt(moment().format('x'))
+    commentTime: (new Date).getTime()
   };
 
   comment.update({
