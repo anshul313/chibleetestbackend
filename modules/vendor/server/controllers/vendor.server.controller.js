@@ -352,6 +352,7 @@ exports.addcomment = function(req, res) {
 
 exports.getcomments = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId)
+  console.log('vendorId : ', vendorId);
   comment.find({
     vendorId: vendorId
   }, function(err, result) {
