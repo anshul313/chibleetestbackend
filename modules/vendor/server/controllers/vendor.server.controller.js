@@ -25,6 +25,7 @@ var crypto = require('crypto');
 var multer = require('multer');
 var MongoClient = require("mongodb").MongoClient;
 var ObjectID = require('mongodb').ObjectID;
+var moment = require('moment');
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 
@@ -319,13 +320,14 @@ exports.addvendor = function(req, res) {
 }
 
 exports.addcomment = function(req, res) {
-  console.log(req.user);
-  var vendorId = new ObjectID(req.body.vendorId)
+  var vendorId = new ObjectID(req.body.vendorId);
   var newcomment = {
     commentText: req.body.commentText,
     commentRating: req.body.commentRating,
     commentUserId: req.user._id,
-    vendorId: vendorId
+    vendorId: vendorId,
+    commentUserName: req.user.name,
+    commentTime: parseInt(moment().format('x'))
   };
 
   comment.update({
@@ -352,7 +354,6 @@ exports.addcomment = function(req, res) {
 
 exports.getcomments = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId)
-  console.log('vendorId : ', vendorId);
   comment.find({
     vendorId: vendorId
   }, function(err, result) {
@@ -367,6 +368,8 @@ exports.getcomments = function(req, res) {
     for (var i = 0; i < result.length; i++)
       totalRating += result[i].commentRating;
     totalRating = totalRating / result.length;
+    if (totalRating == null)
+      totalRating = 0;
     res.json({
       error: false,
       data: {
@@ -458,7 +461,10 @@ exports.addNewVendor = function(req, res) {
     "home": req.query.vendor_home,
     'uploadTime': Date.now(),
     "status": "Pending",
-    "type": req.query.vendor_type
+    "type": req.query.vendor_type,
+    landMark,
+
+
   });
 
   var storage = multer.diskStorage({

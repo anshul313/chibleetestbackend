@@ -20,6 +20,13 @@ var commentSchema = new Schema({
   },
   vendorId: {
     type: Schema.ObjectId
+  },
+  commentTime: {
+    type: Date,
+    default: Date.now()
+  },
+  commentUserName: {
+    type: String
   }
 });
 
