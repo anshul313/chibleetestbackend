@@ -321,7 +321,7 @@ exports.addvendor = function(req, res) {
 
 exports.addcomment = function(req, res) {
   var vendorId = new ObjectID(req.body.vendorId);
-  var milliseconds = Math.floor((new Date).getTime() / 1000);
+  var milliseconds = (new Date).getTime();
   var newcomment = {
     commentText: req.body.commentText,
     commentRating: req.body.commentRating,
