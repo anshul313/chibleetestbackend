@@ -8,6 +8,21 @@ var mongoose = require('mongoose'),
 require('mongoose-double')(mongoose);
 var SchemaTypes = mongoose.Schema.Types;
 
+var commentSchema = new Schema({
+  commentText: {
+    type: String
+  },
+  commentRating: {
+    type: Number
+  },
+  commentUserId: {
+    type: Schema.ObjectId
+  },
+  vendorId: {
+    type: Schema.ObjectId
+  }
+});
+
 var vendorSchema = new Schema({
   name: {
     type: String
@@ -62,18 +77,10 @@ var vendorSchema = new Schema({
   homeDelivery: {
     type: Boolean,
     default: false
-  },
-  remarks: {
-    type: String
-  },
-  bookmark: {
-    type: Boolean,
-    default: false
-  },
-  rating: {
-    type: Number
   }
 }, {
   strict: false
 });
+
 module.exports = mongoose.model('cleanvendor', vendorSchema);
+module.exports = mongoose.model('vendorcomments', commentSchema);

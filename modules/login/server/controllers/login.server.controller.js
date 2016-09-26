@@ -23,7 +23,7 @@ var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
 
-// var elastic = require('../../../../config/lib/elasticsearch.js');
+var elastic = require('../../../../config/lib/elasticsearch.js');
 // var elasticsearch = require('elasticsearch');
 // var es = elasticsearch.Client({
 //   hosts: 'localhost:9200'
@@ -212,6 +212,7 @@ exports.listarea = function(req, res) {
     }
   });
 }
+
 
 // exports.addIndex = function(req, res) {
 //   elastic.indexExists().then(function(exists) {
