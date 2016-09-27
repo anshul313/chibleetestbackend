@@ -543,30 +543,33 @@ exports.getVendorsByRating = function(req, res) {
           vendor.findOne({
             _id: verdorID
           }, function(err, data) {
-
-            var obj = new Object({
-              _id: data['_id'],
-              latitude: data['latitude'],
-              longitude: data['longitude'],
-              coords: data['coords'],
-              others: data['others'],
-              multiTime: data['multiTime'],
-              image: data['image'],
-              closingTiming: data['closingTiming'],
-              openingTiming: data['openingTiming'],
-              area: data['area'],
-              address: data['address'],
-              subCategory: data['subCategory'],
-              category: data['category'],
-              contact: data['contact'],
-              name: data['name'],
-              homeDelivery: data['homeDelivery'],
-              tags: data['tags'],
-              saveTime: data['saveTime'],
-              rating: totalRating
-            });
-            finalresult.push(obj);
-            callback(err, obj);
+            if (data) {
+              var obj = new Object({
+                _id: data['_id'],
+                latitude: data['latitude'],
+                longitude: data['longitude'],
+                coords: data['coords'],
+                others: data['others'],
+                multiTime: data['multiTime'],
+                image: data['image'],
+                closingTiming: data['closingTiming'],
+                openingTiming: data['openingTiming'],
+                area: data['area'],
+                address: data['address'],
+                subCategory: data['subCategory'],
+                category: data['category'],
+                contact: data['contact'],
+                name: data['name'],
+                homeDelivery: data['homeDelivery'],
+                tags: data['tags'],
+                saveTime: data['saveTime'],
+                rating: totalRating
+              });
+              finalresult.push(obj);
+              callback(err, obj);
+            } else {
+              callback();
+            }
           });
         });
       });
@@ -579,7 +582,6 @@ exports.getVendorsByRating = function(req, res) {
               err)
         });
       }
-      _.without(finalresult, null, '', ' ', '  ');
       res.json({
         error: false,
         data: finalresult
@@ -769,95 +771,95 @@ exports.getVendorsByOpen = function(req, res) {
 
 exports.addBookMark = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId);
-  var milliseconds = (new Date).getTime();
-  milliseconds = milliseconds + 19800000;
-  var newbookmark = {
-    bookmarkUserId: req.user._id,
-    bookmarkVendorId: vendorId,
-    bookmarkUserName: req.user.name,
-    bookmarkTime: milliseconds
-  };
-  bookmarkUsers.update({
-    bookmarkUserId: req.user._id,
-    bookmarkVendorId: vendorId
-  }, {
-    $set: newbookmark
-  }, {
-    upsert: true
-  }, function(err, result) {
-    if (err) {
-      return res.status(400).send({
-        error: true,
-        data: err
-      });
-    }
-    vendor.update({
-      _id: vendorId
+  if (req.params.status == 1) {
+    var milliseconds = (new Date).getTime();
+    milliseconds = milliseconds + 19800000;
+    var newbookmark = {
+      bookmarkUserId: req.user._id,
+      bookmarkVendorId: vendorId,
+      bookmarkUserName: req.user.name,
+      bookmarkTime: milliseconds
+    };
+    bookmarkUsers.update({
+      bookmarkUserId: req.user._id,
+      bookmarkVendorId: vendorId
     }, {
-      $set: {
-        bookmark: true
-      }
+      $set: newbookmark
+    }, {
+      upsert: true
     }, function(err, result) {
-      res.json({
-        error: false,
-        data: 'successfully inserted'
+      if (err) {
+        return res.status(400).send({
+          error: true,
+          data: err
+        });
+      }
+      vendor.update({
+        _id: vendorId
+      }, {
+        $set: {
+          bookmark: true
+        }
+      }, function(err, result) {
+        res.json({
+          error: false,
+          data: 'successfully inserted'
+        });
       });
     });
-  });
+  } else {
+    bookmarkUsers.remove({
+      bookmarkUserId: req.user._id,
+      bookmarkVendorId: vendorId
+    }, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          error: true,
+          data: err
+        });
+      }
+      vendor.update({
+        _id: vendorId
+      }, {
+        $set: {
+          bookmark: false
+        }
+      }, function(err, result) {
+        res.json({
+          error: false,
+          data: 'successfully deleted'
+        });
+      });
+    });
+  }
 }
 
-exports.deleteBookMark = function(req, res) {
-  var vendorId = new ObjectID(req.params.vendorId);
-  bookmarkUsers.remove({
-    bookmarkUserId: req.user._id,
-    bookmarkVendorId: vendorId
-  }, function(err, result) {
-    if (err) {
-      return res.status(400).send({
-        error: true,
-        data: err
-      });
-    }
-    vendor.update({
-      _id: vendorId
-    }, {
-      $set: {
-        bookmark: false
-      }
-    }, function(err, result) {
-      res.json({
-        error: false,
-        data: 'successfully deleted'
-      });
-    });
-  });
-}
-
-exports.deleteBookMark = function(req, res) {
-  bookmarkUsers.find({
-    bookmarkUserId: req.user._id,
-    bookmarkVendorId: vendorId
-  }, function(err, result) {
-    if (err) {
-      return res.status(400).send({
-        error: true,
-        data: err
-      });
-    }
-    vendor.update({
-      _id: vendorId
-    }, {
-      $set: {
-        bookmark: false
-      }
-    }, function(err, result) {
-      res.json({
-        error: false,
-        data: 'successfully deleted'
-      });
-    });
-  });
-}
+// exports.deleteBookMark = function(req, res) {
+//   var vendorId = new ObjectID(req.params.vendorId);
+//   bookmarkUsers.remove({
+//     bookmarkUserId: req.user._id,
+//     bookmarkVendorId: vendorId
+//   }, function(err, result) {
+//     if (err) {
+//       return res.status(400).send({
+//         error: true,
+//         data: err
+//       });
+//     }
+//     vendor.update({
+//       _id: vendorId
+//     }, {
+//       $set: {
+//         bookmark: false
+//       }
+//     }, function(err, result) {
+//       res.json({
+//         error: false,
+//         data: 'successfully deleted'
+//       });
+//     });
+//   });
+// }
 
 exports.getBookMark = function(req, res) {}
 

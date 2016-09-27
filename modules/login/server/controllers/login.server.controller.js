@@ -139,30 +139,6 @@ exports.areas = function(req, res) {
   });
 }
 
-exports.vendorByArea = function(req, res) {
-  var subcat = req.params.subcat;
-  var area = req.params.area;
-  var limit = 10;
-  var skip = limit * parseInt(req.params.page);
-  db.collection('vendors').find({
-    'Sub-Cat': subcat,
-    'night': false,
-    'Area': new RegExp('^' + area + '$', "i")
-  }).skip(skip).limit(limit).toArray(function(err, docs) {
-    if (err) {
-      return res.status(400).send({
-        message: errorHandler
-          .getErrorMessage(
-            err)
-      });
-    } else {
-      res.json({
-        error: false,
-        data: docs
-      });
-    }
-  });
-}
 
 
 // exports.addIndex = function(req, res) {

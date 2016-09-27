@@ -28,10 +28,10 @@ module.exports = function(app) {
     .get(vendors.getelasticsearchbylatlng);
   app.route('/v2/getVendorsByHomeDelivery').all(util.userAuthenticate)
     .post(vendors.getVendorsByHomeDelivery);
-  app.route('/v2/addbookmark/:vendorId').all(util.userAuthenticate)
+  app.route('/v2/addbookmark/:vendorId/:status').all(util.userAuthenticate)
     .get(vendors.addBookMark);
-  app.route('/v2/deletebookmark/:vendorId').all(util.userAuthenticate)
-    .get(vendors.deleteBookMark);
+  // app.route('/v2/deletebookmark/:vendorId').all(util.userAuthenticate)
+  //   .get(vendors.deleteBookMark);
   app.route('/v2/getbookmark/:page').all(util.userAuthenticate)
     .get(vendors.getBookMark);
 };
