@@ -24,4 +24,6 @@ module.exports = function(app) {
     .get(vendors.getVendorsByRating);
   app.route('/v2/getelasticsearchbylatlng/:input/:lat/:lon/:page')
     .get(vendors.getelasticsearchbylatlng);
+  app.route('/v2/getVendorsByHomeDelivery').all(util.userAuthenticate)
+    .post(vendors.getVendorsByHomeDelivery);
 };

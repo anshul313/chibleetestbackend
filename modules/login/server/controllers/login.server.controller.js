@@ -139,7 +139,7 @@ exports.areas = function(req, res) {
   });
 }
 
-exports.listarea = function(req, res) {
+exports.vendorByArea = function(req, res) {
   var subcat = req.params.subcat;
   var area = req.params.area;
   var limit = 10;

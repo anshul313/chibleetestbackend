@@ -157,7 +157,6 @@ exports.getelasticsearchbylatlng = function(req, res) {
 
 
 exports.getelasticvendor = function(req, res) {
-
   var inp = req.params.input;
   var area = req.params.area;
   var page = req.params.page;
@@ -514,7 +513,182 @@ exports.getVendorsByRating = function(req, res) {
   });
 }
 
+exports.getVendorsByHomeDelivery = function(req, res) {
+  var vendorIds = [];
+  var finalresult = [];
+  var asyncTasks = [];
+  vendor.find({
+    coords: {
+      $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
+      $minDistance: 0,
+      $maxDistance: req.body.radius,
+    },
+    "homeDelivery": true,
+  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
+    // console.log('Data : ', data);
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var vendorId = doc['_id'].toString();
+        comment.find({
+          vendorId: vendorId
+        }, function(err, result) {
+          if (err) {
+            return res.status(400).send({
+              message: errorHandler
+                .getErrorMessage(
+                  err)
+            });
+          }
+          var totalRating = 0;
+          for (var i = 0; i < result.length; i++)
+            totalRating += result[i].commentRating;
+          if (totalRating > 0)
+            totalRating = totalRating / result.length;
+          var obj = new Object({
+            _id: doc['_id'],
+            latitude: doc['latitude'],
+            longitude: doc['longitude'],
+            coords: doc['coords'],
+            others: doc['others'],
+            multiTime: doc['multiTime'],
+            image: doc['image'],
+            closingTiming: doc['closingTiming'],
+            openingTiming: doc['openingTiming'],
+            area: doc['area'],
+            address: doc['address'],
+            subCategory: doc['subCategory'],
+            category: doc['category'],
+            contact: doc['contact'],
+            name: doc['name'],
+            homeDelivery: doc['homeDelivery'],
+            tags: doc['tags'],
+            saveTime: doc['saveTime'],
+            rating: totalRating
+          });
+          finalresult.push(obj);
+          callback(err, obj);
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalresult
+      });
+    });
+  });
+}
 
+exports.getVendorsByOpen = function(req, res) {
+  var d = new Date();
+  d.setHours(0, 0, 0, 0);
+  console.log(+d);
+  var midnighttime = (+d);
+  var now = (new Date).getTime();
+  var diff = moment(moment(now).diff(then)).format(
+    'HH:mm:ss');
+  var date = diff.split(':');
+  var hours = 0;
+  if (date[0] > 0)
+    hours = date[0];
+  var minutes = 0;
+  if (date[1] > 0)
+    minutes = date[1];
+  var second = 0;
+  if (date[2] > 0)
+    second = date[2];
+  var vendorIds = [];
+  var finalresult = [];
+  var asyncTasks = [];
+  vendor.find({
+    coords: {
+      $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
+      $minDistance: 0,
+      $maxDistance: req.body.radius,
+    },
+    "homeDelivery": true,
+  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
+    // console.log('Data : ', data);
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var vendorId = doc['_id'].toString();
+        comment.find({
+          vendorId: vendorId
+        }, function(err, result) {
+          if (err) {
+            return res.status(400).send({
+              message: errorHandler
+                .getErrorMessage(
+                  err)
+            });
+          }
+          var totalRating = 0;
+          for (var i = 0; i < result.length; i++)
+            totalRating += result[i].commentRating;
+          if (totalRating > 0)
+            totalRating = totalRating / result.length;
+          var obj = new Object({
+            _id: doc['_id'],
+            latitude: doc['latitude'],
+            longitude: doc['longitude'],
+            coords: doc['coords'],
+            others: doc['others'],
+            multiTime: doc['multiTime'],
+            image: doc['image'],
+            closingTiming: doc['closingTiming'],
+            openingTiming: doc['openingTiming'],
+            area: doc['area'],
+            address: doc['address'],
+            subCategory: doc['subCategory'],
+            category: doc['category'],
+            contact: doc['contact'],
+            name: doc['name'],
+            homeDelivery: doc['homeDelivery'],
+            tags: doc['tags'],
+            saveTime: doc['saveTime'],
+            rating: totalRating
+          });
+          finalresult.push(obj);
+          callback(err, obj);
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalresult
+      });
+    });
+  });
+}
 
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
