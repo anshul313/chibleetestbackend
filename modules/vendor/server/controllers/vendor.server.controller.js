@@ -61,7 +61,7 @@ exports.getvendors = function(req, res) {
   var asyncTasks = [];
   vendor.find({
     coords: {
-      $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
+      $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
       $minDistance: 0,
       $maxDistance: req.body.radius,
     },
@@ -137,6 +137,8 @@ exports.getvendors = function(req, res) {
 }
 
 exports.vendorByArea = function(req, res) {
+  // console.log('subcategory : ', req.params.subcat);
+  // console.log('area : ', req.params.area);
   var subcat = req.params.subcat;
   var area = req.params.area;
   var limit = 10;
