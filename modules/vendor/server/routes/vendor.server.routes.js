@@ -18,6 +18,8 @@ module.exports = function(app) {
     .get(vendors.getelasticvendor);
   app.route('/v2/addcomment').all(util.userAuthenticate)
     .post(vendors.addcomment);
+  app.route('/v2/vendorbyarea/:subcat/:area/:page').all(util.userAuthenticate)
+    .get(vendors.vendorByArea);
   app.route('/v2/getcomments/:vendorId').all(util.userAuthenticate)
     .get(vendors.getcomments);
   app.route('/v2/getvendorsbyrating').all(util.userAuthenticate)
@@ -26,4 +28,8 @@ module.exports = function(app) {
     .get(vendors.getelasticsearchbylatlng);
   app.route('/v2/getVendorsByHomeDelivery').all(util.userAuthenticate)
     .post(vendors.getVendorsByHomeDelivery);
+  app.route('/v2/addbookmark/:vendorId').all(util.userAuthenticate)
+    .get(vendors.addBookMark);
+  app.route('/v2/deletebookmark/:vendorId').all(util.userAuthenticate)
+    .get(vendors.deleteBookMark);
 };

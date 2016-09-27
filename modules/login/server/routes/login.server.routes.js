@@ -18,9 +18,6 @@ module.exports = function(app) {
   app.route('/v2/subcategory/:category').all(util.userAuthenticate)
     .get(login.subcategory);
 
-  app.route('/v2/vendorbyarea/:subcat/:area/:page').all(util.userAuthenticate)
-    .get(login.vendorByArea);
-
   app.route('/v2/areas').all(util.userAuthenticate)
     .get(login.areas);
   // Finish by binding the article middleware

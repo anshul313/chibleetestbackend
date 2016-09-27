@@ -29,6 +29,21 @@ var commentSchema = new Schema({
   }
 });
 
+var bookmarkSchema = new Schema({
+  bookmarkUserId: {
+    type: Schema.ObjectId
+  },
+  bookmarkVendorId: {
+    type: Schema.ObjectId
+  },
+  bookmarkUserName: {
+    type: String
+  },
+  bookmarkTime: {
+    type: Number
+  }
+});
+
 var vendorSchema = new Schema({
   name: {
     type: String
@@ -83,10 +98,15 @@ var vendorSchema = new Schema({
   homeDelivery: {
     type: Boolean,
     default: false
+  },
+  bookmark: {
+    type: Boolean,
+    default: false
   }
 }, {
   strict: false
 });
 
+module.exports = mongoose.model('bookmarkUsers', bookmarkSchema);
 module.exports = mongoose.model('cleanvendor', vendorSchema);
 module.exports = mongoose.model('vendorcomments', commentSchema);

@@ -9,6 +9,7 @@ var path = require('path'),
   mongoose = require('mongoose'),
   vendor = mongoose.model('cleanvendor'),
   comment = mongoose.model('vendorcomments'),
+  bookmarkUsers = mongoose.model('bookmarkUsers'),
   errorHandler = require(path.resolve(
     './modules/core/server/controllers/errors.server.controller')),
   _ = require('lodash'), // npm install underscore to install
@@ -134,6 +135,32 @@ exports.getvendors = function(req, res) {
     });
   });
 }
+
+exports.vendorByArea = function(req, res) {
+  var subcat = req.params.subcat;
+  var area = req.params.area;
+  var limit = 10;
+  var skip = limit * parseInt(req.params.page);
+  db.collection('cleanvendor').find({
+    'Sub-Cat': subcat,
+    'night': false,
+    'Area': new RegExp('^' + area + '$', "i")
+  }).skip(skip).limit(limit).toArray(function(err, docs) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    } else {
+      res.json({
+        error: false,
+        data: docs
+      });
+    }
+  });
+}
+
 
 exports.getelasticsearchbylatlng = function(req, res) {
   db.collection('cleanvendor').find({
@@ -464,8 +491,8 @@ exports.getcomments = function(req, res) {
 }
 
 exports.getVendorsByRating = function(req, res) {
-  var vendorIds = [];
-  var i = 0;
+  var finalresult = [];
+  var asyncTasks = [];
   comment.aggregate([{
     "$match": {
       "category": req.body.category,
@@ -486,7 +513,6 @@ exports.getVendorsByRating = function(req, res) {
       commentRating: -1
     }
   }], function(err, docs) {
-    console.log('document : ', docs);
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -494,20 +520,68 @@ exports.getVendorsByRating = function(req, res) {
             err)
       });
     }
+
     docs.forEach(function(doc) {
-      i++;
-      var verdorID = new ObjectID(doc['_id']);
-      vendor.findOne({
-        _id: verdorID
-      }, function(err, data) {
-        console.log(data);
-        vendorIds.push(data);
-        if (vendorIds.length == i) {
-          res.json({
-            error: false,
-            data: vendorIds
+      asyncTasks.push(function(callback) {
+        var verdorID = new ObjectID(doc['_id']);
+        comment.find({
+          vendorId: verdorID
+        }, function(err, result) {
+          if (err) {
+            return res.status(400).send({
+              message: errorHandler
+                .getErrorMessage(
+                  err)
+            });
+          }
+          var totalRating = 0;
+          for (var i = 0; i < result.length; i++)
+            totalRating += result[i].commentRating;
+          if (totalRating > 0)
+            totalRating = totalRating / result.length;
+          vendor.findOne({
+            _id: verdorID
+          }, function(err, data) {
+
+            var obj = new Object({
+              _id: data['_id'],
+              latitude: data['latitude'],
+              longitude: data['longitude'],
+              coords: data['coords'],
+              others: data['others'],
+              multiTime: data['multiTime'],
+              image: data['image'],
+              closingTiming: data['closingTiming'],
+              openingTiming: data['openingTiming'],
+              area: data['area'],
+              address: data['address'],
+              subCategory: data['subCategory'],
+              category: data['category'],
+              contact: data['contact'],
+              name: data['name'],
+              homeDelivery: data['homeDelivery'],
+              tags: data['tags'],
+              saveTime: data['saveTime'],
+              rating: totalRating
+            });
+            finalresult.push(obj);
+            callback(err, obj);
           });
-        }
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      _.without(finalresult, null, '', ' ', '  ');
+      res.json({
+        error: false,
+        data: finalresult
       });
     });
   });
@@ -682,6 +756,7 @@ exports.getVendorsByOpen = function(req, res) {
               err)
         });
       }
+
       res.json({
         error: false,
         data: finalresult
@@ -689,6 +764,74 @@ exports.getVendorsByOpen = function(req, res) {
     });
   });
 }
+
+
+exports.addBookMark = function(req, res) {
+  var vendorId = new ObjectID(req.params.vendorId);
+  var milliseconds = (new Date).getTime();
+  milliseconds = milliseconds + 19800000;
+  var newbookmark = {
+    bookmarkUserId: req.user._id,
+    bookmarkVendorId: vendorId,
+    bookmarkUserName: req.user.name,
+    bookmarkTime: milliseconds
+  };
+  bookmarkUsers.update({
+    bookmarkUserId: req.user._id,
+    bookmarkVendorId: vendorId
+  }, {
+    $set: newbookmark
+  }, {
+    upsert: true
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        error: true,
+        data: err
+      });
+    }
+    vendor.update({
+      _id: vendorId
+    }, {
+      $set: {
+        bookmark: true
+      }
+    }, function(err, result) {
+      res.json({
+        error: false,
+        data: 'successfully inserted'
+      });
+    });
+  });
+}
+
+exports.deleteBookMark = function(req, res) {
+  var vendorId = new ObjectID(req.params.vendorId);
+  bookmarkUsers.remove({
+    bookmarkUserId: req.user._id,
+    bookmarkVendorId: vendorId
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        error: true,
+        data: err
+      });
+    }
+    vendor.update({
+      _id: vendorId
+    }, {
+      $set: {
+        bookmark: false
+      }
+    }, function(err, result) {
+      res.json({
+        error: false,
+        data: 'successfully deleted'
+      });
+    });
+  });
+}
+
 
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
