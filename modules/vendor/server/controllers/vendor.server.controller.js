@@ -136,22 +136,22 @@ exports.getvendors = function(req, res) {
 }
 
 exports.getelasticsearchbylatlng = function(req, res) {
-  MongoClient.connect('mongodb://localhost:27017/chiblee', function(err, db1) {
-    console.log(db1);
-    db1.collection('cleanvendor').find({
-      geoNear: {
-        type: "Point",
-        coordinates: [77.15911, 28.7197545]
-      },
-      spherical: true,
-      query: {
-        category: "Food"
+  db.collection('cleanvendor').find({
+    coords: {
+      $nearSphere: {
+        $geometry: {
+          type: "Point",
+          coordinates: [77.15911, 28.7197545]
+        },
+        $minDistance: 0,
+        $maxDistance: 5000,
+        distanceMultiplier: 3963.2
       }
-    }).toArray(function(err, result) {
-      if (err)
-        console.log('error : ', err);
-      console.log('result : ', result);
-    });
+    }
+  }).toArray(function(err, result) {
+    if (err)
+      console.log('error : ', err);
+    console.log('result : ', result);
   });
 }
 
@@ -422,6 +422,8 @@ exports.getcomments = function(req, res) {
           'DD:HH:mm:ss');
         var date = diff.split(':');
         var day = 0;
+        if (date[0] == 1)
+          day = 1;
         if (date[0] > 1)
           day = date[0];
         var hours = 0;
