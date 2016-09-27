@@ -141,11 +141,10 @@ exports.vendorByArea = function(req, res) {
   var area = req.params.area;
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
-  db.collection('cleanvendor').find({
-    'Sub-Cat': subcat,
-    'night': false,
-    'Area': new RegExp('^' + area + '$', "i")
-  }).skip(skip).limit(limit).toArray(function(err, docs) {
+  vendor.find({
+    'subCategory': subcat,
+    'area': new RegExp('^' + area + '$', "i")
+  }).skip(skip).limit(limit).exec(function(err, docs) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -832,6 +831,33 @@ exports.deleteBookMark = function(req, res) {
   });
 }
 
+exports.deleteBookMark = function(req, res) {
+  bookmarkUsers.find({
+    bookmarkUserId: req.user._id,
+    bookmarkVendorId: vendorId
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        error: true,
+        data: err
+      });
+    }
+    vendor.update({
+      _id: vendorId
+    }, {
+      $set: {
+        bookmark: false
+      }
+    }, function(err, result) {
+      res.json({
+        error: false,
+        data: 'successfully deleted'
+      });
+    });
+  });
+}
+
+exports.getBookMark = function(req, res) {}
 
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
