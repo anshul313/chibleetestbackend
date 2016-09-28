@@ -100,8 +100,8 @@ var vendorSchema = new Schema({
     default: false
   },
   bookmark: {
-    type: Boolean,
-    default: false
+    type: Number,
+    default: 0
   }
 }, {
   strict: false

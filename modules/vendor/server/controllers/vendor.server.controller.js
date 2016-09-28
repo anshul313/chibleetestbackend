@@ -78,45 +78,58 @@ exports.getvendors = function(req, res) {
     }
     data.forEach(function(doc) {
       asyncTasks.push(function(callback) {
+        var bookmark = 0;
         var vendorId = doc['_id'].toString();
-        comment.find({
-          vendorId: vendorId
-        }, function(err, result) {
-          if (err) {
-            return res.status(400).send({
-              message: errorHandler
-                .getErrorMessage(
-                  err)
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+            // var q = bookmarkvendorIds.indexOf(doc['_id'])
+            var obj = new Object({
+              _id: doc['_id'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              coords: doc['coords'],
+              others: doc['others'],
+              multiTime: doc['multiTime'],
+              image: doc['image'],
+              closingTiming: doc['closingTiming'],
+              openingTiming: doc['openingTiming'],
+              area: doc['area'],
+              address: doc['address'],
+              subCategory: doc['subCategory'],
+              category: doc['category'],
+              contact: doc['contact'],
+              name: doc['name'],
+              homeDelivery: doc['homeDelivery'],
+              tags: doc['tags'],
+              saveTime: doc['saveTime'],
+              rating: totalRating,
+              bookmark: bookmark
             });
-          }
-          var totalRating = 0;
-          for (var i = 0; i < result.length; i++)
-            totalRating += result[i].commentRating;
-          if (totalRating > 0)
-            totalRating = totalRating / result.length;
-          var obj = new Object({
-            _id: doc['_id'],
-            latitude: doc['latitude'],
-            longitude: doc['longitude'],
-            coords: doc['coords'],
-            others: doc['others'],
-            multiTime: doc['multiTime'],
-            image: doc['image'],
-            closingTiming: doc['closingTiming'],
-            openingTiming: doc['openingTiming'],
-            area: doc['area'],
-            address: doc['address'],
-            subCategory: doc['subCategory'],
-            category: doc['category'],
-            contact: doc['contact'],
-            name: doc['name'],
-            homeDelivery: doc['homeDelivery'],
-            tags: doc['tags'],
-            saveTime: doc['saveTime'],
-            rating: totalRating
+            finalresult.push(obj);
+            callback(err, obj);
           });
-          finalresult.push(obj);
-          callback(err, obj);
         });
       });
     });
@@ -139,6 +152,8 @@ exports.getvendors = function(req, res) {
 exports.vendorByArea = function(req, res) {
   // console.log('subcategory : ', req.params.subcat);
   // console.log('area : ', req.params.area);
+  var finalresult = [];
+  var asyncTasks = [];
   var subcat = req.params.subcat;
   var area = req.params.area;
   var limit = 10;
@@ -146,19 +161,84 @@ exports.vendorByArea = function(req, res) {
   vendor.find({
     'subCategory': subcat,
     'area': new RegExp('^' + area + '$', "i")
-  }).skip(skip).limit(limit).exec(function(err, docs) {
+  }).skip(skip).limit(limit).exec(function(err, data) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
           .getErrorMessage(
             err)
       });
-    } else {
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var bookmark = 0;
+        var vendorId = doc['_id'].toString();
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+            // var q = bookmarkvendorIds.indexOf(doc['_id'])
+            var obj = new Object({
+              _id: doc['_id'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              coords: doc['coords'],
+              others: doc['others'],
+              multiTime: doc['multiTime'],
+              image: doc['image'],
+              closingTiming: doc['closingTiming'],
+              openingTiming: doc['openingTiming'],
+              area: doc['area'],
+              address: doc['address'],
+              subCategory: doc['subCategory'],
+              category: doc['category'],
+              contact: doc['contact'],
+              name: doc['name'],
+              homeDelivery: doc['homeDelivery'],
+              tags: doc['tags'],
+              saveTime: doc['saveTime'],
+              rating: totalRating,
+              bookmark: bookmark
+            });
+            finalresult.push(obj);
+            callback(err, obj);
+          });
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
       res.json({
         error: false,
-        data: docs
+        data: finalresult
       });
-    }
+    });
   });
 }
 
@@ -524,52 +604,67 @@ exports.getVendorsByRating = function(req, res) {
 
     docs.forEach(function(doc) {
       asyncTasks.push(function(callback) {
+        var bookmark = 0;
         var verdorID = new ObjectID(doc['_id']);
-        comment.find({
-          vendorId: verdorID
-        }, function(err, result) {
-          if (err) {
-            return res.status(400).send({
-              message: errorHandler
-                .getErrorMessage(
-                  err)
-            });
-          }
-          var totalRating = 0;
-          for (var i = 0; i < result.length; i++)
-            totalRating += result[i].commentRating;
-          if (totalRating > 0)
-            totalRating = totalRating / result.length;
-          vendor.findOne({
-            _id: verdorID
-          }, function(err, data) {
-            if (data) {
-              var obj = new Object({
-                _id: data['_id'],
-                latitude: data['latitude'],
-                longitude: data['longitude'],
-                coords: data['coords'],
-                others: data['others'],
-                multiTime: data['multiTime'],
-                image: data['image'],
-                closingTiming: data['closingTiming'],
-                openingTiming: data['openingTiming'],
-                area: data['area'],
-                address: data['address'],
-                subCategory: data['subCategory'],
-                category: data['category'],
-                contact: data['contact'],
-                name: data['name'],
-                homeDelivery: data['homeDelivery'],
-                tags: data['tags'],
-                saveTime: data['saveTime'],
-                rating: totalRating
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: verdorID
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
               });
-              finalresult.push(obj);
-              callback(err, obj);
-            } else {
-              callback();
             }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+            vendor.findOne({
+              _id: verdorID
+            }, function(err, data) {
+              if (data) {
+                var obj = new Object({
+                  _id: data['_id'],
+                  latitude: data['latitude'],
+                  longitude: data['longitude'],
+                  coords: data['coords'],
+                  others: data['others'],
+                  multiTime: data['multiTime'],
+                  image: data['image'],
+                  closingTiming: data[
+                    'closingTiming'],
+                  openingTiming: data[
+                    'openingTiming'],
+                  area: data['area'],
+                  address: data['address'],
+                  subCategory: data['subCategory'],
+                  category: data['category'],
+                  contact: data['contact'],
+                  name: data['name'],
+                  homeDelivery: data[
+                    'homeDelivery'],
+                  tags: data['tags'],
+                  saveTime: data['saveTime'],
+                  rating: totalRating,
+                  bookmark: bookmark
+                });
+                finalresult.push(obj);
+                callback(err, obj);
+              } else {
+                callback();
+              }
+            });
           });
         });
       });
@@ -612,45 +707,57 @@ exports.getVendorsByHomeDelivery = function(req, res) {
     }
     data.forEach(function(doc) {
       asyncTasks.push(function(callback) {
+        var bookmark = 0;
         var vendorId = doc['_id'].toString();
-        comment.find({
-          vendorId: vendorId
-        }, function(err, result) {
-          if (err) {
-            return res.status(400).send({
-              message: errorHandler
-                .getErrorMessage(
-                  err)
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+            var obj = new Object({
+              _id: doc['_id'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              coords: doc['coords'],
+              others: doc['others'],
+              multiTime: doc['multiTime'],
+              image: doc['image'],
+              closingTiming: doc['closingTiming'],
+              openingTiming: doc['openingTiming'],
+              area: doc['area'],
+              address: doc['address'],
+              subCategory: doc['subCategory'],
+              category: doc['category'],
+              contact: doc['contact'],
+              name: doc['name'],
+              homeDelivery: doc['homeDelivery'],
+              tags: doc['tags'],
+              saveTime: doc['saveTime'],
+              rating: totalRating,
+              bookmark: bookmark
             });
-          }
-          var totalRating = 0;
-          for (var i = 0; i < result.length; i++)
-            totalRating += result[i].commentRating;
-          if (totalRating > 0)
-            totalRating = totalRating / result.length;
-          var obj = new Object({
-            _id: doc['_id'],
-            latitude: doc['latitude'],
-            longitude: doc['longitude'],
-            coords: doc['coords'],
-            others: doc['others'],
-            multiTime: doc['multiTime'],
-            image: doc['image'],
-            closingTiming: doc['closingTiming'],
-            openingTiming: doc['openingTiming'],
-            area: doc['area'],
-            address: doc['address'],
-            subCategory: doc['subCategory'],
-            category: doc['category'],
-            contact: doc['contact'],
-            name: doc['name'],
-            homeDelivery: doc['homeDelivery'],
-            tags: doc['tags'],
-            saveTime: doc['saveTime'],
-            rating: totalRating
+            finalresult.push(obj);
+            callback(err, obj);
           });
-          finalresult.push(obj);
-          callback(err, obj);
         });
       });
     });
@@ -759,7 +866,6 @@ exports.getVendorsByOpen = function(req, res) {
               err)
         });
       }
-
       res.json({
         error: false,
         data: finalresult
@@ -861,7 +967,85 @@ exports.addBookMark = function(req, res) {
 //   });
 // }
 
-exports.getBookMark = function(req, res) {}
+exports.getBookMark = function(req, res) {
+  var finalresult = [];
+  var asyncTasks = [];
+  var limit = 10;
+  var skip = limit * parseInt(req.params.page);
+  console.log(req.user._id);
+  bookmarkUsers.find({
+    bookmarkUserId: req.user._id
+  }).distinct('bookmarkVendorId', function(err, bookmarkvendorIds) {
+    console.log(bookmarkvendorIds);
+    vendor.find({
+      _id: {
+        '$in': bookmarkvendorIds
+      }
+    }).skip(skip).limit(limit).exec(function(err, data) {
+      data.forEach(function(doc) {
+        asyncTasks.push(function(callback) {
+          var bookmark = 0;
+          var vendorId = doc['_id'].toString();
+
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+
+            var obj = new Object({
+              _id: doc['_id'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              coords: doc['coords'],
+              others: doc['others'],
+              multiTime: doc['multiTime'],
+              image: doc['image'],
+              closingTiming: doc['closingTiming'],
+              openingTiming: doc['openingTiming'],
+              area: doc['area'],
+              address: doc['address'],
+              subCategory: doc['subCategory'],
+              category: doc['category'],
+              contact: doc['contact'],
+              name: doc['name'],
+              homeDelivery: doc['homeDelivery'],
+              tags: doc['tags'],
+              saveTime: doc['saveTime'],
+              rating: totalRating,
+              bookmark: 1
+            });
+            finalresult.push(obj);
+            callback(err, obj);
+          });
+        });
+      });
+      async.parallel(asyncTasks, function(err, result) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(
+                err)
+          });
+        }
+        res.json({
+          error: false,
+          data: finalresult
+        });
+      });
+    })
+  });
+}
 
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';

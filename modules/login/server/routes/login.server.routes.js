@@ -27,6 +27,12 @@ module.exports = function(app) {
   app.route('/v2/search/:area/:input/:page').all(util.userAuthenticate)
     .get(login.searchbyarea);
 
+  app.route('/v2/getuserdetails').all(util.userAuthenticate)
+    .get(login.getUserDetails);
+
+  app.route('/v2/updateuserdetails').all(util.userAuthenticate)
+    .post(login.updateUserDetails);
+
 
   //
   // app.route('/v2/addIndex')

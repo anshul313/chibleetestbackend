@@ -234,6 +234,34 @@ exports.searchbyarea = function(req, res) {
   // });
 }
 
+exports.getUserDetails = function(req, res) {
+  res.json({
+    error: false,
+    data: req.user
+  });
+}
+
+
+exports.updateUserDetails = function(req, res) {
+  user.update({
+    _id: req.user._id
+  }, {
+    '$set': req.body
+  }, function(err, docs) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    res.json({
+      error: false,
+      data: 'successfully update'
+    });
+  })
+}
+
 
 exports.googlelocationapi = function(req, res) {
   var result = [];
