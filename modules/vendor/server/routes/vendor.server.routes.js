@@ -34,4 +34,7 @@ module.exports = function(app) {
   //   .get(vendors.deleteBookMark);
   app.route('/v2/getbookmark/:page').all(util.userAuthenticate)
     .get(vendors.getBookMark);
+
+  app.route('/v2/getsuggestion/:inp').all(util.userAuthenticate)
+    .get(vendors.getsuggestion);
 };

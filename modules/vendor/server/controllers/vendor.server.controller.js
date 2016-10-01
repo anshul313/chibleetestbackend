@@ -476,6 +476,7 @@ exports.addcomment = function(req, res) {
     commentRating: req.body.commentRating,
     commentUserId: req.user._id,
     vendorId: vendorId,
+    commentAddress: req.body.commentAddress,
     commentUserName: req.user.name,
     commentTime: milliseconds
   };
@@ -542,20 +543,27 @@ exports.getcomments = function(req, res) {
         var second = 0;
         if (date[3] > 0)
           second = date[3];
-        var obj = new Object({
-          _id: item['_id'],
-          commentText: item['commentText'],
-          commentUserId: item['commentUserId'],
-          commentRating: item['commentRating'],
-          vendorId: item['vendorId'],
-          commentUserName: item['commentUserName'],
-          day: day,
-          hours: hours,
-          minutes: minutes,
-          second: second
+        vendor.find({
+          _id: item['vendorId']
+        }).exec(function(err, docs) {
+          var obj = new Object({
+            _id: item['_id'],
+            commentText: item['commentText'],
+            commentUserId: item['commentUserId'],
+            commentRating: item['commentRating'],
+            vendorId: item['vendorId'],
+            commentUserName: item['commentUserName'],
+            commentTime: item['commentTime'],
+            commentAddress: req.body.commentAddress,
+            day: day,
+            hours: hours,
+            minutes: minutes,
+            second: second,
+            vendorDetail: docs
+          });
+          finalResult.push(obj)
+          callback();
         });
-        finalResult.push(obj)
-        callback();
       });
     });
     async.parallel(asyncTasks, function() {
@@ -1044,6 +1052,97 @@ exports.getBookMark = function(req, res) {
         });
       });
     })
+  });
+}
+
+exports.getsuggestion = function(req, res) {
+  // var finalresult = [];
+  // async.parallel([
+  //     function(callback) {
+  //       vendor.find({
+  //         'area': new RegExp('^' + req.params.inp, "i")
+  //       }, {
+  //         area: 1,
+  //         _id: 0
+  //       }).exec(function(err, data) {
+  //         if (err) {
+  //           callback(err, null);
+  //         }
+  //         // console.log('area : ', data);
+  //         _.concat(finalresult, data);
+  //         callback(null, data);
+  //       });
+  //     },
+  //     function(callback) {
+  //       vendor.find({
+  //         'type': new RegExp('^' + req.params.inp, "i")
+  //       }, {
+  //         type: 1,
+  //         _id: 0
+  //       }).exec(function(err, data) {
+  //         if (err) {
+  //           callback(err, null);
+  //         }
+  //         // console.log('type : ', data);
+  //         _.concat(finalresult, data);
+  //         callback(null, data);
+  //       });
+  //     },
+  //     function(callback) {
+  //       vendor.find({
+  //         'tags': new RegExp('^' + req.params.inp, "i")
+  //       }, {
+  //         tags: 1,
+  //         _id: 0
+  //       }).exec(function(err, data) {
+  //         if (err) {
+  //           callback(err, null);
+  //         }
+  //         // console.log('tags : ', data);
+  //         _.concat(finalresult, data);
+  //         callback(null, data);
+  //       });
+  //     }
+  //   ],
+  //   function(err, results) {
+  //     // console.log('results : ', results[0]);
+  //     // for (var j = 0; j < results.length; j++) {
+  //     //   for (var i = 0; i < results[i].length; i++) {
+  //     //       if()
+  //     //   }
+  //     // }
+  //
+  //     res.send(finalresult);
+  //   });
+  client.suggest({
+    index: 'cleanvendors',
+    type: 'Document',
+    "suggest": {
+      "text": req.params.inp,
+      "completion": {
+        "field": "name",
+        "size": 10,
+        "context": {
+          "coords": {
+            "lat": 77.0428998,
+            "lon": 28.6060565
+          }
+        }
+      }
+    }
+  }).then(function(resp) {
+    var finalresult = [];
+    for (var i = 0; i < resp.bodySuggester[0].options.length; i++)
+      finalresult.push(resp.bodySuggester[0].options[i].text);
+    res.json({
+      error: false,
+      data: finalresult
+    });
+  }, function(err) {
+    res.json({
+      error: true,
+      data: err
+    });
   });
 }
 

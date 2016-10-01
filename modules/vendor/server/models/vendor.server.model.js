@@ -24,6 +24,9 @@ var commentSchema = new Schema({
   commentUserName: {
     type: String
   },
+  commentAddress: {
+    type: String
+  },
   commentTime: {
     type: Number
   }
