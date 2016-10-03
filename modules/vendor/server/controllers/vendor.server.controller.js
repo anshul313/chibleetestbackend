@@ -483,7 +483,7 @@ exports.addvendor = function(req, res) {
 exports.addcomment = function(req, res) {
   var vendorId = new ObjectID(req.body.vendorId);
   var milliseconds = (new Date).getTime();
-  milliseconds = milliseconds + 19800000;
+  // milliseconds = milliseconds + 1980000;
   var newcomment = {
     commentText: req.body.commentText,
     commentRating: req.body.commentRating,
@@ -1307,14 +1307,14 @@ exports.vendorByTags = function(req, res) {
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
   var fileName = '';
-  var vendor_name = req.query.vendor_name;
-  var vendor_lat = parseInt(req.query.latitude, 10);
-  var filename = name + vendor_lat + ".jpg";
-  // console.log('filename : ', filename);
+  var name = req.query.name;
+  var latitude = parseInt(req.query.latitude, 10);
+  var filename = name + latitude + ".jpg";
   var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
     filename;
+
   var remark = '';
-  if (req.query.remarks)
+  if (!req.query.remarks)
     remark = req.query.remarks;
 
   var vendordata = new Object({
