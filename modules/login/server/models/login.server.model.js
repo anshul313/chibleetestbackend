@@ -74,7 +74,11 @@ var userSchema = new Schema({
     type: String,
     default: ''
   },
-  loginDate: {
+  signUpDate: {
+    type: Date,
+    default: Date.now()
+  },
+  lastLogin: {
     type: Date,
     default: Date.now()
   },
@@ -89,6 +93,10 @@ var userSchema = new Schema({
   profileType: {
     type: String,
     default: ''
+  },
+  lastLocation: {
+    type: [Number],
+    index: '2dsphere'
   }
 });
 

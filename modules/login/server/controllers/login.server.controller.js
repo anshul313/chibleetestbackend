@@ -26,7 +26,9 @@ var multer = require('multer');
 var elastic = require('../../../../config/lib/elasticsearch.js');
 
 exports.login = function(req, res) {
-
+  var latitude = req.body.latitude;
+  var longitude = req.body.longitude;
+  var coords = [parseFloat(latitude), parseFloat(longitude)];
   user.findOne({
     deviceId: req.body.deviceId,
     email: req.body.email
@@ -36,12 +38,27 @@ exports.login = function(req, res) {
         error: true,
         data: err
       });
-      return SendResponse(res);
     } else if (data) {
       // console.log(data);
-      res.json({
-        error: false,
-        data: data.authToken
+      user.update({
+        deviceId: req.body.deviceId,
+        email: req.body.email
+      }, {
+        $set: {
+          lastLogin: new Date().getTime(),
+          lastLocation: coords
+        }
+      }, function(err, result) {
+        if (err) {
+          res.json({
+            error: true,
+            data: err
+          });
+        }
+        res.json({
+          error: false,
+          data: data.authToken
+        });
       });
     } else {
       var authToken = crypto.createHmac('sha256', req.body.deviceId).update(
@@ -58,7 +75,10 @@ exports.login = function(req, res) {
         deviceId: req.body.deviceId,
         imageUrl: req.body.imageUrl,
         appVersion: req.body.appVersion,
-        profileType: req.body.profileType
+        profileType: req.body.profileType,
+        lastLogin: new Date().getTime(),
+        signUpDate: new Date().getTime(),
+        lastLocation: coords
       });
       newuser.save(newuser, function(err, result) {
         if (err) {

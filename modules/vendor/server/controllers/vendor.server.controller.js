@@ -107,25 +107,33 @@ exports.getvendors = function(req, res) {
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc[
+                'subCategory'],
+              address: doc['address'],
+              area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              coords: doc['coords'],
-              others: doc['others'],
-              multiTime: doc['multiTime'],
-              image: doc['image'],
-              closingTiming: doc['closingTiming'],
-              openingTiming: doc['openingTiming'],
-              area: doc['area'],
-              address: doc['address'],
-              subCategory: doc['subCategory'],
-              category: doc['category'],
-              contact: doc['contact'],
-              name: doc['name'],
-              homeDelivery: doc['homeDelivery'],
-              tags: doc['tags'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc[
+                'homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
               rating: totalRating,
-              bookmark: bookmark
+              bookmark: data['bookmark']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -200,25 +208,33 @@ exports.vendorByArea = function(req, res) {
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc[
+                'subCategory'],
+              address: doc['address'],
+              area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              coords: doc['coords'],
-              others: doc['others'],
-              multiTime: doc['multiTime'],
-              image: doc['image'],
-              closingTiming: doc['closingTiming'],
-              openingTiming: doc['openingTiming'],
-              area: doc['area'],
-              address: doc['address'],
-              subCategory: doc['subCategory'],
-              category: doc['category'],
-              contact: doc['contact'],
-              name: doc['name'],
-              homeDelivery: doc['homeDelivery'],
-              tags: doc['tags'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc[
+                'homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
               rating: totalRating,
-              bookmark: bookmark
+              bookmark: data['bookmark']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -377,7 +393,6 @@ exports.addvendor = function(req, res) {
       // for (var i = 0; i < tags.length; i++)
       //   tags.push(tag1[i]);
 
-
       var vendorData = {
         name: data[i]['Name of vendor'],
         contact: data[i]['Contact'],
@@ -389,20 +404,23 @@ exports.addvendor = function(req, res) {
         longitude: data[i]['Longitude'],
         openingTiming: data[i]['Open_timing'],
         closingTiming: data[i]['Close_timing'],
-        image: data[i]['Image'],
-        saveTime: Date.now(),
+        imageUrl: data[i]['Image'],
+        saveTime: new Date().getTime(),
         multiTime: data[i]['Multi'],
         others: data[i]['Others_raw'],
-        tags: tags,
+        tags: data[i]['Tags'],
         coords: coordinate,
         homeDelivery: homeDelivery,
+        remarks: data[i]['Remarks'],
+        shopNo: '',
+        landMark: add,
+        status: 0
       };
 
       var query = {
         latitude: data[i]['Latitude'],
         longitude: data[i]['Longitude']
       };
-
 
       client.index({
         index: 'cleanvendors',
@@ -415,15 +433,14 @@ exports.addvendor = function(req, res) {
 
 
 
-      // vendor.findOneAndUpdate(query, vendorData, {
-      //   upsert: true
-      // }, function(err, doc) {
-      //   if (err) return res.send(500, {
-      //     error: err
-      //   });
-      //   // return res.send("succesfully saved");
-      //   console.log("succesfully saved");
-      // });
+      vendor.findOneAndUpdate(query, vendorData, {
+        upsert: true
+      }, function(err, doc) {
+        if (err) {
+          console.log('error : ', err);
+        }
+        console.log("succesfully saved");
+      });
 
       //   if (data[i].results.length > 0) {
       //     // console.log("lat", data[i].results[0].geometry.location.lat);
@@ -644,28 +661,33 @@ exports.getVendorsByRating = function(req, res) {
               if (data) {
                 var obj = new Object({
                   _id: data['_id'],
+                  name: data['name'],
+                  contact: data['contact'],
+                  category: data['category'],
+                  subCategory: data[
+                    'subCategory'],
+                  address: data['address'],
+                  area: data['area'],
                   latitude: data['latitude'],
                   longitude: data['longitude'],
-                  coords: data['coords'],
-                  others: data['others'],
-                  multiTime: data['multiTime'],
-                  image: data['image'],
                   closingTiming: data[
                     'closingTiming'],
                   openingTiming: data[
                     'openingTiming'],
-                  area: data['area'],
-                  address: data['address'],
-                  subCategory: data['subCategory'],
-                  category: data['category'],
-                  contact: data['contact'],
-                  name: data['name'],
+                  imageUrl: data['imageUrl'],
+                  saveTime: data['saveTime'],
+                  multiTime: data['multiTime'],
+                  others: data['others'],
+                  tags: data['tags'],
+                  coords: data['coords'],
                   homeDelivery: data[
                     'homeDelivery'],
-                  tags: data['tags'],
-                  saveTime: data['saveTime'],
+                  remarks: data['remarks'],
+                  shopNo: '',
+                  landmark: data['landmark'],
+                  status: data['status'],
                   rating: totalRating,
-                  bookmark: bookmark
+                  bookmark: data['bookmark']
                 });
                 finalresult.push(obj);
                 callback(err, obj);
@@ -743,25 +765,33 @@ exports.getVendorsByHomeDelivery = function(req, res) {
               bookmark = 1;
             var obj = new Object({
               _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc[
+                'subCategory'],
+              address: doc['address'],
+              area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              coords: doc['coords'],
-              others: doc['others'],
-              multiTime: doc['multiTime'],
-              image: doc['image'],
-              closingTiming: doc['closingTiming'],
-              openingTiming: doc['openingTiming'],
-              area: doc['area'],
-              address: doc['address'],
-              subCategory: doc['subCategory'],
-              category: doc['category'],
-              contact: doc['contact'],
-              name: doc['name'],
-              homeDelivery: doc['homeDelivery'],
-              tags: doc['tags'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc[
+                'homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
               rating: totalRating,
-              bookmark: bookmark
+              bookmark: data['bookmark']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -842,24 +872,33 @@ exports.getVendorsByOpen = function(req, res) {
             totalRating = totalRating / result.length;
           var obj = new Object({
             _id: doc['_id'],
+            name: doc['name'],
+            contact: doc['contact'],
+            category: doc['category'],
+            subCategory: doc[
+              'subCategory'],
+            address: doc['address'],
+            area: doc['area'],
             latitude: doc['latitude'],
             longitude: doc['longitude'],
-            coords: doc['coords'],
-            others: doc['others'],
-            multiTime: doc['multiTime'],
-            image: doc['image'],
-            closingTiming: doc['closingTiming'],
-            openingTiming: doc['openingTiming'],
-            area: doc['area'],
-            address: doc['address'],
-            subCategory: doc['subCategory'],
-            category: doc['category'],
-            contact: doc['contact'],
-            name: doc['name'],
-            homeDelivery: doc['homeDelivery'],
-            tags: doc['tags'],
+            closingTiming: doc[
+              'closingTiming'],
+            openingTiming: doc[
+              'openingTiming'],
+            imageUrl: doc['imageUrl'],
             saveTime: doc['saveTime'],
-            rating: totalRating
+            multiTime: doc['multiTime'],
+            others: doc['others'],
+            tags: doc['tags'],
+            coords: doc['coords'],
+            homeDelivery: doc[
+              'homeDelivery'],
+            remarks: doc['remarks'],
+            shopNo: '',
+            landmark: doc['landmark'],
+            status: doc['status'],
+            rating: totalRating,
+            bookmark: data['bookmark']
           });
           finalresult.push(obj);
           callback(err, obj);
@@ -1013,26 +1052,36 @@ exports.getBookMark = function(req, res) {
 
             var obj = new Object({
               _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc[
+                'subCategory'],
+              address: doc['address'],
+              area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              coords: doc['coords'],
-              others: doc['others'],
-              multiTime: doc['multiTime'],
-              image: doc['image'],
-              closingTiming: doc['closingTiming'],
-              openingTiming: doc['openingTiming'],
-              area: doc['area'],
-              address: doc['address'],
-              subCategory: doc['subCategory'],
-              category: doc['category'],
-              contact: doc['contact'],
-              name: doc['name'],
-              homeDelivery: doc['homeDelivery'],
-              tags: doc['tags'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc[
+                'homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
               rating: totalRating,
               bookmark: 1
             });
+
+
             finalresult.push(obj);
             callback(err, obj);
           });
@@ -1114,34 +1163,136 @@ exports.getsuggestion = function(req, res) {
   //
   //     res.send(finalresult);
   //   });
-  client.suggest({
-    index: 'cleanvendors',
-    type: 'Document',
-    "suggest": {
-      "text": req.params.inp,
-      "completion": {
-        "field": "name",
-        "size": 10,
-        "context": {
-          "coords": {
-            "lat": 77.0428998,
-            "lon": 28.6060565
-          }
-        }
-      }
+  // client.suggest({
+  //   index: 'cleanvendors',
+  //   type: 'Document',
+  //   body: {
+  //     text: req.params.inp,
+  //     bodySuggester: {
+  //       phrase: {
+  //         "field": 'name'
+  //       }
+  //     }
+  //   }
+  // }).then(function(resp) {
+  var finalResult = [];
+  vendor.find({
+    'tags': new RegExp('^' + req.params.inp, "i")
+  }).distinct('tags', function(err, resp) {
+    console.log('response : ', resp);
+    for (var i = 0; i < resp.length; i++) {
+      // var data = resp[j].split(',');
+      // for (var i = 0; i < data.length; i++) {
+      //   console.log('data : ', data[i]);
+      var suggest = resp[i].trim();
+      var result = _.indexOf(finalResult, suggest);
+      if (result == -1)
+        finalResult.push(suggest);
+      // }
     }
-  }).then(function(resp) {
-    var finalresult = [];
-    for (var i = 0; i < resp.bodySuggester[0].options.length; i++)
-      finalresult.push(resp.bodySuggester[0].options[i].text);
     res.json({
-      error: false,
-      data: finalresult
+      err: false,
+      data: finalResult
     });
-  }, function(err) {
-    res.json({
-      error: true,
-      data: err
+  });
+}
+
+exports.vendorByTags = function(req, res) {
+  // console.log('subcategory : ', req.params.subcat);
+  // console.log('area : ', req.params.area);
+  var finalresult = [];
+  var asyncTasks = [];
+  var subcat = req.params.subcat;
+  var tag = req.params.tag;
+  var limit = 10;
+  var skip = limit * parseInt(req.params.page);
+  vendor.find({
+    'tags': new RegExp('^' + tag, "i")
+  }).skip(skip).limit(limit).exec(function(err, data) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var bookmark = 0;
+        var vendorId = doc['_id'].toString();
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+            // var q = bookmarkvendorIds.indexOf(doc['_id'])
+            var obj = new Object({
+              _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc[
+                'subCategory'],
+              address: doc['address'],
+              area: doc['area'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
+              saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc[
+                'homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
+              rating: totalRating,
+              bookmark: data['bookmark']
+            });
+            finalresult.push(obj);
+            callback(err, obj);
+          });
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalresult
+      });
     });
   });
 }
@@ -1157,25 +1308,30 @@ exports.addNewVendor = function(req, res) {
     filename;
 
   var vendordata = new Object({
-    "others": req.query.vendor_others,
-    "multi": req.query.vendor_multi,
-    "lat": parseFloat(req.query.vendor_lat, 10),
-    "lon": parseFloat(req.query.vendor_lon, 10),
-    "subcategory": req.query.vendor_subcategory,
-    "remarks": req.query.vendor_remarks,
-    "name": req.query.vendor_name,
-    "address": req.query.vendor_address,
-    "phone": req.query.vendor_phone,
-    "open_timing": req.query.vendor_open_timing,
-    "close_timing": req.query.vendor_close_timing,
-    "image": image_url,
-    "time": req.query.time,
-    "user_name": req.query.user_name,
-    "area": req.query.vendor_area,
-    "home": req.query.vendor_home,
-    'uploadTime': Date.now(),
-    "status": "Pending",
-    "type": req.query.vendor_type
+    "multiTime": req.query.multiTime,
+    "latitude": parseFloat(req.query.latitude, 10),
+    "longitude": parseFloat(req.query.longitude, 10),
+    "coords": [parseFloat(req.query.vendor_lon, 10), parseFloat(req.query
+      .vendor_lat, 10)],
+    "contact": [req.query.contact],
+    "subCategory": req.query.subCategory,
+    "category": req.query.category,
+    "remarks": req.query.remarks,
+    "name": req.query.name,
+    "address": req.query.address,
+    "openingTiming": req.query.openingTiming,
+    "closingTiming": req.query.closingTiming,
+    "imageUrl": image_url,
+    "area": req.query.area,
+    "shopNo": req.query.shopNo,
+    "landmark": req.query.landmark,
+    "homeDelivery": req.query.homeDelivery,
+    "status": 0,
+    "tags": req.query.tags,
+    "userId": req.user._id,
+    "saveTime": new Date().getTime(),
+    "bookmark": 0,
+    "others": ''
   });
 
   var storage = multer.diskStorage({
@@ -1203,7 +1359,7 @@ exports.addNewVendor = function(req, res) {
         filename);
 
       s3Upload(readStream, filename, res);
-      db.collection('chibleevendors').update({}, {
+      db.collection('addedvendors').update({}, {
           '$set': vendordata
         }, {
           upsert: true

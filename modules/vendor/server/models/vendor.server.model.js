@@ -78,7 +78,7 @@ var vendorSchema = new Schema({
   closingTiming: {
     type: String
   },
-  image: {
+  imageUrl: {
     type: String
   },
   saveTime: {
@@ -92,7 +92,7 @@ var vendorSchema = new Schema({
     type: String
   },
   tags: {
-    type: [String]
+    type: String
   },
   coords: {
     type: [Number],
@@ -105,6 +105,21 @@ var vendorSchema = new Schema({
   bookmark: {
     type: Number,
     default: 0
+  },
+  remarks: {
+    type: String
+  },
+  shopNo: {
+    type: String
+  },
+  landmark: {
+    type: String
+  },
+  status: {
+    type: Number
+  },
+  userId: {
+    type: Schema.ObjectId
   }
 }, {
   strict: false
