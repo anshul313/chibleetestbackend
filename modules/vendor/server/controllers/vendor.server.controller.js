@@ -133,7 +133,7 @@ exports.getvendors = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: doc['bookmark']
+              bookmark: bookmark
             });
             finalresult.push(obj);
             callback(err, obj);
