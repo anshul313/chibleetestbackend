@@ -133,7 +133,7 @@ exports.getvendors = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: data['bookmark']
+              bookmark: doc['bookmark']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -1207,7 +1207,8 @@ exports.vendorByTags = function(req, res) {
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
   vendor.find({
-    'tags': new RegExp('^' + tag, "i")
+    'tags': new RegExp('^' + tag, "i"),
+    'area': new RegExp('^' + area + '$', "i")
   }).skip(skip).limit(limit).exec(function(err, data) {
     if (err) {
       return res.status(400).send({
@@ -1301,18 +1302,21 @@ exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
   var fileName = '';
   var vendor_name = req.query.vendor_name;
-  var vendor_lat = parseInt(req.query.vendor_lat, 10);
-  var filename = vendor_name + vendor_lat + ".jpg";
+  var vendor_lat = parseInt(req.query.latitude, 10);
+  var filename = name + vendor_lat + ".jpg";
   // console.log('filename : ', filename);
   var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
     filename;
+  var remark = '';
+  if (req.query.remarks)
+    remark = req.query.remarks;
 
   var vendordata = new Object({
     "multiTime": req.query.multiTime,
     "latitude": parseFloat(req.query.latitude, 10),
     "longitude": parseFloat(req.query.longitude, 10),
-    "coords": [parseFloat(req.query.vendor_lon, 10), parseFloat(req.query
-      .vendor_lat, 10)],
+    "coords": [parseFloat(req.query.longitude, 10), parseFloat(req.query
+      .latitude, 10)],
     "contact": [req.query.contact],
     "subCategory": req.query.subCategory,
     "category": req.query.category,
@@ -1374,7 +1378,7 @@ exports.addNewVendor = function(req, res) {
           }
           res.json({
             "error": false,
-            "result": "Data Saved For Reviewing"
+            "result": "successfully inserted"
           });
         });
     }

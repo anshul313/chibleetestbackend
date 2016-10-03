@@ -406,3 +406,13 @@ ReferenceError: i is not defined
 
 2016-10-03T05:51:01.540Z - info: 127.0.0.1 - - [03/Oct/2016:05:51:01 +0000] "GET /v2/vendorbytag/Food,%20North%20Indian%20Food,%20South%20Indian%20Food/0 HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-03T07:01:03.770Z - info: 127.0.0.1 - - [03/Oct/2016:07:01:03 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-03T07:01:03.831Z - info: 127.0.0.1 - - [03/Oct/2016:07:01:03 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-03T07:01:45.212Z - info: 127.0.0.1 - - [03/Oct/2016:07:01:45 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-03T07:01:45.231Z - info: 127.0.0.1 - - [03/Oct/2016:07:01:45 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-03T07:20:01.058Z - info: 127.0.0.1 - - [03/Oct/2016:07:20:01 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 200 51 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
