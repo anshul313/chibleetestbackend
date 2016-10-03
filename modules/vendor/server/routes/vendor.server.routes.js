@@ -46,7 +46,7 @@ module.exports = function(app) {
   app.route('/v2/getsuggestion/:inp').all(util.userAuthenticate)
     .get(vendors.getsuggestion);
 
-  app.route('/v2/vendorbytag/:tag/:page').all(util.userAuthenticate)
+  app.route('/v2/vendorbytag/:cat/:subcat/:area/:tag/:page').all(util.userAuthenticate)
     .get(vendors.vendorByTags);
 
   app.route('/v2/addnewvendor').all(util.userAuthenticate)

@@ -1174,13 +1174,19 @@ exports.getsuggestion = function(req, res) {
   var finalResult = [];
   vendor.find({
     'tags': new RegExp('^' + req.params.inp, "i")
-  }).distinct('tags', function(err, resp) {
+  }, {
+    tags: 1,
+    category: 1,
+    subCategory: 1,
+    area: 1,
+    _id: 0
+  }).exec(function(err, resp) {
     console.log('response : ', resp);
     for (var i = 0; i < resp.length; i++) {
       // var data = resp[j].split(',');
       // for (var i = 0; i < data.length; i++) {
       //   console.log('data : ', data[i]);
-      var suggest = resp[i].trim();
+      var suggest = resp[i];
       var result = _.indexOf(finalResult, suggest);
       if (result == -1)
         finalResult.push(suggest);
@@ -1200,11 +1206,15 @@ exports.vendorByTags = function(req, res) {
   var asyncTasks = [];
   var subcat = req.params.subcat;
   var tag = req.params.tag;
+  var area = req.params.area;
+  var cat = req.params.cat;
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
   vendor.find({
     'tags': new RegExp('^' + tag, "i"),
-    'area': new RegExp('^' + area + '$', "i")
+    'area': new RegExp('^' + area + '$', "i"),
+    'category': cat,
+    'subCategory': subcat
   }).skip(skip).limit(limit).exec(function(err, data) {
     if (err) {
       return res.status(400).send({
