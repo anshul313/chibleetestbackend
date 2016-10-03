@@ -110,24 +110,20 @@ exports.getvendors = function(req, res) {
               name: doc['name'],
               contact: doc['contact'],
               category: doc['category'],
-              subCategory: doc[
-                'subCategory'],
+              subCategory: doc['subCategory'],
               address: doc['address'],
               area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              closingTiming: doc[
-                'closingTiming'],
-              openingTiming: doc[
-                'openingTiming'],
+              closingTiming: doc['closingTiming'],
+              openingTiming: doc['openingTiming'],
               imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
               multiTime: doc['multiTime'],
               others: doc['others'],
               tags: doc['tags'],
               coords: doc['coords'],
-              homeDelivery: doc[
-                'homeDelivery'],
+              homeDelivery: doc['homeDelivery'],
               remarks: doc['remarks'],
               shopNo: '',
               landmark: doc['landmark'],
