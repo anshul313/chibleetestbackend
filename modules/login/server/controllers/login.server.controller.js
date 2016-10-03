@@ -26,8 +26,14 @@ var multer = require('multer');
 var elastic = require('../../../../config/lib/elasticsearch.js');
 
 exports.login = function(req, res) {
-  var latitude = req.body.latitude;
-  var longitude = req.body.longitude;
+  var latitude = 0.0;
+  var longitude = 0.0;
+  if (req.body.latitude) {
+    latitude = req.body.latitude;
+  }
+  if (req.body.longitude) {
+    longitude = req.body.latitude;
+  }
   var coords = [parseFloat(latitude), parseFloat(longitude)];
   user.findOne({
     deviceId: req.body.deviceId,
