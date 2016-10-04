@@ -8,6 +8,7 @@
 var path = require('path'),
   mongoose = require('mongoose'),
   user = mongoose.model('chibleeusers'),
+  vendor = mongoose.model('cleanvendor'),
   errorHandler = require(path.resolve(
     './modules/core/server/controllers/errors.server.controller')),
   _ = require('underscore'), // npm install underscore to install
@@ -22,6 +23,7 @@ var fs = require('fs');
 var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
+var dedupe = require('dedupe');
 
 var elastic = require('../../../../config/lib/elasticsearch.js');
 
@@ -148,7 +150,13 @@ exports.subcategory = function(req, res) {
 
 
 exports.areas = function(req, res) {
-  db.collection('vendors').distinct('Area', function(err, docs) {
+  var finalResult = [];
+  vendor.find({}, {
+    area: 1,
+    latitude: 1,
+    longitude: 1,
+    _id: 0
+  }).exec(function(err, docs) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -156,10 +164,10 @@ exports.areas = function(req, res) {
             err)
       });
     } else {
-      docs.sort();
+      var bbb = dedupe(docs, value => value.area);
       res.json({
         error: false,
-        data: docs
+        data: bbb
       });
     }
   });
