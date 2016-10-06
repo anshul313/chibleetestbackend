@@ -1506,9 +1506,14 @@ var s3Upload = function(readStream, fileName, res) {
     Body: readStream
   };
   s3.putObject(params, function(err, data) {
-    if (err)
-      res.send(err);
-    var filePath = './' + filename;
-    fs.unlinkSync(filePath);
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    // var filePath = './' + filename;
+    // fs.unlinkSync(filePath);
   });
 };
