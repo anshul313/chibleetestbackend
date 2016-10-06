@@ -58,5 +58,4 @@ module.exports = function(app) {
   app.route('/v2/getcontactcallhistory').all(util.userAuthenticate)
     .get(vendors.getContactHistory);
 
-
 };
