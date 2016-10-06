@@ -1446,7 +1446,7 @@ exports.addNewVendor = function(req, res) {
 
   var storage = multer.diskStorage({
     destination: function(req, file, callback) {
-      callback(null, path.resolve(__dirname))
+      callback(null, '..')
     },
     filename: function(req, file, callback) {
       fileName = filename;
