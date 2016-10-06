@@ -1080,3 +1080,118 @@ SyntaxError: Unexpected token :
 
 2016-10-06T08:13:17.383Z - info: 127.0.0.1 - - [06/Oct/2016:08:13:17 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-06T10:59:51.574Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/ds0.jpg' date=Thu Oct 06 2016 16:29:51 GMT+0530 (IST), pid=17104, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140054528, heapTotal=113247328, heapUsed=85611408, loadavg=[1.81298828125, 2.23974609375, 2.26171875], uptime=356683
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/ds0.jpg'
+    at Error (native)
+2016-10-06T10:59:51.586Z - error: uncaughtException: Can't set headers after they are sent. date=Thu Oct 06 2016 16:29:51 GMT+0530 (IST), pid=17104, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140283904, heapTotal=113247328, heapUsed=85953064, loadavg=[1.81298828125, 2.23974609375, 2.26171875], uptime=356683
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1485:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-06T10:59:51.589Z - info: 127.0.0.1 - - [06/Oct/2016:10:59:51 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 322 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:00:03.353Z - info: 127.0.0.1 - - [06/Oct/2016:11:00:03 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:02:54.161Z - info: 127.0.0.1 - - [06/Oct/2016:11:02:54 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:07:41.366Z - error: uncaughtException: Unexpected token ) date=Thu Oct 06 2016 16:37:41 GMT+0530 (IST), pid=17133, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105938944, heapTotal=77545312, heapUsed=52157520, loadavg=[2.4384765625, 2.58251953125, 2.4775390625], uptime=357153
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:07:53.588Z - error: uncaughtException: Unexpected token ) date=Thu Oct 06 2016 16:37:53 GMT+0530 (IST), pid=17136, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108036096, heapTotal=78577248, heapUsed=50102744, loadavg=[2.4443359375, 2.5791015625, 2.4775390625], uptime=357165
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:08:51.512Z - info: 127.0.0.1 - - [06/Oct/2016:11:08:51 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:08:54.059Z - error: uncaughtException: filename is not defined date=Thu Oct 06 2016 16:38:54 GMT+0530 (IST), pid=17144, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=124776448, heapTotal=114267232, heapUsed=86704848, loadavg=[2.3759765625, 2.51953125, 2.4599609375], uptime=357226
+ReferenceError: filename is not defined
+    at Response.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1511:52)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:355:18)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:105:20)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+2016-10-06T11:09:48.460Z - info: 127.0.0.1 - - [06/Oct/2016:11:09:48 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
