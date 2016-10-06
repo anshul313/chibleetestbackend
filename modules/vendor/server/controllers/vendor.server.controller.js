@@ -1508,7 +1508,7 @@ var s3Upload = function(readStream, fileName, res) {
   s3.putObject(params, function(err, data) {
     if (err)
       res.send(err);
-    var filePath = path.resolve(__dirname) + '/' + fileName;
+    // var filePath = path.resolve(__dirname) + '/' + fileName;
     // fs.unlinkSync(filePath);
   });
 };

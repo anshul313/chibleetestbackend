@@ -1530,3 +1530,5 @@ Error: Most middleware (like json) is no longer bundled with Express and must be
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-10-06T12:21:15.619Z - info: 127.0.0.1 - - [06/Oct/2016:12:21:15 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
