@@ -71,7 +71,7 @@ var vendorSchema = new Schema({
     type: String
   },
   contact: {
-    type: [Number]
+    type: String
   },
   category: {
     type: String
@@ -101,8 +101,7 @@ var vendorSchema = new Schema({
     type: String
   },
   saveTime: {
-    type: Date,
-    default: Date.now()
+    type: Number,
   },
   multiTime: {
     type: Boolean

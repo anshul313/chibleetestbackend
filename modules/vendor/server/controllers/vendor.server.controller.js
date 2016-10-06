@@ -334,7 +334,7 @@ exports.addvendor = function(req, res) {
   // for (var k = 0; k < 1; k++) {
   //   console.log('K : ', k);
   var fileStream = fs.createReadStream(
-    path.resolve(__dirname, 'data1.json'), {
+    path.resolve(__dirname, 'data.json'), {
       encoding: 'utf8'
     });
   fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
@@ -391,10 +391,11 @@ exports.addvendor = function(req, res) {
       // var tag1 = data[i]['Others_raw'].split(",");
       // for (var i = 0; i < tags.length; i++)
       //   tags.push(tag1[i]);
-      var vendorContact = [data[i]['Contact']]
+      // var vendorContact = ;
+
       var vendorData = {
         name: data[i]['Name of vendor'],
-        contact: vendorContact,
+        contact: data[i]['Contact'].toString(),
         category: data[i]['Category'],
         subCategory: data[i]['Sub-category'],
         address: add,
@@ -1370,7 +1371,8 @@ exports.getContactHistory = function(req, res) {
         }).exec(function(err, docs) {
           var obj = new Object({
             _id: item['_id'],
-            contactCallUserId: item['contactCallUserId'],
+            contactCallUserId: item[
+              'contactCallUserId'],
             contactCallVendorId: item[
               'contactCallVendorId'],
             contactCallUserName: item[
