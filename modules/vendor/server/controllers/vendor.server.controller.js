@@ -8,6 +8,7 @@
 var path = require('path'),
   mongoose = require('mongoose'),
   vendor = mongoose.model('cleanvendor'),
+  contactHistory = mongoose.model('contactCallHistory'),
   comment = mongoose.model('vendorcomments'),
   bookmarkUsers = mongoose.model('bookmarkUsers'),
   errorHandler = require(path.resolve(
@@ -331,7 +332,7 @@ exports.addvendor = function(req, res) {
   // for (var k = 0; k < 1; k++) {
   //   console.log('K : ', k);
   var fileStream = fs.createReadStream(
-    path.resolve(__dirname, 'data.json'), {
+    path.resolve(__dirname, 'data1.json'), {
       encoding: 'utf8'
     });
   fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
@@ -388,10 +389,10 @@ exports.addvendor = function(req, res) {
       // var tag1 = data[i]['Others_raw'].split(",");
       // for (var i = 0; i < tags.length; i++)
       //   tags.push(tag1[i]);
-
+      var vendorContact = [data[i]['Contact']]
       var vendorData = {
         name: data[i]['Name of vendor'],
-        contact: data[i]['Contact'],
+        contact: vendorContact,
         category: data[i]['Category'],
         subCategory: data[i]['Sub-category'],
         address: add,
@@ -1304,6 +1305,98 @@ exports.vendorByTags = function(req, res) {
   });
 }
 
+exports.addContactHistory = function(req, res) {
+  var contactHistoryData = new contactHistory({
+    contactCallUserId: req.user._id,
+    contactCallVendorId: req.params.vendorId,
+    contactNumber: req.params.number,
+    contactCallUserName: req.user.name,
+    contactCallTime: new Date().getTime()
+  });
+
+  contactHistoryData.save(contactHistoryData, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    res.json({
+      error: false,
+      data: 'successfully inserted'
+    });
+  });
+}
+
+exports.getContactHistory = function(req, res) {
+  var asyncTasks = [];
+  var finalResult = [];
+  contactHistory.find({
+    contactCallUserId: req.user._id
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    result.forEach(function(item) {
+      asyncTasks.push(function(callback) {
+        var now = (new Date).getTime();
+        var then = item.contactCallTime;
+        var diff = moment(moment(now).diff(then)).format(
+          'DD:HH:mm:ss');
+        var date = diff.split(':');
+        var day = 0;
+        if (date[0] == 1)
+          day = 1;
+        if (date[0] > 1)
+          day = date[0];
+        var hours = 0;
+        if (date[1] > 0)
+          hours = date[1];
+        var minutes = 0;
+        if (date[2] > 0)
+          minutes = date[2];
+        var second = 0;
+        if (date[3] > 0)
+          second = date[3];
+        vendor.find({
+          _id: item['contactCallVendorId']
+        }).exec(function(err, docs) {
+          var obj = new Object({
+            _id: item['_id'],
+            contactCallUserId: item['contactCallUserId'],
+            contactCallVendorId: item[
+              'contactCallVendorId'],
+            contactCallUserName: item[
+              'contactCallUserName'],
+            contactCallTime: item['contactCallTime'],
+            day: day,
+            hours: hours,
+            minutes: minutes,
+            second: second,
+            vendorDetail: docs
+          });
+          finalResult.push(obj)
+          callback();
+        });
+      });
+    });
+    async.parallel(asyncTasks, function() {
+      res.json({
+        error: false,
+        data: {
+          result: finalResult
+        }
+      });
+    });
+
+  });
+}
+
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
   var fileName = '';
@@ -1312,18 +1405,21 @@ exports.addNewVendor = function(req, res) {
   var filename = name + latitude + ".jpg";
   var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
     filename;
-
   var remark = '';
   if (!req.query.remarks)
     remark = req.query.remarks;
 
+  var multitime = false;
+  if (req.query.multiTime)
+    multitime = true;
+
   var vendordata = new Object({
-    "multiTime": req.query.multiTime,
+    "multiTime": multitime,
     "latitude": parseFloat(req.query.latitude, 10),
     "longitude": parseFloat(req.query.longitude, 10),
     "coords": [parseFloat(req.query.longitude, 10), parseFloat(req.query
       .latitude, 10)],
-    "contact": [req.query.contact],
+    "contact": req.query.contact,
     "subCategory": req.query.subCategory,
     "category": req.query.category,
     "remarks": req.query.remarks,

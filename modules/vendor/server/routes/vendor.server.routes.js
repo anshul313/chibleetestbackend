@@ -52,6 +52,11 @@ module.exports = function(app) {
   app.route('/v2/addnewvendor').all(util.userAuthenticate)
     .post(vendors.addNewVendor);
 
+  app.route('/v2/addcontactcallhistory/:vendorId/:number').all(util.userAuthenticate)
+    .get(vendors.addContactHistory);
+
+  app.route('/v2/getcontactcallhistory').all(util.userAuthenticate)
+    .get(vendors.getContactHistory);
 
 
 };

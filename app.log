@@ -396,3 +396,183 @@ SyntaxError: missing ) after argument list
 
 2016-10-04T07:12:09.840Z - info: 127.0.0.1 - - [04/Oct/2016:07:12:09 +0000] "GET /v2/areas HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-04T07:29:11.443Z - error: uncaughtException: contactCallUserId is not defined date=Tue Oct 04 2016 12:59:11 GMT+0530 (IST), pid=10028, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=83439616, heapTotal=62053216, heapUsed=36673360, loadavg=[2.4775390625, 2.3251953125, 2.3037109375], uptime=171237
+ReferenceError: contactCallUserId is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/models/vendor.server.model.js:143:50)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/mongoose.js:15:5
+    at Array.forEach (native)
+    at Object.module.exports.loadModels (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/mongoose.js:14:30)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:23:10)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-04T07:29:15.466Z - error: uncaughtException: contactCallUserId is not defined date=Tue Oct 04 2016 12:59:15 GMT+0530 (IST), pid=10041, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=83460096, heapTotal=62053216, heapUsed=36675672, loadavg=[3.23974609375, 2.4853515625, 2.3603515625], uptime=171241
+ReferenceError: contactCallUserId is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/models/vendor.server.model.js:143:54)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/mongoose.js:15:5
+    at Array.forEach (native)
+    at Object.module.exports.loadModels (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/mongoose.js:14:30)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:23:10)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-04T07:31:27.456Z - error: uncaughtException: addContactHistory is not defined date=Tue Oct 04 2016 13:01:27 GMT+0530 (IST), pid=10069, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=121827328, heapTotal=90948448, heapUsed=68006112, loadavg=[2.53173828125, 2.47021484375, 2.3681640625], uptime=171373
+ReferenceError: addContactHistory is not defined
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:57:3)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-04T07:38:48.394Z - error: uncaughtException: Unexpected token if date=Tue Oct 04 2016 13:08:48 GMT+0530 (IST), pid=10157, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106913792, heapTotal=78577248, heapUsed=50088384, loadavg=[2.00537109375, 2.291015625, 2.31787109375], uptime=171814
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-04T07:41:29.119Z - error: uncaughtException: getContactHistory is not defined date=Tue Oct 04 2016 13:11:29 GMT+0530 (IST), pid=10240, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=120856576, heapTotal=90948448, heapUsed=68029504, loadavg=[2.2646484375, 2.30712890625, 2.318359375], uptime=171975
+ReferenceError: getContactHistory is not defined
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:61:3)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-04T07:41:46.774Z - error: uncaughtException: getContactHistory is not defined date=Tue Oct 04 2016 13:11:46 GMT+0530 (IST), pid=10249, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=119394304, heapTotal=90948448, heapUsed=65434712, loadavg=[2.06396484375, 2.25927734375, 2.30078125], uptime=171992
+ReferenceError: getContactHistory is not defined
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:61:3)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:267:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:266:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:332:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-04T08:21:27.211Z - info: 127.0.0.1 - - [04/Oct/2016:08:21:27 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56 HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:21:41.411Z - info: 127.0.0.1 - - [04/Oct/2016:08:21:41 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:48:34.450Z - info: 127.0.0.1 - - [04/Oct/2016:08:48:34 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:48:48.764Z - info: 127.0.0.1 - - [04/Oct/2016:08:48:48 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 304 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:49:41.293Z - info: 127.0.0.1 - - [04/Oct/2016:08:49:41 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 950 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:51:27.354Z - info: 127.0.0.1 - - [04/Oct/2016:08:51:27 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T08:51:32.306Z - info: 127.0.0.1 - - [04/Oct/2016:08:51:32 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-04T09:16:04.933Z - info: 127.0.0.1 - - [04/Oct/2016:09:16:04 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T16:44:44.394Z - error: uncaughtException: cosole is not defined date=Wed Oct 05 2016 22:14:44 GMT+0530 (IST), pid=14406, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=122810368, heapTotal=96096096, heapUsed=68539424, loadavg=[2.06396484375, 2.0234375, 1.85400390625], uptime=290976
+ReferenceError: cosole is not defined
+    at s3Upload (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1488:3)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1464:7
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/multer/lib/make-middleware.js:52:37)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-10-05T16:45:08.376Z - info: 127.0.0.1 - - [05/Oct/2016:16:45:08 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T16:46:06.833Z - info: 127.0.0.1 - - [05/Oct/2016:16:46:06 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T17:11:02.716Z - info: 127.0.0.1 - - [05/Oct/2016:17:11:02 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T17:11:20.860Z - info: 127.0.0.1 - - [05/Oct/2016:17:11:20 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 400 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T17:11:50.172Z - info: 127.0.0.1 - - [05/Oct/2016:17:11:50 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-05T17:13:41.229Z - info: 127.0.0.1 - - [05/Oct/2016:17:13:41 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 950 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:24:18.695Z - info: 127.0.0.1 - - [06/Oct/2016:06:24:18 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:37:31.214Z - info: 127.0.0.1 - - [06/Oct/2016:06:37:31 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:37:31.274Z - info: 127.0.0.1 - - [06/Oct/2016:06:37:31 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:00.294Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:00 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:00.341Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:00 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:33.479Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:33 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:33.529Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:33 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:48.115Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:48 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:39:48.180Z - info: 127.0.0.1 - - [06/Oct/2016:06:39:48 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:40:28.366Z - info: 127.0.0.1 - - [06/Oct/2016:06:40:28 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:40:28.415Z - info: 127.0.0.1 - - [06/Oct/2016:06:40:28 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:40:37.885Z - info: 127.0.0.1 - - [06/Oct/2016:06:40:37 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,123457]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 302 35 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:40:37.902Z - info: 127.0.0.1 - - [06/Oct/2016:06:40:37 +0000] "GET /server-error HTTP/1.1" 500 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:41:24.693Z - info: 127.0.0.1 - - [06/Oct/2016:06:41:24 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=9560184839&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:41:39.267Z - info: 127.0.0.1 - - [06/Oct/2016:06:41:39 +0000] "POST /v2/addnewvendor?multiTime=true&latitude=0.0&longitude=0.0&contact=[9560184839,1234]&subCategory=Local%20Food&category=Food&remarks=hii%20anshul&name=anshul&address=125/s&openingTiming=07%20am&closingTiming=09%20pm&area=secot%2018&shopNo=201%20gip%20mall&landmark=sec%2018%20metro%20station&homeDelivery=true&tags=abc HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:50:00.962Z - info: 127.0.0.1 - - [06/Oct/2016:06:50:00 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T06:55:57.436Z - info: 127.0.0.1 - - [06/Oct/2016:06:55:57 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+

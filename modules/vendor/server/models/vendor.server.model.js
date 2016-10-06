@@ -47,12 +47,31 @@ var bookmarkSchema = new Schema({
   }
 });
 
+var contactCallSchema = new Schema({
+  contactCallUserId: {
+    type: Schema.ObjectId
+  },
+  contactCallVendorId: {
+    type: Schema.ObjectId
+  },
+  contactNumber: {
+    type: Number,
+    required: true
+  },
+  contactCallUserName: {
+    type: String
+  },
+  contactCallTime: {
+    type: Number
+  }
+});
+
 var vendorSchema = new Schema({
   name: {
     type: String
   },
   contact: {
-    type: Number
+    type: [Number]
   },
   category: {
     type: String
@@ -125,6 +144,7 @@ var vendorSchema = new Schema({
   strict: false
 });
 
+module.exports = mongoose.model('contactCallHistory', contactCallSchema);
 module.exports = mongoose.model('bookmarkUsers', bookmarkSchema);
 module.exports = mongoose.model('cleanvendor', vendorSchema);
 module.exports = mongoose.model('vendorcomments', commentSchema);
