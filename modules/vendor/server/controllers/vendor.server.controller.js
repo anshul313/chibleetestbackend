@@ -1446,7 +1446,7 @@ exports.addNewVendor = function(req, res) {
 
   var storage = multer.diskStorage({
     destination: function(req, file, callback) {
-      callback(null, os.tmpdir())
+      callback(null, path.resolve(__dirname))
     },
     filename: function(req, file, callback) {
       fileName = filename;
@@ -1465,7 +1465,7 @@ exports.addNewVendor = function(req, res) {
             err)
       });
     } else {
-      var readStream = fs.createReadStream(os.tmpdir() + '/' +
+      var readStream = fs.createReadStream(path.resolve(__dirname) + '/' +
         filename);
 
       s3Upload(readStream, filename, res);
@@ -1508,5 +1508,7 @@ var s3Upload = function(readStream, fileName, res) {
   s3.putObject(params, function(err, data) {
     if (err)
       res.send(err);
+    var filePath = path.resolve(__dirname) + '/' + fileName;
+    // fs.unlinkSync(filePath);
   });
 };
