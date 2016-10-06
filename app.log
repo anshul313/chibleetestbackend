@@ -1195,3 +1195,338 @@ ReferenceError: filename is not defined
     at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
 2016-10-06T11:09:48.460Z - info: 127.0.0.1 - - [06/Oct/2016:11:09:48 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-06T11:33:07.568Z - info: 127.0.0.1 - - [06/Oct/2016:11:33:07 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:35:10.559Z - info: 127.0.0.1 - - [06/Oct/2016:11:35:10 +0000] "POST /v2/addnewvendor?multiTme=true&latitude=0.000000&longitude=0.000000&contact=2345677,45678&subCategory=local&category=Food&remarks=hill&name=ds&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=true&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T11:39:52.020Z - error: uncaughtException: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:09:52 GMT+0530 (IST), pid=17404, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=88694784, heapTotal=64105056, heapUsed=42137960, loadavg=[2.431640625, 2.37548828125, 2.2880859375], uptime=359084
+Error: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:311:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:40:11.453Z - error: uncaughtException: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:10:11 GMT+0530 (IST), pid=17407, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=88825856, heapTotal=63073120, heapUsed=42177744, loadavg=[2.31884765625, 2.35107421875, 2.2802734375], uptime=359103
+Error: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:311:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:40:15.799Z - error: uncaughtException: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:10:15 GMT+0530 (IST), pid=17411, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=88961024, heapTotal=64105056, heapUsed=42177464, loadavg=[2.373046875, 2.36181640625, 2.2841796875], uptime=359107
+Error: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:311:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:40:18.362Z - error: uncaughtException: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:10:18 GMT+0530 (IST), pid=17420, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=89116672, heapTotal=63073120, heapUsed=42166008, loadavg=[2.373046875, 2.36181640625, 2.2841796875], uptime=359110
+Error: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:311:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:40:28.032Z - error: uncaughtException: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:10:28 GMT+0530 (IST), pid=17432, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=88580096, heapTotal=63073120, heapUsed=42164288, loadavg=[2.4560546875, 2.3818359375, 2.2919921875], uptime=359120
+Error: Most middleware (like limit) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:311:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T11:41:34.605Z - error: uncaughtException: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:11:34 GMT+0530 (IST), pid=17440, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=89481216, heapTotal=64105056, heapUsed=42179104, loadavg=[2.46923828125, 2.384765625, 2.2958984375], uptime=359186
+Error: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:165:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:316:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-06T12:02:26.732Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:32:26 GMT+0530 (IST), pid=17647, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=77430784, heapTotal=58969440, heapUsed=37913096, loadavg=[2.34423828125, 2.326171875, 2.326171875], uptime=360438
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:02:42.959Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:32:42 GMT+0530 (IST), pid=17669, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=78041088, heapTotal=58969440, heapUsed=37889592, loadavg=[2.240234375, 2.3037109375, 2.318359375], uptime=360454
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:02:45.927Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:32:45 GMT+0530 (IST), pid=17694, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=77529088, heapTotal=58969440, heapUsed=37864616, loadavg=[2.240234375, 2.3037109375, 2.318359375], uptime=360457
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:02:46.722Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:32:46 GMT+0530 (IST), pid=17695, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=78598144, heapTotal=58969440, heapUsed=37884696, loadavg=[2.240234375, 2.3037109375, 2.318359375], uptime=360458
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:03:28.263Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:33:28 GMT+0530 (IST), pid=17697, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=77393920, heapTotal=58969440, heapUsed=37884728, loadavg=[2.169921875, 2.2998046875, 2.31640625], uptime=360500
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:04:34.728Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:34:34 GMT+0530 (IST), pid=17705, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=77762560, heapTotal=58969440, heapUsed=37888712, loadavg=[2.6640625, 2.4443359375, 2.3701171875], uptime=360566
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:05:37.518Z - error: uncaughtException: app is not defined date=Thu Oct 06 2016 17:35:37 GMT+0530 (IST), pid=17720, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=77180928, heapTotal=58969440, heapUsed=37906512, loadavg=[3.53369140625, 2.6015625, 2.42578125], uptime=360629
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:27:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:06:03.360Z - error: uncaughtException: Most middleware (like bodyParser) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:36:03 GMT+0530 (IST), pid=17727, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=76988416, heapTotal=58969440, heapUsed=37884656, loadavg=[4.47705078125, 2.86474609375, 2.5224609375], uptime=360655
+Error: Most middleware (like bodyParser) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:28:16)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:06:52.663Z - error: uncaughtException: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:36:52 GMT+0530 (IST), pid=17731, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=78221312, heapTotal=58969440, heapUsed=37915448, loadavg=[3.16796875, 2.74609375, 2.49560546875], uptime=360704
+Error: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:28:16)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:07:09.123Z - error: uncaughtException: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:37:09 GMT+0530 (IST), pid=17732, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=78548992, heapTotal=58969440, heapUsed=37920120, loadavg=[2.9755859375, 2.72509765625, 2.4921875], uptime=360721
+Error: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:28:16)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:07:15.647Z - error: uncaughtException: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:37:15 GMT+0530 (IST), pid=17743, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=78442496, heapTotal=58969440, heapUsed=37903632, loadavg=[2.8974609375, 2.712890625, 2.4892578125], uptime=360727
+Error: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:28:16)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/server.js:6:11)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Function.Module.runMain (module.js:441:10)
+    at startup (node.js:139:18)
+    at node.js:968:3
+2016-10-06T12:08:03.944Z - error: uncaughtException: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware. date=Thu Oct 06 2016 17:38:03 GMT+0530 (IST), pid=17752, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=89284608, heapTotal=63073120, heapUsed=42117584, loadavg=[2.44384765625, 2.61572265625, 2.4658203125], uptime=360775
+Error: Most middleware (like json) is no longer bundled with Express and must be installed separately. Please see https://github.com/senchalabs/connect#middleware.
+    at Function.Object.defineProperty.get (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/express.js:99:13)
+    at Object.module.exports.initMiddleware (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:172:18)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:319:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)

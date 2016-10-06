@@ -5,6 +5,7 @@
  */
 var config = require('../config'),
   express = require('express'),
+  app = express(),
   morgan = require('morgan'),
   logger = require('./logger'),
   bodyParser = require('body-parser'),
@@ -23,6 +24,7 @@ var config = require('../config'),
   lusca = require('lusca'),
   multer = require('multer'),
   os = require('os');
+
 
 
 var whitelist = ['https://api.qykly.mobi', 'http://localhost:3000',
@@ -160,14 +162,17 @@ module.exports.initMiddleware = function(app) {
 
   app.use(bodyParser.text());
   app.use(bodyParser.urlencoded({
+    limit: '50mb',
     extended: true
   }));
-
-  app.use(bodyParser.json());
+  app.use(bodyParser.json({
+    limit: '50mb'
+  }));
   app.use(methodOverride());
   // Add the cookie parser and flash middleware
   app.use(cookieParser());
   app.use(flash());
+
 };
 
 /**
