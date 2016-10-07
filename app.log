@@ -1538,3 +1538,247 @@ Error: Most middleware (like json) is no longer bundled with Express and must be
 
 2016-10-06T12:34:46.788Z - info: 127.0.0.1 - - [06/Oct/2016:12:34:46 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-06T20:41:02.058Z - info: 127.0.0.1 - - [06/Oct/2016:20:41:02 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T20:41:09.538Z - info: 127.0.0.1 - - [06/Oct/2016:20:41:09 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T20:41:12.434Z - info: 127.0.0.1 - - [06/Oct/2016:20:41:12 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T20:41:13.069Z - info: 127.0.0.1 - - [06/Oct/2016:20:41:13 +0000] "GET /v2/addcontactcallhistory/57f15417f036a9cad417cf56/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T20:42:08.066Z - info: 127.0.0.1 - - [06/Oct/2016:20:42:08 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-06T20:46:50.794Z - info: 127.0.0.1 - - [06/Oct/2016:20:46:50 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T07:51:33.641Z - info: 127.0.0.1 - - [07/Oct/2016:07:51:33 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T07:52:10.186Z - info: 127.0.0.1 - - [07/Oct/2016:07:52:10 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T07:52:45.286Z - info: 127.0.0.1 - - [07/Oct/2016:07:52:45 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:02:13.156Z - error: uncaughtException: ENOENT: no such file or directory, open './NaN.jpg' date=Fri Oct 07 2016 13:32:13 GMT+0530 (IST), pid=20517, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=99639296, heapTotal=113247328, heapUsed=89028248, loadavg=[2.8955078125, 2.12158203125, 1.95849609375], uptime=432425
+Error: ENOENT: no such file or directory, open './NaN.jpg'
+    at Error (native)
+2016-10-07T08:02:13.164Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:32:13 GMT+0530 (IST), pid=20517, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=100184064, heapTotal=114267232, heapUsed=89356488, loadavg=[2.8955078125, 2.12158203125, 1.95849609375], uptime=432425
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1536:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:02:13.167Z - info: 127.0.0.1 - - [07/Oct/2016:08:02:13 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:06:51.738Z - error: uncaughtException: ENOENT: no such file or directory, open './1475827611685.jpg' date=Fri Oct 07 2016 13:36:51 GMT+0530 (IST), pid=20551, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139890688, heapTotal=113247328, heapUsed=88317408, loadavg=[2.09765625, 2.2177734375, 2.0498046875], uptime=432703
+Error: ENOENT: no such file or directory, open './1475827611685.jpg'
+    at Error (native)
+2016-10-07T08:06:51.746Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:36:51 GMT+0530 (IST), pid=20551, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140099584, heapTotal=113247328, heapUsed=88645504, loadavg=[2.09765625, 2.2177734375, 2.0498046875], uptime=432703
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1535:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:06:51.749Z - info: 127.0.0.1 - - [07/Oct/2016:08:06:51 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:09:14.935Z - error: uncaughtException: ENOENT: no such file or directory, open './1475827754886.jpg' date=Fri Oct 07 2016 13:39:14 GMT+0530 (IST), pid=20632, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140824576, heapTotal=113247328, heapUsed=88297384, loadavg=[2.14306640625, 2.24365234375, 2.0859375], uptime=432846
+Error: ENOENT: no such file or directory, open './1475827754886.jpg'
+    at Error (native)
+2016-10-07T08:09:14.945Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:39:14 GMT+0530 (IST), pid=20632, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141033472, heapTotal=113247328, heapUsed=88626056, loadavg=[2.14306640625, 2.24365234375, 2.0859375], uptime=432846
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1534:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:09:14.948Z - info: 127.0.0.1 - - [07/Oct/2016:08:09:14 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:13:35.877Z - error: uncaughtException: ENOENT: no such file or directory, open './1475828015828.jpg' date=Fri Oct 07 2016 13:43:35 GMT+0530 (IST), pid=20680, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139968512, heapTotal=113247328, heapUsed=88342672, loadavg=[2.0361328125, 2.13818359375, 2.07275390625], uptime=433107
+Error: ENOENT: no such file or directory, open './1475828015828.jpg'
+    at Error (native)
+2016-10-07T08:13:35.887Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:43:35 GMT+0530 (IST), pid=20680, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140177408, heapTotal=113247328, heapUsed=88671048, loadavg=[2.0361328125, 2.13818359375, 2.07275390625], uptime=433107
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1532:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:13:35.890Z - info: 127.0.0.1 - - [07/Oct/2016:08:13:35 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:19:19.040Z - error: uncaughtException: ENOENT: no such file or directory, open './1475828358986.jpg' date=Fri Oct 07 2016 13:49:19 GMT+0530 (IST), pid=20939, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140734464, heapTotal=113247328, heapUsed=88306368, loadavg=[2.0654296875, 2.12451171875, 2.0908203125], uptime=433451
+Error: ENOENT: no such file or directory, open './1475828358986.jpg'
+    at Error (native)
+2016-10-07T08:19:19.047Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:49:19 GMT+0530 (IST), pid=20939, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140943360, heapTotal=113247328, heapUsed=88634712, loadavg=[2.0654296875, 2.12451171875, 2.0908203125], uptime=433451
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1535:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:19:19.050Z - info: 127.0.0.1 - - [07/Oct/2016:08:19:19 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:29:15.690Z - error: uncaughtException: filename is not defined date=Fri Oct 07 2016 13:59:15 GMT+0530 (IST), pid=21060, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140414976, heapTotal=112215392, heapUsed=86141040, loadavg=[2.5029296875, 2.2900390625, 2.20166015625], uptime=434047
+ReferenceError: filename is not defined
+    at s3Upload (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1552:10)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1483:7
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/multer/lib/make-middleware.js:52:37)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-10-07T08:29:15.693Z - error: uncaughtException: ENOENT: no such file or directory, open '/var/folders/c6/l15rf1g507d80pl2wc_96_2m0000gn/T/1475828955655.jpg' date=Fri Oct 07 2016 13:59:15 GMT+0530 (IST), pid=21060, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140587008, heapTotal=112215392, heapUsed=86478800, loadavg=[2.5029296875, 2.2900390625, 2.20166015625], uptime=434047
+Error: ENOENT: no such file or directory, open '/var/folders/c6/l15rf1g507d80pl2wc_96_2m0000gn/T/1475828955655.jpg'
+    at Error (native)
+2016-10-07T08:29:48.538Z - error: uncaughtException: ENOENT: no such file or directory, open '/var/folders/c6/l15rf1g507d80pl2wc_96_2m0000gn/T/1475828988484.jpg' date=Fri Oct 07 2016 13:59:48 GMT+0530 (IST), pid=21070, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140677120, heapTotal=113247328, heapUsed=88326448, loadavg=[2.203125, 2.2431640625, 2.18701171875], uptime=434080
+Error: ENOENT: no such file or directory, open '/var/folders/c6/l15rf1g507d80pl2wc_96_2m0000gn/T/1475828988484.jpg'
+    at Error (native)
+2016-10-07T08:29:48.545Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 13:59:48 GMT+0530 (IST), pid=21070, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140886016, heapTotal=113247328, heapUsed=88655600, loadavg=[2.203125, 2.2431640625, 2.18701171875], uptime=434080
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1533:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T08:29:48.548Z - info: 127.0.0.1 - - [07/Oct/2016:08:29:48 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:33:53.291Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 14:03:53 GMT+0530 (IST), pid=21117, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139763712, heapTotal=113247328, heapUsed=88543896, loadavg=[2.76416015625, 2.42919921875, 2.27197265625], uptime=434325
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1540:11
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/multer/lib/make-middleware.js:52:37)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-10-07T08:33:53.294Z - error: uncaughtException: ENOENT: no such file or directory, open './1475829233241.jpg' date=Fri Oct 07 2016 14:03:53 GMT+0530 (IST), pid=21117, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139956224, heapTotal=113247328, heapUsed=88957744, loadavg=[2.76416015625, 2.42919921875, 2.27197265625], uptime=434325
+Error: ENOENT: no such file or directory, open './1475829233241.jpg'
+    at Error (native)
+2016-10-07T08:33:53.299Z - info: 127.0.0.1 - - [07/Oct/2016:08:33:53 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:37:02.539Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 14:07:02 GMT+0530 (IST), pid=21158, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139288576, heapTotal=112215392, heapUsed=87717544, loadavg=[2.40380859375, 2.34765625, 2.25830078125], uptime=434514
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1540:11
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/multer/lib/make-middleware.js:52:37)
+    at Immediate.immediate._onImmediate (timers.js:440:18)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-10-07T08:37:02.542Z - error: uncaughtException: ENOENT: no such file or directory, open './1475829422491.jpg' date=Fri Oct 07 2016 14:07:02 GMT+0530 (IST), pid=21158, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139472896, heapTotal=112215392, heapUsed=88130368, loadavg=[2.40380859375, 2.34765625, 2.25830078125], uptime=434514
+Error: ENOENT: no such file or directory, open './1475829422491.jpg'
+    at Error (native)
+2016-10-07T08:37:02.549Z - info: 127.0.0.1 - - [07/Oct/2016:08:37:02 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:43:17.823Z - info: 127.0.0.1 - - [07/Oct/2016:08:43:17 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:44:45.992Z - info: 127.0.0.1 - - [07/Oct/2016:08:44:45 +0000] "POST /v2/addnewvendor?multiTme=1&latitude=0.000000&longitude=0.000000&contact=9990885609,9721081707&subCategory=local&category=Food&remarks=hill&name=Pk&address=125/s&openingTiming=07am&closingTiming=09pm&area=secot&shopNo=201&landmark=sec%2010%20metro&homeDelivery=1&tags=abl HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:48:28.969Z - info: 127.0.0.1 - - [07/Oct/2016:08:48:28 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:51:01.431Z - info: 127.0.0.1 - - [07/Oct/2016:08:51:01 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:51:02.896Z - error: uncaughtException: filename is not defined date=Fri Oct 07 2016 14:21:02 GMT+0530 (IST), pid=21246, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143794176, heapTotal=114267232, heapUsed=89257960, loadavg=[2.11474609375, 2.14306640625, 2.1904296875], uptime=435354
+ReferenceError: filename is not defined
+    at Response.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1572:27)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:355:18)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:105:20)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+    at Request.callListeners (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:115:18)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/sequential_executor.js:77:10)
+    at Request.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:615:14)
+    at Request.transition (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:22:10)
+    at AcceptorStateMachine.runTo (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:14:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/state_machine.js:26:10
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:38:9)
+    at Request.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/aws-sdk/lib/request.js:617:12)
+2016-10-07T08:51:26.446Z - info: 127.0.0.1 - - [07/Oct/2016:08:51:26 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T08:55:01.210Z - info: 127.0.0.1 - - [07/Oct/2016:08:55:01 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
