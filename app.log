@@ -1782,3 +1782,694 @@ ReferenceError: filename is not defined
 
 2016-10-07T08:55:01.210Z - info: 127.0.0.1 - - [07/Oct/2016:08:55:01 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-07T10:03:10.078Z - info: 127.0.0.1 - - [07/Oct/2016:10:03:10 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 400 28 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:05:26.301Z - info: 127.0.0.1 - - [07/Oct/2016:10:05:26 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:07:26.309Z - info: 127.0.0.1 - - [07/Oct/2016:10:07:26 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:40:27.623Z - info: 127.0.0.1 - - [07/Oct/2016:10:40:27 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:41:29.365Z - info: 127.0.0.1 - - [07/Oct/2016:10:41:29 +0000] "GET /v2/addcontactcallhistory/57f6072bf036a9cad4180a63/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:41:31.575Z - info: 127.0.0.1 - - [07/Oct/2016:10:41:31 +0000] "GET /v2/addcontactcallhistory/57f6072bf036a9cad4180a63/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:41:32.344Z - info: 127.0.0.1 - - [07/Oct/2016:10:41:32 +0000] "GET /v2/addcontactcallhistory/57f6072bf036a9cad4180a63/9560184839 HTTP/1.1" 200 46 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T10:47:08.426Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:17:08 GMT+0530 (IST), pid=21677, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105713664, heapTotal=77545312, heapUsed=52137800, loadavg=[2.1103515625, 2.1171875, 2.1689453125], uptime=442320
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:47:29.836Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:17:29 GMT+0530 (IST), pid=21680, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106340352, heapTotal=77545312, heapUsed=52150744, loadavg=[2.9501953125, 2.3046875, 2.2333984375], uptime=442341
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:47:36.185Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:17:36 GMT+0530 (IST), pid=21683, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106913792, heapTotal=77545312, heapUsed=52142304, loadavg=[2.9541015625, 2.31591796875, 2.23779296875], uptime=442348
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:47:45.243Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:17:45 GMT+0530 (IST), pid=21689, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105881600, heapTotal=76513376, heapUsed=51815784, loadavg=[2.88037109375, 2.3212890625, 2.24072265625], uptime=442357
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:47:55.074Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:17:55 GMT+0530 (IST), pid=21695, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105816064, heapTotal=76513376, heapUsed=51894912, loadavg=[2.6708984375, 2.2939453125, 2.23193359375], uptime=442367
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:48:21.611Z - error: uncaughtException: doc is not defined date=Fri Oct 07 2016 16:18:21 GMT+0530 (IST), pid=21698, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139141120, heapTotal=112215392, heapUsed=85440600, loadavg=[3.19775390625, 2.44677734375, 2.2880859375], uptime=442393
+ReferenceError: doc is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1370:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/aggregate.js:586:13
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/collection.js:2564:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:308:5
+    at commandCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T10:49:41.646Z - error: uncaughtException: Unexpected token ) date=Fri Oct 07 2016 16:19:41 GMT+0530 (IST), pid=21706, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105336832, heapTotal=76513376, heapUsed=51811152, loadavg=[2.4970703125, 2.4072265625, 2.2861328125], uptime=442473
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:53:41.635Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 16:23:41 GMT+0530 (IST), pid=21711, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106545152, heapTotal=77545312, heapUsed=51839544, loadavg=[2.267578125, 2.44921875, 2.33251953125], uptime=442713
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T10:56:39.130Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 16:26:39 GMT+0530 (IST), pid=21742, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105734144, heapTotal=77545312, heapUsed=51982304, loadavg=[2.40234375, 2.4345703125, 2.34326171875], uptime=442891
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:00:54.081Z - error: uncaughtException: missing ) after argument list date=Fri Oct 07 2016 16:30:54 GMT+0530 (IST), pid=21764, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105455616, heapTotal=76513376, heapUsed=51918824, loadavg=[2.02392578125, 2.4033203125, 2.3740234375], uptime=443146
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:06:37.253Z - info: 127.0.0.1 - - [07/Oct/2016:11:06:37 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 823 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:07:04.108Z - info: 127.0.0.1 - - [07/Oct/2016:11:07:04 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 823 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:19:20.618Z - info: 127.0.0.1 - - [07/Oct/2016:11:19:20 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:23:12.224Z - error: uncaughtException: missing ) after argument list date=Fri Oct 07 2016 16:53:12 GMT+0530 (IST), pid=21854, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105242624, heapTotal=76513376, heapUsed=51938272, loadavg=[2.07275390625, 2.5283203125, 2.4755859375], uptime=444484
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:23:13.718Z - error: uncaughtException: missing ) after argument list date=Fri Oct 07 2016 16:53:13 GMT+0530 (IST), pid=21857, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106876928, heapTotal=77545312, heapUsed=52000184, loadavg=[2.46728515625, 2.6025390625, 2.501953125], uptime=444485
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:23:59.135Z - error: uncaughtException: missing ) after argument list date=Fri Oct 07 2016 16:53:59 GMT+0530 (IST), pid=21861, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105693184, heapTotal=77545312, heapUsed=52182152, loadavg=[2.08349609375, 2.4853515625, 2.46337890625], uptime=444531
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:25:00.107Z - error: uncaughtException: missing ) after argument list date=Fri Oct 07 2016 16:55:00 GMT+0530 (IST), pid=21864, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105254912, heapTotal=75481440, heapUsed=52856176, loadavg=[2.41015625, 2.501953125, 2.46923828125], uptime=444592
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:26:46.252Z - info: 127.0.0.1 - - [07/Oct/2016:11:26:46 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:27:12.781Z - info: 127.0.0.1 - - [07/Oct/2016:11:27:12 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:29:33.904Z - error: uncaughtException: i is not defined date=Fri Oct 07 2016 16:59:33 GMT+0530 (IST), pid=21910, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140132352, heapTotal=111183456, heapUsed=84303272, loadavg=[3.0849609375, 2.681640625, 2.5380859375], uptime=444865
+ReferenceError: i is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1367:18
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:181:20
+    at Object.async.forEachOf.async.eachOf (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:233:13)
+    at Object.async.forEach.async.each (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:209:22)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1364:11
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/aggregate.js:586:13
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/collection.js:2564:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:308:5
+    at commandCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-07T11:30:54.546Z - info: 127.0.0.1 - - [07/Oct/2016:11:30:54 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:32:12.420Z - info: 127.0.0.1 - - [07/Oct/2016:11:32:12 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:39:50.565Z - info: 127.0.0.1 - - [07/Oct/2016:11:39:50 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 25 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:40:15.587Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 17:10:15 GMT+0530 (IST), pid=21962, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105365504, heapTotal=76513376, heapUsed=51923128, loadavg=[2.376953125, 2.3974609375, 2.46630859375], uptime=445507
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:40:29.382Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 17:10:29 GMT+0530 (IST), pid=21975, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105889792, heapTotal=76513376, heapUsed=51909416, loadavg=[2.6748046875, 2.45947265625, 2.48681640625], uptime=445521
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:40:39.026Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 17:10:39 GMT+0530 (IST), pid=21981, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105877504, heapTotal=77545312, heapUsed=51947576, loadavg=[2.49072265625, 2.42724609375, 2.47509765625], uptime=445531
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:41:09.174Z - info: 127.0.0.1 - - [07/Oct/2016:11:41:09 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:41:26.833Z - error: uncaughtException: Unexpected token ] date=Fri Oct 07 2016 17:11:26 GMT+0530 (IST), pid=21989, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105517056, heapTotal=76513376, heapUsed=51920848, loadavg=[1.9892578125, 2.2900390625, 2.41943359375], uptime=445578
+SyntaxError: Unexpected token ]
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T11:41:42.235Z - info: 127.0.0.1 - - [07/Oct/2016:11:41:42 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 25 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:42:57.867Z - info: 127.0.0.1 - - [07/Oct/2016:11:42:57 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:43:21.783Z - info: 127.0.0.1 - - [07/Oct/2016:11:43:21 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:46:41.478Z - info: 127.0.0.1 - - [07/Oct/2016:11:46:41 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 25 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:52:15.596Z - info: 127.0.0.1 - - [07/Oct/2016:11:52:15 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:54:25.112Z - info: 127.0.0.1 - - [07/Oct/2016:11:54:25 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:55:10.296Z - info: 127.0.0.1 - - [07/Oct/2016:11:55:10 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:58:25.245Z - info: 127.0.0.1 - - [07/Oct/2016:11:58:25 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T11:59:59.985Z - error: uncaughtException: Unexpected token { date=Fri Oct 07 2016 17:29:59 GMT+0530 (IST), pid=22086, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106307584, heapTotal=77545312, heapUsed=52034896, loadavg=[3.03515625, 2.29833984375, 2.28759765625], uptime=446691
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:00:35.999Z - error: uncaughtException: Unexpected token { date=Fri Oct 07 2016 17:30:35 GMT+0530 (IST), pid=22097, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105996288, heapTotal=77545312, heapUsed=52152320, loadavg=[2.7421875, 2.32275390625, 2.29736328125], uptime=446727
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:01:07.880Z - info: 127.0.0.1 - - [07/Oct/2016:12:01:07 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T12:04:29.535Z - info: 127.0.0.1 - - [07/Oct/2016:12:04:29 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T12:14:44.317Z - error: uncaughtException: Unexpected token { date=Fri Oct 07 2016 17:44:44 GMT+0530 (IST), pid=22125, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105172992, heapTotal=76513376, heapUsed=51994688, loadavg=[2.05615234375, 2.20068359375, 2.29833984375], uptime=447576
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:15:02.850Z - error: uncaughtException: db.getCollection is not a function date=Fri Oct 07 2016 17:45:02 GMT+0530 (IST), pid=22130, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=136863744, heapTotal=106035808, heapUsed=82811008, loadavg=[2.1171875, 2.20654296875, 2.29833984375], uptime=447594
+TypeError: db.getCollection is not a function
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1522:4)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:39:03.102Z - error: uncaughtException: Unexpected token : date=Fri Oct 07 2016 18:09:03 GMT+0530 (IST), pid=22166, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=106901504, heapTotal=78577248, heapUsed=49997576, loadavg=[2.443359375, 2.34814453125, 2.20654296875], uptime=449035
+SyntaxError: Unexpected token :
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:39:25.238Z - error: uncaughtException: Unexpected token } date=Fri Oct 07 2016 18:09:25 GMT+0530 (IST), pid=22169, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=105029632, heapTotal=76513376, heapUsed=51924760, loadavg=[2.48291015625, 2.3583984375, 2.21240234375], uptime=449057
+SyntaxError: Unexpected token }
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-07T12:44:25.845Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 18:14:25 GMT+0530 (IST), pid=22200, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139214848, heapTotal=112215392, heapUsed=85763096, loadavg=[3.39599609375, 2.49755859375, 2.27197265625], uptime=449357
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:152:21)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1409:36
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:207:48
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:127:16
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-07T12:44:25.873Z - info: 127.0.0.1 - - [07/Oct/2016:12:44:25 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 400 14 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T12:45:31.919Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 18:15:31 GMT+0530 (IST), pid=22206, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141672448, heapTotal=112215392, heapUsed=81332168, loadavg=[3.13623046875, 2.54443359375, 2.2998046875], uptime=449423
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:152:21)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1408:36
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:207:48
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:127:16
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-07T12:45:31.926Z - info: 127.0.0.1 - - [07/Oct/2016:12:45:31 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 400 14 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T12:47:09.543Z - error: uncaughtException: Can't set headers after they are sent. date=Fri Oct 07 2016 18:17:09 GMT+0530 (IST), pid=22214, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=138702848, heapTotal=112215392, heapUsed=85706064, loadavg=[1.9921875, 2.36474609375, 2.2568359375], uptime=449521
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:152:21)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1408:36
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:207:48
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/kareem/index.js:127:16
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-07T12:47:09.550Z - info: 127.0.0.1 - - [07/Oct/2016:12:47:09 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 400 14 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-07T12:48:07.554Z - info: 127.0.0.1 - - [07/Oct/2016:12:48:07 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+

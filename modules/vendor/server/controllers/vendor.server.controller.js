@@ -1336,70 +1336,6 @@ exports.addContactHistory = function(req, res) {
 exports.getContactHistory = function(req, res) {
   var asyncTasks = [];
   var finalResult = [];
-  // contactHistory.find({
-  //   contactCallUserId: req.user._id
-  // }, function(err, result) {
-  //   if (err) {
-  //     return res.status(400).send({
-  //       message: errorHandler
-  //         .getErrorMessage(
-  //           err)
-  //     });
-  //   }
-  //   result.forEach(function(item) {
-  //     asyncTasks.push(function(callback) {
-  //       var now = (new Date).getTime();
-  //       var then = item.contactCallTime;
-  //       var diff = moment(moment(now).diff(then)).format(
-  //         'DD:HH:mm:ss');
-  //       var date = diff.split(':');
-  //       var day = 0;
-  //       if (date[0] == 1)
-  //         day = 1;
-  //       if (date[0] > 1)
-  //         day = date[0];
-  //       var hours = 0;
-  //       if (date[1] > 0)
-  //         hours = date[1];
-  //       var minutes = 0;
-  //       if (date[2] > 0)
-  //         minutes = date[2];
-  //       var second = 0;
-  //       if (date[3] > 0)
-  //         second = date[3];
-  //       vendor.find({
-  //         _id: item['contactCallVendorId']
-  //       }).exec(function(err, docs) {
-  //         var obj = new Object({
-  //           _id: item['_id'],
-  //           contactCallUserId: item[
-  //             'contactCallUserId'],
-  //           contactCallVendorId: item[
-  //             'contactCallVendorId'],
-  //           contactCallUserName: item[
-  //             'contactCallUserName'],
-  //           contactCallTime: item['contactCallTime'],
-  //           day: day,
-  //           hours: hours,
-  //           minutes: minutes,
-  //           second: second,
-  //           vendorDetail: docs
-  //         });
-  //         finalResult.push(obj)
-  //         callback();
-  //       });
-  //     });
-  //   });
-  //   async.parallel(asyncTasks, function() {
-  //     res.json({
-  //       error: false,
-  //       data: {
-  //         result: finalResult
-  //       }
-  //     });
-  //   });
-  //
-  // });
   console.log(req.user._id);
 
   contactHistory.aggregate([{
@@ -1407,61 +1343,79 @@ exports.getContactHistory = function(req, res) {
       contactCallUserId: req.user._id
     }
   }, {
+    "$unwind": "$contactCallTime"
+  }, {
     $group: {
       _id: {
         'contactCallVendorId': "$contactCallVendorId"
       },
-      dups: {
+      contactCallTime: {
         "$addToSet": "$contactCallTime"
-      },
-      count: {
-        "$sum": 1
       }
     }
-  }], function(doc) {
-    console.log(doc);
+  }, {
+    "$unwind": "$contactCallTime"
+  }, {
+    "$sort": {
+      "contactCallTime": 1
+    }
+  }, {
+    $group: {
+      _id: {
+        'contactCallVendorId': "$_id"
+      },
+      dups: {
+        "$push": "$contactCallTime"
+      }
+    }
+  }], function(err, docs) {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    var midnighttime = (+d);
+    console.log('midnighttime : ', midnighttime);
+    console.log('error : ', err);
+    async.forEach(docs, function(doc, callback) {
+      console.log('doc : ', doc._id.contactCallVendorId.contactCallVendorId);
+      vendor.find({
+        _id: doc._id.contactCallVendorId.contactCallVendorId
+      }, function(err, vendor) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(
+                err)
+          });
+        }
+        var result = new Object({
+          vendorDetail: vendor,
+          timing: doc.dups
+        });
+        finalResult.push(result);
+        callback(null, finalResult);
+      });
+
+    }, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalResult
+      });
+    });
   });
 }
 
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
   var filename = new Date().getTime() + ".jpg";
+  console.log(filename);
   var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
     filename;
-  // var remark = '';
-  // if (!req.query.remarks)
-  //   remark = req.query.remarks;
-  //
-  // var multitime = false;
-  // if (req.query.multiTime)
-  //   multitime = true;
-  //
-  // var vendordata = new Object({
-  //   "multiTime": multitime,
-  //   "latitude": parseFloat(req.query.latitude, 10),
-  //   "longitude": parseFloat(req.query.longitude, 10),
-  //   "coords": [parseFloat(req.query.longitude, 10), parseFloat(req.query
-  //     .latitude, 10)],
-  //   "contact": req.query.contact,
-  //   "subCategory": req.query.subCategory,
-  //   "category": req.query.category,
-  //   "remarks": req.query.remarks,
-  //   "name": req.query.name,
-  //   "address": req.query.address,
-  //   "openingTiming": req.query.openingTiming,
-  //   "closingTiming": req.query.closingTiming,
-  //   "imageUrl": image_url,
-  //   "area": req.query.area,
-  //   "shopNo": req.query.shopNo,
-  //   "landmark": req.query.landmark,
-  //   "homeDelivery": req.query.homeDelivery,
-  //   "status": 0,
-  //   "tags": req.query.tags,
-  //   "userId": req.user._id,
-  //   "saveTime": new Date().getTime(),
-  //   "bookmark": 0,
-  //   "others": ''
-  // });
 
   var storage = multer.diskStorage({
     destination: function(req, file, callback) {
@@ -1500,7 +1454,8 @@ exports.addNewVendor = function(req, res) {
         "multiTime": multitime,
         "latitude": parseFloat(req.body.latitude, 10),
         "longitude": parseFloat(req.body.longitude, 10),
-        "coords": [parseFloat(req.body.longitude, 10), parseFloat(req
+        "coords": [parseFloat(req.body.longitude, 10), parseFloat(
+          req
           .body.latitude, 10)],
         "contact": req.body.contact,
         "subCategory": req.body.subCategory,
