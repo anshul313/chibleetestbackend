@@ -2473,3 +2473,28 @@ Error: Can't set headers after they are sent.
 
 2016-10-07T12:48:07.554Z - info: 127.0.0.1 - - [07/Oct/2016:12:48:07 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-12T03:01:51.439Z - error: uncaughtException: ENOENT: no such file or directory, open './1476241311386.jpg' date=Wed Oct 12 2016 08:31:51 GMT+0530 (IST), pid=1087, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139718656, heapTotal=113247328, heapUsed=88401384, loadavg=[4.224609375, 3.20654296875, 2.70947265625], uptime=49628
+Error: ENOENT: no such file or directory, open './1476241311386.jpg'
+    at Error (native)
+2016-10-12T03:01:51.482Z - error: uncaughtException: Can't set headers after they are sent. date=Wed Oct 12 2016 08:31:51 GMT+0530 (IST), pid=1087, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139964416, heapTotal=113247328, heapUsed=88762896, loadavg=[4.224609375, 3.20654296875, 2.70947265625], uptime=49628
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1493:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-12T03:01:51.485Z - info: 127.0.0.1 - - [12/Oct/2016:03:01:51 +0000] "POST /v2/addnewvendor HTTP/1.1" 400 34 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+
+2016-10-12T03:04:49.779Z - info: 127.0.0.1 - - [12/Oct/2016:03:04:49 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
+

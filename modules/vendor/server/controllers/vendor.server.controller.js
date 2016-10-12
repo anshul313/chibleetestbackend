@@ -334,7 +334,7 @@ exports.addvendor = function(req, res) {
   // for (var k = 0; k < 1; k++) {
   //   console.log('K : ', k);
   var fileStream = fs.createReadStream(
-    path.resolve(__dirname, 'data.json'), {
+    path.resolve(__dirname, 'data1.json'), {
       encoding: 'utf8'
     });
   fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
@@ -398,7 +398,7 @@ exports.addvendor = function(req, res) {
         contact: data[i]['Contact'].toString(),
         category: data[i]['Category'],
         subCategory: data[i]['Sub-category'],
-        address: add,
+        address: data[i]['Address_raw'],
         area: data[i]['Location'],
         latitude: data[i]['Latitude'],
         longitude: data[i]['Longitude'],
@@ -408,7 +408,7 @@ exports.addvendor = function(req, res) {
         saveTime: new Date().getTime(),
         multiTime: data[i]['Multi'],
         others: data[i]['Others_raw'],
-        tags: data[i]['Tags'],
+        tags: data[i]['keyword'],
         coords: coordinate,
         homeDelivery: homeDelivery,
         remarks: data[i]['Remarks'],
