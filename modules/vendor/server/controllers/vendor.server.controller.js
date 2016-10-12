@@ -325,7 +325,7 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 45;
+  var q = 0;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
@@ -398,7 +398,7 @@ exports.addvendor = function(req, res) {
         contact: data[i]['Contact'].toString(),
         category: data[i]['Category'],
         subCategory: data[i]['Sub-category'],
-        address: data[i]['Address_raw'],
+        address: add,
         area: data[i]['Location'],
         latitude: data[i]['Latitude'],
         longitude: data[i]['Longitude'],
@@ -408,7 +408,7 @@ exports.addvendor = function(req, res) {
         saveTime: new Date().getTime(),
         multiTime: data[i]['Multi'],
         others: data[i]['Others_raw'],
-        tags: data[i]['keyword'],
+        tags: data[i]['Tags'],
         coords: coordinate,
         homeDelivery: homeDelivery,
         remarks: data[i]['Remarks'],
