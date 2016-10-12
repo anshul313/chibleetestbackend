@@ -334,7 +334,7 @@ exports.addvendor = function(req, res) {
   // for (var k = 0; k < 1; k++) {
   //   console.log('K : ', k);
   var fileStream = fs.createReadStream(
-    path.resolve(__dirname, 'data3.json'), {
+    path.resolve(__dirname, 'data.json'), {
       encoding: 'utf8'
     });
   fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
