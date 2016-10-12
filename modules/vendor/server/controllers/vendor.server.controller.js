@@ -325,7 +325,7 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 0;
+  var q = 45;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
