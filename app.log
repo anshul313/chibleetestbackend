@@ -2498,3 +2498,107 @@ Error: Can't set headers after they are sent.
 
 2016-10-12T03:04:49.779Z - info: 127.0.0.1 - - [12/Oct/2016:03:04:49 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Postman/4.4.3 Chrome/51.0.2704.103 Electron/1.2.5 Safari/537.36"
 
+2016-10-13T05:54:43.664Z - info: 127.0.0.1 - - [13/Oct/2016:05:54:43 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 400 28 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T05:55:04.760Z - info: 127.0.0.1 - - [13/Oct/2016:05:55:04 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 48 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T05:55:33.640Z - error: uncaughtException: Converting circular structure to JSON date=Thu Oct 13 2016 11:25:33 GMT+0530 (IST), pid=5172, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140922880, heapTotal=111183456, heapUsed=85186600, loadavg=[2.45166015625, 2.3671875, 2.1826171875], uptime=62876
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:1064:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:243:14)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1541:9
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Collection.find (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:355:44)
+    at exports.getAddedNewVendor (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1531:33)
+    at Layer.handle [as handle_request] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:131:13)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/util.js:19:12
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/query.js:2243:18
+    at newTickHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mpromise/lib/promise.js:234:18)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-13T05:56:11.760Z - error: uncaughtException: Converting circular structure to JSON date=Thu Oct 13 2016 11:26:11 GMT+0530 (IST), pid=5192, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141254656, heapTotal=112215392, heapUsed=85355320, loadavg=[2.53271484375, 2.40234375, 2.20166015625], uptime=62914
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:1064:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:243:14)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1541:9
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Collection.find (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:355:44)
+    at exports.getAddedNewVendor (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1531:33)
+    at Layer.handle [as handle_request] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:131:13)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/util.js:19:12
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/query.js:2243:18
+    at newTickHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mpromise/lib/promise.js:234:18)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-13T05:56:51.189Z - error: uncaughtException: Converting circular structure to JSON date=Thu Oct 13 2016 11:26:51 GMT+0530 (IST), pid=5201, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140935168, heapTotal=112215392, heapUsed=86041008, loadavg=[2.1943359375, 2.33349609375, 2.18408203125], uptime=62954
+TypeError: Converting circular structure to JSON
+    at Object.stringify (native)
+    at stringify (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:1064:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:243:14)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1542:9
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Collection.find (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:355:44)
+    at exports.getAddedNewVendor (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1531:33)
+    at Layer.handle [as handle_request] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:131:13)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/util.js:19:12
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/query.js:2243:18
+    at newTickHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mpromise/lib/promise.js:234:18)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-10-13T05:58:51.159Z - info: 127.0.0.1 - - [13/Oct/2016:05:58:51 +0000] "GET /v2/getaddednewvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:24:55.173Z - info: 127.0.0.1 - - [13/Oct/2016:06:24:55 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 553 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:27:28.481Z - info: 127.0.0.1 - - [13/Oct/2016:06:27:28 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:27:40.861Z - info: 127.0.0.1 - - [13/Oct/2016:06:27:40 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 553 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:28:54.154Z - info: 127.0.0.1 - - [13/Oct/2016:06:28:54 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:28:59.487Z - info: 127.0.0.1 - - [13/Oct/2016:06:28:59 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 573 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:50:01.428Z - info: 127.0.0.1 - - [13/Oct/2016:06:50:01 +0000] "POST /v2/addcomment HTTP/1.1" 200 46 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:51:37.239Z - info: 127.0.0.1 - - [13/Oct/2016:06:51:37 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:54:41.219Z - info: 127.0.0.1 - - [13/Oct/2016:06:54:41 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:55:19.897Z - info: 127.0.0.1 - - [13/Oct/2016:06:55:19 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:55:23.931Z - info: 127.0.0.1 - - [13/Oct/2016:06:55:23 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T06:55:27.819Z - info: 127.0.0.1 - - [13/Oct/2016:06:55:27 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:00:10.268Z - info: 127.0.0.1 - - [13/Oct/2016:07:00:10 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:01:08.810Z - info: 127.0.0.1 - - [13/Oct/2016:07:01:08 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:12:00.374Z - info: 127.0.0.1 - - [13/Oct/2016:07:12:00 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:12:40.723Z - info: 127.0.0.1 - - [13/Oct/2016:07:12:40 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:19:24.935Z - info: 127.0.0.1 - - [13/Oct/2016:07:19:24 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 573 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:22:48.768Z - info: 127.0.0.1 - - [13/Oct/2016:07:22:48 +0000] "GET /v2/getcontactcallhistory HTTP/1.1" 200 845 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:25:44.702Z - error: uncaughtException: Route.get() requires callback functions but got a [object Undefined] date=Thu Oct 13 2016 12:55:44 GMT+0530 (IST), pid=5833, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139628544, heapTotal=106035808, heapUsed=83107480, loadavg=[1.65283203125, 1.982421875, 1.99072265625], uptime=68285
+Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:196:15)
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:65:6)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T07:29:01.927Z - info: 127.0.0.1 - - [13/Oct/2016:07:29:01 +0000] "GET /v2/getusercomments HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T07:29:37.175Z - info: 127.0.0.1 - - [13/Oct/2016:07:29:37 +0000] "GET /v2/getcomments/57e4dfc59d78001b456d0219 HTTP/1.1" 200 933 "-" "PostmanRuntime/2.5.2"
+
