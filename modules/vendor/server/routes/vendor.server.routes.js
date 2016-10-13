@@ -58,4 +58,12 @@ module.exports = function(app) {
   app.route('/v2/getcontactcallhistory').all(util.userAuthenticate)
     .get(vendors.getContactHistory);
 
+  app.route('/v2/getaddednewvendor').all(util.userAuthenticate)
+    .get(vendors.getAddedNewVendor);
+
+  app.route('/v2/getusercomments').all(util.userAuthenticate)
+    .get(vendors.getUserComments);
+
+
+
 };

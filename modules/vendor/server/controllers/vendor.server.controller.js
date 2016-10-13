@@ -495,6 +495,7 @@ exports.addcomment = function(req, res) {
     vendorId: vendorId,
     commentAddress: req.body.commentAddress,
     commentUserName: req.user.name,
+    commentUserImageUrl: req.user.imageUrl,
     commentTime: milliseconds
   };
 
@@ -547,8 +548,6 @@ exports.getcomments = function(req, res) {
           'DD:HH:mm:ss');
         var date = diff.split(':');
         var day = 0;
-        if (date[0] == 1)
-          day = 1;
         if (date[0] > 1)
           day = date[0];
         var hours = 0;
@@ -570,6 +569,8 @@ exports.getcomments = function(req, res) {
             commentRating: item['commentRating'],
             vendorId: item['vendorId'],
             commentUserName: item['commentUserName'],
+            commentUserImageUrl: item[
+              'commentUserImageUrl'],
             commentTime: item['commentTime'],
             commentAddress: req.body.commentAddress,
             day: day,
@@ -593,8 +594,6 @@ exports.getcomments = function(req, res) {
       });
     });
   });
-
-
 }
 
 exports.getVendorsByRating = function(req, res) {
@@ -1357,7 +1356,7 @@ exports.getContactHistory = function(req, res) {
     "$unwind": "$contactCallTime"
   }, {
     "$sort": {
-      "contactCallTime": 1
+      "contactCallTime": -1
     }
   }, {
     $group: {
@@ -1369,13 +1368,14 @@ exports.getContactHistory = function(req, res) {
       }
     }
   }], function(err, docs) {
+    console.log('docs : ', docs);
     var d = new Date();
     d.setHours(0, 0, 0, 0);
     var midnighttime = (+d);
     console.log('midnighttime : ', midnighttime);
     console.log('error : ', err);
     async.forEach(docs, function(doc, callback) {
-      console.log('doc : ', doc._id.contactCallVendorId.contactCallVendorId);
+      console.log('doc : ', doc._id.contactCallVendorId);
       vendor.find({
         _id: doc._id.contactCallVendorId.contactCallVendorId
       }, function(err, vendor) {
@@ -1525,3 +1525,99 @@ var s3Upload = function(readStream, fileName, res) {
     fs.unlinkSync(filePath);
   });
 };
+
+
+exports.getAddedNewVendor = function(req, res) {
+  db.collection('addedvendors').find({
+    userId: req.user._id
+  }).toArray(function(err, docs) {
+    console.log('docs : ', docs);
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    res.json({
+      "error": false,
+      "result": docs
+    });
+  });
+}
+
+
+exports.getUserComments = function(req, res) {
+  var asyncTasks = [];
+  var finalResult = [];
+  var vendorId = new ObjectID(req.params.vendorId)
+  comment.find({
+    commentUserId: req.user._id
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    var totalRating = 0;
+    for (var i = 0; i < result.length; i++)
+      totalRating += result[i].commentRating;
+    if (totalRating > 0)
+      totalRating = totalRating / result.length;
+    result.forEach(function(item) {
+      asyncTasks.push(function(callback) {
+        var now = (new Date).getTime();
+        var then = item.commentTime;
+        var diff = moment(moment(now).diff(then)).format(
+          'DD:HH:mm:ss');
+        var date = diff.split(':');
+        var day = 0;
+        if (date[0] > 1)
+          day = date[0];
+        var hours = 0;
+        if (date[1] > 0)
+          hours = date[1];
+        var minutes = 0;
+        if (date[2] > 0)
+          minutes = date[2];
+        var second = 0;
+        if (date[3] > 0)
+          second = date[3];
+        vendor.find({
+          _id: item['vendorId']
+        }).exec(function(err, docs) {
+          var obj = new Object({
+            _id: item['_id'],
+            commentText: item['commentText'],
+            commentUserId: item['commentUserId'],
+            commentRating: item['commentRating'],
+            vendorId: item['vendorId'],
+            commentUserName: item['commentUserName'],
+            commentUserImageUrl: item[
+              'commentUserImageUrl'],
+            commentTime: item['commentTime'],
+            commentAddress: req.body.commentAddress,
+            day: day,
+            hours: hours,
+            minutes: minutes,
+            second: second,
+            vendorDetail: docs
+          });
+          finalResult.push(obj)
+          callback();
+        });
+      });
+    });
+    async.parallel(asyncTasks, function() {
+      res.json({
+        error: false,
+        data: {
+          result: finalResult,
+          totalRating: totalRating
+        }
+      });
+    });
+  });
+}
