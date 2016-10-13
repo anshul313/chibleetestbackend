@@ -64,6 +64,9 @@ module.exports = function(app) {
   app.route('/v2/getusercomments').all(util.userAuthenticate)
     .get(vendors.getUserComments);
 
+  app.route('/v2/deletevendor/:vendorId').all(util.userAuthenticate)
+    .get(vendors.deleteVendor);
+
 
 
 };
