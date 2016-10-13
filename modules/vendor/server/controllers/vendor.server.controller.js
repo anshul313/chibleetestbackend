@@ -1621,3 +1621,21 @@ exports.getUserComments = function(req, res) {
     });
   });
 }
+
+
+exports.deleteVendor = function(req, res) {
+  var vendorId = new ObjectID(req.params.vendorId);
+  db.collection('addedvendors').remove({
+    '_id': vendorId
+  }, function(err, docs) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler.getErrorMessage(err)
+      });
+    }
+    res.json({
+      error: false,
+      data: 'successfully removed'
+    });
+  });
+}
