@@ -1,0 +1,3440 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660083,
+                            "lng": 77.1812729
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.66026345,
+                                "lng": 77.18129084999998
+                            },
+                            "southwest": {
+                                "lat": 28.66002285,
+                                "lng": 77.18121905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9141c7901a506e01f2313337fe3f82e8d6dc11b1",
+                    "name": "Sudhil Gas Serborish",
+                    "place_id": "ChIJI6JXy4gCDTkRvuEMmJFKBs4",
+                    "reference": "CnRoAAAA9iELtZ0RvXrlFmou9tMKhA8bSfdEmzDfjImymMXBIrpbvnhj5EWL2iQaanomLYfVOkHuzCtALv0Ns15_eoV0N0qGVU4AsQKT1XbimCGXttiWkR4-f80vi_jkXmr2WVx5H0anlYanJfESeqtp19_tchIQ0FiuRbzvuYulkt0q1XKv2xoUKhe_FgZOs8KdMQDXClSr5QQK1tI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.274, Gadodia Road, Than Singh Nagar, Anand Parbat, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.658858,
+                            "lng": 77.183027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65895475,
+                                "lng": 77.18316315
+                            },
+                            "southwest": {
+                                "lat": 28.65882575,
+                                "lng": 77.18261854999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acb07be3d549d4dd811be6edeafed11076cc51dc",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJPYDq8oMCDTkRTqVXkz8jsFU",
+                    "reference": "CmReAAAAdj8FZx_Sn4oFq3pXjE_rIBDCjAqkJpS7NG2vzWAQ1v9oPLT_mHbcwOFKM_MuYC9-ONauXV-hZqKtuxfCANO2fnhITmU_64lbWuOvGXANnF6r46VhapDp2VAItL7s8Y67EhBqMEnCJa2mQmFtHO-d6aXHGhQa8hH-TRG4Qcau8NBonPIrawRbtg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ram Swaroop Vidyarthi Marg, Karol Bagh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6425547,
+                            "lng": 77.1764422
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64267175,
+                                "lng": 77.17649080000001
+                            },
+                            "southwest": {
+                                "lat": 28.64220355,
+                                "lng": 77.17642599999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f995fc9e377923b0c95fb564861fdc87b93657ff",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ5Rm795UCDTkRTYAdesD07pM",
+                    "reference": "CnRkAAAAoCx-EZEw_x5BA4MnOPpIwwWZcomEJxEGgG7ZV11N0dx86YIMcY1iAXdDYMeVSjI3Eywn9hi66DGBEqKwiwcvZXq4aHYVpUIm9kwo80aV0gtehH4RAeyD35AAvOXGpP5CdxLL4MB9NK5zMOnWP7mHKBIQtpz1kupgCctsdpc_ArOmrxoUASp7mkqzAgkgkWA-nZKFVMQF8rU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No.155, Pusa Road, Rajendra Place, Central Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639684,
+                            "lng": 77.173796
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "872c00988cfc8a7ae626dd4b93ee7cd99559787b",
+                    "name": "Bhasin Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 286,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102841198723096799355/photos\">Bhasin Service Station</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADj4o-igIHiCCMuAKlqjRLHPdSrJ8VO_UH1DsweTuIQ0IE75S4HHX9sZ2qiBmmR8zFj4Zdfs1YjTqVl1b7HwgPp03LFItiHMG7YLd29OybIIU4u-y3x1Wsm0_pXjupLzUHWuRXADdJvxBay3fqPlFb0qtQ95sQmkSIB6EvESg_QdEhD2NKZ86i1M_RRbfZKAMwysGhTMzSRIA5pcFGv9OOUSvctRu84ceA",
+                            "width": 283
+                        }
+                    ],
+                    "place_id": "ChIJoVTI4pcCDTkR1aem2KZElPY",
+                    "rating": 4,
+                    "reference": "CnRqAAAAN-9w_wYizFDl7KOJi2bh_nhV0VchNJ4bHMXcGL9S_z0h656koNiQg3FX0V-ZRL7vjxbu0INsXV_wJKR8wFoPub4FyJSAvgIVvx-00Ily9Pre4rfOyKi9eOh1ZJYPwlCnuWODV_48UbMbVwa147yY9xIQlSTOISM_Wer2Tw6Eud5whBoU46EE9FhJtuQIDtQgRg9YyI-9IRA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr K S Krishnan Road, Pusa Gate, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660083,
+                            "lng": 77.1812729
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.66026345,
+                                "lng": 77.18129084999998
+                            },
+                            "southwest": {
+                                "lat": 28.66002285,
+                                "lng": 77.18121905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9141c7901a506e01f2313337fe3f82e8d6dc11b1",
+                    "name": "Sudhil Gas Serborish",
+                    "place_id": "ChIJI6JXy4gCDTkRvuEMmJFKBs4",
+                    "reference": "CnRoAAAAunJ88sCH0YdD-f5Ghrzp5EdI2zGkRGp4ZFlfHM1MhgP6cFvPTk_nyZfbSkycPaNAcUGemFREtDjM5Nhi9a8fKspi4zLlcAbGq7xc3zX8DhpdRWJwYY9Y6rL2hLlpRZQgvEM-f0qWLmEp6ICtbn960xIQ22YQ0w4m5j6FHvWasAz2GBoU6uNkCQEAZ8lD3YW_4vVxvBPtX1I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.274, Gadodia Road, Than Singh Nagar, Anand Parbat, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.658858,
+                            "lng": 77.183027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65895475,
+                                "lng": 77.18316315
+                            },
+                            "southwest": {
+                                "lat": 28.65882575,
+                                "lng": 77.18261854999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acb07be3d549d4dd811be6edeafed11076cc51dc",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJPYDq8oMCDTkRTqVXkz8jsFU",
+                    "reference": "CmReAAAAkenhBW8gkb6pEChYQUI9t-_d1jXD5jhizi9GRl1rtdqQdUAzJ2A8uNuyfqY92hP1Ey641QayTmFaODQa-2YV0aP6Cr6ldkib3ZCmKevNPHR8-77mRSL4IjpV-dWzEP2OEhAL-YBxqWm4JAAPor7h6rz2GhRhC3bei3OgAviCX2F6cGlIFJo-xw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ram Swaroop Vidyarthi Marg, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6450304,
+                            "lng": 77.169258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "03d7043a5552a84ea04999f2c4c358eec8d28a24",
+                    "name": "Associated Trading Co",
+                    "place_id": "ChIJz7tPT_wCDTkRZa61bz2uQiE",
+                    "reference": "CnRoAAAAegwha6G9ZyzIyLYJvXdkk34riVQ078GJEkrBsq9zQsGI_wqCdyWA2zjbkBQKerIV8aVevk4KnJg5C0jpbidVqsnCqm7ZHYMRYLwxES3dEsHhk5ufA844E0LYT0f6sW7ZFkW8J-6ZygNRstwsqnqWDRIQaRxZydfegCblYpow1LxFmBoU9cRZhVbc4Kex9lL2jt0H0RsNsdg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Patel Road, Patel Nagar, Near Shaadi Dtppalldepot, Patel Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.65948359999999,
+                            "lng": 77.1894123
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "270542d7871da1175397f9f37ec2065be431de21",
+                    "name": "HP PETROL PUMP - BANSAL SERVICE CENTRE ROHTK RD",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJk3e58oMCDTkRPxZ-Q_-R8sc",
+                    "reference": "CpQBhAAAAP6ZONBGrGi-G1By_cVtbl0EpsGkdE3lcB-wgrQLXi9QHoLv4e-vYg9mBmYpgU40HB3cgRw_rDRplM2PrXMFxELa0hWOnJL0hV05HamYEvIWYp430Li6D9yxOpA8gexzfk_GJaYPKlnYMWHqUKtCjSYTyPECJASPTI8al7_-6e2dKkoOXFQD3on67jZIWobMURIQqFb0awrvDL6YXXHP8ocXUhoU84ZxSVWjLh5ENwXbvPuyu3YxWzs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Liberty Cinema Rohtak Road NEW Delhi, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6594754,
+                            "lng": 77.1894372
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65975725,
+                                "lng": 77.18955374999997
+                            },
+                            "southwest": {
+                                "lat": 28.65938145,
+                                "lng": 77.18939835
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ebc6bc960f2914e3f61ee912037510c20b1cda",
+                    "name": "HP Petrol And Diesel",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJuWW58oMCDTkR7kG4HCo3lI0",
+                    "reference": "CnRoAAAAlqfy1O6pZQTlPNYHsdBjbMxxdzqPpyzLuVq43hV5JxtWLaSisJnF_X98I3BuyoNHq9Z16vwam0JdLUxoc8ZN1cuIcenzk7mkCX8FObasBXdeTXCfXzCbcuwhX4TStElPgl7iCs1_iQ0MV-5Sl4hVVhIQ7VgqLBtJZaMJlLNfqzgRbhoUO4jPP8xs5UlowLHCd2TGtK9A_uU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Guru Gobind Singh Marg, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6424994,
+                            "lng": 77.1762957
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6425957,
+                                "lng": 77.17643444999999
+                            },
+                            "southwest": {
+                                "lat": 28.6422105,
+                                "lng": 77.17624945
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "586aabbdc503f77afccaab7e149daf21aef11ba9",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJjd-k95UCDTkRqLG98NyVQv4",
+                    "reference": "CmRfAAAA0MskI_JK5Edi2UgrEWHoVGWq3_WsIKjkCp9xAtV_k2It8ZLUx6cB4JDGhNDcTBpJWZXILpKbSx5XpMctOypMrngls-3Y5158PCFN8CV8ONIQSX1hcknntTWIijmU7qUdEhCve79j6z9N9uoCwvysDfbeGhSBrLLNJmb5N_PLHAD6M5PIECFeug",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421608,
+                            "lng": 77.1756747
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d667ef42269f14f052a541235bb921f434436bd7",
+                    "name": "Maan Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJd-3rnjD9DDkRF94tZ0lDYoI",
+                    "reference": "CnRoAAAAX2tOw6UBXspfFPz_61OslP3JXaoZrc4fmz3sapUgSkkG7CqWbLFEe6SdDc0mddrbVkixgRSAHtkbvNA3q1T0oFfEscC8WbmwcGnjFziu8ltHNUa8KeChi8_DGNJisds5on7jo8QvBl305LcdA6eorhIQeucRP4tgEwqpxw9zmHd4KhoUBkbjNBdB1K_FgQXxO0joIdPGS_U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Rachna Cinema, Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6487798,
+                            "lng": 77.1619618
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64944745,
+                                "lng": 77.16248785
+                            },
+                            "southwest": {
+                                "lat": 28.64855724999999,
+                                "lng": 77.16178645
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aad099db0330146fe4015161e6794234088bea88",
+                    "name": "M/s Associated Trading Co",
+                    "place_id": "ChIJ9YstEO8CDTkRMe6nwUd75vw",
+                    "reference": "CnRtAAAAX4e81ElGYTRcS7Sfw5e_mRvMtcAu_M-R3vzsrP05Sp39THYAXu518oguy3Nhp8290SfZbP-woMd4qv8WXe1xFwIPWXRQiuPHCcx2O_jH6pqj_KtRBKBuhDtQb5f7YQLictdldRyQ4_CFq76n8DAmoxIQRpjkQ0RaZLropPN7o4qOMhoUFeWb7XoOsEajHjxiRTn2Rkq3G4s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp Shadipur Depot, Patel Road, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6393807,
+                            "lng": 77.1739206
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6395397,
+                                "lng": 77.17451805
+                            },
+                            "southwest": {
+                                "lat": 28.6393277,
+                                "lng": 77.17372145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fdff412679a49f89e8a5b43e022446a67031459c",
+                    "name": "Motorades",
+                    "place_id": "ChIJjd-k95UCDTkR63ZIwSXQaxE",
+                    "rating": 3.9,
+                    "reference": "CmRcAAAAhfESBSHgMMX9B2m3vq7iMWaAEyae-jYj20GX8pSwcbsbhiivu7BdtldADcq6rlsjp_rjJXYW6hWFU59GLtCh0YW0Yiq4qw5LTZYMjeka8P9HoExYDJuH-HmrlQJ8MyDQEhDMkAkpEb9EDznfqeO6OaqNGhRHhGgtIhFw9o_UkFvzeOPWusiXJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr KS Krishnan Marg, Pusa, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070609999999,
+                            "lng": 77.17651699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c6e7a53ef04102621859aa129c196d79508f082",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJZReY_GMCDTkRBP_eFXEup0M",
+                    "reference": "CmReAAAABLUsEFn3cTQGflCKoMe0Sn0nhsgIo2RzYA88wize0XSOdHnrbqcsGBaEQtHLNBig85rFH4tGfLKvk14c4xX_NqUNqn07sNrSlh-1dwtbIfPUyzJE11zBsTXr9rgPjTEkEhAfiacoJtbTA9WdENpJsv1uGhTL-eQ23d0Z13cB-LJNotsqsi-xgA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070299999999,
+                            "lng": 77.176518
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f6ff98ef7a49fb07de5d0895c2e58d0261c23332",
+                    "name": "HP PETROL PUMP - NORTHERN SER STN SHSTRI NGR",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI2X9TWECDTkRfBOoMnvvLYc",
+                    "reference": "CoQBgAAAAJvvy4HTHTvhHlfZSQVCPquGIzzXRpQtMX_y23XC89vvhGEiFOt5-eHNW7OIcogDMq1xJRg7YR2wmba1EFNcLIIODi6jecZR_FNJ8Nos1xPSos_XKqPMI6bOs-t19QhUwmmzwXp6jj7KTCmFmDlXrWqLXzsKLJs9SaIUdcZ3ltLqEhCTdMbVcqdATPGKOlJHv2T2GhQJ5O-fYtVBKAjBL-RdQEUyWs9guQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Dealers, Road NO. 40, Sarai Basti, Near Shastri Nagar Metro Station,, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6404268,
+                            "lng": 77.18589949999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e1b017335b8c87a3af86b2baa7030f4e4b4485cc",
+                    "name": "Mobile Centre",
+                    "place_id": "ChIJAQAAAKMCDTkROJ_JCWy9Jnc",
+                    "reference": "CmRgAAAAK8S9jOg1_iaOCAlJ4cdEI06jWC_oCpk63N3sOjJxHUifX1Zerx201AG_V_gO5VczNNPWvBChGnSYwnDVDZdCVBzgW4YrRBZgJ2F8qh_E72JSbSQQ3Oey-HnJ-8TaMKPfEhDVpqRGcX4UruR6HmWkZzNyGhR2S_u8pK90bX8-H6nIaL8EoMj1kQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B PS, Petrol, Rajindra Nagar, Near Tisazar Court, Mori Gate R, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67176899999999,
+                            "lng": 77.172262
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "27cf693bb941f30f3abf804d3f9577d9a966f3e5",
+                    "name": "HP PETROL PUMP - RAM LAL BANSIWAL & SONS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJywVSQ2cCDTkR5uPZakWxWuI",
+                    "reference": "CoQBfAAAANx-VSVZpWnsLqvKzslVw-eZfI6SRNAekm3H3pCZjCShTc6jUzGlFKw9DuWyPnErP2XO4jwaUGe-gOjyy9d2nYxeLW2eabeNdAesV5PVKd1o9nitSEEKKrERfChKKtq1PxblliaF4pP1NNW1MdsJq4zfVZGCBYy7_udjODrkocYyEhBxLTzOEKyY_fxoh-qFXDL_GhSlSKgKEV2WFwKSA8teUc6ozkBgEA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NO 40 NEW Delhi, Shahzada Bagh, Phase 1, Hanuman Road Area, Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6717722,
+                            "lng": 77.17226029999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "bf775b33e29a07a939b105dce7441cd6bde13a56",
+                    "name": "PETROL PUMP",
+                    "place_id": "ChIJP_FNQ2cCDTkR5utGDdDJnUo",
+                    "reference": "CmReAAAAXU4t2ugVBlpllJ9NadtU27X6dIJHc6AIJsJe88R4an40UBuspQmnHxNr81uWxhRb5ZWTBTtOZB9nBo2wKl4qjXJdOpAoKVWMoY8pPVUBfV-l1ToP-kEsf5BedCUp0puLEhDRPZMifnyETbosTOH6kzX1GhR_jL1YelN6le3bF217ceTKxYCx4w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shastri Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAJhZ5TjgaIH49fEhKPb0j9Kae8DPibpk5MDeAurkG6qhg30ifaEmijLIbKVL8ehBRsyojr4gEFBRiD_JWa4iZKsH6GkFJnWfl343mpATQAn9VtLju9hTmqgb0KoN1dvr0dcMTqIVGJhHVzFBuwsGybyUsCKWjJ_i5DEpTdcn-HaYjgRlnjnB6uk788HMdDsT2L9yEkgG5JxspR2aJHsot8D52hW3coF0X-azK8sFtSSbftzm9GnooTFgtdayiHHN2jxcZa31NIJEXzNx8WlUgzGoIR6BhUhRIgRBlfOATLUhjexDbcYs-qHeIT-urdozQEMv-OD1VtobJczvdiAEa_oSEAgoEkCAtVqsLWRjb1au1-UaFGkUz0lqfL2F7lq5O4nGSBuoCyo1",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.654966,
+                            "lng": 77.1558343
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8dcfab80fc6b9a4b1b2d720ad0db415d0b2e83c",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1966,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100063209034995679603/photos\">ANUJ KUMAR</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAADbhukEm-84G2gyfOpw27O-oPk6oONtMwvm6ezAeVnABYmyJSPvh9f_nyRYygjAOhXODVVNLNZ0t1KMCBG73jctFdGR9_kkI3A-7VuaU4AH-nI1D_CHdNbrXtrIInNARNPTmV1MchBvqyOjJp1YG5i2WHpg4mfXJjVaVvn_QhWJBEhBAMex55zly9hhMHF-KuevxGhTRLNy6c3GskRJXSJir9zZXdp42jQ",
+                            "width": 2502
+                        }
+                    ],
+                    "place_id": "ChIJa04__2kDDTkRctSdUgy_qkk",
+                    "reference": "CnRjAAAAbf1oLZ5K-LnAz4JyFTQTtLvuZUVdOoRG6fFsNQhvTO-FuOPVoYaGLoJCsnvSjVf4SILHs82rUQSgIszIEc8kAjRlXwnrZMGB4llIOfhBIgVyh8GMMapDJuW3LGNNA0O0qUWF2NmVkIuOW2GPEu_ULBIQSqNuw_HMjIJ9oTTSBJSarRoUtl7p5GgGITAu2OGy8hJn8v1C4mA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp DJB, Subhash Nagar, West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639684,
+                            "lng": 77.173796
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "872c00988cfc8a7ae626dd4b93ee7cd99559787b",
+                    "name": "Bhasin Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 286,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102841198723096799355/photos\">Bhasin Service Station</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPsf9Md0TiQYnC8VcFDqbszgs8kWq1Pt7qV9C3zy5oL2705tOFrZmcZb4LK3s-aa3UGgr3S_Cpk0O3PiMXD5Jk5fhSrg0-dIpsYxEBo3iHibjxP6oMGieor81YF8lgJTHgdgaUZCdNabuUW09R3jQT8Ea9Kd0V6JyzFk7c55XtfwEhDx56EeeEMKgHUtmUGry3iUGhTKimyXjQ92m5Zq3tFFRs8IVSgnlg",
+                            "width": 283
+                        }
+                    ],
+                    "place_id": "ChIJoVTI4pcCDTkR1aem2KZElPY",
+                    "rating": 4,
+                    "reference": "CnRqAAAA7dzMJL-AHIFwjJQxzjXsUl_a3scWg3eEfNLqMxlJmeZrYhVvu9D_NvuVMbkTyK8oX3gbqrEnTrz-W7-Orl2ROMU4oE9H21WtpU5XDj_w9821cCNYaevOX0VlfXb6UX-JQ-GDfeosZTUvXsKxCxgqrxIQ3gqgV-_m1C8Y2O8chFK2KBoU9sw_9czx-2B1HXGtTddVSfbQJZo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr K S Krishnan Road, Pusa Gate, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6425547,
+                            "lng": 77.1764422
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64267175,
+                                "lng": 77.17649080000001
+                            },
+                            "southwest": {
+                                "lat": 28.64220355,
+                                "lng": 77.17642599999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f995fc9e377923b0c95fb564861fdc87b93657ff",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ5Rm795UCDTkRTYAdesD07pM",
+                    "reference": "CnRkAAAAHxfV7ALvFb_QuJdpuEHnmLp6-88XsFJKxD3prYGv4QafzRIg6uctsZqjXUruhM1PTidrMCQfQ_yPjO93zM_S5bDOE2wblm8zVgCu1lV2cSJBdKVEbV8DRdV9Osb5fnpXqev5SDFP75UCCB9nETjE6xIQSkTO3QWB-MLoA4W3TvC3-BoUGXM2LTkiKQa723sBrK_fc4giJxY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No.155, Pusa Road, Rajendra Place, Central Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6523772,
+                            "lng": 77.1561704
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65280125,
+                                "lng": 77.15651060000002
+                            },
+                            "southwest": {
+                                "lat": 28.65223585,
+                                "lng": 77.15605699999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "97ee83749d3946eaf3809a31c981e958ac6b144a",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJaasTMfsCDTkRMu3pvUXcqZw",
+                    "reference": "CnRqAAAAoMMuQGLOpSE_lwCiWyBPfoytNTTSvqyplKj8Ys04_vMWYBhwheZjnqjhqtMpUOTGoU9uMjzfMP_pco6inyT5FzVqYkBHVsHcBGpBVkU74Odf0zZpTpoTVcmLYjzLivtsUxl8IyBLma1eUAlbFiNuKBIQRrNsYVb6qQq6nr2JZnKJyRoUQN-lB7DRl-UtKtodGtyW9Ga1Hzg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Metro Pillar No. 244, Patel Road, New Patel Nagar, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644667,
+                            "lng": 77.194499
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64480245,
+                                "lng": 77.1945071
+                            },
+                            "southwest": {
+                                "lat": 28.64462185,
+                                "lng": 77.1944747
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d8da08a56669538bb37cedd30310209058da91b",
+                    "name": "HP Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2952,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103963205928017779979/photos\">Kunal Wadhwa</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGZFfg42oWpG8IE3v4jqLKpal6fbq9HBbgxw_EJYUC_KP5AyD79yjyMsX-Z3kAUfBgBUmunfafwYhlESOe8EWv0lZ8ntJGDc_9teeXoZVQ22D2uPbPIJNiS0MQlL31DqNwBfQB9FH1oagObyXSDWGU9Xuwxed__cOdX1UBAw7aRDEhB8iNuhlrdY8p-W8wbTITyjGhTxADYAWyHF25WBycwsr46gziVrFg",
+                            "width": 5248
+                        }
+                    ],
+                    "place_id": "ChIJDyV5_Z8CDTkRiUgdMLwXgG0",
+                    "rating": 3.9,
+                    "reference": "CnRhAAAAvvLBdIyL2eQAKm4rcOhWo9C9LaNbiYdroJuynL5g2CrM0PzGKCRUIDoURhtdCD3lVjVTQTy2KeiFdUKV7BWEf0MbPv53ZlmCk13o3Z6bxjtKOqhyd33MUMFvBsHF5cKgJfbFPeJ-CK8SlKDP_RPBhxIQT7GNYJiFWDIwDPVTuOkDuBoUltqD4HAdlhv7cQHbTkhUv-KsnkI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road Service Station, Opp. Metro Pillar No. 80 & 81, Pusa Road, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67354199999999,
+                            "lng": 77.186776
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67364049999999,
+                                "lng": 77.18707869999999
+                            },
+                            "southwest": {
+                                "lat": 28.6732465,
+                                "lng": 77.18667509999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "17d66f895c67d6953b2309ed043d79ec5dd408f3",
+                    "name": "Veejay Service Station",
+                    "photos": [
+                        {
+                            "height": 1536,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100211628651032350758/photos\">ankit kalra</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAACfwLzPn3IDEb4s_hFxM8u4Sphnj-EhU8842HgN-ErOzjWQVESSOeh-iB6XMZzXIvJ08uukvXr0WCreKniqUirtEME_PmfVouYc1ol_hjiJgVHi6-aBp_y_rHzHWomi9FixTGA77MuZVborM5beLfDMIYq-weqfCasX2hxWvuQHEhB0qt_zniI6FfRq8tAfpDZ7GhRzBdDwP4P7Sy5PKLG6BKuD8r_kbw",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJOwB0vXsCDTkRtgBl0UH8LQs",
+                    "reference": "CnRpAAAAFAa3rlF14evHazym0wSwCnOR0Eh2GdVYNh5PFf-DTA-T3BUFRLjZfouHEzUAzYDSMLE3WLyn-ySwpu9W-CzA7PFZg140b3qQdFv0U1kCsXiBvXP0TlB2LW79zodpfd87F8y9UI0UrUE8CO9hHlSgQhIQp8H4U-NKR_5yb26paIlaGhoUmGljqA2oQti-h2zOpJY12xSi8wM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Swami Narayan Marg, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6736775,
+                            "lng": 77.1870564
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "466211f2f05d7ac5c21f4c759053e4be31edc46d",
+                    "name": "Bharat Petrolium Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ8bhvXsCDTkRdyp1QIudWQw",
+                    "reference": "CnRoAAAAF6rkD5WwIvB9LYsIxqJ-RDVEuBy1SsK7Gu0kk4Pn41Tvkv9StwZVfkjTmwFb2mSFXlrZg9sx-kdAG9WvAhvnG2CEIHPkuyugJH4gW_ZB7U99TUGNyeIh3z0sr7EZsQNxhQH5cuvHR3ZRp_hxG4MBjRIQeIlRrEVVkrTOh4zNSng26BoUmAJcOsElozvvG6UUC3jELN7JDiU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "No. 7, Chowk No. 2, Swami Narayan Marg, Roop Nagar, Block WZ, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.673749,
+                            "lng": 77.187771
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67382519999999,
+                                "lng": 77.18780305
+                            },
+                            "southwest": {
+                                "lat": 28.6737236,
+                                "lng": 77.18767485000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "006d9f86a692c09626ba31b75ac7a57250b8f8cc",
+                    "name": "H.P Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJUzPLw3sCDTkRbOiirxywZsw",
+                    "reference": "CnRjAAAAE-6F1lh3p9pgd8pJ-BXvFF0WaXjj4uhh4AItOOXL7zIddlYGAFQJ87H1e8RLZNCU4clOSGQQjFNuSAIdxcOZjKDiqcs1NP3KvyNOzI9FGea44TEpI398H0MzoI2dTHP_h9Q1ELB4ksweQN5YU3ro6BIQnJNP54yT5gdfYvnSDdS9PhoU4N1O8SAr5pTTYuUpZJOhu1qf2H8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chowki No:2, Roop Nagar No:7, Swami Narayan Marg, Gulabi Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660628,
+                            "lng": 77.14705719999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7a86ed5f071d2585066d134b28a3b283947177a6",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJRe1PRwADDTkR0ewIa95Xvbo",
+                    "reference": "CmReAAAAb4N03VPMPbAoPqumeciFSdISA-syIA2spbSc020NwpMH0cc3yxocnDS3Kd3odF0tbfo_dwHLYfRkJlBRfUzhKMUfQsTxBS1tu3Y4y8t2LsV-afgWFhFuSb0hrShWQViLEhDf6ZVdIcAEF4YOdhGt4yO3GhRDKmKXaTCtBjrZXZ5sIciiWYS3ZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Dispensary, New Moti Nagar, Moti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070609999999,
+                            "lng": 77.17651699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c6e7a53ef04102621859aa129c196d79508f082",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJZReY_GMCDTkRBP_eFXEup0M",
+                    "reference": "CmReAAAAsHU1JwEtUZ8c7GwihkJR4f8sB6jqIFTqbAQlu-Bftzug2JUp5Cy6haSIhtGnR-w2xqNO-7C1W1XD27BIewCpo2x-sDLkzE5rCxmzgGArz89Lr64hvNMlVwmleSYHQ-ZlEhBJu4BTl_2xcJ4fQhzNin6dGhSGwLrSUgg42fFrkjKWcAw12agoGg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660083,
+                            "lng": 77.1812729
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.66026345,
+                                "lng": 77.18129084999998
+                            },
+                            "southwest": {
+                                "lat": 28.66002285,
+                                "lng": 77.18121905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9141c7901a506e01f2313337fe3f82e8d6dc11b1",
+                    "name": "Sudhil Gas Serborish",
+                    "place_id": "ChIJI6JXy4gCDTkRvuEMmJFKBs4",
+                    "reference": "CnRoAAAAVZAlerbXNTmwvvSkuArlUXD8MmHQq5DH3MkjlhZ0QW6ZOI562XvWgt9e8TFkzpoyxMhh9Yzhy0QT9cGLzYxNWjZoxDSe9NGBXU4ILSyK4AeVZclWlcVMvMjJseCpkFvoBvmPA5KppJcSlEQEBmcsJRIQht8MvzxtECLlLixCfxmCnxoUlVaMJtcV2ggcGcXiH__w2Q3kTDQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.274, Gadodia Road, Than Singh Nagar, Anand Parbat, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.658858,
+                            "lng": 77.183027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65895475,
+                                "lng": 77.18316315
+                            },
+                            "southwest": {
+                                "lat": 28.65882575,
+                                "lng": 77.18261854999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acb07be3d549d4dd811be6edeafed11076cc51dc",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJPYDq8oMCDTkRTqVXkz8jsFU",
+                    "reference": "CmReAAAAwcPoL4HS_m3PbkV6_cIL1Lp-80UjF-3imangPCZsV2E_XgnAe3Sy6Q9vDly7M5eGQqYrRPamEfSUiJ3C5kROW4b2XLxEIgCWY_3pDPTzgP5qyII0TwGUuWMg0piqvYvZEhCUUZf9rE9lmAsqdqIr8fvFGhSs2P1PoRmJpKJDk2FGf-kREnHvig",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ram Swaroop Vidyarthi Marg, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6450304,
+                            "lng": 77.169258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "03d7043a5552a84ea04999f2c4c358eec8d28a24",
+                    "name": "Associated Trading Co",
+                    "place_id": "ChIJz7tPT_wCDTkRZa61bz2uQiE",
+                    "reference": "CnRoAAAAkd9Jk6pHms6d1JN0qOeb3RdXJB1Zo4d7Hm7mJCLU5FdRe-6JWHWKGVFpZHG1SiK5I5Lj5tMj5nerHobQLvjfavQOlu4n0Hb4F1QX_erGXXq32Gf0zVhN51Sxf7Q1kvBkeSYxyFOJprw7UZbO0HBgpRIQjmK_kEKmFVXkog869H-JGRoU_z5WuEbx3zGvmER465fVE2HgyCU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Patel Road, Patel Nagar, Near Shaadi Dtppalldepot, Patel Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.65948359999999,
+                            "lng": 77.1894123
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "270542d7871da1175397f9f37ec2065be431de21",
+                    "name": "HP PETROL PUMP - BANSAL SERVICE CENTRE ROHTK RD",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJk3e58oMCDTkRPxZ-Q_-R8sc",
+                    "reference": "CpQBhAAAAH6tniLf9LFxIEa0kyqDDSz-y8y6GXX7H4j1zsEQV0UnHmJuNyiobXvXF4SUw-OAAZmJ7ifEARe8Tj0pprc_dLY0-n7b98e2gins54eNxAnmZqtedPG8VUpFJLZkdb82m50SQC4eTdkA-olnm1LN3S07w6wcc9AxoGwdAcT40Iy5SkkiOxwakJbFYo2Z5KZIwxIQFi0J0Eqe3rN8mnvlKFLH5BoUuU4n-nv0nDzGveNX41KrfUg0qI4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Liberty Cinema Rohtak Road NEW Delhi, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6594754,
+                            "lng": 77.1894372
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65975725,
+                                "lng": 77.18955374999997
+                            },
+                            "southwest": {
+                                "lat": 28.65938145,
+                                "lng": 77.18939835
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ebc6bc960f2914e3f61ee912037510c20b1cda",
+                    "name": "HP Petrol And Diesel",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJuWW58oMCDTkR7kG4HCo3lI0",
+                    "reference": "CnRoAAAAnrx2Er8X5o0n0xLwdE6HhcsJ1xaPrJCsnlMGMFX19c2M7OHB9KGoZ9wuL5n4d3lRVE7GLA1oASbvQLVomE_0jfq90p-8dOwT6tKnYtAIVIX-JGA68XHpmJcXNIkQ5M0kpOT11bRXBVd7MnxBZDhauxIQQw6tpwd6hUpcsfvHOvqfVxoUQPRSwHRZJjG1J3HBvoLyK1HDe60",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Guru Gobind Singh Marg, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6424994,
+                            "lng": 77.1762957
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6425957,
+                                "lng": 77.17643444999999
+                            },
+                            "southwest": {
+                                "lat": 28.6422105,
+                                "lng": 77.17624945
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "586aabbdc503f77afccaab7e149daf21aef11ba9",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJjd-k95UCDTkRqLG98NyVQv4",
+                    "reference": "CmRfAAAAgCifOk_npP9iwOUx_UL0Izf7qH-L08QUcGr0lvgBCBPXYhgw5XN5_3w2PQIDFa1J-Z79IyZmELE7VOnyHo6YBxSnu8qRcKcvUE9iNzc1r9QRu2bElwQMoeXTG822EO1rEhADSF_Bj1YfaD8FcXzNXLCzGhT_q7ENxapdsFpoc75BUpHQkSIWnA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421608,
+                            "lng": 77.1756747
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d667ef42269f14f052a541235bb921f434436bd7",
+                    "name": "Maan Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJd-3rnjD9DDkRF94tZ0lDYoI",
+                    "reference": "CnRoAAAA-vU3IZB2GcA5gcqceFDrT4qThLtNotIeZjhX-yXyHXuC8U_M5rfoU85RzZu-SibWlDcnfuaKTCCc6z5ko3SagdNhVIO5U3kuIE-K4k9G_NozUNfrdqUmW7eem-4qvO-J29a1FaDFqeH5k12rXE6hSBIQBK-rmEavzV_zuUv0kQOzVBoU4ZYwwFF_iZIuvNJr8YOLxUxwMFs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Rachna Cinema, Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6487798,
+                            "lng": 77.1619618
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64944745,
+                                "lng": 77.16248785
+                            },
+                            "southwest": {
+                                "lat": 28.64855724999999,
+                                "lng": 77.16178645
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aad099db0330146fe4015161e6794234088bea88",
+                    "name": "M/s Associated Trading Co",
+                    "place_id": "ChIJ9YstEO8CDTkRMe6nwUd75vw",
+                    "reference": "CnRtAAAAc_OOoLnnKnQK00p6P-GarLtOfgqBV49WbDU-6jGRS_EE7_pCaONV7kM-GwBs4U4RXT8SYW2FrPQNXlyceQbUm_OjQtmUpdnOXcWsK-ui-VOGKF9vH3yjO4vmgMyenSpM9wbcVoIWGb0QU2cRKtWHxBIQly6If34YraiRIa4XQ_jXexoUksMOImOfaVoR4ZO5cLsmAWQEL18",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp Shadipur Depot, Patel Road, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6393807,
+                            "lng": 77.1739206
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6395397,
+                                "lng": 77.17451805
+                            },
+                            "southwest": {
+                                "lat": 28.6393277,
+                                "lng": 77.17372145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fdff412679a49f89e8a5b43e022446a67031459c",
+                    "name": "Motorades",
+                    "place_id": "ChIJjd-k95UCDTkR63ZIwSXQaxE",
+                    "rating": 3.9,
+                    "reference": "CmRcAAAAiRbyq_uzRp3KdxopmZfv9zL1ToFIR4vXgQU4eUiGrEImWWclC0qlcvkckH8egbWwctEzHCEF3HB0OobKEO7EDtg10f78gcq5Z8ZMPRR7UNw4hDgQD_wB8dBANwAn9AcWEhC-nFIWXF12dU1Ck-87nVxkGhScy_Yh_Xq54XdbuK1A83Yh9l29qw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr KS Krishnan Marg, Pusa, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070299999999,
+                            "lng": 77.176518
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f6ff98ef7a49fb07de5d0895c2e58d0261c23332",
+                    "name": "HP PETROL PUMP - NORTHERN SER STN SHSTRI NGR",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI2X9TWECDTkRfBOoMnvvLYc",
+                    "reference": "CoQBgAAAAGPQVYbz2npT3y2BNhpJCwp1zKnkfEcE462TebwveAvtWcF-iFapJMHRwuJsZrNgPLQdQWrRLm6zGKSp9BgSAXbfFlHA5Zg64bONh_4qa2mC8UJsYMIzxZ_Cd9t_1_qtvLPJhmDk-PD1AMpY3nLlEebcWAqGIZZ1cAQNCZKpkj0wEhABptgX1KU9CyFRsPdUshC6GhTb2-VXl7yuEFbNcNWk8IK4smTJAw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Dealers, Road NO. 40, Sarai Basti, Near Shastri Nagar Metro Station,, Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAC24q1Y8cZFfFlHjyiIVmyzRIWicoBiL8694SlzMmZwc4kukKoVBvVSjgwx_tvT4INgtfI91XLtrqZoRlqFG1k_F-c_WTKx7VHOpLwN6ktwGYsIZW4LveMXuDniQPf-Zm8Xjsn7Ec0fe4aFV2xLj8Q4sBReG50jZ7rexNXQW0-d7fGsg-aJxM6dHMwHKLCn7UdIfUTXHnAGvprI1iNjB1H_wT-mqusRztaLeminjqFwrUXjN4Qw7wf2Y0yJWV6TRDeou5lcen2lqqlOU0xDBKUZ79VcPvlwQG8JPNDC_OjC-ta6OQjzhQAVfpMCR9lquxZbYQqsc_JoeHwNut5IqhiUSEIGPAvWpjzHTRUFolo8Z2ssaFDggUIkfgBozMZyi-Bd2M3K043Kd",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.654966,
+                            "lng": 77.1558343
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8dcfab80fc6b9a4b1b2d720ad0db415d0b2e83c",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1966,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100063209034995679603/photos\">ANUJ KUMAR</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIWYChU7mNjCd2w_n6fb13Du_XnaqnHwChAoTqJ9UC4apqiap9SyKJxDlf3zkSE1JYNv5iv-IscUplIcU-78sq10QRO4V5K0MlyCtZWwG_eZ97FwjfEOeYBkmHCQvvOnccTWHMvnLF2tMj_zJl0kxl7xWGUeGGsoKUfHXBYLRjUKEhAZNWQlMy-N88zZceMDQyvbGhQOjwjFgGW9yY3mTs4XoCfI7y62bw",
+                            "width": 2502
+                        }
+                    ],
+                    "place_id": "ChIJa04__2kDDTkRctSdUgy_qkk",
+                    "reference": "CnRjAAAACUNftoVeERzk-ss4yJ18RbE5f3rixCYxxo3iapBjvEBXzzjetJqm09qThTOhDM9K3aSwKjTuse9BIKHgUuHdjJdzpk5K9gDoJczVwEAiooQVNlhYYxvpahpuX2qNYBZxZkX9uXAFgLOCj8jGd8HGDhIQpIYu9w_u_i8QuxrSi3b9rhoUd-rM2RJKB80Iw5odkujcoD674Os",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp DJB, Subhash Nagar, West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639684,
+                            "lng": 77.173796
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "872c00988cfc8a7ae626dd4b93ee7cd99559787b",
+                    "name": "Bhasin Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 286,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102841198723096799355/photos\">Bhasin Service Station</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAL64sb8mQYGvOy7mItJmOC03m1smitW2Kd_8_XUVRC6FARjBzLOH4ZWtDxwvPsyy9ujH1FoNdxVt2rMw83gI3ieCPzdNLcdJDUkswP646L9c6PYO5OojtPqU3uKNjiyxi5GXV0i9e54MM3ANsSqAGt8ICuazzJGYnc6hHKI6cvQaEhALAO-pCqmLtBdANGcOwJrIGhRNdyceOs4nibJl3P715S0f0LAgIQ",
+                            "width": 283
+                        }
+                    ],
+                    "place_id": "ChIJoVTI4pcCDTkR1aem2KZElPY",
+                    "rating": 4,
+                    "reference": "CnRqAAAADgdhWXDx4de5W98gV4lheY8Y243QNJFo0sx1vKqQckX77UlaM7KA7E2jgeisUcqx5eAaFAa6FcMerjSH5b3M3bBaBGWGE5-aEQ3FGFS4Fim64Z-xQFaiTpmVzI1B8zh8FYLlMoocOmGSrgV_oju1mhIQ4YuHqpQtmhKRMdEJchT_wRoUDcBG3riwfGu65I5c0WvOb00fh9A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr K S Krishnan Road, Pusa Gate, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6425547,
+                            "lng": 77.1764422
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64267175,
+                                "lng": 77.17649080000001
+                            },
+                            "southwest": {
+                                "lat": 28.64220355,
+                                "lng": 77.17642599999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f995fc9e377923b0c95fb564861fdc87b93657ff",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ5Rm795UCDTkRTYAdesD07pM",
+                    "reference": "CnRkAAAA1SD1s07Q8Rw6lVcWYQ1yAShRT2zngYVf_k625QaJB_7f6rWQkobXa4-ns1CSVBCYg8NgbpqmAuxOYgUYnHwbJ6Wo1-ijw1KndcIkyyUalS_GsW6KpEM0uSB9-IE97GApLdBQqjPeS7YwcW4q6vRILxIQ-PL-48L-GJIEjwt33UzMvxoUpghBbw_g8GvKUaEsaNssnDp0N3g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No.155, Pusa Road, Rajendra Place, Central Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67354199999999,
+                            "lng": 77.186776
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67364049999999,
+                                "lng": 77.18707869999999
+                            },
+                            "southwest": {
+                                "lat": 28.6732465,
+                                "lng": 77.18667509999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "17d66f895c67d6953b2309ed043d79ec5dd408f3",
+                    "name": "Veejay Service Station",
+                    "photos": [
+                        {
+                            "height": 1536,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100211628651032350758/photos\">ankit kalra</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAK2jyzXBsOdE3r68qsd_kYjtwdSYIaI_l6aTDiVoN1RTtXlGtqyUKFtuiEJXu7_fybKgGnSB7fU8yJ71PfWgXl7gxO88E_9O6gf3NkVfqLbUUm9Aq7woTrBnhncKQ2fA-MdZzuCUvMHSPcmFw-FsMv6ZpX-v4JMmJpl_-h8yrBD4EhDoykUgwYPS4o5ondxH3me9GhTKWk5QVPKkeIhP6z6JHs6pbePYLQ",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJOwB0vXsCDTkRtgBl0UH8LQs",
+                    "reference": "CnRpAAAANbNftIE_22_zPsbU1e3dbafXuS6Lp4KTfx0L1DLWaXe-2-iLv1uy6i88SV7k3EVnBxBWJJ5Qoj_5bv1Ub-tmWL0KBjz-RPR5eG7Nlf-gVU56mSuEz___Zsd6AL2OjZpjQ3IKMXYZAis7D74R7SD36RIQZjDRPz_2HUVDvrMtDKj-PhoUaakzLINZ33-Om0PCxCwqQfVRS2k",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Swami Narayan Marg, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6523772,
+                            "lng": 77.1561704
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65280125,
+                                "lng": 77.15651060000002
+                            },
+                            "southwest": {
+                                "lat": 28.65223585,
+                                "lng": 77.15605699999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "97ee83749d3946eaf3809a31c981e958ac6b144a",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJaasTMfsCDTkRMu3pvUXcqZw",
+                    "reference": "CnRqAAAApYIibFzapPeEnfJImlg1iASMFMb2kN3Q2EljZua2BbEjh_eflU9mF1ZxnhTlxs9yra6Gch5cgDKhBygNldfktWmf7vTgeA-Sq4zl9mO7MrcFiNNPLo5PrbHLTVnmV8Gz9CeHBWg1CWI45vozgraAsBIQ_4PuTq9wnIcZJ9Nbmui3_hoUcfHM97tE593H0al-gt-Hxou7j20",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Metro Pillar No. 244, Patel Road, New Patel Nagar, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644667,
+                            "lng": 77.194499
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64480245,
+                                "lng": 77.1945071
+                            },
+                            "southwest": {
+                                "lat": 28.64462185,
+                                "lng": 77.1944747
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d8da08a56669538bb37cedd30310209058da91b",
+                    "name": "HP Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2952,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103963205928017779979/photos\">Kunal Wadhwa</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADdYRTXvUQBNt3dO9rlnZZZGinYBcQRyb8i8U__fktPpkwL1HfYwFo05HG5e4S04ZYs1_vx7wuG7BFXIQRxR0xS8qLiEOQ4z_zsxWiXOmTATI8gNSoeujFyS5krQRilJD11jwadJx__90qO72PQr1IKn2pHQbrDl8h1GfuRiNdjsEhBPzKv1Zm7gEfgB_ZoYreN3GhQocpz6vQ1Wuphm3ALbJZdnMv-YPg",
+                            "width": 5248
+                        }
+                    ],
+                    "place_id": "ChIJDyV5_Z8CDTkRiUgdMLwXgG0",
+                    "rating": 3.9,
+                    "reference": "CnRhAAAAjhNzDtDJok8J0JA1LhpOC_yfUSr6jPDJ-lIZHvSnDDG-G--P7b1t6CXW22LBsL5fTnAorkmwAHA8dhdVxMxMi6P5Hnz3Ltdb58NYhoNiozJwjllKK905Y4Yac25nuBttOTkg9T4JkQQnjE_baIMPERIQa8vv8weGlgskqb5YzV34eBoUF5sIcbLQBtmgBrEd2K227wbPzW8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road Service Station, Opp. Metro Pillar No. 80 & 81, Pusa Road, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6736775,
+                            "lng": 77.1870564
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "466211f2f05d7ac5c21f4c759053e4be31edc46d",
+                    "name": "Bharat Petrolium Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ8bhvXsCDTkRdyp1QIudWQw",
+                    "reference": "CnRoAAAAL_FKmYmRYn5DrVeoBvE-SICqSBCa9FfF8vPKeuIPYjf_5QSMzx6nTqMX3T_4BSSAPYiXsMd_a4-xpyK8ESSWs9he-RfItPsUYVlBhBWpJ_UV1gPltLdjq7S0FsHt6KTpkgYxypifKkuSCWcjQ-RrwxIQm5T-TY1xmh3FGcQqY_eP9xoUgtH20R0PHQmC9A62koLddaqdnMg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "No. 7, Chowk No. 2, Swami Narayan Marg, Roop Nagar, Block WZ, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.673749,
+                            "lng": 77.187771
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67382519999999,
+                                "lng": 77.18780305
+                            },
+                            "southwest": {
+                                "lat": 28.6737236,
+                                "lng": 77.18767485000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "006d9f86a692c09626ba31b75ac7a57250b8f8cc",
+                    "name": "H.P Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJUzPLw3sCDTkRbOiirxywZsw",
+                    "reference": "CnRjAAAAHM_d7dHtD8LuQxXlmFt9MbMTQH2yTSGw60HPs6n6hNLsvmOdIph4lEsEg8e5vvlNxmGTLY7Vp67AdSL5ipisl9adIs_RdJOzTrl2lF_myDhO1AdXsAVWv71tpGtNf19KN1ty7BnR_BTE-8a-4RvGIRIQ-9q7soJEpfzqR1CsrcBdSxoUaNI-Fva6uMkIxNrtdQ3r4aeyfss",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chowki No:2, Roop Nagar No:7, Swami Narayan Marg, Gulabi Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660209,
+                            "lng": 77.14621199999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "71501a18b7b5d6bb0b5a5c8d27fdd7591e4d9489",
+                    "name": "Hindustan Petroleum",
+                    "place_id": "ChIJPUpkUAADDTkREV2gshBrQkA",
+                    "reference": "CnRmAAAAf-7abzT-sTlafniQoVFk0o_qQhaSC8rB7QC8zSiuIHf8gTpk-HDwOoxFZUwIR4ZhYEJ_jETxj-UvfL72vK9MzcS2zV2JEDO5ycVAdlqDRO__dYe4JJE4sdNSR4xUGWccMbbV2SCdGBx5k47tKZqWZBIQEsHSyFCE1VtejbH9IMhYThoUYrNGfBE3ZqDmJgj-V_4xqNLgX-U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Fire Office, Moti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660628,
+                            "lng": 77.14705719999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7a86ed5f071d2585066d134b28a3b283947177a6",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJRe1PRwADDTkR0ewIa95Xvbo",
+                    "reference": "CmReAAAAxhloGPUM5gdDMeFCXd9zub99m1KTouo7dQLYMDRNf_obTrIpPht7G7h7MTLq41pjJtvKITgxiNQlKDEeIWNnQavyThh8CLaIyWhSm-sQAFTViyJYqypjWS1jNGascF5rEhBTQS_oruqYWv7pRa4FQpx5GhSi_SMOWruZIqHA3MDm0vkRu3rbPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Dispensary, New Moti Nagar, Moti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6824366,
+                            "lng": 77.1979398
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4eb2910556b253a159022731a083aca61357d7da",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJt8olHYn9DDkRWnoAjxCTQ6w",
+                    "reference": "CnRkAAAAoX7rh-K5ZATmx5tiY6gCK8NxNBpYl_zcJMuupUynM6vi8Gd_T2X84HHqRo14vfcu2oAujh59DlKEq7CodOT4cdYRRbjYBAhmi7Y739ovKn6tmjtCv_Mfx5lcuVPzcHbi4LEMPS3W9kj7KA_AiUoCAxIQPWhZViGbsDwJKSWZGBW3JhoUJsisddLSmtbMFNvVBGT2KYPxvZ4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kamla Nagar, Roop Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6737839,
+                            "lng": 77.1432562
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67409335,
+                                "lng": 77.14331769999998
+                            },
+                            "southwest": {
+                                "lat": 28.67368075,
+                                "lng": 77.14323569999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4e5b36379238dfe8abfb7bcb4619f80c5b7b67c4",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGbAqB7IDDTkReuCDE8Z9tdY",
+                    "reference": "CnRqAAAAaDgNvNRVCZjlKdxFTYKIu9d25DJt2fcrsBjhOn1KSOM1K1RwGsKGJ2H5wlympplqy5J1BsZTR9bVN9ehcSX8RN4VpcqWAAMorVawuqQVXQ9VQyQIAiOsuK8AXcSVTre2NdTK_kUi44YOiPcpi4iFpBIQSbvPEv5OZaib4gFAF9aoAxoUzRG8NmvXJa8bE7Lz613YYbuKKSs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rohtak Road, Punjabi Bagh Flyover, Transport center, NH-10, Rohtak Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6310291,
+                            "lng": 77.2056498
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63104875,
+                                "lng": 77.205787
+                            },
+                            "southwest": {
+                                "lat": 28.63102255,
+                                "lng": 77.20523819999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "788a63334b14b29f31a3953e74f6025ea651792c",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAO_bO9OINdArF8ovFiUIoDZnxmT85e7fJn1C-esueXdKetEwrJFNXUogyYAXAp78ZSaLx9VWHPAOHoSjNEGamiOwg7efZ8PMhjDvOYU2l13HKkte_MGOWW4IeLVSDHXC30ho145lh-FQ15QXXCQ-rNLH2jRth407xvcKLbrVgix8EhAR324Hwtk7ae9oNl7CbAq9GhSkHRAYxSjx1fJOk8WfuMsuxzGT2w",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJZ3p_K1D9DDkRNzzSUWgs5Nk",
+                    "reference": "CmReAAAACkwgOWZswxNqoqXxR-s93SRM85HvktUbkn5y8iaI_B0JjIfYxNZW1vg8eRE7R6BOOSBdrfMsKtJqLjLy1Oqr4sAkYksY-1sh-oewg_yxxLtfAyeqUHJVL0g5-zJSjF0UEhC28S5jieXDfxXpff0dkty1GhT3ZGMnpqsMK1CstcGdyBB-nBTb_w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "1/1, Bhai Vir Singh Marg, Sector 4, Gole Market, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070609999999,
+                            "lng": 77.17651699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c6e7a53ef04102621859aa129c196d79508f082",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJZReY_GMCDTkRBP_eFXEup0M",
+                    "reference": "CmReAAAAU-1iC3e--3wN4q8WDl_rEdQNSd2bL4t8UovnPEtt3Mkd_kWvp2XchbHwSyZAuUUVDrG7gqecbwTwOzSffazYL4--YO8ZXfMOuC0m2fmnDldMh7WzOELdIRYdqbsMagcjEhBGIiP_gpGMInhlNWmwyDBxGhQyaJlDmHJo1PmbvOtPHxrIW9pE7w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6444265,
+                            "lng": 77.19880119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "985ed32c271c559f70fe1569317721465f394001",
+                    "name": "Petrol Pump And Cng Gas Filling Station",
+                    "photos": [
+                        {
+                            "height": 2340,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109301863343887810519/photos\">Namrata Gupta</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAKvAjBf4Uk3sJSnx7FIfINqZUHgk7eQYjgsI_0y2Abk97nsOLUwYBZACBUHco1Qk2wfVtjQ5Vwke6Gje1WyuIoMmThTzCJKdRbXdgoO93dVKd512w7ylyhhJikDpmhDqYHrxNc0znz3sRlDNKXR6Q_peP1IZA2dqCWGu5NbOBZb2EhDOX32GHuxtLjPEtrXVmLF1GhQiuCmwbtj8eo6raqZzae1XRlbBDw",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJpaCTH179DDkR4M1iKAy_OcI",
+                    "rating": 4,
+                    "reference": "CoQBewAAAPsLjEBT7XRyGX1RRMh7sEW3tuyvCG3vNUmW2lhzzxG1KZb26k2b541BWFUsvERfktBpwweiUMwzbPrGolSL0yNr4huU-LYUNdDRXZiLx9Gyq61SQWwJV5kar8tuB0K7fbsvZOFGa85JaTYI00hHve3Yq1-gmNK0RX4MJwiKn3zBEhBAyoF2OwR_kCD1d75TTA0nGhRLRCkH9QETNkGf5ctCcPRCC4HF1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhim Rao Ambedkar Marg, Central Ridge Reserve Forest, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660083,
+                            "lng": 77.1812729
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.66026345,
+                                "lng": 77.18129084999998
+                            },
+                            "southwest": {
+                                "lat": 28.66002285,
+                                "lng": 77.18121905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9141c7901a506e01f2313337fe3f82e8d6dc11b1",
+                    "name": "Sudhil Gas Serborish",
+                    "place_id": "ChIJI6JXy4gCDTkRvuEMmJFKBs4",
+                    "reference": "CnRoAAAAFM5ekWhBjmgKHa8unW60MUKHK2Wm0FGeWboiZuOe59sq8Fz0bp16kaxFC-HJelE5pkdJk16qKP8OVTLFQx_bSIQ0zt6W8mincE7utu8zeCvUHTjYmfmv_G6twsEhdU09of6PmMk6MCZNMLhme6vyaRIQDJyZAw9HHWacEsSIvpt-khoUyp2uG8IG2-Av3lxSKjnxRL49d9M",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.274, Gadodia Road, Than Singh Nagar, Anand Parbat, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.658858,
+                            "lng": 77.183027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65895475,
+                                "lng": 77.18316315
+                            },
+                            "southwest": {
+                                "lat": 28.65882575,
+                                "lng": 77.18261854999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acb07be3d549d4dd811be6edeafed11076cc51dc",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJPYDq8oMCDTkRTqVXkz8jsFU",
+                    "reference": "CmReAAAAB1Vp7WLZpfKUOukCobviQKLRcrIaxREKqi8JYLWzfppu7ZhDu-0KKuWC_FZtNwJLbjncBdQhd7ylaB_FJqNEdDD0rak5qCeWJ2jeC96Pnqs9HQp2ScrXLfXcyl1uI2cSEhA-dAv1ZLOtdHH6tr2tqSITGhTjjGl0Qzb2RLwJxRFWSDtHbEkgrA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ram Swaroop Vidyarthi Marg, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6450304,
+                            "lng": 77.169258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "03d7043a5552a84ea04999f2c4c358eec8d28a24",
+                    "name": "Associated Trading Co",
+                    "place_id": "ChIJz7tPT_wCDTkRZa61bz2uQiE",
+                    "reference": "CnRoAAAA4TQG1k4AAE647NFyWLgx1C4cLhvkK5U4F8oFrphxkw8DLOU4_xzdr3AdK_0d6n313C6_SHHMXiYrkzXu8n9_YJWWHgTfYSKJIzhCLneYS_2VsFjIrnsDfK3SH3_VryqkhakrXjWY7GVvhUQjFVQs5hIQA2CU_GpgZ7-siAFBtRI6JRoUfIcHXcU8gQs0Q_srYJXxwSKsi4o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Patel Road, Patel Nagar, Near Shaadi Dtppalldepot, Patel Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.65948359999999,
+                            "lng": 77.1894123
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "270542d7871da1175397f9f37ec2065be431de21",
+                    "name": "HP PETROL PUMP - BANSAL SERVICE CENTRE ROHTK RD",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJk3e58oMCDTkRPxZ-Q_-R8sc",
+                    "reference": "CpQBhAAAAEUitQWrbpnDryIpZRxn92t4lXj1506FaddBJhEkf0CuWl0_-D_vZ2_XcaGP8Tf85gy58WSBjTKf3litbV3GLJZI2sQh4LXAjyh8D_w0uVc8hzoy9i6huFB_YanCRYV_U3HaOml8ss3FJUGczhcw62uS_rOwUjAJJ8yp42cJJZUh_uxBDghM7pBy3TgfRPWc2BIQQooA-jbZF9G1s8H0dNGohxoUh1_JhF8Sa-fMhzetvEkhG_0M2ps",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Liberty Cinema Rohtak Road NEW Delhi, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6594754,
+                            "lng": 77.1894372
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65975725,
+                                "lng": 77.18955374999997
+                            },
+                            "southwest": {
+                                "lat": 28.65938145,
+                                "lng": 77.18939835
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ebc6bc960f2914e3f61ee912037510c20b1cda",
+                    "name": "HP Petrol And Diesel",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJuWW58oMCDTkR7kG4HCo3lI0",
+                    "reference": "CnRoAAAAXKMFoHZnaYAuP2i9ovLaizs41AqJ5Ulhx6nYk0R0HL-YOsPvtTeTmKN9B3-G4hJZlFi70O8j_rngDxZmt8YO3hCVgAI7Jcjb5AwvhnRc8bmNZLAyjZ4oxvrfpzdvVPaMRCjmEMmTKMiMosWiLEGuNhIQ9LliGFtjTXgoE7cQ7JsyfRoUQ3DylzAJ4_c5kXePSETvRraOkmc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Guru Gobind Singh Marg, Karol Bagh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDoAEAANvh5UdprbOF2G3j78ykuJDbhe3SVT4rtMRukLFX04M54hHf8LJHSASZus5bQyUIa9-N9tPFkg3GVBXro-NUYL5lb-4cSEQ_kVXCrDoWlcaX_SNHytZm1wQRRCceNDZ3ZwC1TR66OGNQ5RIAaCbFWqUb8izTMBWh6WQHAASwFbSwSTRPm5Xpz7DJfWYNCupwwvq3oqA1unO9SQoE8kFVi6nSdAHnSAsFBr1IR0xgigMbElvNB0mWmGRB88G7RQGsvDSuyqejKX-Qfykh3vJTdQe57VlVbETUKAYOqWBTgKOkU6oLy-SF0z78yKdYWZkNGPqIJQ8VBj3RGJsb_mHJL48ROVTWXylUbMmnJO1D-Z38uTp4WnuVQbNEOaliCJq0VDpzVmuY1_RQus6u7cGhc0mHA1CTO4ByniINn-3QBvqKmsIoM5qT6AhbXoiURwskVccSu2bMtcLwQunA5UOo3Z51HwZw1_Jgxzs--ot5q4GzPD0nqC04RIpCPUOqq8rIxjuaW7A7H9MVUIa6frKVpZrMJKtd7xuJ36-EGJ-YlbvDEhAOHdhlrVdmsU6UHV3TFN4JGhRVxpwMdCgmDzeCYhk3RuGw8cLODA",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6424994,
+                            "lng": 77.1762957
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6425957,
+                                "lng": 77.17643444999999
+                            },
+                            "southwest": {
+                                "lat": 28.6422105,
+                                "lng": 77.17624945
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "586aabbdc503f77afccaab7e149daf21aef11ba9",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJjd-k95UCDTkRqLG98NyVQv4",
+                    "reference": "CmRfAAAAf0EVHn2_LuSYvk5wqZVG2LMtt4c4uSLJQKtgbABBqxKN6MrzJ_flcPYvDW1eTC59Is57KFSLaQ2rdTKtxveF3ysazLUD7ospm7bBU3-KoNtQlxgbO5DHpbUViDdp9iudEhD4y4h6UWu_lLWsTSbPyL35GhQdmKJQ5dSuCLjGOwGGndlcccJmTg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421608,
+                            "lng": 77.1756747
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d667ef42269f14f052a541235bb921f434436bd7",
+                    "name": "Maan Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJd-3rnjD9DDkRF94tZ0lDYoI",
+                    "reference": "CnRoAAAAiz0cquBLxktw8pNjQzwcJNKOpm6VD9BCVyore25cTo6nBrI-l4vqcX_X6dSosSzZfGqWRj-pN5hm73YS8JzZuBqTAUGMFOp3tnIbl7eu1w3GCqzslOquz5YxaZYDPMYITXZHN0PVzjT-LQz_jtJAcBIQCN_i4ZQADKqUNREuaxx2jBoUkDoZAyQqMhvXSr155JU71WTzBDs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Rachna Cinema, Pusa Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6487798,
+                            "lng": 77.1619618
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64944745,
+                                "lng": 77.16248785
+                            },
+                            "southwest": {
+                                "lat": 28.64855724999999,
+                                "lng": 77.16178645
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aad099db0330146fe4015161e6794234088bea88",
+                    "name": "M/s Associated Trading Co",
+                    "place_id": "ChIJ9YstEO8CDTkRMe6nwUd75vw",
+                    "reference": "CnRtAAAA7GhCiNKAKUh1AVj81nuooScRKA_pu2wlI-qjPpEhqH_Kg7bSnh1tAyYdaORbqbZS_HV0ZklV3QdkevMz6IjnArp8CtwZtfeq2xzQkEJt0C4OZ3sebGMJsRaGqaotUbkcavoFFQ2oux9G1jBS3BrrdBIQQZyQWzwy7Vik_Q6d3RgwGBoUu1fmuNrxvMpWbHfIm_eQrdeQ_6s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp Shadipur Depot, Patel Road, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6393807,
+                            "lng": 77.1739206
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6395397,
+                                "lng": 77.17451805
+                            },
+                            "southwest": {
+                                "lat": 28.6393277,
+                                "lng": 77.17372145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fdff412679a49f89e8a5b43e022446a67031459c",
+                    "name": "Motorades",
+                    "place_id": "ChIJjd-k95UCDTkR63ZIwSXQaxE",
+                    "rating": 3.9,
+                    "reference": "CmRcAAAAB3p5lbb5mRCkp7rgZemOP7dAtaqyLFGCG4kWoc8hiY_pKYw89z44X60uHX2zVF1ldrgE5a1dfPjZXifPYRJfT5edP6xL6cU2dcMbRHQlAqMms4vXf876T8TeRLETRUkIEhA3rBIzVvKb2hHyYjzAwymwGhSmDK4y51ZDbyJ3WhB7RtuVVv3jzw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr KS Krishnan Marg, Pusa, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67070299999999,
+                            "lng": 77.176518
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f6ff98ef7a49fb07de5d0895c2e58d0261c23332",
+                    "name": "HP PETROL PUMP - NORTHERN SER STN SHSTRI NGR",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI2X9TWECDTkRfBOoMnvvLYc",
+                    "reference": "CoQBgAAAAEwzHjUdffhSIZqSuUTpkkKmuR3VpYDXosrXoygs9OlUhLiJUNpj5gxkMNinoctW59C0zfiC-QRAWeFJgBleuqnuoyQkG0aSYU6KhfyN9kgoCLeTKGIcmwCCGqDGukFi-EN_1kg58fh52IGm1s5bowCPJTP-ZkxUV9jRQ88kvaeHEhDE4IoUF-86CFsBBcN-_wyQGhQiVB5ZamEg0fjte_EepFdIa-a1_A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Dealers, Road NO. 40, Sarai Basti, Near Shastri Nagar Metro Station,, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6404268,
+                            "lng": 77.18589949999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e1b017335b8c87a3af86b2baa7030f4e4b4485cc",
+                    "name": "Mobile Centre",
+                    "place_id": "ChIJAQAAAKMCDTkROJ_JCWy9Jnc",
+                    "reference": "CmRgAAAA1oQ869NL9aUAJQ-878Jy3EV6uCa0YHXsxmTDIG-wyo3bGEompPArnbeztd_ZLfwbNgoMQGYMB9GcGHC0EMIYcGWSVIs34xG7zQk47DytpLzUJujkpuNucFJ7WoM1uQq5EhD5mjfGZ7dHmg-BccYVGD6EGhQfSkH2cym6xDSoCdTifhMuu9qqnA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B PS, Petrol, Rajindra Nagar, Near Tisazar Court, Mori Gate R, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67176899999999,
+                            "lng": 77.172262
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "27cf693bb941f30f3abf804d3f9577d9a966f3e5",
+                    "name": "HP PETROL PUMP - RAM LAL BANSIWAL & SONS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJywVSQ2cCDTkR5uPZakWxWuI",
+                    "reference": "CoQBfAAAAKfdPFGBM3kqX_c98sRv1J-jLyrxBLcCRSxd8ct-GZj4hxr1ARvAT26c_04IWpxGYZ4gOeRIyYn4naLP0L1S4V8jkIXsqBr0fh_rS8q4ZAT4HRXzIZifry8xdGyc6-FC_PU13_oYJnVfTxl09Os6JDasz8ScsB0rlowhJ8ass141EhBr7Ws40eY8S2LURokfHwyKGhRxbk_STcdQXbMy_ivdSmBLj_tCNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NO 40 NEW Delhi, Shahzada Bagh, Phase 1, Hanuman Road Area, Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6717722,
+                            "lng": 77.17226029999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "bf775b33e29a07a939b105dce7441cd6bde13a56",
+                    "name": "PETROL PUMP",
+                    "place_id": "ChIJP_FNQ2cCDTkR5utGDdDJnUo",
+                    "reference": "CmReAAAAnOlOWrMsdtWVH-ga5K9nQz6iSDMFvrYt1A7JE3PABNGY8xEhp9aklgjuUoa7J8AzNppMVKTzyyfM2peKO13XkyqNHcLzn_mDWotsMvDw-Qyk9Udb7QFAzIem9h8AQGhVEhB5kV3Div5ysDB0LdOHnLa_GhSk0bB17ptebWe8bUfinzkaRvVV5g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6523996,
+                            "lng": 77.1561617
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65281944999999,
+                                "lng": 77.15646664999998
+                            },
+                            "southwest": {
+                                "lat": 28.65225965,
+                                "lng": 77.15606005000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0f01875be735da856781ceca180b76304628edbc",
+                    "name": "Petrol Pump And CNG Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4160,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100063209034995679603/photos\">ANUJ KUMAR</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAOf96p7APQZxvvepMY_KcV_CcIvrNFcp4xivH83UlhLH8x2P-EbQMogwQ-iP0rW8NE5dYoT87S_hyEKcvPzIf-Af4nejIwvhMJHYKYZgjKFDsj-WyeBp1vGV5QEEcnNxL2kU2xwMy6T8uV_Yz2788yUKnRH6CYliEAJzuWVOi_fzEhDOW0dW8aGl5pedOSiHyxDdGhRh24_0tCJy_SP5brKGQ5lwUVAQqA",
+                            "width": 3120
+                        }
+                    ],
+                    "place_id": "ChIJXxNbMPsCDTkRbzjukWK34Kc",
+                    "rating": 3.9,
+                    "reference": "CnRvAAAAEvcM0xT_MX4JqBUfN9VoHsQ0gP6DuKqP2UBTupxveN6AypH05Iyfo2879npF3MVUqZk-VACBg83dN1nzcDuu4ZHdPZVLXEKb8V_4F2qZj4B1rOUG4Gl__cPsJC2ImUYzbkZ0MN4dFRE-mO6sD7imthIQn3DtFHL1oCdCbEnPQyFE6hoUx25VpOoeldyWxNk6WGUraZd2dGg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Patel Road, New Patel Nagar, Patel Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6729718,
+                            "lng": 77.1723481
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8ef240a4372872e3f32519026707a03fa3e8186b",
+                    "name": "Shastri Nagar",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJkepecGcCDTkRV9W5MuofOP8",
+                    "reference": "CnRhAAAAI-RF8xr1GnvFu1a9tVf5HD8y7v5Rewm0oUr9ijuaQM0EA3bPWziapBUrKde37jvBzjb1eWOr6MLl-pSRA-ZHTYUfhLjNfD_B318eoZ54pQY0OttflsIwY6iaobeNU8ijVAHN-kk58YMd-MZzj4Ge4hIQtVqr5e3fpWBdOOXs-JrYSBoU7sCzgtYKjQEnmcwSNrROniYh6Cs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block M, Block SM, Shastri Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6695883,
+                            "lng": 77.16374189999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.66966579999999,
+                                "lng": 77.16378934999997
+                            },
+                            "southwest": {
+                                "lat": 28.66935580000001,
+                                "lng": 77.16359955
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "da510ad1a2f2adad872b2364ba916a4fba60b811",
+                    "name": "BPCL PETROL PUMP VASUNDHARA ADHOC",
+                    "place_id": "ChIJtYkRY1kCDTkR4YbtOofSlYg",
+                    "reference": "CoQBdQAAAMV2uuGr42_bF7bJJ98QtjEJ8kpY5oruHpceSKh7qr6p8XVa1x4-Yq_dcfQ28dXPvz3hA9xbEAZz33hXr_FP2GbuMCika0d0BUSmagJVo87uBlCQu56zSsfG8z8tC1Kla1FTgicDc3m5v6qR6m2F2qWFYVZZzHImLccGRynNOgvREhABoW7x2HVeJglN-I93Pn_bGhSawpqjJchGvb8Vn19wWrtTfv8Ssw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "461, Old Rohtak Road, Shahzada Bagh, Phase 3, Shivaji Nagar, Daya Basti, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6740206,
+                            "lng": 77.18819309999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6741904,
+                                "lng": 77.18830615
+                            },
+                            "southwest": {
+                                "lat": 28.673964,
+                                "lng": 77.18785394999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "636a1a996dc89851a58f4356cb627d974c93d3e3",
+                    "name": "Azad Pur Service Station",
+                    "place_id": "ChIJ_wc523sCDTkRVcTNJwlnShU",
+                    "reference": "CnRrAAAAm9qVtyZ56BFaECVfEgxPzaEgFl9Ist_Lir73DHjyDzhPXm96J8uwp7SrjQBsOQU8QTiCZbB87JTWuOEJOYAL0QtyaOgFrYaavtMFF18abNIeNZDsTMc4Y9CVW35T_ITBGSAIwLoGMuAgKmT0CUxvqhIQhgpCsCau91eEPH0ZrGNKxBoUoFChiJ4lLwGq9HpCs4xeFx-Kde4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Swami Narayan Marg, Gulabi Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67402,
+                            "lng": 77.1881949
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0510907bfc6c8b361c5a4feecdfddd7c297dd169",
+                    "name": "HP PETROL PUMP - AZADPUR SERVICE STN GULABIBAGH",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJnT5w23sCDTkR-qhnVTebI-Y",
+                    "reference": "CpQBhAAAALmCCtm-NpcRhjETgRVQ_9gaFMqqjkhdD2yYT1n2kKYUrNvUg6cmIbuZDS_mSWheiaDa4MxTn1_-SSk03314c45_8hjaWKr23o2EvY7VX-U-tx3tC4-7KrMd9FP66E50aVavCb-gzSzclv3mQ2vSxwfXWFsfmYmg6JT5MlhjMs8a7LmsZ8Xdhx4-OBypRwoPLhIQxlBP40RCiE5pvfVlhdscjxoUV_Cnt3nyl009GDyTkwB6X5tCv-s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Pump Kalidas MG NEW Delhi, Gulabi Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6450455,
+                            "lng": 77.19886749999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6451221,
+                                "lng": 77.19889755
+                            },
+                            "southwest": {
+                                "lat": 28.6448157,
+                                "lng": 77.19883134999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b6e634a68a5d36b203c9edc29451b637d45f73a8",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJe4VpomD9DDkRFo311eh9V10",
+                    "reference": "CmReAAAAOGTI-WxtQi5AproCr2AmNopx8QYHmT1-ON3_mxXJRfdGgJoHmO_ziquxWs5Fl03ch5jfGuW3logIQ79XfXDQfZKYpF8wbgwm9PvJd9qPnMw45nhuzMxN93mvdI_qnrQoEhCSVVfQoh71Jn-84NE1Ug5lGhQ83RUs25vi_0SDqjokh2pI8h6mzg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "D-2, Doctor Bhim Rao Ambedkar Marg, Ashoka Pahari, Subhash Nagar, Jhandewalan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6444762,
+                            "lng": 77.1991541
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64456275000001,
+                                "lng": 77.19920314999999
+                            },
+                            "southwest": {
+                                "lat": 28.64444734999999,
+                                "lng": 77.19913775000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11ebf768505897c6566375b57947a41b4193b0af",
+                    "name": "Petrol / Diesel pump and CNG filling station (Bharat petroleum & IGL)",
+                    "photos": [
+                        {
+                            "height": 4608,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100814912403591935401/photos\">Hitesh</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANwevkUd1kKId82a6WDNU7uxwYLAWD0bvU-A45fjTKTHxCU6jEWzZVS1RaNbrMpDMJrUtz50j5mdwtHmzyAyezDtmK_oLff3BkffKlqvgBbN5kjSqmV2zdkWAnVuwZ4XjeBPIoEsGWwudEMT5RcOZP3CPd4ZHVXJmH9xEU5HpFilEhDHMN6Rv0P2xjdsYAgK57zjGhR6JoVNIeetfBcKt6T-Ca6EviCMVw",
+                            "width": 3456
+                        }
+                    ],
+                    "place_id": "ChIJxVwNHl79DDkRKi7cywYk8Qo",
+                    "reference": "CqQBmQAAAHB8fAEaxVCgMNjUcaL_BuGnAk4EuoRzhHwJpJn8ELPGaDEwBudEeGvl9nP6T_xRFkS356mYgNypIgx7_-NzY_0IkRgCRqWYDGozaMn09sElJBLCMIAr8HcMLo5OB7dbVzk8q6fbZNqBjAfJ25uoLXUZXtRWp_X4AVoEZVv8dOnS1gbJvk5mnLR8FzZ5VFizVuvOsDYT-8eyBwDaBO_GfYcSEDUk9aPsGZWJcF84tbSyDvwaFHgC5likjFa4GdJrNOeVM3YLrMF_",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "D-2, Doctor Bhim Rao Ambedkar Marg, Ashoka Pahari, Subhash Nagar, Jhandewalan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67430680000001,
+                            "lng": 77.1618175
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3b44da6d6b4722a9838d8451b8e307d4e26ee365",
+                    "name": "Sukh Dham Gas Services",
+                    "place_id": "ChIJd-3rnjD9DDkRVzlBzte1hmc",
+                    "reference": "CnRpAAAAuqCw_15Qd8__gzEeydI6hGNsMKC-gnwa9tFeGvxxL021tkrXPnFh1hP6XgAZJm17Hh07IsYD42qE-m3E5cReH30sIYPUaUwY4mFHURItU5UET1kjUxfvCjle98zXhgWqwCZkF3jEcoN1ruNAxmWM_xIQguIOYZ0HDMc_OmMSA-XuaxoUCQzOpfvEzPX0Ewu6Kespj8ZgZy4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-8/4, Shopping Center, Lawrence Road, Keshav Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.646239,
+                            "lng": 77.20171189999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4a1e78490673dd388ddb6ec1e6395a7765ccee62",
+                    "name": "Deepak Diesel",
+                    "place_id": "ChIJ____P2f9DDkRuT-Z4pi_-AE",
+                    "reference": "CmRgAAAAFWOn0OvJm3e6f6qgkEVf7yetGF15WHHEv8gLHlymEFemXpWDmIdQLp9Psyc6p17MDVYFMROTqWtpnr7q09PCh9diIGTc2zgIw7p6v6Bs78wNQk2OFlzD2vou6Vvsh92iEhAbCc2Zx6juBkycNcgnKdwuGhT9xbIK50C-vUbfcEo5Q3d1vJxYGw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "48, Janta Market, M M Road, Jhandewalan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.649448,
+                            "lng": 77.2036569
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8df74a4b7d9fbab4e44bf5594d639a505381a629",
+                    "name": "Dhruv Gas Service",
+                    "place_id": "ChIJI7iNZ2b9DDkRvVaBeJk_SgA",
+                    "reference": "CnRjAAAAYAIHNGX9YMn5cfA_LjdSgfZw0bM9_-U0BE_WCmCcjr55pLmF-69j-_fE1xg99dMxYuntDiQXlx6QeaSTLdPR8JpjC-IG1g5jvuAnAaN-nPkYerJU6p8S1u6QVh5RXH76NBMY0bgOBbsmgRFZ1wODwhIQIMWGaT4E9wEA2GiHHQuy9hoUk4q5AEX9dEaYK92oStSmOGqp6GI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Site No. 3, Jhandewalan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.651263,
+                            "lng": 77.2046699
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65144119999999,
+                                "lng": 77.20506139999999
+                            },
+                            "southwest": {
+                                "lat": 28.6512036,
+                                "lng": 77.2045394
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2058cbdcf7098b28c94e58390663be7769969e0e",
+                    "name": "Hp Petrol Pump - Saran Motors",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2322,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104648359323200300547/photos\">Ankit</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAOc0iWG9yF4mSaAJdFyM6EEMrNOmR94yKyt-W2VopDKa9agjvYR7DMxJmY0ID4vwJCZw5ehEM7mbSxgyEZH6wX6-GuW1tMiI_DXydvZkYvQksOgEDkWxtz0dtQpvZpXKZz_lygZE99zSTgew3loXUybwImOwp2Nf240SzbU-wPB-EhD1yUgf_CLswhJFwpuCSC3vGhSDRktQlOSQDtQSYjG3wqTW7yAr5g",
+                            "width": 4130
+                        }
+                    ],
+                    "place_id": "ChIJXyYL52X9DDkRg9Xq7vuBnaI",
+                    "reference": "CoQBcQAAAGnHKBek7YzxrO_XjGjmuIPOah75CawfxBYoHsd34aDYmO0lx3lQPqU5HJ3scohtQGH4oL8jwXy-6nSQVs2-QxPYuK7Y10l7IYhbPrRF-ToCI-j9Ca5C3Yvjn3q73VQtU4vjmCtDkiYtCL_gS6umir4ZJNJWbNjlPcsFy-GBxun-EhBXloczs_zpP1at5vveYWkmGhSUrlIuxz5q8aqHvHFk8bP_d1qKrg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "1642 A, Rani Jhansi Road, Janpath, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6780377,
+                            "lng": 77.1884508
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b38050dc04def9c23c4415f7b1720afeb606c5e1",
+                    "name": "Bharat Petrol",
+                    "place_id": "ChIJYQ8jqnACDTkRNXlwHHbUoJQ",
+                    "reference": "CnRhAAAAKiUabc5XYmZLhidVbEpe_52KN0D4glSXUwLpf7vz8pynibu9IrLwfnqvS_UZES-zQMNmY-9qu8V_mMuM7n8S0xfhUogm5cgdv2zEhsv9s0HmvyXZegYJ7HlfzIPAFmm3iBBMwFUAexQd2MmRYutv9hIQQVsz-4pdkCuSXgZb2GtW1RoUuRi-pjxPFl33IPhHLMgPXYSMK2A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sidora Kalan, Sidora Kalan Village, Shastri Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.653854,
+                            "lng": 77.147521
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f695bfbb7b2c154be377ad09ea196505159a896d",
+                    "name": "HP Petrol Pump And Cng Gas Station",
+                    "place_id": "ChIJdTmViQIDDTkRXQEWJvQ9jB4",
+                    "rating": 4.4,
+                    "reference": "CoQBdQAAAPz70L_oe-HjY6TwtVvEOKxtfqTOKtzPXZvAKYuvA9ULJRqabBpfKHVZce8rAeAH_6amjdO7CEVOEZt8kCCLMhIFDHf-NwxPR6Ecu3ZSXhTysFwj0nbFwr-V_FhwtMe7mVWSskKsjiYa1brx2253DvEal_NJzQsnu-h-YvYYoXfnEhCVTSJM1qNIEt6hMzs0CzJMGhS4uNPoClSgrkjCbCMXFhGgMw8u9A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Industrial Area, Kirti Nagar Industrial Area, Kirti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.65385199999999,
+                            "lng": 77.147521
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e95b71387321f3040016f93e3ed9ba3a9e75fcdf",
+                    "name": "HP PETROL PUMP - PURAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJHz6ViQIDDTkRCmEhU7om05A",
+                    "reference": "CoQBegAAAOGTP2uIf-bk-NZyLUlhPHbkjZQB407NdVVU_RW-xeVC4Vb2voGTP8HlcftsiaU4JNI-3WxTtSoOiS4tkIR9MyIG7PwTUEpte5YbjPdnCs0F91fHrRkPoVIxHZobb0asHc2TeVfq-Qg_tbXDdScwSn0Gdp3VIp3dhKk1JlpDhUagEhCBxagsq2qjwOMzk7IrlWhoGhRLcS99UKCoKXmsoouUBCdNDGYyNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kirti Nagar Kirti Nagar NEW Delhi, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6537844,
+                            "lng": 77.1474874
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6540061,
+                                "lng": 77.14765440000001
+                            },
+                            "southwest": {
+                                "lat": 28.6537105,
+                                "lng": 77.14698639999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f7d18dfb85b1c20fdccbc593ceacd7fdb488c877",
+                    "name": "Puran Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ7-BxigIDDTkR1BtsjRbG640",
+                    "reference": "CnRpAAAAOQna8W9dq_m2txQT5T9xYpJCGazc8scLYKEX23z71lZGub0QXw2Fl4S6AHIQX6XE-bcYJUMsgJmXHdwMVFLgxTwVDAkk9psoa0RDkog_i2oU3aH7EsazxbWM9X0uC3-ZM2ELps32cII4bzeyK-8elBIQKx8PrcwFY21aJ0dgwYzDYxoUFGUcOd78gQuLVgC2xEWrm-ukALY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Satguru Ram Singh Marg, Kirti Nagar Industrial Area, Kirti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6782577,
+                            "lng": 77.1886325
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5fe78d0ac0bf8859303a2a4e9cf67220221cca07",
+                    "name": "Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 4160,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105151458344641012784/photos\">Ashish Agrawal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJLf9rigrHyjpzOdctCkpU9L7D-7tH4daIXoUeGWPBTCqDhWS9-AsJZjuAuEMY4Ny2DjxSxu3JDZMjwPawPJgy3S1K-6_F6n8bgzuIanL_HqHl9f4YwCGKgQvPPxQgtcPhfaMGX0mwyqiswL52gvtRn6qB7Qlo7u-OS_xjwqigwUEhAXvmAl6zuMAoSdHNUNKSObGhSGU79QTXGZAJUdTVPIQL71KaIovg",
+                            "width": 3120
+                        }
+                    ],
+                    "place_id": "ChIJmfkeAXoCDTkR0FSGrWiuwWk",
+                    "reference": "CmReAAAAGHsyXNUTWF8CD9ZCCWapStkPkpN2GzR9E361CFktPRTxFDYqKhp4ZdTUAmsTGqWreuvdVF_FnLVXnZsbQJjP5JThZrV-xD19UzStxFik_poCypSUBi6iog3hwXs_LtBUEhD-kmquke0TYX8uqqPu1Aa2GhSUsLoJnws5Ris7IgEn405MaW8U0g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sidora Kalan Village, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6723291,
+                            "lng": 77.15287529999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.672395,
+                                "lng": 77.1528904
+                            },
+                            "southwest": {
+                                "lat": 28.67213139999999,
+                                "lng": 77.15283000000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9467a290b91ef18f7040d6a0600a650696ce5d3e",
+                    "name": "VEEJAY SERVICE STATION ( ADHOC )",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1143,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103641611923134792535/photos\">VEEJAY SERVICE STATION ( ADHOC )</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAKimY8tObqRRVIUwcnQg1AN3g5WAtNNSINLl0dtd5c4RyBkJhHaKkPiwYZIH48XArP1hpXoiyxbPg3tGWvgDnJPV7Moeg5AKO4dIrFTXfzL1RtzwI0MqE0dAAG5p_JD7_pCJC-bjzXf91Yv7EPa53Pq8sEiNv88TuqIpXp_P7pzNEhDNzLoaWrPM879E4DIcOKvMGhTD64vORgoKvzn70xn-7eJIw3yu5w",
+                            "width": 1152
+                        }
+                    ],
+                    "place_id": "ChIJw1XpN1ICDTkRxCizsG_7sms",
+                    "reference": "CoQBcwAAANBTpIYeNNmGep6-8mUkbdRYw0DaFcEF5ofLrMEHIQ89fldy1qJH9ktSuBf9HLZ1cazAGLXN6u7KDrvQt3UXld0gabLSxf3xczA1b04E06nr10FBYad-FOIc430EW3smlWA_Gj1YD7iXOZm82URHooJDKseWRmcfOG-mJ6O0aAt1EhD21TRPiknUgdfUa-Exy4FrGhQCAK0u-GvxbxNGoq-wLW97fAYqFQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rohtak Road, Tri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660203,
+                            "lng": 77.14596
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c5ef125a7266c9fc6be146060794f959d08e43b3",
+                    "name": "HP PETROL PUMP - HP AUTOCARE CENTRE MOTI NAGAR",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ-9BUAADDTkR_dTH1TvMKdY",
+                    "reference": "CpQBgwAAAIBjFSR0yPF-LaTCUewGt4deemnxQh5SUqBq8B7xlzfgTvnYMQ6RK2pOrbT4CGdWTjo2TcHH2MgSPpPsoQBqbTDKFepSsqnOkDf6NMPWkuNtLTFoAuZT4oaZvpAlgHurwPMoIkz3XTATcYiDijxgnCEq3EQSvLInw_0CyK_UN09RKp5OxBASCA1RCTwm12aylxIQ52krksyE2gKYg8sliQKLxBoUnfYhHs1bCHgJj8AR8bno9PoeGeg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Moti Nagar HP Petrol Pump Moti Nagar, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6724332,
+                            "lng": 77.1525608
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67252795000001,
+                                "lng": 77.15257595
+                            },
+                            "southwest": {
+                                "lat": 28.67214895,
+                                "lng": 77.15251535
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f451f22f4865e85d4b27ba08282f94bbd8f5cd78",
+                    "name": "Gas Station",
+                    "place_id": "ChIJLeobRlICDTkRwNskHvqmGtU",
+                    "reference": "CmRfAAAATkJyIEHHrOSdE7GAQzhWLCdPTyaie2q7qra5qsnTHzXysB_cTbkZ8dFgFHyarZnYx_eszytheuoMz0fhptWx3NUAM-c1-0GVMP2lX_5biJK6Oz5ABRBQVysiDjgkOTdmEhCqYWgZWQ3njoHgjJj4cdgEGhSSN0lB2TXypCsBovjX_nyKDxHidQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rohtak Road, Tri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633632,
+                            "lng": 77.2019362
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fa743ed54623aad48cd73ed12e2003f430244266",
+                    "name": "Gas Station",
+                    "photos": [
+                        {
+                            "height": 599,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111706712225634569078/photos\">LOKESH GADEGAVALIA</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFA6hPXoGlvIBz6pCU_u1aBP1fCSWyznRj3bPHr-oPhRKpR-eGuPesPsrR2PQ8JhzPnVxCAZOTMn0JplvojaIroYRGjaNDTwWGR_YYv6PPLIluHDEWdUR5wbVleWuexXiHHwT-DVnNZz-6Jzg5FnwIQMQ6Gh_W2OWT7HfnTl0LslEhB2qZn0pQF6s1qDTnrsPyBmGhSgFL1cL_NUEm4LubEpz9yPXLl1PQ",
+                            "width": 800
+                        }
+                    ],
+                    "place_id": "ChIJYeJndFr9DDkR8t9z0VOMGG4",
+                    "rating": 3.9,
+                    "reference": "CmReAAAA7dKonYRSXZCyQURFNPFi1lcPCPSXwA6DvSLydIyqCOZZ8ryci3k577t6ElTuYMKmT6pCrwGt3m2-aJLKhOPVdiWYWLNjtpMRDyBAJZ22Ga19POklI_wrtCk_3leiKdZ6EhDmWfB91KDI1Dhn9tIMfFDOGhTnWj2zt6Qtd3pTtJBHg3OSNSRT2Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 2, Diz Area, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6777989,
+                            "lng": 77.1571443
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b48db8e979ff620152902cb3d205cc17061205a2",
+                    "name": "Hindustan Petro Plast",
+                    "place_id": "ChIJq6qqqk8CDTkRE3PT0-xJ3c0",
+                    "reference": "CnRpAAAAI-ks_w7bXvS1j9fk5gi6qAAVeH8R_XYiUzhR6c0DqbUXXLeRfE4yE7wxxmPqePnD9Fgaj2EBFUKPMe12hZPe5QX8DtrQB2l7IwW_XL0qkcFC-zF6LRImqlzmqCoveiQGsrbE_u_XmAMleDntrXRwJBIQdXfflchEKzkcv_Xm6agfdhoUL0rKhOpwPdCU4aLaLyntLK67Eak",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "117, Allied House, Tri Nagar, Tri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.641908,
+                            "lng": 77.14536199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64195214999999,
+                                "lng": 77.14562764999998
+                            },
+                            "southwest": {
+                                "lat": 28.64177555,
+                                "lng": 77.14527344999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b43f4a53917b6e438329bfeb32b32694d40f0259",
+                    "name": "HP PETROL PUMP - INDRA FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJFYbYBh8DDTkR_iCS3ydU3YI",
+                    "reference": "CoQBegAAAHC85zAA-d-sU_CeuK4ahQjTjBi97Nd12gWuLvg3rkTb8H8Mr5IRdbSjs4LFw2Y0u_tKsY1vCgQiliwqRCIBVu9l79YBDojgaJ9PrRw_9sFBUVAxNPlrNeIEeDidz62qJGlMvta9y5DcM7Q8q-fpN82Za58DDcHmJELUz-JjkAvDEhD5C6OWHuE3aRiAyreuSLOtGhQcHXWYNFXZH655CElfrRSxW9-GPQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi, Naraina Industrial Area Phase 1, Naraina, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6329516,
+                            "lng": 77.2016254
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e3a4e612311f8c8fc7088be33c102990bb435506",
+                    "name": "cng station",
+                    "place_id": "ChIJvU8folD9DDkRymy_lN7OlWM",
+                    "rating": 4.3,
+                    "reference": "CmReAAAA911kB2h5fsMYFCr6fNapTUSJ9UOhYroUGJmQ2U_hFuxH0gvOybX8cjCOnWNOptFawtlE0aDvk1JbT_mTwdD4cRI0XTY-Ijp1avT_GnV8A3dLrJa13K_UiFp1LxqnlrwREhA5sHXWJ2mDA_aDtIUsNWmhGhSomGBUSFoCJkNpeo6xJFUKVuQJkA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Munrika New Delhi, Delhi (state)"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.646905,
+                            "lng": 77.140885
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64698495,
+                                "lng": 77.14110369999999
+                            },
+                            "southwest": {
+                                "lat": 28.64666515000001,
+                                "lng": 77.1408121
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7baf2c9a32637a3aec269e30c4b40599f9c25be0",
+                    "name": "Syal Petrol Pump, Cng Gas Filing Station And Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/114947041024595956273/photos\">Nathu Ram</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIEkpHeN05hGJvYGqDUW4w3U1kpK_EcaZ-_YtLkaGM6KfGfFu1YFya3UF-pvLlK3Kl-YqpY2hzQi0Gyq6u2qQz6ewU2TW9aMGvqS8v-VfKZzc8Q2MTfqRnLOFuYtWSGZLJtyzs1BpNXjGGJgqnRcEg4D9peRNm0SBN4Zi-FN6hGIEhCkCyyFthRXLUMSmMM7AgBEGhTeg4taQolHVe0JNpv1hw_Jpe6UOQ",
+                            "width": 1024
+                        }
+                    ],
+                    "place_id": "ChIJK4a3pBsDDTkRzVI3ZUs97fM",
+                    "rating": 4.1,
+                    "reference": "CqQBkQAAAGgE0W5AiTroW_lzet_ijg13otMXoEh1F8dW24sUZyug-yX1M2odQK_jW4XIz70XEcTRe38urS6vx3xrIakeHtRS4pt79biVVhWHWK6r6dQzaKqR-sYyIBDSVsmFJuxXFqtdtz_5rM8tSuhYltwbATvmujjAXdR4QYeAS6M_ud-gZP-E1mISCWfxk-ktFdsVHXlVGFUBx97jRxGUuUk4UXQSEOIOICavoiqx_lLqVPtWPEUaFID3V2iymUPMkFSn_M0nNsf8LaJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp. Furniture Market, G-Block, Satguru Ram Singh Marg, Kirti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6824272,
+                            "lng": 77.19799549999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fb6c11972e2b7a70a4f487366413c545e0f53105",
+                    "name": "HP PETROL PUMP - KAY SERVICE STN",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJs7GABYn9DDkRsW2pJqP_Xvk",
+                    "reference": "CoQBdAAAAIxy-HicLzzfN25ZSoFcu6FXMMkUC73x5wzp-DIlkDEXPp8uM-LdKU2pnOTRLrMeG5EjKQbCBQRMXhy6BmqlRUPUW8cRirC7b5nBFS4hc68pTyftBCiyWbyPe1_vMGNDrWjNA3MExE3SY56YUFGGSS9Rn8bdvgSNdthjLakHTyNHEhDUt4TIylqD86Wh1ekzsLUjGhQYZ-8a6j9PA3L9_iyGnw2a9eXfgg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Roop Nagar, GT Road, Shakti Nagar Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.668119,
+                            "lng": 77.212268
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "120883cf3601b41d91edeadba6beb1f0a1f6cb2c",
+                    "name": "HP PETROL PUMP - BADRINATH & SONS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJC6si-3X9DDkRljpjxmaZ3uY",
+                    "reference": "CoQBdQAAANSJMu3FDmK1H18P5m8eSFsjVMCGMWKAp8U58-c9OcWDgwhDKHnde79u7bUFBVS38yNLO-I2VSj4iFBYKGLkku6o9OgzlESQUFVB2f00sHiT5ZsUN5a1rCCM_7O_pcbQPwLwGCSKkeirG40-qCdiQC87-Fd1OVGHYD_jKDkSFoatEhAQlFMkmoaigV3OPcAQmERQGhQBEKpOyJ19f9SVEN7qh8NMKtdbxQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bouleward Road Delhi, Civil Lines, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6549351,
+                            "lng": 77.1376196
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2c9c803d6643121554e8027bf344fda6d806947f",
+                    "name": "Sumit Agencies",
+                    "place_id": "ChIJ123dx_0CDTkRprkBfc4D_MM",
+                    "reference": "CnRiAAAA6y8Ok5T21Bi5a8KG2bhAQuYBGVS-Ud-tdiJ_gIpf_xOlPSY2E5Gz_xu01EbDFjE2z8mjGRuo87CwlxBCTy8-I-MV5LsbvS9u0fJFFXYBF07asAb9I3Qs4rG0zz0zGn_Fzc5iEJreBd2czy_fKcRC6xIQwzzO_yRm33BwI02AJT0VVBoUSoU2oLSxDle73dfX4I9pxvbPBYo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Alishan Building, Gf Kirti Nagar; Dlf Industrial Area, Kirti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6558142,
+                            "lng": 77.21571209999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e1a0efc44e992199812b24cd82c95ef0b6425d2d",
+                    "name": "Anil & Company",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 359,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100749640655504772671/photos\">Anil & Company</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAMfEZaVlPvw9TWhjMTdx6QbkvuhUMieO6G0rIk2IsUnw_gDprN_iNZgbNQFqG_n2wiFC30epPLo7Jzh40WfUnD_mhSOvGRIrlu52hoNcFFJmJRPWl8BXJANA6F6b7BwYrq8Fyl5wyT4DctePerX2xvPiQ9OVfrTYphzMcZg01U-BEhC_rIpl3KOKoHdThjodIo9nGhQbo-gB8NZbDspXuJtlL8tXIgXvOQ",
+                            "width": 359
+                        }
+                    ],
+                    "place_id": "ChIJAQAAAG_9DDkRdwQcZGWUC5A",
+                    "reference": "CnRiAAAAIoRQnAVgNjzkLLQUjvfbYNVh-VpnESE0EA_n5Hv1Poi_tS5uJOW16VSzdL8Wr-IGfHnNvjznz6ZPQ9w951dd1q936rEC-8S1KMBtZ3z0eGCZ3K2SmQ-EoIuV3fGJAn7mrhx72i88rLD1m7zPEZbu-xIQtBklaf8G6NK0un1ACWG3cRoUYpJwuBiT2ts8hTX_fVUcFEggSa0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "3484/85/8, Lallu Mishra Gali, Sadar Bazaar, Sadar Bazaar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.658706,
+                            "lng": 77.215701
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11716f39ba62cc99fb3b130c12dc696b11948eb6",
+                    "name": "Shubh Laxmi",
+                    "place_id": "ChIJhQf8k3L9DDkRXeytcNEwWVw",
+                    "reference": "CmReAAAAgiT7FGUk4_VQEoyWGy001CK9F6-zrl2olM0IFKRZ4CpXj_tu48VgmVNtj-mng1NGjzxZtlOcEpaEcIncGdCEUwePULuhFrRw3MHT2GqAQDSaH49hGRLeZa5s2tKC_FC4EhCVBFN7hj14XueUr37DRgOWGhRjE9j-nMAGvHGJnh2ePdyAUiDxLA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "2858/1-2, Peti Wali Gali, Sadar Bazar, Sadar Bazaar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6738612,
+                            "lng": 77.1427191
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6741738,
+                                "lng": 77.1427743
+                            },
+                            "southwest": {
+                                "lat": 28.673757,
+                                "lng": 77.14270069999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9fdd81407d8bccbb91bc8566933eab2dc2915363",
+                    "name": "Yashokamal Enterprises",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112130411174540815023/photos\">Mandeep Singh</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFrxcDDdheV71UsQPX_i1eH9Z0RDmgx1wH-k80376bz2RzHx3t0zvNNOv4IEbuqH4ZqXnJ_IdxnNoc13zx2e5OzXLUitwuxt2YR31Yc0JutUyhmMT2y2mwzU6P4NFZcgqjXqijIZfyB1MDuYYPFte8Nw3AvYQhSXPlUAi6nHbbhaEhDkDtlhZdFUWWmp2pN95BG9GhSeNLYKdzSQtWUJ01P_8kJozxNi6A",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJ_epd_7EDDTkR4CRTXDh0PL0",
+                    "reference": "CnRqAAAAWhqrYDVgmwg8ql_cR0U1zSfH-MBm8NLun4kSJiRwc3csX9tZ0mvhv9WhWm8YkKZO44r-c7QmOPaKqr7Ebo66JvvI6jU9sxTE2UIJq5lqqckkB56ySpaLL6W_17cYsk4edJPEbCDoJK058FC5MjrknhIQdQ9AciNMw95Mq1ccsND61RoUMhtDLdTwmqIrrpB6sqxzfKQBty4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Punjabi Bagh Chowk, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6863802,
+                            "lng": 77.1577156
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.68643855,
+                                "lng": 77.1577591
+                            },
+                            "southwest": {
+                                "lat": 28.68636075,
+                                "lng": 77.15758509999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "473aa68a0fb25ac4f1cbd01be9d3d4cbde73f5bc",
+                    "name": "Keshav Puram Block B Gas Station",
+                    "place_id": "ChIJxds2KEgCDTkR81S1JzhR8Dg",
+                    "reference": "CoQBcwAAAExtOl_6CXx5oZph4U_GzF42YUXw48pH7m92nptciIVEdK8TuopqMh9PVtwvVv-x7DoaMRpdBiQ8fpZLS2FbX_MehTCgike3iuFa5KckqgZcxCv_j0GV_Za6gMoDG2VaXdGJyWC6AJTCSPrg9RnpwkI9roJDNmhFUuigIjDawdOhEhADBd7UYju0BJShXJlafSeHGhSSLSa56dwTQU9_Ch_HL86Wzth14w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shri Pardeshwar Dharam Mandir Marg, Keshav Puram, Tri Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAABelOBg136WbZ-dvxgWHlM47wLnegu4zU0BXNFpCNA8drtIheU6DTV0QZg9N1IPqy0gjg_4YTm22uLG3sIS6VbEN8q1flYHvHnzSXY91AMz9IQbxqxNgOqGBm0d2uU4pcWk6HJXLUZYt8NDdc4jIZRo_LuFJTbVk1qIzzy4V8d4sBsVCFP3eTyzWqRy3nLRegw2y0J8HqkNvZQ-3XZOZOpMjS3JrtVZYWC9ptDAsxbJ4DeXdGeRAFYYh_f83rsuUGl3_ila86xp1iNAFdtgEdZ5SjUssnbEpA4Q0H4ytxFkViS5Mg0wLvteI5zexW8y0r1vm4Q0f419lWyh9ppyMtqkSEB5y__afbW2oLjHIIqYo5jkaFDhNdzCaA3nP47UrIq-JrqyhNjI0",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.654966,
+                            "lng": 77.1558343
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8dcfab80fc6b9a4b1b2d720ad0db415d0b2e83c",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1966,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100063209034995679603/photos\">ANUJ KUMAR</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAPQ-yzWBocvZ4IpwOsQO6qWQTRr46zVtdRLlqZ1A1nk_j_g9oNRbBuK-d4rGQ5-PtmbcvPmgTwJXb7Q6_ZKHdzA-19Zbn-tVRDk1DISfwvKJJTD-eywKEnoTwW-sidqxYUbiILhjpPuQIgQ81nVSfh5g_qobTaPoOKzYpuhDhsKXEhBl3NqIXmQWnUDgCImlg4sHGhTw9HbX9CMjO4lkgj4G5bsGTCWSUg",
+                            "width": 2502
+                        }
+                    ],
+                    "place_id": "ChIJa04__2kDDTkRctSdUgy_qkk",
+                    "reference": "CnRjAAAAJLy5utdykV9YdeM-ONcalMQ-XIWlwdiwH4INm_S4TRV5kKKFNchaCBHWxCAwWWpiJK3ZPAjb-g22QTMiGQKWAYWlG3yLMF6ss6VMc1Tzt1Re0g-NN9EFsb8oHgBWk-iB2pjaibyzovd0vHWSkz09RxIQX29UDEbD6zK0crReiZUEBBoUZ3xpNKChh8wosLOiMKOuTSOXwEE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp DJB, Subhash Nagar, West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639684,
+                            "lng": 77.173796
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "872c00988cfc8a7ae626dd4b93ee7cd99559787b",
+                    "name": "Bhasin Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 286,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102841198723096799355/photos\">Bhasin Service Station</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJbJArGtKUdhC5yaHyVfKlSezrk-Rck4BakvidJgJDvIECe7lSWQDl5Us7-l8EoqHnd0UaisCfL2NWsunH_f-OEm-iUL8NgtcPG3X0QgXQdtXcSoD7Rsivo-KnDBONLaQE52_f55RC9tEFqLGkJXqWp4BAY0Mv94QUKiv9uD4LzGEhDz4aeCLGvfCt1TKBIgqUqMGhR7VfJsAumk5v9NMBKCR_n7ObPJfg",
+                            "width": 283
+                        }
+                    ],
+                    "place_id": "ChIJoVTI4pcCDTkR1aem2KZElPY",
+                    "rating": 4,
+                    "reference": "CnRqAAAA6WcbFWz1kZlcjQWCtyU6pxls-0muiWjXZhqVkF8lLvD6eb6OY4ruaqzd9jkLO4K7N8sRJq9PXiQ2lOkfBtRnjlygSnCunSDLA_2XMjw4EoBweDIyhIFYfrbYO_TfHLCOSjEXGLBa1ocEdmJe2zYXShIQeakxDAqC82v0soiHMD2hTRoUA6ClTKPJ5dA0U-Mmknk8qcmIe0A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dr K S Krishnan Road, Pusa Gate, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6425547,
+                            "lng": 77.1764422
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64267175,
+                                "lng": 77.17649080000001
+                            },
+                            "southwest": {
+                                "lat": 28.64220355,
+                                "lng": 77.17642599999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f995fc9e377923b0c95fb564861fdc87b93657ff",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ5Rm795UCDTkRTYAdesD07pM",
+                    "reference": "CnRkAAAAp98a-EmmuSoRgHpn7AdTW589hk5NqPBzjz-8xgqC_m3i4dbmXY1hI4TJazabnpnm0gLp96jUCjz8oMsaB5XKoPUx26NieNuGEvoqSwCx6VGlbS3XdnVspuI-_heC0bGB54BieE1SrejnU1eJpqEIfBIQhg8pXpmGaurgREGvCXMpJBoUR9pvgdI0WvQ5nd7Vb84c5thRSSs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No.155, Pusa Road, Rajendra Place, Central Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67354199999999,
+                            "lng": 77.186776
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67364049999999,
+                                "lng": 77.18707869999999
+                            },
+                            "southwest": {
+                                "lat": 28.6732465,
+                                "lng": 77.18667509999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "17d66f895c67d6953b2309ed043d79ec5dd408f3",
+                    "name": "Veejay Service Station",
+                    "photos": [
+                        {
+                            "height": 1536,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100211628651032350758/photos\">ankit kalra</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJ4_GSAgb8P2yZLI7VY6vjc3mTXdoMdcPfuY57EPuSmMIm17v-6y89Ming3v-lvSfXjNXJz-O4E3TzYQ1pF39_N7P13w69ONwqy0n0CIQpsRwkQifbWKTvY3lcvEqb02WC2HeCGtb--eTHsiNJ2jgSViDfDvlZBSI-CXIal3tWapEhDwXwEvWkodyqQKBIdoQ5HkGhQ33jMILic9tCtL3DivVuaICzLf2A",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJOwB0vXsCDTkRtgBl0UH8LQs",
+                    "reference": "CnRpAAAAuxU5lDudYRIKUZYxfTSwRhJBCnMNR4VU4Xi7fVEsrltyAi1Iio870mX9yVCpYMB36pWei20y1ncV1F_JPRqaPaoMi3Z2PEqO987tjbp_SvM6eQ6qAF-x-c5PcCoSkpDGVBOk7zNTDKNFjg4t5Qqo3hIQibxuIRleFsT9N1hNZ1oj5BoU8ljZHp7_P5iBnWwwNOZMwlyD0NI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Swami Narayan Marg, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660209,
+                            "lng": 77.14621199999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "71501a18b7b5d6bb0b5a5c8d27fdd7591e4d9489",
+                    "name": "Hindustan Petroleum",
+                    "place_id": "ChIJPUpkUAADDTkREV2gshBrQkA",
+                    "reference": "CnRmAAAAkzEcisfu7iTwXOkOLJsn77q22Z7BR7Ob5Ty0NEw_LLn2-nNKX5PXan9UTSdtNosY9eTzxlRyUZwDMjYQdg3BEb3S2gbi3MLnxljooqOifZ1AQRvaaF1lcxtCTi7_LmzoiDagT8RAnkniKdWwPmTL5xIQ8Elmm1xQnh4_n9smKnCB-hoUo_jIrCz9Z8p4JmAJY8OjVBkYT3s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Fire Office, Moti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6824366,
+                            "lng": 77.1979398
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4eb2910556b253a159022731a083aca61357d7da",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJt8olHYn9DDkRWnoAjxCTQ6w",
+                    "reference": "CnRkAAAAkd9KH6gy5ihSC-enBG8IuCULwfu9J8HsEgNBSN4mXxJrORI579wU3X8mjQjD4uWzm-9TJj8uWmhs2evvLzc2KWpcxaohrPdko6VfQdooxAmqveUsajsKYoHewbHYNRxgrkM5BNoNzmlI0_R_A0HmTxIQliqQjMclYS82bJryK-iwvRoUpFar72gjYWa7XZTKz6JlSp0ykxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kamla Nagar, Roop Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6523772,
+                            "lng": 77.1561704
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65280125,
+                                "lng": 77.15651060000002
+                            },
+                            "southwest": {
+                                "lat": 28.65223585,
+                                "lng": 77.15605699999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "97ee83749d3946eaf3809a31c981e958ac6b144a",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJaasTMfsCDTkRMu3pvUXcqZw",
+                    "reference": "CnRqAAAAInDreeBOzYrp9TrkdDB9gi5JIlCFIv5tx9PwyxRGHzpofFQ2SVRwcXmJiHcTy0r7aj6LEZ72CmsEtpajKZ72f5Fqn8nUCcPSu7SaJqA40GmpifylaZk227fdM3bcs-Qy12uTe-59vINMu_gQj3NuVRIQE4DXKwS3X7evxenb04FiqRoUwykQFWm1QQcI-c3X_h0d42R6Mk0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Metro Pillar No. 244, Patel Road, New Patel Nagar, Shadipur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644667,
+                            "lng": 77.194499
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64480245,
+                                "lng": 77.1945071
+                            },
+                            "southwest": {
+                                "lat": 28.64462185,
+                                "lng": 77.1944747
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d8da08a56669538bb37cedd30310209058da91b",
+                    "name": "HP Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2952,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103963205928017779979/photos\">Kunal Wadhwa</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACPTjT6Tbl7DhRB9ab5kuj_3Os98S16D9XVgceY0bjzxLTtPUuo9qzuEiXYrUItdHDNUEulnscMA8ESH4HTwvqgXY_JkEiDjNlSvhDaxUm1QDVe4yF8ZyDy5bdbQ5JQ5uWVlMONnCpr6qohSqYeJY98eL_CUAPs-EGy_OtWcVQE-EhDdCACDoXZVwmOgtwp5umwzGhQGrTYuTt8o9dWi94KOVhp383j4gA",
+                            "width": 5248
+                        }
+                    ],
+                    "place_id": "ChIJDyV5_Z8CDTkRiUgdMLwXgG0",
+                    "rating": 3.9,
+                    "reference": "CnRhAAAAq7SyEUfl0pV9ibKGepf6qJZaFX5VxGx2E515JGjHm_6xpT9DIsJSiFfwxbfI5cA-oFcumK7DFxmWIETEc37cLzD1adWv8BQku5kYt5UD0vnDe2Xiz2Eu2CxAKb3dLNUrCOUxEptO1hmNUjb2uvfCxhIQpEZZsN7veLLTRMTzoorhVhoUYWGwDMNXLiuGcUyCLVy9YGNDFhw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pusa Road Service Station, Opp. Metro Pillar No. 80 & 81, Pusa Road, Karol Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660628,
+                            "lng": 77.14705719999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7a86ed5f071d2585066d134b28a3b283947177a6",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJRe1PRwADDTkR0ewIa95Xvbo",
+                    "reference": "CmReAAAAGv3Ln3CnPf3njVup4EiWPBroEN2YqrQlRk0ZUvLPufd7qTBPw_Z38Ew3_Sqb2gydRlpb2bzq2hhuKJR5QDuy5NYz6E97Uwo9VAJdP5Dsu4o7WXW3UiSrh2Pz1e5uwXCREhCFIz_1eNvFkfTTLAOIRdXDGhSm52bU05Z-9AcuB-lWIXWQoYjvBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Dispensary, New Moti Nagar, Moti Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6736775,
+                            "lng": 77.1870564
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "466211f2f05d7ac5c21f4c759053e4be31edc46d",
+                    "name": "Bharat Petrolium Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ8bhvXsCDTkRdyp1QIudWQw",
+                    "reference": "CnRoAAAA5nq-sEoPdjtqUu7XhpHJS4V9owoyCl5vesJPsugQmcDrRhOGF1JIsaMYHXQCB9q0ru84mcjoYJm1zJ3zqTbgDhQAQJapUvuxlOQ-CUA8klhCdy819soAlNadT0FRiUAetGIz_VR7xQPzntVeWw-0YRIQCamPVph4KNBecKUrnCYOohoUzCJgD_GF8GWIf6IzKCmzWE8vOIg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "No. 7, Chowk No. 2, Swami Narayan Marg, Roop Nagar, Block WZ, Shastri Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.673749,
+                            "lng": 77.187771
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67382519999999,
+                                "lng": 77.18780305
+                            },
+                            "southwest": {
+                                "lat": 28.6737236,
+                                "lng": 77.18767485000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "006d9f86a692c09626ba31b75ac7a57250b8f8cc",
+                    "name": "H.P Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJUzPLw3sCDTkRbOiirxywZsw",
+                    "reference": "CnRjAAAA7Fgej72EiDBiiRRzqUXgHCMa0kpQtcVvAZJRuGtEfj4gLE0c-WVRwh77JP2-oCKBAePIvUJn27XZ3zDWldpW72sf0-_smTTk59OcUo9jQRYw2IzsOv8B3lt_N_-arP7TDH2OfoLaHUrajgGzXbb11RIQ-u6DpRH17OcS3pAHzCJaeRoUOTCkYJ1hEuP7FLlqcA8JfWmHqxE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chowki No:2, Roop Nagar No:7, Swami Narayan Marg, Gulabi Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6737839,
+                            "lng": 77.1432562
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67409335,
+                                "lng": 77.14331769999998
+                            },
+                            "southwest": {
+                                "lat": 28.67368075,
+                                "lng": 77.14323569999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4e5b36379238dfe8abfb7bcb4619f80c5b7b67c4",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGbAqB7IDDTkReuCDE8Z9tdY",
+                    "reference": "CnRqAAAAc5prYeGKurFXHL7RdrHTcasWjuDQODb63NHZSqZvfEdIM9S4AWsfJD_Py0nGiauGsnyCPzOxzDYV13QhXAs00-uPkivVn8t44VvIK2qtOErAyj42PgLlnlS3vyvBda1nAJkT5CNVXdGJKrJaXEkV3hIQ1sqrbmLZ4H3ny0jRgCBLKhoUUD_RMVWIoB9dEFxiUngBlaDI7Jw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rohtak Road, Punjabi Bagh Flyover, Transport center, NH-10, Rohtak Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6310291,
+                            "lng": 77.2056498
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63104875,
+                                "lng": 77.205787
+                            },
+                            "southwest": {
+                                "lat": 28.63102255,
+                                "lng": 77.20523819999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "788a63334b14b29f31a3953e74f6025ea651792c",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMppty0E6X-x1D4S_ILK6Y71pbT5g_-Fdg80rFCCFLjHk3fLGUnIuHXTgZlgUNJYTLy3I0S7KcFCEIm8AHIQTUWG9vBupmBB6HocmsU6HXylMQ4NJCbrBdRtfY45tkhH9f0XVQx5HqyBjrh5itgal7zqyqdOkLxJ-zJGe1E88ubaEhD18K84BKF0ZN3dzuC8Qj5EGhSj5OSYTxDYiZKdZ4sWU7ie2t_I4g",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJZ3p_K1D9DDkRNzzSUWgs5Nk",
+                    "reference": "CmReAAAAEFY5MhLne7QeVnqLg5F37o7S27md5lAJ2mlUKQ7Wzn-eCNgg2v5ZZHqrr-t4BAUIBeO_LmVx6IeYkv51WYn4hZVs3XDHBl76tHjSlbsKHlzRv27yHffps4lhLwCCTpiUEhBAMK9eUJawEAFkbtPdrsb7GhROl8hEYCdGP45OZSkBO53BmODaNg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "1/1, Bhai Vir Singh Marg, Sector 4, Gole Market, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.687431,
+                            "lng": 77.198607
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "50eccb4dfb298c7891414153033365ce00717613",
+                    "name": "Rocket Science Technologies",
+                    "photos": [
+                        {
+                            "height": 1200,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115605913659554047287/photos\">essam mohammed</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAAAfoEh81nsvjYiJZsoIsBKyW3RQC5nfCFdnbO5musQ4vhe3WzjvCFK23h1DsTxdN2oJPfh95HfUm-F0keYPvkT91_5AESs0S4wZPVfHPpQkPfJccrSCy0vEAZ-YrGtRcMrMq9p2dKnfEuDsGmT7LemQjvMOkjCRfaPvAjbz73qDEhAldLrvz26kgojTnkYZL9aUGhQ5rGygJD9d2y2hg6xonKqibdqPAg",
+                            "width": 1920
+                        }
+                    ],
+                    "place_id": "ChIJm2qSoIv9DDkRi8jWezS032I",
+                    "reference": "CnRuAAAAIK7Y4W1y2YT6bDKKlqMR3aiQQEQZh8khmRnJ1GPAWM0Ke9AsswPmCMEqpXKDD2h8wrropNxvz_AJpZV125_1C7tOAAKw9z0LRl9w9J6AItlXDDUhIu56YJoDn7mRlUSba_9r794CD4BytOazrvTARhIQPwF7tJsYEmtIhCkenU222xoUA0wlcnUtPieV1BKukyKqskR8roc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gupta Coloney, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6635841,
+                            "lng": 77.2189944
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6df8c8c7ad554d6b9fcbe235f5446959a01d297f",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ22DFngz9DDkR_IsZTbaYiJU",
+                    "reference": "CnRkAAAAu6wyISZZP4bU1kAGXbxAYVrS6PhAL3PEoT-BrHBYkf0o4F6LcQs4M1a9mCZnA8Upoxn31G-OxkiPnLKMAp2m5ni5E7OX8IxUgBWB05y9p2Xtng2skd98wx2NvsyEFlVHVDn57LaQm5JZ4AMqIaze6hIQg-iXEqpjzntxkNb9Ms1Q5hoUqldc3K0oqOzhq3rmzch6A26Bn2g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.69079929999999,
+                            "lng": 77.1917771
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "756259f23cc8b5a7eff846031743c10083a04337",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJn8jX3goCDTkRir7FAHw5xF8",
+                    "reference": "CnRjAAAAT1OIsmwwpbc75ltrIaZvCTulU-2Fq6wqdRe6C-o0LCUn8cIbKTh7IqVUPkUX6rtzmsClYZOAg78XOiSJz7qJebYulnOawnCFxWy8zT5wrNMbzVyUKchXcvVZUMCgea1XbowhwLdIq3y2JVaTTGzCcBIQ8cL6s1JFTP1L_xBsY9LlZRoUgJRPw6bJt9Q-JHbqEWggtPfHqeo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main G.T Road Opp Gurudwara, Grand Trunk Road, Rana Pratap Bagh, Ashok Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.679475,
+                            "lng": 77.212035
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5f7eb747aa0a9756c3995d45e15be110bd77da53",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJqxrj-Zn9DDkRFs3hrrYII8k",
+                    "reference": "CnRkAAAAx0CepcZvCLMuC1Te5Ogdl4G9-j4-6ccTk0FnK8X-sxn7AKLZBVpZ1HKzrDio0grQfk3pZ_H7RUbWiMG06kgOAXqLgGuVX-9s3JrlfdCELzGHlFGmDxRGryzE7QzyoKviAnOfpriXBA8TXM9D23_NjRIQoIW1R_YZU6XjDGbd0Ei_shoUcAvCl5hWi_t8G4wWcQAtuvwn8Ss",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Malka Ganj, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6287923,
+                            "lng": 77.2124236
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "38cc875d2fc7d895efd92bcaff25091869c46019",
+                    "name": "Citgo Petroleum Sales Pvt Ltd",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM4OeV0n9DDkRTA5yJOuYJlM",
+                    "reference": "CnRwAAAAwFqnqnblRKlomKOkdlQeY3j6zIORYjLHOGpJCsVz-geNIlGkz-vsoeASBQSkCNNGhSISdXWkYrikm_WZTYdS4P9IrqjpjnBmjxFjI31kBzUepSDS7nrWsFyMnjw9IayKJNmcbdgNb9NAFwkWzyDdFBIQGdXLWqrQ-buHz97vSihFkRoU4-6KZJFt59m6xUdWhiFogmJL-xA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "42 B, First Floor, Hanuman Lane, Connaught Place, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6415494,
+                            "lng": 77.2208124
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64157455,
+                                "lng": 77.2210106
+                            },
+                            "southwest": {
+                                "lat": 28.64147395,
+                                "lng": 77.2202178
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "67f77708214d8ba923f1344a764abe261e7e5a41",
+                    "name": "HP Petroleum",
+                    "place_id": "ChIJD5J_-zz9DDkRmHTO4jYTirk",
+                    "reference": "CmRgAAAAa8sgk3JgsNiX8UaTrWeCXssHoM2A5B7N1Ftsjx1TCWYjD9WK0Bt2UkZXpWkpj0wWXONVM-2rRrxC2-HnSNRDnQEuPlu5XUFENaWjqC3iPrJ2Frmpgr-4Xxb81CQBf4OIEhBbBTbHg1RdIcsy0y-XZFMuGhQhel_VPlk29GiA1HgUwdiYIr0oqw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Punjabi Market, Asaf Ali Road, Kamla Market, Ajmere Gate,, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6903806,
+                            "lng": 77.1533923
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.69041450000001,
+                                "lng": 77.15345094999999
+                            },
+                            "southwest": {
+                                "lat": 28.6903693,
+                                "lng": 77.15321635
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2f929fbf158e1e88db57b3ccde87f5ba0fd9d9f9",
+                    "name": "HP Petrol Pump",
+                    "place_id": "ChIJTQfOFzQCDTkRevmZgbB9KvY",
+                    "reference": "CnRiAAAAUJOocYkHpl7Phkifix4D6DUXy-UxYm9pw91rx2kqQNBgp-V6Gv6tq1IdTasqzVjYhIli6GfUtoDHhQKIXDG9yocmpfAqvnkmejOF4_5czCQgp-6UYpuMQ9R9InRjE8ezDnhrhAjyjQ4pJn6OLhgPWhIQirGVFCXRNHJ4nqoED4OaDRoUBbZwAxs2BiRsaZMZlX8BxPwjXcs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "305, Mahatma Gandhi Road, Netaji Subash Place, Wazirpur, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

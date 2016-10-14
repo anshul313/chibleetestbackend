@@ -1,0 +1,98 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6004248,
+                            "lng": 76.9689726
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6ff3a4d5258b39898d0c4765e96f63ba8d109792",
+                    "name": "Patrol Pump",
+                    "place_id": "ChIJ9W0f7NUPDTkRk1UMqrBCg88",
+                    "reference": "CmRfAAAA5jV08AL29MMEZ7Fl9Z2TTaIjmlqdqYYeT0WA2m6w7lXYr4OEGS6LzL2GBy2AMEqIlvOLHkQWiG5NBAkD2s0_s2LvSUOxJh-E73upYdc6BShO207YceWfQDMmNgdjXJ-bEhCRe2WGFMrmAIN9KUTVnSOOGhQIU8P53lkQT0DZClYbwHXeF-UQ1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Khaira, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.599921,
+                            "lng": 76.965656
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b549006f9f97f0e89ad9137b5c7265b0868a14f3",
+                    "name": "HP PETROL PUMP - MAA DHANESHWARI HP CENTRE",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOa3qQtUPDTkRJLTbnErDr4s",
+                    "reference": "CoQBfgAAAHkDJjTckQJIngC1arrEplL5Dl_Pl7YPesO19u3mzqyYlkCHHudrjbGe6FCItFQBqEFR36pvoy9yTUYpg3oDmO17oCnNnX8EDjVu5jIzcbJ92gUGejZMMW8SGYclihLcspR0ZgT1G0d6H6F6iRYgkzka0RUlNUHd200jwdzRatiREhAs1ybG41XQEw45upHpDsqmGhRnFiGRtWtnGH4j4Kscy1_Zwro1ag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Tehsil Nazafgarh, Khaira, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6022746,
+                            "lng": 76.970525
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "305ad748c789bfe9b0fce767abf7b1d85dac8a54",
+                    "name": "Maa dhaneshwari",
+                    "place_id": "ChIJvzG1fdYPDTkRiaswv-sFczk",
+                    "reference": "CnRiAAAALRQMM_DOEwZWq7LeeIydprQrxuaq1EXbluuTYhM-DNoeG436ng7mkJ_U91-fm2XBrHF6cKX7lR-y8-bpze5ldeMM0xV0caFR1YPWxH7t4iq4PeogbqxUXCMiEKOpxY0eJ2tEu0JWMrYiAfvD5Q-P7hIQEL4rBHf26oEPVG-fJJZXsxoU56CqR7NIIwJHqrkmupl_VRYnp98",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "110043, Roshanpura, Najafgarh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

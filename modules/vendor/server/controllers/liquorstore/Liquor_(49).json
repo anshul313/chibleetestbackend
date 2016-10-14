@@ -1,0 +1,83 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6294096,
+                            "lng": 77.09125829999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "50bf9cd4bdff6b28d8ba88b354b52d5af95badd6",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM0VHU6MEDTkRiIqC7zLhUdY",
+                    "reference": "CnRlAAAAaW6mBeNo6LMtsQ0qP-DH5066F_zT3slDxl3pyJwXtNU8dNu7uZMJ6q6KTZrUONXJX1ROFkUfD4iKe4DNN65bMVwS4OP2-l9zDfTAcG2Ir5d57go7yZ1g6JnwkFPRy_EIX3suIA8sewgNZg3D_vICtBIQQoCDALEviqirVYu6rRaoPRoU6pFcNXuv_PMj4AThHyFDZcQTnvM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-1 , Community Cente, Janakpuri, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6294096,
+                            "lng": 77.09125829999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "50bf9cd4bdff6b28d8ba88b354b52d5af95badd6",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM0VHU6MEDTkRiIqC7zLhUdY",
+                    "reference": "CnRlAAAAlJcYtyEmt3bBHec8-H-hcgQNZpyiLeJF0XvU4ECaajcToiSMnMPh3r4Z8I6hIZQ-7Yj1Pm45HwUj2IAbDOxseZbZO2tDNDbFM8OIWmaJdUmgOIIXyD1HMObDmUUYtnTlgC09MUOwXWzhsLNDfumKSRIQZU8X_gCZ0lGEiV5nddiHmRoUgRnNr4rmjfUgiyFUvzCkREfnAr0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-1 , Community Cente, Janakpuri, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

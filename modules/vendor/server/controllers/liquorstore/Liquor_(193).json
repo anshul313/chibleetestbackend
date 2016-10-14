@@ -1,0 +1,74 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63971399999999,
+                            "lng": 77.074928
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "52238bc697e295faa83fa2743fe5e0f631c78c86",
+                    "name": "Wine & Bear Shop",
+                    "place_id": "ChIJF4GXFewEDTkR07B_7dofaPs",
+                    "reference": "CnRkAAAA9nTyOB6gPChR_c4qjwZ0esZdyqPDcDmYd--eZQz3HABDKyX2hGLijPhhPfXhEQjj-fVeBLhw__yRJecEHZ92EztHyfWUjp-vDqivbfZ5B7FTGyu51M3uPxV9l_sY4psdUUSxLtXfipeoMsk98pG_ihIQ1OE5i6qPfqW4EwIz0CbAsxoUix-pT6ORAuaqEdpQlwY63lgmTTM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vikaspuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.688292,
+                            "lng": 77.113806
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5a8052e5d3cc5765bd1d96e7530c928161507297",
+                    "name": "Govt. Wine Shop",
+                    "place_id": "ChIJ99mG_vEDDTkRl8disVsCze8",
+                    "reference": "CnRjAAAA_Cu2CUbBaFjTWmRXhtWm5BQN_zgRX4EpxeMjNV3XAwXVQOOMiZJEV36lfagpdMKyN6AqvLjKAMB9PWihKt5G9gUnj6M1_zQkNkCIa_y8ps5Jmz7zuuSWHiBbIaOHXQFPiV9IAZ7PlWEEteBHQm7G1hIQTfmiAAZddxRKdoCuKFtR0RoU22f9Al7TTH804zp_7Mlk-b1rHwA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.-G-6, Vardhaman Fashion Mall Road No.43, Bhagwan Buddha Housing Corporation Society, Pitampura, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

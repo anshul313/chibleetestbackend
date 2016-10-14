@@ -1,0 +1,289 @@
+{
+    "result": [
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5968789,
+                            "lng": 77.0423904
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "46c6f10d97e93ba02f14588781f6f3add6243350",
+                    "name": "IGL CNG Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106107602470168659665/photos\">Renu sharma</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJO3L6KbbDJkC9yAYEU7RHdNJfKY2UvbosTik9esHH8IVpenQUVE99FGyahRViKsCoIjA6aNbCZw1FD0xWszonuxetoDnHoefGUUsyFb5nfX9LeAo0VuB1GC8eZGOwPMjgdBKSZPrEk7JrEFRCFzBDqjDEfhPA9X0_PdtqXdHG3vEhCVm48KHngJWYoKKXcEJ-maGhTvh5u7DsPzFXOOMCZCOKx6AYCz9g",
+                            "width": 4128
+                        }
+                    ],
+                    "place_id": "ChIJreDRo88aDTkRYfRf_wFuA1Q",
+                    "rating": 4.4,
+                    "reference": "CmRfAAAATARW0Dvxi4__54bfFAT3EGTK6GeS3Hvz-DEWmCbIMLcc2wws-NK6qlZVdiqpQjFtyduCtj3Go_9Iy46ldKwiRcGKD5aYyCisWFMuh6763-fX3Fm6mUo2oXjZIAbhhmU9EhA-AAzL0SSorTRQwAK7IrEFGhTTmA1y6iNJ-eVwfWrh-f8xKe21zg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 12, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5926236,
+                            "lng": 77.02336009999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "37faff5b047991977f6baba6eff57c59010294b9",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107728176334399822013/photos\">Hemant Kumar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAEPqb453nhb8P6Aev3PbRV_wABXfFWCbPkut15sOcpU_TvUFKv7XEvl9X9WORF1MVCLIkJ2HLXqWtSHFop8yknGBfHlI0fJv3Gu5sBBgs23j_8oszcjoO1GOQL4lv4Zgrt_qzXsvj0zMtcahuNQr0tFJ_QMtdH6LddkBjJ2PjSUdEhBnn7vD6_cdoh9mLab3joGLGhQh-DbF4oLM52hYMP5XW0YCSBY5fw",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJmbN0mLoaDTkRb5jO-XfjwRo",
+                    "rating": 3.4,
+                    "reference": "CnRjAAAALB3fm6bwcc4MHDv046QqRtJn4uj62wIMKgS4HeiqaL3-Fo_NHBjURPc0waYgBrDUOaSwqnOKzUHbmcVJGBEtQplHYjG3_fZi7VjddYfPEpWVP5z1UvZuepOkExfWx2Abp2IMYxxHZezpr6K5heXn4hIQMStzqWO_S5zMVerpOmNbkRoUb4Uu9k_G2g0hgmu_P-o3oUw-b6k",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 17, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5959159,
+                            "lng": 77.0290089
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2eba3b92531bd03dbe466195d574891b51970dd6",
+                    "name": "CNG Gas Station",
+                    "place_id": "ChIJyyc2PbcaDTkR2wHJ3Ijc--Q",
+                    "reference": "CnRjAAAAO2PG-8LF29fifsomg710vkVty591jTuSXwKWoS4kE0j6z3yS0lq3Ouvy8DlRx5T5fiYelJe3hdl7Y6Uylxtte9gMdIfB3z-ym-pibeLnv4R1eHlRZOH1C-bU_U9j6m18_jjS-dixy7COjaWTgYem_xIQVRDjOQFA8BkyLGr-0a32xBoUzSqoh2azFsx63URrMpDcX3bEI3M",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 17 Dwarka, Kakrola, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5959112,
+                            "lng": 77.0290089
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "77088e2af62ee10f45ca7eb610e457580b9bab22",
+                    "name": "IGL CNG",
+                    "place_id": "ChIJfdY3PbcaDTkRoxXj8JxV9_0",
+                    "rating": 4.3,
+                    "reference": "CmRbAAAALWp-COH4fZjwEVJR58TX2ORUoCfuZrAFR2bKOesK7qtbLwlPvEbFF_HqPnQjv0R5X-te7bsq4jYBd4rcvEKIssnVYWJsCF-iYNUc2790exZhHCsNRjbdM-QLXGgMsoumEhDAOYx6CDfVhFRl1xNKn6mMGhRPpycpgx4O6k__zzvaHbKchS0Otg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 17 Dwarka, Kakrola, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6051861,
+                            "lng": 77.0292137
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8bff7136e9157d1b4ca6d2899e1317802df3d39f",
+                    "name": "IGL cng gas filling station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJDYTnyrQaDTkR2Grh4oK2Y28",
+                    "rating": 3.8,
+                    "reference": "CnRuAAAAyyVbVEJ8dQ1tSHCZsoGryXuCs3i0UQU9ezj_gEsxtru3Z4SJV7fVhnPowxYyo-BswVkWShygmzCj4bRolHOZXgsV0na6KTpXTYfwzhOPPaTTgjeGe8NK68UtF5KbVGL3Zb2W8PI-C1UGk2DqqHrNWBIQF40Me9QOQVm8RMCOXwshVxoUFNU2VGQImydInOvEwJMLJB4nQhY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot 9, Sec 12, IGL CNG gas station, Pocket 1, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5910115,
+                            "lng": 77.03744259999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5910966,
+                                "lng": 77.03751725
+                            },
+                            "southwest": {
+                                "lat": 28.5907562,
+                                "lng": 77.03721865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "eed82baaf76dd49c48c0852eeee4773591df1573",
+                    "name": "Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1836,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112130411174540815023/photos\">Mandeep Singh</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFSSLBrthlaYZdezjj3vdClqPXuTzmSNWQgCFQi1jBbSLLKgA0bedx0gQ6qPyXm8WgX6k0YmUCorBrloC9Xnw03BL1Ve0DJl33JxuDAR9NNgYFLfKyiKNfqOc84t04Lo7yz9uE2PchYI-DN7opPRz_iKylsthOGqY_AESla1NJbUEhARmeOCke5gXcWReOH7dWA9GhRQ-SQb5cFrAG-MYBJSYibBlfW7tQ",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJvUzz7cYaDTkREW19VcZksHg",
+                    "rating": 4.3,
+                    "reference": "CmReAAAAuX_K9A75ZL88i5D8oUeesDuFS5dLOOjDMIoabDZgk1nSK5q3OQrJiTAz6VtfNN0RBrFbJ7s38HMb48pCZoEfXArgZn5hKhISjNCQamzXYb0h8VpCCcztuE7k-7VO8SeWEhCLyA1yGF83yemQFQNYOeflGhRg2E81B7WiMxcNIa-7wWt3BrMwMA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 12 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5928806,
+                            "lng": 77.0429661
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d9b7f93c0e60846173705ecdd5ece9a17eb2edd",
+                    "name": "BHARAT H P CENTRE SEC 12 Dwarka",
+                    "place_id": "ChIJaSFZGsUaDTkR4udpeWO3xcw",
+                    "reference": "CoQBcwAAAAejOy3ZsPi8FHpaPcAYkFDP1n_FKIyROzQggqbM9QreYrb8EDw2D8Wq4XYOp7lhsTVoqYUtpnCFkr3qmPkX9Hy-BjvD0MVp8m1EaxQUGtprEI3J9cFVtUVNY8-9KzAyO-a7MiECn6qr3VO-FjmXz1dd9_fTTthIDRV4oGqPecQCEhB9NFhB3Nyn86Tn-OwrQDp5GhR6HzBLAzlFdsoyqZp1L3UDQGbw_g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sec 12 behind Bensup hospital Delhi110075, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593461,
+                            "lng": 77.043284
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "81877f22ed07c952acf2fd94c6f6928f2cc90299",
+                    "name": "HP PETROL PUMP - BHARAT HP CENTRE SEC12",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4032,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106490590233787504443/photos\">Naveen Khanna</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMjkAcQDyaWeuJ8V0E_w19HE0cQ4ufIJ9r07bGYJcfQcs2lHmyyS33B_Z_96dLDWr4wADBG_pKH6kkAMRfaFZuQZjDL4dQXIPD3y8hrMX07-qhhXPCDKUQ_9cAOJlN7bomMKc0pAgmG21KXFMjz2ddZmdjoEvx-uIE4GtTU5VL1oEhB79iHTR_ZYUGie6ZjVdufwGhSOnBJXcxhZMfZtjA-QNNfuyQw2EQ",
+                            "width": 3024
+                        }
+                    ],
+                    "place_id": "ChIJK-w2FMUaDTkRCzQESntAc2c",
+                    "reference": "CoQBegAAAObB0BAHYVmiQ7pYzObjfe6XhpUHNi4cEvsbdRnrq18_CNgZzTqmCZc5agl79GNFKLmGeQEc0iDEmmbYFPfzLO9jNWCKuqhCtCs7_sxXjcF2bnU7cN0imVzWxGI6SyEw2EEKwWYSP9Fbq4Fdub-jThVRckpkqICL_9TIAgqjzNN1EhDJEIHIlGxbaljqXW88pYRZGhTA55v0b43SiCJqCHJYIhAqI5p87g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Metro Station Phase, Pocket 7, Sector 12 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5929683,
+                            "lng": 77.0428903
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5e6cb3309e268d0fd94a57a54a351f4c8b13be3e",
+                    "name": "CNG/Petrol Pump, Dwarka Sec 12.",
+                    "place_id": "ChIJYwmcGsUaDTkRjrkVwewe_5U",
+                    "reference": "CoQBcwAAAMNc7fG8yct8Tk-Ay2fFlc-man7_K8LekeXXuB27rvbwx-eE_ULIsbA3tqSUJRuIlGwnHXoCcgLah8lngxOOJzL8tiBho2RI8QrjzihoGaVkiC2qQtdhN0AKPImJOGPSlbrXviNVnnWomxEBO00Y3JySBhzV4YOH5BPwoqAwJeVfEhDkAj3Bt4xFa2vX98hNdaMvGhTiUWWufa0oCWB61W7YzNMaitxqlg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-35, Parmanand Colony, Pocket 8, Block B, Sector 12 Dwarka, Dwarka, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

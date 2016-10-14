@@ -1,0 +1,74 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6532764,
+                            "lng": 77.1236004
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d01567590222d6fd429bafe7794906f7a94bc70a",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJI1cZa3MDDTkR3Nf07l3AATk",
+                    "reference": "CnRpAAAAhDWSmV2PpvnSFp0lWJ1O3WFJ8sxjrT726IpmZ5QadeiZ7i1fNOLjBAlMS6WufwEPuESmXiBF3EFYpGG7joFYh6GyuirZ4fsxbXXGChLrG6igU1eg8w1d4I3VqNrOGWtM-NghaWYL-6Bp1PWOuNr_6BIQ2E61f5uW6K6RuJhYQ3RSVRoUEq6jsv3t7JQSjjT4CjK6JQnOlB0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Place, Tagore Garden Extension, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6549351,
+                            "lng": 77.1376196
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2c9c803d6643121554e8027bf344fda6d806947f",
+                    "name": "Sumit Agencies",
+                    "place_id": "ChIJ123dx_0CDTkRprkBfc4D_MM",
+                    "reference": "CnRiAAAAj1Hse8b5AwX_7cxtTNlDiiLHoFPyPVZD_kfNwuxX8_ioCKZC177yQGSaxULsw_ZJgNNJvTan4t05nowdvclopDRcZzEnYs-ao1BX5k4V0lmiP-jwObri28x-h2KnPPXONN_g8w_I-IWkDVI8YOa86hIQBrcqax0KpFXJ1FFW8Xo0hBoUIvr7HdQGmIZcTr8sEe3fgBeM-Uk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Alishan Building, Gf Kirti Nagar; Dlf Industrial Area, Kirti Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

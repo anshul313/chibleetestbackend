@@ -1,0 +1,98 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6109477,
+                            "lng": 76.9806076
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6110224,
+                                "lng": 76.98065520000002
+                            },
+                            "southwest": {
+                                "lat": 28.6107236,
+                                "lng": 76.98046480000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6625063ccddd366892ab69460001af3cfb290a81",
+                    "name": "Chandra Gas Service",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJgThmOdsPDTkRuxyhz1Z3QDE",
+                    "reference": "CnRmAAAAIlXgC8XjxIwW4nejeLKKlzx64UdihPZtlsqy6NqyCL2ZBMH0z5BOBkG34JUDvDFA10wQBbHPZyYPuunE4h2CU7H_UkcUSRa5I3GfsOOfvPUxaqpuRwyHRuF2-Y76T5lLIJo-UJQwLRuOWR8VCOOgXxIQtlSyFKuP1mbWZ2Fm1TPPABoUwi_ElicTVVpEaJumh6GGdke_Sx0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Thana Road, Prem Nagar, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6147704,
+                            "lng": 76.9920091
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61490875,
+                                "lng": 76.9920107
+                            },
+                            "southwest": {
+                                "lat": 28.61435535,
+                                "lng": 76.9920043
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9a9e06669826891a279011057900779beb123db9",
+                    "name": "Indian Gas Agency",
+                    "place_id": "ChIJn_YrwegPDTkR8TnngEkfuLs",
+                    "reference": "CnRlAAAACdtF2Ph6UzLE3Z1I5ZAiSEBp5BR4XamXB4kCO_RjLT1id472IHhPkMyyiXW62D2fVMyFFyh3a5bbc9n2rOFUn4I9qXBYuG3WsNncMeQDjzpBzo_Wb9taatuamxVJ4uqHftZeuKQEHtbcOS7mVxPi1BIQTliXakFSf3TK62dNx1rwdxoU5IKXHgGkuHS52uOh4vxf5dbjq9o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "b 64a, Tehsil Road, Naya Bazar, Najafgarh Extension, Najafgarh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

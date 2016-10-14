@@ -1,0 +1,68 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.625555,
+                            "lng": 76.993094
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62577535,
+                                "lng": 76.99317335
+                            },
+                            "southwest": {
+                                "lat": 28.62548155000001,
+                                "lng": 76.99285595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fb3f7b167d807831fca792558e1107dd57aa9bec",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJi4KIp5QPDTkRg6E5_5Ihip8",
+                    "reference": "CmReAAAAnDAjsqeihKcxOJTDkhE365e-dLksq6Dw_LRww8usX84GBFewAwtn355aFtMH24Ccy8IUdtbiN6r_-3S4Evv9o2Zx0jtEjLmbV4MJ_XCmBd9cLL9ggms2oOs1rE3PnfYEEhDmmJJo1jzUzE122XzbT4zoGhQZTN2fhK1cvTdjLpjCAj8OV5bXag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Najafgarh-Nangloi Road, Laxmi Vihar, Najafgarh, Nangli Sakrawati, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

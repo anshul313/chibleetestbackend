@@ -1,0 +1,124 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5811406,
+                            "lng": 77.3144027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58117805,
+                                "lng": 77.3147942
+                            },
+                            "southwest": {
+                                "lat": 28.58109425,
+                                "lng": 77.31427219999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4bbf9241032e9bc7c60075c0bc9a14e4f4847772",
+                    "name": "Wine Shop NayaBans",
+                    "place_id": "ChIJI_UMqF7kDDkRbdJJN-hcvpQ",
+                    "reference": "CnRmAAAA8cmey2F9SfZ5z9-Ame3R8-gGvt5C8XlDsljcF7Sbr4FOn-si3s4Sxju9iEhxdegx3QImpBsEk_RD9yISQJjyc28l_Lp1TQxnoTfGl2NSBWcEhE8NuJIz-t0thaWptAKnG7XJ26qe3hpIauh_zju7HRIQpXJAW3TxuzQFNvUczPtqYBoUeyS7h5CxY1PweRstcD5EkQNfFCc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Vijyant Thapar Marg, Naya Bans, Sector 15, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5811406,
+                            "lng": 77.3144027
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58117805,
+                                "lng": 77.3147942
+                            },
+                            "southwest": {
+                                "lat": 28.58109425,
+                                "lng": 77.31427219999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4bbf9241032e9bc7c60075c0bc9a14e4f4847772",
+                    "name": "Wine Shop NayaBans",
+                    "place_id": "ChIJI_UMqF7kDDkRbdJJN-hcvpQ",
+                    "reference": "CnRmAAAA5nuhDpskVLvGxHRsKsWj4sp4ao8WN3adm2tC-ea5u51nlPEQ4oxNNbzoHjvdZOusEJ5kF8d2A0fPrLFAuW6G62f30PfknVg0xC819wD8kJnXDo3gtOFM91ys801lm45_VcHb1_D1o5CLKQONzIf4KhIQ7BfVZxJTPAchWNjQLGh03hoUCWqv0Td4OlgTPbI3yFS4ACwMDRc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Vijyant Thapar Marg, Naya Bans, Sector 15, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.572426,
+                            "lng": 77.32505499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57256325,
+                                "lng": 77.32521869999998
+                            },
+                            "southwest": {
+                                "lat": 28.57201425000001,
+                                "lng": 77.3245639
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "77490ceb8474fbd83fee09a46bac3cf106ed31cd",
+                    "name": "Neeraj Choudhary",
+                    "place_id": "ChIJK-FQ7E7kDDkRsOncv8yF9v4",
+                    "reference": "CnRkAAAAc3zBFTWfBBjgkyjA_YlQfnYPzbCNOyKGTN8lKdiCCjQXWtOOdWNCYwXCKy3-ROQtweFMwQFTutFMUNwkDfY7sMovtAbRqOLJIKxNqVXamGV4RZbcmDedromgAh9IewLBkVD9sR6TwwUITebiuDq1lRIQx0sCd3NHhWKmq6_WYaEBNhoUu7m3JW_Toj4tToCK-lVMmzw-dtk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-26,Subzi Mandi,Atta, Captain Vijyant Thapar Marg, Pocket E, Sector 27, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

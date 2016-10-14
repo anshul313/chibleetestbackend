@@ -1,0 +1,557 @@
+{
+    "result": [
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAGAHSdO2qXy9kdIbs1FoPJ4PVpQzz09jylApqQ8OwdWfssZDkRY7qNLmv9rpfp323Su-TnmXsIJFy1X__eUkzntrJyOs_5Oe6wXXLGh6wyMPYGMPFi6JRrv7QFUGqv1xN4CWmm4Z_0Xlk0WsEO2vkIFNHqpAmK_tkSXukxDRCo1mzeFPi1lxfqczo7rR6MNrPO2_SSsnSse1GZUhIPUZr4_jFHBuowJ6S2G02i0VcLn2UU0tANtBTPHFKqQL4wxhN4qMrp-h6mC5DKndynThUbj9Lwf4IlRmyor0I8udSCrYD-9bpE88ZhjztDnXEAQB084mNmDSckL1_zSoI2F07RYSELp_0lzt1Ezrqp6aEyFaFtMaFCqiKSZ8PvGERsIXoQh1_Si724EH",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7391664,
+                            "lng": 77.1356119
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "656c647edd33b7c9c0eb133f612626b9bd211fad",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJ1zQFNhABDTkRzJETthFIzoU",
+                    "rating": 3.4,
+                    "reference": "CmReAAAAMbWhS4KkPNGRhxIxmF4xPSIT7unOE-a6ENf0tfGEJn1LGJNJG179DXowEAlxOyL27OwJBy69VRyjQUKJ9dVRZQBI2MSAkIHQP_onf-qWGBMX65TuqJHbdHCL6dHw4QovEhDiWfQxt1SgtMHeSkVQqXf9GhQshd-CGFcMLt1h5TxoifqlQQfVvg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 18, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.741292,
+                            "lng": 77.15173999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.741357,
+                                "lng": 77.15182815
+                            },
+                            "southwest": {
+                                "lat": 28.74109700000001,
+                                "lng": 77.15147554999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "97f71bc157c92e6f07508b1cf77eb70fc4f54bdf",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJh7IhTKYBDTkR-_T4didlxWU",
+                    "reference": "CnRpAAAAonTKsC_WsWO2a7zVD7WL5cg3xcZ0cs1cg4o07pmwdV5LMOWB2OLuanQ2UtCO7-9mRrEdUhF32jjwnK8WwASRr8GtRkQMS0taQdm7V90ArCClM0X9opfib4a84nuxd0d-EMv0a4zfgfiHyXcOixzl6RIQ9d9Nsvy2cAJeaQphQXM1thoUYbOJqxT3dEnwLSdYmt9VEHq4PAI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bawana Road, Badli, Samay Pur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.74126629999999,
+                            "lng": 77.151736
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.74150999999999,
+                                "lng": 77.15284435
+                            },
+                            "southwest": {
+                                "lat": 28.7405352,
+                                "lng": 77.15136655
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cb4d12a3694ff3c5fa0d2e50513667be8faa9ad7",
+                    "name": "Raj Automobiles",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 545,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116701981350883412055/photos\">nishit goel</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPkuEdD7jGTpMxrGqw9raPjtw219C5qd3GBwYqr2PcBhvK2jb0DqO_MDtsaPgTTIXEbfOuuvCQTkkJIBmuyiAbxX74Nc80qrR2dtjkrPWqtcADtbwgpCkF9fqbmiTD1a9fBsPhCWcFIAJ-4DYg6QCPxxhGVnIwX7c6gbUElfSKvSEhBkmyjQgIR_8GhCkqFMvHx_GhQ1uuGRKk7qwgh4CNkLYQs31cTTIg",
+                            "width": 816
+                        }
+                    ],
+                    "place_id": "ChIJCUG0T6YBDTkRiR8cXxr9_yE",
+                    "reference": "CnRiAAAAB8phzrA2XCTsMoLe7lRLk3kiAtt1TB4ZxqDpiB9KYX0pROOj7rIxGQUUvlVsDb6mTZu_kWFfYXRivYoYlJtaOjYDMo_qWkDrqzUvK61ACJ5P3hZpgUNQzfzyV5L7glZLnUqj8M-GsatbxUcPAxWadBIQJW2_DMlX3nsIIopFO8EOtRoU-l2VdkTTHGbMbSnxBM3aw75OyXY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bawana Road, Sanjay Gandhi Transport Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.73221749999999,
+                            "lng": 77.157369
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.7325241,
+                                "lng": 77.15783115
+                            },
+                            "southwest": {
+                                "lat": 28.73211529999999,
+                                "lng": 77.15721495
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1cf48951203b4960b65092b6faaf3ec5bacdf8ae",
+                    "name": "IGL Gas Station",
+                    "place_id": "ChIJ4dFkf5gBDTkRx0sml6G0gUU",
+                    "rating": 3.5,
+                    "reference": "CnRiAAAAIllj-WXKKyD_IXoNERfmxWk_NnCpkvIuYBxDFw2hOQu-5AT1xAUJKbm-8qBrnOhBFLbXVbSxcUwnovDmElKJfTtVfuYZTWlRQWM073eTOkB0eu_Yt3e-JYK2OTsZlv7LaekZehwjZKdBZ14UTZZc5xIQbNVnbYA9OFg41gqeKBTH5hoUpEqS-aNBI9MJI7xzF2e3AdfmsJ0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 1, Bhalswa Jahangirpuri, Jahangirpuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7275826,
+                            "lng": 77.14257909999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "abfabc1777e9c484e2203bfb355b410591b57bc3",
+                    "name": "Indraprastha Gas Limited CNG PUMP",
+                    "place_id": "ChIJmZ4-h3MBDTkRD3bdEGO92Wc",
+                    "reference": "CoQBdAAAAAddXPnjVuuWwt-qCx3PbEKk9JfsxgTa4LaM5sO9Y2_wk2ZumLHJGtn6mqOa2Ec0bahQaHVOkREbAAq49q6JOHYJKAripj5uOVlrY46bHspf9sngjrSQiZJyHHuO81l7BSVsPfQ90UEJvMKwcIiYcHDE-AcWHQregh0pAikFz49mEhAPSY3mGwjnk-NYlOdbiX3zGhTlZAsozqjSTplhrHWxCk5l9ahgQQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7274135,
+                            "lng": 77.1428287
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.72761359999999,
+                                "lng": 77.14310830000001
+                            },
+                            "southwest": {
+                                "lat": 28.72734679999999,
+                                "lng": 77.1427355
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "bdff473aac4842b55c2bfe08614ec1500be9a33a",
+                    "name": "Indian oil",
+                    "place_id": "ChIJdSNqeHQBDTkR-amALVUZNt0",
+                    "reference": "CmReAAAAWS2gV8Bev0EpZ8bYx3lScnsZWVNLnB_1gbkd4f-G5xnwfHdNMpLzxcoINDKeRJ5xzkFxiFihhD-tu7UvkZ_-_KPNi9yPNvEqIopy1z5PHqrovsTON-1NYn6qHb0RHGPcEhDEDpO-ATO1IwzOYuyJf2CAGhQvoDZSkyYKU71fjqjHNm5F3pcR9w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Doctor MC Davar Marg, Sector 19, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.74109199999999,
+                            "lng": 77.150869
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ea3ebebb86e755bf5b6ca37485d9c3188ff4a75",
+                    "name": "jai hind public school",
+                    "place_id": "ChIJn7atsacBDTkRpzYCbXcn1MI",
+                    "reference": "CnRqAAAAnCf-AKGCQfbBrKpou2mC0HXkcLv79lq-OEGfaqfYLYnhCYZyHafwbwOVxbges6pdiCwt0EvnVPgZe3Lkf2OG5lcJNZZ9HVT3svKMfn3P_9CIVWukgmSolwPHfNkw5AHtU-t8Uijq3Ut-zkGfWGEihxIQbrKJYz715lMzKA2aHHsZKRoU3FAkzHUqGodFMJKq0af8KarWCAs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "main bawana road poothkhurd block /tehsil"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.73607989999999,
+                            "lng": 77.12798839999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f0288c53c2dc1d4e07b5cef1346928e1245a26c0",
+                    "name": "Bharat Petroleum",
+                    "photos": [
+                        {
+                            "height": 754,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116468520726586461103/photos\">daniel buhril</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHIaR2_TvU5eBcq7Jo_UVlOE_g6fZcQMgEKeCHdS7jWaUFX6Mgk0Ydd3XWLtV1HJa8GLPzh5O9VYZoTNp1fD75UM4Dme0-Cc4Oyp1nCcKyVGpbJPBVz06cedQzdS0IuChKtxA0bQ0zrVlrIMk6rxnT9P01lKMdfG2_WnqUzLIMirEhCnRUTZ71uTNpXVRA0Sz9oLGhR-AleoMr0ufb3Cqhzqjty-VaKNvQ",
+                            "width": 962
+                        }
+                    ],
+                    "place_id": "ChIJYfE4ZBYBDTkRKvrq_tIpU_w",
+                    "rating": 3.7,
+                    "reference": "CnRkAAAAzykMBwRIS0BiV1SXW9JbDvkJ6yqE59iCLEYR38WXXXQyju1LSirluHz58EYGFKJ7DK2M3oQHxLqdHLjiwoLiNrdy5kcbkH-lHwrYRNLv6ZpjBiM4Espk0qkmRfEnyOKpnLjlwZn4FZ9FeMgf3nq_-BIQpReydRKxxI9-9U3VRXSjoRoU_E6rFJYhioeKgWMyt929IE8d9QE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 16, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7505846,
+                            "lng": 77.1419809
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.75062519999999,
+                                "lng": 77.14198865
+                            },
+                            "southwest": {
+                                "lat": 28.7504996,
+                                "lng": 77.14197725
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "02c9ac386037c9e34008fcbaee691d4edbd2e891",
+                    "name": "IGL Gas Station",
+                    "place_id": "ChIJEQfZVagBDTkRQtJZwe5Ob6I",
+                    "rating": 3.9,
+                    "reference": "CnRjAAAAMdotY3qhW7HLvLKthDQy2644bKWGq_eQX9TUVdKRACHVKOMurL1ylRp89EoBVzNnF82vs80BJZz8SAgUJQ3G86L0iExLYx7YHXtBlLLKMRXbXqd4H0yJxmqatXOWh_qwjumb6HPn0gqSUXl1XS6kYxIQj9T055fd5e_VUZyKu6CzBxoUSeDQqv0mil7sZXoXZ9ERfybbjsw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 1, Sanjay Gandhi Transport Nagar, Samaipur, North West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7167181,
+                            "lng": 77.13923989999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4daed32b02b1e0e2ed87210f9c1cb578ba554286",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ-1sp-3oBDTkRfja7RAfUk1E",
+                    "reference": "CnRpAAAA8WD5HG645dFDjpgFdpCinon4lWupRjoFiAspWVCYBLodMuOIw_owGLSBqSX2XtaJF8Mnn2zMJsSnMuZNXC2GqpITfPSQPS_dLXF2CeKLQXphtMbRsfQ9wXHJg4l4jh31VGqQvydfVWZllLoLQ6Up8RIQMHZAqpAPTLZwsCgTpkRxzRoUUF73G8jYyZesuLVmqc9KFAKBNlQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Prashant Vihar, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.738245,
+                            "lng": 77.149438
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5d1e3af22167a01f25c0c6515795716725cb481e",
+                    "name": "IBP Indian Oil",
+                    "place_id": "ChIJIXhkRKcBDTkRNoAAgYFCI2c",
+                    "reference": "CnRhAAAAdnjJyeQZcHwtpyuEBIRf8qutDIwjREMfjZU25LTzlCIp7w0V02WnPDuNY1BBCd3-SNwAl74vvI6raI8TVt_j18qoNjSJK7SS5Ia_JF1BgVDD12zktTCQwEUrlUMdk7-8-Ulu7cx4eBC-NTUwl2rIUhIQswezwPsXrar4XuHeU9WmfxoUhfbFPsH9pnxLRwrEu7Y16I3YDZU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "DE-383, Bawana Road, Block AG, Sanjay Gandhi Transport Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7274267,
+                            "lng": 77.1428877
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ec257fadfb7b084c94b54d9c122d476725357d8e",
+                    "name": "Fortune Service Station",
+                    "place_id": "ChIJhdhaeHQBDTkRBo0XVWsax-w",
+                    "reference": "CnRrAAAAieBPCOq_O8cWAblC-en8UU_GE2zUWiOMqeudGTNt_SbhY-H6zEFyqMZERB_KAfZNMVKQS1qwVJo7Ni0KErLPyY812JTX9c_L8wORUHE7ojxiqxqevvU306DR3fOoqOv1WuL2PtrMSNj5IkEbBC4TRxIQ1AgUcvKyHUwU9M9alGl3pBoUIL3RKj5d2mUUxmugFNF1HEsTdOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block A, Sector 19, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7273791,
+                            "lng": 77.14279760000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "991ea8a6e1fe4a4ccce90171ae88f0c2dbb2941d",
+                    "name": "Fortune Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbQJzeHQBDTkR7i61J7jN2CE",
+                    "reference": "CnRmAAAAhsU9IygMGD5zrDr-EuHHAoTm5UYAHTGQNsIj27pn5l0pj4FdCjie2UhwTjfuxuRvEyztV3uhmMBsK9v_FJt1nTnOwzKJ4vcV8r6l-NWKFwE31-iEFJ2rgHFwHukhIMlIz1d_3Uknir-ZrxcqUUCH0BIQZ3GU_0SDqlE_-w7faCiIFBoUVynbroXoxOfP2xWvQZkZHBXM6ZA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block A, Sector 19, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7264314,
+                            "lng": 77.14387889999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dfd157dff3773ea28ec62de7ba7c7a4b14c3a885",
+                    "name": "Fuel Station",
+                    "place_id": "ChIJ8zY_FHQBDTkR2v-De09CVP8",
+                    "reference": "CmRgAAAAEGbMgd4DgY9K3g6z7fv3XHjL3ZQyN8vnrFj_2NMrK7vlg5USJvcBYlNWhH8moFlpSqrlm2OMfTGrhNkkvBCvXfnXZjOspswn5WqRQPMgUUdppGwblpRMFtCpb-yNT8jvEhBXp4nRi5yZjLZO8XX8uwuWGhRopvUDPTa2Eb1Zq3Hfu8ggHePiIg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shalimar Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.737003,
+                            "lng": 77.15287699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3dbc4a92d093735d1b8fdb74d0cf5e8b8edcf342",
+                    "name": "Shree Sai Diesel",
+                    "place_id": "ChIJwQUySKEBDTkReXns3u0M8IA",
+                    "reference": "CnRkAAAA1_heA3m1EnYI8LquYrKy6kLNKOz2zTtTNjKrJ_lbEixqHutNde1PaIoYe5aAvKNDueMfkeuGXvBXL5AD_m6iuF1etT46LSnQqED_vBbx3XYlFxLq_tloVN9AYT4jCscEuNezBCYqhj1VngAX4DojORIQ1UTSULqFPLxbGJZdiyOukRoUzV5rRQvQv7Gz40sOUEBwgU-YIK0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "AW/106, Sanjay Gandhi Transport Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.738003,
+                            "lng": 77.153194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "bda4822f29d33902939abc268cbdd8c856cf3e95",
+                    "name": "A.P.Motors",
+                    "place_id": "ChIJDyRNsaYBDTkR6F-MpPi_7rU",
+                    "reference": "CmReAAAA3Y6386_oqOFHo9icw4SAKiIOYfQ2NHs1Uj-hpeZvfSXrQSFeVD0TpLBObHGod732ZwcDx7o9BZfyWwZi_8BH7QoYBi60QSVgme8bgaw-WS48HiTRoQC1L5_qx-qjZx3XEhC5ixP4Muly2yvDTwlx9ecaGhSRnAfpm5jb5j4_FWEYphANa6LTxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "AW/136, Sanjay Gandhi Transport Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.741203,
+                            "lng": 77.151219
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ecd8b25225f80b680fbba5e6be8ba407bc5e331b",
+                    "name": "Keshri Diesel Service",
+                    "place_id": "ChIJ4dwHs6cBDTkRVeAmO-Zigqo",
+                    "reference": "CnRpAAAANP7K1QR3qLd_tDI9eqe5pydzheuzb4GwZMsalUk0mYABM-Y1mUHo7_Qr7AfQuXGv7z3PxOS_itQ8qAvQUXO5FDl7Xx_am4v2F9ncT1V7nws-IwHI8TpDKOvD682u-ak8BhFpdLnMafmFGyBjnuy0ORIQa7Xon8Cr0OgLa9P8v9fmXRoUQK7cosz6ZuPNhXdGFnh1m2sAEck",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "CW-613, Sanjay Gandhi Transport Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.743171,
+                            "lng": 77.149109
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.74322514999999,
+                                "lng": 77.14914940000001
+                            },
+                            "southwest": {
+                                "lat": 28.74312855,
+                                "lng": 77.1490574
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "13769dc0ef5610f8a474772df14f242a14d4ac4b",
+                    "name": "M/S Nishant Enterprises",
+                    "place_id": "ChIJM4VEBqgBDTkR6U6TztcI0kw",
+                    "reference": "CnRqAAAA3gQ159JvRY-FYEZIo7Rz7vqX0xfNJWKpHeS-2KwU5O2vqe6pe7pgNrXe-37HA_XXfR3SK2auCV8sWw3zE0wmkeDd07M28OexyjWUh9GPFzi7gGtAqLtXrIwCY5QCYHvgqpErjQ8uF8EEtI87TM_afBIQfV_45eNj39GqNm65vTVVpRoUzZxgqb72sd-yxHXcYfixqnnN_Ig",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "CW-279,Sanjay Gandhi,Transport Nagar, Bawana Road, Badli, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.743666,
+                            "lng": 77.149401
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.7436892,
+                                "lng": 77.14943539999999
+                            },
+                            "southwest": {
+                                "lat": 28.74359639999999,
+                                "lng": 77.14929780000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899267d5179251391dfb48155ad5d7e0dbfa2081",
+                    "name": "M/S J.R.D. Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ95fVD6gBDTkRTxpVMHOgY8I",
+                    "reference": "CnRoAAAAnzb1Z3drOAeN15_cs4Aqga0m4vqf9YnFELWy6N6nPZ3HDuzaAi5XgdJJCFFDntpo5JAPCwYakgucY6Zb_LQrVz0FxdIaKoHKTnVkDK7KCScTQ0qzY-A4WtLMp4pIfDpT1LA1QluoeG5i-j-HsJz4CBIQBnMXdWEUigaoiCq3R_7ttxoU0-XthcYO2rllOmoOTf-7uFW9IQI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "CW-61,Sanjay Gandhi Transport Nagar, Bawana Road, Badli, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7279202,
+                            "lng": 77.1559647
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e20f6b196f0d4acf359949c5e95deb879b744acb",
+                    "name": "SIDHU SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJK37qFJkBDTkR231zF-T-q3k",
+                    "reference": "CnRoAAAAcYu0WxbXZPDn41TqeDRfmwacPuTeqVfaXiCcBZaXLygmc_CdsVqGZ3DeV4s0t-s9oAcukqjJ8NtvIgVfmT_zuLv9WMT91v5xbGUg7cHbV-7AxXpnEMDadJVhzdpPhsuCZ0gFiWlzrQu011JvTcVWixIQeFHzz29PrR55hz8zATJ3PRoUox2l_nLhoRRkTSF9IZrUhrIbH-k",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "5/5, GT Karnal Rd, Azadpur, Near Jahangirpuri metro station, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

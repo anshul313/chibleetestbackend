@@ -1,0 +1,226 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6159086,
+                            "lng": 76.98287119999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61601635,
+                                "lng": 76.98294024999998
+                            },
+                            "southwest": {
+                                "lat": 28.61585694999999,
+                                "lng": 76.98272925000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f364bfbad3c664d1d9d39c81f9032f7187a8ec7",
+                    "name": "Liquor Shop",
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116799044655177587669/photos\">Vikram Saini</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAGA4CwrP0bbFycsRBJXiIZKXdCv0ooGv_FNIar8RN994cVGKWZmcqlUnM30BCn-rMAf2ybhB14rb0y4MjtmR9HpLhfdeWoYkXYyL37QKzC-3a5nDcQuR7AzAZHbXONVrbE-mDb2KaSZu1bewf3QE0V5Vkgipg9JwU0yyzHnFI2O6EhCRoet8dN8LbiPb9uiJA6VfGhSgGZ_wvIRAJ_KueE1wOkTLCwyupQ",
+                            "width": 1024
+                        }
+                    ],
+                    "place_id": "ChIJY2KQl8MPDTkRvWC5LNBVPyI",
+                    "reference": "CmReAAAAXuWEP79OKPrNU0YcW6mmaDth93J5_94EnJ9n4jjnl80H97yLyVFZj-3x2ZfLh2o_mrvrDB7MPP4s0JFvqh3QM4atqhItSiD8UXRxb_FOr3kNvmFhWRDszCq3LRHUZ4z6EhC9T2XCQXqSruluHlbpzwmuGhTx9Yrzeb1G-WNHcTDuukRDp-o6gQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Najafgarh-Nangloi Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.613716,
+                            "lng": 76.979901
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fc911624f4c9f6326a14495e5a2c35df3c3af898",
+                    "name": "English Wine",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBXmO68QPDTkR27rTm9wwNck",
+                    "reference": "CmRgAAAAgO2yreAbbj-tCDKwIJaoVbcAflLXY1JHinIQwoPat1fvIFqfsxZXHXe3hMuPG-wPcv5yDN5InpYqExrRnKnYg5tR35zH2Imf9mxQiZZ2eBoW0LI6F4nl9hXYxbR6O-SZEhBD34korTyobazR5ivUT4sYGhQflC-_3raceCmJidBIhBT7nC32hw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nangloi Road, Lokesh Park, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612399,
+                            "lng": 76.9919481
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61255574999999,
+                                "lng": 76.9919532
+                            },
+                            "southwest": {
+                                "lat": 28.61234675,
+                                "lng": 76.99193280000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cfd5bb67e503919fb4854f98d0f5e6c914a3527e",
+                    "name": "Liquor & Beer Shop",
+                    "place_id": "ChIJAVhUF-YPDTkRtNg6EWhdZvw",
+                    "reference": "CnRmAAAA_367N9zr2JAu8dR9WGHv9XSsWGnqV0D_3eymzlUisxFkvJG-LfalXavxqwGUsrc_STz6naXQSqJsaAGD5sBw7_SLWhE16PCK_mqluxzpmwS2-S9mPT9uIwk74zCtyFPaeJ7Ip-nBqsuwGRWxqeE65xIQHrRc4gZkDdNDE7tO3sPywhoUACdTmpIhVOFPL3K9PR5k-LWTQfE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Road, Najafgarh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6159086,
+                            "lng": 76.98287119999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61601635,
+                                "lng": 76.98294024999998
+                            },
+                            "southwest": {
+                                "lat": 28.61585694999999,
+                                "lng": 76.98272925000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f364bfbad3c664d1d9d39c81f9032f7187a8ec7",
+                    "name": "Liquor Shop",
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116799044655177587669/photos\">Vikram Saini</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAG7FQY1zTUQLQ74Y3V-bkEugVc84981rZiCLMfdQct346me82UVwatH7vymz1udm4l5zfOU9aSYDDix8LWjAaaAy5J00QFime07dDSXE7adsGNyxrNlOwr7kA6TO1XAsz5oxyUW6WvSiw_31Fp5-jNUHi3W4bAbE3nQvo3ZXCNBCEhD9z8WtRqKhXGaHzBKY2NE5GhTzRRv9HGPSm1hWXZSUH5X5FqqHGA",
+                            "width": 1024
+                        }
+                    ],
+                    "place_id": "ChIJY2KQl8MPDTkRvWC5LNBVPyI",
+                    "reference": "CmReAAAApV89rMPv4V6Gf15aGPwK6qgBSm6ko5b-8k30S7ixWMO5ucFK__Wa8Z2_ef1FojC_VnAzw-qf21SsI4nHLYJkgWeJBTrMJ7-kmNIviPIz_TXHk1DfoJz9Jar5HI4Vr-1TEhD-UfNgBYkm29kIwC0CURaoGhRc9x8fT6Fxvpwg1awea8whcfrSIA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Najafgarh-Nangloi Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.613716,
+                            "lng": 76.979901
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fc911624f4c9f6326a14495e5a2c35df3c3af898",
+                    "name": "English Wine",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBXmO68QPDTkR27rTm9wwNck",
+                    "reference": "CmRgAAAAIcmFvrT-toXRf8UU6RzQOo8_7KAzaqyswJWxqafcgDe60SpZwe-8lAIs5qIOA7pbSfBAEoR9WnOmftPLhxfPtuBJeOgZbwsv-EkceSk_lP7R8pNASc4sCyvom7C2AzbeEhDTL2WN117TXWbbzkJSRr-4GhQK5NAyqYfuu_j4J6mdZ5lPJkhJ_Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nangloi Road, Lokesh Park, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612399,
+                            "lng": 76.9919481
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61255574999999,
+                                "lng": 76.9919532
+                            },
+                            "southwest": {
+                                "lat": 28.61234675,
+                                "lng": 76.99193280000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cfd5bb67e503919fb4854f98d0f5e6c914a3527e",
+                    "name": "Liquor & Beer Shop",
+                    "place_id": "ChIJAVhUF-YPDTkRtNg6EWhdZvw",
+                    "reference": "CnRmAAAA4QydKWZt8_YPkcde1mTZwglDLO27sNSx5xNRaUHSDYYLUrrqFAIG-4fpLSmYauqnv2QDecKQZIOZzVLIrDRpTcPHLxziWdgPKsR0w78EWW_WBJcohPB85xgH4kecvcyzkU1oYOJYQDoXnXfpHdqo-xIQiT3BQUSYnc7GzV_LGTS3jBoU9qm9erCjpIlM-gmTGbDGznnh5Xs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Road, Najafgarh, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]

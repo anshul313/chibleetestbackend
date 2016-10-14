@@ -1,0 +1,3642 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5931954,
+                            "lng": 77.16484919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ba844bb0192dd8627718d7ad3c39964197c6c44",
+                    "name": "HP",
+                    "place_id": "ChIJR1-GZRYdDTkRRSI1wN9-0ys",
+                    "reference": "CmRVAAAAhhVk79edzCOzifllwAElQ70GbVEVNQTRnicQuV1KZNwbsBiJzCVmZmpJJ_loexrPLBsR4Q42FihKnfOEdCe3Eva-vsprwzGH4lpgDETmGN6H8QVGvU4_fI3Gu6JzIYr3EhCpHBm4OmJ_prdu42Bhot4XGhR_NY1A7e5QpYeyWn9ldlulgUzZPw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.590262,
+                            "lng": 77.15747499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ca3b1ed204d034c1625f7d1c1e9232373d6050e5",
+                    "name": "HP PETROL PUMP - DHAULA KUAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111315810843938106806/photos\">R Malsawmtluanga</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAP_KcA0Wi_wLojd2gZzHp0B-aH2mkOeqwFs0JAd15__-_5h7sSPaXLCqQL8j-PKuV6ZxSfLnSDB3bwQsO2ZTZn-GFc2cFnw7xtNqVEqL3n0fDhO9YUsm-DLi4Q0iHhgeM-mMotU206XDJg-J7rG92qjqZjebQyyUdhvz5agKMr0BEhBiDoHPHVQ9KxbEljdrc7SvGhQPNZ-qwE-Z_4wyhefJKPNM5AesCg",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJIT0unxkdDTkRW82z72CFigw",
+                    "rating": 4.1,
+                    "reference": "CoQBfwAAAJ0NjY-6a5UU3szLbCwshE6F_1ovCtZRJ7pUJDRGcGyZsufQxCif29TdQ7HDonPxCjLYgvirH80hV5supSR3_-WQBvGK3fdKSlfe6UPwcNmaucRXawXdYKSJdOR8WdGuphuP9xyXtNfHndAdvv3iduDOdaqkgarjohC5pIGiPGgqEhCdfU6C3DyZmFBASDqioSHzGhQGuI1Fq7DtSZ5Er8V-peW_Uihzzw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near R.R Hospital, Dhaula Kuan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592836,
+                            "lng": 77.16378999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cdb9224497a96332c0cc0b50c96dfd4399bad892",
+                    "name": "HP PETROL PUMP - BEST FUEL STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJwUAtWhYdDTkRg22_0S3leCQ",
+                    "reference": "CoQBdQAAAIJRYcVtYeWqhcfuIBD3sGKbswS31QK2ir5weTPYlIrWCsHrkBpJ-dDghzgoxmGtFFLhpgxytm3mG1RTslBgYMorrcDDO2TYT0azh-wrAh2gv2WEo8h2dpNaKwLZbbEEjDM063ZJ-Qop-5yrB7S5v18gjeI9FyNSGoE0zFpeni8GEhCeSuKJE_EJI0VWLYLTVhcLGhRWrrtsCpSfFkZ-OV2Z2-zDFxMJAQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhaula Kuan Crossing NH-8 Dhaula Kuan, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593182,
+                            "lng": 77.1648495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "485618201ffed1e15b251f212056858854454a35",
+                    "name": "HPCL petrol Pump",
+                    "place_id": "ChIJ48H6ZRYdDTkRFs1m9gKOFZ4",
+                    "rating": 3.6,
+                    "reference": "CnRkAAAArbSSNy9GshAgjy77z7foU3Jszrza7rIaVOHViT1X7fixFMwSy4EffK_30qFmFXB1LDv6dznViIpwJOM7mEtbeCAvkFTEKchKGqq1otRZw9fcRFytmaDSAj2Vu9pIDiogSSvlJ_WdXZK1azfZ4fxHuhIQ0-VQ1Hes3vCygFWFLmQGkhoUOz18u3jcnbIiNXDAZIJrKeUFDgY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5931954,
+                            "lng": 77.16484919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ba844bb0192dd8627718d7ad3c39964197c6c44",
+                    "name": "HP",
+                    "place_id": "ChIJR1-GZRYdDTkRRSI1wN9-0ys",
+                    "reference": "CmRVAAAAWyk4E0yhBmySszWdeTvHy_ybmKiRAZ_iUU7ahzAhZLdvdthimzr10ka38agms6NdOOv6foUo6gRju-vUK_2wMPUfLoug-BMN6lmeRncX0s6skd74JolBtcEVymAQzvi3EhBN0BcsfP7jPA-1u0XCvXf4GhSQgyCtJltVoSPxyg-eN5_JW4F3AQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.590262,
+                            "lng": 77.15747499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ca3b1ed204d034c1625f7d1c1e9232373d6050e5",
+                    "name": "HP PETROL PUMP - DHAULA KUAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111315810843938106806/photos\">R Malsawmtluanga</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAP9nPomXEvRuKzROPI2aZuyYQ4eBoEENUrCzX1KdkNWRuNBPmH0uSSYDYJEloLp81NLznzIQlEMZ7DPwFFESgXtCIqgucWn0iW2Br1AI5YlKsTh6LweXepxzfTdF1Wkctqh8H0V8iLbkC8IXRuOyymJvXxemKIETpvTfrA5Gnh1YEhD3hGBZoNrBQE_KRU7nmyrnGhTsJtKfrmoY9mebr5wppyPRPGGLYQ",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJIT0unxkdDTkRW82z72CFigw",
+                    "rating": 4.1,
+                    "reference": "CoQBfwAAALh3i74FkHleEdb8oa8MPWZVnLSARJof-CQDtKxbLvrBM654L_bew1F4inQB49Smil0WPID-kgDYb8DGCQ08naEHcWZt3Zot2QD25KOaqXDL5EpsYRgtB_KhHmpupICykAIPwPh-w8U2nvxmXWQloATpMwOLNn7QX1xCogVqLUVFEhAz3ydEkdg8Of5O6JH4Q1uaGhTnY0tTby7nc3yRail1DG0eYYq-Pw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near R.R Hospital, Dhaula Kuan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844614,
+                            "lng": 77.17216309999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58454555,
+                                "lng": 77.17235224999999
+                            },
+                            "southwest": {
+                                "lat": 28.58443335,
+                                "lng": 77.17210005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f1969dffa15c0967b6b6b803a0b05d663d4679ea",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIiX0eI1Z1VPDDGy-G2RlNR_-gC089CjjdVmj_7SQcM_WqiKeXfYpoxz3YdnmrBv3CiVQOrPI3uB5QFxo4fGx3zs504ph4D2iWzcla8Yc6LWd3AndWqVn0YlGGzMeZZwjXXF6c5P4z5IES4LsIXrZK1BKR4mGL6mPbwpjeJBXOLmEhBrwd5SduDmKatzc6JssJSDGhSyjf3R4JyHsl9gWqC1frZvyR6LTw",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJOyVZqHIdDTkR2CZu2U1tDCw",
+                    "rating": 4,
+                    "reference": "CnRpAAAAwHtpkRpcOOvd2gtLbVaYCo5WOYwPWZwGz9QU7U5KZfndpcAtnUrXiuFnlzcia8qWGKWyVPlKwxb6BKkGrYbi_jtbUoP5A9SCyFw3mIz8oPglYKGdxKOtwKvkBxNGpVGWWEz5huaiWWWzvm2PRicJ8BIQ8-2o7gZr2KTuHrGTh6TzehoUoJNrXp2OfFowqGHsbVsNXp6HVl4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Nanakpura, South Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6011551,
+                            "lng": 77.17917489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60124535,
+                                "lng": 77.17923695
+                            },
+                            "southwest": {
+                                "lat": 28.60106275,
+                                "lng": 77.17911274999997
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3c79a2e0aa8e40ce61de487aae23c3727b3725a2",
+                    "name": "Gas Station",
+                    "place_id": "ChIJ5fVklkMdDTkR3CwlzA1I72s",
+                    "reference": "CmReAAAAa5Tqk4G4y-1u89eFCL3sbclv-0zBSfEkJFyoMUCLVAB-VKvBGDH04UBuwCD28Ne-UtTmFJXYiNuCh9PujC7j2kXu9emuCkRrqhMG9yw2E2n33LNeWemJ0iVGLCwoQTD-EhCuzk3g58dI23xVr_rBbRcdGhRlMxf15-sPJTZCaekH_BET_HneNA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592836,
+                            "lng": 77.16378999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cdb9224497a96332c0cc0b50c96dfd4399bad892",
+                    "name": "HP PETROL PUMP - BEST FUEL STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJwUAtWhYdDTkRg22_0S3leCQ",
+                    "reference": "CoQBdQAAADZxB2OxcVp_civGSsAMtWu4xiS73X_W4FlhLPvpBRY5B121MKGpsI12HVjaj2uTamUc8Vjc6xVQvdJMwXUpS4Ub_w-UczmYGFkXCbqEQ67fReBb-0kcRsEv9lQ2gZ77G2AD0bO3-shzc5Y9Mz4Xg_TTqLbP5USmxmrrOFwLTBhuEhBNCF9FlHXQq_MR_oeo73gnGhRjXsPZYzLJfexXZQRf-wsBxh7ptQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhaula Kuan Crossing NH-8 Dhaula Kuan, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593182,
+                            "lng": 77.1648495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "485618201ffed1e15b251f212056858854454a35",
+                    "name": "HPCL petrol Pump",
+                    "place_id": "ChIJ48H6ZRYdDTkRFs1m9gKOFZ4",
+                    "rating": 3.6,
+                    "reference": "CnRkAAAAEi1LqtizsvIWHQMxfCvLzYeVVzC7spnE_m4-qnXzrP43Tpy_2UsBEFUUYj1wAXG_KZmV6nC9seaxxIYt26QWdtP_VDmuPWwHVnGRdNnQ3_DwwgA4Tu6Iu8AGqe40Saolv0sjBfUNo5gekn995Ssv7hIQbtGJ55HKF4ZllBpbikFWIxoUrwkZJUKbcaIJthIBBnax_dwlRqM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587296,
+                            "lng": 77.171388
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6cfd8748e9c64e8106ee0dc0ac6fc1efc4a16300",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJU6dw1RIdDTkR6jmSPWu-gg4",
+                    "rating": 3.4,
+                    "reference": "CmReAAAA2vibbWS6gEfp4PLWl1XU8_YMZcSU2U0aRkGr-MhcPK8_oY2Uc4FVkJ3ShRl5whazw1B7SEn0YN3qJm_LRug3qyASQErLkHhtUw4RD5P5h2yy50LIexQ0lV10DmsiIj-2EhAs1wE7aGO9kAwpdm1iH5QQGhSELzdQxZ5H0klMm-PiXw50v5jxvQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591514,
+                            "lng": 77.1754672
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8f1622009d7bc51dfe7436499535eb11e09e5933",
+                    "name": "HP PETROL PUMP - BANSIWAL SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJv5Bdk2sdDTkRg3MLj7O6QKk",
+                    "reference": "CoQBfQAAAIWm-x8aVYmQ4EmNy-sZhpXl0D_kmmRdoZnnu106FNld_XKK2Mr9iLCiycAXL08dI-heQSLOGuynVMRr4ems24D4rMh1lbmpw-4wJdjB3RdsmAl_UlqIyhYevc8b_xQDwNqfJYinhF9b-Z1gzKB4bP_b9hSklhJlz-iMIYJDTqOeEhB2b7UwNwyOiO30vRm8R7grGhRgn-UUVvwBzFFogQHVgGcXXh4U0Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SAN Martin Marg, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591714,
+                            "lng": 77.17580400000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59200155,
+                                "lng": 77.17597760000001
+                            },
+                            "southwest": {
+                                "lat": 28.59161815,
+                                "lng": 77.17528319999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ce4a1eb629b75e2494dd1c4d2d025e2a7f73a20c",
+                    "name": "Compressed Natural Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 612,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113026906382193101480/photos\">Shankar Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAK2njatajAmVSvZ3jXVWdjrgAljAm33wGScEsHMH1Lyx82eWCZHEDnve1SLEvgwF5XVxnGxQ7tNlQbuqgfWC5ufRqcVEmISaPuqFAGLzsx9kYD8qOXoPWnWVVA9biTnb8rxiLrphOpIf9_DUfAyUccFss5xz6gXKJSJx-BExAAUmEhBiPxyfj4nwPvaePE7TsWDDGhQHTqJjtjfVVRZO4WV9k2vxtT8P_g",
+                            "width": 816
+                        }
+                    ],
+                    "place_id": "ChIJL7dpk2sdDTkRN0ECP4j4GAk",
+                    "rating": 4.1,
+                    "reference": "CoQBcQAAAKyYl0FcLG2x_Lj0inTthK9Iev2OkDVwM5Ebmbc2VldS5nOnRyADrHi5YXx7dWa1bTBjKDH0CYT8j3N_GyTFQ_w_jarCoHYooyQQZ1VqjDztTIhemxd17LIDLRowMkJpb5ldu--HG7osO1esMdWN0DxnmS3eXuANUjxsqbEFRFA_EhDJVaCoOa6Xe25xdmLNTdkYGhQiUktBberbKkNUb4rK0fEP9dBMug",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "San Martin Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844972,
+                            "lng": 77.1721069
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                    "id": "898375b81202bd519c0bfd76fbd64073f5176764",
+                    "name": "Moti Bagh South",
+                    "place_id": "ChIJa9VqpnIdDTkR8P49TjG40Ws",
+                    "reference": "CrQBoQAAAHMszw8C9BowZJcrVhvZM65DWKz6-gbQgq8nS46wutEx1NphcnGALjXpSgClTu2eVcCU2dSOOKlk744dcPxVacfy5JhF9V0NyBLNJpeHdwctzvzMlyRYKoSCAdLOfnOVjuhalpkhxAeKjZulkT4ebr8U5Z9g3kAO1-FQ5I42c__EI80qgtpmSnTd36H3HmkZVuC1Z4245XpJLZC0wNAKzj0f7h_6CdPwQAuDCPBMwVjhEhD69XtPK1iJzwInoX0bV4XvGhTV0YkCGWZ5Ku971KKitfiQkr1N4g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block I"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5992271,
+                            "lng": 77.1750927
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5992777,
+                                "lng": 77.17519680000001
+                            },
+                            "southwest": {
+                                "lat": 28.5990753,
+                                "lng": 77.17505799999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1879432b44dd6780dad8f2a70b70e1de76f9fdd0",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ-xgEqEEdDTkRpsxDdS_AsNM",
+                    "reference": "CmRfAAAA-3BtpPL91UI7KczefrDNeCpsve2_IAw5Uvuu6XOz3m35b8O13wlrpA-KWVfKCL3hb_bNqcDa8xlRdmtWMNymMQ8qBcXoyAdmUvW9BhuALEmGF2EBOrbEs-cE7aE959jxEhC9IaPJLwNZN7STm-0zXAEpGhTr0EJt4doAP1dLozvGlR_aBGctMQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, Central Ridge Reserve Forest, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6028395,
+                            "lng": 77.1486998
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "023d79289149a25697f5f930928bb34eca0a3377",
+                    "name": ".",
+                    "place_id": "ChIJseXVhicdDTkRayptpP7y8z4",
+                    "reference": "CmRUAAAAtyzALi1fttRh810uQoWjSpPOz8zuZT8G1iN_JgEYt7BOf8E2cY_Y38KvSu23xY-56Cjc0kSnz_PFP8ITWeEW2Q1P6mcx9xMCGqWMk_F94UnImITig88ZJLWt7a3UT9jcEhAW8eMU9wvnZn3_4LsbpiElGhQWgr9_c5j__eHNAZNP0gno8Yk4ZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAALt5-rcwCtLriKwAslSxelYqQmf2ezRpWj5H33VR__9hPVntoE9r-R58VzjBsxeWNx0-YSKEawxXMu3P0PY2QlFaL5NIU2ic-u4u-gDsFEdD3EOgVIRnGeOnI_0NIMFqwj9wnuwcUAJyRl24UK0Cbf9MXVQvfUKMnK_KoCPZO9bQxUvJHcGbQXjb5qTUIpO-eLPZC4ZzjSvdfIDiTkv-ILP4DPDnRo6rwzL9U4EaHrJs0SFYaqUxO66VLA8GV5ZZbIXAw854bOSdzBmvHyNk5Q2zmrh04GLZjcOOuZuJtc9nFGMIGQ0zT6_-jIVJx6ZmduxSe4oeDOtn0cIjQkgSTegSEFV6NRkECONKjRt4449tp4gaFGBKVJZB0dZFDexp8T6iRC5JSU4W",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5804938,
+                            "lng": 77.1792565
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "37f4c03cedb61fdbd122e30bc1cbf2ca1c5a6aa0",
+                    "name": "Bharat Petroleum",
+                    "photos": [
+                        {
+                            "height": 1924,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKwTYVGgguxiJcAlb_NeYsMPAaEgpKFRJf3jAbNkLX_nN2JjwTYeyF_3CFj8Kncn7ZlYQSBl3AmNYkMs_y3WfA5-rUvl_QHK8f85TbhFfOXS2R2Yhh7Unq7jIMYF1-NIwfTUiT5WfOHR3uJnncs9gRiAtU5LLuWc-B4RbYgixUVqEhCQG6zoq1RFIPap6cOC6JvNGhQpyN2P1-n_baWdle74niAzj_kaPA",
+                            "width": 3240
+                        }
+                    ],
+                    "place_id": "ChIJU_EhO3EdDTkRbNI2B09rzMY",
+                    "reference": "CnRkAAAAvvR1ZKUiVon2ommp9HQwn3TbSA5VLe5aZ6rEy90DgOqICrcY6pSsLn52yZjtXZmBomwezfhdN5yWTd0DnH4MIHck5RO7lk0NxcOgqemnTtEvfonOCI4Fqoz2gko3X-hCw9ZED42k0t2gN4cgFkKzHBIQS2xWKM7Ws49kTRuwsuVLoxoUITKA5xohS6yOpAS0GryhzmjP0N4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "D Block, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5931954,
+                            "lng": 77.16484919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ba844bb0192dd8627718d7ad3c39964197c6c44",
+                    "name": "HP",
+                    "place_id": "ChIJR1-GZRYdDTkRRSI1wN9-0ys",
+                    "reference": "CmRVAAAAHrmgR46tL5Yfuf46nJ3zecPYl4dNC3d09K-4etN1qPLsF_QETmvOqsFNxYZJ1EKhnIhLpMZV_2mWmdgqN3bdOgJ4n7MbDzJN93hG6IbzjVpxeBPLl01Dpu5FNhHbDy5WEhDmbGqkO20kkVTy52slVuUQGhSzdyiZBImRE0oAhDDoAh9lwqB3Pw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844614,
+                            "lng": 77.17216309999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58454555,
+                                "lng": 77.17235224999999
+                            },
+                            "southwest": {
+                                "lat": 28.58443335,
+                                "lng": 77.17210005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f1969dffa15c0967b6b6b803a0b05d663d4679ea",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAG14OGfzq4uxU_AYx9GYikkNe0go9vJMhmVn3l8xovljJ0QhqMIaiSdKPYkBDs6iuwG_Kn2ZYR4d9LEuvGY7qTV1y1JyBp4aQ-kN6Exs5AV3ZYVnXs_0Lps_ISzHznSbutyTtdwOid-tB9QmJIVXL2n5kBcdsr3UL5EqXLzLd7IXEhD2x-hN27ahzjJBdtRqnvpzGhRtVP7DiZaj7nmoaMkFL__y5e4sSw",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJOyVZqHIdDTkR2CZu2U1tDCw",
+                    "rating": 4,
+                    "reference": "CnRpAAAAdu5tCLkUgPiTE1Nbg1nTLp0kbcdsLacc2_N9uW1JvsTJok3YWiyvJQQzfthMZGiGs5FezoaynmxrjwXiYs8QPtW79-y6pg8c9Ym8zX03mUB2_3l-Xs8nce8HNk8pf3ng6RNpWaXtNdoZQC-sYgMcdBIQ6KHOWyIQXZ548_Llvyu1SxoUpTOyPjLFkHVRy9VWh9kBs61wFmc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Nanakpura, South Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.590262,
+                            "lng": 77.15747499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ca3b1ed204d034c1625f7d1c1e9232373d6050e5",
+                    "name": "HP PETROL PUMP - DHAULA KUAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111315810843938106806/photos\">R Malsawmtluanga</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAPfDbmRBfFcEraeM9xVM1nxBubTWC-xUobTrsni4rjk5-DMrAEqkx-BM1gmx_sLTqXMGSVc6sVPhRrJ_oPt2IHLT3e4dsPcNLw60Si0-BnTssW0i4SAJgpzYWDVKljVKPYH_3A-icKqPWLIj4fHJ2RXzYQVqT0OOiCHxiTgsbuGpEhD-SbwUEcYb6CofHg97jenjGhTugjLGPn7RlkRRGvsvuVnis2VeAg",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJIT0unxkdDTkRW82z72CFigw",
+                    "rating": 4.1,
+                    "reference": "CoQBfwAAAOZ0pt2NjW_mWLxrumNBEzwZNI-bt9QOlnkhN3NPHpogivY5-XzpvMpg9NnIZx1uI04ovyRME7VlcY3iekXxRtpNIs-7GixRgcL9Eb1SeHlS9pNLG0MnWenFmmISAp5p7_68WIbzFTFZcxx2F95MIzYD3PspiZJu6KcsmNd0DVk6EhCoE7mieDMMP5RjiU6XZta6GhTlkrCfUNfpKHiWrVfMx3hCMk9OtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near R.R Hospital, Dhaula Kuan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6011551,
+                            "lng": 77.17917489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60124535,
+                                "lng": 77.17923695
+                            },
+                            "southwest": {
+                                "lat": 28.60106275,
+                                "lng": 77.17911274999997
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3c79a2e0aa8e40ce61de487aae23c3727b3725a2",
+                    "name": "Gas Station",
+                    "place_id": "ChIJ5fVklkMdDTkR3CwlzA1I72s",
+                    "reference": "CmReAAAA_q5_hNPnIDPyNlCmTCu_f1ivIUQ-xhtuy--G0IQuR5oEgn6BtGC8iIZY8D2EbAlXBIzAzd9-uoO_EINatz4eu-Xd-ZB4cGXxvUBPbWoMQI4GCoUMOz-EM4SQSv61KD6mEhA7n2dq5byBjRWpba31LJ_FGhSqBVKp7eGIQE9KfsUnZ-G2wFWqDw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5776361,
+                            "lng": 77.17485429999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57793355,
+                                "lng": 77.1749198
+                            },
+                            "southwest": {
+                                "lat": 28.57753695,
+                                "lng": 77.1746578
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "058e61d89c3700e49946d113e289ffb8da4ad2c8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdaHtXXQdDTkRHCBNTlLxv7A",
+                    "rating": 4.3,
+                    "reference": "CnRqAAAAoEjB64tmiT187E0FmrWBf7XjrNFfFYFfFqPOQOiWZlF0MHMUZtOG0B41TctOzNjV2uqd8rOIdZcqTs8AazJz7EB6OEsC_kgoXJUR5YxeCJAGFlpiKBE3_-0x0fbGsgbIpPTIyxeIrdDTQhErGN_7iBIQgkWMfeDHm32BKvfoN83eJxoUIE-4ADk-QsSg82pBhvUC2pd03Ow",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rao Tula Ram Marg, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5763571,
+                            "lng": 77.17175499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "141c6a825109669fcd6eabada21eafae574985ad",
+                    "name": "IOC PETROL PUMP",
+                    "place_id": "ChIJ4xuM03QdDTkRGWYg7ge7-fA",
+                    "reference": "CnRjAAAAgPSxUJM2LUMQ-TJSX0S2_L_hexTCal_pcJEwLcMRUmU8_raiuCOEPTo7ymIYJmKAsMg8QJAX_Az-1MlNkwQoCAcNm9-T6kxxNaOW4BRIU18vPorNMbJxk5wLGPS60O3RHhgp6kMpjMyg2Ei2rWZLxxIQcebc-er5P83q48aiS1oPDRoUORhsqM_J9dIV_2AuQFW9eEha-Kc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "121 Major Somnath Marg R K R.K. Sector 9 R K Puram Sector 9 R.K. Puram, Sector 9, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.596907,
+                            "lng": 77.13553499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59706700000001,
+                                "lng": 77.1355434
+                            },
+                            "southwest": {
+                                "lat": 28.59642699999999,
+                                "lng": 77.13553219999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d863913bc3cd5c0ea8da40c26730cb9ee3738862",
+                    "name": "Bharat Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbQytasMcDTkRg_kG79Teei4",
+                    "reference": "CnRlAAAAiX_bcNXTbXPTy7suS_UyLHWQVZrm8uhKPsmetdg3KqJnJ8jDOLmtowttPUfi1lrHw4umRduOXeOqjyFOJqDpcqkADqJYQ0GWicpuPqJ2CadhD2W0fz4TFAAzkA_YHLbDYE3wc_bM1R_Mjwdc5gvW-RIQ0KrTc4W7keyrcPQ9s9g-AhoU-6Jh3Z7x2Z1nJgDMqnA5BMSq0pQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Church Road, Gopi Nath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58353929999999,
+                            "lng": 77.1910035
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58373325000001,
+                                "lng": 77.19112395
+                            },
+                            "southwest": {
+                                "lat": 28.58347464999999,
+                                "lng": 77.19096334999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "40bf5fa024d0b5d8ed705a75c95631fb5fd14390",
+                    "name": "HP",
+                    "place_id": "ChIJ6TAYVHwdDTkRAuK2IDS86Yw",
+                    "reference": "CmRWAAAALiVyX_f4bYclMehYVCQjm-nvh7TLvL9y0PIjSf8tjViazRAoQYQ9lAW6ifUmqmLLnhMWdeeNoNQBvsXACA6JdOEYdQnKqv-LOZrv6HSjig9bK49-3N7gcqwLrhj0k0PdEhD3h3Zdg9IK9fgFlQ_gXJAdGhSjdRNpwuq7_kuJ_MyfxdkO9VPzjA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Opposite Nehru Park, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.59645,
+                            "lng": 77.132873
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59665865000001,
+                                "lng": 77.1328742
+                            },
+                            "southwest": {
+                                "lat": 28.59638045,
+                                "lng": 77.13287260000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dfbc4a20810385644e6d0307f46b37c949970a4e",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJhc4Bv8McDTkReW485MtiQjo",
+                    "reference": "CnRjAAAAefH3pv3wsMcoR2KqeTGvaAblChLosQJKTKatyUXIZOpZuZUerAk15WkCVlzOOaXehMoTYLmhRbzcPXM1asP84kC83KsV8j1s4QNAS2b1p5V-U4hvQTdnbO6wAWsQSg-HSZlK34mlQ0oprIpsZW3PMBIQRHzo7anT3W59eLxeeqWdyRoUvxIYP3rkHeDi4QU3Z0YGQvBRHRA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "On Road, Church Road, Gopinath Bazar, Khyber Lines, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5832602,
+                            "lng": 77.1914116
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8a55f5514537612252104ec175ffba472b73df36",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ9QJ0U3wdDTkRgFbL0Dcc5JA",
+                    "reference": "CnRqAAAAPOpd05tjQQtvwjWadrj1OfKtHesPZ4Y0s_gIqQQOeiHHo5wsj-M6IjnvT_oZ0nLQ3hF0rfKIa2FcnShC2S4Kqit2c23V5YCw66mUZCIsrsbN-J6qFvdyKTDbmQOGDi6iitTehbHqYkBY2IByqwftqhIQoyB6Byd_ak-yCZAktqWDSBoUJzj5vwQzErunTuTLgRVU7431w38",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5805786,
+                            "lng": 77.1794978
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11f6ffa061a74a2f3387dc8e3b1c53c018482501",
+                    "name": "IGL CNG Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADZpAqy5u4-sAOa9g4oI_6TGf6GB3VHPlgBM06RDlQxOT_P-5IUaBmm9w_3whGx_iUIZz66TEcm078SRNA6O9JbNkhZaCUY8GcRdk6b66MsaEavPPulz0txKdQYf4Ww0_oDoXAkWEuvw1cYOCDtmxcKtjS1UH80u442cOljOASA0EhBItBcnfyeqAWcZcWtKWkk3GhSdj9cGB4OBRyDoEaatZGYsoPvRCg",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJp2bzJHEdDTkRoJ8SYCVEfF0",
+                    "rating": 4.1,
+                    "reference": "CmRfAAAAHWXmSTFDUr0mLYgfGLc2eHsqLJKETNimpgcXIT8Zly1UEZ0A3p27OSRZRazLZd7FUSHin6SVsR4ulV8G7G88ALQ_AZdNfgrqkt5T2IXs9350uTjN8jQF7lPM_frqUPw4EhAA2XIDkJ8dQY7hQmh2q14eGhQfGCGmFiEbjgH7FxHGfWPfTtI9Ew",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shantipath, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592836,
+                            "lng": 77.16378999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cdb9224497a96332c0cc0b50c96dfd4399bad892",
+                    "name": "HP PETROL PUMP - BEST FUEL STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJwUAtWhYdDTkRg22_0S3leCQ",
+                    "reference": "CoQBdQAAAHHwYTw2iCaFK_oFVd-a7FUqoIZyP3w05NxEibAtnPuEUTvSJiX6VnC7aklPPiKAqd173UCHj1FfE509U3zDRlZS6te9Z2rEucho9gIit-HD4NV2JylAySkHhbyYQTrYfL3jrHoGZdQKmFPLMw2MNJqTu2J84mruvbrWk12cTOY6EhAsI63pWRHjzM-tmB3yvPxNGhQ7aby7dKoEm78BauHDaPcMmd1hlA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhaula Kuan Crossing NH-8 Dhaula Kuan, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593182,
+                            "lng": 77.1648495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "485618201ffed1e15b251f212056858854454a35",
+                    "name": "HPCL petrol Pump",
+                    "place_id": "ChIJ48H6ZRYdDTkRFs1m9gKOFZ4",
+                    "rating": 3.6,
+                    "reference": "CnRkAAAA8Hp7lHYaL4so-qH6ytvyigThsPmVEVRl9KNax3GW-3MIN9mA4HP-tp4LlplqsZfTk7xoL0Jme8UHiimi5BymFcd20Kf5RCipuv4VJXRFb3kRjvviofxZ0MilCHoBUkRq7cRqFNyvrdZ3GPzGLBw6HhIQSzJhTtfEKWQOyCfKvdoxARoU2vVqQyGcUatUeBZp59VugCV3a1U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587296,
+                            "lng": 77.171388
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6cfd8748e9c64e8106ee0dc0ac6fc1efc4a16300",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJU6dw1RIdDTkR6jmSPWu-gg4",
+                    "rating": 3.4,
+                    "reference": "CmReAAAA9Rx7VJiiuqyRLWwG1oaYD-9ErLkmxw7t1dVeVg55pATu6au7OUqhqchEJNy3U4TXnWIbsCgw-zg7A5ubXKJ31Pw_LWpKTFIXquaJSf1j9ZB9cAPRHWIc5HSwnjsBQ5owEhCSjFGuuSfZWbwSRzaQuzNRGhTOl0VOLgCJZpnQE8yAv3HpEM-ywg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591514,
+                            "lng": 77.1754672
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8f1622009d7bc51dfe7436499535eb11e09e5933",
+                    "name": "HP PETROL PUMP - BANSIWAL SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJv5Bdk2sdDTkRg3MLj7O6QKk",
+                    "reference": "CoQBfQAAAGN17_3w8b9JgeEVXwECguUUQuWvXhITaNtagUg6v_rNZrhn_w2m91XgkjDcrlZR65lIlunLZijVF7RGwo9JeSroApaM-zGJJVH3b28Gp6ZUt4aIaHq0eowuKfyo1bcurSx7Yeo9M8XhvqiNRA9zCuFQ3RQfoYy31-5g_AIoaBguEhBIowg862yJ-mUzeLTvho9hGhRmzr8u80BWADClP3Z7bP3SE0CY7Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SAN Martin Marg, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591714,
+                            "lng": 77.17580400000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59200155,
+                                "lng": 77.17597760000001
+                            },
+                            "southwest": {
+                                "lat": 28.59161815,
+                                "lng": 77.17528319999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ce4a1eb629b75e2494dd1c4d2d025e2a7f73a20c",
+                    "name": "Compressed Natural Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 612,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113026906382193101480/photos\">Shankar Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABz4AhFu0FN2W4GNAbRzDcrOXjnzNvT7qzG6UFnrLDlE1t7QtYjkC_0uNeTYc0WW0iDSsUZdN--K3DyR3eaKK9DPaD4MZk0q_f28aFVeX6tbJI2VybDojXqs6mXe1oqtWs0C-AVDwJobtM_xYk_84zKWHdLZXvC4kYBwaf2KEaD9EhD-zP_JCU8JWq7VaBgoeocnGhTFoVaBLjKdyIPGuHL3U1s-wXpioA",
+                            "width": 816
+                        }
+                    ],
+                    "place_id": "ChIJL7dpk2sdDTkRN0ECP4j4GAk",
+                    "rating": 4.1,
+                    "reference": "CoQBcQAAAMEqzW5J_4NyloVXkpBKoaXmv9md2B5I4QhfdVa5iSHBQFNiFuwgn0QldS58rOJpng62fNS86a0p_Y05Rhi_84Eq160-T9ZFHb4qT_QscLe0sKHq7woNNEjX48P2cvGiHnFw9_6Xfsk7z96sPKA_Ur3SfzqeGpHDJZChZ_2MRqSsEhA0pEiEGclE6dn3Gq97AfnfGhS7z2cJgLoHlrZBKdqesQ38kH31KQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "San Martin Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844972,
+                            "lng": 77.1721069
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                    "id": "898375b81202bd519c0bfd76fbd64073f5176764",
+                    "name": "Moti Bagh South",
+                    "place_id": "ChIJa9VqpnIdDTkR8P49TjG40Ws",
+                    "reference": "CrQBoQAAAOTacon6NMACue1lKGoxAvZsed6Rvglt_xynUoYfclFNGAjfnujOxHh-CIwnV9gxs0XrX5nCSZ2d58bCXdNMldmM7lKXgKsXNLLg9y4a0REVpXKF_o7JSMP4VhCxd3So9pLsM6QE6AAkAxFVU1CMa7zIDdyoQC612NVOKg5wff6U3YOESUUoJKMSWVWL66xUB_R6WGKAwDB08LWnALxk-DzQOEtqDWxSmyjTW8gT1KdkEhC5BcHn-JACvoFAB0KTan6pGhQV3B_uirNfEWKLR6j2zqGJSCpaWA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block I"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5992271,
+                            "lng": 77.1750927
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5992777,
+                                "lng": 77.17519680000001
+                            },
+                            "southwest": {
+                                "lat": 28.5990753,
+                                "lng": 77.17505799999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1879432b44dd6780dad8f2a70b70e1de76f9fdd0",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ-xgEqEEdDTkRpsxDdS_AsNM",
+                    "reference": "CmRfAAAARphn74F2fhKk7DEth79K4TlSsR4SVgKJZ80wyNh4PEFLz7E8okGqyk-o7mppE37opkGHaGl5CmAoamRqfAM72Rb2KBSNiAv_UzIRnt6xW9xGyvsQngIbZPXbW8WqBC4gEhA60jAyTT6Nu7l02wA3wWIdGhQgGJQREcuyeNDh3kvv8bABg41z7Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, Central Ridge Reserve Forest, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6028395,
+                            "lng": 77.1486998
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "023d79289149a25697f5f930928bb34eca0a3377",
+                    "name": ".",
+                    "place_id": "ChIJseXVhicdDTkRayptpP7y8z4",
+                    "reference": "CmRUAAAAg0QGN5pfGQ0otD7dCIHG-zq2znknESRA05IZiud5hCY9FyUrDs6iJAmR9dBlG_z6nXJmYHdBnAuXNPmADrrIgLtovXqKGYM6BpwU5sx382nU3aToDycB0_0A8lbx9w9BEhBUrzKSjOKLd3dL8V7J_DBAGhThvIPXoV0DWufMxC8VKmhs36uvog",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAERMSN4G_ECD5CTx1K2bZgmroQ7Uj7RfK5cjaFcdWAD5mOPKJGPcuuAXyXcjvFoGdNN3mM1Af8u1irVkeBMaVLvLZkouSmoJPLpx6a8kd4qAn6PBUU0o0uR_6q_R1Ru844IS7AX9rxUUGd2nqQ4mn5uefgnGSjsXP8HBk8l-4J18nSYdHPK_WbopChWAGiMmqtW8XVhMGCmG8nWxCo7sI8Z-Rqtw-nm0oDlIk39QcE9KAEbV7psdebT6ALozCYKb-Ylmb8uyC-oqeUISisy65GeptaSUONXus4OnJJ8mzcfpk47E49YJviFH-GxOwh3lTVYU2tHGeQzJnfAObPrPGKMSEDyqjiMsP3Whm8XcQ_pfRX0aFIxsAFzFh7azecFeQQU_cFrLPh-j",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5804938,
+                            "lng": 77.1792565
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "37f4c03cedb61fdbd122e30bc1cbf2ca1c5a6aa0",
+                    "name": "Bharat Petroleum",
+                    "photos": [
+                        {
+                            "height": 1924,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHV7CZxBUTEjYBlswwMs83NVJeVxTkh9C1SpGtuxQmIJ9AjwoD3stMVrtKwWFpPaY6Ilx49Hy4YL9jZqE3ZWc66ngeko6xM_VxgHgAht_LDW39h3nFFyavchji_TyD6ZVhtL7rnTTpzeypf3GpqWFtaDK0tqv6-8Jk_CBz40woXSEhBJPcU2yw3kwSjNRpcpQ2h6GhSs6GoCoLOYy116NweIv7_QVp_WYw",
+                            "width": 3240
+                        }
+                    ],
+                    "place_id": "ChIJU_EhO3EdDTkRbNI2B09rzMY",
+                    "reference": "CnRkAAAAhcKeVEK6_uJ3UZZBPUCx_lq8ILl2HqPYazMI22xsY42Aomy0FUWApCScIQP-F9KV3u2fO7Auklk--5rb15pIKyBAAGTH1hTMZwUOf8zAkk44CduuS31w3FiLNZPYNL-BVgtuzg3k7QzuyQDeKQIJMxIQs87viQesP4cSBZP9DpHe_BoUXPQji61JT2NCYmGHfzuJHClxXoM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "D Block, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58353929999999,
+                            "lng": 77.1910035
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58373325000001,
+                                "lng": 77.19112395
+                            },
+                            "southwest": {
+                                "lat": 28.58347464999999,
+                                "lng": 77.19096334999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "40bf5fa024d0b5d8ed705a75c95631fb5fd14390",
+                    "name": "HP",
+                    "place_id": "ChIJ6TAYVHwdDTkRAuK2IDS86Yw",
+                    "reference": "CmRWAAAATKj05f_HT-psy9_ryvIFKvKgQTFp7zpyRH6HQdQ_lWzv8RrbBSmoMtG1WqXTtMsp-kL7o7BO9zmXJqLdYX16j4JUON1e_jCXZdpgAsqnLNi4E9Qd7slMsD-UHFA80GiNEhB6Ukd8hz2tnCN0N766MTkwGhSBgMwwBEM_gH63P6FIWOGVB5SZXw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Opposite Nehru Park, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844614,
+                            "lng": 77.17216309999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58454555,
+                                "lng": 77.17235224999999
+                            },
+                            "southwest": {
+                                "lat": 28.58443335,
+                                "lng": 77.17210005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f1969dffa15c0967b6b6b803a0b05d663d4679ea",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACqfcVneFvHx2ZWtTfnzlLjceWpAr8kWomwomvjxHezkle9Xgw_ASe3qcNRtuhi6gOkoS8fyql-9BOxEhaygJKlXfSlR9cE02Nktvl0WVUh32-sRDKYDy4irjEqg-3XLj6mDVntrrPdT44EhH5QxSymL1MClFjc1TZlS4NuKeMdVEhCbOYs7y3vlrHulMzRptoviGhRrAnGdAmFPkaEvkE9AnvczI7pJGg",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJOyVZqHIdDTkR2CZu2U1tDCw",
+                    "rating": 4,
+                    "reference": "CnRpAAAACg8m3-ykphHaFQYAQg706dulI-SMCDRTdsn0mNxgEHKgmYcWd8RX-lzQG98i8NHWnP6PRzrbD8ujng7Ca0GYe3jgbTAkeuGDTHtrNNBDo0HSFCV8_MYfqesgjR0qE_LRm7wu71PsxG6iGJXzyxII8RIQNZHNJ2rhT1HKiBSOiqRRFRoUde47Ph_ZBNwK945eKkFgxEj90b4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Nanakpura, South Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.570777,
+                            "lng": 77.181325
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d7bafbfe808c44ff2c7c6d6b39eac0621dc4298",
+                    "name": "IGL CNG Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAL0fAigEks4LSc83ltPIQMJiAiOvuCtOClF94cv0YHOjct6tn_F_BRaj9gEHC5pvi5otqavCX-26MtWDs-WgJpribOxR3YCqvkHmoy9q8AG1rY72IbOP8M99UQJFxA0f4cRaHpBk6WJ9VfgZMIRMQ-dMWf9ak_mZBQ4hI1a7j7ZfEhAMO9aBU5K4cgBKxTAVvCyAGhQ9zqN7HW3y0hPwQd-ggI0GQZBzDw",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJKcRO4ZwdDTkRyiSe_FTbFXI",
+                    "rating": 3.7,
+                    "reference": "CnRiAAAAPkwUVt5FzTtIzCkA-9aFj6CyYy9eNE7utIEI5P8LCxTO1thcZPMkseasMQEy-oJhoapWqL4xZhxfzEu_-CU_n8w77VQC7G0bCcuTGxpl5Y4r8iR3GDDSpER8ZHkKCaEn91XH3KEB38_GeowCyX7wlRIQcpiIJAEuV_QylNi0epxVWxoUKe42kfc8uwXiQSMlWAE_YZ7dHfI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "R.K. Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5931954,
+                            "lng": 77.16484919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ba844bb0192dd8627718d7ad3c39964197c6c44",
+                    "name": "HP",
+                    "place_id": "ChIJR1-GZRYdDTkRRSI1wN9-0ys",
+                    "reference": "CmRVAAAALgdWLWh9l2Y0unVQ2vAEbiOYpIV21SVM_cCES-BUJCPzbJYwh6BRhPw6XhC1quTsSk9BR-_zNPhELS74IHV_ogm-sVgJypSV0UBIDbOHXEKCsuGC_1wisYDOnugpmPCSEhD22O1C1C4p7P0S2wYaSgqLGhTikBoQ0jQ0ievhDGEwzSEgawFfBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5776361,
+                            "lng": 77.17485429999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57793355,
+                                "lng": 77.1749198
+                            },
+                            "southwest": {
+                                "lat": 28.57753695,
+                                "lng": 77.1746578
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "058e61d89c3700e49946d113e289ffb8da4ad2c8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdaHtXXQdDTkRHCBNTlLxv7A",
+                    "rating": 4.3,
+                    "reference": "CnRqAAAAOsqvFxW1MchSzOWqUa_K2JJalumN4Jy8FRkPrJ4FF8BBxnvS4VDNyyDgFPqlm8cioVpVGR3giCRVpqvkAXEpEbd4LJ3WiDmk3QMWhNlywFXDSvSKo2hkoW_25Dfc6zKL_RzwEZXTuTUTGNQ0uD0nOBIQENJxpod_TZDGy64INcnnExoUuM5F4ZCGR4VzKbHPLrPlTPsHeUY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rao Tula Ram Marg, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6011551,
+                            "lng": 77.17917489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60124535,
+                                "lng": 77.17923695
+                            },
+                            "southwest": {
+                                "lat": 28.60106275,
+                                "lng": 77.17911274999997
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3c79a2e0aa8e40ce61de487aae23c3727b3725a2",
+                    "name": "Gas Station",
+                    "place_id": "ChIJ5fVklkMdDTkR3CwlzA1I72s",
+                    "reference": "CmReAAAA18Cu1fnmzbjj2Kojx6hpml7VUwvVT8vm3D6kSSqXg1NqmX3Q7ewyh3vFFOHPXFTG5VHKvVbFYYq6gRrnYBPGOR3B5wa4nrsjNUnHQVIXsQK0QvkhQFbo4MWBlJxdffYJEhD8U2bFfY7JvNiSivCVkPq0GhTQhkUN6f-h1I3oUXGV1HaqawcHeQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.590262,
+                            "lng": 77.15747499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ca3b1ed204d034c1625f7d1c1e9232373d6050e5",
+                    "name": "HP PETROL PUMP - DHAULA KUAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111315810843938106806/photos\">R Malsawmtluanga</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHxmQS_eQGTnANdn3CyS2snwouJO7gpFEEuyDb8XypxNWDrJRDovJPXr6VT5k9XDrTtsAIXbv5xSwWJyVEPNJH-x5aXzYWa7WAPDaSfaPUjl4AvA7Tt6xGufwm_lBBGB6_6hiGp3Awvo1tu4A5-ju42R2MNtVlWaLrV6xoecBICjEhDZFo9SybwT2NiOJ-XMre2zGhTOrxFrw4eHLHObDTK6LldODsxVow",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJIT0unxkdDTkRW82z72CFigw",
+                    "rating": 4.1,
+                    "reference": "CoQBfwAAAAyHCuT9pc2993i7fj3POTS1hj7SjtVMqPreXYZJPwkpalbtqDU_vEx-KWWhtU_2tTZp_97YO5xcweQ20g4VGPNJdUYvmrHIPLwPSCAiU17o3YkJbZSc6r2DI870rCG46irhl4wPVObGnuTZ85N5jORj-QTNPZVTmxloOvGLG1ihEhAW6jlPyT3YFJOY0w_4g4VfGhSnO1ZXG5cZJdj7yBsJOG94fm_TbQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near R.R Hospital, Dhaula Kuan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5763571,
+                            "lng": 77.17175499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "141c6a825109669fcd6eabada21eafae574985ad",
+                    "name": "IOC PETROL PUMP",
+                    "place_id": "ChIJ4xuM03QdDTkRGWYg7ge7-fA",
+                    "reference": "CnRjAAAALQlcUmR00m6AA87e-gPSCZyHfLKLtzSyQiAka3rZrtsnELXqCAEmB_HnL2Axc4TkWu2rkmNNmih-zdRZfHA-YJ0nMb95TGOu4a_-0doM5SwMcKWFhJUL34jV6XwCkCcD1u8pgcUXWCDaeWGY-_A7cxIQ5A1qKxMSP23eF_PANaIzBRoUh3msqFy73yxbZwGBQ1k1j-ZtW60",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "121 Major Somnath Marg R K R.K. Sector 9 R K Puram Sector 9 R.K. Puram, Sector 9, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.596907,
+                            "lng": 77.13553499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59706700000001,
+                                "lng": 77.1355434
+                            },
+                            "southwest": {
+                                "lat": 28.59642699999999,
+                                "lng": 77.13553219999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d863913bc3cd5c0ea8da40c26730cb9ee3738862",
+                    "name": "Bharat Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbQytasMcDTkRg_kG79Teei4",
+                    "reference": "CnRlAAAAB0qq8XkenXiB_iKgpZCC_XN8qKJKRwff7JdM2O6Ht5lRxbajTfOb8fiNHCwxPRVrajRnX_kQ8P2bi-Sr3TLvS6w18YxeRZ9r2K1U7E-AI17ZGl94Jgwi4n9mP_KLLLEHBZ1NwfiSnOFgSbPvCJdskxIQ2ky164zU-9NftWrTTsLnYhoUMWe97tN5J13NdhCxyN1cPjg_XtY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Church Road, Gopi Nath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.59645,
+                            "lng": 77.132873
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59665865000001,
+                                "lng": 77.1328742
+                            },
+                            "southwest": {
+                                "lat": 28.59638045,
+                                "lng": 77.13287260000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dfbc4a20810385644e6d0307f46b37c949970a4e",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJhc4Bv8McDTkReW485MtiQjo",
+                    "reference": "CnRjAAAAMOBx8G9X34zZTioF8Wp-dp63ywpfgFfwh-o44vQrou0hjGhqeUmqU0qZsN3J7wrOhc3k7KsPeiTnLXAxuICblXWVjAgZPXI6CFYl0Vn--OQtoxhQ87gZ82luljSX0MqCP6l-crdRTvPICf9MJOcNIBIQF66wwcNtQ6C-ZfCy38a0IhoUk7HvwYAJUpj2axYAdW5CmGlCVd8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "On Road, Church Road, Gopinath Bazar, Khyber Lines, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5832602,
+                            "lng": 77.1914116
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8a55f5514537612252104ec175ffba472b73df36",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ9QJ0U3wdDTkRgFbL0Dcc5JA",
+                    "reference": "CnRqAAAAsbh1a7chNmns_ZytVi9ErbGT7cdcSoQ5oxa2Y_hqgc5JbwSe7puCowG8Gc6sDQ73YhOJzrIYsrtl4OU_IBaKAdv4l_zU4nA87zSYC7qq6xbMATftz67NDryMZqZ5Sb_-ov-rxCU1t_DOexmsXvDJoRIQU5hbYTfs5DXLxROEwO0O1hoUmBbQrIPvxp2Uq02pVGUClvcFFu4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5995818,
+                            "lng": 77.1958268
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a527d57235c90b20f1923bc5ce1555fa64433916",
+                    "name": "HP Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3328,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100790961062408944005/photos\">Harmindersingh prihar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACh1Q5BdskWh9kL_UL3VA78zIY6Vxi775SocugAf9BBEsK4CwwtBWfGnE39nSVYp5phO3AO3ccu0CtFH6ufRDghOm7nPHLioSWsmOU2HvsIiMKcsAizIHonn-9IMDrka0K0PnOTiNcx_iKyLEFat5-dJod1VuJEnqPds0z9rVzgkEhAha5QQrvfzGWHTbxYCerN8GhSj6SBauBLYUkosAf-4xzHMhSIyHg",
+                            "width": 1872
+                        }
+                    ],
+                    "place_id": "ChIJgfevFaDiDDkRlyk4WmINhsw",
+                    "rating": 4.3,
+                    "reference": "CnRiAAAA8lbPVuLOYZvy_xPaHa6pZTebMwJlLxLV_bQw9eGcyJD3xZyTCjvJgZEbwW-CAzlPEg4KttB5074hopFpQZY43i5BgCjfiM1fQ2oRIAdtKWvL6UreivjQQGN3bqz1F0NYtN6SeAShIKkF3o8A5xBQzhIQg-PVSv_bQESVNTWJ1TcgcBoUVENp4OVSIslB1L48ixX42ZDgUG0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5703253,
+                            "lng": 77.18657429999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d0e5e924786badc88988c5f340e29223bcfcc3e5",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIaLZFu2CMnAPn5rXLQ--WyuVqDRCRQFbh6dXeq3jEOWOY5DlgtjvqK_TO5R_wZQLFaoWi6k05YH7zQ6Mst3cP-okKZZNj9LLG7_vKX2F9L_vzn4s2Y4jl7p813zau5riFSf0xIlRqIQx-8iNOPZv3BK_JvxQ9D7G6prf8eeW3H1EhDwwfLjBhapAElFZd7JvPz_GhS7ZugBAGVEIs-DMzf6FHkFmDm1RA",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJS-V_mIMdDTkRPMmEuRDgfG4",
+                    "reference": "CmRdAAAAmKe0lWkG7K5SvzdUNcw8CS6hJnbzsnRwa8bpJYRJ1utHD9pJVYGpjJx-km5VOtF3rrEqv3ixwBMj3sb22iQGgTlM3gfz03kqzo0FCUgvJe_w2pdahRn5rnbiec3yozk-EhDJOrr6pSdb9I_yl1BgmRbBGhRHgnKWjUWYbbyhGfx3pfn2USKKTg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.564864,
+                            "lng": 77.177561
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56499675,
+                                "lng": 77.17797065
+                            },
+                            "southwest": {
+                                "lat": 28.56481975000001,
+                                "lng": 77.17742444999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e41d93d9e8694d35f2e060d0715d171444bbef8",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJweT1K5odDTkRuIMUgy5nQ5k",
+                    "reference": "CmReAAAAfZBFHL-SEH5CJmJlnk-d1XiHtbD8OawOvXsWj9-Wfb_6zA43mPvZAH7wek3Zy10JYVlE9LkOluzXjCDshbUhalf7kpsJPArtkfhkznsl6Xl70BFDTSto0GB_5ZDuVt74EhDoYk-pD9rBdNdUIP7sE9PVGhRoiw5bBYLWDBGKuIWnf89Gn_zDFQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tamil Sangam Marg, Sector 5, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56004309999999,
+                            "lng": 77.1699848
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56041075000001,
+                                "lng": 77.17001885
+                            },
+                            "southwest": {
+                                "lat": 28.55992054999999,
+                                "lng": 77.16993864999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7a2473cbc68602b6146aadfe93d229811c413a88",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 299,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113475609444828369081/photos\">kounteya singh</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHuKc-GdM88T_jsF4St_kmo-iEopE5yAMtyL1HixpTlcvgfdx0__4EwMaIftQFeT4iO74_-Wo4R7tFKTBbIg-z46Vw4ZD8oxKPQTJnGg7YAjKfsA3VI5kgSZieZS4MUP1ZVsgMxh8qkQqsIBfN5HTlQyRktSN08_avqwH5aWEUhREhCl5n-aD5LJzDZCi4HQrCe1GhT8Dlu2siv7UmmzRAMPCVvyfq5x4w",
+                            "width": 450
+                        }
+                    ],
+                    "place_id": "ChIJ1zHpPr0dDTkRtIUsazf4_6M",
+                    "reference": "CmReAAAACo-y6HAtvWo1rC0iiZhSg1UCPpUnAupQmxJhwVKQNRaTaHXHTMM-pbJJNKX10087C79A1sHrubfskTBE6-yP1FSq-tO3HcuXfW-7XtT-vRJ51VGx8qy4bLqDdMRmp6aAEhD6FExBsvba9YJnLhkSGKdGGhTRH-q-yVEUXvf3r8JUUKuYCJffXw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Marg, Vasant Vihar, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5673382,
+                            "lng": 77.18880419999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "80310d00051d493fb7495261342032f2832b7768",
+                    "name": "HPC Petrol Pump",
+                    "place_id": "ChIJHbwjnoYdDTkRoEANs6I6xBA",
+                    "reference": "CnRiAAAALrBEYwtCM-Kw_ISus1mE1iwoauhAQ5Dp1UAG-ntULcl5_SGQdjrf4hyu93YSTPZg1zXo4bpGMlhSNEi-qC3XQpZhC_SKKuiKBoCLUe1uZKCQBMzEsseTJZ0XPmESrkYoXHXbbnlD2q3WY250zm7joRIQWHAVPXJlqsDneLo9WtSBexoUAKOKrsjZ1WUSlJW-y4KFscnH3_s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhikaji Cama Place, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5577426,
+                            "lng": 77.16345860000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5577882,
+                                "lng": 77.16351095
+                            },
+                            "southwest": {
+                                "lat": 28.55760579999999,
+                                "lng": 77.16344115
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fce59bdafbe325ac4f855ba042fd39e1f113c4e0",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJgTF7ubsdDTkR0aMhCO7Xf60",
+                    "reference": "CnRqAAAA6OrBHba5IPV6GVraxMH6XDCEBEo68Dh1pYwqUBgt1y0qJ76tpaTvVJhxXOau4iagKaoCL5zOkQXgwlcMpW_UShATh0bp6m-qkOISPFHGWJHKF2sf1PaDNc97MoDSp97bV4hgC5O5mo9XqwrNDRZnxBIQlovCg468YJ6r6zJHOB7edRoULuRMTfVTrk7pQrCmCZUzcNWzMXM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Petrol Pump, Munirka Marg, Basant Lok, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5805786,
+                            "lng": 77.1794978
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11f6ffa061a74a2f3387dc8e3b1c53c018482501",
+                    "name": "IGL CNG Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAP0IlIrSgoSfgR9a4HGdoS1GAMSVtAkArxnd7IdSjs3lAXCRfINu-tMTWh9w8M0VxjPcv8Wc6W3DwH8bh-8XJ3ENOX5pBDZRgcm5SMGlUnRC3SPCUeyy7uIVc4BdBf2UKZjtl4a2ktABuMOI5iwfZkgVgO-E8AXhLVnXdBEnpccrEhC_4-gEW6ugn_cQm5jPvUkjGhTVVH0l6runMXTzD5dIqRhNLMWckA",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJp2bzJHEdDTkRoJ8SYCVEfF0",
+                    "rating": 4.1,
+                    "reference": "CmRfAAAAAgBE6NIS9jAegRp7WVO7P8d08xEDWEXQ7asq7TxNgy0sb6R0KVdt7suix6cNfeJYC_Ubk7l9go9kfw1nqQe9p5sObGGwUtPm91bvMkBomDE0Y2413ereJt-iqMDR8BinEhDGLoHy6F9XJh4-nUj-PA-1GhQtUAp8HXT1zqM73wT9dOhVlbY4Fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shantipath, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592836,
+                            "lng": 77.16378999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cdb9224497a96332c0cc0b50c96dfd4399bad892",
+                    "name": "HP PETROL PUMP - BEST FUEL STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJwUAtWhYdDTkRg22_0S3leCQ",
+                    "reference": "CoQBdQAAAPRRQMyUfPlHenIsIxfs3fd2m4HwGnryuXaqYq1puaJnAk3K5rpOCRdm6S4zz5jpMaHFZ6mMGLRG3Mw23bwGa58nWhcvJkVIMTbS7gptq6lLgFL3XIQ8i4KYRgqQmvjJ5EZ3gs2-h0dm7Vid18YoPsMMhKRjjJqwmyF_ScYap563EhCo76YC1GTGzDQmJx4WHju0GhRoOWuWGPoJMyW5M720egX-sBinkg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhaula Kuan Crossing NH-8 Dhaula Kuan, Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDoAEAAIBu_YBbCw09W8jyu3MSfCyyt3cPhJ4GWD1jMx9OabuxmA7XzCy6ZTkxd2E7lmWVLwK-2iCSWX5bx1nsNUIFTnhOYbotksQWBr3w5dSdvSmHGODTsMj2Xhg4BMPzo-uWK5sk1jBYIFWOlPKZwrshdlacOWR8j-abfXRccQBPI62nYoLuMnzqECtwIN6oOWx9j_4norm_XI7syd2p-nCZPBDnZIbWsxk6kyCDDUEyrLBOntAWvyPHW1stb-ThYSTYlnxVm_tphag1sPWwatYirOAoMp5J79yczgTu0jeg-FpegG-6yqaEE0j70-p-F0vHHwUFn5UyGYyF1m52NzLyN7VIRZjVQbc43mPzd2RVjGNOFVn_5ibbghfcoPj0HJ1zd3NmDpGB8WD_HPHYjRAF5UFZIKUuW2VFcip4nRrycu-XGA5-Ypt8Z_7fCcNkaYy5ae7KhabEbG68LoXDYP0cRAVg37_bzoToD6NrLC-nxvPVLRdTR312zyaFs5hz2M_rG7TzGc58JFYpVLP7u5U6Pb4wquBd9xm6gylb-5-EyUaDEhC84yylK7cd0cHUnLbHiOqSGhS6PRxVka7j_5iShkTM9Xcpr1u96A",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593182,
+                            "lng": 77.1648495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "485618201ffed1e15b251f212056858854454a35",
+                    "name": "HPCL petrol Pump",
+                    "place_id": "ChIJ48H6ZRYdDTkRFs1m9gKOFZ4",
+                    "rating": 3.6,
+                    "reference": "CnRkAAAA0Kfm0qkrttEG0Xtov3fnFtvWKlpYuZZW87k3kCqziu3WWvRD2XF-Rbg_ZbCA0XLfSVEd1yx6u1UIHGnHH0XxvNdiDEWWua4p0wdUFFMjwMHAPYg95feVe9Lmwof7Q6nR9DyQpqp_IQCNdW9Q-zVNZxIQ8vQ3HmoJjb5WhobqvoowOxoUmgKYeygMZBCHuPb6rTzByUjxvgk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587296,
+                            "lng": 77.171388
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6cfd8748e9c64e8106ee0dc0ac6fc1efc4a16300",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJU6dw1RIdDTkR6jmSPWu-gg4",
+                    "rating": 3.4,
+                    "reference": "CmReAAAAFVy-W6BZsnPvffIw7LJgX19HPzxA2gBoqmQEF1EJYE9PFriTVUiPxgTT-xuaBgli6RA1BN6zUUII7UyWZXjnQwpEuz9GNafURihCjX4522eOilA2lWxExvnyrYxBeGt0EhDI_0H_BEENOsQ8n4JWYyEJGhT9lM1yErhVst10mu6ANh2pj0xZjQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591514,
+                            "lng": 77.1754672
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8f1622009d7bc51dfe7436499535eb11e09e5933",
+                    "name": "HP PETROL PUMP - BANSIWAL SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJv5Bdk2sdDTkRg3MLj7O6QKk",
+                    "reference": "CoQBfQAAAFPzDrJI8HFE9cIudni6G37OdLuf6FZaRWt7NWG0buf-0K35ZFmxpRVCtharsFvhncvmW5FEmwUDnd892aJ5yhjSDYdb3RrS4aKPQlUGcUk107EZ-HmlXTcsv91HpBFnurTYaKSlrCdkM6ql4NF0nl4TZ0aW01aa4og2HxmsFTsKEhBv8d83EmHrjscFT53Dl0iLGhRGRowWtym6HkkGCAQpTZI4H0xwNg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SAN Martin Marg, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591714,
+                            "lng": 77.17580400000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59200155,
+                                "lng": 77.17597760000001
+                            },
+                            "southwest": {
+                                "lat": 28.59161815,
+                                "lng": 77.17528319999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ce4a1eb629b75e2494dd1c4d2d025e2a7f73a20c",
+                    "name": "Compressed Natural Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 612,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113026906382193101480/photos\">Shankar Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAALBkE23qyaPXi8THNMHfBK_iYjub51U49U9D6bgobgvdoeQa2Jxr5Ird5Ne6b7-I8Jxdewf0XQhIfETkmCEB-vaqJm5CQx3eYxu4AEBmNU2RUdrKTs2GvGy-ktgkzUk5MteYIoL-BCA_U4JMu4S_BClaPiNkBrH0jsj01kli2tD2EhCuGklieB89PoX4nkXT0FLbGhTcgox3RhnJfufxU4_l9xe0E_uDMA",
+                            "width": 816
+                        }
+                    ],
+                    "place_id": "ChIJL7dpk2sdDTkRN0ECP4j4GAk",
+                    "rating": 4.1,
+                    "reference": "CoQBcQAAAEV3duDO4J3CoLboT5Bo3j778B__yHbh967mlJSG2kh31p8FGEk9eqZxHtosIakkuB-4hGTAdUvn3mtC5DKwEypkj-R8oxnimymj8TqnSvX4H37GM-mi08gQBWp5kRFkgxnZujiLe5tpT0yH8FcWtYnRzGGlp3OhXL-aB8ZBusmcEhBsHDmmFjV_K-fgrG5Nn6Y4GhS47MFAGXVjtmO2G-9oSTiTqMh0tQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "San Martin Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844972,
+                            "lng": 77.1721069
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                    "id": "898375b81202bd519c0bfd76fbd64073f5176764",
+                    "name": "Moti Bagh South",
+                    "place_id": "ChIJa9VqpnIdDTkR8P49TjG40Ws",
+                    "reference": "CrQBoQAAAELqZUiA-sbm8a6tCiNuwvN9pAVPj6OifttWILrWs9mJafYLi_qXWtTK0A8xoqSqsOgxW6s73JiVTkPd97xuAVLuE4Z2Kzrp40ucezrg0-TsRZvZ9fW1NSzBm_VIYdyntpHd5qB-bHIikYuAuLMGzdkDx3gjJ_4MRyZU9TbFZQWFxjvJWzGS8cBLKvSahUel05EqtIXbpyqJgYS1_w-B0YW1pcQ4JMB5FQPW2GgLr7qLEhCYwQGPdENqBpXrRjbggl0PGhSOOWtw9fLV5fSH0s_K2gqGNdFxEw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block I"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5992271,
+                            "lng": 77.1750927
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5992777,
+                                "lng": 77.17519680000001
+                            },
+                            "southwest": {
+                                "lat": 28.5990753,
+                                "lng": 77.17505799999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1879432b44dd6780dad8f2a70b70e1de76f9fdd0",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ-xgEqEEdDTkRpsxDdS_AsNM",
+                    "reference": "CmRfAAAAuw84h2x71067hVxnQWKXD5C27xs2HcFHglcJ1SfUGQONUsONtZc0iZvHuAzED_nBMp2G_jgYJ2ySX4t5n9g5q5PanWYOjvdOOhuNr6Xjk5KltRM5_B21IYWv0h3X9ndyEhBMKtQ-8JMCTVh1An33TCz3GhRNQyDWpLafdYe57L225EF3kHdUpw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, Central Ridge Reserve Forest, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6028395,
+                            "lng": 77.1486998
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "023d79289149a25697f5f930928bb34eca0a3377",
+                    "name": ".",
+                    "place_id": "ChIJseXVhicdDTkRayptpP7y8z4",
+                    "reference": "CmRUAAAAhiaTrt8T53_bE1muZXfApLIcdMwjHg2DGFrHpiB7uJ2ncD_wolg1SgogPWPv9PYbijKWfnXNzY3yDirAWqUW_sPowByDqGd6Su9zXrf5lPF-VvUMyjMf7qWO8jZz-bjQEhBRzL5ifBrX205DqhT_GqEfGhQYbmRtluqnOLn9jEPq8qN5UAGbCQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5804691,
+                            "lng": 77.17931519999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "df5dc92748e1ccd12e917d5a60b30a6fff174fde",
+                    "name": "BP Shantipath",
+                    "place_id": "ChIJ-9HjOnEdDTkR_PjAYgQ2Thc",
+                    "reference": "CmRgAAAArr4mpIwevQRz7mCJVYGqa7l2cjGbSnPI47rICtZnT1XtkWMKa2PCvUskSwmrHvsX0eNHr67u2lkchNE6Cpt8d5G4mk-AWh_x32M0Wz86M6q4oh_JvSWSy9ra22quhMITEhCdzjnKQJa-Wh93efOtRcUxGhQAtsmGEFo_Lp933-xH49nrcIkO5w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block C, North West Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5717624,
+                            "lng": 77.1665285
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f6750e3051f52f998e79e53241291e0a08b4b996",
+                    "name": "Indian Oil Petrol & Gas Station",
+                    "place_id": "ChIJZaOFuqAdDTkR7BD9U8hQV_Y",
+                    "reference": "CoQBcwAAAIfsmoG1wP7zrrWg9ZGaQu1EBrh6QIzPoctI9XuUjo_sq4aSyV_OCKPK4DmE-jkWQl7WVg73b6FXLF1xejs47uQ1Kly0tMWJzanw6_hpa_ljTIXE-m1aw1n9xtgzQnmoddkPRjsU7Ci55baHaNI4syVX3o2m4fqlMR6qbROAIhh0EhA4AgQnYux-Nv8xj890SQ6mGhTmG05IZP2iWAzFmrPVE8xOYnw2ng",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 8,R.K. Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5708667,
+                            "lng": 77.1632544
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "04240c317bdb77a2a824f42503aea5310c227bc6",
+                    "name": "CNG filling station (Indian Oil / IGL)",
+                    "photos": [
+                        {
+                            "height": 4608,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100814912403591935401/photos\">Hitesh</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAE5T4eWtZtEEDayA3LjJbaY1n0tGpeVu7ssBEKSJWwviw1ateDDfb8XBIJj1jnLAl0aoygkqvyp_fRgjjOTLauYf1nI5s3tAx5xduheyM91q0L1Zwy8woOO4ZtS6bdV2Uod55pScGraT34WT6fxqtHyydZOFY7sIVpx0W1ItiQuQEhA-M-Ebz2OtZ31rjcI49650GhSzyudF1wAGuIrZuoxKyGBLyRSW9g",
+                            "width": 3456
+                        }
+                    ],
+                    "place_id": "ChIJW4ZVC6cdDTkRgB40cWhaOV0",
+                    "reference": "CoQBeQAAAPCKxwZKXj40DlG812s_VWNA0B9QUiqn8ZtF08wk5aWS9EUHtRX843UPkSeGtalq5j1kByKyHETxS20xRAd-mvkqNS0iK3ZsuMwQvAJMxV3UMJnYhGl1Q_0DuZIlaQl6GF0JPy_wpiacKWSuIhqQHUPg5EeaczKLpn8eEpfl-81SEhBq636fsuDPWq3z0iYj2uarGhQJezBHG-Ow_cum4tZIijsONj72dQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "327, Qutab Garh, Sector 8, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5968956,
+                            "lng": 77.1355918
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5970495,
+                                "lng": 77.13559975
+                            },
+                            "southwest": {
+                                "lat": 28.5964339,
+                                "lng": 77.13558915
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7d4ccdfc3c0886dbc3b6b77ee8fe71564e607c90",
+                    "name": "Ajit Motors",
+                    "place_id": "ChIJ7Tv_P8McDTkRD8gia_7xiH8",
+                    "reference": "CmReAAAAxfdu8iu0Wyb-NpZhqgYTNpFaR_bLU6H9h7vV7TBBUgOqbS28OQv4wHqda4vInv1JmutldTyHQQqRbuI1pXH8X5zWz6JoUHQbtek8Xkq_TbYePMvmpIJFvWf--DqRFomdEhAaefaG0I51Fkq-Dy2NavsNGhSqEKO6_oQBCBDfaB4wg1RIofmgmg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp Post Office, Gopi Nath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5962892,
+                            "lng": 77.13386539999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a73a9c1a4cb4e95bfea9ad3211657609db402403",
+                    "name": "L Gopinath",
+                    "photos": [
+                        {
+                            "height": 3096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105845943713034929063/photos\">mnu Kr</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMZlFROch0-fyzJqCimAzuh-AMYFdujDVMGXZQrGG_FlkFhbE7e03gPkN6Lnm7H9aadbVRJlBfu3viIra25gUKim0J5ba9B8nF2QTlT2ZN-GA_6Vwc_sv8IwbzTOshi95blj-IXKR2npKhoFBYLYirPVshAhVHuo4qElEzOdR2KcEhD9RZSpLNtDSRUDniT_L9scGhShVapMGkFYRcfytTZ6mt9SmzrrLA",
+                            "width": 4128
+                        }
+                    ],
+                    "place_id": "ChIJdw8uocMcDTkRAvTGTT1HYzg",
+                    "rating": 3.8,
+                    "reference": "CmRdAAAAx3r7R8pFQjY1XpmCYrf2LrULfHR-YF_CAfR-sxiDV4P2cyqqJJ9LnMJF_fQypuEpktrGpZQNQLiiKEIsEC9o-rzSGyTLPnPCh2gkKT6Y28G6g1GynKErZ2VqaJkSA60nEhBEgGPFcO7SKmJojOtaN1yZGhTGaRlDgtqHEMuEIPoNKUYTY6Kn1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gopinath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.59652419999999,
+                            "lng": 77.1326077
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59662185,
+                                "lng": 77.1326079
+                            },
+                            "southwest": {
+                                "lat": 28.59649164999999,
+                                "lng": 77.13260709999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "85f46badc171eedccc1c50c94c75d521f9fe29c5",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJh6hqwMMcDTkRXa_p1Fkw2bM",
+                    "reference": "CmRfAAAAxGwqU86pr9csW7EUTQ9hXmbjLnEI709Q1_P5H049Mon9T97qd6slChjE6RMbr_dpswqXgeBJHxdcW_1Nc6OgmxohvDhVUnYAQCpWAHSumvjVc6G7QexHGMB85vixBgr9EhCHjeQ0uZyt8WabVN71ft6XGhSRMbOiv2ReL75b00lZgw5NZ3s4Hg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Church Road, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.60999219999999,
+                            "lng": 77.138903
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8ea26729e44654fd8decb570b514ed15b2146356",
+                    "name": "Ayyapa Temple",
+                    "place_id": "ChIJ60O9idEcDTkRxpkV7IfrQ2k",
+                    "reference": "CmRgAAAAYPEGqvWYNE2oSbyvZAOgNjuDFncC-jzW4E5diHSs2rlhRtY9999MzHQr7TrKxfEYodmqxBL-gMKgpMsvKckYd88q2BAlhJ25J8kKCJ3X_yFZn860IOTcljxlWEKYeERLEhD3jh1ELEQjYZ2pcSkqeY4NGhQNVdYoOEDSH22npDJY0WZCeGXg2A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Barar, Brar Square, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56765,
+                            "lng": 77.175629
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "80471793c2ec00f3c3b8cee35295784c03428db8",
+                    "name": "Indraprasth CNG Station",
+                    "photos": [
+                        {
+                            "height": 1632,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109901701104787442888/photos\">Gaurav Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAEC6ZsUs7afKbR_ejl_v0SBlNN26bKYisbrwvdWqtOrNK0Amf-TH3y9WfRL0lUTHrG2vsqSLgHaulEY0-AZycivzHBVBWh7ASB4BKlftWbUEO6ANpZKs-BTt8_j6A2f50ZdxXuDxUF7ISgC4C32WXHi7YiWb_gJTuffjq81BdLoMEhDTgxxLldZVJXZI6cV8rQzUGhT2_Ja3vRHYNmTzOhE9te1wajTuMg",
+                            "width": 1224
+                        }
+                    ],
+                    "place_id": "ChIJQR4eNZkdDTkRQYoNBbCrIxg",
+                    "rating": 4.1,
+                    "reference": "CnRqAAAAYjW2Ql1kr2pWObDs7bNRqtkmDf1tJcqxY4us2ID3a2aQDXJCVhFWQOuwv4EFBnk1WeN9I2kALn8a_HQebEyuMoxKWcKSf8XgSr9Y6DxgrFi5w6rrifNjBEYTUOJcwwCsO0XX-XCYzUjMeb-CPwIdABIQbBSScPeYFedJWcsMc4n4lhoUXFy_cs53QIZy4_yRgC2FX4SEgB8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 10, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5890403,
+                            "lng": 77.1949029
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58908005,
+                                "lng": 77.19493540000002
+                            },
+                            "southwest": {
+                                "lat": 28.58902705,
+                                "lng": 77.19480539999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a748b16b8e35f5d0c2fa1314143e6ca14d7d5906",
+                    "name": "Yashwant Place Bpcl Pump",
+                    "place_id": "ChIJUWJee53iDDkRyUHeqluHfX0",
+                    "reference": "CnRrAAAAA2IXsTQv0e0Tg0YW3TF8yY7tpow24T6eEisMS6c7_fgbJRbcKn1laY07zBSCEaB6s0dA8JDY1QcdECUtyqptSssCyzF3Mfe7DwWucAYel8RsxBckQrmWKHllm1bkwbI3SVxIJ4rhh1zvSKxI1-ra9RIQBuSighIGx8pdinaaXk8UmhoUGpBm_1wFSJqgJGmZvA1GpVAIYbI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5647272,
+                            "lng": 77.1670637
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b42f02b6102e03ad8b3be11aa28222d58af7cd55",
+                    "name": "BPCL Company operated Petrol and Diesel station",
+                    "place_id": "ChIJx9cwmKMdDTkRwz_KIRUJbZg",
+                    "reference": "CpQBhAAAAALcnKDQxzzklTETTZz6jf9DVArMgnCIa_qHNDddo1XVR7fGcI5Sy9RVND2XsA4rmyfVOu5S2-ob3TKz6N3A4RiVoGEJYSZtNShYC9sJxy9MC88M2iib7rOsIIKE65cnVoaX4Ot1yiO7_PQKhthC4Vyu4s19Lf72SgA5YK8ZV-FVDg9QhX758kH7MbmYcI1ZeRIQD3DFW3oppFPZGeXoiHmj-BoU52kmppa99oEM99nasWfwwno8eFk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Marg, Vasant Vihar, South West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593108,
+                            "lng": 77.196111
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9743e007876bd24a23a760741f2208a58b838b0a",
+                    "name": "HP PETROL PUMP - ANGRA HP CENTRE",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ-S1zc57iDDkR3H5nWmTg38s",
+                    "reference": "CoQBdAAAAG-cprcpuI3gWWrCu1Yx_Cn9cIvIeG0bjnPHd63VGIjTFzF7oJC6c4g6PJVu6vezmQRxQl2KJP1eiVa3V8l8jjEbwCseHbl5JGclDzdkvRIkrihH2HVrmr3OL0LchI__KgW5H1dl6YkwTx4wUYTXjEyR929yndfif0zw7H77fHfbEhBRaLAyCBU0VQ_j-E-HzFSpGhRO8rMVqZ6VfaCYywj4oM03c6z-dw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "OPP Nehru Park Chankyapuri, Vinay Gulati Marg, West Patel Nagar, Patel Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5908924,
+                            "lng": 77.1961426
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5909503,
+                                "lng": 77.19629720000002
+                            },
+                            "southwest": {
+                                "lat": 28.5908731,
+                                "lng": 77.1956788
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0faa58b02f79b9762b1b0f479c4533bf821ba5a8",
+                    "name": "Petrol Pump And Cng Gas Filling Station",
+                    "place_id": "ChIJ0zOCvp3iDDkRKqJ2CUDyJHc",
+                    "rating": 4,
+                    "reference": "CoQBegAAAEOElEk1yovFIt-Q8Xooic7HG35T_InbGOI4gM-fH1bjReDIO54soJBUZi-XkZ8h8KPe5ceXbmoCxLs7OO0GmvF3Kih0Ay-DWFrC08lIR-hhSB2KOANwHClh-_jkEnSejb61GdJYov6aE_l7YJLYTpW_xy71gZWF01IK5yxNFQNoEhDBSr4JpSNNFedmlMjEgIwdGhQaI0hvR-g-ULTU60eB81h-_AMsHA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.599582,
+                            "lng": 77.195828
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59969869999999,
+                                "lng": 77.19592325
+                            },
+                            "southwest": {
+                                "lat": 28.5995431,
+                                "lng": 77.19554224999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f7f877d82eb44d3d61ad495be34e719ec0a6f156",
+                    "name": "HP PETROL PUMP - AUTO CARE CENTRE NITI MARG",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJL1ilFaDiDDkRol4t1fNogLU",
+                    "reference": "CoQBfwAAAAbKvCdcIbV1C2g6b3sbyOnFt2-a1tkf5E19BUDqtWStnEf0riXWMSC0YpI3Y425MDEMwVi5Z30g_omua9jv4htRN488XfRhhIbYDpXxIRmcZmpaqKZ3MUjSYTNBIAUDtZrybmgMRfBtC7Incxv7u0T3gftXawOKB4kidAM3Rt38EhBmfC5s3ee7yDlpGed2t1L8GhSgmGRp908FDF8HrPLiHfan6vLEKg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Hotel NEW Delhi, Niti Marg, Ashok Nagar, Chanakyapuri, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5999257,
+                            "lng": 77.19593979999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60001209999999,
+                                "lng": 77.19601279999998
+                            },
+                            "southwest": {
+                                "lat": 28.5998969,
+                                "lng": 77.1957208
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ea4a0736ec7ad2964a936bb102a0e0a48dd04e31",
+                    "name": "Indian Oil Petrol Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3328,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100790961062408944005/photos\">Harmindersingh prihar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAP5YtfjNigUT1pfm4x2riwpKb5ZuwfHZxdAvx_Y8ITqDe_wIg9dwjjfi31LxmVYo1BryKTC38qFNrBU9EfkUMDkwnMvfnIZNtPKk-8IoAcdjh6xbKAh3Vk5hXowIggkgM4BcVwT2VqEjQ425xHgDLmSAF3gTvZFlk_-0rbNb9BO3EhBgQ9CJ9L2DE0em2bp4k9u0GhTFaWMFawhd0PN9HGbKavUBk4fkSQ",
+                            "width": 1872
+                        }
+                    ],
+                    "place_id": "ChIJJTeFaqDiDDkRAZ6OkP9dThk",
+                    "rating": 4.1,
+                    "reference": "CnRsAAAA6YkfMTZgelauzC7FCobvbxVn3qX2hj-YQ2FnM5Jc3r6iuFQxzJK6Gq0oHO9X47U1mf-Rb6US1MWxNmX9pZEP4P7OnkkOSzJryH9iXtJWwz_hJ-RxheHrWRfglDw44is-YP2jAhwy60PFlBwt2eLrbBIQoWym7V4V1ZNan8Hzjlw7aBoU3BMSCjtB8W249R4RfBPDfaVkUc0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Niti Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5723301,
+                            "lng": 77.13787169999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5da972e06fd774725645d0f551be8f7c1d194586",
+                    "name": "IGL CNG PUMP",
+                    "place_id": "ChIJL1kfJvgcDTkRn-5Qxmr-IpQ",
+                    "rating": 3.7,
+                    "reference": "CmRgAAAAYQWuiYDRlvu7Of5SNWWTUTGThgIeBOtZ-ibV1CIScflwXtfh-RQ-T1at9u_HEk_oiX1XEVCTS5MdCMAffbp0W81GfFSRYZieoHHiDg60ylhk52XA6lPZaqZL7Nw8z_qxEhBoZ-tf61bEQOi5bnuU-NBUGhROBb_ffmRDTMLecL0YGjW4Oc2TDQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vikram Vihar, Shankar Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5721322,
+                            "lng": 77.1375058
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5dd91d64c2a745893bc91e1a7de11c3a14e84cd4",
+                    "name": "Sanjeev Indian Oil Petrol Pump",
+                    "place_id": "ChIJsSYGL_gcDTkR1LmYxlAbeps",
+                    "rating": 3.8,
+                    "reference": "CoQBcgAAAPlwkIahGUVCsQkyec8KasI7ja67DU5PiRWW1xoLPXo3nP3wJcJiynP94kHYEf9Ns3vA5_g1yHMIFHhRpAv5r7Ybt3TkPYsMsZBtb3MwrOp2MAnxjjzNdIOBuRZLWId6BSuISEFzV0GjfjFpm7t3R7oCui0ls7NyVws2V5YYHLZHEhCOYSYp9OgF_EC-y53kj_zOGhRRmxzRJ8owU8OBKXuNGZSpKK22aQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.564846,
+                            "lng": 77.17748
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4de59ce06214a46668f5eb5075499318be7b819d",
+                    "name": "Mechanic Saleem",
+                    "place_id": "ChIJ4eOxK5odDTkRmiTa7GNJsOg",
+                    "reference": "CnRjAAAAY2Ktdn3nIY_6C-s_VXKE4jTHy9lk45FgDUhxHAoZtGNhl24oG9xsT5NeDYOba-X2p7IXhyKIp2Smhe1arzKHwpeJM-aBHVfBx83Oo0aVd7vzyvjE_Wh4gDM3_DeX01o61vSP3-IeAksMoBKyDHuKLhIQIfeFelhV0xA4I1WQxzs-BhoUAsee9-ScETs5C6bT04oZcFn2Fqc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "II 444, Sector 5, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.564832,
+                            "lng": 77.177554
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56507125,
+                                "lng": 77.17783179999999
+                            },
+                            "southwest": {
+                                "lat": 28.56475225000001,
+                                "lng": 77.17746140000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0084ae6cf53201746ff03031489b61b8117ef542",
+                    "name": "Sabharwal Service Station",
+                    "place_id": "ChIJUem9K5odDTkRSgcYlxWiGDo",
+                    "rating": 3.8,
+                    "reference": "CnRsAAAANwz-syhcriWLeXbXILCHjy5fj6Myo0etEhiLPh-LLNb6jU_9iyv0jpmou4mcBWInXKVkiDvcnUZEdKwVMJLuHe8LkjmCXaup4DGI3fFE-hrKRZbGW5UrVn6dwvHr7Y6Q9cijOGtQyYJ3OBG7WSWp7xIQ9zUyQP92VONvh8vUdWwDghoUo_aywVm2aOFiLdVSJeqRj0njbZo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tamil Sangam Marg, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5662912,
+                            "lng": 77.18109179999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4ab7dd350b82505ba0cac68fb16ccf31a35b8baf",
+                    "name": "Petrol pump",
+                    "place_id": "ChIJC6v8EJsdDTkRksmCFti2fJc",
+                    "reference": "CmRfAAAAKPxWr-sn0MKbHq2yQ6GK5rYVY3k_YahqtMef5XDIS6OvfNcyjf4B_hu_beDc1q0HKKnhVtmOagzE7MMsJnqWJR3kjotsr4T5nyGKiNdKgdwX22anSkHWzO5AKLRBJlTMEhC3R0zImvLyLVZi4x2Ekxs1GhQKZd9nji9p0k0zQ76CTyfw5yU9Sw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "1, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.560323,
+                            "lng": 77.169674
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d2060a2092ae7f676b478412aab0a683e65f7db1",
+                    "name": "Bharat Petroleum COCO BP",
+                    "place_id": "ChIJR_IQPL0dDTkRh2NkCLoFxSs",
+                    "reference": "CnRrAAAAEIuAbrxxTVwWUQcX7KLL0IoSO5zIGOBPBuAzvLPgSk8WlqdwrNYSfNbrkrabyFGDhI_Vn5KeNX_6i7Sow6Iof1hOWe69muHObLpPfQRRXdmaagSR443XHQvejABkIrXGhsRdLTCqBhhcK5VwP84tRxIQmTdPJvJursldPYmBUGSzgRoUJOef1AofjSQLbUfVUvlHnmb7IVI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Munirka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5601041,
+                            "lng": 77.16985559999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "bea53a2607e1c8429c928fe508d918019f0af167",
+                    "name": "BP Vasant Vihar",
+                    "place_id": "ChIJBRc6Pr0dDTkREm5QYAfKZ7U",
+                    "reference": "CnRjAAAAsy1ZDP6en0LWm6_s8LBf8RNNzoqKIKwB9Vb-e5gyqdk0B5IygeO4-ItHmLd1DzHKtou8m0l8j9iRZJ4cEFH6hNSJZynYWDP3WmyOZdkMkhxOi5W7qXcqCubLMOZvrcgfoeXsQIfsNk1jf2Q2ryiE-BIQdd0KEDGZXTWcnOUO6_hQWBoUJGgNIVXds912N-TALjtGlJpNnr4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Basant Lok, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5600941,
+                            "lng": 77.1699502
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ea06688c85fdf23bd6bd133c1b07f945f5c84c3d",
+                    "name": "Queens Road Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJxrUP70dDTkRhjbQzw72dyo",
+                    "rating": 4.1,
+                    "reference": "CnRuAAAAarVZe2hTCK19q9SfhhpvWDD30U856EZXRfXxHJCF6BP_XTidf_LqaKzThlvticleXjmY-hbBs9F5hhru6M36bjfWQuTWXPl3p3PZsjQ48imO2KR8wY_qyZT35Af9eUdW5kUwJarj6IuEccv4YcUWsBIQHy3gTR4daqcUKpjsO_kB3xoUu6h1RjQSXgi7V2u8aYuZrbDs8WY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Basant Lok, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5673444,
+                            "lng": 77.18881209999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b1c1815f8a3a038fb51658176965e31b2c06e2b8",
+                    "name": "HP PETROL PUMP - SARAN MOTORS PVT. LTD. B.CAMA",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJZ1EVnoYdDTkR3ksRSsZcu0s",
+                    "reference": "CpQBgQAAAHhae8mMhTXjRS7KmQ3DCu6iPPo17loamKeqd9aFa0tZRIXKL5RtTMdJCcwcwSS59vN0-m0FaJ65w7vleBM-c_HhlNYrgKkYCRy3UD8OzYTMLRSHcj7fmYW0u95CIOxB3sPUBwsR_R7xsmKBdUPGtid4UpNof4cyK5X3YFsPDM-SHqDJ1GrrFOKfwYqSoPC0qBIQEkXIMm-FdUMmaZ0yLyNqxxoU95FxlvSZVHfyPwAd-9wSFW76SHI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhikaji Cama Place, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5654259,
+                            "lng": 77.1885707
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56599805,
+                                "lng": 77.18898725
+                            },
+                            "southwest": {
+                                "lat": 28.56370945,
+                                "lng": 77.18843185
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ec90896861b5ada1a586c1db37e725427e2e0ce4",
+                    "name": "N.K.Auto Gas",
+                    "place_id": "ChIJHxeE4YUdDTkRNR5X4LPsbWI",
+                    "reference": "CmRfAAAAlR64DfDOyS-sPpuyswSnnEuOgctim5CsU6RC09rrxOvxd_c7ZXJmXsWvFCQvKkstw2XumlD5yTCSKpz0gG9nXSabNlR7R2dugDWPCNBiQ0Lbak3j6noPnLJd1CODLDmhEhCnCC43J-mzb-2DZNQwGGY4GhQPSaUcPWmzVhzYmm7kUWeINEwRSw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No: 1, Near Brahma Kumari mandir, Africa Avenue, Mohammadpur, RK Puram, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAJYG-Gt9Cp9ehXythGaMC6aUStr2CeMaw1w3TnqEy25uKfWXdiGzWtGqZXDT7cAS5F6aFw8Mhck4OOkJMZT16wHXvKifhuvaxO0kPcdFNm23C3jiq7KL6hRlT6MH4sCSpLmhn-hLxpCAFQzkG9bm22vqitJ86SCouZvQ3689EKEeAurJ80d6iet_Xsxx96q4HkjXPpm_jYbrEfvR-ul31Z-b7dIOH8sX_tSWzFMRotgkUErJUOvPbDKBtTKZ4OWQOkJANvezrByNeUnMGeC4niO-LW7nn1jBfUKdYMnI5x1GzGh8xiIrTzTOSEYqvOeQg3pkT01Zilivk5Prm5F10pkSELHUF-VlgVtUWu-mGTI-qzQaFEPFaiZusgUw56zjeXQzl0Q__TKK",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58353929999999,
+                            "lng": 77.1910035
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58373325000001,
+                                "lng": 77.19112395
+                            },
+                            "southwest": {
+                                "lat": 28.58347464999999,
+                                "lng": 77.19096334999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "40bf5fa024d0b5d8ed705a75c95631fb5fd14390",
+                    "name": "HP",
+                    "place_id": "ChIJ6TAYVHwdDTkRAuK2IDS86Yw",
+                    "reference": "CmRWAAAAyPWB40l6H400HVyODNGGI0uIfdx_yljuTWEFc_Z77U7fJRcMfeZjtyQxKcfzozbFDWcyCJgmomT3RcpWtjktg7OUUP1HHouFdx3wqhM7ciHIvKGQGPzOW0YtFNsyIsD-EhCRmC-vQxwyebkW4C9C9iA1GhRspu1NYBBBeAykvOR3LXlZOqwXxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Opposite Nehru Park, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.570777,
+                            "lng": 77.181325
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2d7bafbfe808c44ff2c7c6d6b39eac0621dc4298",
+                    "name": "IGL CNG Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACGoSmfxWrCxSu_bCFAxlPahdtCmtrHA6YsXA1Hv46VmBtCjAjtmbv2B9_4JIJItDPm2tNjn6thaYvdLdnRvNFsh-pSv8vvKlEGDiPtEorZ0W0bVPCUOXrAVCYi-HCkCSrfa-6FJ49s0GQRRQ1eQ_JmRlIYSCdII_jdDcJDo0S7lEhDluLp46k_zUmOs5eRX_doiGhSwJYj-eeUhZkSWGn_ny17IQU09rQ",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJKcRO4ZwdDTkRyiSe_FTbFXI",
+                    "rating": 3.7,
+                    "reference": "CnRiAAAAi7xi-AST-5YYHCniYMFPoPeSS0NoaednxFar8l2rfMB3ekOGQPrKAtRrPNZyt8FL9a-1t9SbBM7nAena0sMiPb7kIwhVq3WXuFDEcmjiQJdMnC3zrWBCrGzbvASKF0IUnB1-wDTTFj2xRow0dFTsvRIQe7ao05KxYkzH_mv6PUU_1hoUhuZ-ADePTmEgfZhG32DIjkD0TEU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "R.K. Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5804938,
+                            "lng": 77.1792565
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "37f4c03cedb61fdbd122e30bc1cbf2ca1c5a6aa0",
+                    "name": "Bharat Petroleum",
+                    "photos": [
+                        {
+                            "height": 1924,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAOevOjijGDG9YLVjUSiPuq--5zgZr7uviqCGSl0xht88PkSaTWCvw6nUxBtO5I0_MNZeAgUg1qAvyGobvwxv_0Qfx6Hb7uvgOZm-6UOFEdJcpfhipG89h40wOJ4YR9zgKO07wrzquSt0VDa3QAXaxEp6pdrPKaRZSQI4OCuTEwZrEhBAvU-MCpIpJ2WvZQfOIkX7GhTpNcYBMx0p7_-GRjeM-vlhKqwQeg",
+                            "width": 3240
+                        }
+                    ],
+                    "place_id": "ChIJU_EhO3EdDTkRbNI2B09rzMY",
+                    "reference": "CnRkAAAAbCqHUnU29ju1W1pbXiqVX8Hsgv4c1e_owBQCvUGiIYAEoViBJIQNUXQiE6cgYPHbN3EMJEdAebw91k7oB4SP7eAR_NRrkSiHLUEqeJhXSo38c-1-52wnluscQHrAHEt87SlMbslR9V_mN9QoArJJcBIQU5zBU0Ir8nUQAV_o7h8b_BoUXvIXe017pc-uL5-FcTda4rPn3jc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "D Block, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844614,
+                            "lng": 77.17216309999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58454555,
+                                "lng": 77.17235224999999
+                            },
+                            "southwest": {
+                                "lat": 28.58443335,
+                                "lng": 77.17210005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f1969dffa15c0967b6b6b803a0b05d663d4679ea",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANAXVxu73rB8EZDphroHHt9OL51WXOURQfedfNsboZyHjoJ0YyGg8wFU7vE2k3AujChODLhkhm8trNHYwM4RpEQVkJxKJpPzpkcVYp5JWAh0Priirq-WaRQQ1hlJS5vrXo-FGK8uPz_LOZxG--ElZq_JemtRNKYvskWqWAGRKLAnEhDvmtfmHIhMA_IIzWS-iDLZGhSBGQfoG82mn_HJw5UNGEImf1H-2g",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJOyVZqHIdDTkR2CZu2U1tDCw",
+                    "rating": 4,
+                    "reference": "CnRpAAAAj3W7b7Sj358CTzMBSlRVkh5dTUZqGdfAhOctmrPCW6p7qH5XJOLppPWpuSNYyDyYm1i8xToTdK-OYcrgh_omSZb30N_GoFb-NDYydkqUm4BL_Sw6XkbTTTIbX4ZxO00sPiMy5MedYwsZaefMObPVThIQ0kGBp68YJH05RY3XsrRiJxoU8u_CXDQJQnXS287ce92x6OTwsDI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Nanakpura, South Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5776361,
+                            "lng": 77.17485429999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57793355,
+                                "lng": 77.1749198
+                            },
+                            "southwest": {
+                                "lat": 28.57753695,
+                                "lng": 77.1746578
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "058e61d89c3700e49946d113e289ffb8da4ad2c8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdaHtXXQdDTkRHCBNTlLxv7A",
+                    "rating": 4.3,
+                    "reference": "CnRqAAAAOW0yuFHAkDiZeMsaFtJmYeMsYkAjy1T9W1sK3hEIScVa38rq-3z-MdTgxjuiz0pCKfKxQChA7K47W8nMGMu6kfuYmcjoxOIeVqs9oRKRvDShaCff0DCUeVB7j0eWopZ3nfA3v7RrjhA9r6s08a1qxhIQtIZnQ0SmC2JvX-dTjsGiyBoUZA1C4vVF3ZbORIVDfDwic0yjIRk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rao Tula Ram Marg, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5931954,
+                            "lng": 77.16484919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ba844bb0192dd8627718d7ad3c39964197c6c44",
+                    "name": "HP",
+                    "place_id": "ChIJR1-GZRYdDTkRRSI1wN9-0ys",
+                    "reference": "CmRVAAAAf8uadq89hG2_mxomom5R3e59VJBSQBguMfYSWovZxSu9Luf-3z3mxzkg1nowZV8X5OGetzYinLiEH9q17q3wBbxHowLha4Ex2SRFxi0-yDNSWJOnU7WozoQIPTSo3u-sEhAT9EyWvJIAf1Yv5ntqbQmdGhQWdN81WkQOH4BvZod70r95Z59YPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6011551,
+                            "lng": 77.17917489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60124535,
+                                "lng": 77.17923695
+                            },
+                            "southwest": {
+                                "lat": 28.60106275,
+                                "lng": 77.17911274999997
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3c79a2e0aa8e40ce61de487aae23c3727b3725a2",
+                    "name": "Gas Station",
+                    "place_id": "ChIJ5fVklkMdDTkR3CwlzA1I72s",
+                    "reference": "CmReAAAAJe4YEUDpBa9kRwM_Jt_PkG-QPAXwP4wqkJ9legXaJlVr0wbpXFogOvU2IBpniQ6ysEZnVi9cjUT2ZpoldVcCujbg8e0SacQEHnffxSm3DMrRYkYS7EvcNRYq_I3Ml6tzEhCmjha6ddIIv0J7yfLo1R8FGhQeMpb2mHsnqbXD_C7JZfLNW8RJdw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.590262,
+                            "lng": 77.15747499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ca3b1ed204d034c1625f7d1c1e9232373d6050e5",
+                    "name": "HP PETROL PUMP - DHAULA KUAN SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111315810843938106806/photos\">R Malsawmtluanga</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANONz3Mqxzb_hjwOrQ6xFK8keFsc5b_6EgrnIN6JiMUTgR9zL-TM5PTPWiD6Jiwr3ZlwawZ4wxEwy2aKmP0VBWj4nZly9W8JjF4e0y1ITz8UEXia1rROSztb8OU2AcbOdajQjJE2cldVB9aDhnvNip12_MlyS5FKheWTpu1LvxvmEhDWgPnvryHv2Sr6jJoIZkKKGhQnWZrlfxctIP1118qi4k1U7XFKwA",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJIT0unxkdDTkRW82z72CFigw",
+                    "rating": 4.1,
+                    "reference": "CoQBfwAAAC4IMYtCG3aKBmIGOn13t9sRMnYw1In39eEh3VDJ2J9qvee6ztKeviUOHevOwIHYJvvhBUe5X6t2CDbv6z2thW84mrbxE4scANexA9VYHX0uLYKclH6lBXIF7REs-oKI1XerGuE9T0FVhNTbwSUPTxFtMhnK35HRAkKsYE6Yb8ASEhCapCT6gy-IxW77yxVGNxiyGhQt9NG8vuVSrBET0y_MObSxhs1cWg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near R.R Hospital, Dhaula Kuan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5832602,
+                            "lng": 77.1914116
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8a55f5514537612252104ec175ffba472b73df36",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ9QJ0U3wdDTkRgFbL0Dcc5JA",
+                    "reference": "CnRqAAAAQkKObay2K4yiYQbWEC18tC2eYuidXlX_Qe9ZBD4fZ94brBPlLmt-D2sxybiNcw9EK7cVBijB93hge33D-J1N_DJUSnCjGmaFBnylDJj7d7k8pvP0s7IyMiDUGKxuYoA8S0vRKLU4217385mGvD0NmxIQpX34zMThAibLSWwBcLxtihoUNmoZotVU_yfzrbgOlU6S5dEuGv8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5763571,
+                            "lng": 77.17175499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "141c6a825109669fcd6eabada21eafae574985ad",
+                    "name": "IOC PETROL PUMP",
+                    "place_id": "ChIJ4xuM03QdDTkRGWYg7ge7-fA",
+                    "reference": "CnRjAAAASGwrkXV1xGNg1Hy5XzWAzDYwp0RMs1WTIo5f4OHgneBbKUFilJvJ16BBjJUxNmeds6ctcAhdEsMJFQGGSjSHk6hnoC6KNaxt3PvptVvBXgB7Wui9-8j1qib38T92YsI9cVMvmh68d-5F53K8Mkjk_hIQERXqJfCmd45TuyvoQAvVahoUqISMSaRqdPWW6WmmpSoDLHllf5o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "121 Major Somnath Marg R K R.K. Sector 9 R K Puram Sector 9 R.K. Puram, Sector 9, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.59645,
+                            "lng": 77.132873
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59665865000001,
+                                "lng": 77.1328742
+                            },
+                            "southwest": {
+                                "lat": 28.59638045,
+                                "lng": 77.13287260000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dfbc4a20810385644e6d0307f46b37c949970a4e",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJhc4Bv8McDTkReW485MtiQjo",
+                    "reference": "CnRjAAAATcYEwW0hSO7ubq5nP-C97avTkn89hCuJD4lEr9hPNbY8vhA3CAdM6a1WYFHcQFR33s1qucL5-ZU1IZs4080_hi3k6mtNWlqM2picNxQLTheAHFw8NQxrge1xsiIF8k7-b-sdPKg9XBezTIQE7VGCYRIQu-MguVreBkIOI4ojecJ4pBoUXHKFyfzjpNe7o2FbvSS0ziwhqH0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "On Road, Church Road, Gopinath Bazar, Khyber Lines, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.596907,
+                            "lng": 77.13553499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59706700000001,
+                                "lng": 77.1355434
+                            },
+                            "southwest": {
+                                "lat": 28.59642699999999,
+                                "lng": 77.13553219999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d863913bc3cd5c0ea8da40c26730cb9ee3738862",
+                    "name": "Bharat Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbQytasMcDTkRg_kG79Teei4",
+                    "reference": "CnRlAAAAc0_AGGn5qGM8prUM6lwIaeK7GT0TxN9q4fJLjk3VmdpRIx71M-BWWQS3H22y4_d63nagvN3JNAlBr5szSqJ6ouNnja04hZ_JYeVgJVtJw2BZKv3CXLptCswm-jU1R_gjn_Nt3AnB8SCIYJkhho1keRIQLUvaTWRCK-BpTPk3kKzexRoU1z_YxmNSMOjEwDoA_HCvW_aRh5w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Church Road, Gopi Nath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5703253,
+                            "lng": 77.18657429999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d0e5e924786badc88988c5f340e29223bcfcc3e5",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106926787900206995646/photos\">Karan Gambhir</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAD9HBRivGmRHoCJBT6qdk9inhEqvVKewymzbdUMS04KDmFysCeJzfiBx5JN0lERvvoN7lfyijERtHoLfFsRRSePxW3wfTclYVD9TlFkohVm4Hyovb_AYfYWlaO0sU8zqqPNCt9W2CEvVlV0MHYGhbUQJRI52QoTbO7vzmzZN8BqaEhBRT9qIZbilspNFZyPLuvNCGhTMeNNI-nlGjzjhpmQQVcX_qJX0Bg",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJS-V_mIMdDTkRPMmEuRDgfG4",
+                    "reference": "CmRdAAAA2Cax7OoiLVMlVDMbDXKwNKYVbZey8cgeS1Cm-Ttit8l_COx9LFAl7xaKo-s61unVOE3QiVkj_Q_3V9x5giZdCiPzHSQTf3VfxEAari5pZskkBJWnSoftYXP3Qdxp0yraEhBlJekIYN3ukQFV_LKElnIuGhSDywHDR0X5ddnz1ss0w5FThhMWaw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Netaji Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.564864,
+                            "lng": 77.177561
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56499675,
+                                "lng": 77.17797065
+                            },
+                            "southwest": {
+                                "lat": 28.56481975000001,
+                                "lng": 77.17742444999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e41d93d9e8694d35f2e060d0715d171444bbef8",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJweT1K5odDTkRuIMUgy5nQ5k",
+                    "reference": "CmReAAAA6RzOvN73s5HSv1wqdpsAafvoFc1C5cIT1liA9B-GRipMLlL5xJFrI0RNnO1qBD-3PUjDHONRd2HB1S6UuK60lcgKLNewqv4h2nWjm5XBAA2jFy0ymHHPeoJllxHNATltEhBmMfLZp-4QpSn8UPyK_u3gGhS9FpcMWQl3tnWKIKhEtrkvmw3IzQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tamil Sangam Marg, Sector 5, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5995818,
+                            "lng": 77.1958268
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a527d57235c90b20f1923bc5ce1555fa64433916",
+                    "name": "HP Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3328,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100790961062408944005/photos\">Harmindersingh prihar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAISvn5JQRBMjKSoWf0cQiJU8r4DsmBWeRikIIdPPy4TTABAowi9k4qAENdQoA8bpJ_T0ceuPG0kT9iDWV8yNe6G-hdi3LRgOf7hX1klQqYaLZfZ3CuMpqQcX9BGzvOzXerV6JWWcVBXJguf3CzSPJEi2CpIHumNTdo7p2xheYNuEEhBAWWn89xUPoVRpgvTGbyUJGhTeZa6VDvNLfm4JlWy5-V9pl3E_UA",
+                            "width": 1872
+                        }
+                    ],
+                    "place_id": "ChIJgfevFaDiDDkRlyk4WmINhsw",
+                    "rating": 4.3,
+                    "reference": "CnRiAAAAQdlArH33QrIprmOVxd260VmFVogoVDwYZ0yuP1qlg5tDnQW9q1s4IP-dyFSFuc-U34YphqIxYO34AuuGdsa3_emmqwjcVJfAH4oKZlwcchEv8iwuWkootksKEKLn3wjglSHAxVYAGrseljag3wUsNhIQgdC1tTDOrgloLO767pBRzBoUZLh3m6LgJNsljSXTTVkyjSVmplk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5673382,
+                            "lng": 77.18880419999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "80310d00051d493fb7495261342032f2832b7768",
+                    "name": "HPC Petrol Pump",
+                    "place_id": "ChIJHbwjnoYdDTkRoEANs6I6xBA",
+                    "reference": "CnRiAAAAu5k6xG8PyjSmTDzgMO8zCYZKNbLcn0AcHU3r39wtisAUsz7PXviZd5s6CkkfEWENswQUBd98MItibIB3xedwi1ljhvDw43PlMy5EfqQaMjyeEGCzw-f6NRzyfVnfvPuxsDc9F9udUZ8iMsAg989dVhIQ_OTWm-UWX0KWAwX9iXksmhoUvqk4-2qEpQVDT77zWY3mhqVFhz0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhikaji Cama Place, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56004309999999,
+                            "lng": 77.1699848
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56041075000001,
+                                "lng": 77.17001885
+                            },
+                            "southwest": {
+                                "lat": 28.55992054999999,
+                                "lng": 77.16993864999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7a2473cbc68602b6146aadfe93d229811c413a88",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 299,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113475609444828369081/photos\">kounteya singh</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAN2fxFL1cFLRtoW98xx9Q9JYixLWvnJukhwd_CqJCdmN3ZV4_gzFxPQmGz4l9Qy8KebofCkCLuNOBKEaPUhXlrivZhD8CJLSWyfP61ny7rybGdAadq09Mx5D55HbOn1A5APHzo4NZiZ9jaEy4sY24XYQcSgwjYtd9fE5d2wA5zgyEhA54hg9Ph2ECevqWxcQ7wuXGhS2O2aIvVrRFFU32VyN0O81gabpTw",
+                            "width": 450
+                        }
+                    ],
+                    "place_id": "ChIJ1zHpPr0dDTkRtIUsazf4_6M",
+                    "reference": "CmReAAAAvoDeuZcIUBcuAD0V8v4A8HjjOZaptj9vg9RnMOgdpKMIj7n8u4fnpV3arIGcEATj_dUfYJwmqI4YHTGeM-VpdhdQBFn-9ZmVMpg-NFnbhILYYUHV0L-pNthwAbs4EbPbEhATdZ04PXWg_FGhVX1GvwAtGhSBLgS7aWd2u-D2bWfns0mR97HdoQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Marg, Vasant Vihar, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5577426,
+                            "lng": 77.16345860000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5577882,
+                                "lng": 77.16351095
+                            },
+                            "southwest": {
+                                "lat": 28.55760579999999,
+                                "lng": 77.16344115
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fce59bdafbe325ac4f855ba042fd39e1f113c4e0",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJgTF7ubsdDTkR0aMhCO7Xf60",
+                    "reference": "CnRqAAAAYCQ1BLMV1WD4FTkOwHJaOTbh5E8Cw4yh463fqjz_QwqsjF82n0Mg3ifaKXLw9kYwCnsVUC2nag-VzJC_nXDDhLJ3f9MEdElq9ysPifkvCyi08523zqyBt4_hISKPpm9HXmtl5EjLC3tezk-sUTc8NRIQF1envakiCMPj6sjPnfJvkBoU35YxDNkfi-SCrZlySBjcbpzjbII",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Petrol Pump, Munirka Marg, Basant Lok, Vasant Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5698373,
+                            "lng": 77.1950231
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57000635,
+                                "lng": 77.1950609
+                            },
+                            "southwest": {
+                                "lat": 28.56933015,
+                                "lng": 77.19501050000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "675a3c6c14d548d887f3e0069bb29d38ce59d692",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJz50HU3_iDDkRjZplRjLyIow",
+                    "rating": 3.3,
+                    "reference": "CmReAAAAyP8R1U3jCm9xemrrHVLZjIpKLF4FSdzQ9WjosudzwD93i6ZtYjr8mUqyu-0Mk0NbaIFC6dwOSOl6rmlIuW-FpuPeHAprl0kfcNtYBaGocW3JfN052uTbavNpt3YGZ7ghEhBDWWuMKRkZc8TB1YO1XXqYGhSgWhh4k9hWlkVT56JGwtauNBEAqw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Sarojini Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6246719,
+                            "lng": 77.1344562
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62483375,
+                                "lng": 77.13501464999999
+                            },
+                            "southwest": {
+                                "lat": 28.62461795,
+                                "lng": 77.13427005000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2705d43d5a548dca5c3021e55c40ee62e9262942",
+                    "name": "Indian Oil Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI1E-VzADDTkRAs4E5x2K9-w",
+                    "rating": 3,
+                    "reference": "CnRjAAAAmzcHtUF2N9p5J80YV22EEXIjqcr9iPIDV085QVqpxV2bd0VWZeoTun7EaU31FmoQf1V7PlEgP1Hp6bMPE7D1LgXJ-JFLjfI_GupIH4Zlf4l7bcIks891T6td2Cww-AZKZWMfhDqfs_BCZr6eQ_hdKxIQ-2Z8kLR5IfafuevFIUfcHRoUEUluBWoDGX7PtIiQi7gMCvhE5VE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ring Road, Block CB, Naraina Village, Naraina, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDoAEAAEwYT9uNvY6-hAM_p1LsDCh2R8CsCL1nCGzdFHY5FdF5AlAxzV6BFdkVSLTHuhwmfzCcxG4mFAyhV0GrrfbDSJ0aWzDMxubCCzsYN6SU7nzf6Sz9FBIV-B1MtU6mlzPMuFnYhvRj_y5-DuFJsFem4bvNt-X0pi6AlU3ZuJ7yegcR15ezkFFt2ny-bZz3gmX83VzZwHPUU3SALZZmPY2uC1NsWsbokgfhywOcwwYmxnT9rZbkxTTHnrYjis4AOVqrNQckbSpft9Q5yC9CM1x2VmOpcTX-jY8uOTFS1gH9nVW64Sqz0bZ5NOJprdaPUEE0UKuTqc4j-6sOFsYiJD86nr3dAjvG6EFRCNOa-ATS9ZCuG8NxuHNIwvyCsnu04chK78_IEO6qgg_UGDkx2CrZnIOx2hFAP-W0CTaSlTKukTCCVqMgkP5ooqggzkT4MtjjjrO4CSDiBm8ESWdaBqjAruKnz5tBUsy6Yrx6e1YHAF_jnSrRgDZjhwR-hr7dy_7qRINh4XN4NZw23UjyHQiyU-Yy313gx2PgQvN3HKWOh74-EhAw0v9xv7PmzgMNszCbCdP6GhQUAKk244MS5yJmsQrtfTbrp6pcEg",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5869158,
+                            "lng": 77.2121635
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e0472be257a3645190f27d4292d3abc05c130f4c",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJE_ro3Y3iDDkRv6kNSzea1LI",
+                    "rating": 3.8,
+                    "reference": "CmReAAAA6akPatamrhXqXPs7-MmHe5jS7BtsxXNp-3CvdpmFIqd37_FTmwbSdSkiMg4FcXiOtpNcLM4Vuciu16RwEHOW0ow_QmTM2heVd5WezhEoesYMiH-N30xKny6-tyX5Pu7WEhA3o_qBHEYw9ctQxlpb0t3YGhSVJIzAExKd19zIA6smL-NVXFO66g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Lodhi Estate, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5805786,
+                            "lng": 77.1794978
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11f6ffa061a74a2f3387dc8e3b1c53c018482501",
+                    "name": "IGL CNG Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJ_OWIpcNisyv1IdHSIKolXGCjhjnLkGDcd1my17YXL_Prk2eezeGZC6z_AX0VQMlTiXL8IRBU4Ybvj8QRcn-r9AZMsBBl3QUb4wAxDtnMSC6cf9PTorAbFfj9K7IsaxncLLCijvfrfsRL9hz52y2LFNKbFT-wBsFqVpvHsojsqxEhB15648Y9KoaKrKc9_CKXB_GhQVP7oT7uEvbgzQ8HmvHjE1_Ho0Uw",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJp2bzJHEdDTkRoJ8SYCVEfF0",
+                    "rating": 4.1,
+                    "reference": "CmRfAAAARcRWOGN2jxePPFR41y5kz9wUzj1Rd_g8ciNcTSyieB-MSorw7MyNJ9gBLL5l_IPKIyx2Clwu2zuVAaFRCgLz509MYXEptXssSeEwIQkQbwEVuq3JHUYVwvowpNOuQ4oIEhC2MDaMRFjvHb7b6w37-t3EGhRPd7bFlPzoHMPw_7NORYNAEkaB6Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shantipath, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592836,
+                            "lng": 77.16378999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cdb9224497a96332c0cc0b50c96dfd4399bad892",
+                    "name": "HP PETROL PUMP - BEST FUEL STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJwUAtWhYdDTkRg22_0S3leCQ",
+                    "reference": "CoQBdQAAAOpCdh02YPMNOBfjmDHbyO9XFC2SuzgsWE1RgoBL29sVOb-PTfWJy6OQIQD3V1bmS70YSf_xLsiNyL1ky_tGr0iBLM392pm4tlz5kJ2o7l7XpnyHuO2aYvRvO2HtbSLgsAXzFMJDTqkdVvh2QDmkr0k3iz-YkPWmo8W5FE9kYNA6EhDPYj-u5zIjYXc1k8wByiD0GhSVDDAPHt1omiktR-qpb5m5pTohvQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhaula Kuan Crossing NH-8 Dhaula Kuan, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.593182,
+                            "lng": 77.1648495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "485618201ffed1e15b251f212056858854454a35",
+                    "name": "HPCL petrol Pump",
+                    "place_id": "ChIJ48H6ZRYdDTkRFs1m9gKOFZ4",
+                    "rating": 3.6,
+                    "reference": "CnRkAAAAwgGOcamy5_w-L2H4ALwIY4DF-6BT7crVqT9C-CQz9K1A03mpNpY5fBJNh9uzwPVP9I-ECjS9IMoZyTRaDC7_qMqJNDrRqO2Zxgke5KmOW3Qi_OvMDF_krMgI9jRkVRzPfzkdL0GWZE6qir_PlETc4BIQ61ZvLWF8J821WKZTB7EYCRoUQjRvb26oLLRHHQ8wpMBEr-ZbEas",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587296,
+                            "lng": 77.171388
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6cfd8748e9c64e8106ee0dc0ac6fc1efc4a16300",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJU6dw1RIdDTkR6jmSPWu-gg4",
+                    "rating": 3.4,
+                    "reference": "CmReAAAAM7QSL9h_xMIcFTVd2nF85cnyIF5Ybmib0eoRARw0pvLMzc6_DThz2FYj_zA9xz8LznUkdBIXb89Qwt_cBzfoBZgjMTdnQnpaWlfU7Jaw8OlUGB_QvtYcLRb6JBgwxPgeEhC_6IJcudQkK_WpRUUJT52RGhSKo4S8K95DhBhwgJTcWk0fd9vrXQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591514,
+                            "lng": 77.1754672
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8f1622009d7bc51dfe7436499535eb11e09e5933",
+                    "name": "HP PETROL PUMP - BANSIWAL SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJv5Bdk2sdDTkRg3MLj7O6QKk",
+                    "reference": "CoQBfQAAAGIUQnCcju3vU5uq9ZCyrlDYQ-CQLLDr0mpioWleE-1juq9W0bY7HeXEhmUMOf2wZMgWh42k8lS-mN1ybuPjivVQHO0ppmdEWrG8mH7mrvF27MHbjbRROQLn6hCpSwH5uTCNYFwTwuTx8dQru-_URE_3YWBNZeK9B7QkDtqY2Sg0EhCr1dcChgXnKhs-gxKsA7QsGhRIsNuttS-L1PRNGN59J1Y7JJBLcg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SAN Martin Marg, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.591714,
+                            "lng": 77.17580400000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59200155,
+                                "lng": 77.17597760000001
+                            },
+                            "southwest": {
+                                "lat": 28.59161815,
+                                "lng": 77.17528319999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ce4a1eb629b75e2494dd1c4d2d025e2a7f73a20c",
+                    "name": "Compressed Natural Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 612,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113026906382193101480/photos\">Shankar Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHeYXK8J4Tskc6ipRXFyICOWVQaKt4ztx8FOqR0v-AmRfYvpDf_OI6BGk8MiXEztZTD2S37G5QN7H6AZYA6cyx6KFWGVHTaEjMVn-HCogbjMYpUDkliSSEqxKpteXOpWcyE3lzc3Wc0h-KCDt9_wmyGrMIiK8Z5gzYjb1-seeB70EhCf6qerQP3ApVgkYP_0jtLHGhQ3HXoG8-UMPoIfHr3-l6FcAJh55w",
+                            "width": 816
+                        }
+                    ],
+                    "place_id": "ChIJL7dpk2sdDTkRN0ECP4j4GAk",
+                    "rating": 4.1,
+                    "reference": "CoQBcQAAAMsQzV1Aue3NVYojF5BsFzhK8QtXnRhEnnjJ6fSjWdeogHo4Kh1_0Wwpath8xlNQRNiXHCndd3BmHvGS4zQwqfjDtFnlpiRulG5_rwu9lU9ne72u1tKn-p-yHI5ZiB4C4MeiGVi_-vo_9ms894Y73f3s4mhftxVyH90EAxjS_BpIEhCGqhTjzyCSzTOlelFNlQk5GhSy2PvVAHa22xf4XPL-B8mIFuDM-g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "San Martin Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5844972,
+                            "lng": 77.1721069
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                    "id": "898375b81202bd519c0bfd76fbd64073f5176764",
+                    "name": "Moti Bagh South",
+                    "place_id": "ChIJa9VqpnIdDTkR8P49TjG40Ws",
+                    "reference": "CrQBoQAAAOcUCkQOOhu66j43fkN8iFDYtrwET_AUABVO65a1WJbG37mlgsJjYwAkQ-8w9PVyRR-BmbTkcca5NxKh5D5Qdjg4w8pq-hUTihkJyL_nmOzKytPJG_C9mjY9jko56dEkoF3gc-UbXLDIwQI80qDsHkTzblnDzlPCUU2QtG2a0hbV4DY6i9VuL9PT3SoRImluNThJJQa2pCEsyZCGNliPQxArkj7eBzTagr9cX7Zc59bUEhDDZRbgrjTarDqCojQoipVGGhT05Q1WWWi7ViolO4f5lHAwZ0P2Dw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block I"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5992271,
+                            "lng": 77.1750927
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5992777,
+                                "lng": 77.17519680000001
+                            },
+                            "southwest": {
+                                "lat": 28.5990753,
+                                "lng": 77.17505799999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1879432b44dd6780dad8f2a70b70e1de76f9fdd0",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ-xgEqEEdDTkRpsxDdS_AsNM",
+                    "reference": "CmRfAAAAb81tRWWQ0XC1I04xjfIELabTIlRjhse7AzjOz8-xJJAEI7mZw8odK62FG5HdffcLmhkzKPJ9UcXvl83LMXtjYQTXRv7VQUXR5YU2oxvNTs4vpwV5cIIaTpoX4NlPj1xgEhAt_fk8-_VT09RahGV5W8OSGhTmmVfpLEfjtZVdom2eg_4xo1PtRg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sardar Patel Marg, Central Ridge Reserve Forest, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6028395,
+                            "lng": 77.1486998
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "023d79289149a25697f5f930928bb34eca0a3377",
+                    "name": ".",
+                    "place_id": "ChIJseXVhicdDTkRayptpP7y8z4",
+                    "reference": "CmRUAAAAOZm8judUqELH_epzOvSDqMRvsj3hTnC-s5WplgoJO1YfM3nP7HDGk08vfJJx3QasMO4QhQC7G_xa6dHMbJedNnjq1jaVqwX9KXr06Abu8PhOV7QFOpF5g9AwNsj4Q_vREhDk6Jd3VNjv0Mj6YjgEWr_AGhQlMcm-79rX4fmPLJx_zdHrD8_bFQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5804691,
+                            "lng": 77.17931519999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "df5dc92748e1ccd12e917d5a60b30a6fff174fde",
+                    "name": "BP Shantipath",
+                    "place_id": "ChIJ-9HjOnEdDTkR_PjAYgQ2Thc",
+                    "reference": "CmRgAAAA-0y7v_VXo1m6XyQjKIgOAxjIRc75yboVZZ47Y87xDaQ__iWWxvc-WO8d0V6K6gMVnRP3ZRM0mElxLwC_Uanm2pficl8nXoPLu-uSix19I3ls7hV4018o0jW7U5wz4KrDEhBCKv6KFCtm7jNTUiYaHqsjGhRe7vUeKaVFry3eeL8e2UolIBFPGw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block C, North West Moti Bagh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5717624,
+                            "lng": 77.1665285
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f6750e3051f52f998e79e53241291e0a08b4b996",
+                    "name": "Indian Oil Petrol & Gas Station",
+                    "place_id": "ChIJZaOFuqAdDTkR7BD9U8hQV_Y",
+                    "reference": "CoQBcwAAANumEw__NOZ9R02KhxXx_sK9qj1yyMEn1ZbopJ-RjyB78hdfv9Yz_QzklJr9VVulhMqIFaEvJJC5s_Bsx8uVcs-HdDObJQIigSm9JUHegu0O6wp7-M6WL6CT4xD12wglkqNxycmN284B2Avb3tq1OUn_HDSCuQB_AS91QcoJY60CEhA0ZCpuj7gPakDsD5K2NjzrGhST-6WjfwEu2AqBBPd3U7sTRHdFeg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 8,R.K. Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5708667,
+                            "lng": 77.1632544
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "04240c317bdb77a2a824f42503aea5310c227bc6",
+                    "name": "CNG filling station (Indian Oil / IGL)",
+                    "photos": [
+                        {
+                            "height": 4608,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100814912403591935401/photos\">Hitesh</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAALCttBZK3VwRlNtYbvuhSUEmWQdBsgMqiIfATgQg8a75hMec7oMlhtYXMSGKactL2busGOosWy9z0yrdBO9sFMtupmiqp0PuHyvZ3ffyTndxCLEWw2QwECkwIMM-epscl2friglWs04keXUyuHNVkt7A-sDDdj-fYCnKeGFdTx3pEhCPI-rLLnrTCusftLl1S0YMGhThPJ6GuE_1uhd7ErolsSJZOiWM8w",
+                            "width": 3456
+                        }
+                    ],
+                    "place_id": "ChIJW4ZVC6cdDTkRgB40cWhaOV0",
+                    "reference": "CoQBeQAAAC6ChPJnKAc4ZdsRUSkmD9WH3PBeLrhQRvuQWRR_KXf90AYxklpnR6EBNtcacTVz9PIDe5M7uFNzGxkMIFiQMA5wJIa5Q-aqjrsa4k6fmGjzBtKtbwCgDBfbf37TeGhgQoFVIvHtDLVVdwg8y7qq-Hb0K2uK9cLhgiERuEgA408dEhBFrdmoHjA7DPMzE0--AlJOGhTuth7AEsVasmojjK7PabxCCgvEng",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "327, Qutab Garh, Sector 8, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5968956,
+                            "lng": 77.1355918
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5970495,
+                                "lng": 77.13559975
+                            },
+                            "southwest": {
+                                "lat": 28.5964339,
+                                "lng": 77.13558915
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7d4ccdfc3c0886dbc3b6b77ee8fe71564e607c90",
+                    "name": "Ajit Motors",
+                    "place_id": "ChIJ7Tv_P8McDTkRD8gia_7xiH8",
+                    "reference": "CmReAAAABTGYdeFrdILCGxuLrA02eOe8jaxAbhu7pihZWLfjzHoxrmjsdf1JNelQZlPkFoO6FqSejFNeV9voLilNHuOogtqKSxjLbkAnNewqahiIJ6v6-WZN9lhLMY8QspRZrC1aEhABSesDdjkruBiaNuCXW5FVGhRBex3rQeGZSFRkgsY2tcC5MaRKcQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opp Post Office, Gopi Nath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5962892,
+                            "lng": 77.13386539999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a73a9c1a4cb4e95bfea9ad3211657609db402403",
+                    "name": "L Gopinath",
+                    "photos": [
+                        {
+                            "height": 3096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105845943713034929063/photos\">mnu Kr</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAEBSbfLJPxhwBeKI2qsxhU1TwXYtRxqJpuy_07J0pCP9jmwFsgaAdgzcSKdBdr6oJF2_BS_Qv1Hbau5qS0CvlHcDvbWWqpgrAhhQ8VWkatT_akGKd3NPn4UWCjuiD9TNzBo4lw84ouGpddfKjRkjNsxTZx06pJ-WbBwWzI04JsbEhCK6j8adWOI06iZcRADFmPTGhSEoP8bRR-H-rMk0L0JK8_wUEwKvA",
+                            "width": 4128
+                        }
+                    ],
+                    "place_id": "ChIJdw8uocMcDTkRAvTGTT1HYzg",
+                    "rating": 3.8,
+                    "reference": "CmRdAAAA9HwcUIiyYIIQr-aaOCXKdHAkUXRRfQ32XgvXfrVEzGjnG4_1QjM44mmAbMml6LHFCfyr5HPd8oi8OmwjoR8GMBKKvWRhZw-2zLD34arNfs28rofRhrEMGXLGm8sJ4pMKEhDkV1ieyNrmti9099VzzWzJGhRJQhQA8UB0ocwGUSWYRKJuVde5jQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gopinath Bazar, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.59652419999999,
+                            "lng": 77.1326077
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59662185,
+                                "lng": 77.1326079
+                            },
+                            "southwest": {
+                                "lat": 28.59649164999999,
+                                "lng": 77.13260709999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "85f46badc171eedccc1c50c94c75d521f9fe29c5",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJh6hqwMMcDTkRXa_p1Fkw2bM",
+                    "reference": "CmRfAAAAkGiyMqrtLrnWKnlsURgmaeyEuy8juMbHHGaFcYmFE8uRZf7LVVJyv5rE3gU5VnFw8Ekd5silfxxJiJoUNRqeTyU88f4jgYHWAvmjwaSkE3ryHb0yo0XTr4W-Q-fsJR-REhD3XOQD8Ofiw1-82Z3sG2EoGhTa2xFpsaOnszIGs1vNBKa44_8tlA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Church Road, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.60999219999999,
+                            "lng": 77.138903
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8ea26729e44654fd8decb570b514ed15b2146356",
+                    "name": "Ayyapa Temple",
+                    "place_id": "ChIJ60O9idEcDTkRxpkV7IfrQ2k",
+                    "reference": "CmRgAAAAPmUtt5sxqVd5-uwzdKBKOAA0PSVvKloVoGwwiO6iScQw0dUEKVm9qbRREfHU4Hmy7M6pd2K82l-sY46sG_PxOinOunyp7utKmIxTeYbhls89VCIWTwVUCdwF2kE7dYH-EhCeoAk-mxyVc2PfoTxJi34aGhRnTOMWF69AqtN3dZjF7kikZhNEww",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Barar, Brar Square, Delhi Cantonment, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56765,
+                            "lng": 77.175629
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "80471793c2ec00f3c3b8cee35295784c03428db8",
+                    "name": "Indraprasth CNG Station",
+                    "photos": [
+                        {
+                            "height": 1632,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109901701104787442888/photos\">Gaurav Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJumT4GIsLbXGS8gNzhHFbAanXIAQbdbvkIDIJuIjRVtR-786ltwl9UdeG1PHa8y8jOPNnnIY-NO7TAbeVB0wkNx1meVF1Fwcq_HjXMS5MagPI5WtcsceGnHOqeE6S5WZTPQuw7Cpae_DLBFi6RB_NW0vLD4XsqQ6gRIcQEpmD3qEhA8OsTAEd-yQ42O5fY3eUHcGhR6YZDACRbAyPDzvEriBlPsDhD9NQ",
+                            "width": 1224
+                        }
+                    ],
+                    "place_id": "ChIJQR4eNZkdDTkRQYoNBbCrIxg",
+                    "rating": 4.1,
+                    "reference": "CnRqAAAAqpKQFva38puu16l7bJDrPjHmEWqr3WxHZHpJ0pDO2zQ5Q5R0oJ8xGboOIZ_vQgins-SaHTnKACdvJ7KGNngtdg2g9z6YzbRcfeuD2m44F--yg1NX00c7t2N1GTLP3w6JXCTkFPeuY2x-gG8VUUXjThIQtz-8qOxiEB_24g42R3rHehoUw1GJoavIx3vGJQqcCFPXrfJ7Q3A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 10, RK Puram, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5890403,
+                            "lng": 77.1949029
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58908005,
+                                "lng": 77.19493540000002
+                            },
+                            "southwest": {
+                                "lat": 28.58902705,
+                                "lng": 77.19480539999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a748b16b8e35f5d0c2fa1314143e6ca14d7d5906",
+                    "name": "Yashwant Place Bpcl Pump",
+                    "place_id": "ChIJUWJee53iDDkRyUHeqluHfX0",
+                    "reference": "CnRrAAAAarnEx0kDN01dwZsM4Nd6dFdU8QIXptAyhekBGuilYaOlyiMch77bpGD0rdasUTk_LR1w3HOI2NurcFwyxqYNch5bJqlPJlKPDREKgLathuAv915AXgAD9JKpUECzjtIivsHDZaUJinfgy7Ytov7mixIQKi__PG5MgTrFCGpLHU6OkBoU0C5riuJL4SW3beYER7ZdZ0yIpgM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vinay Marg, Chanakyapuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5647272,
+                            "lng": 77.1670637
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b42f02b6102e03ad8b3be11aa28222d58af7cd55",
+                    "name": "BPCL Company operated Petrol and Diesel station",
+                    "place_id": "ChIJx9cwmKMdDTkRwz_KIRUJbZg",
+                    "reference": "CpQBhAAAAIPGN4tLgqD9uM56_Y90qVoJNwTmCzm0TGH22i9EtXlWvQaffDpwRlqgePsqgg8r8UpA6gvvAPc829kWn8Keh2-z3pr-MWFUrsl1Y90FajRBMI_Tbn5qOA4-8MfTpf6X8VQN20jykS0bCmwh4Fh_drSBdH1l9VdOa29sT2AB37SZfaNfCPlz1tD6JBhE8g_IsRIQbg6oBiFI1PhxVhQdkZIr1RoUVem3tDFS3HBxYj6jIWZqHrrbLE8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Marg, Vasant Vihar, South West Delhi, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

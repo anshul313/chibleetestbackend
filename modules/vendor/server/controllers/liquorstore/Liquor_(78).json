@@ -1,0 +1,65 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.565949,
+                            "lng": 77.199303
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56632715,
+                                "lng": 77.20024034999999
+                            },
+                            "southwest": {
+                                "lat": 28.56582295,
+                                "lng": 77.19899054999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "386946d3f0cff366f982fe343289642fe0af5d98",
+                    "name": "Govt. Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJZce8k3niDDkRQ-PY9Jh7sI4",
+                    "reference": "CnRqAAAA63UTkgMwLCb-riG9P2w4dswZ6tvi5INThyYMLNVYvkOIvIwLEES1FNQK9fUiAOnIR5ChG-odgv32FoV7WXAVhiIMhTP3vH2kVASJrBj0R69D7m3IcSCRfpJ7FvV6uCYN7C3nwMvKHmHeOiBr3O-CKxIQloR_Y_SLev8iEKeCn0wg4RoUgA6DJWK3GZyaGNXMwuEk50hF7QI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "AB-8, Safdarjung Enclave, Chaudhary Harsukh Marg, Block A 1, Nauroji Nagar, Safdarjung Enclave, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

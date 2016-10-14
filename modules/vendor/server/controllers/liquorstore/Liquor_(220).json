@@ -1,0 +1,600 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612399,
+                            "lng": 76.9919481
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61255574999999,
+                                "lng": 76.9919532
+                            },
+                            "southwest": {
+                                "lat": 28.61234675,
+                                "lng": 76.99193280000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cfd5bb67e503919fb4854f98d0f5e6c914a3527e",
+                    "name": "Liquor & Beer Shop",
+                    "place_id": "ChIJAVhUF-YPDTkRtNg6EWhdZvw",
+                    "reference": "CnRmAAAAYPZXD_l98ryudm8OPGMrnRl6OdbtBOiMCTpG7zATqDpVKy7hqaHV62OiVT3T-xgxa_ihTrCU-Bhnze5ywKOHpL7yBiGZx8aKZnRkyeeQrtFl0H7ssa6B3NMJ91-2zRSHcFERIB7SAHakR8c3jA7VQhIQK1PPSEIQc-ltcJsjPiilgRoUy8jQTxwTxuPV8_g0ErdtPOzhkss",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6203963,
+                            "lng": 77.03988559999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c65eb3cf9e3b30bbfa84976279099aba63de5347",
+                    "name": "Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6VMKjoFDTkRMXhJRsC_6hU",
+                    "reference": "CnRjAAAA9gdfdEWp5HfOHXznKgM-8rnqajZIxThVkj5dQuMNLfBs6Ha7uoCmVAQKnXoJ80Xbsh7umsqsKlMztMxCrmsvXb7Rz45dQQ9Pm6aecx5v3JJCYTW5A1i3Z9RN3WgPdrGXPXcb9Qt0C3_yuVMgyDu14xIQ4_naG5qiSFUyq1Nod9FCAhoUeqHe4dpI_CEfqSwuGPESlc9Tqac",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-5/II, Mohan Garden, Dwarka More, Main Najafgarh Road, Rama Park, Nawada, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612399,
+                            "lng": 76.9919481
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61255574999999,
+                                "lng": 76.9919532
+                            },
+                            "southwest": {
+                                "lat": 28.61234675,
+                                "lng": 76.99193280000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cfd5bb67e503919fb4854f98d0f5e6c914a3527e",
+                    "name": "Liquor & Beer Shop",
+                    "place_id": "ChIJAVhUF-YPDTkRtNg6EWhdZvw",
+                    "reference": "CnRmAAAA9Ts9Ncp6QpdHaCVaOc_tW4D_w0TIw4F6L1tiUHt4MRKo_EkaiDSZKhaxxrhe0oBZrhNnDc9H99pYCXOOc4N8U9rBUMQf7jRuB1CYC-qTsL-BWGSO0D35jLUlO9zs4nF6bnldRgCvvA-3qg1pOrBLWBIQD1iFWXVFn4MV9XlxuROJiRoU_wkW7WB6WY7v1Hdt1ENjFg4zHbA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6203963,
+                            "lng": 77.03988559999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c65eb3cf9e3b30bbfa84976279099aba63de5347",
+                    "name": "Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6VMKjoFDTkRMXhJRsC_6hU",
+                    "reference": "CnRjAAAAQHIkuiJSqgBP09emaXZ9E1cE7SMhDkgV65sVqRufyr2WCxW5gOuGqsvnQeHys1PyqiVmttr4vkKXixM-J87j0pIXxsplfeFwUWWaeh1AODnH62XRM5XRLeV5xn0oDkeFhl2UfzEW7iz5SjeIcTj2nBIQs8BeRKfQ28_TsOBOKJmXkRoUR55N-vIckptWYivM-YrXZvdlY3o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-5/II, Mohan Garden, Dwarka More, Main Najafgarh Road, Rama Park, Nawada, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6159086,
+                            "lng": 76.98287119999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61601635,
+                                "lng": 76.98294024999998
+                            },
+                            "southwest": {
+                                "lat": 28.61585694999999,
+                                "lng": 76.98272925000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f364bfbad3c664d1d9d39c81f9032f7187a8ec7",
+                    "name": "Liquor Shop",
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116799044655177587669/photos\">Vikram Saini</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIsNJFLf_oM8KsREE5Xi7AdKT-7baD34mKsbfnAdy_y3uFurSvsp_zEyyxgZEqb5MFXtU1QoCM6lRVeO0na4ASnmM7fCo3nznpTlSYeFmqZmLthc14QAG1_A5CnSZBcboDianNlqNeja5RzPn8bbI5R2oFcHWp1bdkz8avCtqK1xEhD6NzvXFt7wJ36Eh3rxPN8LGhRRsijKJUdm249Z6ZBMDaIDuo1khA",
+                            "width": 1024
+                        }
+                    ],
+                    "place_id": "ChIJY2KQl8MPDTkRvWC5LNBVPyI",
+                    "reference": "CmReAAAAcQdD1Er1kt-1jIufoJ_5CRczLxS25Gd3mS5K2gFPwxnn6fh2C8DjcEpz-zQK9YjhaMtjwXPGDkwBaHyfaI02TpYmdH1ViAYSXEJUsKlpv54S33libniHrzjRYQp42CVkEhCWrXYQpDB1R-7NuUXa8_bzGhSKTuNsd9kveodW6r8ohx3krpR2XQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Najafgarh-Nangloi Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6009238,
+                            "lng": 77.0264675
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6072464a4f2f854ce063bf488d380489acee033e",
+                    "name": "Wine and Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ74pblLMaDTkRyJ8aBmrflAo",
+                    "reference": "CnRlAAAACqMuO2swZQ7A_zPwz4UNGihr-UTDd12iqvdazp9ngH0EW1fvzNqlHt9tWD1gF-D5NvfVQFqnnZQohxd3iVu5g6qmnCvKhv3lDJvYsDqJvLuwbqjCF-etjVkVbcAPFzASZLOYMNiA69zWNYfAAdjraxIQ_iXv8QiqadMzbfMXRGts4xoUU9pJp0yhVqbbsq7z_gXr2TAJobA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Eros Metro Mall, Sector 14 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.613716,
+                            "lng": 76.979901
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fc911624f4c9f6326a14495e5a2c35df3c3af898",
+                    "name": "English Wine",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBXmO68QPDTkR27rTm9wwNck",
+                    "reference": "CmRgAAAALIJ5DJTMazITtabKulphesfmvp9D5aEWSFr1yAvPBP-GyQXF_jaKviqSr0BZlDuKBxnvnn3elZIeemLXrXgYoxEaZlsCFFPpISO499BzJTDdARMjY9e3Fr-7y8JXEInMEhASutrS7MyZBc1NCAO1GnxyGhTSHnE1tnsn_9CTQwSQauKgXZ6noQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nangloi Road, Lokesh Park, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.620524,
+                            "lng": 77.048305
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "902776dfaadb3ff34a1b1f88191509e71610ab3a",
+                    "name": "English and Wine Shop",
+                    "place_id": "ChIJO95PpCUFDTkRH4O8VCwjbYY",
+                    "reference": "CnRpAAAAz9yLp8aoLl9mANQxdRj-_xF2dMvCoGivrO91V4pNKis2U_E9AjZL7g5--TUwzmATRKSHADbrGEYaGW5a9uWcsxU4FmDKxugLLVcWivcvytr7dnd1A8mr4O2f0mnUlyI_KgZHMiQdAHV9X-T19yIY0BIQ_OSu2NcHI3qvPIknk87f_RoUyopFxBcHRHfkGAXHhVB_rRTPYpI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-2, N.G. Road, Kiran Garden, Uttam Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6007182,
+                            "lng": 77.02662579999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "53a4e015fa9890990b21f570eb02b6e79ac3410f",
+                    "name": "Wine And Bear Shop",
+                    "place_id": "ChIJX3iy7LMaDTkRZMKg8PuhdZ8",
+                    "reference": "CnRmAAAAVKz_cRGYNvSW9EhZWJcInRmWrX_n3p3wx1mVoRXY-E3mLxkXc9CNtWZxa-rwYLWs-YyzDQyKciSR9sj4FKlBYQ-5i2ir1c0xrtr1nLyXMKb2BgRhybU43UpCBGJ7I-aNrkDdd8-RXuI13NSWa9aBeRIQc9-uomZX8X-UNdm1ioeL6RoUdqBND_dMyzMmB-UWJ0zF3Ssia1I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pocket 1, Sector 14 Dwarka, Dwarka, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612399,
+                            "lng": 76.9919481
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61255574999999,
+                                "lng": 76.9919532
+                            },
+                            "southwest": {
+                                "lat": 28.61234675,
+                                "lng": 76.99193280000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cfd5bb67e503919fb4854f98d0f5e6c914a3527e",
+                    "name": "Liquor & Beer Shop",
+                    "place_id": "ChIJAVhUF-YPDTkRtNg6EWhdZvw",
+                    "reference": "CnRmAAAAgIZ9IesL524xG2GX7Fm1wDgwoM87PuzoxIWzO8gx524mkef1oxb7yjDdK4-jvQ6vTU5HbcUB09GJZ8dwpAuXBR1XtZpZG9d16efjSB6zHeozsVfmMd4iLtp7z7s8NnIva_vjc3F76JHGiWZDCDLqdhIQ_7pQ57gD8uHKxPhxQflEUhoUfGhH0crNtbibhTIpZUBlsH43YiE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivaji Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6203963,
+                            "lng": 77.03988559999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c65eb3cf9e3b30bbfa84976279099aba63de5347",
+                    "name": "Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6VMKjoFDTkRMXhJRsC_6hU",
+                    "reference": "CnRjAAAABeSdVIbrY5w4XLV6AyPlGe1eJox6xqo9swo7BJnJxgyuTAeveamwBzLf0c0Ayh0xKUQ-c71kUE0eCbI4SyUfAZQ94V1YdItONT-0HPv8TrOBeF_zh_vXBfPU8XcH2wuymJbDUnd6HmEm7ws8637mqxIQxE-qyd3K5Sl0nMPfCOG3BxoUNXGhBIKEeHhvq5R5-P5jfp8OIso",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-5/II, Mohan Garden, Dwarka More, Main Najafgarh Road, Rama Park, Nawada, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6159086,
+                            "lng": 76.98287119999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.61601635,
+                                "lng": 76.98294024999998
+                            },
+                            "southwest": {
+                                "lat": 28.61585694999999,
+                                "lng": 76.98272925000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f364bfbad3c664d1d9d39c81f9032f7187a8ec7",
+                    "name": "Liquor Shop",
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116799044655177587669/photos\">Vikram Saini</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAESFRAh7z0F8XcnnY4UasO78JHyMPlwhtIwVwr7jviMivJN7QN16r8CKxe2iJgcpJjWaqQfK0u786jjT_5kAHa826jF_XC0cXXTgte3W2tPDA6_Qooq78P2mIWPsR-mbLb7lBqyfqmzDJUDio6nrQJ5O7xOeJKMR-vnTfgLbZ17sEhAk4Jmf6S9PGntKX6W2K3rCGhThdqEjicca6GRmKqrtZI2ROVt2iQ",
+                            "width": 1024
+                        }
+                    ],
+                    "place_id": "ChIJY2KQl8MPDTkRvWC5LNBVPyI",
+                    "reference": "CmReAAAAxA84YOjnejeorebh5ZZf_b4ThO6R8OL07amUmqNea_0lpVp2vDi3KiKP6rcmY94euakA8AzqV0Hoh6oVRWF-_Gx6BgVmQcrqjU0XQINy8IfW6QkVTELM4mhPnofCTqVYEhC27fkK73PAqq7uAyNtcVLgGhQBwRBJEH299CNufyr8kwHlEyvkwQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Najafgarh-Nangloi Road, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6009238,
+                            "lng": 77.0264675
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6072464a4f2f854ce063bf488d380489acee033e",
+                    "name": "Wine and Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ74pblLMaDTkRyJ8aBmrflAo",
+                    "reference": "CnRlAAAAOJHbOwol0UhSNShHeGLcb7jeHus9Ii97m2U9e7b_fr84Lozm95zUogvJSzrysNxobU5V19cB_XMJmuAAe86MoUsijwFg1pL5HOnRp65lQ063rv1x4jncGKhibb5KjspvNKgAeH5Ex3jxn7FFUKAnUxIQzXCHnuL77BdREpERW3VkFRoUyCSZzLnky62TRfTpQXID2c_rnQs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Eros Metro Mall, Sector 14 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.613716,
+                            "lng": 76.979901
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fc911624f4c9f6326a14495e5a2c35df3c3af898",
+                    "name": "English Wine",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBXmO68QPDTkR27rTm9wwNck",
+                    "reference": "CmRgAAAA90fmu5ek31cydwJ8yrN-jrmv4zQaEhxW04PMgkJ5aNTs_w_SjEKQj1lQWHfCncHkrQ0vjDO2KKLWHUwHduRLX_P-Xh8j_KJQ4CJrbmrbw3csh0jguEmZg1eEYaJ6pZcGEhCWUHqcHQwiDQHkmkdc6KJPGhTJBA7qHAkdxKb-Cu7QyLJHWtR3dQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nangloi Road, Lokesh Park, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.620524,
+                            "lng": 77.048305
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "902776dfaadb3ff34a1b1f88191509e71610ab3a",
+                    "name": "English and Wine Shop",
+                    "place_id": "ChIJO95PpCUFDTkRH4O8VCwjbYY",
+                    "reference": "CnRpAAAA3GQBJM3C1_9wU6dyz73d7fisYwLvDwVQEFt-8-C7G1Kb4tqIPQpdAtRlNrG3bvNEFZe6Dvx9bNTHf2YyhTHXAA7I8ke-5BoOTXmx9oE6QlbbD5C1zT0zY8Oofa3kB-yg3Zk4_l0EcNb3ackDVgytExIQ_S66OUenpSHX6fuI_CDE5xoUB_bFX3r87P8Kr4s034724N0TDXE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-2, N.G. Road, Kiran Garden, Uttam Nagar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.596662,
+                            "lng": 77.036035
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cdb55102fd2cf41177f377e3d576b23bdedf1444",
+                    "name": "Wine & Beer",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJd6VnV8gaDTkRhAzMSFG0MBs",
+                    "reference": "CmReAAAAsGDbQ8C34iqfQOCjFzEMEoDQwW_CesPuqe1ExzOutfFj76Ec5vzyz0zq_kSFFRPyF8fU1bIL2YWpZFEp6r2HnjhOF0-UjVwCqvb4sB2Vby7EuurrOqUnxFpTY9bXB8YREhDaX9IFFAttFHwpEa2H7Yy9GhTC3V7wZWl951MxKW3xzbKbdQlXTw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No.- , Sool City Mall, Sector-13, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5927154,
+                            "lng": 76.992496
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3ae9370f83719bf1de4946e2ff479892119b571b",
+                    "name": "Desi Liquor & Beer Shop",
+                    "place_id": "ChIJPUeXhBkQDTkRBYyRm30BGrU",
+                    "reference": "CnRrAAAAP3fH2H_grAEY8t0iyzggW3z6jwWf8RqAxPiacP873AjHmWGTPe_mE3YrvlnvqFDv529W5mNfZTt8qMsydtwldk3gJFJ2A6qF8WXYYMH60xCxsb454H13mdOnsK6SQ5wL8r3K7bpFYzn2eWs-GYXbPBIQTsoUfECMIXx5DvXXs-_lkRoU8kPBsqEWc7N2Lf-Pzutrje1XkXo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Radha Swami Satsang Ashram, Deenpur, Dindarpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.589084,
+                            "lng": 76.994072
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58909754999999,
+                                "lng": 76.9941348
+                            },
+                            "southwest": {
+                                "lat": 28.58904335,
+                                "lng": 76.9938836
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6f022b46fa457316e04315f7cf8882d2a72d7bbe",
+                    "name": "Govt. English Wine",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpxLsuBAQDTkRwcnLUUpsAD0",
+                    "reference": "CnRlAAAA1202EPkAq_xxI6mdYw5J9dVw1cKvZeutChIUl1lRT8TxRiETpaKBDCE99dSZ0FxjwVQM7WP8Oz3ZsCf0LyOV-LDYamdDk_VhXHktthZ6k4X0D2wsUPo2ZqvzFUDxyUHcfKO-ux_cEeW7Eppr8QzR-hIQsW4mnpLq9umkgAyQlK325RoU1mwAbWaWrfRkTs8rp8_gzZoMSFw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Najafgarh Kapashera Road, Deenpur, Surya Vihar, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5888268,
+                            "lng": 76.99411599999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58884415,
+                                "lng": 76.99419275
+                            },
+                            "southwest": {
+                                "lat": 28.58881275,
+                                "lng": 76.99405374999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "79c3889ef94d702136c4a9b539765f94533f1c0c",
+                    "name": "Wine And Beer Shop",
+                    "photos": [
+                        {
+                            "height": 4096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116505101326556946039/photos\">V S Shekhawat</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAABkTa5RjFJWjJWUmSvVmIRdKHpuvGluxlsmr8F3Vc92h_vS6RbB50MdtDxbsjYaIhXMfbitaMIxaWdFUCerr64MZJIK5SmYPbRKVYSCANyHwjTn66QP8celM_Dx324HCvcrQxqbyoKUYOdKJp4X21cF_-dqjGCOJ8mOu-fxpBtNEEhAmVScLpaIdwrJrzK-6tExoGhQDbTMOLSD42GB_IynnQ_7g-bWjZQ",
+                            "width": 3072
+                        }
+                    ],
+                    "place_id": "ChIJR-QjxxAQDTkRtA-S1GqQ7-A",
+                    "reference": "CnRmAAAAQdkgjvbuwnCdGwCDAqPrwxQQmceS2y4ZqmmRZy5BEz8A5nFkoN0zzgCr8-yVWECl9cF17AOdz3G2800DjDjre7q8q_oVwtXyl70VICj3EmF6tgk1cIElAUknbtOiFqqDJ8_Y87fS0JHbgry-MzAVTBIQrowFmDUWq_B19p5zt2cWXBoUtO3goq3ZcC1DjS6x3-BOj4VfUlk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "247, Najafgarh Kapashera Road, Deenpur, Surya Vihar, Najafgarh, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6007182,
+                            "lng": 77.02662579999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "53a4e015fa9890990b21f570eb02b6e79ac3410f",
+                    "name": "Wine And Bear Shop",
+                    "place_id": "ChIJX3iy7LMaDTkRZMKg8PuhdZ8",
+                    "reference": "CnRmAAAArCWt0YdaunAnjB0C718qdt-vrNoDHb8v2Pa_xAYX5X0Dl7BuXp6e0_2xQcx4gneMJDIQKqFWOJWb_htNUQjShvlVAodd_Zrb-HKm9IJoZaVyaWAwHQ8PNMCTR4YVTX5K3rEu-XxypMjnnGfyeHI-FBIQ4mOcI0fbYpomFTesYAtfjBoU5jNr1jCp1cETSw3IKuPCtAGRg10",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pocket 1, Sector 14 Dwarka, Dwarka, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

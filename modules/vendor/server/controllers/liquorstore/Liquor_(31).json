@@ -1,0 +1,52 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63971399999999,
+                            "lng": 77.074928
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "52238bc697e295faa83fa2743fe5e0f631c78c86",
+                    "name": "Wine & Bear Shop",
+                    "place_id": "ChIJF4GXFewEDTkR07B_7dofaPs",
+                    "reference": "CnRkAAAAr9rGB1Db-04YXyEliAhlX_m2HLsTG9_-ynwn5e40tc4l6gzDfVLLeE9xX-ljQjtH5RWvr4oWEpgTgvtqlkd52LXUi8Zu8Cu9ivuD7rxBBR0xai2tKMiYpkxQ6m40jnK997WFatNcha2yN-KZHTjYBBIQiW64dtsNh8gfC0ppKzioFxoUxpndre6__QdkCjhemd4FKsnzLpo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vikaspuri, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
