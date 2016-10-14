@@ -479,7 +479,7 @@ exports.addvendor = function(req, res) {
               saveTime: new Date().getTime(),
               multiTime: true,
               others: '-',
-              tags: 'petrol, diesel, gas, air filling station, pollution check'
+              tags: 'petrol, diesel, gas, air filling station, pollution checking',
               coords: coordinate,
               homeDelivery: false,
               remarks: '-',
