@@ -353,7 +353,7 @@ exports.addvendor = function(req, res) {
     //   console.log(data.length);
 
     var stream = fs.createReadStream(path.resolve(__dirname,
-        'liquorstore/liquor_(' + k +
+        'liquorstore/Liquor_(' + k +
         ').json'), {
         encoding: 'utf8'
       }),
