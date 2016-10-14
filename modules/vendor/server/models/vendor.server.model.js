@@ -70,6 +70,9 @@ var contactCallSchema = new Schema({
 });
 
 var vendorSchema = new Schema({
+  serialnumber: {
+    type: String
+  },
   name: {
     type: String
   },

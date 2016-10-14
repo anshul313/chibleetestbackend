@@ -333,24 +333,32 @@ exports.addvendor = function(req, res) {
 
   // for (var k = 0; k < 1; k++) {
   //   console.log('K : ', k);
-  var fileStream = fs.createReadStream(
-    path.resolve(__dirname, 'data.json'), {
-      encoding: 'utf8'
-    });
-  fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
-    data) {
-    // console.log('printing one customer object read from file ::');
-    // console.log(data, "   : ", ++i);
-    this.pause();
-    processOneCustomer(data, this);
-    return data;
-  }), function end() {
-    console.log('stream reading ended');
-    this.emit('end');
-  });
+  // var fileStream = fs.createReadStream(
+  //   path.resolve(__dirname, 'data.json'), {
+  //     encoding: 'utf8'
+  //   });
+  // fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
+  //   data) {
+  //   // console.log('printing one customer object read from file ::');
+  //   // console.log(data, "   : ", ++i);
+  //   this.pause();
+  //   processOneCustomer(data, this);
+  //   return data;
+  // }), function end() {
+  //   console.log('stream reading ended');
+  //   this.emit('end');
+  // });
 
-  function processOneCustomer(data, es) {
-    console.log(data.length);
+  // function processOneCustomer(data, es) {
+  //   console.log(data.length);
+  var stream = fs.createReadStream(path.resolve(__dirname, 'final1.json'), {
+      encoding: 'utf8'
+    }),
+    parser = JSONStream.parse();
+
+  stream.pipe(parser);
+
+  parser.on('data', function(data) {
     for (i = 0; i < data.length; i++) {
       // console.log(data[i]['Name of vendor']);
       // console.log(data[i]['Contact']);
@@ -378,7 +386,7 @@ exports.addvendor = function(req, res) {
       coordinate.push(data[i]['Longitude']);
       coordinate.push(data[i]['Latitude']);
       var homeDelivery = false;
-      if (data[i]['Home Delivery?'] != "NO") {
+      if (data[i]['Home Delivery?'] != "No") {
         homeDelivery = true;
       }
       var bookmark = false;
@@ -394,6 +402,7 @@ exports.addvendor = function(req, res) {
       // var vendorContact = ;
 
       var vendorData = {
+        serialnumber: data[i]['S.No.'],
         name: data[i]['Name of vendor'],
         contact: data[i]['Contact'].toString(),
         category: data[i]['Category'],
@@ -414,12 +423,11 @@ exports.addvendor = function(req, res) {
         remarks: data[i]['Remarks'],
         shopNo: '',
         landMark: add,
-        status: 0
+        status: 1
       };
 
       var query = {
-        latitude: data[i]['Latitude'],
-        longitude: data[i]['Longitude']
+        serialnumber: data[i]['S.No.']
       };
 
       client.index({
@@ -479,7 +487,12 @@ exports.addvendor = function(req, res) {
       //     }
       //   }
     }
-  }
+  });
+  parser.on('end', function(item) {
+    console.log('data 1 : ', q);
+    console.log('end'); // whatever you will do with each JSON object
+    // data1.push(obj.address);
+  });
   // res.send('successfully insetred');
   // }
 }
@@ -1638,4 +1651,49 @@ exports.deleteVendor = function(req, res) {
       data: 'successfully removed'
     });
   });
+}
+
+exports.convertExcelToJson = function(req, res) {
+  console.log('here');
+  xlsxj({
+      input: path.resolve(__dirname, 'data1.xlsx'),
+      output: './output1.json'
+    },
+    function(err, result) {
+      if (err) {
+        console.error(err);
+      } else {
+        console.log(result);
+      }
+    });
+}
+
+
+exports.temp = function(req, res) {
+  var q = 0;
+  var data = {};
+  var data1 = [];
+
+  var JSONStream = require('JSONStream');
+
+  var stream = fs.createReadStream(path.resolve(__dirname, 'new.json'), {
+      encoding: 'utf8'
+    }),
+    parser = JSONStream.parse();
+
+  stream.pipe(parser);
+
+  parser.on('data', function(obj) {
+    console.log(obj); // whatever you will do with each JSON object
+    console.log(obj.length);
+    for (var i = 0; i < obj.length; i++)
+    // console.log('object[i] : ', obj[i]);
+      data1.push(obj[i].address);
+  });
+  parser.on('end', function(item) {
+    console.log('data 1 : ', data1);
+    console.log('end'); // whatever you will do with each JSON object
+    // data1.push(obj.address);
+  });
+  // console.log('data : ', data1);
 }
