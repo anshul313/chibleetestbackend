@@ -325,7 +325,7 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 5379;
+  var q = 0;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
@@ -351,7 +351,7 @@ exports.addvendor = function(req, res) {
 
   // function processOneCustomer(data, es) {
   //   console.log(data.length);
-  var stream = fs.createReadStream(path.resolve(__dirname, 'final4.json'), {
+  var stream = fs.createReadStream(path.resolve(__dirname, 'final1.json'), {
       encoding: 'utf8'
     }),
     parser = JSONStream.parse();
@@ -426,7 +426,7 @@ exports.addvendor = function(req, res) {
         shopNo: '',
         landMark: add,
         status: 1,
-        keyword: data[i]['TAGS']
+        keyword: data[i]['keyword']
       };
 
       var query = {
