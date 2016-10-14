@@ -331,7 +331,7 @@ exports.addvendor = function(req, res) {
   var JSONStream = require('JSONStream');
   var es = require('event-stream');
 
-  for (var k = 1; k < 100; k++) {
+  for (var k = 1; k < 50; k++) {
     // console.log('K : ', k);
     // var fileStream = fs.createReadStream(
     //   path.resolve(__dirname, 'data.json'), {
