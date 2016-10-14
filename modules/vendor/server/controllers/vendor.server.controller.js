@@ -325,13 +325,13 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 46180;
+  var q = 46311;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
   var es = require('event-stream');
 
-  for (var k = 300; k < 400; k++) {
+  for (var k = 1; k < 100; k++) {
     // console.log('K : ', k);
     // var fileStream = fs.createReadStream(
     //   path.resolve(__dirname, 'data.json'), {
@@ -352,7 +352,8 @@ exports.addvendor = function(req, res) {
     // function processOneCustomer(data, es) {
     //   console.log(data.length);
 
-    var stream = fs.createReadStream(path.resolve(__dirname, 'atm/atm_(' + k +
+    var stream = fs.createReadStream(path.resolve(__dirname,
+        'liquorstore/liquor_(' + k +
         ').json'), {
         encoding: 'utf8'
       }),
@@ -464,21 +465,21 @@ exports.addvendor = function(req, res) {
               serialnumber: data.result[0].results[j].place_id,
               name: data.result[0].results[j].name,
               contact: '-',
-              category: 'Owl',
-              subCategory: 'Atm',
+              category: 'Misc',
+              subCategory: 'Liquor Store',
               address: data.result[0].results[j].vicinity,
               area: area,
               latitude: data.result[0].results[j].geometry.location
                 .lat,
               longitude: data.result[0].results[j].geometry.location
                 .lng,
-              openingTiming: '24',
-              closingTiming: '0',
+              openingTiming: '10',
+              closingTiming: '10',
               imageUrl: data.result[0].results[j].icon,
               saveTime: new Date().getTime(),
               multiTime: true,
               others: '-',
-              tags: 'atm',
+              tags: 'beer, whiskey, wine , rum',
               coords: coordinate,
               homeDelivery: false,
               remarks: '-',
