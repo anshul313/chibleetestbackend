@@ -331,7 +331,7 @@ exports.addvendor = function(req, res) {
   var JSONStream = require('JSONStream');
   var es = require('event-stream');
 
-  for (var k = 300; k < 439; k++) {
+  for (var k = 0; k < 100; k++) {
     // console.log('K : ', k);
     // var fileStream = fs.createReadStream(
     //   path.resolve(__dirname, 'data.json'), {
@@ -353,7 +353,7 @@ exports.addvendor = function(req, res) {
     //   console.log(data.length);
 
     var stream = fs.createReadStream(path.resolve(__dirname,
-        'liquorstore/Liquor_(' + k +
+        'GasStation/gas_(' + k +
         ').json'), {
         encoding: 'utf8'
       }),
@@ -466,7 +466,7 @@ exports.addvendor = function(req, res) {
               name: data.result[0].results[j].name,
               contact: '-',
               category: 'Misc',
-              subCategory: 'Liquor Store',
+              subCategory: 'Petrol Pump',
               address: data.result[0].results[j].vicinity,
               area: area,
               latitude: data.result[0].results[j].geometry.location
@@ -479,7 +479,7 @@ exports.addvendor = function(req, res) {
               saveTime: new Date().getTime(),
               multiTime: true,
               others: '-',
-              tags: 'beer, whiskey, wine , rum',
+              tags: 'petrol, diesel, gas, air filling station, pollution check'
               coords: coordinate,
               homeDelivery: false,
               remarks: '-',
