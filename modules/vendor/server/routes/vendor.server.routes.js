@@ -38,8 +38,10 @@ module.exports = function(app) {
 
   app.route('/v2/addbookmark/:vendorId/:status').all(util.userAuthenticate)
     .get(vendors.addBookMark);
+
   // app.route('/v2/deletebookmark/:vendorId').all(util.userAuthenticate)
   //   .get(vendors.deleteBookMark);
+
   app.route('/v2/getbookmark/:page').all(util.userAuthenticate)
     .get(vendors.getBookMark);
 
@@ -67,6 +69,10 @@ module.exports = function(app) {
   app.route('/v2/deletevendor/:vendorId').all(util.userAuthenticate)
     .get(vendors.deleteVendor);
 
+  app.route('/v2/convertexceltojson')
+    .get(vendors.convertExcelToJson);
 
+  app.route('/v2/temp')
+    .get(vendors.temp);
 
 };

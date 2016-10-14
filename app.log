@@ -2966,3 +2966,811 @@ SyntaxError: missing ) after argument list
 
 2016-10-13T08:11:31.798Z - info: 127.0.0.1 - - [13/Oct/2016:08:11:31 +0000] "GET /v2/deletevendor/57fda79f3c097f7f166ffb4d HTTP/1.1" 200 45 "-" "PostmanRuntime/2.5.2"
 
+2016-10-13T10:29:51.680Z - info: 127.0.0.1 - - [13/Oct/2016:10:29:51 +0000] "GET /v2/getaddednewvendor HTTP/1.1" 200 27 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T10:31:05.772Z - error: uncaughtException: ENOENT: no such file or directory, open './1476354665725.jpg' date=Thu Oct 13 2016 16:01:05 GMT+0530 (IST), pid=7810, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146092032, heapTotal=114267232, heapUsed=89430256, loadavg=[3.05810546875, 2.45263671875, 2.279296875], uptime=79406
+Error: ENOENT: no such file or directory, open './1476354665725.jpg'
+    at Error (native)
+2016-10-13T10:31:05.816Z - error: uncaughtException: Can't set headers after they are sent. date=Thu Oct 13 2016 16:01:05 GMT+0530 (IST), pid=7810, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146264064, heapTotal=114267232, heapUsed=89648656, loadavg=[3.05810546875, 2.45263671875, 2.279296875], uptime=79406
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:344:11)
+    at ServerResponse.header (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:719:10)
+    at ServerResponse.send (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:164:12)
+    at ServerResponse.json (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/response.js:250:15)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1493:15
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Object.cb (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:1017:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-13T10:31:05.818Z - info: 127.0.0.1 - - [13/Oct/2016:10:31:05 +0000] "POST /v2/addnewvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T10:31:17.604Z - info: 127.0.0.1 - - [13/Oct/2016:10:31:17 +0000] "POST /v2/addnewvendor HTTP/1.1" 200 48 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T11:20:17.506Z - info: 127.0.0.1 - - [13/Oct/2016:11:20:17 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T11:21:12.287Z - info: 127.0.0.1 - - [13/Oct/2016:11:21:12 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T11:22:43.696Z - info: 127.0.0.1 - - [13/Oct/2016:11:22:43 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T11:23:37.877Z - error: uncaughtException: Unexpected token ) date=Thu Oct 13 2016 16:53:37 GMT+0530 (IST), pid=8156, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109883392, heapTotal=78577248, heapUsed=50119584, loadavg=[2.5654296875, 2.2705078125, 2.24609375], uptime=82558
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T11:23:48.733Z - info: 127.0.0.1 - - [13/Oct/2016:11:23:48 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:05:47.634Z - info: 127.0.0.1 - - [13/Oct/2016:16:05:47 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:07:10.522Z - info: 127.0.0.1 - - [13/Oct/2016:16:07:10 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:09:05.829Z - info: 127.0.0.1 - - [13/Oct/2016:16:09:05 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:09:25.670Z - info: 127.0.0.1 - - [13/Oct/2016:16:09:25 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:09:39.007Z - info: 127.0.0.1 - - [13/Oct/2016:16:09:39 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:20:06.261Z - error: uncaughtException: Unexpected token ) date=Thu Oct 13 2016 21:50:06 GMT+0530 (IST), pid=9374, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109580288, heapTotal=78577248, heapUsed=49995912, loadavg=[1.96533203125, 2.056640625, 2.08447265625], uptime=100346
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T16:20:12.367Z - error: uncaughtException: Unexpected token ) date=Thu Oct 13 2016 21:50:12 GMT+0530 (IST), pid=9377, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=110125056, heapTotal=78577248, heapUsed=50005280, loadavg=[1.8876953125, 2.0390625, 2.07763671875], uptime=100352
+SyntaxError: Unexpected token )
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T16:20:39.748Z - info: 127.0.0.1 - - [13/Oct/2016:16:20:39 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:20:58.300Z - info: 127.0.0.1 - - [13/Oct/2016:16:20:58 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:21:54.685Z - info: 127.0.0.1 - - [13/Oct/2016:16:21:54 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:24:00.003Z - info: 127.0.0.1 - - [13/Oct/2016:16:24:00 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:24:58.433Z - info: 127.0.0.1 - - [13/Oct/2016:16:24:58 +0000] "GET /v2/convertexceltojson HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:27:11.266Z - info: 127.0.0.1 - - [13/Oct/2016:16:27:11 +0000] "GET /v2/convertexceltojson HTTP/1.1" 302 35 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:27:11.320Z - info: 127.0.0.1 - - [13/Oct/2016:16:27:11 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/convertexceltojson" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:29:31.777Z - info: 127.0.0.1 - - [13/Oct/2016:16:29:31 +0000] "GET /v2/convertexceltojson HTTP/1.1" 302 35 "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:29:31.823Z - info: 127.0.0.1 - - [13/Oct/2016:16:29:31 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/convertexceltojson" "PostmanRuntime/2.5.2"
+
+2016-10-13T16:36:00.786Z - info: 127.0.0.1 - - [13/Oct/2016:16:36:00 +0000] "GET /v2/convertexceltojson HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T17:42:56.965Z - info: 127.0.0.1 - - [13/Oct/2016:17:42:56 +0000] "GET /v2/convertexceltojson HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T18:25:46.564Z - error: uncaughtException: Unexpected token * date=Thu Oct 13 2016 23:55:46 GMT+0530 (IST), pid=10200, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109981696, heapTotal=78577248, heapUsed=49980576, loadavg=[2.5517578125, 2.44189453125, 2.2939453125], uptime=107886
+SyntaxError: Unexpected token *
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T18:27:24.234Z - error: uncaughtException: Unexpected end of input date=Thu Oct 13 2016 23:57:24 GMT+0530 (IST), pid=10236, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141570048, heapTotal=111183456, heapUsed=84132472, loadavg=[2.99560546875, 2.64013671875, 2.38427734375], uptime=107984
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:28:51.284Z - error: uncaughtException: Unexpected end of input date=Thu Oct 13 2016 23:58:51 GMT+0530 (IST), pid=10261, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141668352, heapTotal=112215392, heapUsed=85021824, loadavg=[3.0556640625, 2.779296875, 2.4619140625], uptime=108071
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:30:14.602Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:00:14 GMT+0530 (IST), pid=10285, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142553088, heapTotal=112215392, heapUsed=82605232, loadavg=[2.62841796875, 2.74462890625, 2.478515625], uptime=108154
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:30:43.023Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:00:43 GMT+0530 (IST), pid=10323, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141303808, heapTotal=111183456, heapUsed=81731096, loadavg=[2.4873046875, 2.703125, 2.47265625], uptime=108183
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:32:27.662Z - error: uncaughtException: Unexpected token { date=Fri Oct 14 2016 00:02:27 GMT+0530 (IST), pid=10350, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108466176, heapTotal=77545312, heapUsed=52147264, loadavg=[1.974609375, 2.45947265625, 2.40185546875], uptime=108287
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T18:33:07.180Z - error: uncaughtException: Unexpected token { date=Fri Oct 14 2016 00:03:07 GMT+0530 (IST), pid=10359, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=110374912, heapTotal=78577248, heapUsed=50066184, loadavg=[1.75732421875, 2.35107421875, 2.36474609375], uptime=108328
+SyntaxError: Unexpected token {
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T18:33:48.289Z - error: uncaughtException: ENOENT: no such file or directory, open 'data.json' date=Fri Oct 14 2016 00:03:48 GMT+0530 (IST), pid=10368, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142966784, heapTotal=111183456, heapUsed=81781464, loadavg=[1.94091796875, 2.32177734375, 2.35107421875], uptime=108369
+Error: ENOENT: no such file or directory, open 'data.json'
+    at Error (native)
+2016-10-13T18:34:01.190Z - error: uncaughtException: ENOENT: no such file or directory, open './../../..data.json' date=Fri Oct 14 2016 00:04:01 GMT+0530 (IST), pid=10376, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141848576, heapTotal=111183456, heapUsed=81588136, loadavg=[2.6318359375, 2.45849609375, 2.39892578125], uptime=108382
+Error: ENOENT: no such file or directory, open './../../..data.json'
+    at Error (native)
+2016-10-13T18:34:14.793Z - error: uncaughtException: ENOENT: no such file or directory, open './../../../../data.json' date=Fri Oct 14 2016 00:04:14 GMT+0530 (IST), pid=10387, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141443072, heapTotal=111183456, heapUsed=81782672, loadavg=[2.275390625, 2.38671875, 2.3740234375], uptime=108395
+Error: ENOENT: no such file or directory, open './../../../../data.json'
+    at Error (native)
+2016-10-13T18:34:40.459Z - error: uncaughtException: ENOENT: no such file or directory, open './../../../data.json' date=Fri Oct 14 2016 00:04:40 GMT+0530 (IST), pid=10395, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141393920, heapTotal=111183456, heapUsed=81799952, loadavg=[2.1533203125, 2.35302734375, 2.36181640625], uptime=108421
+Error: ENOENT: no such file or directory, open './../../../data.json'
+    at Error (native)
+2016-10-13T18:34:50.149Z - error: uncaughtException: missing ) after argument list date=Fri Oct 14 2016 00:04:50 GMT+0530 (IST), pid=10403, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108466176, heapTotal=77545312, heapUsed=52140976, loadavg=[2.12255859375, 2.34033203125, 2.35693359375], uptime=108431
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T18:35:00.822Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:05:00 GMT+0530 (IST), pid=10406, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143687680, heapTotal=112215392, heapUsed=82537280, loadavg=[2.1767578125, 2.34521484375, 2.35791015625], uptime=108441
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:35:53.877Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:05:53 GMT+0530 (IST), pid=10414, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143540224, heapTotal=112215392, heapUsed=82595624, loadavg=[1.9697265625, 2.2587890625, 2.32275390625], uptime=108494
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1667:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:38:44.501Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:08:44 GMT+0530 (IST), pid=10450, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141795328, heapTotal=111183456, heapUsed=82029848, loadavg=[2.60693359375, 2.34375, 2.341796875], uptime=108665
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1669:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:40:00.639Z - error: uncaughtException: missing ) after argument list date=Fri Oct 14 2016 00:10:00 GMT+0530 (IST), pid=10473, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109371392, heapTotal=77545312, heapUsed=51998816, loadavg=[2.14501953125, 2.203125, 2.28271484375], uptime=108741
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T18:40:20.747Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:10:20 GMT+0530 (IST), pid=10491, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143101952, heapTotal=111183456, heapUsed=84636072, loadavg=[2.27587890625, 2.22314453125, 2.28662109375], uptime=108761
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1669:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:40:53.693Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:10:53 GMT+0530 (IST), pid=10520, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141791232, heapTotal=111183456, heapUsed=82210432, loadavg=[2.94189453125, 2.375, 2.33740234375], uptime=108794
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1669:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:43:08.393Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:13:08 GMT+0530 (IST), pid=10560, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141852672, heapTotal=111183456, heapUsed=82223760, loadavg=[3.28662109375, 2.57861328125, 2.41064453125], uptime=108929
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1669:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:44:15.406Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:14:15 GMT+0530 (IST), pid=10568, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141967360, heapTotal=111183456, heapUsed=82221424, loadavg=[2.38818359375, 2.45947265625, 2.37890625], uptime=108996
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1670:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:45:08.143Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:15:08 GMT+0530 (IST), pid=10588, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142725120, heapTotal=112215392, heapUsed=86585216, loadavg=[2.197265625, 2.39453125, 2.35791015625], uptime=109049
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1671:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:45:48.992Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:15:48 GMT+0530 (IST), pid=10604, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141389824, heapTotal=111183456, heapUsed=86546416, loadavg=[2.73046875, 2.5009765625, 2.39697265625], uptime=109089
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1671:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T18:47:48.972Z - info: 127.0.0.1 - - [13/Oct/2016:18:47:48 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T18:53:02.482Z - error: uncaughtException: EBADF: bad file descriptor, read date=Fri Oct 14 2016 00:23:02 GMT+0530 (IST), pid=10649, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140812288, heapTotal=111183456, heapUsed=83893672, loadavg=[2.22314453125, 2.5908203125, 2.47509765625], uptime=109523
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+2016-10-13T18:53:09.495Z - error: uncaughtException: EBADF: bad file descriptor, read date=Fri Oct 14 2016 00:23:09 GMT+0530 (IST), pid=10654, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143089664, heapTotal=112215392, heapUsed=84805560, loadavg=[2.205078125, 2.58056640625, 2.47216796875], uptime=109530
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+2016-10-13T18:59:37.047Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:29:37 GMT+0530 (IST), pid=10766, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142761984, heapTotal=112215392, heapUsed=82508600, loadavg=[2.1875, 2.330078125, 2.37060546875], uptime=109918
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1671:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:00:24.373Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:30:24 GMT+0530 (IST), pid=10783, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141135872, heapTotal=112215392, heapUsed=85549400, loadavg=[2.5302734375, 2.3798828125, 2.3837890625], uptime=109965
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1671:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:02:35.933Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:32:35 GMT+0530 (IST), pid=10833, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141537280, heapTotal=112215392, heapUsed=85574112, loadavg=[2.2197265625, 2.28515625, 2.337890625], uptime=110096
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1670:36)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:03:04.439Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:33:04 GMT+0530 (IST), pid=10847, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141127680, heapTotal=112215392, heapUsed=82236968, loadavg=[2.1201171875, 2.255859375, 2.32470703125], uptime=110125
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1670:36)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:03:28.967Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:33:28 GMT+0530 (IST), pid=10855, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140828672, heapTotal=111183456, heapUsed=84970744, loadavg=[1.9521484375, 2.20263671875, 2.30322265625], uptime=110149
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1670:36)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:03:50.952Z - info: 127.0.0.1 - - [13/Oct/2016:19:03:50 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:04:48.328Z - info: 127.0.0.1 - - [13/Oct/2016:19:04:48 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:06:30.516Z - error: uncaughtException: Unexpected token [ date=Fri Oct 14 2016 00:36:30 GMT+0530 (IST), pid=10941, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108158976, heapTotal=76513376, heapUsed=52155968, loadavg=[2.07763671875, 2.15478515625, 2.25830078125], uptime=110331
+SyntaxError: Unexpected token [
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T19:07:29.564Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:37:29 GMT+0530 (IST), pid=10955, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142745600, heapTotal=112215392, heapUsed=84651296, loadavg=[2.306640625, 2.2001953125, 2.2646484375], uptime=110390
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1670:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:11:02.467Z - error: uncaughtException: data.push is not a function date=Fri Oct 14 2016 00:41:02 GMT+0530 (IST), pid=11003, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143282176, heapTotal=112215392, heapUsed=85102072, loadavg=[1.89306640625, 2.26904296875, 2.29052734375], uptime=110603
+TypeError: data.push is not a function
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1673:10)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:14:38.734Z - info: 127.0.0.1 - - [13/Oct/2016:19:14:38 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:18:25.551Z - info: 127.0.0.1 - - [13/Oct/2016:19:18:25 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:19:15.717Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:49:15 GMT+0530 (IST), pid=11091, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139137024, heapTotal=111183456, heapUsed=89066064, loadavg=[2.2705078125, 2.14404296875, 2.18701171875], uptime=111096
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1672:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:21:07.384Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:51:07 GMT+0530 (IST), pid=11117, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140816384, heapTotal=111183456, heapUsed=85149240, loadavg=[2.5048828125, 2.1962890625, 2.1943359375], uptime=111208
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1672:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:23:29.027Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:53:29 GMT+0530 (IST), pid=11148, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141037568, heapTotal=111183456, heapUsed=81833168, loadavg=[2.52880859375, 2.30419921875, 2.2353515625], uptime=111350
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1672:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:24:46.748Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:54:46 GMT+0530 (IST), pid=11184, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142118912, heapTotal=111183456, heapUsed=82062920, loadavg=[2.90283203125, 2.39453125, 2.26953125], uptime=111427
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1672:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:25:32.594Z - error: uncaughtException: Unexpected end of input date=Fri Oct 14 2016 00:55:32 GMT+0530 (IST), pid=11194, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=138907648, heapTotal=111183456, heapUsed=89062488, loadavg=[2.4501953125, 2.35107421875, 2.2578125], uptime=111473
+SyntaxError: Unexpected end of input
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1673:34)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:29:09.521Z - error: uncaughtException: pleaseBeAJSObject is not defined date=Fri Oct 14 2016 00:59:09 GMT+0530 (IST), pid=11253, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140902400, heapTotal=111183456, heapUsed=84927824, loadavg=[1.85595703125, 2.166015625, 2.2001953125], uptime=111690
+ReferenceError: pleaseBeAJSObject is not defined
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1678:41)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T19:29:29.689Z - error: uncaughtException: Unexpected token o date=Fri Oct 14 2016 00:59:29 GMT+0530 (IST), pid=11261, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146817024, heapTotal=115119456, heapUsed=88205296, loadavg=[1.81591796875, 2.1376953125, 2.1884765625], uptime=111710
+SyntaxError: Unexpected token o
+    at Object.parse (native)
+    at ReadStream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1682:34)
+    at emitNone (events.js:72:20)
+    at ReadStream.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:921:12)
+    at nextTickCallbackWith2Args (node.js:442:9)
+    at process._tickDomainCallback (node.js:397:17)
+2016-10-13T19:36:01.466Z - info: 127.0.0.1 - - [13/Oct/2016:19:36:01 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:40:49.436Z - info: 127.0.0.1 - - [13/Oct/2016:19:40:49 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T19:42:46.174Z - error: uncaughtException: obj is not defined date=Fri Oct 14 2016 01:12:46 GMT+0530 (IST), pid=11446, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=206172160, heapTotal=170578528, heapUsed=143060168, loadavg=[1.59423828125, 1.9580078125, 2.06884765625], uptime=112507
+ReferenceError: obj is not defined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1709:17)
+    at emitNone (events.js:72:20)
+    at Stream.emit (events.js:166:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:34:23)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:28:12)
+    at _end (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:65:9)
+    at Stream.stream.end (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:74:5)
+    at ReadStream.onend (_stream_readable.js:498:10)
+    at ReadStream.g (events.js:260:16)
+    at emitNone (events.js:72:20)
+    at ReadStream.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:921:12)
+    at nextTickCallbackWith2Args (node.js:442:9)
+    at process._tickDomainCallback (node.js:397:17)
+2016-10-13T19:50:23.805Z - info: 127.0.0.1 - - [13/Oct/2016:19:50:23 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T20:38:48.389Z - error: uncaughtException: Invalid JSON (Unexpected "a" at position 30743 in state STOP) date=Fri Oct 14 2016 02:08:48 GMT+0530 (IST), pid=12287, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=50524160, heapTotal=112215392, heapUsed=87097344, loadavg=[2.83837890625, 2.4091796875, 2.2119140625], uptime=115868
+Error: Invalid JSON (Unexpected "a" at position 30743 in state STOP)
+    at Parser.proto.charError (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:78:16)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:104:23)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T20:40:48.266Z - info: 127.0.0.1 - - [13/Oct/2016:20:40:48 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T20:48:03.570Z - error: uncaughtException: Invalid JSON (Unexpected "a" at position 30743 in state STOP) date=Fri Oct 14 2016 02:18:03 GMT+0530 (IST), pid=12413, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143724544, heapTotal=112215392, heapUsed=84633040, loadavg=[1.876953125, 1.90380859375, 2.01318359375], uptime=116423
+Error: Invalid JSON (Unexpected "a" at position 30743 in state STOP)
+    at Parser.proto.charError (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:78:16)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:104:23)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T20:50:03.515Z - info: 127.0.0.1 - - [13/Oct/2016:20:50:03 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T20:51:53.915Z - error: uncaughtException: Invalid JSON (Unexpected "a" at position 30743 in state STOP) date=Fri Oct 14 2016 02:21:53 GMT+0530 (IST), pid=12467, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143114240, heapTotal=112215392, heapUsed=84684624, loadavg=[2.59423828125, 2.1728515625, 2.1015625], uptime=116653
+Error: Invalid JSON (Unexpected "a" at position 30743 in state STOP)
+    at Parser.proto.charError (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:78:16)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:104:23)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-13T20:56:23.789Z - info: 127.0.0.1 - - [13/Oct/2016:20:56:23 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T20:58:24.977Z - info: 127.0.0.1 - - [13/Oct/2016:20:58:24 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T21:00:28.793Z - error: uncaughtException: Unexpected identifier date=Fri Oct 14 2016 02:30:28 GMT+0530 (IST), pid=12628, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109338624, heapTotal=78577248, heapUsed=50347904, loadavg=[2.69287109375, 2.51708984375, 2.29541015625], uptime=117168
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T21:00:37.312Z - error: uncaughtException: Unexpected identifier date=Fri Oct 14 2016 02:30:37 GMT+0530 (IST), pid=12636, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108613632, heapTotal=77545312, heapUsed=52178752, loadavg=[2.73974609375, 2.53271484375, 2.30322265625], uptime=117177
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T21:00:43.746Z - error: uncaughtException: Unexpected identifier date=Fri Oct 14 2016 02:30:43 GMT+0530 (IST), pid=12645, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109748224, heapTotal=78577248, heapUsed=50139216, loadavg=[2.76025390625, 2.5400390625, 2.30712890625], uptime=117183
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T21:00:47.633Z - error: uncaughtException: Unexpected identifier date=Fri Oct 14 2016 02:30:47 GMT+0530 (IST), pid=12657, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109199360, heapTotal=78577248, heapUsed=50138984, loadavg=[2.859375, 2.56396484375, 2.31689453125], uptime=117187
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-13T21:04:09.510Z - info: 127.0.0.1 - - [13/Oct/2016:21:04:09 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-13T21:06:10.627Z - info: 127.0.0.1 - - [13/Oct/2016:21:06:10 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T01:27:21.713Z - info: 127.0.0.1 - - [14/Oct/2016:01:27:21 +0000] "GET /v2/convertexceltojson HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T01:42:39.390Z - info: 127.0.0.1 - - [14/Oct/2016:01:42:39 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T01:48:23.027Z - info: 127.0.0.1 - - [14/Oct/2016:01:48:23 +0000] "GET /v2/convertexceltojson HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T01:52:23.892Z - info: 127.0.0.1 - - [14/Oct/2016:01:52:23 +0000] "GET /v2/convertexceltojson HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:01:04.789Z - info: 127.0.0.1 - - [14/Oct/2016:02:01:04 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:23:38.704Z - error: uncaughtException: vendor.insert is not a function date=Fri Oct 14 2016 07:53:38 GMT+0530 (IST), pid=14650, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=400482304, heapTotal=364019808, heapUsed=333800616, loadavg=[2.896484375, 2.29345703125, 2.40234375], uptime=136560
+TypeError: vendor.insert is not a function
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:445:14)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:90:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T02:25:36.426Z - info: 127.0.0.1 - - [14/Oct/2016:02:25:36 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:26:49.992Z - error: uncaughtException: vendorData.save is not a function date=Fri Oct 14 2016 07:56:49 GMT+0530 (IST), pid=14717, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143040512, heapTotal=112215392, heapUsed=85174936, loadavg=[2.41259765625, 2.37548828125, 2.41259765625], uptime=136751
+TypeError: vendorData.save is not a function
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:445:18)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:90:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T02:28:23.655Z - info: 127.0.0.1 - - [14/Oct/2016:02:28:23 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:29:40.302Z - info: 127.0.0.1 - - [14/Oct/2016:02:29:40 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:32:54.687Z - info: 127.0.0.1 - - [14/Oct/2016:02:32:54 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:51:47.141Z - info: 127.0.0.1 - - [14/Oct/2016:02:51:47 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:54:30.892Z - info: 127.0.0.1 - - [14/Oct/2016:02:54:30 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T02:57:21.620Z - info: 127.0.0.1 - - [14/Oct/2016:02:57:21 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
