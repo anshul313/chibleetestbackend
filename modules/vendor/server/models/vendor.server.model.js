@@ -144,6 +144,9 @@ var vendorSchema = new Schema({
   },
   userId: {
     type: Schema.ObjectId
+  },
+  keyword: {
+    type: String
   }
 }, {
   strict: false
