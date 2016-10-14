@@ -325,13 +325,13 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 46100;
+  var q = 46180;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
   var es = require('event-stream');
 
-  for (var k = 250; k < 300; k++) {
+  for (var k = 300; k < 400; k++) {
     // console.log('K : ', k);
     // var fileStream = fs.createReadStream(
     //   path.resolve(__dirname, 'data.json'), {
