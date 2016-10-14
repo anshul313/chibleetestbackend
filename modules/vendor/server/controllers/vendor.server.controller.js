@@ -426,7 +426,7 @@ exports.addvendor = function(req, res) {
         shopNo: '',
         landMark: add,
         status: 1,
-        keyword: data[i]['keyword']
+        keyword: data[i]['Keywords']
       };
 
       var query = {
