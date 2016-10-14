@@ -325,7 +325,7 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 5379;
+  var q = 17606;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
@@ -351,7 +351,7 @@ exports.addvendor = function(req, res) {
 
   // function processOneCustomer(data, es) {
   //   console.log(data.length);
-  var stream = fs.createReadStream(path.resolve(__dirname, 'final4.json'), {
+  var stream = fs.createReadStream(path.resolve(__dirname, 'output1.json'), {
       encoding: 'utf8'
     }),
     parser = JSONStream.parse();
@@ -389,13 +389,15 @@ exports.addvendor = function(req, res) {
       if (data[i]['Home Delivery?'] != "No") {
         homeDelivery = true;
       }
-      var bookmark = false;
-      if (req.body.bookmark)
-        bookmark = req.body.bookmark;
 
-      var rating = 0;
-      if (req.body.rating)
-        rating = req.body.rating;
+      // var bookmark = false;
+      // if (req.body.bookmark)
+      //   bookmark = req.body.bookmark;
+      //
+      // var rating = 0;
+      // if (req.body.rating)
+      //   rating = req.body.rating;
+
       // var tag1 = data[i]['Others_raw'].split(",");
       // for (var i = 0; i < tags.length; i++)
       //   tags.push(tag1[i]);
@@ -423,7 +425,8 @@ exports.addvendor = function(req, res) {
         remarks: data[i]['Remarks'],
         shopNo: '',
         landMark: add,
-        status: 1
+        status: 1,
+        keyword: data[i]['TAGS']
       };
 
       var query = {
@@ -1656,8 +1659,8 @@ exports.deleteVendor = function(req, res) {
 exports.convertExcelToJson = function(req, res) {
   console.log('here');
   xlsxj({
-      input: path.resolve(__dirname, 'data1.xlsx'),
-      output: './output1.json'
+      input: path.resolve(__dirname, 'Rahul 6.xlsx'),
+      output: './output6.json'
     },
     function(err, result) {
       if (err) {
