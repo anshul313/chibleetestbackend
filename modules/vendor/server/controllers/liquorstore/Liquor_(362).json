@@ -1,0 +1,93 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.742234,
+                            "lng": 77.15073199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.74227404999999,
+                                "lng": 77.15078774999998
+                            },
+                            "southwest": {
+                                "lat": 28.74211385000001,
+                                "lng": 77.15056475000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "69e64ad83c9e4870bf814550c72206def755a90b",
+                    "name": "Govt. Wine & Beer Shop",
+                    "place_id": "ChIJaYOQz6cBDTkROgXUi9ko5BA",
+                    "reference": "CnRpAAAAVdszN8ezBsVH8utsd35GyTadlU5C6IjIUWXOotlTmA0D9d3bXtknnrtMt1w_XP1qYQFhaZU9Cic9AvYz7ZEw8J9SZYECTRTKwZmpGpTRizKuKWp0416juhv5R7dt-ZuxGZKCRQHAhgSjtd51hc9dHRIQw09SGeGn8qQ06fpTjRMWMBoUahmLmN92QTSnVa_UCUmBZIVaIn8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "L-6, Vend, CW-41, Bawana Road, Sanjay Gandhi Transport Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.742234,
+                            "lng": 77.15073199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.74227404999999,
+                                "lng": 77.15078774999998
+                            },
+                            "southwest": {
+                                "lat": 28.74211385000001,
+                                "lng": 77.15056475000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "69e64ad83c9e4870bf814550c72206def755a90b",
+                    "name": "Govt. Wine & Beer Shop",
+                    "place_id": "ChIJaYOQz6cBDTkROgXUi9ko5BA",
+                    "reference": "CnRpAAAAj_NIPnNG-cy5epmkM3ol-Ow_RLfAs5kqC5IQryz6V5fKN9DIuU6mqb4cTgMkX_MqaG-co5oMJ9ODGi48VLLmR3jO7dIP1mc0AX7NPzRN5n46hlwvgKbzXgu-aB7YAZoroeGRqeZtn9jDHL8EviENSxIQ1cerW63qOhz7AynaES_2LBoUUn3Itmn1e5zbyMEhaMMBegLYDBM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "L-6, Vend, CW-41, Bawana Road, Sanjay Gandhi Transport Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

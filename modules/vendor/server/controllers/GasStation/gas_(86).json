@@ -1,0 +1,336 @@
+{
+    "result": [
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5451285,
+                            "lng": 77.122
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dc2145a255cefea52ae97f90f59c3db550d5a664",
+                    "name": "Indian Oil & Cng Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/108064646027211210852/photos\">Rajarshi Banerjee</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAOXURAVE_Ig3r0W7BP3HJzZPNLEr9W_NM0jUNu0JEVDuxUFXwdbqYcMUCSemQ4iLjCGw_nHnmkPa1Z7vl-K7lRc4OHCcx5A5TuUJoBzbKmp-WyUp8xJ1Q9VxjOZO9oWBJ_oJAe9nfgXY987DR6Fppw3JUsJ57waVus0T_z4H2FYIEhDajM1UKYiCzOhcABAH-viNGhSmQr93TRw7XqhpoqMDcK9N3WlLSA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJDZcs0hQcDTkR_9ZEZMtSyUw",
+                    "reference": "CnRrAAAAzxjNQBkA8QosgPR0HxMc-CPW4LSq_f0N0B5oIUJGuurhWRwDwDpf802sYtZCYtSqxYUoX0LhqqnSgJ1K_iPt9yG39iyjpxSdtBEBGgvx3h0xJC28TsLMoc8wpsh4h4kL6VL5HIgicfCn7v1lkdZLmhIQhqUa5JOJzK2RZnMFHCd8exoU8Q2UUc29rJGMVfMQuRWo9FcdWrA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi-Gurgaon Expy, Block R, Mahipalpur Village, Mahipalpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5351423,
+                            "lng": 77.1430081
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6be6cb047b2040b6d27843df428f003eacaf7637",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJLQ__CS4cDTkR_sNkpEKeam0",
+                    "rating": 3.7,
+                    "reference": "CmRdAAAAbaKhjGz_QzzJ9NKB7yq8ijZOrVTGqfKo3aTn2UDoDTCJRRSGFA1Fsj2lmEURgscmTW5jw3uHBHagv9mn0Yewn-4l78ZJRbHDaH2ESMOAsr1Ho8vYBYLxdxziRH_EfH8CEhBNMpZsfD-8w3GZSv6IUULbGhSH36IezBu3wan7DlRKfLOYeUJ8-Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C8, Mehrauli Mahipalpur Road, Sector C, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5447706,
+                            "lng": 77.12147519999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5baba2d10a779a072f8311931d107fdcb7973c9f",
+                    "name": "Hindustan Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/108064646027211210852/photos\">Rajarshi Banerjee</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAAojEVbHH_AwV5URMY1K9FZvAtE4Pjyr6HqZij4Jx9jFG2DDso9hxMUirDA4gHTDHkWTJ_0FSUrnLU6Yo_Yv9DIFddkr0k_BJ14yJIrwxquaK6TLkeJa4upze7IJoFR6KDIOvx8RTRBLHAhvjF4XssxMtK23TqWToIVEHJriij0EhC7_yKI2pffEYMVwUbY7CuwGhQZFKAhvjYF3JlCUzJUFD_usqOfaA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJ60_-yBQcDTkRgcNkqQT7vbA",
+                    "reference": "CnRnAAAARHXP6eLecuRSxPM0MwTlm3jfmdCob5_Zj199KDRxADVoVWsCRjR3nowbYLPekf6x-a_fn-NuXDsnt4pac5EsV2SjpZKKcSbkICNiVUIdZNx5NZaQMFAkcGLD9yYpKYHvmjWh5ZxuItJV5kEJmlKM1hIQCYkKyIyyJpTW3LQhkorvYBoUCYE0yRG6v83jCJ2NQI-yR3vwWNg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi-Gurgaon Expressway, Block R, Mahipalpur Village, Mahipalpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5408813,
+                            "lng": 77.1539147
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c2e435bbde427121e3fb7ccdebe0b93b704afca0",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJayWsJswdDTkRMRDsuOybfrs",
+                    "reference": "CmReAAAA2f8v51erzyVEK4pMGN88GpYgLtoA23RM-GcrbFs1cwD0CgmKZ6QJ80yofr6E7xtfa_JX9XBBGwkHcJOC5oI_ps-_0am5MOcHO1l8befz6oEbCIF2G_HZZ0_2jvKEVPb1EhDeyOMs66zYijOT1G4YNpL7GhTbxHAUkQ1HtHlMaBQYhSmtmjeKpw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vasant Kunj II, Vasant Kunj, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5384589,
+                            "lng": 77.132607
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "caa2764a33753d05ddaf4ccfdac70df2bbfc2a28",
+                    "name": "CNG",
+                    "place_id": "ChIJ43E8mDscDTkR5BGDvEGZtp8",
+                    "rating": 4.3,
+                    "reference": "CmRXAAAAWYppeB2rIvp342N3t_GueahhQPxi3AF8iMzn2FUZXvV5_GHgLI_oFZJeZm-M4GzuL6XmsTs_NGKttoxu30mjjqFc0WW71Ws4yJ7d2Lug5-T32u-K1Sqk7ZDwuYoS2NGuEhCRiKj6_fgNVlmygEfOc_gfGhRgVbniui9QwlDoR9I0rssg62ZwsQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mehrauli Mahipalpur Road, Rangpuri, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.545056,
+                            "lng": 77.122006
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "edb9ef2db08fa8476eb4f54ee0ba15311b25691b",
+                    "name": "Sethi Petrol Pump & Cng Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJhZaK0RQcDTkRso0OZLh6SCE",
+                    "reference": "CoQBcgAAAGqxkXY_-zgE-0sKzq97bNq8PohvsKNgbAEZifKDgyC-vzpTEOSLNW6_l_lZAPh6eMmjvp5sYKeqetqgMyVFqWa-l6OHt8dQ-j-crHVu2R7skGXrN8bo-WofShz13B73154pVzJ7gIb8eio5h7wmc_VhpbOnbhx4kClJ4FwN3JUZEhCGC_SGKqiyHxrYaFK77ExrGhSjBfRwc17jgnmvVbZawtvQOCNfzA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi-Gurgaon Expressway, Block R, Mahipalpur Village, Mahipalpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.54485249999999,
+                            "lng": 77.1215753
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a5ee52823fb60d782d144dd6802ed3999a184453",
+                    "name": "Sethy Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJi4XWzhQcDTkRMOZKrSBPYTA",
+                    "reference": "CnRoAAAABvCEG500kivh2i2uwvP6w0TqfNOmnP9qjjrCRHzL_44A_wZtUAnr8EIkklpOmPy_zlZsrMK4gTQauWuZfL0wLCGSw3ETp4UOuhlWxbr1gGD0lz2CSaPCrAQQk6uHNzRAd9MN1Ee1xIgN12il0skGIBIQF0qTaPhxuZMM1jLhGcybXhoUtcM5vJeZMyqzHBIlDGlCktDv34w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Airport Hotel Breeze Inn, L Extension, NH-8, Mahipalpur-Rangpuri Road, Block R, Mahipalpur Village, Mahipalpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.544789,
+                            "lng": 77.12145819999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e520138e9c923e5f0328d29fcc94ce8fa00ce2c3",
+                    "name": "Anand Service Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTy_5yBQcDTkRKF9aNPiHRqs",
+                    "reference": "CnRpAAAA_4Dii90Zw2bmDwrSnMc-aHNngtO2D5R2ld1IJYpuZ9leXhUNoVmDOjIQ0tKbtOT19NrmfiSl1ZSKmqatPYs0wKFzgZAH4fqJWIuQoRqADlqG-kRuqLHLwOTo9F9ULI0Yq7o7X90FqXt0fCBZS0qx9xIQuib5GZEmwnsoVH1EGngMgxoUB3HauR68TcAYG6evqdVS0ms86g0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Delhi-Gurgaon Expressway, Block R, Mahipalpur Village, Mahipalpur, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5408969,
+                            "lng": 77.1539528
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e14d37305f3038b8ab78247d77b453d30ad3ec9f",
+                    "name": "RAM MURTEE FUELS - PETROL PUMP",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJp16hJswdDTkRs0AM3wxlUAk",
+                    "reference": "CoQBcQAAAISiAJhrfJXDTvf-yEF39IUuCo8B8Be78Y1s-UpGPblE96UBbgg0SVRg3i4_av472Eybijq8awaX3-g2x8XyfQv0iupqFITWTjg9VuBqALiOZk47YfNsyrFTbfcADm82cH9pE8_OadWHbWN7t0ey1XyMPhC2MAQP2_EVSGpb3PYqEhBZAzFi1TklxMbbhuw1IgJpGhQEWdDFKMw8h0FdM9plV1n_lCQ9-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vasant Kunj Shopping Mall, Vasant Kunj II, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5423198,
+                            "lng": 77.1185472
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "de2c5e1af39810fdd1dfdf466b40827ce07819b8",
+                    "name": "HIGHWAY SERVICE STATION - Auto LPG Station",
+                    "place_id": "ChIJQf28dRMcDTkR1KoIpvaEIEY",
+                    "reference": "CoQBfQAAAK_rsnq4jf6vR5rI4P1_eJ16hOnJAI5UDMPMAoBSIo4CWUxXHTeJwfPCun48QxKKIMFWivkdzGDuhy_e_hG1npnAfsgBwfIFHed5g9XJHzscfT6w1HXgOu7mZKktQBUDJhybCKaYZIv63uVid_6uwEONMIe85ijFi4CdJBbGeFxMEhC7UWk083ZzEuILM2O9b3tEGhS22VXiPsNS8bZl8rwaZdVXWtNjfA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Mahipalpur, South West Delhi, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5375423,
+                            "lng": 77.1532314
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "165b125ca62bd2dd9be92ad1ec15b94e0facfb8e",
+                    "name": "IGL CNG Pump Station",
+                    "place_id": "ChIJl_rC880dDTkRDHQLq2Wv8-0",
+                    "rating": 4.3,
+                    "reference": "CnRoAAAAuwhvppRf9k1LbJ4l-5jxnFb_klzdNxHzXVeYGPOsVAMAx-MtI3OOJ2eUSJgAu-Atf5ss_1Mcufd6vJmiRMR0BXvq49Phw8cCQx7E3ms-MOYrFUWc4Jlt0Ua9k7KHHnxNrv5EQymaGd6wYdx-3yI3sxIQCo4ddHBu1_1s6WtNDO-TfhoUPPTHxhveld47cZ2gdB2qL915F_E",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Pushpanjali, Nelson Mandela Road, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5377416,
+                            "lng": 77.1533925
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "40fd10af023bc27aee7c75cad9d083e215995d5f",
+                    "name": "Pushpanjali Gas Station",
+                    "photos": [
+                        {
+                            "height": 3096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105845943713034929063/photos\">mnu Kr</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACKmgOEhf-uGgO79Jh4iDG5sshvXyffCbOhsNmXj-nuD4_T8D4i6Jtx0YO0cRtzRrcEQW0LP-yVAItUI0Tfp81b-zaXACFeubMj41VEbjSApI42zAF9LlNMqf-f02IC1OSp8E6wu9Tlyd6dZaRX1Y7wxQKZ-ATOQqUNQCxb9LzYQEhCZe7omIagBTI3vF6qht3xeGhQboQDlnv1X8IkSuAWb36gBRRneIA",
+                            "width": 4128
+                        }
+                    ],
+                    "place_id": "ChIJOfwg8M0dDTkR8fBxafUOKa0",
+                    "rating": 4.5,
+                    "reference": "CnRrAAAAH5IAdR0XA5zoC5NNwxe0y56T_yj9UMX3uSC2-sPQfRd8EfcEDTx2tJXRb47nPVctNEbgUhHP6uoUmK16SMOyZesJEUbVcBsNuHkpextvXAuWlvTF-ihNfe8h1HQxMaF5ESScZ4qZmJ-BHl485g6ljBIQwc8lyuqAzzLBg4eZ46FMsxoUavEicwzy6HvCvOEuk6q77yn8r9A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vasant Kunj, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

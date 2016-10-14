@@ -1,0 +1,181 @@
+{
+    "result": [
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7298558,
+                            "lng": 77.09288699999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.73005529999999,
+                                "lng": 77.09306174999999
+                            },
+                            "southwest": {
+                                "lat": 28.72978930000001,
+                                "lng": 77.09282874999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+                    "id": "84d78bc9636e40921b7b88846f6f2c46b7eab1ec",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJoY3s7sgGDTkRLVHVz9rFNhk",
+                    "rating": 4,
+                    "reference": "CnRpAAAA-24xDoXL5JYhwLyDmwtNN-CdQO5YSDuC10Jk46l0X_knNvzjvof5XEzDWO_oHBZ3CKkHV7P89Lmb_lQNJWfV_xTgJKgY8rSrN5b_mvw9fgOTD9zsS9cli_NZqsG3AfJbUVc02d_ON-CUyjO86Eha6xIQzg0fHgriGEk770oYW-qq0RoUPqfS6BtHdp4l_AlqHHcpR4XADMA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pocket-28, Bhagawan Mahavir Marg, Sector-24, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7570616,
+                            "lng": 77.08966869999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "11facdc0ec27a7f9a8541d00430cdeb3eb28b640",
+                    "name": "Cng station",
+                    "place_id": "ChIJ5zkInyUHDTkR1faLoPMKeYU",
+                    "reference": "CmRfAAAA7giF0IyQ7k0CDjKp8XYgWQdo7IFR4LrnC9ir1I99IN6fQK9gnOwyF6laNIJZT8-4G1o5HYKMjDut8tu-PAR5Eyy-n4qfzBwQ_z8TVbFjcrGt0R_VYe98DlCDB-FRfvQPEhDZahNRBkQhNzM492onogf_GhSnWLbIuBNgaBIv3b-a8dN2RtqXiw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 30, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7510612,
+                            "lng": 77.058891
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3f1d028612481592e6b55c259e07d0fa69f4316b",
+                    "name": "Rhino Metro Statiom",
+                    "place_id": "ChIJKz7h0wAHDTkR-UoKngfdku4",
+                    "reference": "CnRnAAAA5B-S4GDhKwFsXaf9fBzDwxYEsLLhfWcn-R0rJHgGvZfXGAzgArl34qkGXbA1a7M5Z8ZVQDo_lZ2FLz3T0YF3jRtdLtK217cAp63dz7iQ6OZCU8CnL6BTJNxtBwzYoKmBlnGQPAYDplZkYUTIonk5nhIQC2OrB9t6holBDGfPUhLVqBoUXHv4XSGRrgRSF98rzg6rSwXPKQg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 36, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7628041,
+                            "lng": 77.0952943
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "72f4fd7963100b11b419ab2c2ae08781fdc15c0b",
+                    "name": "Cng station",
+                    "place_id": "ChIJL6WqojEHDTkRodrL55Xb_7Y",
+                    "reference": "CmRfAAAAg5d_fdcJRg09wOjOz_i-oX0IC6nwV-DUvJiU0QgZEbSxIMd1N4qyv1LJF-6nGtyMjPDyVK-NVhsqboQZ1Eri3qNsiHaCghYOi-rvwxRFgfZl9rJBb-yzCjG-JOVrbBfvEhBzB5y--NW0_9zKyuCPBlYgGhSVpwmlCycwSupYrB5OM5Cfbrcm9Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shri Gaurishankar Temple, 29, Prahlad Vihar, Sector 25, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.73327,
+                            "lng": 77.0911302
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2c5271c1a7ad238b4ef3621b2578534f06c704f1",
+                    "name": "CNG IGL",
+                    "photos": [
+                        {
+                            "height": 4096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105687160443035763834/photos\">Shivprashad Soni</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGI8FJaL0m4gIJnEVOzKZNZxLO10e1gXSFKgKoRG3Cqx0EewVgf8Qhkow1BpG0MHhRqAVTgKnCx_KeNe504sqL4ENnHFLYIp2pdd6qVMIPD4UbGxDCiRgct4Ku-dkfC7lLtvQG1lHzqKef8Nbt0MVCYL_vVUrva1P3Hi4XSluegVEhDTnWVPO8xi2IuPLdA5gYAlGhR3gS6QgbszNY0HoEdetxaQRa3s2Q",
+                            "width": 2304
+                        }
+                    ],
+                    "place_id": "ChIJoZelYc8GDTkRSf9GmSNWuJo",
+                    "rating": 4,
+                    "reference": "CmRbAAAAwZSQlXfR0z7jgRAEYT28u8SBX_RmqRPeOWyRSui32iPQY0Ax7OXtqSVTbYT_LCbNUQolHrx3zp8E-q9CtxaoLk6JdUFlJ3D9sERdoS6w5MVyi9Y39Opx_CXqxVax00GCEhCJjnIcoi44H4mdfDNU6sPVGhShfbkpa_uBD5qcTE6NxSuR3Ze6HA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 25, Rohini, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7618918,
+                            "lng": 77.09804020000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3cc98abc95934ae4a72a4dd1be2ff8bbb2e25dfd",
+                    "name": "Indraprastha CNG Station",
+                    "place_id": "ChIJ5QMHAzMHDTkRxtd7q0kwMBo",
+                    "rating": 4,
+                    "reference": "CnRrAAAAOWvla2r2bB4cGGU0AHOrn1Zb7TWmTTcEyCrANcFaaKBGLkKVb2QYMvH8aAICmrmZjYmC5w65cjc10EZNScwm3xaPVaW3HoFZLXKZnyyaAr5HTxPOzlZKYyh-UL8coLspODwwG9Pn69gBe3Eqq-yoZxIQ4cVfbG_-aTqQclVySrvsfxoUQ3eice5HnD12m_c-ZmcgPHwdjUc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 28, Rohini, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7051111,
+                            "lng": 77.30832509999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3e40dcb35ae772b6b974811733014ed979bb6a40",
+                    "name": "Wine Bear Shop",
+                    "place_id": "ChIJhylYIev7DDkRDKGCOC75_h0",
+                    "reference": "CnRhAAAA_xBfBF6fRdejGPrv3LqutgAox8_It_D5KITRvF8M3-IXyI8evx-vdJXr4TTFP79CoWF18UcZGzKjhF9P10OeR4oIdQnJkb5175p2tZzn7clUFjWUJ3GauW57c1UJ_AikEi72LxWfCbR7AMIyV80EfRIQkO4aCRl9IAtgj7cvRCakOBoUbX5sFVT9EE2AU1vD7rb7iMAdSPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sewadham Road, Saboli Extension, Village Mandoli, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7051111,
+                            "lng": 77.30832509999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3e40dcb35ae772b6b974811733014ed979bb6a40",
+                    "name": "Wine Bear Shop",
+                    "place_id": "ChIJhylYIev7DDkRDKGCOC75_h0",
+                    "reference": "CnRhAAAAp_FRpHIsTcEsfjWXOSTrnPpASEdsZW6e8Llh_7HYcawYTMjBmfJpYiYJ117x9MAPU2yiT044RZyfTYsCTTjZoXDTE8X9VPBYEGanrnlY5aZJJAlbfdl2dDyeVu6bsuN0cJ82AMa3G1gSiYOJvdR7oBIQ7lub2Q-cM-noaKt9XktZeRoUZB6uGq556OgRTDlqVioTOoOS1lQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sewadham Road, Saboli Extension, Village Mandoli, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

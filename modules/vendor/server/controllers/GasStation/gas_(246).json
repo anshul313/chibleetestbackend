@@ -1,0 +1,74 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7942545,
+                            "lng": 77.1395192
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.79425705,
+                                "lng": 77.139555
+                            },
+                            "southwest": {
+                                "lat": 28.79424685,
+                                "lng": 77.1394118
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "855f84e3d3b505d21810c2cf3aae98ab7e060ff9",
+                    "name": "Bharat Petroleum",
+                    "photos": [
+                        {
+                            "height": 1280,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111741485511178510112/photos\">AJENDRA SINGH</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHlfWLNp4MtdKfL_ML2ISaZQNeTEr863IB8CzJQwHRB25gG-njmmnPQpUUiH2VHv-KGrdUiiNIwa2mmuArgkZzA0jz_DdFjM6Q1jMcvrZMnNKj_7ixpj4ckZzi_Ur6mO3Dmcpv18zEBMWdKbLV5l-JFPMKX4vK4-DY7cZKwd2SQNEhAu7gZgl3CmrxEqj8L8Fqt1GhQjjnakmBroRXChYdUW7TjEYy7IEw",
+                            "width": 960
+                        }
+                    ],
+                    "place_id": "ChIJ1649HYMADTkRWc7t_KBUecg",
+                    "reference": "CnRkAAAA3sqczRpTbj4KBwUoA68StwUa2cY-CySHGLDVw2avU4I8ILjfA4S9FzVSDTvEReQX7IUwmkt1p1REb55fFQ8FWenLR-89vkR8A4MZp82Azpix7S9TszRng5G5SJlh0rlVN1ehDhbKyN0Uc9yxnzWWWBIQsrymMsa4EMOOi5Sg4Xfi7hoUBrBOEqeR2LrFdhMmkWzXgkPAMRY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "G.T Karnal Road, Grand Trunk Road, Alipur, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        },
+        {
+            "error_message": "You have exceeded your daily request quota for this API.",
+            "html_attributions": [],
+            "results": [],
+            "status": "OVER_QUERY_LIMIT"
+        }
+    ]
+}

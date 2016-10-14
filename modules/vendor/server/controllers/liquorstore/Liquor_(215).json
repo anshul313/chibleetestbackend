@@ -1,0 +1,96 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7051111,
+                            "lng": 77.30832509999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3e40dcb35ae772b6b974811733014ed979bb6a40",
+                    "name": "Wine Bear Shop",
+                    "place_id": "ChIJhylYIev7DDkRDKGCOC75_h0",
+                    "reference": "CnRhAAAARK2jKkGO1oZmhKXHLLdUrA4dsVHV9LNV2zaTobit096UTBaQv8jQsyiOniR-9kwVkzw-02E_HCyo7_cJXbWGcfwtykEayNsZ46RYlW7RAuXNiMuGjfd5WHeGkqYPmUW59frrtQlxs5eeNK3Kp4oNCRIQaLPp2WjHJyjr3x1zSgHJnhoUHAGlGSqZbxVZuZuCDQtWVuQFpq8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sewadham Road, Saboli Extension, Village Mandoli, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7051111,
+                            "lng": 77.30832509999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3e40dcb35ae772b6b974811733014ed979bb6a40",
+                    "name": "Wine Bear Shop",
+                    "place_id": "ChIJhylYIev7DDkRDKGCOC75_h0",
+                    "reference": "CnRhAAAAX8BmhrQ_ABXVuccYw3ft6vvwm0hBduiLmYsDWNupjyLgQpCgVTFdX3q5b09hAEmKi-EZVqtROZfds22Nl9JQyibdOXXroQbW_qIlHS5aS3CECOAzeTeYhjkHCiaftKmtmLsLkOZ3EicMK_u36_PIgBIQN7if4wkuDEUUNsqJ3_jtnBoUchGa49zx3ejLo-Tr__-ZEEfHgSM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sewadham Road, Saboli Extension, Village Mandoli, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.7196878,
+                            "lng": 77.2783068
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6ce855921e02012e998e2f8e70f1cec1c256518e",
+                    "name": "Shiv Vihar Theka",
+                    "place_id": "ChIJDeDcZgL8DDkR31MlcK0n9mQ",
+                    "reference": "CnRjAAAAkduVLWLIabOOfV7vK7pIkfzkB_vE4fRMTUNqu3t1Ba_Dgh0qf9S6p3m0Dc2bPgLPtLXlE5K1FHOUL_Qwrc-eZXVsLTmx1qCa9eyY2BpIwHZnj98Z-6Y2mKNIMCUE6cGOX4aq8iLLQZynCqrAVU535BIQScNL0k92r0rvXNZX_GrU4xoUd1CczMXPo_y0OrCpd-ZAq2ioJOM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mahalaxmi Vihar, Karawal Nagar, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

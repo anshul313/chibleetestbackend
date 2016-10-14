@@ -1,0 +1,83 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5101175,
+                            "lng": 77.1677121
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb3cc28b6fdf5a29e06d7586deb435b0f4e05a6a",
+                    "name": "Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJQb0QcWweDTkR6Qk-NP9xFT8",
+                    "reference": "CnRjAAAALc47t16x8-JSICgNoqcIElebSnH2CxvabwEryAf_HukgttirkIgtAGfmb-zQao7ZLvZuO98_Umw22cctegYyFy596HOX6ImctwEqPWcI4ezCuJHPN4rInl9s_g_ryXHlW3CZc5HQHN3UutcSls2IuBIQXt4mqzHUElrGkLM2QfujUhoUIHcPbbOw1Sq6l04O8KKfSOQ3qm0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vasant Kunj, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5101175,
+                            "lng": 77.1677121
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb3cc28b6fdf5a29e06d7586deb435b0f4e05a6a",
+                    "name": "Wine & Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJQb0QcWweDTkR6Qk-NP9xFT8",
+                    "reference": "CnRjAAAAl5XkJvrWJAuGrLMNpNoZ802VVNor-TIL9_Nc0rYQUWxUNsuFEHaVJH7V48tqgXVWXn0xR1udjiK8tK_P_MvV-dLb7UfmwYd1WI1yWTeNJzpktNAC0qQRleGnZZx9y3DGrX8Rtf81VdnuWxY0YhbhnhIQsiFP5JGuSF8uNnIZs9I5qBoUk3Pfk52VsmNnE4NfH1DRMnoOoCk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vasant Kunj, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

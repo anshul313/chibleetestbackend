@@ -4076,3 +4076,318 @@ SyntaxError: Unexpected token )
 
 2016-10-14T07:32:21.559Z - info: 127.0.0.1 - - [14/Oct/2016:07:32:21 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
 
+2016-10-14T10:06:57.583Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(0).json' date=Fri Oct 14 2016 15:36:57 GMT+0530 (IST), pid=19761, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=132440064, heapTotal=112215392, heapUsed=86021584, loadavg=[2.12890625, 2.16064453125, 2.05810546875], uptime=164358
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(0).json'
+    at Error (native)
+2016-10-14T10:07:18.672Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(0).json' date=Fri Oct 14 2016 15:37:18 GMT+0530 (IST), pid=19793, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141881344, heapTotal=112215392, heapUsed=85899168, loadavg=[2.078125, 2.14892578125, 2.05615234375], uptime=164379
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(0).json'
+    at Error (native)
+2016-10-14T10:07:57.628Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(0).json' date=Fri Oct 14 2016 15:37:57 GMT+0530 (IST), pid=19819, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141799424, heapTotal=112215392, heapUsed=85919192, loadavg=[1.8984375, 2.095703125, 2.04052734375], uptime=164418
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(0).json'
+    at Error (native)
+2016-10-14T10:08:16.312Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(1).json' date=Fri Oct 14 2016 15:38:16 GMT+0530 (IST), pid=19829, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142123008, heapTotal=112215392, heapUsed=85367624, loadavg=[1.7841796875, 2.05615234375, 2.02685546875], uptime=164437
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm_(1).json'
+    at Error (native)
+2016-10-14T10:13:58.381Z - error: uncaughtException: Cannot read property 'results' of undefined date=Fri Oct 14 2016 15:43:58 GMT+0530 (IST), pid=19919, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=149008384, heapTotal=116343136, heapUsed=87023416, loadavg=[2.14111328125, 2.2314453125, 2.11865234375], uptime=164779
+TypeError: Cannot read property 'results' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:441:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:14:35.158Z - error: uncaughtException: Cannot read property 'results' of undefined date=Fri Oct 14 2016 15:44:35 GMT+0530 (IST), pid=19935, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146165760, heapTotal=113247328, heapUsed=94444472, loadavg=[2.30908203125, 2.2666015625, 2.13525390625], uptime=164816
+TypeError: Cannot read property 'results' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:441:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:15:09.619Z - error: uncaughtException: Cannot read property 'results' of undefined date=Fri Oct 14 2016 15:45:09 GMT+0530 (IST), pid=19944, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148377600, heapTotal=116343136, heapUsed=87055712, loadavg=[2.9326171875, 2.43798828125, 2.20263671875], uptime=164850
+TypeError: Cannot read property 'results' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:441:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:16:59.968Z - error: uncaughtException: Cannot read property 'results' of undefined date=Fri Oct 14 2016 15:46:59 GMT+0530 (IST), pid=19980, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=149409792, heapTotal=116343136, heapUsed=87008552, loadavg=[2.1064453125, 2.3056640625, 2.17626953125], uptime=164960
+TypeError: Cannot read property 'results' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:441:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:17:30.165Z - error: uncaughtException: Cannot read property 'results' of undefined date=Fri Oct 14 2016 15:47:30 GMT+0530 (IST), pid=19989, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148299776, heapTotal=115311200, heapUsed=85924952, loadavg=[2.1669921875, 2.3056640625, 2.17919921875], uptime=164991
+TypeError: Cannot read property 'results' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:19:35.018Z - error: uncaughtException: Cannot read property 'result' of undefined date=Fri Oct 14 2016 15:49:35 GMT+0530 (IST), pid=20031, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=147365888, heapTotal=115311200, heapUsed=85903304, loadavg=[2.1298828125, 2.20703125, 2.15380859375], uptime=165116
+TypeError: Cannot read property 'result' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:20:03.231Z - error: uncaughtException: Cannot read property 'result' of undefined date=Fri Oct 14 2016 15:50:03 GMT+0530 (IST), pid=20040, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146223104, heapTotal=113247328, heapUsed=92773600, loadavg=[2.0615234375, 2.1875, 2.14892578125], uptime=165144
+TypeError: Cannot read property 'result' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:32)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:20:37.912Z - error: uncaughtException: Cannot read property 'undefined' of undefined date=Fri Oct 14 2016 15:50:37 GMT+0530 (IST), pid=20049, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148574208, heapTotal=116343136, heapUsed=87355240, loadavg=[2.044921875, 2.16552734375, 2.14208984375], uptime=165178
+TypeError: Cannot read property 'undefined' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:44)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:21:35.261Z - error: uncaughtException: Cannot read property 'undefined' of undefined date=Fri Oct 14 2016 15:51:35 GMT+0530 (IST), pid=20076, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148938752, heapTotal=116343136, heapUsed=89331696, loadavg=[2.5947265625, 2.37353515625, 2.22607421875], uptime=165236
+TypeError: Cannot read property 'undefined' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:44)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:23:35.139Z - info: 127.0.0.1 - - [14/Oct/2016:10:23:35 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:23:44.609Z - error: uncaughtException: Cannot read property 'place_id' of undefined date=Fri Oct 14 2016 15:53:44 GMT+0530 (IST), pid=20098, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=147636224, heapTotal=115311200, heapUsed=86855632, loadavg=[1.71533203125, 2.154296875, 2.1591796875], uptime=165365
+TypeError: Cannot read property 'place_id' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:50)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:25:47.598Z - error: uncaughtException: Cannot read property 'place_id' of undefined date=Fri Oct 14 2016 15:55:47 GMT+0530 (IST), pid=20122, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148762624, heapTotal=116343136, heapUsed=88094080, loadavg=[2.35498046875, 2.29345703125, 2.2138671875], uptime=165488
+TypeError: Cannot read property 'place_id' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:50)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:26:30.268Z - error: uncaughtException: Cannot read property 'result' of undefined date=Fri Oct 14 2016 15:56:30 GMT+0530 (IST), pid=20131, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=149450752, heapTotal=116343136, heapUsed=88157512, loadavg=[2.19189453125, 2.255859375, 2.2021484375], uptime=165531
+TypeError: Cannot read property 'result' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:458:38)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:27:59.478Z - error: uncaughtException: Cannot read property 'place_id' of undefined date=Fri Oct 14 2016 15:57:59 GMT+0530 (IST), pid=20148, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=150134784, heapTotal=116343136, heapUsed=88114416, loadavg=[2.5712890625, 2.337890625, 2.234375], uptime=165620
+TypeError: Cannot read property 'place_id' of undefined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:442:50)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:28:38.507Z - error: uncaughtException: coordinate is not defined date=Fri Oct 14 2016 15:58:38 GMT+0530 (IST), pid=20157, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=148852736, heapTotal=115311200, heapUsed=86904744, loadavg=[1.923828125, 2.21240234375, 2.193359375], uptime=165659
+ReferenceError: coordinate is not defined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:475:23)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:30:47.993Z - error: uncaughtException: add is not defined date=Fri Oct 14 2016 16:00:47 GMT+0530 (IST), pid=20180, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=149565440, heapTotal=116343136, heapUsed=88143048, loadavg=[2.2783203125, 2.28857421875, 2.22705078125], uptime=165788
+ReferenceError: add is not defined
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:486:25)
+    at emitOne (events.js:77:13)
+    at Stream.emit (events.js:169:7)
+    at drain (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:45:5)
+    at Parser.parser.onToken (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:108:18)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:88:34)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-14T10:33:36.200Z - info: 127.0.0.1 - - [14/Oct/2016:10:33:36 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:38:42.186Z - info: 127.0.0.1 - - [14/Oct/2016:10:38:42 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:42:25.313Z - info: 127.0.0.1 - - [14/Oct/2016:10:42:25 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:47:24.414Z - info: 127.0.0.1 - - [14/Oct/2016:10:47:24 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:50:07.225Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json' date=Fri Oct 14 2016 16:20:07 GMT+0530 (IST), pid=20432, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143548416, heapTotal=112215392, heapUsed=87788000, loadavg=[2.1171875, 3.0673828125, 2.970703125], uptime=166948
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json'
+    at Error (native)
+2016-10-14T10:52:07.155Z - info: 127.0.0.1 - - [14/Oct/2016:10:52:07 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:52:50.647Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json' date=Fri Oct 14 2016 16:22:50 GMT+0530 (IST), pid=20432, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=630845440, heapTotal=564239456, heapUsed=240711920, loadavg=[4.0927734375, 3.8662109375, 3.330078125], uptime=167111
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json'
+    at Error (native)
+2016-10-14T10:52:56.578Z - info: 127.0.0.1 - - [14/Oct/2016:10:52:56 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T10:54:55.805Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json' date=Fri Oct 14 2016 16:24:55 GMT+0530 (IST), pid=20432, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=279965696, heapTotal=228884320, heapUsed=88514176, loadavg=[6.44970703125, 4.71142578125, 3.72412109375], uptime=167236
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json'
+    at Error (native)
+2016-10-14T10:56:21.161Z - info: 127.0.0.1 - - [14/Oct/2016:10:56:21 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-14T11:04:26.444Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json' date=Fri Oct 14 2016 16:34:26 GMT+0530 (IST), pid=20654, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143462400, heapTotal=112215392, heapUsed=87398296, loadavg=[2.01025390625, 3.154296875, 3.40234375], uptime=167807
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json'
+    at Error (native)
+2016-10-14T11:21:02.630Z - error: uncaughtException: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json' date=Fri Oct 14 2016 16:51:02 GMT+0530 (IST), pid=20776, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146608128, heapTotal=112215392, heapUsed=90957600, loadavg=[1.89794921875, 1.98388671875, 2.361328125], uptime=168802
+Error: ENOENT: no such file or directory, open '/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/atm/atm_(307).json'
+    at Error (native)
+2016-10-14T11:23:09.674Z - info: 127.0.0.1 - - [14/Oct/2016:11:23:09 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+

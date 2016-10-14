@@ -1,0 +1,52 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6007182,
+                            "lng": 77.02662579999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "53a4e015fa9890990b21f570eb02b6e79ac3410f",
+                    "name": "Wine And Bear Shop",
+                    "place_id": "ChIJX3iy7LMaDTkRZMKg8PuhdZ8",
+                    "reference": "CnRmAAAAVA3NSdSWGxYq_I8HxZgf_rmjPpt3pmh4baNcy0olzqPwvktFdToxrMkg0Uw4r6QuXaKBShOaTmQEsfW57CQ-l6KbWtSDKpcAjs5dAkfjmKgEcp1teeKujyl0qLAOP_D3hzkW6eopgddMN7hrez4ZsBIQLs2KiD-Hr0gL2aFboRUG-RoU0Tw2GpDPfk7peSBATaolPQRZlqU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pocket 1, Sector 14 Dwarka, Dwarka, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
