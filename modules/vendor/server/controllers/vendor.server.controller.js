@@ -325,14 +325,14 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 46790;
+  var q = 4259;
   var count = 1;
   var fs = require('fs');
   var JSONStream = require('JSONStream');
   var es = require('event-stream');
 
-  for (var k = 300; k < 420; k++) {
-    // console.log('K : ', k);
+  for (var k = 0; k < 1; k++) {
+    console.log('K : ', k);
     // var fileStream = fs.createReadStream(
     //   path.resolve(__dirname, 'data.json'), {
     //     encoding: 'utf8'
@@ -352,8 +352,7 @@ exports.addvendor = function(req, res) {
     // function processOneCustomer(data, es) {
     //   console.log(data.length);
 
-    var stream = fs.createReadStream(path.resolve(__dirname,
-        'GasStation/gas_(' + k +
+    var stream = fs.createReadStream(path.resolve(__dirname, 'atm/atm_(' + i +
         ').json'), {
         encoding: 'utf8'
       }),
@@ -362,23 +361,19 @@ exports.addvendor = function(req, res) {
     stream.pipe(parser);
 
     parser.on('data', function(data) {
-      console.log('data : ', data.result[0]);
-      for (i = 0; i < data.result.length; i++) {
-        // console.log('data : ', data);
+      for (i = 0; i < data.length; i++) {
         // console.log(data[i]['Name of vendor']);
         // console.log(data[i]['Contact']);
         // console.log(data[i]['Category']);
         // console.log(data[i]['Sub-category']);
-
-        // var add = data[i]['Address'];
-        // if (add === "") {
-        //   add = data[i]['Address_raw'];
-        // }
-        // if (data[i]['Latitude'] === "-")
-        //   data[i]['Latitude'] = 0;
-        // if (data[i]['Longitude'] === "-")
-        //   data[i]['Longitude'] = 0;
-
+        var add = data[i]['Address'];
+        if (add === "") {
+          add = data[i]['Address_raw'];
+        }
+        if (data[i]['Latitude'] === "-")
+          data[i]['Latitude'] = 0;
+        if (data[i]['Longitude'] === "-")
+          data[i]['Longitude'] = 0;
         // console.log(data[i]['Location']);
         // console.log(data[i]['Latitude']);
         // console.log(data[i]['Longitude']);
@@ -388,16 +383,15 @@ exports.addvendor = function(req, res) {
         // console.log('Home Delivery : ', data[i]['Home Delivery?']);
         // console.log('remarsks : ', data[i]['Remark_raw']);
 
-        // var tags = data[i]['Tags'].split(',');
+        var tags = data[i]['Tags'].split(',');
         // console.log('tags : ', tags);
-
-        // var coordinate = [];
-        // coordinate.push(data[i]['Longitude']);
-        // coordinate.push(data[i]['Latitude']);
-        // var homeDelivery = false;
-        // if (data[i]['Home Delivery?'] != "No") {
-        //   homeDelivery = true;
-        // }
+        var coordinate = [];
+        coordinate.push(data[i]['Longitude']);
+        coordinate.push(data[i]['Latitude']);
+        var homeDelivery = false;
+        if (data[i]['Home Delivery?'] != "No") {
+          homeDelivery = true;
+        }
 
         // var bookmark = false;
         // if (req.body.bookmark)
@@ -412,120 +406,106 @@ exports.addvendor = function(req, res) {
         //   tags.push(tag1[i]);
         // var vendorContact = ;
 
-        // var vendorData = {
-        //   serialnumber: data[i]['S.No.'],
-        //   name: data[i]['Name of vendor'],
-        //   contact: data[i]['Contact'].toString(),
-        //   category: data[i]['Category'],
-        //   subCategory: data[i]['Sub-category'],
-        //   address: add,
-        //   area: data[i]['Location'],
-        //   latitude: data[i]['Latitude'],
-        //   longitude: data[i]['Longitude'],
-        //   openingTiming: data[i]['Open_timing'],
-        //   closingTiming: data[i]['Close_timing'],
-        //   imageUrl: data[i]['Image'],
-        //   saveTime: new Date().getTime(),
-        //   multiTime: data[i]['Multi'],
-        //   others: data[i]['Others_raw'],
-        //   tags: data[i]['Tags'],
-        //   coords: coordinate,
-        //   homeDelivery: homeDelivery,
-        //   remarks: data[i]['Remarks'],
-        //   shopNo: '',
-        //   landMark: add,
-        //   status: 1,
-        //   keyword: data[i]['TAGS']
-        // };
-        // console.log('data [i] : ', data.result[0]);
+        var vendorData = {
+          serialnumber: data[i]['S.No.'],
+          name: data[i]['Name of vendor'],
+          contact: data[i]['Contact'].toString(),
+          category: data[i]['Category'],
+          subCategory: data[i]['Sub-category'],
+          address: add,
+          area: data[i]['Location'],
+          latitude: data[i]['Latitude'],
+          longitude: data[i]['Longitude'],
+          openingTiming: data[i]['Open_timing'],
+          closingTiming: data[i]['Close_timing'],
+          imageUrl: data[i]['Image'],
+          saveTime: new Date().getTime(),
+          multiTime: data[i]['Multi'],
+          others: data[i]['Others_raw'],
+          tags: data[i]['Tags'],
+          coords: coordinate,
+          homeDelivery: homeDelivery,
+          remarks: data[i]['Remarks'],
+          shopNo: '',
+          landMark: add,
+          status: 1,
+          keyword: data[i]['TAGS']
+        };
+
+        var query = {
+          serialnumber: data[i]['S.No.']
+        };
+
+        client.index({
+          index: 'cleanvendors',
+          type: 'Document',
+          id: ++q,
+          body: vendorData
+        }, function(error, response) {
+          console.log('index created');
+        });
 
 
-
-        if (data.result[0].results.length > 0) {
+        if (data[i].results.length > 0) {
           // console.log("lat", data[i].results[0].geometry.location.lat);
           // console.log("lng", data[i].results[0].geometry.location.lng);
-          for (var j = 0; j < data.result[0].results.length; j++) {
+          for (var j = 0; j < data[i].results.length; j++) {
 
-            var vicinityArea = data.result[0].results[j].vicinity.split(
-              ",");
+            var vicinityArea = data[i].results[j].vicinity.split(",");
             if (vicinityArea.length > 2) {
               var area = vicinityArea[vicinityArea.length - 2];
             } else {
-              var area = data.result[0].results[j].vicinity;
+              var area = data[i].results[j].vicinity;
             }
 
-            var coordinate = [];
-            coordinate.push(data.result[0].results[j].geometry.location
-              .lng);
-            coordinate.push(data.result[0].results[j].geometry.location
-              .lat);
-
-
-            var vendorData = new Object({
-              serialnumber: data.result[0].results[j].place_id,
-              name: data.result[0].results[j].name,
-              contact: '-',
-              category: 'Misc',
-              subCategory: 'Petrol Pump',
-              address: data.result[0].results[j].vicinity,
-              area: area,
-              latitude: data.result[0].results[j].geometry.location
-                .lat,
-              longitude: data.result[0].results[j].geometry.location
-                .lng,
-              openingTiming: '10',
-              closingTiming: '10',
-              imageUrl: data.result[0].results[j].icon,
+            var vendorData = {
+              serialnumber: data[i]['S.No.'],
+              name: data[i]['Name of vendor'],
+              contact: data[i]['Contact'].toString(),
+              category: data[i]['Category'],
+              subCategory: data[i]['Sub-category'],
+              address: add,
+              area: data[i]['Location'],
+              latitude: data[i]['Latitude'],
+              longitude: data[i]['Longitude'],
+              openingTiming: data[i]['Open_timing'],
+              closingTiming: data[i]['Close_timing'],
+              imageUrl: data[i]['Image'],
               saveTime: new Date().getTime(),
-              multiTime: true,
-              others: '-',
-              tags: 'petrol, diesel, gas, air filling station, pollution checking',
+              multiTime: data[i]['Multi'],
+              others: data[i]['Others_raw'],
+              tags: data[i]['Tags'],
               coords: coordinate,
-              homeDelivery: false,
-              remarks: '-',
+              homeDelivery: homeDelivery,
+              remarks: data[i]['Remarks'],
               shopNo: '',
-              landMark: data.result[0].results[j].vicinity,
+              landMark: add,
               status: 1,
-              keyword: data.result[0].results[j].types[0]
-            });
-
-            // var vendorData = new Object({
-            //   "latitude": data[i].results[j].geometry.location.lat,
-            //   "longitude": data[i].results[j].geometry.location.lng,
-            //   "placeId": data[i].results[j].place_id,
-            //   "area": area,
-            //   "category": "Owl",
-            //   "subCategory": "ATM",
-            //   "name": data[i].results[j].name,
-            //   "homeDelivery": "No",
-            //   "remarks": "-",
-            //   "open": "24x7",
-            //   "close": "-",
-            //   "multipleTiming": "NA",
-            //   "contactNo": "-",
-            //   "address": data[i].results[j].vicinity,
-            //   "tag": ["ATM"],
-            //   "image": data[i].results[j].icon,
-            //   "type": data[i].results[j].types,
-            //   "time": Date.now(),
-            //   "uploadtime": Date.now(),
-            //   "status": "live",
-            //   "username": data[i].results[j].scope
-            // });
-
-            console.log('vendor data', vendorData)
-
-            var query = {
-              serialnumber: data.result[0].results[j].place_id
+              keyword: data[i]['TAGS']
             };
 
-            client.index({
-              index: 'cleanvendors',
-              type: 'Document',
-              id: ++q,
-              body: vendorData
-            }, function(error, response) {
-              console.log('index created');
+            var vendorData = new Object({
+              "latitude": data[i].results[j].geometry.location.lat,
+              "longitude": data[i].results[j].geometry.location.lng,
+              "placeId": data[i].results[j].place_id,
+              "area": area,
+              "category": "Owl",
+              "subCategory": "ATM",
+              "name": data[i].results[j].name,
+              "homeDelivery": "No",
+              "remarks": "-",
+              "open": "24x7",
+              "close": "-",
+              "multipleTiming": "NA",
+              "contactNo": "-",
+              "address": data[i].results[j].vicinity,
+              "tag": ["ATM"],
+              "image": data[i].results[j].icon,
+              "type": data[i].results[j].types,
+              "time": Date.now(),
+              "uploadtime": Date.now(),
+              "status": "live",
+              "username": data[i].results[j].scope
             });
 
             vendor.findOneAndUpdate(query, vendorData, {
