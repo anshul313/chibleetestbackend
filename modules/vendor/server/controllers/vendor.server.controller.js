@@ -30,6 +30,8 @@ var ObjectID = require('mongodb').ObjectID;
 var moment = require('moment');
 var async = require("async");
 var xlsxj = require("xlsx-to-json");
+var JSONStream = require('JSONStream');
+var es = require('event-stream');
 
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
@@ -54,10 +56,6 @@ client.ping({
   }
 });
 
-// var elasticsearch = require('elasticsearch');
-// var es = elasticsearch.Client({
-//   hosts: '52.77.1.79:9200'
-// });
 
 exports.getvendors = function(req, res) {
   var finalresult = [];
@@ -325,228 +323,168 @@ exports.getelasticvendor = function(req, res) {
 exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
-  var q = 46790;
+  var q = 37594;
   var count = 1;
-  var fs = require('fs');
-  var JSONStream = require('JSONStream');
-  var es = require('event-stream');
 
-  for (var k = 300; k < 420; k++) {
-    // console.log('K : ', k);
-    // var fileStream = fs.createReadStream(
-    //   path.resolve(__dirname, 'data.json'), {
-    //     encoding: 'utf8'
-    //   });
-    // fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(
-    //   data) {
-    //   // console.log('printing one customer object read from file ::');
-    //   // console.log(data, "   : ", ++i);
-    //   this.pause();
-    //   processOneCustomer(data, this);
-    //   return data;
-    // }), function end() {
-    //   console.log('stream reading ended');
-    //   this.emit('end');
-    // });
+  var stream = fs.createReadStream(path.resolve(__dirname, 'output5.json'), {
+      encoding: 'utf8'
+    }),
+    parser = JSONStream.parse();
 
-    // function processOneCustomer(data, es) {
-    //   console.log(data.length);
+  stream.pipe(parser);
 
-    var stream = fs.createReadStream(path.resolve(__dirname,
-        'GasStation/gas_(' + k +
-        ').json'), {
+  parser.on('data', function(data) {
+    for (i = 0; i < data.length; i++) {
+      var add = data[i]['Address'];
+      if (add === "") {
+        add = data[i]['Address_raw'];
+      }
+      if (data[i]['Latitude'] === "-")
+        data[i]['Latitude'] = 0;
+      if (data[i]['Longitude'] === "-")
+        data[i]['Longitude'] = 0;
+
+      var tags = data[i]['Tags'].split(',');
+      var coordinate = [];
+      coordinate.push(data[i]['Longitude']);
+      coordinate.push(data[i]['Latitude']);
+      var homeDelivery = false;
+      if (data[i]['Home Delivery?'] != "No") {
+        homeDelivery = true;
+      }
+
+
+      // var vendorContact = ;
+
+      var vendorData = {
+        serialnumber: data[i]['S.No.'],
+        name: data[i]['Name of vendor'],
+        contact: data[i]['Contact'].toString(),
+        category: data[i]['Category'],
+        subCategory: data[i]['Sub-category'],
+        address: add,
+        area: data[i]['Location'],
+        latitude: data[i]['Latitude'],
+        longitude: data[i]['Longitude'],
+        openingTiming: data[i]['Open_timing'],
+        closingTiming: data[i]['Close_timing'],
+        imageUrl: data[i]['Image'],
+        saveTime: new Date().getTime(),
+        multiTime: data[i]['Multi'],
+        others: data[i]['Others_raw'],
+        tags: data[i]['Tags'],
+        coords: coordinate,
+        homeDelivery: homeDelivery,
+        remarks: data[i]['Remarks'],
+        shopNo: '',
+        landMark: add,
+        status: 1,
+        keyword: data[i]['TAGS']
+      };
+
+      var query = {
+        serialnumber: data[i]['S.No.']
+      };
+
+      client.index({
+        index: 'cleanvendors',
+        type: 'Document',
+        id: ++q,
+        body: vendorData
+      }, function(error, response) {
+        console.log('index created');
+      });
+
+      vendor.findOneAndUpdate(query, vendorData, function(
+        err, doc) {
+        if (err) {
+          console.log('error : ', err);
+        }
+        console.log("succesfully saved");
+      });
+
+    }
+  });
+  parser.on('end', function(item) {
+    console.log('data 1 : ', q);
+    console.log('end'); // whatever you will do with each JSON object
+  });
+
+}
+
+exports.googleDataInsert = function(req, res) {
+
+  var i = 0;
+  var q = 37594;
+  var count = 1;
+  var l = 0;
+
+  for (var k = 1; k < 30; k++) {
+    var fileStream = fs.createReadStream(
+      path.resolve(__dirname, 'atm/atm_(' + k + ').json'), {
         encoding: 'utf8'
-      }),
-      parser = JSONStream.parse();
+      });
+    fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(data) {
 
-    stream.pipe(parser);
+      this.pause();
+      processOneCustomer(data, this);
+      return data;
+    }), function end() {
+      console.log('stream reading ended');
+      this.emit('end');
+    });
 
-    parser.on('data', function(data) {
-      console.log('data : ', data.result[0]);
-      for (i = 0; i < data.result.length; i++) {
-        // console.log('data : ', data);
-        // console.log(data[i]['Name of vendor']);
-        // console.log(data[i]['Contact']);
-        // console.log(data[i]['Category']);
-        // console.log(data[i]['Sub-category']);
+    function processOneCustomer(data, es) {
 
-        // var add = data[i]['Address'];
-        // if (add === "") {
-        //   add = data[i]['Address_raw'];
-        // }
-        // if (data[i]['Latitude'] === "-")
-        //   data[i]['Latitude'] = 0;
-        // if (data[i]['Longitude'] === "-")
-        //   data[i]['Longitude'] = 0;
+      if (data[i].results.length > 0) {
 
-        // console.log(data[i]['Location']);
-        // console.log(data[i]['Latitude']);
-        // console.log(data[i]['Longitude']);
-        // console.log(data[i]['Open_timing']);
-        // console.log(data[i]['Image']);
-        // console.log(data[i]['Others_raw']);
-        // console.log('Home Delivery : ', data[i]['Home Delivery?']);
-        // console.log('remarsks : ', data[i]['Remark_raw']);
+        for (var j = 0; j < data[i].results.length; j++) {
+          // console.log('data : ', data[i].results[j]);
 
-        // var tags = data[i]['Tags'].split(',');
-        // console.log('tags : ', tags);
-
-        // var coordinate = [];
-        // coordinate.push(data[i]['Longitude']);
-        // coordinate.push(data[i]['Latitude']);
-        // var homeDelivery = false;
-        // if (data[i]['Home Delivery?'] != "No") {
-        //   homeDelivery = true;
-        // }
-
-        // var bookmark = false;
-        // if (req.body.bookmark)
-        //   bookmark = req.body.bookmark;
-        //
-        // var rating = 0;
-        // if (req.body.rating)
-        //   rating = req.body.rating;
-
-        // var tag1 = data[i]['Others_raw'].split(",");
-        // for (var i = 0; i < tags.length; i++)
-        //   tags.push(tag1[i]);
-        // var vendorContact = ;
-
-        // var vendorData = {
-        //   serialnumber: data[i]['S.No.'],
-        //   name: data[i]['Name of vendor'],
-        //   contact: data[i]['Contact'].toString(),
-        //   category: data[i]['Category'],
-        //   subCategory: data[i]['Sub-category'],
-        //   address: add,
-        //   area: data[i]['Location'],
-        //   latitude: data[i]['Latitude'],
-        //   longitude: data[i]['Longitude'],
-        //   openingTiming: data[i]['Open_timing'],
-        //   closingTiming: data[i]['Close_timing'],
-        //   imageUrl: data[i]['Image'],
-        //   saveTime: new Date().getTime(),
-        //   multiTime: data[i]['Multi'],
-        //   others: data[i]['Others_raw'],
-        //   tags: data[i]['Tags'],
-        //   coords: coordinate,
-        //   homeDelivery: homeDelivery,
-        //   remarks: data[i]['Remarks'],
-        //   shopNo: '',
-        //   landMark: add,
-        //   status: 1,
-        //   keyword: data[i]['TAGS']
-        // };
-        // console.log('data [i] : ', data.result[0]);
-
-
-
-        if (data.result[0].results.length > 0) {
-          // console.log("lat", data[i].results[0].geometry.location.lat);
-          // console.log("lng", data[i].results[0].geometry.location.lng);
-          for (var j = 0; j < data.result[0].results.length; j++) {
-
-            var vicinityArea = data.result[0].results[j].vicinity.split(
-              ",");
-            if (vicinityArea.length > 2) {
-              var area = vicinityArea[vicinityArea.length - 2];
-            } else {
-              var area = data.result[0].results[j].vicinity;
-            }
-
-            var coordinate = [];
-            coordinate.push(data.result[0].results[j].geometry.location
-              .lng);
-            coordinate.push(data.result[0].results[j].geometry.location
-              .lat);
-
-
-            var vendorData = new Object({
-              serialnumber: data.result[0].results[j].place_id,
-              name: data.result[0].results[j].name,
-              contact: '-',
-              category: 'Misc',
-              subCategory: 'Petrol Pump',
-              address: data.result[0].results[j].vicinity,
-              area: area,
-              latitude: data.result[0].results[j].geometry.location
-                .lat,
-              longitude: data.result[0].results[j].geometry.location
-                .lng,
-              openingTiming: '10',
-              closingTiming: '10',
-              imageUrl: data.result[0].results[j].icon,
-              saveTime: new Date().getTime(),
-              multiTime: true,
-              others: '-',
-              tags: 'petrol, diesel, gas, air filling station, pollution checking',
-              coords: coordinate,
-              homeDelivery: false,
-              remarks: '-',
-              shopNo: '',
-              landMark: data.result[0].results[j].vicinity,
-              status: 1,
-              keyword: data.result[0].results[j].types[0]
-            });
-
-            // var vendorData = new Object({
-            //   "latitude": data[i].results[j].geometry.location.lat,
-            //   "longitude": data[i].results[j].geometry.location.lng,
-            //   "placeId": data[i].results[j].place_id,
-            //   "area": area,
-            //   "category": "Owl",
-            //   "subCategory": "ATM",
-            //   "name": data[i].results[j].name,
-            //   "homeDelivery": "No",
-            //   "remarks": "-",
-            //   "open": "24x7",
-            //   "close": "-",
-            //   "multipleTiming": "NA",
-            //   "contactNo": "-",
-            //   "address": data[i].results[j].vicinity,
-            //   "tag": ["ATM"],
-            //   "image": data[i].results[j].icon,
-            //   "type": data[i].results[j].types,
-            //   "time": Date.now(),
-            //   "uploadtime": Date.now(),
-            //   "status": "live",
-            //   "username": data[i].results[j].scope
-            // });
-
-            console.log('vendor data', vendorData)
-
-            var query = {
-              serialnumber: data.result[0].results[j].place_id
-            };
-
-            client.index({
-              index: 'cleanvendors',
-              type: 'Document',
-              id: ++q,
-              body: vendorData
-            }, function(error, response) {
-              console.log('index created');
-            });
-
-            vendor.findOneAndUpdate(query, vendorData, {
-              upsert: true
-            }, function(err, doc) {
-              if (err) {
-                console.log('error : ', err);
-              }
-              console.log("succesfully saved");
-            });
+          var vicinityArea = data[i].results[j].vicinity.split(",");
+          if (vicinityArea.length > 2) {
+            var area = vicinityArea[vicinityArea.length - 2];
+          } else {
+            var area = data[i].results[j].vicinity;
           }
+
+          var coordinate = [];
+          coordinate.push(data[i].results[j].geometry.location.lng);
+          coordinate.push(data[i].results[j].geometry.location.lat);
+
+
+          var tag = data[i].results[j].types;
+
+          var vendorData = new Object({
+            serialnumber: data[i].results[j].id,
+            name: data[i].results[j].name,
+            contact: '',
+            category: 'Owl',
+            subCategory: 'Atm',
+            address: data[i].results[j].vicinity,
+            area: area,
+            latitude: data[i].results[j].geometry.location.lat,
+            longitude: data[i].results[j].geometry.location.lng,
+            openingTiming: '24',
+            closingTiming: '0',
+            imageUrl: data[i].results[j].icon,
+            saveTime: new Date().getTime(),
+            multiTime: false,
+            others: '-',
+            tags: tag,
+            coords: coordinate,
+            homeDelivery: false,
+            remarks: '-',
+            shopNo: '',
+            landMark: data[i].results[j].vicinity,
+            status: 1,
+            keyword: tag
+          });
+          console.log('vendordata : ', l++);
         }
       }
-    });
-    parser.on('end', function(item) {
-      console.log('data 1 : ', q);
-      console.log('end'); // whatever you will do with each JSON object
-      // data1.push(obj.address);
-    });
-    // res.send('successfully insetred');
-    // }
+      ++i;
+    }
   }
 }
 

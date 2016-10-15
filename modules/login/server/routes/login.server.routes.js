@@ -33,6 +33,11 @@ module.exports = function(app) {
   app.route('/v2/updateuserdetails').all(util.userAuthenticate)
     .post(login.updateUserDetails);
 
+  app.route('/v2/geoaddress')
+    .post(login.geoAddress);
+
+  app.route('/v2/geolatlng')
+    .post(login.geoLatLng);
 
   //
   // app.route('/v2/addIndex')

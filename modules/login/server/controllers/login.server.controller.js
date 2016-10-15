@@ -384,3 +384,101 @@ exports.googlelocationapi = function(req, res) {
     });
   });
 };
+
+
+exports.geoAddress = function(req, res) {
+  var parameter = req.body.data;
+  var asyncTasks = [];
+  var finalresult = [];
+  parameter.forEach(function(doc) {
+    asyncTasks.push(function(callback) {
+      var location = doc.address;
+      var url =
+        'https://maps.googleapis.com/maps/api/geocode/json?address=' +
+        location;
+
+      var options = {
+        method: 'GET',
+        url: url
+      };
+      // console.log('options : ', options);
+      request(options, function(error, resp,
+        body) {
+        if (error) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(
+                error)
+          });
+        } else if (!body) {
+          return res.status(400).send({
+            message: 'No data find'
+          });
+        } else {
+          var data = JSON.parse(body);
+          // console.log(data);
+          var data1 = new Object({
+            "address": doc.address,
+            "lat": data.results[0].geometry.location.lat,
+            "lng": data.results[0].geometry.location.lng
+          });
+          finalresult.push(data1);
+          callback();
+        }
+      });
+    });
+  });
+  async.parallel(asyncTasks, function() {
+    if (finalresult.length == parameter.length)
+      res.send(finalresult);
+  });
+}
+
+
+exports.geoLatLng = function(req, res) {
+  var parameter = req.body.data;
+  var asyncTasks = [];
+  var finalresult = [];
+  parameter.forEach(function(doc) {
+    asyncTasks.push(function(callback) {
+      var url =
+        'https://maps.googleapis.com/maps/api/geocode/json?latlng=' +
+        doc.lat + ',' + doc.lng +
+        '&key=AIzaSyC_M9kUfZ1B8OfbLvYAaXv1b3Ao8jAr6N0';
+
+      var options = {
+        method: 'GET',
+        url: url
+      };
+      // console.log('options : ', options);
+      request(options, function(error, resp,
+        body) {
+        if (error) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(
+                error)
+          });
+        } else if (!body) {
+          return res.status(400).send({
+            message: 'No data find'
+          });
+        } else {
+          var data = JSON.parse(body);
+          // console.log(data.results[0].formatted_address);
+          var data1 = new Object({
+            "lat": doc.lat,
+            "lng": doc.lng,
+            "address": data.results[0].formatted_address
+          });
+          finalresult.push(data1);
+          callback();
+        }
+      });
+    });
+  });
+  async.parallel(asyncTasks, function() {
+    if (finalresult.length == parameter.length)
+      res.send(finalresult);
+  });
+}
