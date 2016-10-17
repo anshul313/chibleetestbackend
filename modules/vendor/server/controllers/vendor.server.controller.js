@@ -420,7 +420,7 @@ exports.addvendor = function(req, res) {
 
 exports.googleDataInsert = function(req, res) {
 
-  var q = 37594;
+  var q = 50000;
   var count = 1;
   var l = 0;
   var asyncTasks = [];
@@ -440,7 +440,7 @@ exports.googleDataInsert = function(req, res) {
     //   this.emit('end');
     // });
 
-    fs.readFile(path.resolve(__dirname, 'Faridabad/ATM/FaridabadATM' +
+    fs.readFile(path.resolve(__dirname, 'Faridabad/GAS STATION/FaridabadGAS' +
       k + '.json'), 'utf8', function(err, data) {
       console.log(data);
 
@@ -514,17 +514,14 @@ exports.googleDataInsert = function(req, res) {
                 if (err) {
                   console.log('error : ', err);
                 }
-                console.log("succesfully saved : ",
-                  count++);
-              });
-
-              client.index({
-                index: 'cleanvendors',
-                type: 'Document',
-                id: ++q,
-                body: vendorData
-              }, function(error, response) {
-                console.log('index created');
+                client.index({
+                  index: 'cleanvendors',
+                  type: 'Document',
+                  id: ++q,
+                  body: vendorData
+                }, function(error, response) {
+                  console.log('index created');
+                });
               });
             }
           }
