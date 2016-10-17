@@ -1,0 +1,76 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4091598,
+                            "lng": 77.3387202
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "eeb04883735ab8f97b93641fa49bbc2829c23ea5",
+                    "name": "Satya Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJkdX6fgHdDDkRyzxd1ks_maA",
+                    "reference": "CnRuAAAAW0GWzaDZT98oDGcUsBfzdPff0lKJIDkXpibfiPo2h3sVviZbxp0oXcvk37bd0Z8JacAF8mEBRWHMwyVhy_yW1sLiI3RK_YKRHa6kcLVpTeEf_13FccB4zBzDjebNPqu0lAlAcbuiW-_3pIiX4OT1jBIQHOjjnpmqnDPICPdpI5BsSRoUY3Sp9YIBsPn2RV8-h0N_Is3pFLw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "shop no 14A opposite ozone apartments"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.422857,
+                            "lng": 77.318654
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "6a2f38f94818b7d1cbbbcb3432b31b28c233aff6",
+                    "name": "Lions Bhawan",
+                    "place_id": "ChIJvzaM-rzdDDkRNM5pPa7I4Y4",
+                    "reference": "CmRgAAAAS1oFZ47SU-UxYYd2nrv6gMhK58ExEjdDZHLCDPc4zIEvfIfh25B7X27FCYtWCoOR6PBz6Ii-Vg9ZbwPjRWzJ2F11HVyc_ZqFPNW8k3WVzkGUd03PByPpZSoTqEP_EjhuEhCyHeDE2Pqc1_DyBtdC0u6wGhSal96EvH9Ejy-OILvE-e9o2sxAaw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Bazar Road, Faridabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

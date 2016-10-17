@@ -1,0 +1,77 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6805921,
+                            "lng": 77.4900806
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c31094dd0350de86b1a059907a71f2b7df6bbef2",
+                    "name": "Govind Puram Model Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJw3uJADnyDDkR3-h2HgVt4gs",
+                    "reference": "CnRqAAAAi2801rpG2QRGKcPtXv1h1X0YCDyWbOleP17oVxaeuAkLWmy2cf1Tf-p7uOGI2Ujqjriq0BoqaMBErWayC5U69WubcHuzcXo_S1SMdIUxTE2nzVFrV4JDY2Uv3heQitKbLvqebTa4-uKMnIXHrNBNiBIQn6OIRF8seT1oTA__FKE4ehoUYidiamFM_8CYDM5Aj8muYZfwxoI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Govindpuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6973567,
+                            "lng": 77.4509472
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "84a1d6029ab77d6c3d04a9dbf2c6bae8d643dd75",
+                    "name": "English wine shop",
+                    "place_id": "ChIJO2DBiHPxDDkRIu2HJjbSbxQ",
+                    "reference": "CnRkAAAACJ1Qy-svvVOT8ilXh49LLxDRpIOZv7XiEIiL_QDY48x53FbwPjiNhpa0U3FzirIP5_HG7TGBE3JbrfBMnYQkG3eCkogn2Og8_mYjye7SHG51_vZbl7gqOIXPGPUfK7tibFFF7lrJxDqmt66ay-DkGBIQD_Dsp7XSvTUtIjzLRTtTyxoUxaS1vnT49Hccn1M8F6F7rBGpYq0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sanjay Nagar, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

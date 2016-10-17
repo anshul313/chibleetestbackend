@@ -1,0 +1,51 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6774747,
+                            "lng": 77.449077
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "1f0a5ddc39752220fb6e7f67dea3d7e34c4a689f",
+                    "name": "DR JASDEEP SINGH BEDI PHYSIOTHERAPIST",
+                    "place_id": "ChIJoerktKTxDDkRbyrsZhObNDQ",
+                    "reference": "CoQBeAAAAOPG8GIF0ivWDRLICAwG3dJc50alH8cpBimHSOND_QQ6QQ9rmV4B1nkF60q5WWXNOoCM09Z_8hUbNaSl_GWFOwQjyjTBuZRuk3E1ZMpv6p1cub-6DljHQTKkfaYgKAOGMteaQW0jLaxonNlLxzrrOzwMO3ncOOoxyE6ZfEnIKZgyEhAkbxZA6Pl0plepWvscxlC1GhQU5AQlrD9Swdgwq4dC9pQdrgCgOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "142, Sector 14, Sector 10, Raj Nagar, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

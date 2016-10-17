@@ -1,0 +1,678 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421561,
+                            "lng": 77.3600793
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64215875,
+                                "lng": 77.36015605
+                            },
+                            "southwest": {
+                                "lat": 28.64214815000001,
+                                "lng": 77.35984905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "02e23e186400f3f8c6239ae4876d894c3d796920",
+                    "name": "Wine shop",
+                    "place_id": "ChIJyX7YG7T6DDkRDylqK5xsHOw",
+                    "rating": 3.8,
+                    "reference": "CmRdAAAADASnVq8CAYdJtFQxnPrZX3tfV5ZEIDimDWF57B4J6okg_Ic8lEhjont_IXKFRiaCYY2xifgNWHkHTmrHKdDr14yt7rUslJsqg2h4H_tTT5jLKAZcydlUD-hBYO6AoY6hEhAa_Ao558F0aNAC3qbUwZmAGhR_UYHM4qjOFl_-T-etRYQjz28Kdg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kala Pathar Marg, Niti Khand I, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6452539,
+                            "lng": 77.3528185
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64528805,
+                                "lng": 77.35285780000001
+                            },
+                            "southwest": {
+                                "lat": 28.64519945,
+                                "lng": 77.35275579999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c8d745b1611092f4333facdf3617222b83e95f32",
+                    "name": "SRS Liquor Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJS0K-Vsj6DDkRxYQzSVQWr40",
+                    "reference": "CnRkAAAAxlzDqVaf5RRGyyfLixgzVMBLQGeNfRK3mBGWPi0llDVXQD57iyYYOEgjBQ8K85bqzcInu__b-FWhZnCnhLQXfNgPlRD1S7tsZs06uDvin5l969XUimjNEmxGS4OiqbAEaaJx2UnXlAIcV5P7r3qrnBIQyUydy6X5M8k7nfaagALEZRoUsWG1W8SfqShsNCvNIvHX3XSte0A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kaveri Marg, Gyan Khand II, Indirapuram, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421561,
+                            "lng": 77.3600793
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64215875,
+                                "lng": 77.36015605
+                            },
+                            "southwest": {
+                                "lat": 28.64214815000001,
+                                "lng": 77.35984905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "02e23e186400f3f8c6239ae4876d894c3d796920",
+                    "name": "Wine shop",
+                    "place_id": "ChIJyX7YG7T6DDkRDylqK5xsHOw",
+                    "rating": 3.8,
+                    "reference": "CmRdAAAA24ScoMb2be5bEz1F_rFfWypA4Mbo3gFYxTduUpLcq0NDO-b03SLuclq1nrnBTxujzdxDxROFZBw1cXcZa8nV8ECgTnI2u9gVOtX5kJu0t6xmbH7glwzQ9jM-mVMUZ88jEhBj9M3YM808512m_eecoMV8GhQ567RHt3q0HOiYanjJLho-qkndtw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kala Pathar Marg, Niti Khand I, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6452539,
+                            "lng": 77.3528185
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64528805,
+                                "lng": 77.35285780000001
+                            },
+                            "southwest": {
+                                "lat": 28.64519945,
+                                "lng": 77.35275579999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c8d745b1611092f4333facdf3617222b83e95f32",
+                    "name": "SRS Liquor Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJS0K-Vsj6DDkRxYQzSVQWr40",
+                    "reference": "CnRkAAAAGUeH2wnZ_82yuNiUqiCmD7JLdBjAIvaZ9ELtVMWVG9uIEk_-giRH4gua6KKXQkJBiEO69HIUkTDQsWYdtLVnj6D2nsyjwGbQM6pQzfKfc3jUPMxiOIErRbviFDv8QiaVxKhgUi_s1UZ-kt6KnAfK6RIQQD8uBJOaZ9Cd1qMRPNKsrRoUlbSjvB_M0noHy-TWMJXcr_kfL0M",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kaveri Marg, Gyan Khand II, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6472265,
+                            "lng": 77.41087759999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d2ef5cbd23ae5b6038e26ddc0e1178146e8c421b",
+                    "name": "Desi Wine shop",
+                    "place_id": "ChIJdQ35dibwDDkR9Il1X2wUwvo",
+                    "reference": "CnRiAAAAezilO27xb0TG3cyaDz2SspjC3RJYLEPubMO9fZ46-iMTOJPHU9JUORRE8plq27uFMW-h8sn1GYTcNbWCVqOCxQWgQu00SWtL8lxNxPA3iuJevD1qHXBOWSYlOLaU0gXRvqGIdI5DRQ4a2BRX-8gGzhIQdiV_Od_8te8Q33zyAZ_d1RoUPjB1si-IFeZU4YyX5DdfNfoMGS0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mirzapur, Pratap Vihar"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67841769999999,
+                            "lng": 77.35922099999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "56344b61111b10135bd39c07bf26076c7ea87779",
+                    "name": "Theka",
+                    "photos": [
+                        {
+                            "height": 772,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/114754091124761744850/photos\">Rippy Bedi</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAALUqGjIoeg1hKzh4nkDiU_yHbcj_53NC8zl_aNGWtWMv9SAiNBUFPx7WiEwbntbpaUijBrCQwMN8fEymHqRAtK2M6Qkb72uB_QlWZDXrxRe2LDizTOOYykismrC7GRsnKq2XzJCY3pGKZinNZUB7ZfpeGfWihJh0Gj8itTOv_SNQEhBVHGdAGeF68wQ_2ZuQEpjdGhS0-0DvM7IZr97IpqxtbeuWJCyA7A",
+                            "width": 1829
+                        }
+                    ],
+                    "place_id": "ChIJUzaGvYv6DDkR2R_9jyon9Cc",
+                    "reference": "CmRYAAAALabgs7dwGM3cegX7XwcfWp3xc-0AfgyZBMnrergyddT83zSYmdgn842zoBvPpEWNZdk5pTqQeRNadvCff3Q-6tMTXz7JECV6LfCMUg-Rbia9kBiSwH6R470ntw12tH6zEhC8dIOmnA99s55F_g7V5TUOGhRSMhu8TkBff3LGpknyFzHMuCSfQQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rajendra Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6326695,
+                            "lng": 77.3569821
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63267935,
+                                "lng": 77.35701945
+                            },
+                            "southwest": {
+                                "lat": 28.63263995,
+                                "lng": 77.35687005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2799210eb690aee6967d2142060ac5ed7eddf56",
+                    "name": "Wine and Beer Shop",
+                    "place_id": "ChIJNXuPQUrlDDkR4f7k7qWipGQ",
+                    "reference": "CnRlAAAAjAzdMYup2ZUJzdngd8LoD21Yufi32AnCUBW7-fEDKSjyZyEZR5VJNedlE12wPUYo4WQykiwChAvbFyiVL8rg3IcyOjtsIbar0IGtcq12940HGgHDWq45r6eROU2zPDBkVyarB1GFY_2sX3hXHwenrxIQsOFVzrfmZANKACvnGLW96RoUebu505Na9ZjHpSXrr-UPnON_7Js",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 24, Indirapuram, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6457577,
+                            "lng": 77.33553979999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "82aa4856786b2d0483e0cf7acdcd94ebe71c6ecc",
+                    "name": "Govt. Wine Shop",
+                    "place_id": "ChIJ_9HEftf6DDkR7PneuhtUC9s",
+                    "reference": "CnRjAAAAY0FxnZJIuJTpdxIA8HRkhbDoALUjGWKw5oLljZlLlVbfCuS6SWS7h9cFN_ueaous-QvZkxKrvSNzhQvzhWViqyFbiNhG2CPKkfvF6E7KhZBMCJ91_I-io4xdtgTyVYVMGdNn5ERscfgrrwn8bZjSNRIQodGJ8BpVRPh3b65eIn5qARoUVq2MQjDoz_qRecV04GY19wGbr_Y",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 3, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6421561,
+                            "lng": 77.3600793
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64215875,
+                                "lng": 77.36015605
+                            },
+                            "southwest": {
+                                "lat": 28.64214815000001,
+                                "lng": 77.35984905000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "02e23e186400f3f8c6239ae4876d894c3d796920",
+                    "name": "Wine shop",
+                    "place_id": "ChIJyX7YG7T6DDkRDylqK5xsHOw",
+                    "rating": 3.8,
+                    "reference": "CmRdAAAA6OJA0bsJsMYVo4vuoZmNOGHRlTcpSuC-74eCgbuIznnQ8edrdNBbZJgQuUxsUZsDO8AyX-kcVt9Rc7Kvk-4tJu6_pytRAO6SI9kqMUerkJ0opaSxRQtrsF43PPA7QcGIEhCKCSliYyTcrBpbD8kYGqcpGhTk8MNDGq2c9A6gExZ8rhD1mlxCkA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kala Pathar Marg, Niti Khand I, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6452539,
+                            "lng": 77.3528185
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64528805,
+                                "lng": 77.35285780000001
+                            },
+                            "southwest": {
+                                "lat": 28.64519945,
+                                "lng": 77.35275579999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c8d745b1611092f4333facdf3617222b83e95f32",
+                    "name": "SRS Liquor Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJS0K-Vsj6DDkRxYQzSVQWr40",
+                    "reference": "CnRkAAAAUpEdnayc38xp7K-zWtk7OJJkTCK_j1hlmWHgq1G_LOSb_pdtrkKvKFFnn0y7ca8gcEPodhC-hjgbsvvN2rMIR_Oqixh05uX0Zhkr2_d00-GgRGiuvPHi2YI35I14mYQI1qHFaTmBWuBsGsnQM6jLvhIQhL6VOrFnZmSs8A6yqD10SxoUE7j-sQxJNAJbsM2lSL3nWINr-Hs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kaveri Marg, Gyan Khand II, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6472265,
+                            "lng": 77.41087759999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d2ef5cbd23ae5b6038e26ddc0e1178146e8c421b",
+                    "name": "Desi Wine shop",
+                    "place_id": "ChIJdQ35dibwDDkR9Il1X2wUwvo",
+                    "reference": "CnRiAAAAv97nkn0bF5lJh9UEe3P2ydl5WVmMGbTNE11-F3JWXNRrmu4msYHANeSHukTxiytxJY9pkCRUYTvRzeLqODolLLQnnyOxk308WuHxt49RK6plhSreqYEvw8UVhVZzAnHiH3K4eCJVrx2GxgPO_6VMqxIQH21p4r_ZV6j8NDjyLTDxjxoU5sInP92shh8fBSRQLBARmW4G898",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mirzapur, Pratap Vihar"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.67841769999999,
+                            "lng": 77.35922099999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "56344b61111b10135bd39c07bf26076c7ea87779",
+                    "name": "Theka",
+                    "photos": [
+                        {
+                            "height": 772,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/114754091124761744850/photos\">Rippy Bedi</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACJERhKMpvLSqVgExBshzyZ0c3JhyauysGj-rGlHlZrmYMMcilNLSfDiCp3LZL5PkxsyM5bFlzR3yzIA53Ue-1D29kb_EqN534uX4ciycNp6vcC00HAGZ87RtqFe9vKeouksu3ph-TKCI9qQ02ZiQAwVMin2ZxqWALrlpjy39ewSEhBgj7_n4sZNlxl-FJ_OB6B-GhRVIpvDSHCkRmr7Qq0SASLsv0k7kQ",
+                            "width": 1829
+                        }
+                    ],
+                    "place_id": "ChIJUzaGvYv6DDkR2R_9jyon9Cc",
+                    "reference": "CmRYAAAA9Z9AR_g5jqKeRthK4vNjt5P81rlZib49gpYpJ07qvGthloRNWHzTzxrOIja6bkmkIq5cxodNfj7G1P0xqB5BLgV1Gf1JJAs1RTszpL86J5rbs-8_2NIweTgMWVoYIb6oEhDl5Xmp7GjwToqiBgxrP7yoGhQ-I2fNMhBE0tnjilQroYN59EFboQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Rajendra Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6326695,
+                            "lng": 77.3569821
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63267935,
+                                "lng": 77.35701945
+                            },
+                            "southwest": {
+                                "lat": 28.63263995,
+                                "lng": 77.35687005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2799210eb690aee6967d2142060ac5ed7eddf56",
+                    "name": "Wine and Beer Shop",
+                    "place_id": "ChIJNXuPQUrlDDkR4f7k7qWipGQ",
+                    "reference": "CnRlAAAA7A9_WeOwLLg93LkHuoApxiHymFBUUd393WSrYTUIOC-aFNG25RT_dBaqTBgaFgND-uUjQAj8P1A268k8MAjxw35nUL5Y2sU3vXfGU736gBS0G-1SYZQ6nBvd8jANasj9_pyBaokd4VC2oBRUD-2QpxIQwOjk3f6HdP6i9StIysjoEhoUwt36PSkaJMGUpwyM4GtuMv9zu7g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 24, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644859,
+                            "lng": 77.422369
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64613985,
+                                "lng": 77.42245885000001
+                            },
+                            "southwest": {
+                                "lat": 28.64443205000001,
+                                "lng": 77.42209945
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7912a66dbe2487cdbffe0a6b034bd13be349f987",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJc7WqeynwDDkRHMc_P9DNPBQ",
+                    "reference": "CnRkAAAAW38A_bVEEjwLGHBumIXQPC_FQKfClwaZFQSRRtLtIfjsGMBE1E039F3rE6dMfO3F_nJhYgj-C4jyguQBY685VdujEInGoEJl9k2PYKVvjo04GMKrZgHWGjaXY8hr218FYTQ6ir3mSABNGimMWtuX3hIQj761-8J2ed2HkYD4p8UVYBoUE_jHt8BzF9F5xNBaIVvEUZEvU9o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vijay Nagar ,, Mawai Road, Sector 12, Mawai Village, Mawai, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644855,
+                            "lng": 77.42249199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64617065,
+                                "lng": 77.42258429999997
+                            },
+                            "southwest": {
+                                "lat": 28.64441645,
+                                "lng": 77.4222151
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b48129de8c54bd88047afa26e8eb925505c12465",
+                    "name": "The Desi Hut",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJjXiucSnwDDkRP1tBIXdzgzY",
+                    "reference": "CmRfAAAAfSkJIhSANU8y2ejD47BEfxb3hZ7gfH13bp6LMznngY3btiyNSQwdlJm8uQFcUe9CzHr-8ypC9XwRmsFZ2-LA3uJaPj1xglOKI9LR9VIlLs7lFI600QhQ3sF1Iibac8wDEhC0wFegW79mQ9vsliw9WWgHGhTGNqvMh7bRVS_2ObojoulXwdI4yg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "night_club",
+                        "bar",
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No:192,, Mawai Road, Sector 12, Mawai Village, Mawai, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644309,
+                            "lng": 77.422314
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "383370fd6a2e6c5f9c7f918efd8663d00a624347",
+                    "name": "Desi Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJG59ucCnwDDkRtXuXjXaNEi4",
+                    "reference": "CnRhAAAAeOAzTToBfnu3XeNjhx4EB9HkfqBCaSGfVsFzmhZ0tHTFIF0s7_2jNTK8qhP-cJmgKSTXEjrCUT5qIvoHhGpeOLzjNX5qLnlxm95qaJiaGNDStbOk5f71IQbLCiQozFo3h9pXBSYsbGh5AS2F4I0HdhIQhxOm0JP5HjogafBM3OQ4GRoUwP99bfyQ0oKdzERw8ZZJeCOFHTc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vijay Nagar, Shivpuri Main Road, Sector 12, Mawai Village, Mawai, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6181109,
+                            "lng": 77.3698982
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6181988,
+                                "lng": 77.37041690000002
+                            },
+                            "southwest": {
+                                "lat": 28.6178472,
+                                "lng": 77.3697253
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f45d2c91b195e7a1a4579bcac4160c371a6808b",
+                    "name": "Beer & Wine shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN6CmU1zlDDkRNSx-zWKGxs0",
+                    "reference": "CnRkAAAA81zAseNqNROIb7L6EL5nUhWByMoYEvXay9hV4JdXrYonLIbC4KIlK9zMp7yr9kXzrmhQQhWAkfC9083x5avP43DBqe23WV99ZGESyr1yD46sshNzGvMWIRaI_D9JYhMiNaMnVGtTmlTAyCgEksb66RIQj2EF1e2ldTDlOfQn1r939BoUCyRJ4y9e3lleDh9lIS-DDZYed4o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-26, 56/25, BHA Millenium Road, C Block, Phase 2, Industrial Area, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6413275,
+                            "lng": 77.42188809999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "9651cac993a823bdd73f38135fd85b99a728f85b",
+                    "name": "Model Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJq3k3c9XvDDkR4dMca6rGoQ0",
+                    "reference": "CnRiAAAAkMMAVmqiAbyr3dsIkx9J5p8qzCIFlkkuNeA9mIIUTbAc3datRFETWkyoaVGY_Hkxi5flaz82yDMHVMEn-mAWGr4jZxgaq47l99fOKo1HV2JYCgnRCX8ptL6XFkXM-veQ0fOgIsm2cAwvsnUM8ioTEhIQ30NoWq615q8ckbns1O05dhoU0NHqRyZO8LCM8QOMOt_F4uWWQBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shivpuri, Vijay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.677295,
+                            "lng": 77.42025
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67736385,
+                                "lng": 77.42043555
+                            },
+                            "southwest": {
+                                "lat": 28.67708844999999,
+                                "lng": 77.42018815
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "000a51bbad29d99c6306666240b652c4e46d0d65",
+                    "name": "Model Shop Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJD4NtdFLwDDkR_nrm5RK34po",
+                    "reference": "CnRoAAAA81HKJ3DCRR64PqFZ1V2H7kddRl6PmvIY9j4nq7zdSQWddwQUjWj6XzyR1g2_HnZ0l_0ktHtcLW1k5Dvstcl1CYHl088sk8PnTget6bG63y5mU6xWvPPF15FIFoJAoiUBMmW7TUMC4LTHgEzu2JwPYxIQqyO1TcSB9RWFtgpwWhY4bBoUklaLrgNH2RdrTQpgNJqXvJcNLr4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop Number 251, Meerut Road, Bhim Nagar, Sewa Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.65742999999999,
+                            "lng": 77.427618
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65744244999999,
+                                "lng": 77.4277313
+                            },
+                            "southwest": {
+                                "lat": 28.65739264999999,
+                                "lng": 77.42727809999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "86fd6e93193a7c628191906378856b58d72c3fd2",
+                    "name": "New Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJSyb1rM3xDDkRRLF1mG5AeE0",
+                    "reference": "CmRgAAAAQPEgfSNRqOQ6KVVGj2Z9VEL5ijxloE5NKeTvEJfxt3sMeVtKTy2hTayPeeTtJQcnncCRJKiz3eI4q4KMRk4-vp6ltTcEwzMwJEInCnB9YI1bZRjVHvcAqa8EscEja12rEhDwcPSmXs1ereC6qFI6nw2_GhRyqqmM5A1dbKhcsgQsSKeKA2zyDg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Gurudhwara, Railway Station Road, Chotti Bazaria, Madhopura, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6906012,
+                            "lng": 77.351795
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "370fbf3273dfe2c336cc567797334cc2d0fe2435",
+                    "name": "Liquor Shop",
+                    "place_id": "ChIJ72sHWFz6DDkRK6a_Cc1OvMQ",
+                    "reference": "CmRfAAAAeJKDFpawuCCfy5JmcYK_JX09Cg833udCapIRxWkYs3VoMWfWD942kDBh5JTFt1zfhxvevFp2rElyNez688YOfdsLcDnRwDZWua1WLnBUQoaU5Nl6YYHFCtQfXrnCwEQvEhASCXvU9DQq5eED1B2HlxUVGhQq8VOxyC5g2u0hNAEDQXcTkDKMNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Raghuveer Enclave Pasonda, Ghaziabad,, Sahibabad, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

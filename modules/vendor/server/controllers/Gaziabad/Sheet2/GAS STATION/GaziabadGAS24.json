@@ -1,0 +1,2328 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6317642,
+                            "lng": 77.44261019999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6320287,
+                                "lng": 77.44274114999999
+                            },
+                            "southwest": {
+                                "lat": 28.6309707,
+                                "lng": 77.44221734999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "479c9e06d4e3ea76e6d5bdfc45cc10196b8fad09",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJycv0mTzuDDkR_Mi19NCjJnU",
+                    "reference": "CnRvAAAActSZLwnvKErBuh-MVihbuwEsJr-wpidgRTmGhOgZLdr6yZY0mEeHmFBA6yih8NM-JA9v9ZjfSTG22VFYY1UMNPedscNtU8H4VZLbc-DqMm-KNBBzVVAIVGVnZ6c4ZtyDAL-_mfDp8jcHHGOm1bzMwhIQHpLXrpcWYUGEVyyV0bc1TxoUPA87Bbi3a8B25AgZWd6JHKYgsQk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "104, Crossings Republik Road, Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6301195,
+                            "lng": 77.4342585
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "25dda6ccbdcc609e60cb0c5700c5e0f66389501a",
+                    "name": "IGL CNG Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGX1tXTDuDDkRmxiw3nBrhKk",
+                    "rating": 4.1,
+                    "reference": "CnRnAAAAo2K0xkZPkDg4-xf73i6Rbzq20lssU6CtWfA2dpsKjlF3DeAQn2J2ojiVv95Yw-bxuxfX4HaUuvNyKNX5yFQ8wZeMA-Hw4_qNFebg_Y5nln2vUQt5zVVuCbdr5mv9-5Bg1YHTE1-l0RBg9lxF4QMx0BIQgPN0fBSuOzhHQla_A5taxhoUiJ1-GwBT029nCzlBpoCM_rQ0ejA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365494,
+                            "lng": 77.4432258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "529104905996ce20063b5c8afe2a35f3e4f27091",
+                    "name": "Indian Oil Petrol Pump and CNG Filling Station",
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101778321250477181138/photos\">pramesh jain</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKxAaN-YEOIJFhV-2PPnicQm9boqrbaRHOJMOy_updq-wPtSyeQPh893AhqZUXVecs8ZlGCD3jrHGYAuanW8mc1dhOgqlFwqfah8k0QqWfyDU8suehZr_5dWa0YIMYYG7Rjkz-MDLfH53N2GPNJ-tawqxmRUFDXgNC0nCOPCRiiuEhAsmnADU2OoF4RgVLiAr5wRGhTYBq6uNvGUpFseF1OvtWjsN5DxAQ",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJt1hKoyPuDDkRFrkcBNgoVag",
+                    "reference": "CpQBgwAAAObTzxT3hksiOJrlcC3-NzO6l9fkHGHn_DWknWDCT4IN6nbP2MeSIXjlf9aNN7ZRKMiyr-jEsjfPQsgLrCK94f-WwJdZPTd_sJ9zshfK0X4ou6m2W1gV3VU0Yuvf9UY0DNp2FfMdv0WHrr3rU8-VJ-oKtWDLeFXjI7eheDz_8gHfA6lDGf8O5f7Btuc1ZiKTjBIQqFjzcunfJTFgBF-oSeTabBoUOtJUuSKFzazNICzzr8veN8shT3I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ispat Nagr, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.636881,
+                            "lng": 77.44320499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "9e851244e93a59e9895982a74788818393fd2da3",
+                    "name": "Jai Automobiles",
+                    "photos": [
+                        {
+                            "height": 4640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111542960340441533741/photos\">Nishant Saxena</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANIaWqXDowAGUwFB_wLSICf9ORqaPjRcwz3QQ0SD3Gt3YTGv7TT_cyaR9IUyZoYZOO4ESEY5SZnNDczIisvya1biWYQ26oL4L0F4yZcZ8HoF38o5MtihtVvUqpMIHCDUHHl0euEZ6QRgAVwKjnW1eTTQ8qyG1uLqD_1l35pq7OiZEhDMyF3_p2g6bGreMcCiQ8ORGhQRUe6ozBplHLRYytE8dQgo5J-uJw",
+                            "width": 3480
+                        }
+                    ],
+                    "place_id": "ChIJSbTHvCPuDDkRKtcCw6WBE_A",
+                    "reference": "CnRjAAAA4nndcUVcp8Fx6kIsSQTvAzDjrsAks65L6NVVQsOzcG206RYAH8JHZtz-gxBmNBxzoGb0GBdA92JYA6GK9uSzNXWLVnZhNr0nOjlJYMGJJez2zy0LsSjC8fz-38Y6eEg01kWjSLLdgOpxsgzVAJoKoBIQM9DAyNLRX-T34ClFiQipvhoUXi6yNpfHPbOld9rn8hLMauTpFJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "car_repair",
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 24, G-1, south Side, GT Road Industrial Area, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6301195,
+                            "lng": 77.4342585
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "25dda6ccbdcc609e60cb0c5700c5e0f66389501a",
+                    "name": "IGL CNG Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGX1tXTDuDDkRmxiw3nBrhKk",
+                    "rating": 4.1,
+                    "reference": "CnRnAAAAQsgUMwYvo5jK13Zswi1iIt41cdL5YK6e2joHeggSjQliPseXc2MCa_DVSZ6wruUAgF6-Idud1xyharj-vZK6S4pQ4B663dpsP_iJ4xRWr0jJLEmGt81vrN1Gj6FdHFCN-Q6ECjqlLcvh7hcmR32UKBIQ-RgFogvRnvoakdscffWMfhoU6oxNfJkM0HlaMHXcjVBwjUEaaOw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365494,
+                            "lng": 77.4432258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "529104905996ce20063b5c8afe2a35f3e4f27091",
+                    "name": "Indian Oil Petrol Pump and CNG Filling Station",
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101778321250477181138/photos\">pramesh jain</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANJ0UP5Zx3epvY059nQYDdVTwPCvIn-Stf326ni9OkEQMchycQUqbCfLotjb5jaS8FLi_vnQrhAp9P5gIvn_NcFvFwTDDGT5TkpTBNGNeUji7_-rws3xv_C2VhTgH-z3wvUAPURIO8EHcOvUVpht-kjjF6uvPfAkHkVp8Ix2noAnEhDxgeYoHheTzk20ZREi3v61GhRoZmvPalM1YGFoRskNXDAGZZe5IA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJt1hKoyPuDDkRFrkcBNgoVag",
+                    "reference": "CpQBgwAAAFvEQNvUNR9PQuCZe5Q2bvizXJmC_Y89xrvEILJ-nHxAMDJ5cVf6pFOdbSiSEn8wwC_RIQWoMtm8ZYBws6WB16hXFMApYTvPe7sX6PNjMQXVCFlnZGxz_2Pq8XqEWTY0y86APx0_1Rzb8vxLIF0Z40QPqIoutJeCA9LxrfHDdg6dlCV3KdfsoA0gm9jKsEyxdBIQHh8AeNY6QW0qXYGe-6zI3hoUfN69VSqyJskeinvk80NzTOkc9Gw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ispat Nagr, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6317642,
+                            "lng": 77.44261019999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6320287,
+                                "lng": 77.44274114999999
+                            },
+                            "southwest": {
+                                "lat": 28.6309707,
+                                "lng": 77.44221734999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "479c9e06d4e3ea76e6d5bdfc45cc10196b8fad09",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJycv0mTzuDDkR_Mi19NCjJnU",
+                    "reference": "CnRvAAAARd1DbUow7SHdKMhjA4L39Bk9ps_vSmqbQJl3r2IztMmF7jR2OMcIJClB-p9div2ER8VzQl6zYkE4v3Qq_DkpK_YVvv-xCjF8Pm9ohAGx2UmXIDGaR9OU9vB8Ji9IIBycU-A4s6uRgi8oBSRhQT55CBIQDw9us5UYbk95yjzTvxMDBxoUhIx5hkSDZCgWnW7w6ydx_u-bQY4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "104, Crossings Republik Road, Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.636881,
+                            "lng": 77.44320499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "9e851244e93a59e9895982a74788818393fd2da3",
+                    "name": "Jai Automobiles",
+                    "photos": [
+                        {
+                            "height": 4640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111542960340441533741/photos\">Nishant Saxena</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACi9l0V0QFp3ex-qX5Hno4XT2iItXpSj6zbOrlKU7dwXCGMEXoQ8vI_W184WtxhOjj9rBf70BU5A9DxuUUpW3QyYzitUEdGOAdTzPUhZ61lsavxp8VPFN5EI2gMi9gcl9ZFuoS_z19o-ogE4k-oNZnwqjzYHP7o2Qz5AB9Oc4d0NEhBIPLsaoO9d4JwKtkhj24v5GhTd0K1pExShgUtXmKbP2qM3JOfEgA",
+                            "width": 3480
+                        }
+                    ],
+                    "place_id": "ChIJSbTHvCPuDDkRKtcCw6WBE_A",
+                    "reference": "CnRjAAAASRvzHiMt__kr9tHHPGPFK44xgSqlDNiiZKlsvOqwQ8tseZH5E3gVmCKCg3qN-uoRWF1OlDUX6Yii8ALqlTz91fFy6__DBUmtUZpybcykhZu9IEJ6aeHRLncla_e92zuqTFe_hk7YsMNyyvU-fYor4xIQAuuRvc66nOSZnLqH6wN97BoUdOf5TG4_1LXutGbpJArFRPGPQSE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "car_repair",
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 24, G-1, south Side, GT Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6395078,
+                            "lng": 77.4571404
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63961935,
+                                "lng": 77.45724274999999
+                            },
+                            "southwest": {
+                                "lat": 28.63917314999999,
+                                "lng": 77.45683335000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8c4478a72cf984200e44495cb5f783d97f7c384",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ_UZkaBvuDDkRMeI6yRzfk0s",
+                    "reference": "CmReAAAAR6mJIylcWhXc2LQnySY4_3hSAcTiBebEvBCRwznOHaJtZ0EphyqWb4Qfa7Ou8m_waaKeYZDttffzY9hv_lQgBv9HQDpAxXvOcMeaA96xKU_xp68wS9oqF0XnY4iMPfDxEhBTsMS74fTtTkPGdpAb2P46GhT2UawCPHdFwHYGwlhMyCmKn86nTA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAHwIXpXoUGqrhVutXKUFi1hnAGrOIRcsVTiyePaaO2FRtgvAcpOIDDe723bdrCJN6S2f11xRhh5wAk1lqBRaLEVCDFYX3C1aJj1ykq8pqnV412tDhE_ZGqI-i1E7Fu5O5AglldwzhHjph6KVcOVtq6FZhi5eabQVZ2DNKvPY2nONtm4vVFN9K8PX35Rej8yG657HXU62T6E_CzfFgu8M3cZMlVe9n7aGsHO9hH5ZE5Oo3_8F1l7r51MFDoAeCZqbpAjntH3-vdQNU-2QfSjhJ85kqmJ4RSZIUs3gys9wlJEgA4SqO8IplKO4EEz1uBlvgYBiAhNfps0JI180xtdTW1gSEDfRSGFdJRiNeLU5CPe5HAUaFHwj0llaioAHZ8l4RhEZd0Ru8ZAV",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6301195,
+                            "lng": 77.4342585
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "25dda6ccbdcc609e60cb0c5700c5e0f66389501a",
+                    "name": "IGL CNG Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGX1tXTDuDDkRmxiw3nBrhKk",
+                    "rating": 4.1,
+                    "reference": "CnRnAAAAYSDMdogSB8741E2Z6szHf-D7StWHriscfJUhIEqaCRQe0OmljN9ggUQHn61aCtZSebcsu4R5tCo4Ji-pqMfCpjtMuYWdRjbXJxfPkPFApOwpUhFnK3h6FMmyuaO74HFlqObYhvUZsiUcisd1xGTSZxIQ2c1Yxr_N0DILZZyRc52q2hoU_uGDbYeShDfrsrn6Hs2TMPA4pvI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365494,
+                            "lng": 77.4432258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "529104905996ce20063b5c8afe2a35f3e4f27091",
+                    "name": "Indian Oil Petrol Pump and CNG Filling Station",
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101778321250477181138/photos\">pramesh jain</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANaV4k-_eE_5HG3YmM6n1lnr3_2DpV1-CMu9k3qMe-AfvG9E6vr-vfNM952N-c7bsHLxSeH-Ka7Vr1JrT-LzzV5x-0uPMgvi4mXr4jPe00SLzccAEdAVLGA4wGmVWkl1vGbizNhuS-p86DHRedfooCL9uYOLfJ2TNJNkRL_iET4uEhAO4Izl_SSqPe-NN5iMVBSzGhRMzAo4LHISlfKJIeSFQy6Q5rxFrA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJt1hKoyPuDDkRFrkcBNgoVag",
+                    "reference": "CpQBgwAAAIvDE0aaIcCvwDAfDI9-7Gpapaso9cyFjgP4iYooso5GSS8Z-KrMiKPWcpjapL-BmQS1pfxaWn2uth1t24g35UQa1YqfA8ygYb1Ax353Ua0Ww-SUl5VxtgZJlfM_2PLAbzXPmXw7HOotYo0yz06DZJlpk2-fMZ6mwj0IwMlZK3M2wuM9lwX6GeeGr6s5_GeUFxIQm8vB43lx8BbIFSUVsZc4PhoUW2jbD6UnMlOfw0sr_d_B4eeOKYU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ispat Nagr, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6317642,
+                            "lng": 77.44261019999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6320287,
+                                "lng": 77.44274114999999
+                            },
+                            "southwest": {
+                                "lat": 28.6309707,
+                                "lng": 77.44221734999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "479c9e06d4e3ea76e6d5bdfc45cc10196b8fad09",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJycv0mTzuDDkR_Mi19NCjJnU",
+                    "reference": "CnRvAAAAzyvNC_98KAtAPskaMmgIMI1jQj-XhjQa2lLz20IPzbivdsH2GC5D2G7-9xksIatgY3GXjuHE1qgkD_xAFHMoTTn3G4ppMyDr_1Dd7sc4XVXDfhNjmB-wLMWGHkUTFstW7bFXqEWX1RaEVD4oDVZqdhIQnEQJk-ZKYPXZVtxDfk0JqhoUkjAcFGeJh3J3UIoCj39AQKR6CSs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "104, Crossings Republik Road, Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.636881,
+                            "lng": 77.44320499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "9e851244e93a59e9895982a74788818393fd2da3",
+                    "name": "Jai Automobiles",
+                    "photos": [
+                        {
+                            "height": 4640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111542960340441533741/photos\">Nishant Saxena</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAO6UGyQvA2ibfVcM_BkKcgLaZJKaRyU2rTAG4urU1OyMUWS4lumNybS9hMFgIAQoMAC0LvJ4XTxIilDNbxIZHiBj0QX7_HOtg8YHZf64wiRRB3zm7IaZSfzlgyD3oqV0sclFCvlgnc6mqRO3HgNpQWyFlOQPe1yTHPU3Qr9FlklQEhDX_wY7zmBldPHoozaOYx3vGhQKY_P9OEsGdMKIfqvOKtj5ItVn_A",
+                            "width": 3480
+                        }
+                    ],
+                    "place_id": "ChIJSbTHvCPuDDkRKtcCw6WBE_A",
+                    "reference": "CnRjAAAAlowUlWmZfcjKPWTS6RX0l9Vgf5ERRQt3tTT1vu4YJ-jIX6jBCNN9oGLyX5ClZwgT2DNxXOlFJ6UnALYYRsi6By7Jk6z4LTffyenCmVOloqi1gBVKfVK760qYdkVtfQKiHkbwpobPb47ymIfd9odLahIQh1OWidTmcaRydwgvIBYc6RoUdbKMBkG3aA5n0NWggjAOgETiJYM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "car_repair",
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 24, G-1, south Side, GT Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639062,
+                            "lng": 77.425185
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c0355df6e31077d776dcecf156ff8f26804a9a1d",
+                    "name": "Reliance Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJj4eBOSvuDDkRoLe4SSIjh5I",
+                    "reference": "CnRoAAAABhboKb0XYXt99v_lxEi7sTT4vMb6f95BCkCmLxDi5h-KdwzF9YBBLUqfn9SUXmN5070xVoXQRVIB_Tj5ODHHvSfrv3a-ZPbN0gfD4HMQT3RL_pgQsg0N-fXmatLZb8zTFyx3cEc8Glpn1vIwuskt4hIQCdbSyK3a2cDYCFUm7a6fUBoU0e6noxM8FoDRABoAW8AmITmDfEg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gokula More, National Highway 24, Bhim Nagar, Vijay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6319699,
+                            "lng": 77.4678236
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63215335,
+                                "lng": 77.46799490000002
+                            },
+                            "southwest": {
+                                "lat": 28.63141954999999,
+                                "lng": 77.46730969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2407b2e5da055d5c9a7681d449bb094780f5c808",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJEy59rwnuDDkRyaIdXhNQr4A",
+                    "reference": "CnRwAAAAqHUkUgyc6573zuT3Sk88pn3GkRwVIE46K0-07oEzbnqUUvLGSS-v79u1VzgvGC4BriuD0Fb8mog74fkepDNs-3bPwdBt0nuwrO1VZW8zI4lAVy5NbBRDglJszIUrJH1VPRMCvJHG3IR8MlMU04cWQhIQujR5sEMPAWnG8ICNsbd-LRoUuLyHCs6A55MxpdBTfyZXlosh3d0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6318004,
+                            "lng": 77.468183
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63200955,
+                                "lng": 77.4683783
+                            },
+                            "southwest": {
+                                "lat": 28.63117295,
+                                "lng": 77.46759709999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "700fab2a7a3d6abf65de5e52dcdc7718f43360d6",
+                    "name": "Hindustan Petroleum Petrol Pump",
+                    "place_id": "ChIJvzADuwnuDDkRu-4fwZsP8To",
+                    "reference": "CoQBcgAAAOA5BBsK2qoYZGB4zVzDUSMJQMxAvCfYWUKzUlOgVDafxOkQWpgxwHTFnQ54e-TiiN8nXw0KY6jGWZL5JwjlZHpurSY3PJbTrKJv3uN-dkLaQbgVCSLyQzkX-pSGYBF2swYaokpUZv84p5kmtGgFnX17bnOBa2T0TKNMjleXyXdCEhC-AkqHVu4y7hVSqiJ-wyEAGhRGpdzFpekTB94tthxRh5v-hmettA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.640107,
+                            "lng": 77.42057299999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6402225,
+                                "lng": 77.42060510000002
+                            },
+                            "southwest": {
+                                "lat": 28.6400685,
+                                "lng": 77.4205623
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c5a113c396c923f858170be7112d7acf88f30b18",
+                    "name": "HP PETROL PUMP - DAYA HP FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpSHDyNXvDDkRhPQ3uKFI-m4",
+                    "reference": "CoQBewAAAAj_IaZ29JKXulTuuBuvcUn-Ttx1-H4A86jIIAxwy-e_ISRZLR0zizVT2rghacG7z8_rezmgzOmpxiFKcCLn-_970ynKv8tKiOzhRV05NJJX2e3AqicENG8rhJ-j1un52uMXN73sMqrX38tUBhr0RCgFEH6KpZpFCqBFAAhXtsJ_EhAn4_SEYh4LdW5SC4ZgukSAGhSjNbLbZpVXetCfm6uUW3VC_-Hr8w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Petrol Pump Village Mawai, Vijaynagar BYE Pass, Ghaziabad, National Highway 24, Jagdish Nagar, Ram Garhi, Lohia Nagar, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6375716,
+                            "lng": 77.4149231
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "918c5d1e56d4a5f7ec2147dbe606a2b29d3541e0",
+                    "name": "Mamta Cloth House",
+                    "place_id": "ChIJ3czZPNfvDDkRoVuCxexHzz8",
+                    "reference": "CnRkAAAAcfEjEzE-kA3GFhUElUm3YiANokgwpUYDnJ9Cb4SCgryL7uY9et4OTVEHIfYM8v54rbGHwPaJPMTV_BGYKeHKTXCCU4c4BKAcy3kGlHMF2026udd2QbTtgHVP86-g6Qi4TQ1Ovq6-d_-0fBNCJ_JaJhIQrwZnlJgExmIA_uVU7Bm1bxoU7ZIup8ia3nNLmkeasGHActcZKb4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "7, Christian Nagar, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6395078,
+                            "lng": 77.4571404
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63961935,
+                                "lng": 77.45724274999999
+                            },
+                            "southwest": {
+                                "lat": 28.63917314999999,
+                                "lng": 77.45683335000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8c4478a72cf984200e44495cb5f783d97f7c384",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ_UZkaBvuDDkRMeI6yRzfk0s",
+                    "reference": "CmReAAAAjknp-exyw1_QGvnvGXVni21iamwd-pDCZL9IJtBpWk0kV9wwj5ban77_MjT6WcLHwGBcA0Bxxfz5V1Vdq2Ma0ifPN3nFH3Nl3HwhTSAc1-054wc_fPrUkjfjdZRiPmJGEhCh9IlrOidcuBRibGi6afKKGhTKX3cMF6gsQZ8Jm7F0cc7zJSzZVQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365286,
+                            "lng": 77.4613054
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63652919999999,
+                                "lng": 77.46137075
+                            },
+                            "southwest": {
+                                "lat": 28.6365284,
+                                "lng": 77.46110934999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b885af66012ec0fdd615567fd3156fbb493fdd6d",
+                    "name": "Maansarovar Park",
+                    "place_id": "ChIJzfVzCwXuDDkRZRUBGcHqbdI",
+                    "reference": "CnRkAAAABdRa2jy-NWbUkRixj1Eh0UC1J6Vns-YSFx8iGEP2D9HxrFkuNM95-13QX2XngZ-cuZ3SjwHNJxIfbglwWa9BSeoFhGXmO3HArYASUoTatcCstjE_a0q6syS2D6ortpGJfS4Ys70DUgTtEV2eMh6afxIQyzCgAsB-JM9ObMNgOQZWnhoUeuTDcwKRuaPPq1s88mmSmo1JTAc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Lal Kuan Police Station,, National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6390229,
+                            "lng": 77.425206
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.639811,
+                                "lng": 77.4254085
+                            },
+                            "southwest": {
+                                "lat": 28.6387602,
+                                "lng": 77.4251385
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a4c0d3ffe7f3132da9ec16669fef69fced70dc7c",
+                    "name": "Petrol and CNG Pump",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbYl2OSvuDDkR30N835a3tlE",
+                    "rating": 4.1,
+                    "reference": "CnRmAAAAO1uQZQwY6UEBVeBLvRdyGD7CtijVsLaz-x9J60AbxOtJiUo8EMzbx4AaM17LTJXvP-En7NIt55x8TlUsN-Eum9t3uo8ceTMQkRVWGPKMGHzi0fPsPhhNygLKm4CtpBF64PUc0LEZRmz4e_-FD4m-QhIQ4uY7Sm2UKGSNi0J6hhwjZBoU3mKE0PuVhGhmqp7P52Fb_Lik_wQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 24, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6391831,
+                            "lng": 77.42528349999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63972025,
+                                "lng": 77.42542165
+                            },
+                            "southwest": {
+                                "lat": 28.63900405,
+                                "lng": 77.42523745
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "19ee2bc7ef81e5f442255ec6b23ec6f6e0d2397d",
+                    "name": "Sharma Filling Station",
+                    "place_id": "ChIJfyndOyvuDDkRIzOV2hYVjwg",
+                    "reference": "CnRpAAAAYq9gMbuMYw9_3QryDYe9znyESlwQE75jRuDu_SrWcp4Yt_XtxXD17X1FbaYqlXmMrMuOW3sOfo_HUIKci_K9NR7svrXltmj3LCwRyGhRM5dzWJ6Tyby9b2pRGei9OZiOCh8w8gpH9gCObHV4lac4_xIQeqUPWgUSHxNkZmUL7Hm_UxoUvwyCow2r6pFdIlM9_fWNfCy7Bg8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Asian Highway 2, Bhim Nagar, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63539,
+                            "lng": 77.46273699999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63546160000001,
+                                "lng": 77.46281119999998
+                            },
+                            "southwest": {
+                                "lat": 28.6351752,
+                                "lng": 77.4625144
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3a5b6003c8e2fa70df748039fabb43dccd6026d6",
+                    "name": "Indial Oil - Lal Kunwa",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJaRnyiwXuDDkRdDg73Az20_g",
+                    "reference": "CnRqAAAAp_4tz-cK_zq-0MySGYFHUL_NeSI16zwKADUHLgzol9fWR-h4Rbzlg5GtBLEVHl7Zg9DuOzQaETl5szY5GK41ODezB-555dHnEw4OyOHzZRtV5jS--VSG_a7itlLv_uCX-ZjMXtDWBWbvFgguR-zishIQuxkb_EcPSMcHjygiX52oRBoUpdBQg7SWV0JW63XMlRp7LDBWw8g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Grand Trunk Road, Lal Kunwa, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6510753,
+                            "lng": 77.4407021
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6511428,
+                                "lng": 77.4407619
+                            },
+                            "southwest": {
+                                "lat": 28.6508728,
+                                "lng": 77.44052269999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d298291e435188fc59c9cab042122e79552f7ea0",
+                    "name": "Rakesh Marg Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 472,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115846552044228492242/photos\">vikrant pandit</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAMbazn9GxJ4OOgOL9OK1ZiFsLCi9l1zcRxUl5HFdXv-j2Wl3zVcmQNZZonx3QSrfdYOLsJyYoeZ7-iot60NnW5RnQhJ7-IqJgX70Ed3W7bWZZHw9Qkcc5wqP4xEY9p5gHuZshN_GSJzgo_Hh892Obvyk-qNXy2ygheBEBwRYCdcVEhCrJ0DhGlJNmAK-txhzG-6yGhQEgU3oZYKvIfIM1wMUdQOmGSMOUQ",
+                            "width": 720
+                        }
+                    ],
+                    "place_id": "ChIJNUDy_tvxDDkR3J0hgKVUaJg",
+                    "rating": 3.4,
+                    "reference": "CnRrAAAAtPiyEwES3zHfrtrVyasHfWtgmVdLv9Gk9yhI9d4k4JOE7eWqe6-K5c_JLMg0Sd2EPJ1ohHllX622RwBmjjNdSEqmnhT1K3ovGiytbB7DaYH60FsZheR0WstSGdkJYMfe0kzzHykaZwyhOvnwCsFbcxIQgC1dCbl3HnJB-6dQPriq1hoUo-gPwS7dAA5gyqYDstBgLkiZi7Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.631543,
+                            "lng": 77.468017
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c4736d1a07c8a06a7e937e7cdc89eb7d32d0f0fc",
+                    "name": "HP PETROL PUMP - QUALITY HP FILL POINT",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJtwtJownuDDkRRJ78NEVZx_c",
+                    "reference": "CoQBegAAAOmHBJVxMKMBgu4m3_HsfFVbvAM8LXwr-oeE6Mq1HUl39mY_PtQvzEgHXncGEu5sEJVkjKuq_0KP7xqbxnWyG8L-tM2X4iG9H26onak_UPso2h8mfyeIO_BASwAsf8t-OfG6N3GrxlaU1_CMooUXXt0mtRCsRF_jSf0z0lXUaR3_EhA_VNeZR_q_YjXF9umvnpWyGhRiXi70irQjc1uItgjaXTLak-1dZA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Shapur Bhametha Ghaziabad, Main G.T.Road, Lal Kuan, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.651204,
+                            "lng": 77.440489
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7abf98e4545938a4d45a95b723092b9aaa5b3579",
+                    "name": "IBP Petrol Pump",
+                    "place_id": "ChIJ75oq8NvxDDkRX6QyPqR2v6Q",
+                    "reference": "CnRjAAAAUJ8sBJV1l8VgNGf21T2O4tuHXfCJvf4mdVRPX_kCftLyQJeTkSl8ZdK3iPqDK9WVCgdkY7bH0bbCMC-OgWTyutiglY_rVhJlsZMSpyNa5je8eY_Y9eo4KzurAZ_sCEXFoXdVKNTiV20nY4UoaoboDRIQA4mVW7UJCM3sHAOID7OkIBoURkNLa8BnP920Gi-b5CvFjgLpVpk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.652299,
+                            "lng": 77.4419229
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65247195,
+                                "lng": 77.4420915
+                            },
+                            "southwest": {
+                                "lat": 28.65224135,
+                                "lng": 77.44186669999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "53d38d0b8a1b0466271fc44c13c097e61b94b6d6",
+                    "name": "IBP Petrol Pump",
+                    "place_id": "ChIJf7oncdzxDDkRgEAk2QGogS0",
+                    "reference": "CnRiAAAAZTJ5iqz5GWionEWoNnIT_IGBd50ILDV0dOwOhxhaxSHu7HJYO_tMLO9-Zl1lImH7mDdbQq_ThIs3AmMLEbq5jlLRu7_tcmE5BKmx5oTCwyiwv-T62WL4u8T2pplSuPlUYot9rleac2ZLZHgzgecUqBIQHhRYPU0Au1QZCBwYSab5RhoU2D3jQA7Tbyp4eUwa7ysExc0MHWE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gali Number 2, Pocket K, Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6435073,
+                            "lng": 77.4217848
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5baaaf3cb28bfaad4999d765ba0f42997198058a",
+                    "name": "Ishwar CNG",
+                    "photos": [
+                        {
+                            "height": 472,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115939030052089771658/photos\">Adv.Vikram Arya</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAE6AW3qQyg3ssFb81aIG9PW7xxVp5LQE_6WRsAg2EgETTcBaXT2NMisj-wdNJV0CwtP9g33dskQ-B8i2LUtH9-r0RiFOUhnxpapeUSO9FuXwmzAQ29XAvUd887izaHUByMu242mTj541XrMVTpCJu2UK3RITtfVHUfzDW-hmhZpyEhA8LsascILArcAlb3kIo3-ZGhSEWLeKpTWW0KR_1jbgZlDTpKpKSQ",
+                            "width": 413
+                        }
+                    ],
+                    "place_id": "ChIJaS61iCrwDDkRTwVUUttT5e4",
+                    "reference": "CmReAAAArx33BOxcZxeEITiAuc9xkhcTu74zq5eQ6lU_JqLUdv-DJkQXnZRyRLA97aef7T2YDFvi8PFQk_dttlLLHTp3Uc9YIJ1JLtkxAM1mY68KLUVEMY1DShR0GIRv9U0LTDm2EhDmFmECwPTrlkPJJBnYWKLrGhR6jtlZ61dY3sQURw0q0jVxfK1yPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 12, Advocate Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6175314,
+                            "lng": 77.4190862
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "793f3b434023608fdcfe2a3825e0f213832f6f54",
+                    "name": "Indian Oil Petrol Station",
+                    "place_id": "ChIJISZV2rXvDDkRLdNiaBETlf0",
+                    "reference": "CnRtAAAA_D5qIk-8G2I2aNUkZW0wHl_t-q1rSXYv6pvOfvkUulbQFR4fm-RtUhF8sMktcG09hA_d9ItX0AKVsoPl5AMW6IEJPeFUgXY8o5bSC_xQoQ-i0lJ2vnW4dUoaFsI-I9InXNVisiTAXfHUZ9tW7q54lBIQV4mkp8t2O-8TNMVh4zR6nhoUOg-S7tt3mzV3poNIKOPJo0uSZwk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gaur City 2, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.643495,
+                            "lng": 77.465667
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6436984,
+                                "lng": 77.4658661
+                            },
+                            "southwest": {
+                                "lat": 28.6434272,
+                                "lng": 77.4650697
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ae579e659c02105953834e880bc33a81ab781d8b",
+                    "name": "HP PETROL PUMP - NANDINI FILL POINT",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101745217432044600467/photos\">Abhimanyu Agrawal</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAG_bRldBpzynlFxHoKbK1ZZVqdyrVgldHUWe3KXb8RieszsUGLNzViBtUBgnrNtOAb3XwtHuXglVVn9rfx5EQBMBDWCgiQos93Vx4lhi7pZI1uyD06eZwGUJ5xigvQPXKDrx5W6vusYMb2mwRQDcvyWjPOHQRdwvbWakOTGO43NVEhDGGUjWgg6CU6e6yV82pYfCGhQIcsbo9E8vec6CvRjx3SluCQqMbA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRTJgcQHuDDkRy7xDTXlvUvo",
+                    "rating": 3.4,
+                    "reference": "CoQBdwAAAATWl5OXTaJMtd7P6jsGqsSem421Sso3ydTaJErjU4KwtDxC1JitmVVPCExx5-IpnpObj4XRaWNSQD5hIJl2-Vyysq48xEtwgcqKW3o3nav4hia-H-e0zELhhKlGQtXMOja19v9c4J9k2Lm_-4iIflAymaBjr98gUEQSeqsd5HgCEhAgGkn4QmQcNJZ8QjAvMWRPGhRssOVlbJX9ZnI6UK-AEiF4duQEiw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Shahpur Bhameta Ghaziabad, National Highway 24, Jagdish Nagar, Ram Garhi, Lohia Nagar, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6449673,
+                            "lng": 77.4191945
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5950d4a109d706e9c14c168b968b2903f226a31b",
+                    "name": "sulabh suchaley",
+                    "place_id": "ChIJNeUKLirwDDkRturpEoZcCj8",
+                    "reference": "CnRiAAAA6nasgV8b2fggqpn-_bdnhzd5-BEnxDbtKmgz6l77nlfGne53XysoBNMg3O2LAriS_LNCaxKqg2RlOha5vqb94s_SxNr702JKG5u0tc--ZaPK1uD_RmIioGpt3nxris-xKkNTjuixqTgnKj2ZIqrJOBIQ3IfBPJngQSAvDdKk9siffRoULn2tI_gqnwJnM_skgO9preHrg1g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "45, Railway Colony, Advocate Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6064804,
+                            "lng": 77.4267003
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "86e69657b2df0d4755440aba5dae727e6ae8781d",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ87RG-lLuDDkRdDLu_hoMe00",
+                    "reference": "CnRpAAAAfY9MPk7VSbOqyvslNm96-Q2dGl9xBmnMJYPxsITEPPqt0Ct7wsGNgeBdmfUyUunWzMnnMLd423k_1sKrEKMyu21Gn-GtqnGR1ypTsIwQ7OE7Jh2oYwTUhtA-3P6wEmQXWqXNpYUQce4bhmDZFly0dRIQ6fFmSLXwq_28bMn-2LsPixoUMdkIsPekacCCJU8CG46fPHTwq34",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "201009, Gaur City 1, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAJU7nKkMCag64IFfCsP6GcNVjEk3kmMozvwezCKdtLzyfMGVulIxmpBjIjE20Chn-DBGwglAt5AXrcBCzIjjMNZg5UKOFAmu-4pV6sIt33N4uxLJ80bO96prtyyZ_Aq8baFw_N6XryAiDYm-aOtnDDPQtexY-TyYZIvVPjVzDX0ipbrLx5VnoNq_L_WBm4ksJaO65hbE3QvjXn4gOHjELpB-mjYWyZQcAPCKv4UtpBMzYABoZk1C6dsVjO8xHR3pJXdGbktoIbJ3YfNT90s6nMPP3DWAkFPcmo3poX4uGCpaMZNXBAnNRt2ehrTMsSRif1JxcooiF1rWmytPL1UFZvgSEL_tlum8WeiObuUjNJVyZYkaFKDD8eIwS2PbgSRT1FDvU8T8kui2",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6301195,
+                            "lng": 77.4342585
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "25dda6ccbdcc609e60cb0c5700c5e0f66389501a",
+                    "name": "IGL CNG Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGX1tXTDuDDkRmxiw3nBrhKk",
+                    "rating": 4.1,
+                    "reference": "CnRnAAAAipPCaiTkkJcjNV_kxvtQXo6vfkHrfTVOVCQUiBDscRP-_2c0nlhAmlygRJ0Mgp6Wcq0COJMUOZeJj2VtOLt-bs2FtpnGk_ZaUHi1NQNsfgdXowr_WcUPaMbekvqwJwzPsyR4S_IsJgMjWbczLGxLQxIQxMwc30HpKB5J9n6RmQ1gqhoUIRiKLYsPKv71nBNZ_3aOk024B5E",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365494,
+                            "lng": 77.4432258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "529104905996ce20063b5c8afe2a35f3e4f27091",
+                    "name": "Indian Oil Petrol Pump and CNG Filling Station",
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101778321250477181138/photos\">pramesh jain</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHoSZfynsAVEGd8TmXS4KcRlNQ86OIAB5A0W8OrWnAsw2EH61-bnguQS3P0bNC3jgqxY29ORrN7dj9v8X3E0s3_c53x3ch9hUAz7njqmoE37VHMd_W68bkQgmr4CN-iQ61g73X10-ScIbGhFFlvNOXj2SLGyOpMrAvO3JVHT1GxpEhAF9XP_wdgrit40tquEshAVGhT59d5QFbIjfEY7irxpZNIgwI7jnQ",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJt1hKoyPuDDkRFrkcBNgoVag",
+                    "reference": "CpQBgwAAAEeBC-aNVwMjmDFVrE4cppTAJarIz_vhTBUAn2VkHGmgIZvzFxh5cE6AzzYKZ2f7qs_y1SmxlyvFhzV50D67lUPxZBHJVrwaf14otwpBTg-ds4YGjnHxcEPeApA-FpFwlmjYi1x-1nGfpMn2ujUXTUHs16cWNjIoAhmCH02bJOULHB12w90Z5MBADmtHw1K_VRIQ7rQbmnQdEpIEFOB0bVvmZxoUBYnhfz8YHlqO9fikJuIt7BoKeKs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ispat Nagr, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6319699,
+                            "lng": 77.4678236
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63215335,
+                                "lng": 77.46799490000002
+                            },
+                            "southwest": {
+                                "lat": 28.63141954999999,
+                                "lng": 77.46730969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2407b2e5da055d5c9a7681d449bb094780f5c808",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJEy59rwnuDDkRyaIdXhNQr4A",
+                    "reference": "CnRwAAAAj8tEodvE_NTGX4jHPC-uWRsbE0WtFPazvlyVUBh7m3Ekx5KYVv5Nx376xvQXqscitv9esTJ5E955Bs8lCSQiBu-ucc7MhXK8fN8n4mrEJUwJfkAey04t6KK8ovjO72xSXOrk2SpsK3eQhgaISb29xBIQ7N53omNU2QrN8D26_N92sxoUvEMgbcB5jGtx11gTaE9IOl5rhIQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6317642,
+                            "lng": 77.44261019999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6320287,
+                                "lng": 77.44274114999999
+                            },
+                            "southwest": {
+                                "lat": 28.6309707,
+                                "lng": 77.44221734999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "479c9e06d4e3ea76e6d5bdfc45cc10196b8fad09",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJycv0mTzuDDkR_Mi19NCjJnU",
+                    "reference": "CnRvAAAAEYN23qfU3y_KTBUvIiwR4dDuBqzgFa3-P66b9SWSxNaRjEBHnRY1x8F7COoj9My7DfumKqo_L37Z4lY4tHZKHPp91rZfPD4Q1nMcUcbma1tq5hLlxnxSKKFeRgICbqR5vIplKjEzJQGe0IXUrQMjnRIQbO_8qbs3olLwQ9Tr6i9ClhoUNd5KxMWInJy-8IpYBXDbNBwZEB8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "104, Crossings Republik Road, Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.636881,
+                            "lng": 77.44320499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "9e851244e93a59e9895982a74788818393fd2da3",
+                    "name": "Jai Automobiles",
+                    "photos": [
+                        {
+                            "height": 4640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111542960340441533741/photos\">Nishant Saxena</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJuNRz5vHBfZmp6U8XPCcmcwVJtXgouA4E3ePOoCs-Zg9_jEQ-i239gAgMWQubpZ3Dq3TunrpF1-EiQjXHDdduamn-2iSC0GSkQeSqiMWTZwdtfIPrA9EOHtko8V993ybYhZ-7jFtzaZ_q4xNtPPNBKD0l-SdVdBQT3MpC_c_dm1EhAZfcgE2DW7c3MQnZN6s2CpGhTETdWwfxZ5fRXNF7OjCiLx4vPEHw",
+                            "width": 3480
+                        }
+                    ],
+                    "place_id": "ChIJSbTHvCPuDDkRKtcCw6WBE_A",
+                    "reference": "CnRjAAAAp_v3t8lWO6trOVjTsxGcmgETmoXoE_FI7x8DdBwcfVbMaI5Wh0zKWTLsZOdXxVyOAtgPtgzBL7OqGbGmt2MKYX3xrKq5LpCXTg7Iu6xIREjoKgLA_JcMW2TMBMPAz8qtl155w6PK6WmJCtS0IJ-I8xIQLhthYKqsG4pQ7qwRNzegURoURpnPIl3WfvRPjnL7r4EU8D7DRPU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "car_repair",
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 24, G-1, south Side, GT Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639062,
+                            "lng": 77.425185
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c0355df6e31077d776dcecf156ff8f26804a9a1d",
+                    "name": "Reliance Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJj4eBOSvuDDkRoLe4SSIjh5I",
+                    "reference": "CnRoAAAAW0jxir16_ERniRNYbZYaYQQNRk_IjuEnk_9aWU43YUULmmLvOnOKrBqtR6YQitRDesm5BLiyjE2VKjHpfWtqDGUo1oNRqisrr7uRZNvrIlkLmOaqb3qSF6NoIZ_s0IdwaokGjjGxZWhCnTy9U0pDLBIQaEr2noR6l5bEG0Mf2yYknRoU-4nyKAlZB58LilTNcMy-xPhsEWw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gokula More, National Highway 24, Bhim Nagar, Vijay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6318004,
+                            "lng": 77.468183
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63200955,
+                                "lng": 77.4683783
+                            },
+                            "southwest": {
+                                "lat": 28.63117295,
+                                "lng": 77.46759709999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "700fab2a7a3d6abf65de5e52dcdc7718f43360d6",
+                    "name": "Hindustan Petroleum Petrol Pump",
+                    "place_id": "ChIJvzADuwnuDDkRu-4fwZsP8To",
+                    "reference": "CoQBcgAAAM-XJyal7zPbkBIvAPKn2YgwWL1Zct7bakZ12nNJIFnyWqqJMPnbKxx3aNnWl0ORc1otp01sB1irUGNdO7jqm2dK372WGMUbNKE8XZdsS7iePlabWnvctbpYMgAlsgbeHecSbVnL3zZOR14GpWeOB9VRIev5wCN2zzTqudvXZWdIEhDOiUixSD3C-M2xWGjY8FAaGhSgkIh0bSgrGnmEYJy3yvAsbSKtCg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.640107,
+                            "lng": 77.42057299999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6402225,
+                                "lng": 77.42060510000002
+                            },
+                            "southwest": {
+                                "lat": 28.6400685,
+                                "lng": 77.4205623
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c5a113c396c923f858170be7112d7acf88f30b18",
+                    "name": "HP PETROL PUMP - DAYA HP FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpSHDyNXvDDkRhPQ3uKFI-m4",
+                    "reference": "CoQBewAAAEeORUGX93vLJuWv3Z2JnBxW-mS-veeHxrejxOWT4wcu_KS-DX4KzwQZ6CpUQH4H2XkYlUCbGlWgZU1NJxTsnCTBmdkfZEhnpp6s7-72mwDtdaHzNwN95C3d_ActZjlH7LzDHJP00AXoDDiLv8rqqf3J0yVdWdwtPoGo0N8RWaqtEhD9cFh4eKtTEomtm7F-4IxHGhTa0CXh7Py40UmazXnPIBeBZbE_fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Petrol Pump Village Mawai, Vijaynagar BYE Pass, Ghaziabad, National Highway 24, Jagdish Nagar, Ram Garhi, Lohia Nagar, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6375716,
+                            "lng": 77.4149231
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "918c5d1e56d4a5f7ec2147dbe606a2b29d3541e0",
+                    "name": "Mamta Cloth House",
+                    "place_id": "ChIJ3czZPNfvDDkRoVuCxexHzz8",
+                    "reference": "CnRkAAAApgUJWm8nUIUH6B8KWVQaq18KNLsRqp-XVSq4Zw38qFpBShqCwE-tIRstG_DP4fVbtr1rUuCkOxq9oli4Ngj53lsNMHCv7WPKRyCz35I79UUtwao-h-vm4TShAMfXot-OMaHYSxNqovrpyYzEFs_YghIQFzRtcj6DOZTarkVvuqWaGBoUeffGSF38XubRsjSDupE3EmND1vU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "7, Christian Nagar, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660754,
+                            "lng": 77.435656
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6608194,
+                                "lng": 77.43586794999999
+                            },
+                            "southwest": {
+                                "lat": 28.66073219999999,
+                                "lng": 77.43558534999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "798d6999ec38cb75e5da7cfe0a1a8fe01440b2ab",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJxZJDVs_xDDkROfUJv-ZhGrE",
+                    "reference": "CnRqAAAAO3z08ubHdmKPxfFfv1-N0DsGeNiAo2F9mqVmqikfD3l_VmUmxt11u3-icoGT1wgHFaw1VWDEt_kXrTYcQc1r1rDCoiHTiGWJy1rCGmGC6QeqncohpC5iCD6MC-5_K1_kqiaIuWw_p_5z2g4SrhiGTxIQD8ZSEINeMrFEsNQhuil_YRoUlPiVnCP6blNECQZDc02OxfIqkWQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Santosh Hospital, Ambedkar Road, Kalka Garhi, Naya Ganj, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.622454,
+                            "lng": 77.480899
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62252839999999,
+                                "lng": 77.48096734999999
+                            },
+                            "southwest": {
+                                "lat": 28.6222308,
+                                "lng": 77.48069394999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5a7e338ca5916bc531ab811685660a5274ced10e",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJqcqFzNztDDkRrwUbvUUsgN4",
+                    "reference": "CmReAAAAbtfoj0KQMv7pTsB-5NzmxomcKRCys28M2RfmYOpDtj14td4TJXHQrqhoaHOfWxBs_b14aaA4jpExptW4MSUm9xfVjFDlNBQcH6pAVBl_W8Zaey_j6zsrOgN3pVVSdGhnEhBaQ0BhC_0Yu1-_VJo7FWUSGhQ_OS4-nAlLJolQgdQQZ-khbMRQ5w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Grand Trunk Road, G.B.Nagar, Chhapraula"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6395078,
+                            "lng": 77.4571404
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63961935,
+                                "lng": 77.45724274999999
+                            },
+                            "southwest": {
+                                "lat": 28.63917314999999,
+                                "lng": 77.45683335000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8c4478a72cf984200e44495cb5f783d97f7c384",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ_UZkaBvuDDkRMeI6yRzfk0s",
+                    "reference": "CmReAAAAKGUpNKNMU4fbjdEWbSisvqw-7-lAFU_ffnxcdRCfk6ypOT4k2BD-nBxSrEOe6VcDRYkw0rMxL03To2QRuvH-769E6HzloOtLM91e84apYt00P4UxSu1HJCTivsh05oEQEhCpGYdcQwWC8gdH6r7k3ov9GhRraDm0Uom4Nbt--_MNMpQMkRjr_Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365286,
+                            "lng": 77.4613054
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63652919999999,
+                                "lng": 77.46137075
+                            },
+                            "southwest": {
+                                "lat": 28.6365284,
+                                "lng": 77.46110934999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b885af66012ec0fdd615567fd3156fbb493fdd6d",
+                    "name": "Maansarovar Park",
+                    "place_id": "ChIJzfVzCwXuDDkRZRUBGcHqbdI",
+                    "reference": "CnRkAAAAyiUVMqlBcuAd0DUvZ0G0aNZcjlPDuwYewipcA0zG3a4Sqx_BuEe38Q7Nv1kue0_3J764sQJwQEf09oTbulB6JPgSspnfm6IDA_nCnA6ZexdDY4nGoQP8zyw55Sy56RvBxceHT5VbGpFKA6-p5T0AfhIQJufEg6mvxEvWLpZL5vL3ZxoURazdQBtNDqIIyvot2lXsGkDS7EY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Lal Kuan Police Station,, National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6390229,
+                            "lng": 77.425206
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.639811,
+                                "lng": 77.4254085
+                            },
+                            "southwest": {
+                                "lat": 28.6387602,
+                                "lng": 77.4251385
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a4c0d3ffe7f3132da9ec16669fef69fced70dc7c",
+                    "name": "Petrol and CNG Pump",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbYl2OSvuDDkR30N835a3tlE",
+                    "rating": 4.1,
+                    "reference": "CnRmAAAAbtzUmMTQ7RKPPdTmHenfiEjPE1p7hwFipMkN20IEyG8_n1Fg50aU6INrfk0q14pduirnljDVTm3X5ndAmE0v8zKi081GhorVLK_uBQmPAuHlqYDBA_p8Vxi69kscB8AWeSGj2kb-tvJ6wW-1Vyff9xIQkbYEjZmTnu-jvBCFjHkA_RoUeJ3yqe83XHN-GWZeNIG0BRWbQXs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 24, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6391831,
+                            "lng": 77.42528349999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63972025,
+                                "lng": 77.42542165
+                            },
+                            "southwest": {
+                                "lat": 28.63900405,
+                                "lng": 77.42523745
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "19ee2bc7ef81e5f442255ec6b23ec6f6e0d2397d",
+                    "name": "Sharma Filling Station",
+                    "place_id": "ChIJfyndOyvuDDkRIzOV2hYVjwg",
+                    "reference": "CnRpAAAAP6YFmSlhfsMzKOxoBnrt7g4c8_dhm64tAXTTp5LOOzfiqOVkAwZRfb8OmQosKBIQmhBfT2zSNi9U8UsAX5K4NTQgTJqzMgkcT4KNVPpn-Ti8ujOoKeNZ3DxzeoONKdiriUAP2c1ciw0Qpg_CZ0V5RxIQM_QPkXF76F-fn9GIKDfnlBoUsiBVnpR1F0SyBx_qud7VrX3JRQ8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Asian Highway 2, Bhim Nagar, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63539,
+                            "lng": 77.46273699999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63546160000001,
+                                "lng": 77.46281119999998
+                            },
+                            "southwest": {
+                                "lat": 28.6351752,
+                                "lng": 77.4625144
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3a5b6003c8e2fa70df748039fabb43dccd6026d6",
+                    "name": "Indial Oil - Lal Kunwa",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJaRnyiwXuDDkRdDg73Az20_g",
+                    "reference": "CnRqAAAA3fFtVzLA2oKR3vDOoYXIt9OuuoRJXBKZ_NoV9kjq4DsWsxeoXFe0g-cSXS2bMhx4RLYwTEATJn0O2elystDxvQ8IKOwiVbn6S7FR-hvgeygS7WdAYEvvsrQC4zk5qF5MVVuyk19PQvGqjTNi6-ZbRBIQ5WwevuWY3keTvGu2MUOFPxoUR0qnKXGQoLZryj-Ab-3whes5eek",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Grand Trunk Road, Lal Kunwa, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6510753,
+                            "lng": 77.4407021
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6511428,
+                                "lng": 77.4407619
+                            },
+                            "southwest": {
+                                "lat": 28.6508728,
+                                "lng": 77.44052269999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d298291e435188fc59c9cab042122e79552f7ea0",
+                    "name": "Rakesh Marg Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 472,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115846552044228492242/photos\">vikrant pandit</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAABRvjPfvvS4Mgb2Sxh_qaqu1TIYbC2g7nVXChE1EabKUZdjxM_-fAjyI2MCLwzu6drxg8jTFib4PxWm6FQ2zSxJcgvmUtOakfeLewMAExFudUwa7uC0EBh6Wcaai_Hrw2N0SuT_mM1ZrWZqBT7Kx_Zl8G_ogqfvGH9WES0bHJEmDEhAQOcyOZd6UikkgVKvGeDYPGhSU90_1vUWhxsrAE28D4C1y1Z486Q",
+                            "width": 720
+                        }
+                    ],
+                    "place_id": "ChIJNUDy_tvxDDkR3J0hgKVUaJg",
+                    "rating": 3.4,
+                    "reference": "CnRrAAAA9k0_hzYHXoKiDsWNlGpnxAvBjqF_yaIVjMrn4X2xVzVGO43tAHPy5fXYVa_lAICfQ2n5JJ2JYMBeG5Ws03oWAN1u2y0i6rkcPHyn02oAc64FkUzuEXK2nm0tePZ8EM17RUHarZltj1QbUFXUBvs6ahIQBUZ_a2YXs9m7WRmApCVA7xoUbGqlrUqRynNzvqcDhQZeyzZuY1c",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.631543,
+                            "lng": 77.468017
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c4736d1a07c8a06a7e937e7cdc89eb7d32d0f0fc",
+                    "name": "HP PETROL PUMP - QUALITY HP FILL POINT",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJtwtJownuDDkRRJ78NEVZx_c",
+                    "reference": "CoQBegAAAEdyWaT1LZE0l7MQelpPjyX9fTdHMoR7BMxd61crwkLPgyXmL9kl-tpcrpdnfg6xv2DS5gyIl4N18jUhjeFMZyTAmJ5bZA-WL28kQoDPihrUVxRev-3EBYQ7o0lk5PTx8uGXqkZLqVGCqJ7MT8P_fdlI3tLVSWtnkUccq1Mzw5YBEhA5fcPn5hPElvq7GaDE_P-cGhRhGrXcK4Brv9cftaIRNMrLIWRejQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Shapur Bhametha Ghaziabad, Main G.T.Road, Lal Kuan, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.651204,
+                            "lng": 77.440489
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7abf98e4545938a4d45a95b723092b9aaa5b3579",
+                    "name": "IBP Petrol Pump",
+                    "place_id": "ChIJ75oq8NvxDDkRX6QyPqR2v6Q",
+                    "reference": "CnRjAAAAz0LBVtw2EVZ0Kf_ZRjRUXFSYtnnl1seROhfHSNOEZZ-ZenI_W3m_k2XYVs4KUclJyte2_RiXIMn915iGnaOS1LFscLHr56J1czlWarBT8C-9r7KFol2gvRIFT1kXDK62pf-Sm6G8_G8-XhPNvwoA1BIQj3Wla3o5n1LNR5U6Knk9IRoU18zUAZjgdgkKT6P9mQZbqC_AUl8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.652299,
+                            "lng": 77.4419229
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.65247195,
+                                "lng": 77.4420915
+                            },
+                            "southwest": {
+                                "lat": 28.65224135,
+                                "lng": 77.44186669999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "53d38d0b8a1b0466271fc44c13c097e61b94b6d6",
+                    "name": "IBP Petrol Pump",
+                    "place_id": "ChIJf7oncdzxDDkRgEAk2QGogS0",
+                    "reference": "CnRiAAAA-f6wzv2WcuOPTHmCryjgA0TZcLgpU3vGjyPso1IqSmcqFIdCxZ-IuPjHBzpwKGRHw0JTDcmE45A9q9gbzSa20f_51pGBC9Eszk9im48wvTBtX30YvTtr08GfTALTD0CuV2ZP9kc3ExpU875EQ4xXzBIQqsWYgB02aGBQgTDVLn6DAxoUtH4FVwpLWUpdJRWdHboJbWK3KV4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gali Number 2, Pocket K, Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6435073,
+                            "lng": 77.4217848
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5baaaf3cb28bfaad4999d765ba0f42997198058a",
+                    "name": "Ishwar CNG",
+                    "photos": [
+                        {
+                            "height": 472,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115939030052089771658/photos\">Adv.Vikram Arya</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAN4u6jPNu-ufB8RBTD5zbNPbUp2T1izvyA8RdkM8lLmAQ4irqSGO7M5Fr9uxHOtJzioojLEGWdQ-gUWyP7nkTamfWfOu3nrFTF1l8Et7jETsbKL38_ZIhLAYMLafH8Z67RrUkK0rQ3WeYRBGOuP_nppYzn3qyQcq95ZIlunqotZWEhBBRl9PbeXqhrxqmDbN_GqMGhQ6OAuqGtype7mktW4lTw4_do10PQ",
+                            "width": 413
+                        }
+                    ],
+                    "place_id": "ChIJaS61iCrwDDkRTwVUUttT5e4",
+                    "reference": "CmReAAAAm0KP8Z9wTkEejO3jBhDT0nQ2nib6tLjkFBYhyegF2ROWYCm_lx5vPvp8EGjTHxuqJrstKjzjx9169GcGYPyyiNWFpGxK0FeeraIzAkFfTNhV19UR9rqW6Ge1ItsguvVXEhChKf2xIwiFjDAJhSlR50Y2GhRZaqEE6dz3XDUCZSF97A_BwdfaDw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 12, Advocate Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6175314,
+                            "lng": 77.4190862
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "793f3b434023608fdcfe2a3825e0f213832f6f54",
+                    "name": "Indian Oil Petrol Station",
+                    "place_id": "ChIJISZV2rXvDDkRLdNiaBETlf0",
+                    "reference": "CnRtAAAAlfVG5p8w4dam_CHppR7VHtpYhGDCrPP8D-3sprQDWkxgmhUr8trNeDiXz8I_iE9nM7GstFsh5eDr1Yy2So2ROuQcTpjbvf_j1CbvfCcwjufG2DVHxx8Ekp8ecQBh2lxLH_vDXbJTzLYOWwSItdbnZBIQxPowvAEsAqGSV9wi-oAhcRoUaOtM331-EDApKJHOaqrl6eZTAFM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gaur City 2, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.643495,
+                            "lng": 77.465667
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6436984,
+                                "lng": 77.4658661
+                            },
+                            "southwest": {
+                                "lat": 28.6434272,
+                                "lng": 77.4650697
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ae579e659c02105953834e880bc33a81ab781d8b",
+                    "name": "HP PETROL PUMP - NANDINI FILL POINT",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101745217432044600467/photos\">Abhimanyu Agrawal</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJc7Z2em280rOMwd7jfzGVfYTbL3hreQKimRmxPYI9cQON7bs4OZqVAnfzD4FMkYCUnBODWtC2fqRQhhWwe2HoHhEez8Besh72DBIobHoIM8xK3zJd1pxKd0YsW4Ree2iuBd-z4L47rsuBnSbs9EXGkUiSN_tfVpTXBZ9c0LJT2REhAQ_XdkMVxS8b5QMuHQAZIzGhRNfOS2JJivYOAL4H-jEojW9nfr9g",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRTJgcQHuDDkRy7xDTXlvUvo",
+                    "rating": 3.4,
+                    "reference": "CoQBdwAAAPE4hHaeLcgG5MN_4JCoCOa0GVriPeR8EvbI1GhMCcP3eOaN_p8CZYkLt43gOq1gXKtFBI91eKjCTifA9ZCKCvrWdx-HVGiIsixIJ-YWFcBcG2GCGrEBtEO4q4Gvxg0-_oCZblcTqxvqkAKC8STJqsmgHDMu8W9UIWxCz7N8Y8uPEhDcXgm9JwzB7e7YuQK_ahjoGhQFkqTuk9UQaKeKbVu5qxcJB0WK5Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Shahpur Bhameta Ghaziabad, National Highway 24, Jagdish Nagar, Ram Garhi, Lohia Nagar, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6449673,
+                            "lng": 77.4191945
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5950d4a109d706e9c14c168b968b2903f226a31b",
+                    "name": "sulabh suchaley",
+                    "place_id": "ChIJNeUKLirwDDkRturpEoZcCj8",
+                    "reference": "CnRiAAAA1ZZyndlQxrB9CGeA8xXGH7p4TKMT-S60GO0_ZpYKv5i4OOFdcjv-UWEmAZghxVUPX7dYmd92FqzfUZyZq4yRMF9pACgVofD1OGsBVCMBVHFG2QD1By8vlZSTOf7T0gYIh5HHXNbxqlHONDtvCdI-0BIQ_WaqiFom5jIHW2S1WGR04xoU8OSxW9zmx-RLeaj_oPjDLox2pWI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "45, Railway Colony, Advocate Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6064804,
+                            "lng": 77.4267003
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "86e69657b2df0d4755440aba5dae727e6ae8781d",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ87RG-lLuDDkRdDLu_hoMe00",
+                    "reference": "CnRpAAAAw3Xb_LUnv8DAGApUcRqXfaSlrEw9YyoE2Y3DudsnBbYgCAXcv8GglOhaQ3iRTLAKlgI73RSyzgDhqsJ5ZvlXduaO_6db9GtLPaHoIPiN2v4ZG4AwWi7jAd7KjEbW6HbEOtnZYxjT7QezfCIHPmZKyRIQxDXJDvSQwjk_LrWrIxf64hoU3vNIHgyf7Gs8peKo_gTX83LV64U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "201009, Gaur City 1, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6254603,
+                            "lng": 77.4768627
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6255913,
+                                "lng": 77.476985
+                            },
+                            "southwest": {
+                                "lat": 28.62506729999999,
+                                "lng": 77.47649580000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cafc1d54106e4c09ceef83a567034d814d74dcc9",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJTwoHW-ftDDkR_n9Le8r7c6I",
+                    "reference": "CmRfAAAAsUPN8z-AA4GUCgsv_2MfOIAijZ060gT07L2irn6FNwbhxkd47-mnLWbNs2ImBakxv4_FnXVQKbT47IDAwmSjuRJYCxNCkIe0TXegFS-yO_kqOZAtUdkOItGeJ86ITUgoEhCG0D8k5Z5wEiyGMXxMp-UKGhSRGRotvpzs1H7Fr0qeiqvsrGDlWQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6217193,
+                            "lng": 77.48140819999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6217439,
+                                "lng": 77.4814306
+                            },
+                            "southwest": {
+                                "lat": 28.6216455,
+                                "lng": 77.48134099999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ce300dee1c97395055129fd62819c83da7ca39ba",
+                    "name": "IOCL Petrol Pump",
+                    "place_id": "ChIJ_xyNzdztDDkRDZwOBMsSdAs",
+                    "reference": "CnRjAAAAQ4Rhni4Cuqmu_vHAwoTM_MZxOlqlgsZCsgdDMatRdb167t8hEXGS68e3g-_l2Dj9gCdSUphqYJ0rxDMmPe7gEQ_E27ef_VXj3mfo48cGPRfX0UBx-k_1Bag-ovRFo99kAq6Ka0haTAoeDZFypqaz3RIQgZvgfqjxVx54A0vCAsH9XhoUwweGkC9voMU1w0ei15T98kiKpU0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Grand Trunk Road, Chhapraula"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAApZOIpJPkZfQwEmKOdmXdqjtt52gGtv7a3GbLfhUAdsZwr6Nnp0zh0HuOYZiZu6JGDYrwKuVKpENFP_qEyAnEoj0tY72gDacig8ip_Dcjh39csdIfXVgp5lZIpEWUZOlTtBvXemg1qyRQtR6gZ562PWc2imw5MLeaeb0gKPFIeZ12-Cia-M9GPhYcgnC0NILmyTkWtdwdhpIA8a4WHBkejbiWbPBhflpunncytTjv765eS__s_J8h2YOQx8OgvCR3VfabU2V6uBhpvfkBqwOxoIjRB8VF19hFWcelmQRlN1vfI1H4dXzgvWTZzxxNElWtwqu0CLlS73BRGkIUDyWRwSEPiY9GciIPbsOwfmCGMWG8UaFD9mn3PbJhqEASH_6EynMn08ezzZ",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6301195,
+                            "lng": 77.4342585
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "25dda6ccbdcc609e60cb0c5700c5e0f66389501a",
+                    "name": "IGL CNG Gas Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGX1tXTDuDDkRmxiw3nBrhKk",
+                    "rating": 4.1,
+                    "reference": "CnRnAAAAhdiOZGnVgDj_b0LP0yO7kD2OTeBUOC87lqA9O9m4R_Yn4l_mD-rfWxosxIrzGyi-0de7b-a_1ZLyUTdi2J7FzYodPc7ftXsFWLa-zKLJ14HtTRmvN14u2u7WO2z7SAKuQDgpf5CV1e_Fhb_pX2z4rhIQGdnP2GaQKc8EaXCx5qKj3BoUY5X6y5n2PLtXZTLDkn3Ime7_RZc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6319699,
+                            "lng": 77.4678236
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63215335,
+                                "lng": 77.46799490000002
+                            },
+                            "southwest": {
+                                "lat": 28.63141954999999,
+                                "lng": 77.46730969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2407b2e5da055d5c9a7681d449bb094780f5c808",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJEy59rwnuDDkRyaIdXhNQr4A",
+                    "reference": "CnRwAAAA-zVNBGt-kPBpxlK5mBlkGAyCDsAXVzixGXJFq0TZYlqpyCs3U0WCZaa9YyX5WlHsZwbDZjl2fpQB5m4ZjmxWtVMrZIiWvj-IyPndGpbwFeGiDXnCth8583OnSP44sFEuMIbiKBg-6D5NsaIdor0PUhIQbaBLmO5TdshUQQCcWREUfBoUVT0kXaoJsRLXEWtRSitXtyIWDdM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6365494,
+                            "lng": 77.4432258
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "529104905996ce20063b5c8afe2a35f3e4f27091",
+                    "name": "Indian Oil Petrol Pump and CNG Filling Station",
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101778321250477181138/photos\">pramesh jain</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABfSv4A_TN2piD9NTU1oNDcSLZdfMeVSijI2LX1xaOrs-l5XhW-uo0PC_wrHBRK1B3cqDtqb0xA7QTR1g-sSVUO52MfJnvHgHnVD6QfNDsDgJnm3RlIt--rXM7H1t1X2S3nC3HPwbn1RU0C7XdRyLXwKvnPXfGGHQaGDSKD07L5DEhAeDDVRt_BUrprr4wG4MoU_GhSiGGNg1n4jl1JPrgkPathuDsSFPg",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJt1hKoyPuDDkRFrkcBNgoVag",
+                    "reference": "CpQBgwAAAMkfr3SmsOXPf2lww5Mwk1-GmCvQKr2-lQ7wc75IO10oMnl3a7IifJ1HXR20KtngfGCeDanksYb42RZz0QG8L6Ca20SvcI-fysCMjlU8ezK64APU3Tqd5Wd5FVaSB_MRDcV4mC_SSG_iJYISKUfAA1jMniVv6NlPhH0kj8X6HeZWFm2HtqUd9rZcCKwJMaLTMRIQH4fty46GbDPF-YqHM8F4tRoUOyYcNf2SufOeHD1-Jbq0EQxgR0U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ispat Nagr, Bulandshahr Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6317642,
+                            "lng": 77.44261019999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6320287,
+                                "lng": 77.44274114999999
+                            },
+                            "southwest": {
+                                "lat": 28.6309707,
+                                "lng": 77.44221734999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "479c9e06d4e3ea76e6d5bdfc45cc10196b8fad09",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "place_id": "ChIJycv0mTzuDDkR_Mi19NCjJnU",
+                    "reference": "CnRvAAAAe0r-SzYiBPZ7A_zZ--50xJF9pheONqJGc8lUEwDUQvL2i1g08YSOraOxStUQ-7jAgWvl3A2ct-Gbz8aP5IkFOh2GpSXnIgb66KjJrWmPexJ1yythoj-MxxJoI6obe-q9wMun54hmy5ebVqyfDQHbWhIQtJrctgWrSQVe6pg_wsE8_RoUXWPRVZ9WB0W6sYPnKLEB6hPfEl8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "104, Crossings Republik Road, Crossings Republik, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.636881,
+                            "lng": 77.44320499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "9e851244e93a59e9895982a74788818393fd2da3",
+                    "name": "Jai Automobiles",
+                    "photos": [
+                        {
+                            "height": 4640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111542960340441533741/photos\">Nishant Saxena</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKXTekZUeELcRJ8MH-7hOxDTDFlyvsFmuC2Q_GOoXhx0tgC1M8SKvY0kfPvtnvOdzO-K490DJl5P7lKAU1WBS2Xa_Nk0oULkxgcIkq0FEaInAq5GQ0fgVD9IDGIYSuYNc1-RRdcXnymnqzV_Ifh8uAIIFMyTMZcjAhDeDsZoQpZzEhAaOG0mFW5Z_F6uJ52qRyAUGhQoxFX-Z2z9ZHz5Kc4ExYtkkuqoiQ",
+                            "width": 3480
+                        }
+                    ],
+                    "place_id": "ChIJSbTHvCPuDDkRKtcCw6WBE_A",
+                    "reference": "CnRjAAAARVLAvmyvc-Tcmo_shyh0QL8FQYYTzOHzg6W6KMxBtEOsbsUU7oKUSB37Kp4EAC98PeelDpB0Bf0NFJ0xI7YLDRnivHTs-8lb_f9KrUQTdDEogSpT1VS-dKZcgePWmy3DotGiihLGgpQI2rXMG-KeuRIQsHUgHM6-CvUzpJDUg6yvlhoUYZzXkz4GiKrpFiKBRA3iiR4Qo1I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "car_repair",
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 24, G-1, south Side, GT Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639062,
+                            "lng": 77.425185
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c0355df6e31077d776dcecf156ff8f26804a9a1d",
+                    "name": "Reliance Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJj4eBOSvuDDkRoLe4SSIjh5I",
+                    "reference": "CnRoAAAA5Z_-f-6j3suNbc2hZIyM_s2OwCvz4dFOFqOorr9HUzWtp9T_zgFhrqGXGx3ux8jpQKpk7x5fR_VerLJj9ROsZ-7a-7axzA6FKNi0PjhevSpeLpxuCM8I-9Dl9Z-RETn1q3r8F_imlch9cSHUvddngRIQkANMqXmzLLzE6dZIoFCEpRoU-LpIZkRs5pQlsDlS6Tg4ubw9wIw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gokula More, National Highway 24, Bhim Nagar, Vijay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6318004,
+                            "lng": 77.468183
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63200955,
+                                "lng": 77.4683783
+                            },
+                            "southwest": {
+                                "lat": 28.63117295,
+                                "lng": 77.46759709999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "700fab2a7a3d6abf65de5e52dcdc7718f43360d6",
+                    "name": "Hindustan Petroleum Petrol Pump",
+                    "place_id": "ChIJvzADuwnuDDkRu-4fwZsP8To",
+                    "reference": "CoQBcgAAAIQ7qszbcCnbCQD0r15y-k28zUFnP0wzQVTH79nZtRRixMLp6o8nJy_5gLtf8Dz5gpMW4wXi4j1z1zMELwi4zCsYrgO1HntBZgcnDDHzwVhdF5N4Q-uz1Az8p3FrVasy8dYvB6XC3hmxnbqgAXcbKPA-qkBXVrIqvGwUAHqM1-tyEhAdlDGAcldeoRIKLUWzrnGMGhSaCzkPB2hiwDh30gbIvuHNcMiQqA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Lal Kuan, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.640107,
+                            "lng": 77.42057299999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6402225,
+                                "lng": 77.42060510000002
+                            },
+                            "southwest": {
+                                "lat": 28.6400685,
+                                "lng": 77.4205623
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c5a113c396c923f858170be7112d7acf88f30b18",
+                    "name": "HP PETROL PUMP - DAYA HP FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpSHDyNXvDDkRhPQ3uKFI-m4",
+                    "reference": "CoQBewAAADbzmnqjX5mbAlhvrw3WQ4CQpMQViR2Q1beThNkPBtT1JDTNnfVlqIS2lhYtc-SsD-Eeq2SbIAzND-iuY_QEMB9i85geJmSr9rHZYPBATkN7cOCUM1aywIIN1QJPHexFbCyhzfy4O6mE_x9CJB_y8txGoMT6sliuBJ4mzN1lRPbvEhBaBsykbcr-CLFwbxR7ebgrGhT1JRYPXKWxywdlYqxEK02ucc-Qvg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Petrol Pump Village Mawai, Vijaynagar BYE Pass, Ghaziabad, National Highway 24, Jagdish Nagar, Ram Garhi, Lohia Nagar, Meerut"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6375716,
+                            "lng": 77.4149231
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "918c5d1e56d4a5f7ec2147dbe606a2b29d3541e0",
+                    "name": "Mamta Cloth House",
+                    "place_id": "ChIJ3czZPNfvDDkRoVuCxexHzz8",
+                    "reference": "CnRkAAAAtbGljxPWwOQFfWbPQuAz8U1-7JE1b6RVtrFGKP6S4QbL9q4BzGGB4I5hcai6ZCMBQLkz4s9Hyqwuvl6IiCdXWlXOKsb7-GtQzCK0kw_QMVjNs0yz3azRFRjjCpq4jBj-8xmJlVnuJIa0-ZGdjk5jphIQaNPTg5twLVDOqLGvZZWrXBoUyL_t1OYuPVWDi7llCD9t9EBf_Xs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "7, Christian Nagar, Nai Basti Dundahera, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.660754,
+                            "lng": 77.435656
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6608194,
+                                "lng": 77.43586794999999
+                            },
+                            "southwest": {
+                                "lat": 28.66073219999999,
+                                "lng": 77.43558534999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "798d6999ec38cb75e5da7cfe0a1a8fe01440b2ab",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJxZJDVs_xDDkROfUJv-ZhGrE",
+                    "reference": "CnRqAAAAmMnPhQNMINO9SiKhpJ02NwQRf7e4GlWt5QBGqND6zUxBOG5SOot7YIv1sqe2ePX_rDPRlIV_0YqMFZNqpfd4m1HL38_OZ5F-oL4Ie7U6OtLXqT76c3Q9NDnVeHqdozbOkYFmtSqBsDIQO87jp6rM8hIQmDigYTNF9Q6nOxjq52jEyhoUeP1etl3y9Z1eS0jV56x9sX9bbLg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Santosh Hospital, Ambedkar Road, Kalka Garhi, Naya Ganj, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.622454,
+                            "lng": 77.480899
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62252839999999,
+                                "lng": 77.48096734999999
+                            },
+                            "southwest": {
+                                "lat": 28.6222308,
+                                "lng": 77.48069394999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5a7e338ca5916bc531ab811685660a5274ced10e",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJqcqFzNztDDkRrwUbvUUsgN4",
+                    "reference": "CmReAAAAO7UWggmX-ssfBi9iMuehcQRlz6n3oTw14TY_kEb_VLEEnsMMUmyCF9gU8ZgmEHqJuiUkNw-QJ41sxWqsVTrZ3rLIZlTVYEBHRRREHsJ86HEAcY6RNb6X7HHFjhWO1dFOEhCcVIjoROh9OS6JxyZJEUdGGhQRckB-1jBcxzPqEqnQ5TsyLEvyjw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Grand Trunk Road, G.B.Nagar, Chhapraula"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.661445,
+                            "lng": 77.46108
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dccc81a8c7cc4d6f4d99bf0ee1745aea9913b1c9",
+                    "name": "Apex Thermotech Technologies Pvt Ltd",
+                    "place_id": "ChIJvcR9r_HxDDkRzX_HmcjROJY",
+                    "reference": "CoQBeAAAAOgh67dT_fNBB7JoLbv65R0RjeZAy4USwYr-BwHrCcIAfCdeSkCUElIbTNeHvO_q7hbPuE6hEjZCBNjTxO3IzrYeVdbOk1f5GkdhUMaSBkwd0paIER1Q7-pFifm20EmlI_wEjqX4yiaUpLmw8dQWBI73kyhZyU2MrA2XA-Dn7KweEhATeRpLz9zH_TYRrDb3WL6rGhT0tTV9OYVir9ih5ufqf3psJZDP4Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot Number - E -162,Sector-17, Kavi Nagar Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6173739,
+                            "lng": 77.4872834
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "89ca1414d7979eab924e5a06d0ed1dd6fcb927c9",
+                    "name": "Pragati Logistics",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJuz_8YsTtDDkR8KFE6AJiRUQ",
+                    "reference": "CnRkAAAA90pas5vgs32QU4rg0De2LPW1ZG4dMpzm7CbkR00l_mWoS5Igb8DvgSFz-wfG_yAWYE0UDpdMO4U8ZDlOUXuyLEr04zhodyMLHpeBixBjoCRdG16LLE8lDaWQll_Sl2i0fWcLjRbN5_OeYQsZNURvkhIQqoSIfce5-L_u_UZ0rHMOARoU9xsPLNC6qtJHuWfK8GhXHokbvrs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "storage",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No. 230-231 G.T. Road, Chhapraula"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6703254,
+                            "lng": 77.43285999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "890cb3c4d31f4770d7f8befc1fcf6e3a4f0829bd",
+                    "name": "HP Petrol Pump",
+                    "place_id": "ChIJuQ6p4rbxDDkRsQn9QwNU39Y",
+                    "reference": "CnRiAAAARffx29t_kNuBgryN6l3fpFH39GMnsg32fHpVvnlYuYGqFOVhXzDgImT4GaCaZiY_VGbOOHE4bgiSRMb_C3PWBAvoCwL_EsQp92HrjwogtaNZK7NY4tYikaIDoz0AhoOH8IRmHitESaa1enOVyCC_lxIQz6ipG2fV8NuGnuURbbJEehoUQ1ElC7V7Ikagygm8dIkAit1chEQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Maliwara, Nehru Nagar II, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.670298,
+                            "lng": 77.432966
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c3ced490c8487591c46f2015282bec5219ffa896",
+                    "name": "Indian Oil - Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ7-xMHbfxDDkRfLPz7u5GWwQ",
+                    "reference": "CnRrAAAARZNl6sUXK9tIcvhWy3JtVt9OHG5-5eLnojaMSzmCuNfNO2rmonuOUbPKiKs-mdBmptisOYOe79tyAcMi2bUj2QDUoco53nwTVj45q4Lb6DtYW7T36kSKFd1Zp76URkxSnOruADBMyJ9ZPSmLzS56UxIQOw_Six9QaY2ck24O3qujExoUK3bFb2uNCDv91-KhJD0ovxhHfzo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Suni Mandir, G.T.Road, Prangarhi, Patel Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6707379,
+                            "lng": 77.4352438
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6709335,
+                                "lng": 77.43525245
+                            },
+                            "southwest": {
+                                "lat": 28.67067269999999,
+                                "lng": 77.43521784999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "453b72e0f633d17ed5eb3380aedbc729a6bee35b",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOcCu4rbxDDkR0WxLR2Pddbc",
+                    "reference": "CnRqAAAARoNOlJrzU9cGA1yVJqUbvnbzbxALT8Q6iVaUPXA7u_QJX30dspA10ULcoih7lAPi9TH1na1tOLUqCrP27lyMM3I1IfE_zpSFKiAnRmDkefR92qRNvLa1lourkxnJ-6VyVbjBl0QceqbH2j8hP7A2ZBIQQHVqC3DzaM15bY8x_0xBFhoU-QX4Zplu9NReo57QzlgEo8owYQY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Fly Over, Hapur Road, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.670483,
+                            "lng": 77.43370999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6706765,
+                                "lng": 77.43372339999999
+                            },
+                            "southwest": {
+                                "lat": 28.6704185,
+                                "lng": 77.4336698
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b0f55121fc820e013972ad2a2d06d57cf10da816",
+                    "name": "Hindustan Petrolium",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJDdNpELfxDDkRIEd2wNX7Bog",
+                    "reference": "CnRnAAAASfEX5Bk0qzUAX5h-cNkE9ZDOep-tn4TCtSJoIZqTZ3-i4r6U2WSdQcXydCHMsM3NYb5Oui2jnmwe8J55Bpum7rDF_DyCMcNGOTK-u28IEVGyEJzACVZXhdCxVkmyshB0LRdMiCsXDiZG9ir4L8_H7RIQ-gpFSkuIKDz4g1eM4UxkdxoUHTG5JVtS3YEaU3bBpTx_motzDrI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Hapur Road, Prangarhi, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.670338,
+                            "lng": 77.43288199999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cca189e2f1dedca86dbb623db2cccc254a19ed6f",
+                    "name": "Hindustan Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJC9Wl4rbxDDkRso6rttPfbgk",
+                    "reference": "CnRmAAAAQrrnt3o-Qusq39zKj0eGkATgGkLkpOGUMUnvPG1a9QcnnKpSS8rJQdDnzi6xSSnj0kjxk0_U7YLOm6avl9Z4f3i0QlrOslt05d_FHGb5jVxDnlunq2UD1z3GtgNVn7iFamUzoh95mkVac_rkGgYJ7BIQJf-XhdiMPV73BOiBjDBTwBoU6C0hzUjKz-aTz1W4-wBe_uyCNJk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No: 73, Main Hapur Road, Maliwara, Nehru Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.667177,
+                            "lng": 77.421082
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7c5fe99800c24032c6e7321367984a28936eeff8",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ5SfWkErwDDkRFu8OKCrBbVs",
+                    "rating": 4,
+                    "reference": "CnRjAAAALNM_pTW8rw3gbeezSUQjDNNStEDeVJe6maZzq7TLkZqaKhi3L5xGwaEwFVIBVOvVLiYQx4tPjVzfY3_WbcgV688ZrdwjAhFo0zWaW_amRN_fHFWwBg2gZ7htUoTW8cpftkLSKRhKTHOJ2o4G2jogdxIQxMKJAgrShU2FzVkjEOdAihoUMATyAwtXYwu6r_e8YRoe2fq0MZ4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "G.T. Road, Patel Nagar 1, Patel Nagar, Islam Nagar Village, Madhopura, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6395078,
+                            "lng": 77.4571404
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63961935,
+                                "lng": 77.45724274999999
+                            },
+                            "southwest": {
+                                "lat": 28.63917314999999,
+                                "lng": 77.45683335000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f8c4478a72cf984200e44495cb5f783d97f7c384",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJ_UZkaBvuDDkRMeI6yRzfk0s",
+                    "reference": "CmReAAAAwOIS4hZ2JVKCaHe-G5EkmqPEPzZju4coAhS6sN2oI5K8t80HYXS238_JAQNFgb9khEpxoatQ8Zatmhtam-gXBZ8Y23HYDmhWZswPkDTdmU3Y13UZdeqBg4ADzpAVIVufEhDFXP4APmYY4SO0ZqfGAyosGhS5rHQ4MyCNjYP2GHjUdl0mK7sxlA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 91, Industrial Area, Bulandshahr Road Industrial Area, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

@@ -1,0 +1,592 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6845229,
+                            "lng": 77.4286017
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.68469174999999,
+                                "lng": 77.4291846
+                            },
+                            "southwest": {
+                                "lat": 28.68401635000002,
+                                "lng": 77.42840740000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a554e37b05723dc76b244fe85869e59084569f4a",
+                    "name": "Jai Krishna Liquors Private Limited",
+                    "place_id": "ChIJjyqz7KvxDDkRAnpWjByUZAg",
+                    "reference": "CoQBdgAAANh2MrOpTF2PrX_AOQSvpeaPMlZFTDd6rGQyr_d3oYlRC6Mo2jFoF58AYItrPL4MR2UTPMi4bIRRq5_TEt3YAkt1247VsfsGBmEjucDehcjL9-TxxKqa1LyMfAeRVqzInMYzaD1mf5IKRhdOhSGaq02KkFNwOiHUeSvq1wY1tiRuEhBURawJYXZLNj0q6VhvkvUOGhQrgB-l23vTp_XzyghmOfcEiODa1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 58, Sihani Chungi, Harbans Nagar, Ghukna, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.677295,
+                            "lng": 77.42025
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67736385,
+                                "lng": 77.42043555
+                            },
+                            "southwest": {
+                                "lat": 28.67708844999999,
+                                "lng": 77.42018815
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "000a51bbad29d99c6306666240b652c4e46d0d65",
+                    "name": "Model Shop Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJD4NtdFLwDDkR_nrm5RK34po",
+                    "reference": "CnRoAAAAuBxiPPdIJEe7c-lhwPAb53mrRod7MLhemJ881y-0Je4lJQ9-PMx9pJLAFQTyrxaCnul4qaEZevaSSrxF3qyAU8BiPgq55RFHQ8gW-tJqvFQPCrScc_erhMU-13MBjirQkQAsAOMsBaYhnSfjRG46QhIQI1-qWkxMnd0OfeKYsl-iIBoUx6Y34Ukw4iaC1uq0-EnQZLKKpSI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop Number 251, Meerut Road, Bhim Nagar, Sewa Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6776035,
+                            "lng": 77.4293339
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6777005,
+                                "lng": 77.42948254999999
+                            },
+                            "southwest": {
+                                "lat": 28.67731250000001,
+                                "lng": 77.42928435
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "09035a3735fe037b5c226073a1d3027f64a17344",
+                    "name": "Shiva Traders FL-2D",
+                    "place_id": "ChIJf1wmBrLxDDkRHl5K2QZm7pI",
+                    "reference": "CnRnAAAANd4ZpWuJHJ8y-QvJiBJ-dqA5-QhrLqd8g6IwRoI_DDWP7SuBXmXjDBos_EVwN4kTv4BL_qkrc3NKbxxkUqXMl7nsIGOqI-qULviVOCr01mocPzuFO4rc81boRHvIIdAU17OgiD2U76Rmmak0Bll2JxIQc8DgZVgAX2J2gq_MwxAbihoUQ4oQisQ8MXGR59J73gO4X3jQggk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-39/1B Meerut Road Industrial Area Ghaziabad, Mangal Pande Marg, Lohia Nagar C-Block, Meerut Road Industrial Area, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6845229,
+                            "lng": 77.4286017
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.68469174999999,
+                                "lng": 77.4291846
+                            },
+                            "southwest": {
+                                "lat": 28.68401635000002,
+                                "lng": 77.42840740000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a554e37b05723dc76b244fe85869e59084569f4a",
+                    "name": "Jai Krishna Liquors Private Limited",
+                    "place_id": "ChIJjyqz7KvxDDkRAnpWjByUZAg",
+                    "reference": "CoQBdgAAAJkqIaU5wwwWlqlygvKD3R5HQyIz9tdSa8bM4t_bexF5VLIpYopHSRkqzoiXNqDxMIAoCVIL_w0dbBZbD-2xYLTSq30N83kMlT-_AhF5L2oM2TPHtATtzn5Hu5uQR8cmG1RYhg-kC1iUbEl-0f0UktUK0lVrubZ4kmMOsTxEMfZbEhB_gM4ObR4H9ahVe8NueSEDGhQd0GlcXwtWDfH3V40lCcAtb5XGGQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 58, Sihani Chungi, Harbans Nagar, Ghukna, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.677295,
+                            "lng": 77.42025
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67736385,
+                                "lng": 77.42043555
+                            },
+                            "southwest": {
+                                "lat": 28.67708844999999,
+                                "lng": 77.42018815
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "000a51bbad29d99c6306666240b652c4e46d0d65",
+                    "name": "Model Shop Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJD4NtdFLwDDkR_nrm5RK34po",
+                    "reference": "CnRoAAAAIhG28WwIarltiPJaszumJv2L3EzSHx4L43BIgu474dhAxpxGHhLzBp2WdVxOl5s7JeG96cTYH1aK8Q68E924EdDuugFIQXok85dRIOvKZxiyf062YOjKmrKTbFtqGxFmAgOsVtMoSF0qkVROqpXe_BIQdkq9xbwSRKw-_ASijvZZtRoUW8JGUgS0wUahXR49r03MhiF3kJo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop Number 251, Meerut Road, Bhim Nagar, Sewa Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6776035,
+                            "lng": 77.4293339
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6777005,
+                                "lng": 77.42948254999999
+                            },
+                            "southwest": {
+                                "lat": 28.67731250000001,
+                                "lng": 77.42928435
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "09035a3735fe037b5c226073a1d3027f64a17344",
+                    "name": "Shiva Traders FL-2D",
+                    "place_id": "ChIJf1wmBrLxDDkRHl5K2QZm7pI",
+                    "reference": "CnRnAAAA06vdb_6N8jTrlidOEltG4o5Nsv6TCWOQN7ZEzEhpMYWpyxL_VvpDx6vAEVcsuP0qmA-5OuV7W8qea_QwMlZrtIQiphEOgMfqXCa5iBpDxLx3EgsspqFk0xkirb4Wz2j8tfoRKFeeIGrIyX8mH3y9fhIQRQ4Zsfoo8V_GJ1TYG-figBoUTPC9cd8i9lcTR0JGvKW5M7xS5uE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-39/1B Meerut Road Industrial Area Ghaziabad, Mangal Pande Marg, Lohia Nagar C-Block, Meerut Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6973567,
+                            "lng": 77.4509472
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "84a1d6029ab77d6c3d04a9dbf2c6bae8d643dd75",
+                    "name": "English wine shop",
+                    "place_id": "ChIJO2DBiHPxDDkRIu2HJjbSbxQ",
+                    "reference": "CnRkAAAAYLiP-7-x0dAdOnPJdI5WCcRqAZQLudg8r3sbVdNEeACrCCJalZD1oGnHXXP6brFdEACVKxbZpySDmiTPIv5B-UyTHiVDjtbuGnHVfAdM7_5-ivdAXNGH0FsV2rOa_mVR40YfrCD6qBVkTTuGLkqZJxIQGjmBGQtktFN1HP45OCBwfRoUvh2eLwpH96BT4ULwCKO7goe8HzA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sanjay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6865171,
+                            "lng": 77.4518618
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7d9b192982590f22931bcf4e53b94864f342c319",
+                    "name": "Model Shop",
+                    "place_id": "ChIJOfKRuZ7xDDkRc2gD8F0AqmI",
+                    "reference": "CmRdAAAA-gV04ToSU_5sqFYPFcuAZL-aV09651NpggdJJ7l3XJZOAILeR11DKjTglGZ4bY4qw0HllaSwYlKS7ajNzFDACoAUt0MQ4GYfJUdMkbCbJs_CTIHiIi8r9nEjdnQzn68dEhAz8-dm8NQx-WSM8stHn3e0GhSp1tHnMOjymtG4IUyc7C3kXaQytw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sanjay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.674968,
+                            "lng": 77.441419
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67535590000001,
+                                "lng": 77.4414432
+                            },
+                            "southwest": {
+                                "lat": 28.67483869999999,
+                                "lng": 77.44134640000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e39b0ff3cb82b16fe0c5df140310071e95191bea",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ2DCIrzxDDkRAa6Z3TmU2y0",
+                    "reference": "CnRkAAAAKC0aSnSeuCIzI-1CCHkbJzmqQtn8KvisWrqoc7fHWxS9_o2q3_DVvd5bIuc4gCPuadYFnj4hQNJ8ZRMuamlKQU43B3Z30qVGUoOEJUa8eBaHSOFwK_cE_StYDBGAzKiewyO7lkwliMxzbfAjHPLolRIQgjHyYlLSN4PVo8N0_OEYoBoUglsIFlLchlwZkg5oBVdoXP15ms8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Durga Chamber, Ashok Marg, Block 1, P & T Colony, Raj Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.672867,
+                            "lng": 77.4397475
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6730992,
+                                "lng": 77.43976275
+                            },
+                            "southwest": {
+                                "lat": 28.67278959999999,
+                                "lng": 77.43970175000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fa706ffdcdd16e2ad3efa662fdb95afe3ff73fad",
+                    "name": "Desi Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_94qVbnxDDkRBK2iYbBgWUY",
+                    "reference": "CnRhAAAAARYVLXCmJekVU1IjBR5wTGDlxr2MJrEX0JGsucxan3qf4S7xNXK8a9l8ljMzS0xqkbG4f-49S0Z-47-F7vBJeDJ9kUDORm2wd2yo3_1a5xNpk3_xHNQoW3K09vQk1Opc11TGt5gvyQ55eI5HfTApGRIQo3XXFf_z0Q197UKxqZ8N4hoUZ7UoIHTvq7RltwDm9G7F91Igb6I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 1109, Sumanglam Building, Hapur Road, Block 1, P & T Colony, Raj Nagar, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6845229,
+                            "lng": 77.4286017
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.68469174999999,
+                                "lng": 77.4291846
+                            },
+                            "southwest": {
+                                "lat": 28.68401635000002,
+                                "lng": 77.42840740000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a554e37b05723dc76b244fe85869e59084569f4a",
+                    "name": "Jai Krishna Liquors Private Limited",
+                    "place_id": "ChIJjyqz7KvxDDkRAnpWjByUZAg",
+                    "reference": "CoQBdgAAALFMkR4K5bEOe1TMoZmXIwmHH77vP6skVotGXTXIXYeGt4KJ9xlK_OGUmJBkJN14XLPuHY-dDbxPh9tUjHyxkwYGWDSk4uDeDxbPG47J7-RzKKTzG32P77JpqDlo4pVHmikQv_DwkjeczezZQmyJ5Kh1AenpyaRVe-CeRmq64cRiEhDoA3HjqXcAVgDQhXZ2ZjgPGhTYzgg_qGI0rnORBogvKKtfbluvgA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 58, Sihani Chungi, Harbans Nagar, Ghukna, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.677295,
+                            "lng": 77.42025
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67736385,
+                                "lng": 77.42043555
+                            },
+                            "southwest": {
+                                "lat": 28.67708844999999,
+                                "lng": 77.42018815
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "000a51bbad29d99c6306666240b652c4e46d0d65",
+                    "name": "Model Shop Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJD4NtdFLwDDkR_nrm5RK34po",
+                    "reference": "CnRoAAAAWxRpNT89BTq2rOQPsbKJz3XPV6GRVCR7aCJI0Irx67uqYUMuQHmoY7jiXAYxuY5BRjyoyO5Cwoz51Q8YH_rIqq6UF2ZqZa1Lyek0vutIhnEuBECBvSEIj7Z5JSwUsAhlDoVxyXNbWVYWG-LpSUuPfBIQ_A4hdiHok36oqwoTE3kMbhoUIXgDScA2HkaIn2Isqe4Me8dlof8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop Number 251, Meerut Road, Bhim Nagar, Sewa Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6776035,
+                            "lng": 77.4293339
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6777005,
+                                "lng": 77.42948254999999
+                            },
+                            "southwest": {
+                                "lat": 28.67731250000001,
+                                "lng": 77.42928435
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "09035a3735fe037b5c226073a1d3027f64a17344",
+                    "name": "Shiva Traders FL-2D",
+                    "place_id": "ChIJf1wmBrLxDDkRHl5K2QZm7pI",
+                    "reference": "CnRnAAAA8KvS6WWEcpwuPw1jTMlWfMlD6o5NlVrE2eac8uMlZA4YH6fCyxU3CuFqfmmJNcmmItohjPiEZ6j2cOdMBmqkHU7Q3218wDvZs_y4n7pyQIlmmiVWL61d_Oedt7Pez5GlFJufoLSUq_X86x9NFyEoWxIQmQ8b6DTKHrr6z3J5ExgF0RoUSyhK1Oc4NAeMa-7pp9e5mgvRN_Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-39/1B Meerut Road Industrial Area Ghaziabad, Mangal Pande Marg, Lohia Nagar C-Block, Meerut Road Industrial Area, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6973567,
+                            "lng": 77.4509472
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "84a1d6029ab77d6c3d04a9dbf2c6bae8d643dd75",
+                    "name": "English wine shop",
+                    "place_id": "ChIJO2DBiHPxDDkRIu2HJjbSbxQ",
+                    "reference": "CnRkAAAAzyqkl_JXaB_rlD3wKxiJMFoDydhPYbyW2IkcY4rlDzXEhX_Ku-b5Kvfvbk7ky2S1tZ24NjifA78dUfxEfa1p4jlm6a2gJc5NIVhoz_FqHE7vmvhAUZ9GbQf9ILEDMZlptSRpX8ciFPLeMw8UhXe-XxIQAVZOcETKyRNk0GTzd8gXfxoUGB_LM4apOadzI-KpyQS0puxFHYU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sanjay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6865171,
+                            "lng": 77.4518618
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7d9b192982590f22931bcf4e53b94864f342c319",
+                    "name": "Model Shop",
+                    "place_id": "ChIJOfKRuZ7xDDkRc2gD8F0AqmI",
+                    "reference": "CmRdAAAAnYh7ZnxGzWG4Tvx1wmBJho_MB8jnCjp5IDsjINt0_QSAo9Bo_fhxL58ly9fj1zJ1AhACsnurfHoa2Js_VQG4QBMhHJdptIOGarf9L1VzGYbqWA4MdhDNo_-OKJFb9NW8EhDfxwUqM0-baQa_28FYCVP7GhSLqZ4r5rx4W502-23Lq9dVJmcoxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sanjay Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.674968,
+                            "lng": 77.441419
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.67535590000001,
+                                "lng": 77.4414432
+                            },
+                            "southwest": {
+                                "lat": 28.67483869999999,
+                                "lng": 77.44134640000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e39b0ff3cb82b16fe0c5df140310071e95191bea",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ2DCIrzxDDkRAa6Z3TmU2y0",
+                    "reference": "CnRkAAAAvgh2VL-GNJy1-0M6LGo-YV9KN1nh-xWU61KXRSESHmlpO8J0v-chAk-xaFKcJOtMyv_QGemwCpW3QzTXdv8tifEB7h-zGITOlT2HzUqicR89SzNFK8EgUC-jmQ7xevPo5ig4IYONXh0kWEb_AtfRsBIQnFFdS2mFZWOvLv5H820PbxoU25-QgZQaw9Y21VmigG6b6gZCaKs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Durga Chamber, Ashok Marg, Block 1, P & T Colony, Raj Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.672867,
+                            "lng": 77.4397475
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6730992,
+                                "lng": 77.43976275
+                            },
+                            "southwest": {
+                                "lat": 28.67278959999999,
+                                "lng": 77.43970175000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fa706ffdcdd16e2ad3efa662fdb95afe3ff73fad",
+                    "name": "Desi Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_94qVbnxDDkRBK2iYbBgWUY",
+                    "reference": "CnRhAAAAZGSYU5hl17KkXDxtUXuibjhTczYW_J9DCrn-jUdIfcv-tyDHdrHtwHrsJx4S3mbYJiSkKJ-EB2RVZ50gg-l1oooJVHzXMFQJCjCAo7Hq6kdH8DnPXrF571QaYEsgkPw1gUmMAFeI2nTRYJhoSB4SgxIQq16umxb788DYjV6yjgcVRRoUVp-mYZUFw304cDxuMUh_kfdyZfc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 1109, Sumanglam Building, Hapur Road, Block 1, P & T Colony, Raj Nagar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.661557,
+                            "lng": 77.435698
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6615816,
+                                "lng": 77.43576735000002
+                            },
+                            "southwest": {
+                                "lat": 28.6614832,
+                                "lng": 77.43548994999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7442af25e7678c5ffc012e8a63224bef56805a31",
+                    "name": "English Wine Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJXSMZqsjxDDkRXY-bOGdI_Kg",
+                    "reference": "CnRlAAAA2Zy1u2vp2FMptOcCswrqRt9gKFEmVBWdWD5dZaKhvzyHGzjiO44yg7l5B88bZRtLe5KzxCEAHOMQ3r7ONqKtGuJhnT1rjCo0-ynlGWy27mnJN-ztocF87AQqWZZ9yP9vd1QD4mmm6ghjdXVvUQ0D-xIQBS5x09Hvt5B2EptE3KoZ1xoUDA7zGwKfpjY7xHl9KrhqvhMajhI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Navyug Market, Near Santosh Hospital, Ambedkar Road, Ram Nagar, Pocket M, Nehru Nagar III, Nehru Nagar, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

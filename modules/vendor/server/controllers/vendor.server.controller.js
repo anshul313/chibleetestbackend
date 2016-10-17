@@ -356,7 +356,7 @@ exports.addvendor = function(req, res) {
 
       // var vendorContact = ;
 
-      var vendorData = {
+      var vendorData = new vendor({
         serialnumber: data[i]['S.No.'],
         name: data[i]['Name of vendor'],
         contact: data[i]['Contact'].toString(),
@@ -380,7 +380,7 @@ exports.addvendor = function(req, res) {
         landMark: add,
         status: 1,
         keyword: data[i]['TAGS']
-      };
+      });
 
       var query = {
         serialnumber: data[i]['S.No.']
@@ -395,12 +395,18 @@ exports.addvendor = function(req, res) {
         console.log('index created');
       });
 
-      vendor.findOneAndUpdate(query, vendorData, function(
-        err, doc) {
+      vendor.findOne(query, function(err, doc) {
         if (err) {
           console.log('error : ', err);
         }
-        console.log("succesfully saved");
+        if (!doc) {
+          vendorData.save(function(err1, docs1) {
+            if (err1) {
+              console.log('error : ', err);
+            }
+            console.log("succesfully saved : ", count++);
+          })
+        }
       });
 
     }
@@ -414,77 +420,126 @@ exports.addvendor = function(req, res) {
 
 exports.googleDataInsert = function(req, res) {
 
-  var i = 0;
   var q = 37594;
   var count = 1;
   var l = 0;
+  var asyncTasks = [];
 
-  for (var k = 1; k < 30; k++) {
-    var fileStream = fs.createReadStream(
-      path.resolve(__dirname, 'atm/atm_(' + k + ').json'), {
-        encoding: 'utf8'
-      });
-    fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(data) {
+  for (var k = 1; k < 24; k++) {
+    // var fileStream = fs.createReadStream(
+    //   path.resolve(__dirname, 'Faridabad/ATM/FaridabadATM' + 2 + '.json'), {
+    //     encoding: 'utf8'
+    //   });
+    // fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(data) {
+    //
+    //   this.pause();
+    //   processOneCustomer(data, this);
+    //   return data;
+    // }), function end() {
+    //   console.log('stream reading ended');
+    //   this.emit('end');
+    // });
 
-      this.pause();
-      processOneCustomer(data, this);
-      return data;
-    }), function end() {
-      console.log('stream reading ended');
-      this.emit('end');
-    });
+    fs.readFile(path.resolve(__dirname, 'Faridabad/ATM/FaridabadATM' +
+      k + '.json'), 'utf8', function(err, data) {
+      console.log(data);
 
-    function processOneCustomer(data, es) {
+      var jsonData = JSON.parse(data);
+      jsonData['result'].forEach(function(doc) {
 
-      if (data[i].results.length > 0) {
+        asyncTasks.push(function(callback) {
 
-        for (var j = 0; j < data[i].results.length; j++) {
-          // console.log('data : ', data[i].results[j]);
+          if (doc.results.length > 0) {
 
-          var vicinityArea = data[i].results[j].vicinity.split(",");
-          if (vicinityArea.length > 2) {
-            var area = vicinityArea[vicinityArea.length - 2];
-          } else {
-            var area = data[i].results[j].vicinity;
+            for (var j = 0; j < doc.results.length; j++) {
+
+              var vicinityArea = doc.results[j].vicinity.split(
+                ",");
+              if (vicinityArea.length > 2) {
+                var area = vicinityArea[vicinityArea.length -
+                  2];
+              } else {
+                var area = doc.results[j].vicinity;
+              }
+
+              var coordinate = [];
+              coordinate.push(doc.results[j].geometry.location
+                .lng);
+              coordinate.push(doc.results[j].geometry.location
+                .lat);
+              var tag = '';
+              for (var temp = 0; temp < doc.results[j].types
+                .length; temp++) {
+                if (temp === doc.results[j].types.length -
+                  1)
+                  tag = tag + doc.results[j].types[temp];
+                else
+                  tag = tag + doc.results[j].types[temp] +
+                  ', ';
+              }
+
+              var vendorData = new Object({
+                serialnumber: doc.results[j].id,
+                name: doc.results[j].name,
+                contact: '',
+                category: 'Owl',
+                subCategory: 'Atm',
+                address: doc.results[j].vicinity,
+                area: area,
+                latitude: doc.results[j].geometry.location
+                  .lat,
+                longitude: doc.results[j].geometry.location
+                  .lng,
+                openingTiming: '24',
+                closingTiming: '0',
+                imageUrl: doc.results[j].icon,
+                saveTime: new Date().getTime(),
+                multiTime: false,
+                others: '-',
+                tags: tag,
+                coords: coordinate,
+                homeDelivery: false,
+                remarks: '-',
+                shopNo: '',
+                landMark: doc.results[j].vicinity,
+                status: 1,
+                keyword: tag
+              });
+
+              vendor.findOneAndUpdate({
+                serialnumber: doc.results[j].id
+              }, vendorData, {
+                upsert: true
+              }, function(err, doc) {
+                if (err) {
+                  console.log('error : ', err);
+                }
+                console.log("succesfully saved : ",
+                  count++);
+              });
+
+              client.index({
+                index: 'cleanvendors',
+                type: 'Document',
+                id: ++q,
+                body: vendorData
+              }, function(error, response) {
+                console.log('index created');
+              });
+            }
           }
+        });
+      });
 
-          var coordinate = [];
-          coordinate.push(data[i].results[j].geometry.location.lng);
-          coordinate.push(data[i].results[j].geometry.location.lat);
-
-
-          var tag = data[i].results[j].types;
-
-          var vendorData = new Object({
-            serialnumber: data[i].results[j].id,
-            name: data[i].results[j].name,
-            contact: '',
-            category: 'Owl',
-            subCategory: 'Atm',
-            address: data[i].results[j].vicinity,
-            area: area,
-            latitude: data[i].results[j].geometry.location.lat,
-            longitude: data[i].results[j].geometry.location.lng,
-            openingTiming: '24',
-            closingTiming: '0',
-            imageUrl: data[i].results[j].icon,
-            saveTime: new Date().getTime(),
-            multiTime: false,
-            others: '-',
-            tags: tag,
-            coords: coordinate,
-            homeDelivery: false,
-            remarks: '-',
-            shopNo: '',
-            landMark: data[i].results[j].vicinity,
-            status: 1,
-            keyword: tag
+      async.parallel(asyncTasks, function(err, result) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(err)
           });
-          console.log('vendordata : ', l++);
         }
-      }
-      ++i;
-    }
+      });
+    });
   }
 }
 
@@ -524,6 +579,7 @@ exports.addcomment = function(req, res) {
     });
   });
 }
+
 
 exports.getcomments = function(req, res) {
   var asyncTasks = [];
@@ -673,14 +729,16 @@ exports.getVendorsByRating = function(req, res) {
                   address: data['address'],
                   area: data['area'],
                   latitude: data['latitude'],
-                  longitude: data['longitude'],
+                  longitude: data[
+                    'longitude'],
                   closingTiming: data[
                     'closingTiming'],
                   openingTiming: data[
                     'openingTiming'],
                   imageUrl: data['imageUrl'],
                   saveTime: data['saveTime'],
-                  multiTime: data['multiTime'],
+                  multiTime: data[
+                    'multiTime'],
                   others: data['others'],
                   tags: data['tags'],
                   coords: data['coords'],
@@ -1458,9 +1516,11 @@ exports.addNewVendor = function(req, res) {
         "multiTime": multitime,
         "latitude": parseFloat(req.body.latitude, 10),
         "longitude": parseFloat(req.body.longitude, 10),
-        "coords": [parseFloat(req.body.longitude, 10), parseFloat(
-          req
-          .body.latitude, 10)],
+        "coords": [parseFloat(req.body.longitude, 10),
+          parseFloat(
+            req
+            .body.latitude, 10)
+        ],
         "contact": req.body.contact,
         "subCategory": req.body.subCategory,
         "category": req.body.category,
