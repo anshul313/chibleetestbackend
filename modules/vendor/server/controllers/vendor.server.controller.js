@@ -420,7 +420,7 @@ exports.addvendor = function(req, res) {
 
 exports.googleDataInsert = function(req, res) {
 
-  var q = 50000;
+  var q = 52000;
   var count = 1;
   var l = 0;
   var asyncTasks = [];
@@ -440,9 +440,10 @@ exports.googleDataInsert = function(req, res) {
     //   this.emit('end');
     // });
 
-    fs.readFile(path.resolve(__dirname, 'Faridabad/GAS STATION/FaridabadGAS' +
+    fs.readFile(path.resolve(__dirname,
+      'Faridabad/LIQUOR STORE/FaridabadLIQUOR' +
       k + '.json'), 'utf8', function(err, data) {
-      console.log(data);
+      // console.log(data);
 
       var jsonData = JSON.parse(data);
       jsonData['result'].forEach(function(doc) {
@@ -482,16 +483,16 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Owl',
-                subCategory: 'Atm',
+                category: 'Misc',
+                subCategory: 'Liquor Store',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
                   .lat,
                 longitude: doc.results[j].geometry.location
                   .lng,
-                openingTiming: '24',
-                closingTiming: '0',
+                openingTiming: '10',
+                closingTiming: '10',
                 imageUrl: doc.results[j].icon,
                 saveTime: new Date().getTime(),
                 multiTime: false,
