@@ -420,7 +420,7 @@ exports.addvendor = function(req, res) {
 
 exports.googleDataInsert = function(req, res) {
 
-  var q = 67547;
+  var q = 90360;
   var count = 1;
   var l = 0;
   var asyncTasks = [];
