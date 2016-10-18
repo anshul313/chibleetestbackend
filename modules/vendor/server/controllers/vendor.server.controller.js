@@ -427,7 +427,7 @@ exports.googleDataInsert = function(req, res) {
   for (var k = 1; k < 31; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'Gaziabad/Sheet1/ATM/GaziyabadATM' +
+      'Gaziabad/Sheet2/ATM/GaziyabadATM' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
