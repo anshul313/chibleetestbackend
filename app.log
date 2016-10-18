@@ -3086,3 +3086,123 @@ SyntaxError: missing ) after argument list
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-10-18T09:46:26.144Z - info: 127.0.0.1 - - [18/Oct/2016:09:46:26 +0000] "GET /v2/getsuggestion/ab HTTP/1.1" 400 28 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:46:41.725Z - info: 127.0.0.1 - - [18/Oct/2016:09:46:41 +0000] "GET /v2/getsuggestion/ab HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:46:48.667Z - info: 127.0.0.1 - - [18/Oct/2016:09:46:48 +0000] "GET /v2/getsuggestion/cd HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:47:13.284Z - info: 127.0.0.1 - - [18/Oct/2016:09:47:13 +0000] "GET /v2/getsuggestion/Daily HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:47:54.003Z - info: 127.0.0.1 - - [18/Oct/2016:09:47:54 +0000] "GET /v2/getsuggestion/Daily HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:48:15.093Z - info: 127.0.0.1 - - [18/Oct/2016:09:48:15 +0000] "GET /v2/getsuggestion/a HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:48:27.204Z - info: 127.0.0.1 - - [18/Oct/2016:09:48:27 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:53:15.103Z - info: 127.0.0.1 - - [18/Oct/2016:09:53:15 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T09:58:18.920Z - info: 127.0.0.1 - - [18/Oct/2016:09:58:18 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:00:57.236Z - info: 127.0.0.1 - - [18/Oct/2016:10:00:57 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:01:17.927Z - info: 127.0.0.1 - - [18/Oct/2016:10:01:17 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:06:05.094Z - info: 127.0.0.1 - - [18/Oct/2016:10:06:05 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 302 35 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:06:05.144Z - info: 127.0.0.1 - - [18/Oct/2016:10:06:05 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/getsuggestion/atm" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:08:56.140Z - info: 127.0.0.1 - - [18/Oct/2016:10:08:56 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 40 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:10:14.038Z - error: uncaughtException: removeDuplicates is not defined date=Tue Oct 18 2016 15:40:14 GMT+0530 (IST), pid=11194, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=83091456, heapTotal=86433632, heapUsed=84811960, loadavg=[1.99072265625, 2.04150390625, 1.99951171875], uptime=101981
+ReferenceError: removeDuplicates is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:1167:18
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:844:16
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at setCursorDeadAndNotified (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:496:3)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:633:7)
+    at Cursor.next [as _next] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:674:3)
+    at fetchDocs (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:839:10)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:863:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:664:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:622:9
+    at Object.queryCallback [as cb] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/wireprotocol/3_2_support.js:207:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:213:18)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-18T10:10:32.215Z - info: 127.0.0.1 - - [18/Oct/2016:10:10:32 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 40 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:12:59.234Z - info: 127.0.0.1 - - [18/Oct/2016:10:12:59 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 302 35 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:12:59.287Z - info: 127.0.0.1 - - [18/Oct/2016:10:12:59 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/getsuggestion/atm" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:13:18.491Z - info: 127.0.0.1 - - [18/Oct/2016:10:13:18 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:13:37.930Z - info: 127.0.0.1 - - [18/Oct/2016:10:13:37 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:14:04.293Z - info: 127.0.0.1 - - [18/Oct/2016:10:14:04 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:14:45.592Z - info: 127.0.0.1 - - [18/Oct/2016:10:14:45 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:33:57.257Z - info: 127.0.0.1 - - [18/Oct/2016:10:33:57 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 552 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:38:54.414Z - info: 127.0.0.1 - - [18/Oct/2016:10:38:54 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:47:40.787Z - info: 127.0.0.1 - - [18/Oct/2016:10:47:40 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:48:26.629Z - info: 127.0.0.1 - - [18/Oct/2016:10:48:26 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T10:49:00.158Z - info: 127.0.0.1 - - [18/Oct/2016:10:49:00 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 859 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:04:36.525Z - info: 127.0.0.1 - - [18/Oct/2016:11:04:36 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:04:44.207Z - info: 127.0.0.1 - - [18/Oct/2016:11:04:44 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:05:42.644Z - info: 127.0.0.1 - - [18/Oct/2016:11:05:42 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:06:21.394Z - info: 127.0.0.1 - - [18/Oct/2016:11:06:21 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:08:00.171Z - info: 127.0.0.1 - - [18/Oct/2016:11:08:00 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:12:40.178Z - error: uncaughtException: missing ) after argument list date=Tue Oct 18 2016 16:42:40 GMT+0530 (IST), pid=11937, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=108380160, heapTotal=77545312, heapUsed=52185360, loadavg=[1.998046875, 2.03759765625, 2.07666015625], uptime=105727
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-18T11:16:08.068Z - info: 127.0.0.1 - - [18/Oct/2016:11:16:08 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:17:00.862Z - info: 127.0.0.1 - - [18/Oct/2016:11:17:00 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:17:48.146Z - info: 127.0.0.1 - - [18/Oct/2016:11:17:48 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:21:31.923Z - info: 127.0.0.1 - - [18/Oct/2016:11:21:31 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 151 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T11:23:03.060Z - info: 127.0.0.1 - - [18/Oct/2016:11:23:03 +0000] "GET /v2/vendorbytag/Owl/Atm/%20Mohan%20Nagar/ATM,%20cheque%20drop%20box,%20Cash%20withdrawl,%20Cash%20deposit%20machine/0 HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+

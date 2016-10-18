@@ -1149,31 +1149,26 @@ exports.getBookMark = function(req, res) {
   });
 }
 
-var unique = function(origArr) {
-  var newArr = [],
-    origLen = origArr.length,
-    found, x, y;
-
-  for (x = 0; x < origLen; x++) {
-    found = undefined;
-    for (y = 0; y < newArr.length; y++) {
-      if (origArr[x] === newArr[y]) {
-        found = true;
-        break;
-      }
-    }
-    if (!found) {
-      newArr.push(origArr[x]);
-    }
-  }
-  return newArr;
-}
 
 exports.getsuggestion = function(req, res) {
 
-  var finalResult = [];
+  function removeDuplicates(arr, prop) {
+    var new_arr = [];
+    var lookup = {};
+
+    for (var i in arr) {
+      lookup[arr[i][prop]] = arr[i];
+    }
+
+    for (i in lookup) {
+      new_arr.push(lookup[i]);
+    }
+
+    return new_arr;
+  }
+
   vendor.find({
-    'tags': new RegExp('^' + req.params.inp, "i")
+    'tags': new RegExp(req.params.inp, "i")
   }, {
     tags: 1,
     category: 1,
@@ -1181,18 +1176,24 @@ exports.getsuggestion = function(req, res) {
     area: 1,
     _id: 0
   }).exec(function(err, resp) {
-    console.log('response : ', resp);
-    var arrUnique = unique(resp);
-    // for (var i = 0; i < resp.length; i++) {
-    //
-    //   var suggest = resp[i];
-    //   var result = _.indexOf(finalResult, suggest);
-    //   if (result == -1)
-    //     finalResult.push(suggest);
+    // var sorted_arr = resp.sort();
+    // // console.log(sorted_arr);
+    // var results = [];
+    // for (var i = 0; i < resp.length - 1; i++) {
+    //   var flag = 0;
+    //   for (var j = 0; j < sorted_arr.length; j++) {
+    //     if (resp[i].tags === sorted_arr[j].tags) {
+    //       flag = 1;
+    //     }
+    //   }
+    //   console.log('flag : ', flag);
+    //   if (flag == 0)
+    //     results.push(resp[i]);
     // }
+    var uniqueArray = removeDuplicates(resp, "tags");
     res.json({
       err: false,
-      data: arrUnique
+      data: uniqueArray
     });
   });
 }

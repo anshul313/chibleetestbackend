@@ -106,6 +106,7 @@ exports.login = function(req, res) {
 
 exports.category = function(req, res) {
   db.collection('category').distinct('category', function(err, docs) {
+    doc.sort();
     if (err) {
       res.json({
         error: true,
@@ -133,6 +134,7 @@ exports.subcategory = function(req, res) {
       _id: 0
     }).toArray(function(err, docs) {
       // console.log(docs);
+      var data = docs[0].subCategory.sort();
       if (err) {
         res.json({
           error: true,
@@ -141,7 +143,7 @@ exports.subcategory = function(req, res) {
       }
       res.json({
         error: false,
-        data: docs[0].subCategory
+        data: data
       });
     });
   }
