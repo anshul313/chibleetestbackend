@@ -440,8 +440,7 @@ exports.googleDataInsert = function(req, res) {
               var vicinityArea = doc.results[j].vicinity.split(
                 ",");
               if (vicinityArea.length > 2) {
-                var area = vicinityArea[vicinityArea.length -
-                  2];
+                var area = vicinityArea[vicinityArea.length - 2];
               } else {
                 var area = doc.results[j].vicinity;
               }
@@ -466,8 +465,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Owl',
-                subCategory: 'Atm',
+                category: 'Misc',
+                subCategory: 'Petrol Pump',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
