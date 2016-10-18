@@ -420,7 +420,7 @@ exports.addvendor = function(req, res) {
 
 exports.googleDataInsert = function(req, res) {
 
-  var q = 67547;
+  var q = 90360;
   var count = 1;
   var l = 0;
   var asyncTasks = [];
@@ -441,7 +441,7 @@ exports.googleDataInsert = function(req, res) {
     // });
 
     fs.readFile(path.resolve(__dirname,
-      'Faridabad/PHARMACY/FaridabadPHARMACY' +
+      'Faridabad/GAS STATION/FaridabadGAS' +
       k + '.json'), 'utf8', function(err, data) {
       // console.log(data);
 
@@ -483,16 +483,16 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Health',
-                subCategory: 'Pharmacy',
+                category: 'Misc',
+                subCategory: 'Petrol Pump',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
                   .lat,
                 longitude: doc.results[j].geometry.location
                   .lng,
-                openingTiming: '10',
-                closingTiming: '10',
+                openingTiming: '4',
+                closingTiming: '12',
                 imageUrl: doc.results[j].icon,
                 saveTime: new Date().getTime(),
                 multiTime: false,
