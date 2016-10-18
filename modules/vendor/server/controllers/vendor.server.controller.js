@@ -436,9 +436,7 @@ exports.googleDataInsert = function(req, res) {
         asyncTasks.push(function(callback) {
 
           if (doc.results.length > 0) {
-
             for (var j = 0; j < doc.results.length; j++) {
-
               var vicinityArea = doc.results[j].vicinity.split(
                 ",");
               if (vicinityArea.length > 2) {
