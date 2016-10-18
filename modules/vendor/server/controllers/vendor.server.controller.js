@@ -130,7 +130,9 @@ exports.getvendors = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: bookmark
+              bookmark: bookmark,
+              serialnumber: doc['serialnumber'],
+              keyword: doc['keyword']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -229,7 +231,9 @@ exports.vendorByArea = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: data['bookmark']
+              bookmark: data['bookmark'],
+              serialnumber: data['serialnumber'],
+              keyword: data['keyword']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -427,7 +431,7 @@ exports.googleDataInsert = function(req, res) {
   for (var k = 1; k < 31; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'Gaziabad/Sheet1/GAS STATION/GaziabadGAS' +
+      'Gaziabad/Sheet2/GAS STATION/GaziabadGAS' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -730,7 +734,10 @@ exports.getVendorsByRating = function(req, res) {
                   landmark: data['landmark'],
                   status: data['status'],
                   rating: totalRating,
-                  bookmark: data['bookmark']
+                  bookmark: data['bookmark'],
+                  serialnumber: data[
+                    'serialnumber'],
+                  keyword: data['keyword']
                 });
                 finalresult.push(obj);
                 callback(err, obj);
@@ -834,7 +841,10 @@ exports.getVendorsByHomeDelivery = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: data['bookmark']
+              bookmark: data['bookmark'],
+              serialnumber: data[
+                'serialnumber'],
+              keyword: data['keyword']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -941,7 +951,10 @@ exports.getVendorsByOpen = function(req, res) {
             landmark: doc['landmark'],
             status: doc['status'],
             rating: totalRating,
-            bookmark: data['bookmark']
+            bookmark: data['bookmark'],
+            serialnumber: data[
+              'serialnumber'],
+            keyword: data['keyword']
           });
           finalresult.push(obj);
           callback(err, obj);
@@ -1121,7 +1134,9 @@ exports.getBookMark = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: 1
+              bookmark: 1,
+              serialnumber: doc['serialnumber'],
+              keyword: data['keyword']
             });
 
 
@@ -1262,7 +1277,9 @@ exports.vendorByTags = function(req, res) {
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: data['bookmark']
+              bookmark: data['bookmark'],
+              serialnumber: data['serialnumber'],
+              keyword: data['keyword']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -1457,7 +1474,6 @@ exports.addNewVendor = function(req, res) {
         "bookmark": 0,
         "others": '-',
         "keyword": req.body.tags
-
       });
       db.collection('addedvendors').update({
           "userId": req.user._id,
