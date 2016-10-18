@@ -30,7 +30,7 @@ module.exports = function(app) {
   app.route('/v2/getvendorsbyrating').all(util.userAuthenticate)
     .get(vendors.getVendorsByRating);
 
-  app.route('/v2/getelasticsearchbylatlng/:input/:lat/:lon/:page')
+  app.route('/v2/getelasticsearchbylatlng/:lat/:lon/:page')
     .get(vendors.getelasticsearchbylatlng);
 
   app.route('/v2/getVendorsByHomeDelivery').all(util.userAuthenticate)
@@ -78,5 +78,10 @@ module.exports = function(app) {
   app.route('/v2/googledatainsert')
     .get(vendors.googleDataInsert);
 
+  app.route('/v2/getbanner')
+    .get(vendors.getBanner);
+
+  app.route('/v2/addbanner')
+    .post(vendors.addBanner);
 
 };

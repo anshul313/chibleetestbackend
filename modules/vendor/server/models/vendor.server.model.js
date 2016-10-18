@@ -152,6 +152,16 @@ var vendorSchema = new Schema({
   strict: false
 });
 
+var bannerSchema = new Schema({
+  imageUrl: {
+    type: String
+  },
+  name: {
+    type: String
+  }
+});
+
+module.exports = mongoose.model('bannerSchema', bannerSchema);
 module.exports = mongoose.model('contactCallHistory', contactCallSchema);
 module.exports = mongoose.model('bookmarkUsers', bookmarkSchema);
 module.exports = mongoose.model('cleanvendor', vendorSchema);

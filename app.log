@@ -1,0 +1,24 @@
+2016-10-18T12:21:37.443Z - info: 127.0.0.1 - - [18/Oct/2016:12:21:37 +0000] "GET /v2/getbanner HTTP/1.1" 200 25 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T12:22:26.356Z - error: uncaughtException: Route.get() requires callback functions but got a [object Undefined] date=Tue Oct 18 2016 17:52:26 GMT+0530 (IST), pid=12843, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=139444224, heapTotal=106035808, heapUsed=81166920, loadavg=[2.12548828125, 2.27294921875, 2.1318359375], uptime=109913
+Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/express/lib/router/route.js:196:15)
+    at module.exports (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:85:6)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:37
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-18T12:26:37.418Z - info: 127.0.0.1 - - [18/Oct/2016:12:26:37 +0000] "POST /v2/addbanner HTTP/1.1" 200 173 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T12:26:58.686Z - info: 127.0.0.1 - - [18/Oct/2016:12:26:58 +0000] "POST /v2/addbanner HTTP/1.1" 200 161 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T12:27:12.317Z - info: 127.0.0.1 - - [18/Oct/2016:12:27:12 +0000] "POST /v2/addbanner HTTP/1.1" 200 159 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T12:27:40.597Z - info: 127.0.0.1 - - [18/Oct/2016:12:27:40 +0000] "POST /v2/addbanner HTTP/1.1" 200 159 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T12:27:52.003Z - info: 127.0.0.1 - - [18/Oct/2016:12:27:52 +0000] "GET /v2/getbanner HTTP/1.1" 200 588 "-" "PostmanRuntime/2.5.2"
+

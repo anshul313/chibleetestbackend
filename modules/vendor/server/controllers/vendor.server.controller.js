@@ -9,6 +9,7 @@ var path = require('path'),
   mongoose = require('mongoose'),
   vendor = mongoose.model('cleanvendor'),
   contactHistory = mongoose.model('contactCallHistory'),
+  banner = mongoose.model('bannerSchema'),
   comment = mongoose.model('vendorcomments'),
   bookmarkUsers = mongoose.model('bookmarkUsers'),
   errorHandler = require(path.resolve(
@@ -1670,4 +1671,40 @@ exports.temp = function(req, res) {
     // data1.push(obj.address);
   });
   // console.log('data : ', data1);
+}
+
+exports.getBanner = function(req, res) {
+  banner.find({}, function(err, docs) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler.getErrorMessage(err)
+      });
+    }
+    res.json({
+      error: false,
+      data: docs
+    });
+  });
+}
+
+
+exports.addBanner = function(req, res) {
+  var name = req.body.name;
+  var imageurl = req.body.imageUrl;
+
+  var bannerdata = new banner({
+    name: name,
+    imageUrl: imageurl
+  });
+  bannerdata.save(function(err, docs) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler.getErrorMessage(err)
+      });
+    }
+    res.json({
+      error: false,
+      data: docs
+    });
+  });
 }
