@@ -1168,7 +1168,7 @@ exports.getsuggestion = function(req, res) {
   }
 
   vendor.find({
-    'tags': new RegExp(req.params.inp, "i")
+    'tags': new RegExp('^' + req.params.inp, "i")
   }, {
     tags: 1,
     category: 1,
