@@ -1196,7 +1196,7 @@ exports.vendorByTags = function(req, res) {
   var skip = limit * parseInt(req.params.page);
   vendor.find({
     'tags': new RegExp(tag, "i"),
-    'area': new RegExp('^' + area + '$', "i"),
+    'area': new RegExp(area, "i"),
     'category': cat,
     'subCategory': subcat
   }).skip(skip).limit(limit).exec(function(err, data) {
