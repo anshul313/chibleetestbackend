@@ -1691,7 +1691,6 @@ exports.getBanner = function(req, res) {
 exports.addBanner = function(req, res) {
   var name = req.body.name;
   var imageurl = req.body.imageUrl;
-
   var bannerdata = new banner({
     name: name,
     imageUrl: imageurl
