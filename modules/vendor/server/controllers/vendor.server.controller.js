@@ -500,14 +500,15 @@ exports.googleDataInsert = function(req, res) {
                 if (err) {
                   console.log('error : ', err);
                 }
-                client.index({
-                  index: 'cleanvendors',
-                  type: 'Document',
-                  id: ++q,
-                  body: vendorData
-                }, function(error, response) {
-                  console.log('index created');
-                });
+                // client.index({
+                //   index: 'cleanvendors',
+                //   type: 'Document',
+                //   id: ++q,
+                //   body: vendorData
+                // }, function(error, response) {
+                //   console.log('index created');
+                // });
+                console.log('insert successfully : ', count++);
               });
             }
           }

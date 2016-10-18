@@ -508,6 +508,10 @@ exports.temp = function(req, res) {
       },
       spherical: true
     }
+  }, {
+    $skip: 4
+  }, {
+    $limit: 5
   }], function(err, docs) {
     res.json({
       data: docs

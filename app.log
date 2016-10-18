@@ -115,3 +115,35 @@ SyntaxError: missing ) after argument list
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-10-18T20:41:29.834Z - info: 127.0.0.1 - - [18/Oct/2016:20:41:29 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T20:42:22.123Z - info: 127.0.0.1 - - [18/Oct/2016:20:42:22 +0000] "GET /v2/temp HTTP/1.1" 200 11 "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T20:43:10.096Z - info: 127.0.0.1 - - [18/Oct/2016:20:43:10 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T20:43:32.791Z - info: 127.0.0.1 - - [18/Oct/2016:20:43:32 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-18T21:15:20.776Z - error: uncaughtException: missing ) after argument list date=Wed Oct 19 2016 02:45:20 GMT+0530 (IST), pid=15421, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=110260224, heapTotal=78577248, heapUsed=50186888, loadavg=[2.69677734375, 2.291015625, 2.26611328125], uptime=141889
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
