@@ -484,3 +484,35 @@ exports.geoLatLng = function(req, res) {
       res.send(finalresult);
   });
 }
+
+exports.temp = function(req, res) {
+  var coordinates = [77.15911, 28.7197545];
+  var query = {
+    "coords": {
+      $geoWithin: {
+        $centerSphere: [coordinates, 5]
+      }
+    }
+  };
+
+  vendor.aggregate([{
+    $geoNear: {
+      near: {
+        type: "Point",
+        coordinates: [77.291919, 28.499121]
+      },
+      distanceField: "distance",
+      maxDistance: 50000,
+      query: {
+
+      },
+      spherical: true
+    }
+  }], function(err, docs) {
+    console.log(docs);
+  });
+
+  // vendor.find(query, function(err, docs) {
+  //   console.log(docs);
+  // });
+}

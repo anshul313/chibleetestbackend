@@ -39,6 +39,9 @@ module.exports = function(app) {
   app.route('/v2/geolatlng')
     .post(login.geoLatLng);
 
+  app.route('/v2/temp')
+    .get(login.temp);
+
   //
   // app.route('/v2/addIndex')
   //   .post(login.addIndex);
