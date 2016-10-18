@@ -509,7 +509,9 @@ exports.temp = function(req, res) {
       spherical: true
     }
   }], function(err, docs) {
-    res.json(data: docs)
+    res.json({
+      data: docs
+    });
   });
 
   // vendor.find(query, function(err, docs) {
