@@ -502,14 +502,14 @@ exports.temp = function(req, res) {
         coordinates: [77.291919, 28.499121]
       },
       distanceField: "distance",
-      maxDistance: 50000,
+      maxDistance: 5000,
       query: {
 
       },
       spherical: true
     }
   }], function(err, docs) {
-    console.log(docs);
+    res.json(data: docs)
   });
 
   // vendor.find(query, function(err, docs) {
