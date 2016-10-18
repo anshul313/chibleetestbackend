@@ -46,7 +46,6 @@ var client = new elasticsearch.Client({
 client.ping({
   // ping usually has a 3000ms timeout
   requestTimeout: Infinity,
-
   // undocumented params are appended to the query string
   hello: "elasticsearch!"
 }, function(error) {
