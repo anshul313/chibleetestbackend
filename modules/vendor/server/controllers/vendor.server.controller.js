@@ -1176,20 +1176,7 @@ exports.getsuggestion = function(req, res) {
     area: 1,
     _id: 0
   }).exec(function(err, resp) {
-    // var sorted_arr = resp.sort();
-    // // console.log(sorted_arr);
-    // var results = [];
-    // for (var i = 0; i < resp.length - 1; i++) {
-    //   var flag = 0;
-    //   for (var j = 0; j < sorted_arr.length; j++) {
-    //     if (resp[i].tags === sorted_arr[j].tags) {
-    //       flag = 1;
-    //     }
-    //   }
-    //   console.log('flag : ', flag);
-    //   if (flag == 0)
-    //     results.push(resp[i]);
-    // }
+
     var uniqueArray = removeDuplicates(resp, "tags");
     res.json({
       err: false,
