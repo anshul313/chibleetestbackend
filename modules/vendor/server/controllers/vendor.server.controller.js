@@ -155,8 +155,6 @@ exports.getvendors = function(req, res) {
 }
 
 exports.vendorByArea = function(req, res) {
-  // console.log('subcategory : ', req.params.subcat);
-  // console.log('area : ', req.params.area);
   var finalresult = [];
   var asyncTasks = [];
   var subcat = req.params.subcat;
@@ -257,18 +255,19 @@ exports.vendorByArea = function(req, res) {
 
 
 exports.getelasticsearchbylatlng = function(req, res) {
+  var coordinates = [77.15911, 28.7197545];
   db.collection('cleanvendor').find({
-    coords: {
-      $nearSphere: {
-        $geometry: {
-          type: "Point",
-          coordinates: [77.15911, 28.7197545]
-        },
-        $minDistance: 0,
-        $maxDistance: 5000,
-        distanceMultiplier: 3963.2
-      }
-    }
+    // coords: {
+    //   $nearSphere: {
+    //     $geometry: {
+    //       type: "Point",
+    //       coordinates: [77.15911, 28.7197545]
+    //     },
+    //     $minDistance: 0,
+    //     $maxDistance: 5000,
+    //     distanceMultiplier: 3963.2
+    //   }
+    // }
   }).toArray(function(err, result) {
     if (err)
       console.log('error : ', err);
@@ -1150,77 +1149,28 @@ exports.getBookMark = function(req, res) {
   });
 }
 
+var unique = function(origArr) {
+  var newArr = [],
+    origLen = origArr.length,
+    found, x, y;
+
+  for (x = 0; x < origLen; x++) {
+    found = undefined;
+    for (y = 0; y < newArr.length; y++) {
+      if (origArr[x] === newArr[y]) {
+        found = true;
+        break;
+      }
+    }
+    if (!found) {
+      newArr.push(origArr[x]);
+    }
+  }
+  return newArr;
+}
+
 exports.getsuggestion = function(req, res) {
-  // var finalresult = [];
-  // async.parallel([
-  //     function(callback) {
-  //       vendor.find({
-  //         'area': new RegExp('^' + req.params.inp, "i")
-  //       }, {
-  //         area: 1,
-  //         _id: 0
-  //       }).exec(function(err, data) {
-  //         if (err) {
-  //           callback(err, null);
-  //         }
-  //         // console.log('area : ', data);
-  //         _.concat(finalresult, data);
-  //         callback(null, data);
-  //       });
-  //     },
-  //     function(callback) {
-  //       vendor.find({
-  //         'type': new RegExp('^' + req.params.inp, "i")
-  //       }, {
-  //         type: 1,
-  //         _id: 0
-  //       }).exec(function(err, data) {
-  //         if (err) {
-  //           callback(err, null);
-  //         }
-  //         // console.log('type : ', data);
-  //         _.concat(finalresult, data);
-  //         callback(null, data);
-  //       });
-  //     },
-  //     function(callback) {
-  //       vendor.find({
-  //         'tags': new RegExp('^' + req.params.inp, "i")
-  //       }, {
-  //         tags: 1,
-  //         _id: 0
-  //       }).exec(function(err, data) {
-  //         if (err) {
-  //           callback(err, null);
-  //         }
-  //         // console.log('tags : ', data);
-  //         _.concat(finalresult, data);
-  //         callback(null, data);
-  //       });
-  //     }
-  //   ],
-  //   function(err, results) {
-  //     // console.log('results : ', results[0]);
-  //     // for (var j = 0; j < results.length; j++) {
-  //     //   for (var i = 0; i < results[i].length; i++) {
-  //     //       if()
-  //     //   }
-  //     // }
-  //
-  //     res.send(finalresult);
-  //   });
-  // client.suggest({
-  //   index: 'cleanvendors',
-  //   type: 'Document',
-  //   body: {
-  //     text: req.params.inp,
-  //     bodySuggester: {
-  //       phrase: {
-  //         "field": 'name'
-  //       }
-  //     }
-  //   }
-  // }).then(function(resp) {
+
   var finalResult = [];
   vendor.find({
     'tags': new RegExp('^' + req.params.inp, "i")
@@ -1232,26 +1182,22 @@ exports.getsuggestion = function(req, res) {
     _id: 0
   }).exec(function(err, resp) {
     console.log('response : ', resp);
-    for (var i = 0; i < resp.length; i++) {
-      // var data = resp[j].split(',');
-      // for (var i = 0; i < data.length; i++) {
-      //   console.log('data : ', data[i]);
-      var suggest = resp[i];
-      var result = _.indexOf(finalResult, suggest);
-      if (result == -1)
-        finalResult.push(suggest);
-      // }
-    }
+    var arrUnique = unique(resp);
+    // for (var i = 0; i < resp.length; i++) {
+    //
+    //   var suggest = resp[i];
+    //   var result = _.indexOf(finalResult, suggest);
+    //   if (result == -1)
+    //     finalResult.push(suggest);
+    // }
     res.json({
       err: false,
-      data: finalResult
+      data: arrUnique
     });
   });
 }
 
 exports.vendorByTags = function(req, res) {
-  // console.log('subcategory : ', req.params.subcat);
-  // console.log('area : ', req.params.area);
   var finalresult = [];
   var asyncTasks = [];
   var subcat = req.params.subcat;
@@ -1261,7 +1207,7 @@ exports.vendorByTags = function(req, res) {
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
   vendor.find({
-    'tags': new RegExp('^' + tag, "i"),
+    'tags': new RegExp(tag, "i"),
     'area': new RegExp('^' + area + '$', "i"),
     'category': cat,
     'subCategory': subcat
