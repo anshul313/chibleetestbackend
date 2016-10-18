@@ -477,8 +477,8 @@ exports.googleDataInsert = function(req, res) {
                   .lat,
                 longitude: doc.results[j].geometry.location
                   .lng,
-                openingTiming: '10',
-                closingTiming: '10',
+                openingTiming: '0',
+                closingTiming: '24',
                 imageUrl: doc.results[j].icon,
                 saveTime: new Date().getTime(),
                 multiTime: false,
@@ -1523,7 +1523,7 @@ exports.addNewVendor = function(req, res) {
         "userId": req.user._id,
         "saveTime": new Date().getTime(),
         "bookmark": 0,
-        "others": '',
+        "others": '-',
         "keyword": req.body.tags
 
       });
