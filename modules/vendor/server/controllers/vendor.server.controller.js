@@ -425,25 +425,11 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 24; k++) {
-    // var fileStream = fs.createReadStream(
-    //   path.resolve(__dirname, 'Faridabad/ATM/FaridabadATM' + 2 + '.json'), {
-    //     encoding: 'utf8'
-    //   });
-    // fileStream.pipe(JSONStream.parse('*')).pipe(es.through(function(data) {
-    //
-    //   this.pause();
-    //   processOneCustomer(data, this);
-    //   return data;
-    // }), function end() {
-    //   console.log('stream reading ended');
-    //   this.emit('end');
-    // });
+  for (var k = 1; k < 31; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'Faridabad/PHYSIOTHEERAPIST/FaridabadPHYSIOTHEERAPIST' +
+      'Gaziabad/Sheet1/ATM/GaziyabadATM' +
       k + '.json'), 'utf8', function(err, data) {
-      // console.log(data);
 
       var jsonData = JSON.parse(data);
       jsonData['result'].forEach(function(doc) {
@@ -483,8 +469,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Wellness',
-                subCategory: 'Physiotherapy',
+                category: 'Owl',
+                subCategory: 'Atm',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
@@ -1537,9 +1523,14 @@ exports.addNewVendor = function(req, res) {
         "userId": req.user._id,
         "saveTime": new Date().getTime(),
         "bookmark": 0,
-        "others": ''
+        "others": '',
+        "keyword": req.body.tags
+
       });
-      db.collection('addedvendors').update({}, {
+      db.collection('addedvendors').update({
+          "userId": req.user._id,
+          "name": req.body.name
+        }, {
           '$set': vendordata
         }, {
           upsert: true
