@@ -428,7 +428,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 98; k++) {
+  for (var k = 1; k < 45; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/noida/ATM/NoidaATM' +
