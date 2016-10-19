@@ -60,16 +60,28 @@ client.ping({
 exports.getvendors = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-  vendor.find({
-    coords: {
-      $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
-      $minDistance: 0,
-      $maxDistance: req.body.radius,
-    },
-    category: req.body.cat,
-    subCategory: req.body.subcat
-  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
-    // console.log('Data : ', data);
+
+  var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
+
+  vendor.aggregate([{
+    $geoNear: {
+      near: {
+        type: "Point",
+        coordinates: coordinates
+      },
+      distanceField: "distance",
+      maxDistance: 5000,
+      query: {
+        category: req.body.cat,
+        subCategory: req.body.subcat
+      },
+      spherical: true
+    }
+  }, {
+    $skip: (req.body.page * 10)
+  }, {
+    $limit: 10
+  }], function(err, data) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -105,6 +117,8 @@ exports.getvendors = function(req, res) {
               temp.push(bookmarkvendorIds[i].toString())
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
+
+            var distanceinkm = doc['distance'] / 1000;
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
@@ -116,8 +130,10 @@ exports.getvendors = function(req, res) {
               area: doc['area'],
               latitude: doc['latitude'],
               longitude: doc['longitude'],
-              closingTiming: doc['closingTiming'],
-              openingTiming: doc['openingTiming'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
               imageUrl: doc['imageUrl'],
               saveTime: doc['saveTime'],
               multiTime: doc['multiTime'],
@@ -132,7 +148,8 @@ exports.getvendors = function(req, res) {
               rating: totalRating,
               bookmark: bookmark,
               serialnumber: doc['serialnumber'],
-              keyword: doc['keyword']
+              keyword: doc['keyword'],
+              distance: distanceinkm
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -144,8 +161,7 @@ exports.getvendors = function(req, res) {
       if (err) {
         return res.status(400).send({
           message: errorHandler
-            .getErrorMessage(
-              err)
+            .getErrorMessage(err)
         });
       }
       res.json({
@@ -329,7 +345,8 @@ exports.addvendor = function(req, res) {
   var q = 37594;
   var count = 1;
 
-  var stream = fs.createReadStream(path.resolve(__dirname, 'output5.json'), {
+  var stream = fs.createReadStream(path.resolve(__dirname,
+      'output5.json'), {
       encoding: 'utf8'
     }),
     parser = JSONStream.parse();
@@ -444,7 +461,8 @@ exports.googleDataInsert = function(req, res) {
               var vicinityArea = doc.results[j].vicinity.split(
                 ",");
               if (vicinityArea.length > 2) {
-                var area = vicinityArea[vicinityArea.length - 2];
+                var area = vicinityArea[vicinityArea.length -
+                  2];
               } else {
                 var area = doc.results[j].vicinity;
               }
@@ -509,7 +527,8 @@ exports.googleDataInsert = function(req, res) {
                 // }, function(error, response) {
                 //   console.log('index created');
                 // });
-                console.log('insert successfully : ', count++);
+                console.log('insert successfully : ',
+                  count++);
               });
             }
           }

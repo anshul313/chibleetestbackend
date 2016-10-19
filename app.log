@@ -147,3 +147,77 @@ SyntaxError: missing ) after argument list
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-10-19T10:53:17.903Z - info: 127.0.0.1 - - [19/Oct/2016:10:53:17 +0000] "POST /v2/getvendor HTTP/1.1" 400 28 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:53:45.110Z - info: 127.0.0.1 - - [19/Oct/2016:10:53:45 +0000] "POST /v2/getvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:54:06.723Z - info: 127.0.0.1 - - [19/Oct/2016:10:54:06 +0000] "POST /v2/getvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:54:40.705Z - info: 127.0.0.1 - - [19/Oct/2016:10:54:40 +0000] "POST /v2/getvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:55:24.000Z - info: 127.0.0.1 - - [19/Oct/2016:10:55:23 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:56:17.510Z - info: 127.0.0.1 - - [19/Oct/2016:10:56:17 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:56:25.073Z - info: 127.0.0.1 - - [19/Oct/2016:10:56:25 +0000] "POST /v2/getvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:56:57.272Z - info: 127.0.0.1 - - [19/Oct/2016:10:56:57 +0000] "POST /v2/getvendor HTTP/1.1" 400 34 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:57:16.939Z - error: uncaughtException: data is not defined date=Wed Oct 19 2016 16:27:16 GMT+0530 (IST), pid=22472, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=143327232, heapTotal=112215392, heapUsed=85189080, loadavg=[2.33642578125, 2.25146484375, 2.123046875], uptime=191207
+ReferenceError: data is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:90:5
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/aggregate.js:586:13
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/collection.js:2564:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:308:5
+    at commandCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-19T10:57:35.289Z - info: 127.0.0.1 - - [19/Oct/2016:10:57:35 +0000] "POST /v2/getvendor HTTP/1.1" 200 25 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:58:47.140Z - info: 127.0.0.1 - - [19/Oct/2016:10:58:47 +0000] "POST /v2/getvendor HTTP/1.1" 200 25 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:59:09.331Z - info: 127.0.0.1 - - [19/Oct/2016:10:59:09 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T10:59:45.186Z - info: 127.0.0.1 - - [19/Oct/2016:10:59:45 +0000] "POST /v2/getvendor HTTP/1.1" 200 25 "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:00:19.856Z - info: 127.0.0.1 - - [19/Oct/2016:11:00:19 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:01:10.535Z - error: uncaughtException: data is not defined date=Wed Oct 19 2016 16:31:10 GMT+0530 (IST), pid=22573, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=142798848, heapTotal=112215392, heapUsed=86531336, loadavg=[2.09521484375, 2.10107421875, 2.07568359375], uptime=191441
+ReferenceError: data is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:93:5
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3327:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/aggregate.js:586:13
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/collection.js:2564:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:308:5
+    at commandCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:1194:9)
+    at Callbacks.emit (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:119:3)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:358:23)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:292:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-10-19T11:01:22.857Z - info: 127.0.0.1 - - [19/Oct/2016:11:01:22 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:01:49.197Z - info: 127.0.0.1 - - [19/Oct/2016:11:01:49 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:02:24.454Z - info: 127.0.0.1 - - [19/Oct/2016:11:02:24 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:04:23.934Z - info: 127.0.0.1 - - [19/Oct/2016:11:04:23 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:05:03.156Z - info: 127.0.0.1 - - [19/Oct/2016:11:05:03 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-19T11:05:28.852Z - info: 127.0.0.1 - - [19/Oct/2016:11:05:28 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
