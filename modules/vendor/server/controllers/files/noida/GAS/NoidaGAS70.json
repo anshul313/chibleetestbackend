@@ -1,0 +1,85 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.47892,
+                            "lng": 77.334296
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.47892005,
+                                "lng": 77.3343371
+                            },
+                            "southwest": {
+                                "lat": 28.47891984999999,
+                                "lng": 77.3341727
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "027b21b3da1ea333ff456a4f31c2e3deed8166ff",
+                    "name": "Virpal Gas Service",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJKX05z6DnDDkRcT-WjtUhLRg",
+                    "reference": "CmRRAAAAlP8oaK58r9J_KjzKmAbYrbcsCjOyNYZ2CS_Hp00NwFiCzcf2yPAKINj7xFuS6oTxRec_Yh_EYRWDwqEg5Wk7GcyxE9ix4aZoB7aZvt9fX9KvNefpkV_wrdp0j29Fvb4AEhAHxQe1NV1y1bAYRKRgcWSLGhTBu9cr4flDTfCRzc-8qukpwdGhfQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Surya Vihar-2, Agwanpur, Surya Vihar Road, Sector 91, Faridabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.472671,
+                            "lng": 77.332307
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ecadcee26506f3431866b3693f7ce3b51c93f8df",
+                    "name": "Sanjay Gas Service",
+                    "place_id": "ChIJKXT6WHXnDDkRWN2ApuWoy0k",
+                    "reference": "CmRRAAAAKTzYOhUkZkpOJE5vUQt0tQEYTYIn313zGK5A8zDFrkAyF51QXVFasLj3aU4F2T-k5a8mjVFAIJ6a1zzh4aY5nhNoHXB_DmXZaeqPUHBg87YKiv9---2W7OMytPpXwLswEhD8heeJpic7EqQufn4Ifc9qGhQaeoyYua9d2-uB2jsZAQcqh0stCw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Surdas Colony, Sec-91, Sehatpur, Faridabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

@@ -1,0 +1,2254 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769491,
+                            "lng": 77.3583737
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57709265,
+                                "lng": 77.3588345
+                            },
+                            "southwest": {
+                                "lat": 28.57651845,
+                                "lng": 77.35822010000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6fe5a3f3e11acfa142c838c18cda4820480b57ae",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVezpBpflDDkRuBDqwpqKEsg",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAAaFp_Z7N5BhaMQ7qh-sWWybrvSPRSmS2s6jWtSxpsrTYzURFItoBWK_myZAJaJEybYQYsVuLL51Z7RphUAM7_8fNeYUMujd8zpPNoorHcr4ZrJeUqqKQ6xXQEkKIXV1qDEhCV3TtyGYKpAWNNt43NpejQGhQ4hynxSt7S4DrOxVjBtfSoS7o4ng",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Marg, Sector 35, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5774721,
+                            "lng": 77.3603864
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899406e973c1ee1ac5122e503aec06235c6265ae",
+                    "name": "HMP Hindustan Petrolium",
+                    "place_id": "ChIJC2i7OpflDDkRz_j8YeMGHuQ",
+                    "reference": "CmRSAAAA0ckaA11iFFM9EaBFnSyjI9E1NumtDeppZnS9oZGB6KgS23pa70uDKyJz80PoPauqwD3O2CEwaAY0RVNZkp0mNZdzk39Td_IjH3a_8HZVcO0S-utMuF1qtdD4GfkifAz7EhDlsUUFJ3HIJS3RAUX1r8q7GhSuS0fQCZcPwIFN49hmwo7BIzCSJg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block B, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769737,
+                            "lng": 77.3585384
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5770877,
+                                "lng": 77.35890425000001
+                            },
+                            "southwest": {
+                                "lat": 28.5766317,
+                                "lng": 77.35841644999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a48c84f85fa08c5045d7a87f6ac13f34983f131d",
+                    "name": "BP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAO_mQqqAXzi46NsCwhJo0b6NMtdRUMSL6FYKM5W23XfT6mKzq7HNPZCSCo5Dyid_qWzWuQijOEciBlv8ZSUx92M_Ls7JSpKzTk-A9fgs6Fqv6qUVD23SgoIg-gMc5Yhkkz1I91oCIIBkRW797kfJKl5ozl3u2H-t26Q8jDZjC9lMEhDRG9cLBnZ69sa54Vmja2b0GhQmh8MIh6eKq8hYxT4eppkAOobmJg",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJB0_qBpflDDkRSQs9NYEUFJI",
+                    "reference": "CmRSAAAAQmREfsQPnsoRbSmQuhj-NLYK9AjwRBSyRQQZOgboje2yooRHhL_VQaGOE2KPaSD0H5N52pVGn8GHxi8xMlXSQXJmsRxXMxPJthe_GFNYj5lfmYaMAvqVWZ3CwXnQnkpzEhDaUxFUegXzfCMZTgOaKMinGhTDU-7ynBXc6NU63eNxClH4DMc1Fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B 40, Golf Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5691584,
+                            "lng": 77.3616753
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "74b802e72f739377420e887da66b3bad81870baa",
+                    "name": "Value Station",
+                    "place_id": "ChIJ_WA3RZPlDDkRp8VFYZm-Zyg",
+                    "reference": "CmRRAAAAWKu8o_YijDUaURt7qjYVy8rX5nNHKQE4eQetd_SynqzTMFiE1C7SIk3j_JUZMaIEfPkD28zARWryOaPDOkp9ybSOe7AgyeGBIrM1IJ9OOZhANNRdR16FnssJyj0ZqhGREhAsSguB6beo3tfjCvIu_oEUGhTYYHZlgV8DHkrnAhjCjK0T6K-DPg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No 7, Block C, Sector-41, Sector-41, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769491,
+                            "lng": 77.3583737
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57709265,
+                                "lng": 77.3588345
+                            },
+                            "southwest": {
+                                "lat": 28.57651845,
+                                "lng": 77.35822010000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6fe5a3f3e11acfa142c838c18cda4820480b57ae",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVezpBpflDDkRuBDqwpqKEsg",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAAo6cFLSDKdHXMKVp5zjvPq0z01R7utapwapzUsa0CNW8Hp91jpexX0g25PnB0R9QlFlFHHOUgc4Dk14CiAgoiOYSqA8hkx2Kml1o5S4p2evaxDOlRg7oo0qPE5PXLnAvWEhB2T_Hj-MQd8f8dDb5SLy5dGhTkkiyNSMFSoyWWT9VY63ls0p8l6g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Marg, Sector 35, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5774721,
+                            "lng": 77.3603864
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899406e973c1ee1ac5122e503aec06235c6265ae",
+                    "name": "HMP Hindustan Petrolium",
+                    "place_id": "ChIJC2i7OpflDDkRz_j8YeMGHuQ",
+                    "reference": "CmRSAAAAZwceXOKcPujDMq1aBr9Kd_KJ7PPa_KTOGw3G2EKsRtiQ61nT1w9AnhK0PP_yZtvpsu0km5ntZ5JTlwZ_xspzdnSCTH1SO1MA9RsE94RRgMW5sPYSCdCUBW5SI23FQ2GPEhBsANIhhXYfI00SSIOpt2gUGhS3OFtpjxsPECx0lFWdn_3LAtay3g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block B, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5614295,
+                            "lng": 77.3614874
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0ce9e13c69d0930112d6cc724b63d770fd321af0",
+                    "name": "Hindustan Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101240241775556815304/photos\">Praveen Khunte</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHltTmDnIaDwJcSkn4yTr_p1ShU-ySRRJX5VMd_2tk_tfhC5CWSbKAU7qPT10A4UUXek2F2Xkxe3uo8xXk-B38MrkKutcLXKgEJ41bJ1qteOCAJ1Pf6hW9FvVL4iU68mqZ3CyhqDJltL1HoHiZ8NtqkKF3QoWFrNNXIocy3DS4_8EhBWS3rOaMDS-6q3MhgvtKdAGhQABR5MnW-mE5LUU23qe70295FAHw",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJL1Pvs-7lDDkRBeHV4mKElBw",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAAd1DNMdq8_YrE_kboB4trCdZ4lXeGLJwhszgP97MkHZ46iyK-jhul9iaWJV-dVeuKnGyoc3hTxiNOPkP5Q7q6Xqn0jcEGl4z4OaGJ2FqnbuFEYF-dvTd_S3J5YdbTvH5REhDiQqCcKHmc6Hl4hyPjlTBzGhQ8eExOLHAw8rAMI-46l-ov0eJLOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 49, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5632558,
+                            "lng": 77.3586428
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "829fa3a90c7cec93589c4f7ce76b4bf9ed39cf76",
+                    "name": "Hindustan Petrol Pump",
+                    "place_id": "ChIJAQAAzOvlDDkRRlQJxu-1aAw",
+                    "reference": "CmRRAAAAdLe_D5OsOAshInGJRRPhHfTdPPsSQ4EOvva9Kb_PdNbYYxedZ5mr52j6gTYLnJRx7Qy3CEDXBtSbqcN3fcjgDGwfvE64mWwisomzTszB9-X2L3uoMnOF1OhHTFjHZiLIEhAeTv4SAnDeZD7M1ugkkoTdGhQhekbkQA8UB4RVUcFcEWWz1KyfAA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5616892,
+                            "lng": 77.3581942
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56184704999999,
+                                "lng": 77.35821255000002
+                            },
+                            "southwest": {
+                                "lat": 28.56121565,
+                                "lng": 77.35813914999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6ed8356491fe1fac0e24059c020839776745cf18",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJeQNIgunlDDkR22qSKh8wt_A",
+                    "rating": 3.8,
+                    "reference": "CmRSAAAARw3tSZW4NrqE3pJjEZlqTtfFNHzxP2lccGuXAf9F7XeIAfvXuDLWmZAAQj0QDuAKEBBuSNpzMlGZ4Eoxyd35hM4WfR3_1O9cyhL4hrIKKy6AhPH9KCvPq6yXvk14lVfiEhDvxXfQsS1M3DkNNOrQeHKeGhQ04X1bKnRqnPpBr2WFZ6zGdo5YSg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769737,
+                            "lng": 77.3585384
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5770877,
+                                "lng": 77.35890425000001
+                            },
+                            "southwest": {
+                                "lat": 28.5766317,
+                                "lng": 77.35841644999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a48c84f85fa08c5045d7a87f6ac13f34983f131d",
+                    "name": "BP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPN7rRDK-I55vpYzHCrLKHUX8dlBWRst_T8nVdOYohA36EsCx51K-eAMcto2W4FvqZSXMP7V23wUHB3AKxbpKtICoBGu33Ul1Ev8O-5OYxXeKYmTBeIrfpHQ9ryLSnK_4P-oSSP-oQzJyKU-4J7LpbMaNmxq9d-o37aU9uT-jvFtEhDuHYD1B5TObd_S_aRC-CTCGhRvcvI7j4XOQ4_lhVBizfMqjRfHdw",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJB0_qBpflDDkRSQs9NYEUFJI",
+                    "reference": "CmRSAAAAYGFOI58C5xkNcEaXW6pdpcITWzDJmJefFBWzArpiCkbbdvRDLnAsEmNLKo4v9SshzryFFjWhcCq0y9upvtIlrIURXOqss4otTWl8nPNUixP5z8sW7lt2led7X_WEpoLzEhD0MvN3jSrOMmlILGaSrEmKGhQxtCHuAblLZgASo2JJ4HBtyT4dHg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B 40, Golf Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5691584,
+                            "lng": 77.3616753
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "74b802e72f739377420e887da66b3bad81870baa",
+                    "name": "Value Station",
+                    "place_id": "ChIJ_WA3RZPlDDkRp8VFYZm-Zyg",
+                    "reference": "CmRRAAAAiTnuLs9sxC2ApC276m2vO8xt1ngAE2zgfVAhT26YjBllLsHASPBEzDqdxCwo8ISahimX6PyoCdlOELudYMHixUIrjU4vDXYejPd0qXH8OCAgTdWEXe6ZBNdaOkYXACM3EhBFTrJi-kcx6oanhc9ML0JWGhSRZY2G2IdNtO849TQJZBvs8DkFYw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No 7, Block C, Sector-41, Sector-41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.568464,
+                            "lng": 77.3693765
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "edbab5d30b47ec3564ec2dbdc373850d1353253c",
+                    "name": "Bahardwaj Bharatgas Agency",
+                    "place_id": "ChIJ9d020fLlDDkRtYhmwO7r940",
+                    "reference": "CmRSAAAAu5nEAspZQpjyYWMKtDP5Soqo4IQCzWgXIwkRD6XCAP6VEZVAqcoAv316quTqq87I7VKDyNAGM5yqLRmBQ31euDCz85QsTsLS-r86JWG388wusuK7Dg5aBocIRrD4snjAEhBwdSG1exA136rs5GAHiB6EGhQcELUZ_2UCKkyEct72cDLVl3nXRA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-166, C Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56158,
+                            "lng": 77.3632255
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9b13915d1cd8ffa57bba3228482a382ac9e272e8",
+                    "name": "LT VIJYANT MOTORS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1356,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/118049687397100345634/photos\">LT VIJYANT MOTORS</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAO-Hra0tKKg4-tBkNkoft583yG_BaT9TzWaLB6lHXanNgYZecgha3qwZ2bo5BAWWWVl8p4lnu6pjYn5qJoXwK7GlzC93WWChW6eJeW_wadzmZBfXZBz04Kbr_ZGEXT8nMYbuloX7ceD21Wr-GPCGjTOGGTkT6v024T17XU5lOO6_EhAOr0uSnBxJpsDtwCw02BzUGhRtml4e0GgIbKn6ayVUtK41c62Tlg",
+                            "width": 1355
+                        }
+                    ],
+                    "place_id": "ChIJ-53yke7lDDkRSDq2bj4qH7U",
+                    "reference": "CmRSAAAA14hZ_7x4e1DahYG6SROk_Dn_FTc3N-hKm6tvsdfKUQdQJF9D67F_XWcyPUcye--mpFwBTkDLeqaxLfVNKjO7P4FJcLLkiawLK0FqKdvxBo8YUyuDRnku-un8IiEvCDAjEhB0H6Sd3R90w-Zmv2Dgjo6tGhTVRnQFD7U_Q3hVG3TZwfAHy5Qteg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "J14 B SECTOR 41 DADRI ROAD NOIDA 202304, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5897574,
+                            "lng": 77.3596592
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cb890eae31157cf8951da2d70d2aee00933b83f8",
+                    "name": "Nawab car repair",
+                    "place_id": "ChIJeXY6Pp7lDDkR-HoxaqSbM-0",
+                    "reference": "CmRSAAAAjr4WuKgQrPwvv6fjI9otORkVGPuO-Sa-mAtEb4BEnE5tyVqye3SzjboJHzz6j--XZEjEUlvPl6w8Tz_JaOiQjvU83vANk8oXV3n8UrRdGOLfSPFgv5y6MM-J33rEAFZnEhArRmZ-mlWrxzJeRoQykqB5GhTGlBue_5ZSUxQ3Nh4-3cSOe0WO-g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-97, C Block, Sector 33, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587352,
+                            "lng": 77.3513399
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1e236dc07756825f4b7be1659bcd1e83b3832f9b",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJeQ3S4aDlDDkRMjqGA0TctBE",
+                    "reference": "CmRRAAAAGF8k_qGnzjNSm5pdWGrgUOPzdILBMPMwGx85Mnw9xMl_CPPHRCIlc3xY3leRRTThnYWp6MzNQtVhXyMBLJFtFXsxgai1d-J5cZAsCyUUXEQKuy-kok38_CsUa8E1q6O-EhATtQFQoF_GT-84Gc-t4gKzGhQD2pOuaEnyD1_u4U8dlTkRKLF5Qg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 32, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5756978,
+                            "lng": 77.3439002
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b1dd3f5a7d35680edda03e1018bcc6b0d3d26424",
+                    "name": "The Car Care Workshop",
+                    "place_id": "ChIJ3xNFf7DlDDkRiLZTXPxEKTY",
+                    "reference": "CmRRAAAAd5QpIUqxvETwwHf641DFUnG1Fe6iTEVUakvl3v3Mztt-wdPDzr5r8PFREM_0Pi44c3EZqH9BSMw1rNiscK3rtAsHaIyMqemGKIFN5HOCPdzAswIdZusHXjhAL9YAU-ZIEhC4I0ozRVFLMxQw250niKoMGhS_2IDGIzJWTNdSDZeTPR-sBhG0sQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-280-282, a 280 282, Sector 31, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAOnF0BdHy5t1BrPL01OsvDl-6vn-4ALmwJQbHhwulolBuQrk0tmZO_SzbktHHGcha6gzRXMcMj8MORZtVyLLFdOtgYgRpypN-WypYARPfgCGvasPrQeP6vvf0e0SzkWbksCox6UgAA3OMvAe8qjwgkAmGSgwUN-5XtaFiB0KNEGJW8v6GlQZK1r_Xo8Ys5vrIQ1x-ZBgSwXQjShdipafxfvSdDb0T87mIdQg2fzb_H5H46NFiIDBT8cbIjlSwCQjgekbX78vv46fA13ryP1upyHU5y8hH8vSB2RCxpVBdOzeeM2GK2oZ5OYLO092Ve6lW4xzpUWQgLAW8IyuTcbJ0d4SEB5nA6pdmg1v_ElwYo_xC28aFDqRFZlrVYnnQdPLPNtzNozWgljp",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769491,
+                            "lng": 77.3583737
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57709265,
+                                "lng": 77.3588345
+                            },
+                            "southwest": {
+                                "lat": 28.57651845,
+                                "lng": 77.35822010000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6fe5a3f3e11acfa142c838c18cda4820480b57ae",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVezpBpflDDkRuBDqwpqKEsg",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAAT8SO--8gqUv2lvFBULhJkuuAmREVvAyVL3hc3whHj0EsXQE4WzX-T-K7H-2L70yQffNj5oSTOFJMKtUBC8UFdEojneYpW819h4EBCwo3z625JyWnySWr1fik-Kx06CxwEhCHnFMqpZgK24RGci2EiX25GhSmIdotvHFGxw5Bp5VqrHvRpAti1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Marg, Sector 35, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5614295,
+                            "lng": 77.3614874
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0ce9e13c69d0930112d6cc724b63d770fd321af0",
+                    "name": "Hindustan Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101240241775556815304/photos\">Praveen Khunte</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFeIvjsyPoR6ykcKsnix9BnDfoewVHWChv6JJ46pXmPDTGx7wfAaBTrI2es7eQI-v4V00jpcVvyae1K2HHzGlYg-Ep6t53Hx-hlIvyZuoHbWclPdkknc-xM18TolLdU6jv4CYNw4ZxGiQV61ByRtfH066lo7LXkUgagbGVbIUljpEhBU_Hf3Z032Rzx1Bn_mDpTxGhQE76C12O7vHeiv3rpQBPK2I137Qg",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJL1Pvs-7lDDkRBeHV4mKElBw",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAA-UnwST3OC_KIfkoTN-_4u_0jsR5kNycOT3FabUROQcRO5Y-_AJ-3-QpdWbsnzNEUuzpqh4EExyfdARRfMTbRtrsgkrrIxptQzH1oJiAdeLSUpChfttn1RNiqbXsPP0vGEhDulFphO8PIEwsihsR4g-DNGhR9xT_WjfbVOchYn7oDmKkLtldpTQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 49, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5616892,
+                            "lng": 77.3581942
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56184704999999,
+                                "lng": 77.35821255000002
+                            },
+                            "southwest": {
+                                "lat": 28.56121565,
+                                "lng": 77.35813914999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6ed8356491fe1fac0e24059c020839776745cf18",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJeQNIgunlDDkR22qSKh8wt_A",
+                    "rating": 3.8,
+                    "reference": "CmRSAAAAdJsXA--cJE2awb6P3UPM2kHkI63aW21J1twxseJzR3xRrPDgQ0I2Zre28Vz1uZGovzwfjRtyj5uNRUgKlzqUnA4FSmAT22I7kouFYlj_bmxub2qPoxTzrS4M8asQ_TlcEhDMoK-vPRED7DLM8CAiHt76GhSoN7RyixLF4C1yNr9ikzqpZhbP-A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5946474,
+                            "lng": 77.3593192
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "033854c7b34d953bb218f05818837e4b9c0b95cd",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJi6rqSXTlDDkRduMliIYikkA",
+                    "rating": 2.2,
+                    "reference": "CmRRAAAAJ4vV7BlRZ4S4KhVVXu6baE5SKQX_vt_IzrcoMwN5e3QfPG-31cLWwqe6GK-by66o4juU5isK94ebeKJBVGwmS0ak4V7mHE-ByBB4P7Zdwag_dMuJxYpNTtM1p-YPVlILEhDpi6daoXx-T4GosH1TcGjWGhS1H4X2WhsrzKtEqS_Pr2MLYTRhtg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 54, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5932373,
+                            "lng": 77.3726051
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a2482c579342e5bc032383acaa3b4bffcdbd15b5",
+                    "name": "Indian Oil Petrol pump",
+                    "place_id": "ChIJjT-Hs3jlDDkR4FOWJd8-v88",
+                    "rating": 3,
+                    "reference": "CmRSAAAATA1HhpeOKfvltb9yrBeuiAuD5yMXxwqueiRxi3CYjendoHOaitR-ywlhtJlBycSF6cka0dvdbStdFJf8VeKYpSOLrN0sNbsZN0XSEuYd6AZYM6mX0GJ2BNYDx3paJkitEhBokj4a2y7vi57c-Z_-nqBLGhRYef50EHDrEVtV0bcIRhKgjR7vaA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "E-block, Sector 52, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5774721,
+                            "lng": 77.3603864
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899406e973c1ee1ac5122e503aec06235c6265ae",
+                    "name": "HMP Hindustan Petrolium",
+                    "place_id": "ChIJC2i7OpflDDkRz_j8YeMGHuQ",
+                    "reference": "CmRSAAAAn0E3VFwhJfAyPnj6krlcV2P31-8V3wrkWKIMTBfvNEiKlCC5hptEadd7TDvnaUuPshFBwLztW37Yu7E0jYV3Nlhi3gUE2VstF6ATQizsqrcoLLAVYNc5w-Av4sNtCVFAEhBSgf4MMRDbBX8d5O7xZrlMGhSfcJMgWp0hvfxIqlhC7s5BPCpq-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block B, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5632558,
+                            "lng": 77.3586428
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "829fa3a90c7cec93589c4f7ce76b4bf9ed39cf76",
+                    "name": "Hindustan Petrol Pump",
+                    "place_id": "ChIJAQAAzOvlDDkRRlQJxu-1aAw",
+                    "reference": "CmRRAAAAEkO7PsEqrTGUQmhfa2IbS_tFbT7607yOOe_n_OfZ-CJc_WQfenvrQxA35fNqo1shd3PczxCL0_VtHTosTv8mrLbSNrgxBcOqGOj5qyx9iAkXHSSSkRD6p9HPKK6XW-4pEhBR3B9xAWg8Bv3G50DS4CjgGhSkLvC7cIZSr3XvPKxlcK96lVxEmA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5953861,
+                            "lng": 77.3727286
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aa4a27d43179f5df53b66cffe62ee1cf4e7e45a3",
+                    "name": "HP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 1440,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116604983815462994568/photos\">Arpit Chaurasia</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFPkL8PhS5BLUZ0qL_uHoYealbZW5dh64KdEEFz2y6GOfpjdcHGvTE41GlNwHvDMoJAOYiezvfkFHM8sF--l7RqjH5_cSewMdnJWWjfG56pyPRRKFzCP3imJzOQ7T7bVqPfvHBiVmN3ITzvAsYHVcMmbOz2cYMfIXkptwlpJ6n-QEhCu3upq_f5gF-iIEd3ETuDBGhSxYhzTteEDB_SRIUOkxVXHyJDCCg",
+                            "width": 2560
+                        }
+                    ],
+                    "place_id": "ChIJPwuY1H7lDDkRK_UayG5wghg",
+                    "rating": 3.6,
+                    "reference": "CmRRAAAA19AeusartEkWpT5nrIrgGg46lNJxdjNStOFbHXpEsbImfoDYgvFpND5iNYw09s48Kx-6laIdJ_ojSAGbZGrE4q5B3of5yqQadXFaDIG4HK83nNqqnVwbQDhhZ3RM4jkyEhBUlOcGflv_tauFyz8co8fgGhTtHucV8T-AcUXRyWoZjBDy4M6Ouw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.595933,
+                            "lng": 77.37270409999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "00ea200265dd662902dd7099783217f06056c6c6",
+                    "name": "Indraprastha Gas Limited CNG Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2304,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104292796579764089656/photos\">Rohitkumar Gautam</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAEu3pAKzCNHRPcTwPFegtX_Nxr9Q5tClbyR1XniXp4BJ2kGQU9WR2_QUSFVeyc3iEWU-TLv_Z6MFf4x0NzUhSf8KDgRKV_mB3pl7rA5VeEKTo9O85rQV9K2LUsQnxLAOnRL40h-Ze_B0YLSXrfS1JDUxriEOTwa-MWdP2AejXcMPEhD5bNl3M6ka4R8NKVd4i1mcGhRhI16qjBrm3JDCKy39dGsquYX_Nw",
+                            "width": 4096
+                        }
+                    ],
+                    "place_id": "ChIJGbTozH7lDDkRwh_giN5rjK4",
+                    "rating": 4,
+                    "reference": "CmRSAAAA1s5WXv0SBgCuCyHH4uRCiPXzSwEM0gp5zEvaLCjlYBr4J3ortW9Dnu4_6CLDzafkcBMqQDA592Ra5KanDdVWcjPhrMYEcrWpGZ84xwgnDdmswsAFgFx6-lCRLbhsnLlWEhDVgvwtMZw2SsNtmDAOMcKyGhQ_os-YjHQsqBz0Kg2nU2yHpSoUgA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Gautam Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5607531,
+                            "lng": 77.339784
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56089485,
+                                "lng": 77.33989335000001
+                            },
+                            "southwest": {
+                                "lat": 28.56070585,
+                                "lng": 77.33974754999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a65c170bd72dcccc60ba37d7a97482363ce395c6",
+                    "name": "Thapar Petrol Pump",
+                    "place_id": "ChIJBWxgRcnlDDkRxdOFU0izCZ0",
+                    "rating": 2.8,
+                    "reference": "CmRSAAAAjt_k_gAZJhoGba-jZNYrdie30T1ZTNuQATgoHXROry0NZaIVm5PadtLjgxwaGd-X0LjTiQiALNX8Txg_BXQNzyMJhIMA23t-gwjkCdimUUMctX3qs63C0_sGFfzjHuLdEhBhoM7qx87p-zKq2hSshPM2GhTVqZar6upL3Y9I3jQj-Gp_JbRR7w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Rd, Sector 44, Nodia"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916848,
+                            "lng": 77.3389693
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59220635,
+                                "lng": 77.3391083
+                            },
+                            "southwest": {
+                                "lat": 28.59151095,
+                                "lng": 77.33855229999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ab408ec0b603b09109d4ff510511cda836cd37d2",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAALGWDCyKgJLGVRIsD-LjEVffUaQQyPqYyfvKY-118gS-jimZkcPDXLz49798yJnI_wJPWN0KDFBMDr3TvUNhXHg1BCvbLq2sHSOgspjk28lEGEpclZXAiUF9nXLfCFsM-Brq1qZhm2Ri8Zoc8MmZzV-IqmSJ0KqibTqO18tnNxvnEhA6oqSoPmOLOncQkZrx27A3GhQ453kbFC6LHiUZckjyuXyKfmzk3w",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJt65LJgflDDkRnP3YxK2F17Y",
+                    "reference": "CmRSAAAAs3QBl2CkkotuiIfrSfK5zdNoKoH3lxYHxZdnsEJ2b7XON3vUw1LvYeRQghv6zKmGYRaMUkoJDhs-0PBTml9Smxuw_bvNcPvYM8zde2i43IEsPnfoIyBPo1jZsJe-H9LtEhCpTRGUzSsZIuB0Xsrb-aMVGhQrwEIkAWEEtvPpzuN71oAQ1Ga6bw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Amaltash Marg, Sector 21A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769737,
+                            "lng": 77.3585384
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5770877,
+                                "lng": 77.35890425000001
+                            },
+                            "southwest": {
+                                "lat": 28.5766317,
+                                "lng": 77.35841644999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a48c84f85fa08c5045d7a87f6ac13f34983f131d",
+                    "name": "BP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKY8g_iWgIjPw1C3FbF5PBEhZIhgm2lhVVNZHo-hdJGd2bX8jclNlvQmg07eeQiE7teND6q6U8TkSkhICRcWIkUq03agHfTsKKUUkeqUwpgCEyneD0-2mVtUI45NUVQ-hQN87bouarzpVUbsNtNOYN-CL3KBUr7AVX2txSF2OAtpEhBDMg3VWt_FZmsDcDEbrWn2GhRfi4x57xznjFyHtqP71oew1zlqIA",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJB0_qBpflDDkRSQs9NYEUFJI",
+                    "reference": "CmRSAAAAN-rtiX3ak6n92UIrCBhabnWQdKP_DUnyEZ2nZLUQVHg-0gnznSmFh9KoEnP05vtPS3b9Uf1bKduqrv-rMFbZcZA_X7YP1cFiETEffGCQGE61CT5n-_MJxPBd0ms_QZ-HEhDBZ283xTtAKQtaQvytuyUcGhTH9wR1cbPeJD0RlWqz-D2EoEZTHA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B 40, Golf Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5691584,
+                            "lng": 77.3616753
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "74b802e72f739377420e887da66b3bad81870baa",
+                    "name": "Value Station",
+                    "place_id": "ChIJ_WA3RZPlDDkRp8VFYZm-Zyg",
+                    "reference": "CmRRAAAAiWgxvYSTtaMlV1e_QujSm8cCl-A1duqnVG64jl65E1Xt3ZmCNPD4BeT2rfZXPfOFF826Ywx964HdBVVplRwePCtfTQLSlJfirch4LaYYc5ZUSY5kD8lyL8GlpsZhLJOvEhCSsWlLmHHoo1h8FTAz3uemGhSiI0V8yb_209TIrkpyDH4eEN_k1g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No 7, Block C, Sector-41, Sector-41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.568464,
+                            "lng": 77.3693765
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "edbab5d30b47ec3564ec2dbdc373850d1353253c",
+                    "name": "Bahardwaj Bharatgas Agency",
+                    "place_id": "ChIJ9d020fLlDDkRtYhmwO7r940",
+                    "reference": "CmRSAAAAEwhIDOImvwYHuQGk45xKKPH-tDZcM6AP5qx2ai4XfjPAwlTN35qcFjchLlHWgpDjT1JSZ8lkIAIfc-Wa3tVKwIyNfHmxfhN0t7QqIfTdJqiku2qoAmcfPLgIaM6OolQPEhC8TJbPomJ4CGcUE7VFePYEGhTd1VsNifkL1YbeJBE1jSa3fJJrAA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-166, C Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56158,
+                            "lng": 77.3632255
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9b13915d1cd8ffa57bba3228482a382ac9e272e8",
+                    "name": "LT VIJYANT MOTORS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1356,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/118049687397100345634/photos\">LT VIJYANT MOTORS</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAECTNiAJ_u06OeBJtQLXJH2GqkjzBB7Iv0ZkNKfdDlOLDYTyed0V3ZnF9I08To7THMicPTKbUlkypH4Ug6knzXnV54YrC83ICWUC51bfted86DHlqj4MSztRAwbH_1XBVL-i4M8kAZRQRMMcr3QHl1X47DiM5pfAZ04OKeQbq4k4EhBMBkPQRGOMviMS_jNQyhucGhTyhVaXzy5D2z4_ha7tNjx6jBLQwA",
+                            "width": 1355
+                        }
+                    ],
+                    "place_id": "ChIJ-53yke7lDDkRSDq2bj4qH7U",
+                    "reference": "CmRSAAAA1KjbMG3i0ivg5Hf_SW-B4eqpywr0FxFdr_M1mi0Zvwo6zkQVqAOzV8i0riAHInBeQFSDOtI58K7gygf5qYzaOUNCqw6Wo2ZSRhhCja4R-Kes28AcJ57XvKhClqaldB_dEhDbfLlscsRaGNehLZusrPf9GhS2MVjW-Y4ePFF7A2jelwJooMPrjg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "J14 B SECTOR 41 DADRI ROAD NOIDA 202304, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5897574,
+                            "lng": 77.3596592
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cb890eae31157cf8951da2d70d2aee00933b83f8",
+                    "name": "Nawab car repair",
+                    "place_id": "ChIJeXY6Pp7lDDkR-HoxaqSbM-0",
+                    "reference": "CmRSAAAACBnXRi2SmlUImCMKCjMgfSm_hw6jGKuvzeryalGvTy-MuyoGjR1zwTnnMKhAtrlbMIquAtIqGEkUSFdyPkKSgELRpLak09k7NuEcCk-cHDmSoZ4qPxwNE3hPlrYy2AdIEhBD796gxfvSCP0Axakm_jQAGhT2XSauW4Kn1qQLwwQBTttZbbCGmQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-97, C Block, Sector 33, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587352,
+                            "lng": 77.3513399
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1e236dc07756825f4b7be1659bcd1e83b3832f9b",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJeQ3S4aDlDDkRMjqGA0TctBE",
+                    "reference": "CmRRAAAAj4Bb6D_6ctvaUe-abIOvAo6Kn7J34MkoC37s9Rg6x3qmkBSNLayggFHHGLQtHUCex4tieY280Id9-jq8-H-VusjytBNV_QuEHJy-BNueNNby-mJaG1g7U_1Nnfn1RFVOEhBYTLLiEANuWn5_fFV-llnWGhQQK6jmtpfwFCsinuMnPEX9uBu41w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 32, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5756978,
+                            "lng": 77.3439002
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b1dd3f5a7d35680edda03e1018bcc6b0d3d26424",
+                    "name": "The Car Care Workshop",
+                    "place_id": "ChIJ3xNFf7DlDDkRiLZTXPxEKTY",
+                    "reference": "CmRRAAAAIKeqqsKEEpjbEkzopc6TieT3CYSzrjnF69Ep2OlZzdKv3tUaHkLE53vkR5dPh4TBbkvF-MO5NEbFAmhkisnVCEDRrN-_MJSyfLy2xST_4UkXyybbGcOAnW9KIcn64FA_EhBe5pt3cDjN7ZeoY8XQFYjCGhRzmPWpEdKiTbFZ2JvKK6wpKC3Acw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-280-282, a 280 282, Sector 31, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5917958,
+                            "lng": 77.3793992
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1edcdb16b6b48356fb689cc6f0151e60271b5434",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJI3667n_vDDkRvxiAOEn2Ry0",
+                    "rating": 2.5,
+                    "reference": "CmRRAAAAvW7YiTbIysdLNYYopj71_v-VDXtFva7szUtkY147UOCvphXa37PDSr51kyuurfrN2pwIcQWP5paQRIiJaBVkYwrfWKDH9HEcjnjZ7QZ1Ovs6V4FFM3CfKWKm92T7RQyqEhBZYmuVOZeLZ_y-L0HiLVA-GhQjDWLTlI8IgJNZhw6BTqeOfALd2A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.597062,
+                            "lng": 77.34823519999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "128357a413c9a7a2a9d1c17fd817b6c9aff25a38",
+                    "name": "Kshitij Enterprises Regd",
+                    "place_id": "ChIJ____vw7lDDkR-24SwFOFmmQ",
+                    "reference": "CmRRAAAAHgeRTSmgBheR93aK2y1d0U2dlE3vPF3A91ADUc7ohbHVuHwQZciuF_qGQEV2j3xCMqgZz_llC5N8rhdNywa7LMCseTdka2d_sK6onwlxJtv2sE0xUUoC3f0C4JC-ZCPEEhCjMRlZl9UgEoWBIILJq2JUGhQFbsi31q65IAZviRl_NQ2xBoMvag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 22, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916936,
+                            "lng": 77.3390442
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59225475,
+                                "lng": 77.33919630000001
+                            },
+                            "southwest": {
+                                "lat": 28.59150654999999,
+                                "lng": 77.33858790000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5567dcb289e2ef852953e487eda531eec6763004",
+                    "name": "Dolly Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAA7MHDF3e5-XNA7Wt89PXrmxQK6gHlD9fEdh9JDuEb2QxVeXa9CgyifwX3j3SxBsWTHfQu1lqvFiCiox_5idPO3Ldps-O8td7uRKQyUpvmUuPqM_GauYGZ9kJmDl9uYM3yseKuChi9CIhyFSIitp58N8YaJoXttW95oqzwNSojdKEhB_GM53Qkvi2fHhZPqGX7c4GhQW1aD_5CeesuBGTxhzPnGi9FA-RA",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJC4e3JwflDDkRedsHJqX7Blg",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAAuPiO-ZZ_XfClXjSqu3F3_EMriiuFEUG3H1ZHSnc1fL4GH8zxVZ0uAuBTZtQBk5tFZlErtid64JPc3aEs9_1cyCHk41uSsFNMYvPJKFIvUc8CIbA77CkFvW2SFMmIvqQlEhChyZXwE5eTAFRp-wic6liBGhTxkEU859zRO_jc_vy23qYZpLfzZg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Amaltash Marg, Sector 21A, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.600133,
+                            "lng": 77.3546815
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4734139ceaf4a5f33e0638767fd9639c8508c419",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJPYUIOg3lDDkRGp8kw_tChOY",
+                    "rating": 3.5,
+                    "reference": "CmRSAAAAijTC2FDX3RzxsLWci63fxapsyISz9Beet9ewWlMn-0W1MGg6UpoJdvVSJECH5ff5elsEFHqcksdyjJQdy_PdlyoawDslPx8AjbuvIO5xixosicLxFSyBGtI13bFY8U0UEhC927WWJNfAcJcoHUVo0tNhGhQ16_HMIi49_RCGlRXqFbLI-J5ZqQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 54, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.596635,
+                            "lng": 77.343777
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f803721856538104005ad9c744dcbca95aeb17d3",
+                    "name": "HP PETROL PUMP - BHAGWATI SERVICE STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJKess9QXlDDkReFEGP_NY0Rg",
+                    "reference": "CmRRAAAAopQmkrfHKA7VL5ZRSgGtNlZJdh5c6uKYo4zwYf192xzq-D03kYi1J-X2PcZpAxgCmcZhlJgq4C9W6n8N8O9KgvxswA3rSb1HKTyaz7SUfX7EUgy9xBH6c8l_VfX48nG0EhAaliLxPFBxb0_QIkb9mSZEGhQMAMUkWdW1FphzEjVe7P-cpoVGjw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot NO. Y -349 D Noida, Sector 12, Meerut"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAOtuO89Uv63PU17fbgAIWD-dqsENPrW1IC8Qn3xXeVhJueKzG7OnRTly_dtiy2PuuGlTeHJi3C4LSrxYuff_kWW-Cz-2jDTeqJrBE-C_8gMMW9evWFMcv_FvPRDAUNlZ1w1FXlPcVIX__TpG-9iIMMX1dlrPGvmeCqNTTqZ8L8Y4bEGcHut9pZB1R4oxjZL6AM8dEHHZVlNi_E3L63WTFrTKda-31rl-47ERVtQl1XxS-BmGxE9YB1QvbV8cLIP_G5IzOh6PIWYYhyGnplNXTRShYSLmN8ar688mB4sMeUT8oRIoFxpfPC25EOnQ-YwClX1stLPzkpvdYZH-njRmJCgSEO7brdUYG1vlYyPmHSANdPAaFBmSz25AcGX_3ZS9CCFidc_4HQxI",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769491,
+                            "lng": 77.3583737
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57709265,
+                                "lng": 77.3588345
+                            },
+                            "southwest": {
+                                "lat": 28.57651845,
+                                "lng": 77.35822010000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6fe5a3f3e11acfa142c838c18cda4820480b57ae",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVezpBpflDDkRuBDqwpqKEsg",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAATVLrhktlj8bngU6r-59l4YRel17tXdZefpM4yXTkuYGjwinCs5cWapQ-PdP1zRAEm2v9S6nuLjfqUX5fLxnfxvYujcwCYjfCx00eaCvpB69k7IoO6jaKKxuRqxTwZl0eEhDKT9r0pPpuP9IFKSfARE_HGhTRSb-U-fY1sx1Z7v9IOLuJSLMNCA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Marg, Sector 35, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5953861,
+                            "lng": 77.3727286
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aa4a27d43179f5df53b66cffe62ee1cf4e7e45a3",
+                    "name": "HP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 1440,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116604983815462994568/photos\">Arpit Chaurasia</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAN5NjxKKD1O2C3PqSHv54OvgGnGA3BGn4XaxRLjX8l0T0AMY6-UF7KkchqTRBz-W1630CZDXawM6vTGY0m8ienNWbEXKVnOPZeUhLnqBiSogO_amm2CtcOmQqkRQRaJznUU4yIU60FhkNGHew61iE3SoYMUW3NPze_T7lv7CmGTPEhAUwo-yzC_Ncc4EBVWN_I1NGhSmO9VkyFbTGDJIuFVhuyWtRpZsVg",
+                            "width": 2560
+                        }
+                    ],
+                    "place_id": "ChIJPwuY1H7lDDkRK_UayG5wghg",
+                    "rating": 3.6,
+                    "reference": "CmRRAAAAXiCeng69YbOsxFFjZU0NtAkB6Fs6FmNd_bf6BfR4ilFqRwIxXSZ5K4j4b2KffOWIoyc3QvPXNBCghclDTWISchdbWSeVqL36OmPxJDZlxX0mxC-8X6ESDs2VJsM_jQfaEhCvJZZT846WDOomhDftT51XGhRhv6lAtuSCqkg5ETBIOS4ik3uJ8w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5932373,
+                            "lng": 77.3726051
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a2482c579342e5bc032383acaa3b4bffcdbd15b5",
+                    "name": "Indian Oil Petrol pump",
+                    "place_id": "ChIJjT-Hs3jlDDkR4FOWJd8-v88",
+                    "rating": 3,
+                    "reference": "CmRSAAAAxG3s-6oEKaHybo2ZKok08BxNnHFn19Pc2BGXPVIOtFvcZn5Rb6qiQa5gtDNmwpF69YShqFl0ChZ-cXNqo1CugXQUTJgs6QbDPKFV6NJxYFwMduk7ucNx1Uj8sQ1WEukOEhA1FHXHwoh551HULpd8c7u0GhSBG3p4UyJBwKVSAFwx5fzcc7Ag9g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "E-block, Sector 52, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.595933,
+                            "lng": 77.37270409999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "00ea200265dd662902dd7099783217f06056c6c6",
+                    "name": "Indraprastha Gas Limited CNG Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2304,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104292796579764089656/photos\">Rohitkumar Gautam</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJBH5ReGsevPg3B7G8iWpB1UGYbcPnGb0ogdLE7jYdBxqfaXygJ6txgnfjUQ3GOKtjlnbPHkppx0DJLkvaZzZSulZ7C8D4X6sRBR6_nU45sGYh--oin_0B9EM1rWYUMvylu4ijEQt_QXWqnc6kpILH5EyARWMCCF9rU0wg-Gz5ujEhDZTx_suHedFfmKasx730fIGhRfb9HQwh2BDfM8C0L9DWDoz7VMMg",
+                            "width": 4096
+                        }
+                    ],
+                    "place_id": "ChIJGbTozH7lDDkRwh_giN5rjK4",
+                    "rating": 4,
+                    "reference": "CmRSAAAAkne8zRMdxESyEmuufJFZH0w5XB6s6JT7XUSajNEV9tpGSs7FnVn36YgLQRjfkjgW9uZBTk1ADz5eCFWQbPRBQvj_I9bV-b4m1ZwlGpBGyQyOYHUjnNpAjyLMSrrrRHKFEhBuotD6VjkpuxNFCwOYSUAIGhTyIojibcRSyPVPgsSnCzE9I-MHcw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Gautam Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5614295,
+                            "lng": 77.3614874
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0ce9e13c69d0930112d6cc724b63d770fd321af0",
+                    "name": "Hindustan Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101240241775556815304/photos\">Praveen Khunte</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANk6FPgIYkl5cI0uDjEsNatmo3QBxjkjpX6oDIE0mS3uuNgViqOXAc8gQsYkIZrSreD9BTVPzlqUpAQc3FkuYadh7DrNUZvCGlUdPsNJmm5PKbErEE_tlBKLXZVfFpqIYybSpv8U4iUAAJLg0Wmnf0uVXg0OgbKCL7s7L9-t2EgZEhB-sgIYh5Xk6jJVNY_mTlfNGhSQfvzCW1_iU-UJLM_X6qDmvnD15Q",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJL1Pvs-7lDDkRBeHV4mKElBw",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAAznw9BQ-pnsGVV-7mIIYC07gv9nt9AFWFgYwfeFg_0fn7oxM7XLm4bBIeTU0RYEudj4J8OSQjvrvSU9i46EN7Y7s4gXsM3dsTCqWZnEKqBuPC7O6HT333YLVOsdy-2yf9EhCYTnNCnYM5AaiqmXPJIR1iGhSG3BWcp_IrZ9CMlvjXdnXKFNJeVg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 49, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5946474,
+                            "lng": 77.3593192
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "033854c7b34d953bb218f05818837e4b9c0b95cd",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJi6rqSXTlDDkRduMliIYikkA",
+                    "rating": 2.2,
+                    "reference": "CmRRAAAAAal52cT7Rga-LK4gsAvk90NsPRpF3BAy3wqvYwgcPPZE9lOi1sgOa0wDpczASUkV_ShZaNbeyamEe_L3aYem9NAn-Lh_W9WmkT0zN5BB9Br4ahn5gKOZ7Xfx3GQFD6I5EhCktazEctp7bDXA5S08JT7YGhRILTY0KyDGAdN2w7LGf6Mdn41pEg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 54, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5616892,
+                            "lng": 77.3581942
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56184704999999,
+                                "lng": 77.35821255000002
+                            },
+                            "southwest": {
+                                "lat": 28.56121565,
+                                "lng": 77.35813914999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6ed8356491fe1fac0e24059c020839776745cf18",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJeQNIgunlDDkR22qSKh8wt_A",
+                    "rating": 3.8,
+                    "reference": "CmRSAAAA6jagSaIxuTU05Fi2l8lXmun86OOKsyX5wwJAY-1atOKZiJa1W4FFrFHmnVE0Bc4tCNMNUixbqxw3qP_oKkntcgGhVo4DhG5CaGwBoIYfN_Yd_2lcXd-UYYKW8_9feBQuEhCmj3ekYlwmzxtXzO9rtm0pGhTGOR8AKeioSiV9z-P5Wg1PRHChTA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5607531,
+                            "lng": 77.339784
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56089485,
+                                "lng": 77.33989335000001
+                            },
+                            "southwest": {
+                                "lat": 28.56070585,
+                                "lng": 77.33974754999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a65c170bd72dcccc60ba37d7a97482363ce395c6",
+                    "name": "Thapar Petrol Pump",
+                    "place_id": "ChIJBWxgRcnlDDkRxdOFU0izCZ0",
+                    "rating": 2.8,
+                    "reference": "CmRSAAAAHcCgKv50tkBa5_tGyEqWSULSbmyPBUwY1qIKuErCW10YxAY-sw7lzeGr7Xy_56zT2JabYOkwkkD2lMFr_KaxH6p-hWUEXBSTieVqrCwsaLUVDMRCC5Tx_7UjMwepx_EMEhAzDBChyx32sHQoUhj-ZzTMGhTVPuyDnig1XRKtamNjcvuBTLM-iQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Rd, Sector 44, Nodia"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5774721,
+                            "lng": 77.3603864
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899406e973c1ee1ac5122e503aec06235c6265ae",
+                    "name": "HMP Hindustan Petrolium",
+                    "place_id": "ChIJC2i7OpflDDkRz_j8YeMGHuQ",
+                    "reference": "CmRSAAAAOcCzk2WE-C4SrrsQ_61q7923r2_9Bp1jfA6uG3udDbvZMxrmtdNndNt8BzABdp4PiUNeVzayvWj-uDJulusHCHweqQslFijRcIo_dRKtEHnFcNYH0vFBNbjUnnVSzS7iEhCKY8eNG421BBAYQa_U-tHzGhTNM1GaxRcsazzByGJp72DdzsG2Gg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block B, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5632558,
+                            "lng": 77.3586428
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "829fa3a90c7cec93589c4f7ce76b4bf9ed39cf76",
+                    "name": "Hindustan Petrol Pump",
+                    "place_id": "ChIJAQAAzOvlDDkRRlQJxu-1aAw",
+                    "reference": "CmRRAAAAZW1JxEfPCZsHCwu_ZHBLWzNYyuxOwpkUtsO4-U7LL8c-hgyq0jkmCGNkAMSXgf6dg4vxQXcYjtDYBmegQJc1-XbScfYX4SyB0paygMwKdwx2qeVS4s2U1qX8pBWFvSwmEhAeMSnxj5OSgqnd3urbc9eSGhSL7fCUYWYjN-lktlPhXmroM-MM7Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916848,
+                            "lng": 77.3389693
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59220635,
+                                "lng": 77.3391083
+                            },
+                            "southwest": {
+                                "lat": 28.59151095,
+                                "lng": 77.33855229999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ab408ec0b603b09109d4ff510511cda836cd37d2",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMjIczQFgGmLa_LgdaJJUQp11VLM7ERtojiMBmYrqox89VvWOaqVVbYpVJWl2GW9sFROFn1tbkUArReh1EVjiBnf_6U6qurLwr8o-MYvrvqz-X4hes3srCjftJEn8koNwKkJAh7b8YXwwnIHNgLpaQW2DOYQ53Cq4pXq9SDVFpFpEhBrODvcxHFufu4IoSSW24q7GhQWmGCqXoQy6w0h1e4lZ0YhVWM0Fg",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJt65LJgflDDkRnP3YxK2F17Y",
+                    "reference": "CmRSAAAAKKZ_yyfvdmDTgHaUT7zjgG4Wlc9SGzlrFwWTpnoKonDXdQ6qfiBrGnQwugK_YJkBkZiVHiqNi-4DOwGWkSOaI90laXoflKM-E0zpozpQvlDpVbz_40-33cG39h0D7p9eEhDnbGq1pMCApA_-Q7bEZkO9GhSip2owRUQI6c0IBMS7NBjc5grdlw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Amaltash Marg, Sector 21A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5911599,
+                            "lng": 77.3307292
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "83f196f11bbadb0488d521d7a67d03329c451a27",
+                    "name": "Shell",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110870183167761879497/photos\">Ramjan Ali</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFuq_1HqXdKl7dEl4j8eYzkZ57cRm_1WeXNqFgvkl9rk1G4TxF4sNB2uqfwnijw3FixzRPMqPiSfuo6Egv-vhxfPsBt3EuZqU9iT44eBrcpbmODlYY7YttKNds8-cyndytyVMQm40iivjPScJzWKW0c2tTGj0QE8Qu9-61rPP6atEhAZ6uKvNMzmt4u7O5JlxqIDGhRfGXhQwQW_CnOtFEH8duNCMw_gYg",
+                            "width": 640
+                        }
+                    ],
+                    "place_id": "ChIJW6VHS_7kDDkRMzH4toTwLBA",
+                    "price_level": 2,
+                    "reference": "CmRRAAAAqPaYW0s_Lfktmg9ZsanfrdSJ1IkwTdmI1z43OgDlzShpDF-3-odekwOqSRfOJFAFBNSaRPcKOQLPn8G_QWgHWYUzRRmrStsUaafLHM6lT7FgqFqD4bdPe_6JC-N8hkLIEhDA0fzSmFAz45c9NAY8_l4aGhSwZr3B4o9Fezg-PW5zb9GwbrOkGg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C Block, Sector 10, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6067511,
+                            "lng": 77.3597194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0127e54ae795bc63f7ba953e696eb832ff01a098",
+                    "name": "intellisys global",
+                    "place_id": "ChIJq6qqamzlDDkRNkhGAGWgyWQ",
+                    "reference": "CmRRAAAAAYbLRrgkAhqjl43C9KmZNa8kRnlM4_bhlyOM49sr191wux-m4LlcFODo2i29rc75wz1UqyeGC0-G-EMHXwSBYubF27s01Iqaf7JU--4wcG9tQKK4EK6dAb1EO7lxBh0rEhAfKT4lWdmnig6XOiRDHgCuGhTLHwwQDeLNl4tpIDIM9xXHZSS8-g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 58, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916936,
+                            "lng": 77.3390442
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59225475,
+                                "lng": 77.33919630000001
+                            },
+                            "southwest": {
+                                "lat": 28.59150654999999,
+                                "lng": 77.33858790000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5567dcb289e2ef852953e487eda531eec6763004",
+                    "name": "Dolly Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAi59Xk3DGt_6Jw1b3dGKHyAQCvbJNSg1oV1ULV3Ctfqw514FF53gFZHxcwx3BpafTPcvIWa48EcVSTADi10xDAli8LcYcKovweUAe77DEiED_CwTzrql5oa4R24vzV-oo5Um1MgZiUVGV4KwYJuWnELSr4JHy6Qb_x2auITKRH4EhDyNtCSNpUgSkV9NTbSOPu9GhS9EA-RYs5NlzNmnKxFTBuZUtLYdw",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJC4e3JwflDDkRedsHJqX7Blg",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAA3D2GZ9WaAnfiL9oVRm1g5dDhjtj068t_x6s-DKWuoJWo3tuDXieS_jyfDg-S7cgwvhZzOBtVbtPtv1bNmD_vbcp5XintJFUyNP7ybmnK-wvo9BaS3eiE_JZb_T3QqZkyEhChMkCpSXdP699O3gBWY9uiGhTi6DHAmjbbFwpkDdyq-pOulsDGSw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Amaltash Marg, Sector 21A, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769737,
+                            "lng": 77.3585384
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5770877,
+                                "lng": 77.35890425000001
+                            },
+                            "southwest": {
+                                "lat": 28.5766317,
+                                "lng": 77.35841644999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a48c84f85fa08c5045d7a87f6ac13f34983f131d",
+                    "name": "BP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2168,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106145437297060103714/photos\">Raja Sharma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACRznH9cQFInty_qIR91YTCy16JodseoXFpYxsIJx6axZVz2A--22rnKPfAsIPdF6B0NFKDJlCOLVPJaKsxUFMZEgeoNBXj20g86c3G4Sg7QbGJNwws5B0e_Qs4ZR-Wh_WbgCXDODCAs0Ptu6Wj_lVFlahLR5PMLUVxK1Z1b45j6EhAEUzE3Eu7cQXYwgwe0G8vfGhTxJdcbFkibSAyKxPI3rsutX2FOgg",
+                            "width": 3824
+                        }
+                    ],
+                    "place_id": "ChIJB0_qBpflDDkRSQs9NYEUFJI",
+                    "reference": "CmRSAAAAYL8DHvKTd7CbzAfd6WeG9EZAO5FB8ARUnpjBPIypzK4qcIMkGNchZB9ejlCcT4rzlQQHUlw8-xl3LSdGPzlrZGaBT4lsB_Gv3DfeFk70qDxmnZavPco6tXvgG6l5o410EhCg3idQ6drs9VBgX7ZUnhNBGhRpE7_WonEo305wQ_ncbHmv_KMJ6w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B 40, Golf Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5691584,
+                            "lng": 77.3616753
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "74b802e72f739377420e887da66b3bad81870baa",
+                    "name": "Value Station",
+                    "place_id": "ChIJ_WA3RZPlDDkRp8VFYZm-Zyg",
+                    "reference": "CmRRAAAAGtvZHqlYSK-UyoMbWmV_EMKtaDJY31VUdnyw9psexum99I2TkTumJj1Qr39GT1tq6IenJM8lb7Sm6nedRx3aBz-eOE4QjOh9CvDCAxqaOW5b0qs6uOttWmInWr3r0i4hEhB9iLziSe0PFlIA2U7QeWL2GhQJ4A5Ljcw5dL7iv8cBWFku5m7Olw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "car_repair",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No 7, Block C, Sector-41, Sector-41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.568464,
+                            "lng": 77.3693765
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "edbab5d30b47ec3564ec2dbdc373850d1353253c",
+                    "name": "Bahardwaj Bharatgas Agency",
+                    "place_id": "ChIJ9d020fLlDDkRtYhmwO7r940",
+                    "reference": "CmRSAAAADavrjL-ABPTuPtgsAkVz9yvZ_Oxz4JrbnwPIX0iwVHdlF2ZnhaCPQraYG1oXI3LNsm3RZNcMcohghUIVGAcV6htIATr18-V4CXTKqW8BxyRO5bjguTCqJ3n8i2wzQfGxEhC77zXmMrXmXMBdNsyTKN_zGhSBQ0vQe-jhYGXlVIzeUyiPcDYN9Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-166, C Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.56158,
+                            "lng": 77.3632255
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9b13915d1cd8ffa57bba3228482a382ac9e272e8",
+                    "name": "LT VIJYANT MOTORS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1356,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/118049687397100345634/photos\">LT VIJYANT MOTORS</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAGKAw07rJYpo2WjjbDJje0ks0btMWen2SbKOMWS82IrO4gjwksCFP5-ku8yqWGqUpN3G28CUWFK_s7e0Cmhh7NMXeaigGVXhSLLtLMdzyCVvoogO-O3Gak_zBp0ntI7H16f6LK1ahr-ZkPI1eDLfqs2BhfqzJis-LY7MNH5dVrGREhAJ61GmIcJtZcglTkGWE7XmGhTOJsrdNI3uDlDpjt8zpewlz6LL3g",
+                            "width": 1355
+                        }
+                    ],
+                    "place_id": "ChIJ-53yke7lDDkRSDq2bj4qH7U",
+                    "reference": "CmRSAAAATrwkTkLHZA_Ig5W7ZEF-sf7ilHdoYfJZ4VVWAfzN2i5jex2BtQ4a5uW64j0WFA94X7x80PRYm1SYf6CuTQng1QdDiWFrBFJmKzwVxnIzYLp3Ah95owNP7HUcy0kpWGU0EhAqCn6gZP6M9IgRBtbdfaF8GhTo681NXO1jtzNtOScCBhGqtRaEVw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "J14 B SECTOR 41 DADRI ROAD NOIDA 202304, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5897574,
+                            "lng": 77.3596592
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "cb890eae31157cf8951da2d70d2aee00933b83f8",
+                    "name": "Nawab car repair",
+                    "place_id": "ChIJeXY6Pp7lDDkR-HoxaqSbM-0",
+                    "reference": "CmRSAAAAKwLc6UpW5OOS0akF8Yp8J4M_U_7nCR9M1CZwRg4Khji0zkmqFHTggE_CEPKjttVUoKDl_zavpdl9wa7UL3iQimTO_nnhvLWHwMwceqz-JBkmxveG7itM3RGBY_hRTcs1EhA-JwWjtEuHKyGGaS3nQesdGhSKGBnmfKleU66edsZ1CFqak_ZkaA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-97, C Block, Sector 33, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.587352,
+                            "lng": 77.3513399
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1e236dc07756825f4b7be1659bcd1e83b3832f9b",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJeQ3S4aDlDDkRMjqGA0TctBE",
+                    "reference": "CmRRAAAAbr8zYnE26yLyeAMR6W_XKZzPSgy72Lzn0AA8r-cITc3EIb0kWfS7zfMnJE9o2oAnAEzRyrFV_w1z4gkorOpPpD1isIbF5PpiNcN8qtT3qO1DFUMRnEhOMDURJesbjWJCEhBU_h8pdwlonhpl5odkixq3GhS-iQhENrk8mHVdR1pCnrHHyA8FtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 32, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAADx-zD3vOtmnhdnROWOycnb6B25MvVZ5FWm7TOLexk-2DTH8SLFNawiDnQb_eXmyAkSMsZOHyXQ30tz9VYbmfNCIWdD1__MtGSbSy-4UGCPqCLNBQaiOWpxDSBeMbbZk4TTXdKVoTwJRv1Jk5a5SwqJAh3yTaDrMfgg-HcCyurYOzvcqqDO0Tcyzmn1yveoVMcLh7PVD0uFnbXcvKoz5sYCiCTZxaaXuKB0z4bUUnDNC5FGRf75meAfUlzXpaDw5LQst246mP5hDvZPVfPLobxEEMdskYEK5TcU0nCHBnLMTh1Y-X-hGGkidiZTaRlS3jl9lNPC_ofYUNYWZXA3QknMSEOdWVIJ4PrJtDf3QD7aS8NcaFPCvKrHUhHwMciuABcGz9r6rDCiX",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5769491,
+                            "lng": 77.3583737
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.57709265,
+                                "lng": 77.3588345
+                            },
+                            "southwest": {
+                                "lat": 28.57651845,
+                                "lng": 77.35822010000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6fe5a3f3e11acfa142c838c18cda4820480b57ae",
+                    "name": "Bharat Petroleum Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVezpBpflDDkRuBDqwpqKEsg",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAAdBgGlI7ulAkXGC7RIGv54wRjMtH-Fymj9NStZHs3JoA5SwtYDecTABnw8kJqVnAWAf75hg8_WaV1Z6MKdkUk2y0gbRTBq7YS8ZpSm1c-vUocvRA9xJ7BzH47HmoPUJKPEhBd-kBDZduB6ZYWgwYDIjnCGhTrqwQL41pXHuUqAIKdhyOqz7oTlw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Marg, Sector 35, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5953861,
+                            "lng": 77.3727286
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aa4a27d43179f5df53b66cffe62ee1cf4e7e45a3",
+                    "name": "HP Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 1440,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/116604983815462994568/photos\">Arpit Chaurasia</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFY6_8SX8QoULYqxfym5WGvS1SwidZTCN6y-fpr7hEkRKhsklTtImul3xcOMVDqqBrZwg3D5FOyHA_wyTwlEPR_3Z3tsIW6dPUN_IO8EYqw36afSZTsigW5LsScNUNGZWUmU0uRwV0uzrPB-3Y1uwQvhxGVKV_VwSx-puNkfKViBEhDQDWFCOSAx7qiJ8lnWIJrIGhQJJd_31l6aGinul_ttyEN8He5BXw",
+                            "width": 2560
+                        }
+                    ],
+                    "place_id": "ChIJPwuY1H7lDDkRK_UayG5wghg",
+                    "rating": 3.6,
+                    "reference": "CmRRAAAAMztnaVMXOqFbmzuKDrG7biv03DcbFoNOo47BQRrGDQTSZSkKCaesWl0dwde9x2oQDgdDB6w3bkTUjnj3ON7WFTyf2Oq5pRSAz9igcebBYL0NG1rCzPqOTDyLuVP14MEuEhASPFnPdxT8w1vt3B8s7H9iGhSjfuKBIkezXcbXpgw2-yB00oO_6w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.595933,
+                            "lng": 77.37270409999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "00ea200265dd662902dd7099783217f06056c6c6",
+                    "name": "Indraprastha Gas Limited CNG Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2304,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104292796579764089656/photos\">Rohitkumar Gautam</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJWzJdFfJP1rfTXPHOhApbyDrXWBMtCu02IZqEXatdUJfo4wotEJkYgO-1QRGH36RseHTDOs36QFCX-orOuRi4InfEm2xTKrs7NXJBJm0nINPNLFrKthC08TrnoL0xvVPPuW6Blv-LOGBXk38r9aEz4dRqmHAKrFJKOxGeNFawFUEhCynWOt4_MGDPty5NBzqFo9GhSfSf7RTYmeTyNan-xC6jNL89LqVQ",
+                            "width": 4096
+                        }
+                    ],
+                    "place_id": "ChIJGbTozH7lDDkRwh_giN5rjK4",
+                    "rating": 4,
+                    "reference": "CmRSAAAAevHhCohc6VcbJoeinjBvML8Y3LDGc0CwMP126xqwo_swlgY-2oP4lt-l8ghfN_aid5DH6XKGi1IRfzCFu3Ihfnhj4h0njDgxwZfuDZVPadABGcZJa0WpYLCWrA8R0svDEhA4oaIJSIWmMmr5e5yMfTXCGhRs9qFIyh_K8BJI5pPFRSkVG3cPVQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 71, Gautam Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5932373,
+                            "lng": 77.3726051
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a2482c579342e5bc032383acaa3b4bffcdbd15b5",
+                    "name": "Indian Oil Petrol pump",
+                    "place_id": "ChIJjT-Hs3jlDDkR4FOWJd8-v88",
+                    "rating": 3,
+                    "reference": "CmRSAAAAWAauR_tra8hnUpNhXOnMsteONQiQAKRLRfgZMEbKH0leK74KZ30ZECBj63iA2AOOQVzgKrmZggztZ1TB-QWIBjEwXcUN_xmF7k0uta_CGxJW7vnVJTWqg4FUSAAiBqR8EhBWULlmuepcuJv18u-9dRTTGhRGs49E6H_YwaVJwNadrstyCcub8g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "E-block, Sector 52, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5614295,
+                            "lng": 77.3614874
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0ce9e13c69d0930112d6cc724b63d770fd321af0",
+                    "name": "Hindustan Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2448,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101240241775556815304/photos\">Praveen Khunte</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAK24u9VFVf-syr4S5fmfNSB_HujBgQPF3N13sEhE2VDe8aPMAsrf25xdd8q4cO6V9qqcgkRojM4I30gD203DijPTKcV_-PMwynSTxYgFz6iKWXjHfPRC2vqb5ybVZEZUJuRGl2JN4YLNnYaIh5mSILBRhCB3E6swq0pNmPL9cb93EhAZycqkRiLHYgl_nDF0iX18GhQNonRmpFCFCYO9uiSeQq_FAb77Ig",
+                            "width": 3264
+                        }
+                    ],
+                    "place_id": "ChIJL1Pvs-7lDDkRBeHV4mKElBw",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAABJ9AWQqhxA6AFVlpc7Z5Z00kRH_lloBttKh8S3zSXFMZ0xHrMT3LK2JuTVg4Bw2bq92Wwo2ybX_A2uZf3qMvsnvPxfK5zFFNNAV2VaCLbb6mZM-In8hL3GGXUF0tviRvEhA6evUsn7zQt85rUhKb_r8cGhTS7qjlUARw29xv3XzjbxH3jxXTVQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 49, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5946474,
+                            "lng": 77.3593192
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "033854c7b34d953bb218f05818837e4b9c0b95cd",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJi6rqSXTlDDkRduMliIYikkA",
+                    "rating": 2.2,
+                    "reference": "CmRRAAAAYhp5w3Ga5ucUx9wkaVYtDzG9gO0ZUPTdIl0Fj2zBstqcp0qAVtwS2BOB223z4N-WG-y7GLr7o_wMZnIzA-XPX7xn7TuOtjkR7EcrUXt4lh42uiN3mSpfUIhMPw0M4pS5EhDOwpQyoOwd_02px5zYpWNMGhQFY_EsDG79OjItRDTL4vkgCxuSJw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 54, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5607531,
+                            "lng": 77.339784
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56089485,
+                                "lng": 77.33989335000001
+                            },
+                            "southwest": {
+                                "lat": 28.56070585,
+                                "lng": 77.33974754999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a65c170bd72dcccc60ba37d7a97482363ce395c6",
+                    "name": "Thapar Petrol Pump",
+                    "place_id": "ChIJBWxgRcnlDDkRxdOFU0izCZ0",
+                    "rating": 2.8,
+                    "reference": "CmRSAAAAQlD7PLj_ov42RFeceKW-IhaC6P4vfY0j9hzVZd955-KFn79PkhTpcBmeEj9yjjJmtr2RFCZ8ci5gIryvksxdUOaRvQ2iBYdekse0Itu5xhdFBXVbDd4UJRxQXsDs5PIAEhBY2_-9yhiEaIxPHKMxbfAAGhR8x-p2TiiHk9DbKeInXoFZZibQlQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Rd, Sector 44, Nodia"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5616892,
+                            "lng": 77.3581942
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.56184704999999,
+                                "lng": 77.35821255000002
+                            },
+                            "southwest": {
+                                "lat": 28.56121565,
+                                "lng": 77.35813914999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "6ed8356491fe1fac0e24059c020839776745cf18",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJeQNIgunlDDkR22qSKh8wt_A",
+                    "rating": 3.8,
+                    "reference": "CmRSAAAAsMqHbsC3x9gV1jkiwy7pnGBlsuzwu48yxfbQ-TxoZk9ZBRBOVPIw-fOdWUgLQRwnHwmIem3xd8RZ0Hdk7swyrgCOoK0Zd7Xvir58M4kLI3CgbUBEWS5dLpSFRHwesOQpEhAcXEXWPJKyySlLvruB264tGhTlitwun-c28fLDtVjozWD8QMdwcw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916848,
+                            "lng": 77.3389693
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59220635,
+                                "lng": 77.3391083
+                            },
+                            "southwest": {
+                                "lat": 28.59151095,
+                                "lng": 77.33855229999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ab408ec0b603b09109d4ff510511cda836cd37d2",
+                    "name": "Indian Oil",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPNb8SOAaVsh42L6THgY8I9sTDM-Q2DvhhybyMOxyVUym8LMHX2nw3MqXRdlNwtBkJEyd4ra79d5NatqMcYFteF4dae-KCRMoZR8qj97thKpf_7zFeM8g2OHvMrSc6udnGdmX8t1iFlGssNGCIvSt90QF32lET63TzaGzoX0gPiVEhAi7zCFyL1OpSmVT0N0jctZGhTIpP4A74ROnLQJMt0m6q7VLOCGkg",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJt65LJgflDDkRnP3YxK2F17Y",
+                    "reference": "CmRSAAAAcPAuS1UwonOjZ5rOfWSUWqrlvgKKMab3yh4-35_yYB55v-Q9u6j3XStsIufn2f7A9c_1a2SeBJsCXCa08UNQ_2960SL68MReIuiCHZvvnovDksMD99ey4M8rp9k0y36KEhBZOxOqDYgxoiZcAgP_JcrfGhQQavW1NcCGmvZet_KPCUM5aV9BVg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Amaltash Marg, Sector 21A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5774721,
+                            "lng": 77.3603864
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "899406e973c1ee1ac5122e503aec06235c6265ae",
+                    "name": "HMP Hindustan Petrolium",
+                    "place_id": "ChIJC2i7OpflDDkRz_j8YeMGHuQ",
+                    "reference": "CmRSAAAAtPoe3pZ_IBA2JBGn-rhl-Zs6Zwpz52mYp0tQMOSGcgjnSmSAQWPPu9QkcaY3kVuORsl_fvw8qJGrpglYLGXR05lw4GzTPYR7Yg1SME6ui9Q_fiszSFduI9KlNnDIFhQREhD354_6SBiPz7DT6QzbkrL4GhTXN-nQTMn14LgclQHqfSHKn_5C1A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Block B, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5632558,
+                            "lng": 77.3586428
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "829fa3a90c7cec93589c4f7ce76b4bf9ed39cf76",
+                    "name": "Hindustan Petrol Pump",
+                    "place_id": "ChIJAQAAzOvlDDkRRlQJxu-1aAw",
+                    "reference": "CmRRAAAA7N8E9kyv6YwuswRxXJUTeWmOlI1xM6bLdJHliiccgMuA13U_XDg1zcOTq19t31_u8zJjVqIlJajCGu0vi14BA-UkT4_BT9YXZQly2Do4z_owMxw2MK_wlJ3-Or96ezbDEhALvGjvCO-ieYyQTU4cQUK0GhQEMYki9J36ya0lSY-69vFnqWsUOw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Aghapur, Sector 41, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5911599,
+                            "lng": 77.3307292
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "83f196f11bbadb0488d521d7a67d03329c451a27",
+                    "name": "Shell",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 640,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110870183167761879497/photos\">Ramjan Ali</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAEDwn17Z_Wa34o_N3lwj_N2eWLx3VIfRR3M7kiYLgTkkpi2hYYTlbfs-ChJaCquYeZd9JW4MSfVJuCehGihbHS51NcoUddwHVeszrRuluOJnRqeqvvuQqBoGbTT_kKKacsKAQRw4IXWUzvVfT1vU3QorpFJBZtWWLuR4nz0zloHVEhD-w61jAqq-W7ul1iXTq18WGhQkUO87-74pRhv09rvuBxC7pf7PEQ",
+                            "width": 640
+                        }
+                    ],
+                    "place_id": "ChIJW6VHS_7kDDkRMzH4toTwLBA",
+                    "price_level": 2,
+                    "reference": "CmRRAAAAQFg2iomifxlANCS5k2pBkpiykk8KN2OfD0dLgHOYI5NorEmaxaQzaHhWu_2mNej9_lJKbHN4Fsvd4VVbdCUSf8wxC6-k3-7WB3FKAhDm0yZPfUFFcaevcd2SO0f17ovuEhDQLQwjIF50AN213Kv9EIfDGhTJAqEvedSAbxxfGBnlSRCWVN_jKQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C Block, Sector 10, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6067511,
+                            "lng": 77.3597194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0127e54ae795bc63f7ba953e696eb832ff01a098",
+                    "name": "intellisys global",
+                    "place_id": "ChIJq6qqamzlDDkRNkhGAGWgyWQ",
+                    "reference": "CmRRAAAAgU3qrBKQfHztScA6K_n_ZR2Weq4JHi6S8PIE4ikZ9zh3fWrhr6qqQLVY7dcLRt2apzOXnUw9IaKPSSXkFe7Dk3pQ6YG0cvKn1sBiw1WjV6FHhDO670iY8j0dVVSu0P0dEhB_ZvUPdTjT2bAXY4aYzZuAGhQKVCGDHxMX4KVUkXM0_YhCG9-Pwg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 58, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6036505,
+                            "lng": 77.33576240000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "08f7ad1cdb6a6a8b2696a2b4be713b30ca2c5485",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVUqStR3lDDkR4e42rRZsI9k",
+                    "rating": 4.1,
+                    "reference": "CmRSAAAA8uEbfeH0ZkbFjiWtgxGnUR0JItxWfUwS_ePC3DyEB2awT74_GLE0o73PG-LHM0XMulXDjGzY7HHX8uwIOgMce0YyD8tCHv0PQM2YW8oWjDoGMrWaGiLaqizA2NuUmWnrEhAZ2LeMkeeGU4TUppMgzIW4GhS3LN3to6JOjDtoUM-IlX84qD5aYQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "New Kondli, R.K. Chowk, Mayur Vihar, Phase-3, Sector G,, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6130295,
+                            "lng": 77.36546109999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d1de24eab34fd73e3a04fc8e634c5df491baaa4c",
+                    "name": "C&S electric ltd",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ____P2jlDDkR6rzjxW4hRg0",
+                    "reference": "CmRRAAAAmRN6Q2uESybw2x8sCPHhBw-WdogEzuDVIoutF49FlquD4Y5vl5cBjbCchoz_K-P--t8gS8iU3JVyexgJNWsrRmvid1tzT__Izar2ZRVlOZXSqrwpW1jd49vLy1wu_uVyEhCy4uRnVkLFKFS5PgzbipnVGhTvaO6NHye_-E3ZVKzjGHBve_7cBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "c-, Phase 2, Industrial Area, Sector 60, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6022178,
+                            "lng": 77.325232
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6024176,
+                                "lng": 77.3255371
+                            },
+                            "southwest": {
+                                "lat": 28.60215120000001,
+                                "lng": 77.3251303
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0fdc7c1732533b7bd0dfdd169b7e7bf787955c39",
+                    "name": "Bharat Petroleum",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJIZihX-TkDDkRmwqvifJASjc",
+                    "reference": "CmRRAAAA5d_-e5CfyhY1t-P0WX8fnMOZMmp_XbPTX6DI1eUV1sVZeWDDV5qb2DKmRwxLESwVERCCh2YvzNtQhXlApJoexYF_gkk_ASK_yTNXPQy2TGu8KGEWT_F2xWNM1l009rzJEhA6M395a2DKpuWgw_re54FGGhTA33iD5Ejj8O_f3GnNBMmMXuCRWw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dallupura Road, New Kondli, Vasundhara Enclave, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6105014,
+                            "lng": 77.33545
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9cf93584c39b0a7c6c6398010b3a37225d1fcc1f",
+                    "name": "High Hawks Projects Pvt Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJYYHPdR_lDDkRQG7MMsReMKQ",
+                    "reference": "CmRSAAAA1VNMOEnrEgS8SMrKuqGSC3YOkjP1B2Qi56EwxvZVlVrs96iK8n1pr-IEn3byVft4UWqkDW7kJ6HZ480C5S5ryfwNK1Gb9b8jytoF4CziOQUYU_CdPMaV5RJXv2tBeixbEhDqJd_nB1OFzKEcKEgiiWG3GhTOClRtKFuwbVmqPtBkp_yhGECTxQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C 5/85, Opposite Ruchika Petrol Pump, New Kondli, Mayur Vihar Phase III, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.584791,
+                            "lng": 77.31262199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5850883,
+                                "lng": 77.31269704999998
+                            },
+                            "southwest": {
+                                "lat": 28.5846919,
+                                "lng": 77.31239684999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "df4b80e664af314846a285f1b97d542bf6264e2d",
+                    "name": "Indian Oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJZQTpC1_kDDkR1EvupxrRE6g",
+                    "reference": "CmRSAAAAiEbao_4qAzW9nzce_pNkpWxEaL9_fvSDl5_-u9PzG7rwEVtgPU-3i7QR6iMBj_VzDYw2zqt48B8vuAjKVJJ4uDB_OOCoBYVRQPlYYTHFmD6RW4mOuFSoCXoa8VU5bCCBEhC09MWPz39MLlXZpivSsk6CGhS5ehmPwe4lUFp9qthFHIgsTtlqTg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gulmohar Complex, Captain Vijyant Thapar Marg, B Block, Sector 15, Sector 2, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5839519,
+                            "lng": 77.31188809999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58419519999999,
+                                "lng": 77.3123558
+                            },
+                            "southwest": {
+                                "lat": 28.58387080000001,
+                                "lng": 77.3117322
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "eecf8625e34689b4bde542c482bc2cfe760aa2ba",
+                    "name": "Sagar Automobiles",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJqZuurl_kDDkRqE46DknrYIE",
+                    "reference": "CmRSAAAASZ9HvlkMQLkKdl-MuNLXZiRuH-N-Eno1MRx4uzekHukTXZpezWtOql42IfN0jFaTsHneO3bE9CSshgzmvQFay81Tt8QDj9AV8M0AGDueI7qO7uUaEfrqdUr74GpNCeaPEhBq3MlIAYuL4YAz5Oi_oaAHGhQ7mPAsT3diVhRHGhmQDPL4O42ISw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "P- 1, Near Metro Station, Sector 15, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5916936,
+                            "lng": 77.3390442
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59225475,
+                                "lng": 77.33919630000001
+                            },
+                            "southwest": {
+                                "lat": 28.59150654999999,
+                                "lng": 77.33858790000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5567dcb289e2ef852953e487eda531eec6763004",
+                    "name": "Dolly Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113203604329189708539/photos\">Ritu Tripathi</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAEAr117ispA4t8a1HYnkRfwqE2OXsCend3VmT6RIzmpmYbsOkSTg6RbkuUMqSUsI6qwt5TKAQJA0l1IgnRppzmhIR0GB6k-1pmDKAhgtM0QvfaVsOjE6LQ0-_m6tS2lc69FJsnOc_LlVaNJUtkpr8pAEY09JCD-gSOtPledTg6XGEhDSrbOKd95b7gh3Baa8jRJAGhSM1XGrhGlIVRdjVM8Q19dT_CEqIw",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJC4e3JwflDDkRedsHJqX7Blg",
+                    "rating": 3.8,
+                    "reference": "CmRRAAAAlpJ0oYisvMkx791FKk6erFqmHcTZQ_LQwmfMvfidgQqAbUT1tHe2jTSnEwt2fxkctYuoNjIh1WlsuqbLiwtmY_Lw6QWiZRbeTnCT5RYr0nw4BEexKI-Z1ryWfFo-kbQ0EhCOjCt-pqHkmTzxJ5F0hTX3GhRwcFx5GGFjD8b9hb8oCdNqfkiwgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Amaltash Marg, Sector 21A, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

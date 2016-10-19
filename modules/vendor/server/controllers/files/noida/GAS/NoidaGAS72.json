@@ -1,0 +1,61 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.531903,
+                            "lng": 77.4082921
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5319065,
+                                "lng": 77.40832769999997
+                            },
+                            "southwest": {
+                                "lat": 28.5318925,
+                                "lng": 77.40818530000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9a542247c24ffb9ba14b2e4331592ee9d7a10bb6",
+                    "name": "Near white metals",
+                    "place_id": "ChIJidOv88PoDDkRcP4iUDYE1Vk",
+                    "reference": "CmRRAAAA7HFmK_zUrdgJpztfI7i8SCE1wB9Ll2G_M5_Y5Mc4EV9Plbs55moIyj0XI8r4Dquc391Vg7iV1lFxDBx7SavYgWY1HDKssISHsUbGK1bQi1nqAmvjYZvIwOaMw8rwuJP-EhDAh09LBnFEhCKpAy4hZs58GhTkzFYHiaA1iEzyVRv6WFQQkrUV-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "23,, Hosiery Complex Road, Hosiery Complex, Noida Extension, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

@@ -1,0 +1,365 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5423299,
+                            "lng": 77.3865782
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54239364999999,
+                                "lng": 77.38666009999999
+                            },
+                            "southwest": {
+                                "lat": 28.54229545,
+                                "lng": 77.38653370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5bf58b94f2849594b5aa4cca2bb0dc4ba9e90c91",
+                    "name": "Model Shop",
+                    "place_id": "ChIJdSfALqzoDDkRL8ImlwBmFbo",
+                    "reference": "CmRSAAAAluNB45zp5pH1nLy9J-A0Zqor2VikuoxnCY7SQyKzqaNZLsOhNi9xEC2pKYpNE8RHjRKGrST2fTXjS0_Hmx0iltmAkj3_eIGdp9bU1LiXSk2OfVZpjVT1qtndIdM2jH4pEhB1i_BXSw1WxQw1JBPgrNCRGhQ2rEuUk29XJzR01beIeuv_jTLfgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Bhangel, Sector 102, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAA31taUetsSa2MlbQrhMV29te2nALJngoCUfrKyL2LBgwJCK3cCENp7nqDhm5XvzxEcUfXq0RIMAdFtszcpH6_mU_AD_2neFoIF-jNLYLiYX36TT39nxuSvqNWNBLodaaKEhDGFOc4PNguSLhwsRYMX4vcGhTBs5Lbv6Gv5u7SqqLdW4m4jJQUBA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5423299,
+                            "lng": 77.3865782
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54239364999999,
+                                "lng": 77.38666009999999
+                            },
+                            "southwest": {
+                                "lat": 28.54229545,
+                                "lng": 77.38653370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5bf58b94f2849594b5aa4cca2bb0dc4ba9e90c91",
+                    "name": "Model Shop",
+                    "place_id": "ChIJdSfALqzoDDkRL8ImlwBmFbo",
+                    "reference": "CmRSAAAA8dKYdlf1suVhsrFS3R1ksXlzHukzFk56cv_FtfSX-Eb-jBWH6wmuddwznHgcTv1WkbVvz4K1PIFfDXwLdow2VMqpiEEViu9e0mjNF_WZL_Ax0e3Fh0cmvjL_I0pHcSYeEhDBXvNXyM2IPHCd8vvB9vrBGhQBUAnfNl7UiOsfwSHT-YlWK2bOnw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Bhangel, Sector 102, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAAiO8leU4qiRHlm47C4j9IPwXgtrQYcBeGrahQii63Xui1HdnVa-0udMOAhlTEmeHFiizfBudwTFCX3g9iUwPQL-5L2_aFb1TTwMjMBvnNDpQCQsgYz6dqBs5vjqefNBPPEhCEB7UauFk8ZhudEnxSgqw4GhReIYDAlVwlOKPKNZoWOKOX_1qbbA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5471927,
+                            "lng": 77.3238808
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54734075,
+                                "lng": 77.32398295
+                            },
+                            "southwest": {
+                                "lat": 28.54714335,
+                                "lng": 77.32384675
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8e24c84f1addefa9758796e7b57cd959b1915262",
+                    "name": "Unkonown",
+                    "place_id": "ChIJt_jAJSnkDDkRf96ow8u9VXY",
+                    "reference": "CmRRAAAAdGlkDrukRJJbTC4lLVWgCICVRGPHFczUeBWgLcn-km8q3_RvJSlRqyBxBfzSpDeQO4blDa7fZ7MxI6TyMQR7IOBzkLjmv9_VOIFsqa7dmGZEOOk4sgXYUXoqQPqHcKE-EhA9cz6nnFrAHeTkIIxOjg7SGhQXo0qGU4VcyvREzaD_gYsvG4-6Rg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector Road, Sector 94A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5707385,
+                            "lng": 77.3622008
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5710529,
+                                "lng": 77.36253379999998
+                            },
+                            "southwest": {
+                                "lat": 28.5706337,
+                                "lng": 77.3620898
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ca0dcc8a91a435a1e2ccc15a93aa1d85a945788c",
+                    "name": "Beer Shop - Sector 50",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3006,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107736606570439768643/photos\">Prashant Roy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAM6eJDUYg_wA1wkByElUreFzbzjXq6lrTYQZsKAj2pa2Utv8HA1HuWMrK3eBn6G44nFmsEn2V3NOGyTl_Lc7IXCkweDTAfkG5q3BMhuDww79q97EZJoY_wgMHCB3p08-in9h0ETe8sG5xFqvCG_Sjn3rO29U8uN1IugJ15CVljevEhCk-TY61Twd5CaGMvn6ppfRGhRQD9XhE-oQOhV8R6851P4IxymFNQ",
+                            "width": 5344
+                        }
+                    ],
+                    "place_id": "ChIJ4R4cdJPlDDkR6d06Q5eBoQg",
+                    "reference": "CmRRAAAA9uMRHnVMVCm75vn2rYXuDih9qNdMDlZ_Q7h1mHIHdDQV8hZSOfI9AjjEfZmwPqo82sz5SsLcBpY_xY44FpAy041QXtJA30MlZMrkcWhWNQGFkYrvrmcBGra9vIj8ALPCEhC2SmD-U9j8dpa4jY4xlMImGhQgcdVutRbjFygBHljfYien3iJwog",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.B1/21, Jain Road, B Block, Sector 50, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5423299,
+                            "lng": 77.3865782
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54239364999999,
+                                "lng": 77.38666009999999
+                            },
+                            "southwest": {
+                                "lat": 28.54229545,
+                                "lng": 77.38653370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5bf58b94f2849594b5aa4cca2bb0dc4ba9e90c91",
+                    "name": "Model Shop",
+                    "place_id": "ChIJdSfALqzoDDkRL8ImlwBmFbo",
+                    "reference": "CmRSAAAAQCMugezWty4X9yAb-ccjZgGfxNYx3TcaUzX6EVnmasLMUpPfohk4IKtYP4mr0_j-95gaeA07fy4Pnvo0gIW9fSjM4VTo-4KdauyaDzu1g4fV5vF4T6PpGYu_biabCLWpEhBwyEK70k-2depJxSCdb_2KGhRrKwjmzRK4Oy-dkWupSm-sdRDJ-Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Bhangel, Sector 102, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAAo4mMvx_xBJgVm8Yl_XHpYsk4aDkCF1vdRn44aSOAM5g9uOu2t-XL80O2rBBDuQ9TW1R2zvgAZiuX2MKSfIWp9YqPoW10WxFTlf_Sz-VOO30EO-IkXjfipbrW-VfLYrwKEhAVmOUzNZavJSb3iI5qNirqGhT1-oUSBUAjSLfB0L_rEuB7SpoxTw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5471927,
+                            "lng": 77.3238808
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54734075,
+                                "lng": 77.32398295
+                            },
+                            "southwest": {
+                                "lat": 28.54714335,
+                                "lng": 77.32384675
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8e24c84f1addefa9758796e7b57cd959b1915262",
+                    "name": "Unkonown",
+                    "place_id": "ChIJt_jAJSnkDDkRf96ow8u9VXY",
+                    "reference": "CmRRAAAAKFxZN6-zGy2NvYtsS32aJwZr2Iq_rqggkS6RPnexQ50gCvh10lHY_6kCThg1KsLcNwpvxMZI4knzSbFyua4wTyL9VyZcUppA5DRuGFYBTyLOiIAWNPZY54WmaurL3kFhEhDmL-w11JTL8akS2tRPZpQ4GhSPY49u2b4wxLPknOEHQue1uSnMNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector Road, Sector 94A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5707385,
+                            "lng": 77.3622008
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5710529,
+                                "lng": 77.36253379999998
+                            },
+                            "southwest": {
+                                "lat": 28.5706337,
+                                "lng": 77.3620898
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ca0dcc8a91a435a1e2ccc15a93aa1d85a945788c",
+                    "name": "Beer Shop - Sector 50",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3006,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107736606570439768643/photos\">Prashant Roy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADGOEwzEFAEQuL4ddxYqjzmjpTcTYjScc0Q_kjTRcSsdEUW0phU7fVlbD09i5niXxtQAOYWfMoGvO02RlXauBYSmNxCvbANcYu-IIuhYmnDMdPdrWlSE5pYrpRatRSmI61FaC6ABZND1-TmLCyv7u8Ce_H_yTSTUvhMZxWNgi6NJEhB2aNCcYDp1-ZJ0JfOV6al6GhQL4EGK9frZl_iJLkW6L4w7-oSrfw",
+                            "width": 5344
+                        }
+                    ],
+                    "place_id": "ChIJ4R4cdJPlDDkR6d06Q5eBoQg",
+                    "reference": "CmRRAAAAEZv7wGRWo4BL595X21Y-ywPRmoVhcwbKIFKNtywtl6RKbAuX4MYq6Qu7iKd7dcrzaYooXKK9otzQO3Xmxl3XHHbeJm6p5C9Tz1VxiyGWmWiRuv1SbRPb4CO7Gqk2M4sVEhDeXvwnErmQgoDzq5rZXgDzGhQEzaIkJwUgzD6pybxOv-X4Zz2R-A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.B1/21, Jain Road, B Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5683471,
+                            "lng": 77.3243134
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ba80549f5dccb0dd81b5da8dff7a24564e7bc935",
+                    "name": "Patiala Wine Shop",
+                    "place_id": "ChIJKafn7UjkDDkRXYMxrnf38wA",
+                    "reference": "ClRQAAAAuYqgWHBNvEoXNm1slVRPDoc10od92PZiH6zggLc_Anjj67B7dKFIcXNN_KB1d-GcywDMdk1VD2UJR7wanD6T-o2s5Rnyqj5zRKKbQw0WH5ASEJSey9wdKoW4Fja_dKd_9EAaFCkwsJCJ2weFYEFTU3wP0WcYL6_i",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Pocket J, Sector 18, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

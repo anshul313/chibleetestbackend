@@ -1,0 +1,468 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4966534,
+                            "lng": 77.48679489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.49672585,
+                                "lng": 77.48692435000001
+                            },
+                            "southwest": {
+                                "lat": 28.49662925,
+                                "lng": 77.48675174999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "528e530362abec10ec6290c9b3b3a1f09067c2c2",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJzx6k0jvqDDkRAadspBb098U",
+                    "rating": 3.3,
+                    "reference": "CmRSAAAAJKETTVsV661UF2t6hkPk9GXymVte-3B57JiEqgvKlDEAFN-3LM9CnZqKHn8nHqPpLTesKnqXb_3B7t-6dcdblftpfS4CIHu_8av4nIILm_cxp-EzDpC9IFGBw-ekUSTMEhDgXzhtnhxYm0JpojsLdVjWGhSrs44yXlCnzjlOfraKVKx3AFrd-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Udyog Vihar, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50118479999999,
+                            "lng": 77.474914
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f040a5b3f7c9400d1a9ce148228581c63e9b2a9e",
+                    "name": "Idemitsu Lube",
+                    "place_id": "ChIJfeLE2CjqDDkRwX1c8U02RFw",
+                    "reference": "CmRRAAAA3jKARf96zRNKi-3KNt3hUonBlFfQY9tuDIzXE5xGMat3YFNipu0q33_Awy0N_NeepI0xBhf3oXhy2ni0Tg693xcIlJy763JbKYGn-kzQPNgh8-npYay-YVT-qMQuZrjkEhC5dtyc0VsaB80QWU_YJUBWGhRmkBeBZotpc0k5gw0Qu5ZtrxljQA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ecotech-II, Udyog Vihar, Greater Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4966534,
+                            "lng": 77.48679489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.49672585,
+                                "lng": 77.48692435000001
+                            },
+                            "southwest": {
+                                "lat": 28.49662925,
+                                "lng": 77.48675174999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "528e530362abec10ec6290c9b3b3a1f09067c2c2",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJzx6k0jvqDDkRAadspBb098U",
+                    "rating": 3.3,
+                    "reference": "CmRSAAAAyGGQS9CJvmTB3_PiSWyI5H2TTzJByBXSTwGYndnKwvi5wIbR730w1l7JHZn9tdnX8sfo52eUpIFpBPr_qdJI1gq9Ci5DtN-xj8EagqfwUJh_UDFe4x04rCBdA2CjqB1_EhBZiw7IwFH4u-o3-c_Dkig5GhRQSDTs_rur-fjYMgtfnVrqgi4h9Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Udyog Vihar, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50118479999999,
+                            "lng": 77.474914
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f040a5b3f7c9400d1a9ce148228581c63e9b2a9e",
+                    "name": "Idemitsu Lube",
+                    "place_id": "ChIJfeLE2CjqDDkRwX1c8U02RFw",
+                    "reference": "CmRRAAAA3X4UokTvjM_HEGab_8yJZOnICDKYsP54lfa5uux3aczh0XNmW3jGb1WBguyXhs-UHgyxLHg5rVg2aECiJ-QmmnJK-kaAfWyi1RGV_iI9mupucSEgmk567tSSNyQdtHqSEhChOPoMY7egS21KTAdWJkCpGhSBZzyQAotfUfk7gpKXxxC26IJhdw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ecotech-II, Udyog Vihar, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129758,
+                            "lng": 77.4756493
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "514328fa092a45d247a0b4d8131081adfadf50c3",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ79trftTrDDkRXIIooki714c",
+                    "reference": "CmRSAAAAIlEETInNA_BEpKt0PvJnDLBngUOVRrdz0m8oHhuvVp35NPBaI8t2zJ8PeB_PVYEr1fVXM3xs8jG4pGrie5Rj9EWR9MebfP6gLYUkBqxb6V-rzFGHd2xH1aglmfqNaNUDEhDgYk-mBFv1mP8gzu1RrpH-GhQ2cgvZIHsOvcPfJpyW3BvDUySqog",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Surajpur, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5240505,
+                            "lng": 77.4618612
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f2e5ce2f986a0a175a41802de149b4a65f1c7ed3",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJuXeyTWTpDDkRZck2rigzX9I",
+                    "reference": "CmRSAAAAd4VpsTViFcCCf9IpzLF66BF0K8EjflTmjPG9y6ja-6k0H4IqbDrYd7wDt-LJnXrv1zT2TSmSmLq8P4G0KlkGtLeqTRdzSWxeo8W8OBj365TGLtIBnKKi0tSlKPjLTu3nEhCQ6egoHMAIC0SeUQrTTWQXGhR_fwQQPH5vF-74ZAFjIfrUH3XSaw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Lakhnawali, Greater Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4966534,
+                            "lng": 77.48679489999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.49672585,
+                                "lng": 77.48692435000001
+                            },
+                            "southwest": {
+                                "lat": 28.49662925,
+                                "lng": 77.48675174999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "528e530362abec10ec6290c9b3b3a1f09067c2c2",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJzx6k0jvqDDkRAadspBb098U",
+                    "rating": 3.3,
+                    "reference": "CmRSAAAAVmyBhFdlgSiLV-_axvxjL4oNAX7hHpR1iMNudPDZGlGkAaqA09de4Qij4i2Tg_1nBN42IxntglqzWFCvPio4oa9GNYLRe-aW1lXKm54jMw-Kjx-yR9_kHUYuReAyPz1vEhAs0ChDyg3k6xNNaMIVyqHXGhT77exy3vofJWzxu5fBMobMP4qkPQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Udyog Vihar, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5301902,
+                            "lng": 77.4540961
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8c531770daa6470748f11ce28cc1480cfd0e0a88",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJsyyu6GnpDDkRHn3tTAons2M",
+                    "reference": "CmRRAAAAiKXXOedlOrTuTwfSFeWifB3ldvjRgPqAy4x22mFPJM-PgY_MX42x6Y5RgP0h0Qcz1PwFrJUBeKdROHnWxhYeV6IUfMtEc4ihKhpI-f6yLv9HIQHQGQg5O3vMfyCUOP-_EhDDj2m6ik5TLp30Mp4YlqwBGhQbMQlLgq4k15t7KWwi461fl0MtyQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ecotech III, Habibpur"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5321855,
+                            "lng": 77.44845
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "8cfde18cd2694bcb73aa5bbc03cf6cc3586eb072",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJ4ZzmaEDpDDkRTzO3MqdvxRA",
+                    "reference": "CmRRAAAANNtdaO2xmMkkQMzjIj8oU-1N_VO_IgydvQM24MJVoLYDFWL6b-gUzJcVJImP9FaeNlX1U6xqZL_PSYpd-dnPgZc5deOGOI220uEnnSB81SMZoEkS4kH2OwNp3LiWdjf8EhDU1eWEuRyrhbnBcr9JV7i5GhTcwKx0-K8DAhS3ZvfsZT830uWCbA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ecotech III, Habibpur"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50118479999999,
+                            "lng": 77.474914
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f040a5b3f7c9400d1a9ce148228581c63e9b2a9e",
+                    "name": "Idemitsu Lube",
+                    "place_id": "ChIJfeLE2CjqDDkRwX1c8U02RFw",
+                    "reference": "CmRRAAAA1DZvdILyKRiz4mHfOe9a5pssVFQ44zx4O-vUFoEp9hULi4udxW234h6njaY64LTkY7kuxlhpElP1dIvqluNYTwyOdMC__qQ7aCnEI7kHhJdGF9A0LfZs0we5_oThBszkEhAWY2ns02XJ_afVfofGnmeaGhR2Wh-qu2Wtftvyo8XtzwOOxN49fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ecotech-II, Udyog Vihar, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129758,
+                            "lng": 77.4756493
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "514328fa092a45d247a0b4d8131081adfadf50c3",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJ79trftTrDDkRXIIooki714c",
+                    "reference": "CmRSAAAAjwg4DF4E1-De_7S7GDSjgx7_Bv0QX0z65g9_sVESgBEVceIqsssiSwOOFLrbe-P70HydzlZMVk0XsKrtSHD-3V__vfIvYc5xEO5HYp7Ch2oY3GSSwMF4dK9YQHVkQ_oBEhCWmfNVTgy_jh06uoW2vsAbGhQCiFxfme5Ek8Z7ya8zBn4x4Qf76g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Surajpur, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5240505,
+                            "lng": 77.4618612
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f2e5ce2f986a0a175a41802de149b4a65f1c7ed3",
+                    "name": "Bharat Petroleum",
+                    "place_id": "ChIJuXeyTWTpDDkRZck2rigzX9I",
+                    "reference": "CmRSAAAAQPL1BDF703H9WODv_N8HbnFUNRAXzIbwQ5rI0dGHtjKZG4Df5Epz_QX929vn8rjZoa1nAT8Xy2wYcNSkKjkSAhPt2782PGrf5UC6ZpgMCXaq0A_uKnRRPvSvqAR5nD9REhAG3iM-YnS_0_yYKPcCFs5aGhRL4nmtXETupZk3HNuzPDEa0U6rXA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Lakhnawali, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.530021,
+                            "lng": 77.45488399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "df95eabdcd766f30aa931cdc7dea64668dd0183c",
+                    "name": "cng pump Indian oil",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 660,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104341746497545941101/photos\">cng pump Indian oil</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAGyiDcFxdWyxUbDdnM6TuJ56iXCmLC6EGOYyK9B23wBqj4N8EOIbs1LiNdGpT7cOnYzv48gKCHGjGa_rAR-JJkepPk3CGsqPfIj9_KQK3I1pDkFDoJPNQNg0PmT6td-ja3USKvZhIDb_bncHew5kJ4EKSqW_VSyD_HdZq2fC_Lj6EhAPLkWPhPZ5kcHMC-lQkLkrGhSeO5QKaZVFul3f6THTrDqgmmgr_A",
+                            "width": 662
+                        }
+                    ],
+                    "place_id": "ChIJ1ZI-xGnpDDkRTHOAwg-pRQI",
+                    "reference": "CmRRAAAATlZ1XXY5wkqeeT9JyOzhQ9XBZNEc8QbEswggwVCOKsZzYhoALhdzR1aDgxmlc41P9kCFI5TAjCM5SJpKIE3lHIxJbXCaFAhzhTcOdcNK5i2X6vzNeeD3v5AeBKOlvU9wEhCNYGOhAPUNJud-yRJIz8NTGhTUxUFIvwOeh50PoH7LZfKvPL4V5g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Dadri Road Barola, Near Red Light, Sec.49, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50641109999999,
+                            "lng": 77.4984602
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "adc7a8943e25cf332b873c68c7f5a0ea1ce9fa66",
+                    "name": "Kaveri tvs",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJga3x_UvqDDkRVJEC7FvYXE8",
+                    "reference": "CmRRAAAAjUQzdagHWs4544XifAF3IdoD9kNitsH2ahcRe-TjLf-xHp_3tDUaX-xCzOaXXdDglqUe3MpUqUiL1ZHSR_k-gyf8EKf5fd1IoPIYmRIbru0PSqBQI3L6CsZ-KacTYsPwEhC71F6yitylFeOAhisjcJn0GhS4BBS34puLtdFJU5xRDXo0gbrXTw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "e 40 upside site iv, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.530405,
+                            "lng": 77.4539617
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5306129,
+                                "lng": 77.45404464999999
+                            },
+                            "southwest": {
+                                "lat": 28.5297813,
+                                "lng": 77.45371284999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "80bb3d7d9338fad79124154476d475c45b0c374f",
+                    "name": "Ishwar Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3264,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102052771157604376732/photos\">Partner 48d49b2e-6a25-4496-89cb-5598ae2908d8</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAX4jWVfevYJfliyfckfqbBOMYxIDtlD-ZHM2fCu5ipGJQaAPRY7NlWlvL1xbzgV6OGdXXGbw3BbH7dNS4HC8AvqMXapJu5KBOjxHcImDUlJUvv78CLz5p7DxKg1zK6iS_MVuth95o0WUnWgyq68SWBWYQpvRfQz_TWiWl_bXrz8EhALO0wanLmMW1c0Epq1G9BmGhQYOdSP-0hCViC7ObXMUrH-rbQxqg",
+                            "width": 2448
+                        }
+                    ],
+                    "place_id": "ChIJnSBL5GnpDDkRTKMxdGxPYhY",
+                    "reference": "CmRRAAAA-y31JOdKtUp3lP0DR71s4BeYu7Na0oe1AsJXJk5irZS2xt8b4hOGVd-JFKBoivBKfo99RVf3JKqify4ASu4ECUA4HMFZLhlGPp7ubX_ut0Jp7BuJoUtAH8xtZDFsx3k-EhAxlTqC2PozlSWYCpOJJ3CbGhRrrqVy-h7UWyHUyrNoZ2i_w8LT5Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Ecotech III, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5306203,
+                            "lng": 77.4534351
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5308489,
+                                "lng": 77.4535317
+                            },
+                            "southwest": {
+                                "lat": 28.5299345,
+                                "lng": 77.4531453
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "17a0e6202617b1458f88c1d5a1fa8157039bb81b",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJc-RH_GnpDDkRzz-zGtSGQEg",
+                    "reference": "CmRRAAAAvUSAIqf9syd9leXzKE8cksSJc8ttSvye6WOwfCRuoJOV5LYJnrNF4O8h5coM5Z8w7bCnTdU6czBIUQtfu7K5yEOP7iH2xNfoIefBxuGrcL4mT2HW2ZOiAh4Wy16jxDhoEhD0i1bokTIKVohhV2sEhq96GhS3MP1_sAhNWTsZ_QyZk-htQkeh0w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Ecotech III, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.532165,
+                            "lng": 77.44841939999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0b4f6aecffb0ac0d7d2935a61ba36254b0089eb6",
+                    "name": "M/s Subhash Automobiles",
+                    "photos": [
+                        {
+                            "height": 375,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109453319792504063414/photos\">M/s Subhash Automobiles</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAC1wktaRhn0CyoEDj_KUwQR4K9zqgbq9p9ZulcTu2cCgtMgCBXpIO2VYZbz_WjClyR6PF6MjVyQntld1WQlhwn-o8DiR9zG3z5oa42wyr1hMHLTUKD3rI9DMRVAa_ZivChcm92l1r5yyxn9qDSALoR7J69F86CHuyIfst2U_D-bYEhCLBsCNcgBP1ehUp8tFye9PGhQYP53nHo2YSim4y19LcIKbfZMfSw",
+                            "width": 288
+                        }
+                    ],
+                    "place_id": "ChIJ2YPiaEDpDDkRCZB1xIcAEQI",
+                    "reference": "CmRRAAAAdUDx4Vi-X1oOuov0omQH7iuAIWBkwETmLueQcO5srAXyT9MRL72A__runSKoqb3aIVdWy-Z2CstQUAQSdacPBOz5HhDdY55aFO80pY1DGWOi_H1G0cxYcQHwkHHaEeOdEhBAk74n7TorsZu8aXjblOjJGhQMNnZEpVKA4necMgUnvpALXOP8-g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HFA 2, Udhyog Kendra,, Dadri Road, Greater Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

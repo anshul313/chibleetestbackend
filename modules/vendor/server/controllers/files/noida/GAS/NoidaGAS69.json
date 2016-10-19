@@ -1,0 +1,121 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.534146,
+                            "lng": 77.391565
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8ba90531f067f26f9eb085c69138bc7cf097775b",
+                    "name": "HP PETROL PUMP - HP CENTER",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ44C_5rroDDkRGwJTnvYJ8b8",
+                    "rating": 3.4,
+                    "reference": "CmRSAAAAa8Dz7n3k2fwG3sWye88K52DXLGFXcaSuXfG7XldF4GUtK_WXdsOy5vOVFf7TNQAJgNzYEZf-LdbkJ52OT_8Yeuu78nck4w9SLvEKXQZv7PABwahSKz2xjyCBnGqRNrr4EhCC3Oooovx5ulVFQZvCLxLIGhQBoJsU92TlHZZ7MbcTJ9cGOGnWVg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HPC Petrol Pump PP1, DSC Noida, Road, Asgerpur, Sector 82, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5260608,
+                            "lng": 77.3703037
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "a4e927f989520eab76fd834f18cfa92aa9f60cb1",
+                    "name": "IGL CNG Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/108064646027211210852/photos\">Rajarshi Banerjee</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAN_y8Pe6FVTXI7wP4gfRv-ZlMUOZ0uwht1xqIfvHgB_h6WjA6U2n4CQ7d4Aw2WwaNnkmIoPl6ayc3k640VYYGmUp57UO-d328LtFy4jLt5poAjxkFrx0wrhdm_3Eo8nEyaOKnvMWRoBZ2jjBKGxZSNN8nnrW7G0tZdGEB4A5lBFTEhAeV-MG1dxj2BbY6rzl2VQWGhTKVvagqeGkKTH--JvN6WFNzO6Z_A",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJy5-CAhnmDDkRdcCZoHfKqV4",
+                    "rating": 4.1,
+                    "reference": "CmRRAAAA-iMcxPN_afxpLUg8R5zsT_6Gaf1PllZpS_GRs9WChGwMeehLAjrftXHRa1Y4wnQX4TkAfNc_V_2i4l2iEWVAfUmx0De8OogZkSLBqtXBy8PIDNWdK9vEp-uzTjr-0Y8CEhANHx_jy0DRrwcL4-VO2MGvGhRkk9sfuoRlTNRKmNJFwm7_AF2LRg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 105, Gautam Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.531903,
+                            "lng": 77.4082921
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5319065,
+                                "lng": 77.40832769999997
+                            },
+                            "southwest": {
+                                "lat": 28.5318925,
+                                "lng": 77.40818530000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "9a542247c24ffb9ba14b2e4331592ee9d7a10bb6",
+                    "name": "Near white metals",
+                    "place_id": "ChIJidOv88PoDDkRcP4iUDYE1Vk",
+                    "reference": "CmRRAAAAuHZgN1v2SHciWlTs4c5Y6EPkeP__w8N-7pCkrddq2vHO4PKYlRiqVOaMA9ERuXHuyyvTBdqIqmFqqlIE4UjTFes9xNY09nHnKGoyvTFDVSx9rQC45ZcrjjGR1smw32JBEhBmuFL26bIH3k3VH87AwUmCGhTgHJ9Vrx2GgdfC2Md-OUqhKu-1jg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "23,, Hosiery Complex Road, Hosiery Complex, Noida Extension, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
