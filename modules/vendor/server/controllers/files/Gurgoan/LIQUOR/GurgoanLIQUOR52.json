@@ -1,0 +1,1723 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.397195,
+                            "lng": 77.07477800000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "608e8b5577068946946d6bb33206ba9d3bf8252d",
+                    "name": "Modern Fuels",
+                    "place_id": "ChIJ__w6sEYiDTkRGs7KZ7a4qD4",
+                    "reference": "CmRfAAAAktGzlKpDOasSTha2uwMjgzLQOJGVpicXbXwyzyTLnDn5a0kTCx5NNYu2jrEA4FjMI5ooM06Y_t2mZF8_3Mwc1ILTpJ3i2UvP3pGZ2NVhxSS-x3yKHLciibMrCS8uuNB3EhBJYYIWdA9Gs6blNUQchqG6GhR4lS5HWv99giajn4OxXD9L-Oxe6A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Medawas, Sector 64, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4088552,
+                            "lng": 77.066415
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40933939999999,
+                                "lng": 77.06649305
+                            },
+                            "southwest": {
+                                "lat": 28.40869380000001,
+                                "lng": 77.06618085
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b43b74d733029ef2b6c19651f8fe4efd524d37b8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdWLJwmUiDTkRqyu0CTGdqt8",
+                    "rating": 3.9,
+                    "reference": "CnRqAAAAjCDFsYVp-71bT8Z8dZ3DTF_3lWkgcsSQ8hsQxPfV1zbnw41Lw5exk8-iaR8PYr2wUQlU9LHJneMqHfD4l6X7jtbZtq2Z5kAHFbkGtVoRVLk5lZvmiuXRdqsuLv24i9yFlzKi_k4-GSmCoEIOfbThchIQWhTvfYKGUhfEdRghA3zjsBoUW8ba6CaxvXL6ysb5zRGrYfmpeM0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4128738,
+                            "lng": 77.0792858
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "70c8d0c832842f62fedd56053de7120fdcd44380",
+                    "name": "IndianOil Filling Station",
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAALpnCIzIGXzgnlzi5vq4lD3mEL0QtNqW3hvEPVMc1rzkpFgKXCgbM4t3qj71sUulid3PZreL1_KoCl_RQHJblTMoz6MLuOewPCYmYlB7ojudZpE6bLv7TUDnICeXZKkU5Xn66cyIoAjVynTcpWPuZ9BMiqxVeXFFh82xv5fmIF8BEhBs_VuURMdWGCfLe1NPJahbGhTAkdyYEUJ-arBTZvsZjcn5Jquk0g",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJayScLW0iDTkRvT_cTBknqiE",
+                    "rating": 4.3,
+                    "reference": "CnRsAAAA5Xys64mVdgL6F2765tXFRfadoLGFcdM81PmQZD6eEFveubXodFQgbY2zEpGQWq-YDqRjuievHt2BxSYjuhXhjGTbEGlfdrLjwfpn6MnSz3ZjKeRXwsakCCkO0owrKS5S89zc553W32YYyytQ68TVixIQnjLY_nKRBEoPMA-cMPDDHhoUH_r-eC2aY5fjfWQKu2GzP-dYv-8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.397195,
+                            "lng": 77.07477800000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "608e8b5577068946946d6bb33206ba9d3bf8252d",
+                    "name": "Modern Fuels",
+                    "place_id": "ChIJ__w6sEYiDTkRGs7KZ7a4qD4",
+                    "reference": "CmRfAAAAkepkcbJ90dbNTd5_j2eZCdQUHIDpFQQ_IvZu_RrEsa-XE1ipX6bLCd9OuP3zanEvfyHmhBSC-mjtkgfar51isRXpMQbQou8WOgg_8s-mhf_nFngYvXOtAKeP8XW7DOyKEhAj5ucj9AQqZ8UaeirvNgEhGhTEaJPsW1CnHAX_Xv5ACVIqy6ESHQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Medawas, Sector 64, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4089327,
+                            "lng": 77.0664115
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40931685,
+                                "lng": 77.06647345
+                            },
+                            "southwest": {
+                                "lat": 28.40880465,
+                                "lng": 77.06622565
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d223d1e51ad69fd4609f64b5d4836d1976be0cf9",
+                    "name": "24 Seven Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 747,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103944329941705334575/photos\">Pramod Kr</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHHkcxyyaP00GMk9JelOlZImzPa9SW1Q2hpRg08B_iHWz247ajO5jMP9wsCB0i_tTnNx_By6CBDiWN_NNiQ0g9CBWFdSZxoJQRRt0TDF-jp_Epb8tB0nieD0CNFlW_YFcS88Ei-7p2B5Lsc-tXGei38Ym2Tq2xp1wpAHRnWVPDKyEhA0JaGvwgNJpuw0W4hdDEF3GhQjsjBWQvi2lxUBxLFRnTSNM3j0hA",
+                            "width": 1328
+                        }
+                    ],
+                    "place_id": "ChIJZ8tR3WUiDTkRLNfWP1IcBFY",
+                    "rating": 3.9,
+                    "reference": "CnRrAAAA20cCosql-seKx6ohSImw_kahGz61UIvo4UYOJBXxLIiIMZurNZEAnfi9L9F_yNsiowkPljOGZPtLw_KRoRmZSEXbLD2JnPUOVc7NAInMrN0LmPJepWeXQvYdlxyu6YY6uEL8vIvgfbUQB1Kjc7JzKhIQcvL9QDNDyUr1nOLtVmyd5RoUZVJ9qki-i0VzUZNadKm2L46ZK_Y",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ndian Oil Petrol Pump, Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.411183,
+                            "lng": 77.07216799999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2929f448446d3f7c4084862baa216cdd8b1ef401",
+                    "name": "HP PETROL PUMP - OMERA FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvRae9G4iDTkRebs2Lxlawy4",
+                    "reference": "CnRvAAAAfmmeO7QOnD2xwE4LshmcMlHmqKFVpNVT0uhElDyTZW3qtQpLH4cLR6h9xRdzf6evKdF6JOIxuP2hLvQ6lX9LKXmUgleQQj7kCl-p4jUy-yp1beVZSap-jVNt_tJr9PpB4rvxoA4YxSPYjEYFXrWkqhIQFNk9rBUFCpV431HnNy_2JhoUEhbcaLvYDh4FQNeTfueIXYD72Vk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vill Tigra Southern, Dwarka Expressway, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4116274,
+                            "lng": 77.0728709
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41174155,
+                                "lng": 77.07320510000001
+                            },
+                            "southwest": {
+                                "lat": 28.41158935,
+                                "lng": 77.0727595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c98ffd209acdbccbc9dd410adfb7700c35629f9",
+                    "name": "Omera Fuel Station - Hindustan Petroleum",
+                    "place_id": "ChIJ3yChh24iDTkRkTyZhqYRCNA",
+                    "reference": "CoQBfAAAAHn27cc0TlVYqT9icNY_cjmMJNGxeWBMGURh0ZblFH3dqx0iG74pNftbxwkp9yNQziO7vYLc-vhtf_rQnENgm3G5X1QDnpdR1OI8HTwudkllMXxW-vZyaHeoXjV7PsHeOvc6a5MrgRuOELzcF3Dxvjed3EsV4HLvyz4ImU2qmkAZEhAfMvsvmBor7Zl5oI4_qIQ6GhTp6ZQ3qou8XpFafupBTZk996GZXQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, The Close South, Sector 65, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4088552,
+                            "lng": 77.066415
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40933939999999,
+                                "lng": 77.06649305
+                            },
+                            "southwest": {
+                                "lat": 28.40869380000001,
+                                "lng": 77.06618085
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b43b74d733029ef2b6c19651f8fe4efd524d37b8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdWLJwmUiDTkRqyu0CTGdqt8",
+                    "rating": 3.9,
+                    "reference": "CnRqAAAApgdZeU4Zfzmg5UFoa38g-XSjx44fPBeDOZaaPgUl37yu4cZlDeoUjFwKc_s0decWMknCc2GzJAII80Sev1hnOVqtO9VdzU6KAYro4b9e-ByNZuBjcQEvmZO-xNE9rerPiRqpdwPG4ae3sPMH94sAQRIQEbJfhMOn7OF6ncWkRt8jDBoUQQMN7G33Cn7UdHr1NUKUQD9Xb94",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4128738,
+                            "lng": 77.0792858
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "70c8d0c832842f62fedd56053de7120fdcd44380",
+                    "name": "IndianOil Filling Station",
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJy-8UTmVg3uOcUOqaOEtGd4ivhs8sY-ZADjPzvWsjMx9VS2lqebWN30DqyZk6ivIhwjgsO9gWrDX5gnmMBjVWpgL2qpDc0G9_2Y7Hdb4F6H0R37rT3R3MGrLXu97bUAXpw3cSctHFeOR5-Zr1jlGnyp6f5BJxSD01582XEn1IzAEhDmn0F4Kn8Ic2S4OITaZunSGhSgCn5dgrY-NgvtvOe25a_oiL-wpQ",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJayScLW0iDTkRvT_cTBknqiE",
+                    "rating": 4.3,
+                    "reference": "CnRsAAAAgSypQm77tq0NlIjPxDk9XyVItL4OvD4entd6rRtX8DKiNUZPCbaENhzX6-jnv5Kzg1VvL0vM9ttl63cXUVgE-zJiPRHPwFPibE6l0r0PciZwcOReRD2CtvLebBiJ2cc07UtWfRRHbNb4ljgIY4BziBIQ4vevSHFIW6xflxfE_McGfBoUo8PtnbKUnFyvYSSczOaCN7-uLYY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.416286,
+                            "lng": 77.08912699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acc2dc7af0980d028c13998bb892252fff5f27e9",
+                    "name": "HP Petrol Punk - Navyug Fuels",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAK9p7XLYlR2PKxKvBzeDTbqu6OO5GRyVpGyM4DEqC2lbVmtQFIV0kgb8L6NO3QjlXex2W4lToPZTSacow5oTcfZIOi6p9GzxIpdRbrifg_IxVYbBIRAMtJ2a0gIIgRDQN2A_zHBCAOKCTdwTVXitaZRXhyxXDjcHvTUcl3kkF8eoEhB_HT9FIzIllUwQfbsgMc-PGhS8Y9UhHjNDCkj6UVldvG34Xq1v4A",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJEQXl5Q8iDTkRLshWkHUP1M4",
+                    "reference": "CoQBcQAAAJbvXo6M2GqwpsvLrLxQqHt0X5jghjRcleaW-m7iksgknkuUNGLK9qS0PKwgdeBH-nWx4OnYt4FChydtoJ8ejOxAz1C6AVTAHHqPjwb7uWwP-17PGnUwO8alEocyynwrnT4ofmTtighTJCvUd6crY3tySgC5rOuqu5rLz8REDTgrEhCuibE0v9fHui0tXa5GKsE1GhQH-dz7LthiVC31sWkYypTmlqfrgg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SEC 62, Southern Periferal Road, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.397195,
+                            "lng": 77.07477800000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "608e8b5577068946946d6bb33206ba9d3bf8252d",
+                    "name": "Modern Fuels",
+                    "place_id": "ChIJ__w6sEYiDTkRGs7KZ7a4qD4",
+                    "reference": "CmRfAAAALoF8VEJ3lJTrYEqkjir2Sk9bOlmJyFWATcKh8_6BZaAK9XBfpZfZA_DNXb1PUQNPy4u0WJT4NHR8zcBoG4C8W_7RxuWd5Ex3R6vT3mlZJC1BuSetbM0ermWDeUqgoHYJEhCHff79aOVfuOoNNy5bNvo4GhQghJUo2_2Kytto6LdTHBqJig68Xg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Medawas, Sector 64, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4089327,
+                            "lng": 77.0664115
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40931685,
+                                "lng": 77.06647345
+                            },
+                            "southwest": {
+                                "lat": 28.40880465,
+                                "lng": 77.06622565
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d223d1e51ad69fd4609f64b5d4836d1976be0cf9",
+                    "name": "24 Seven Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 747,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103944329941705334575/photos\">Pramod Kr</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAAcsV6hD5kB6TBue0_S2ActjEXJ_vroZmJd1eIaejzpz8i6Y1otRaY6p5mJY4K6iA5OboNr-mhvwCEBE69YoSzWVieDeq0jY-P-F-g2xRGpbPSDyiCx554R1qu6I7yFXBEf9aU1y73Cowk9wnN4g0MojmtrvRVFG8Lkbu8T3TPRpEhA71vyeDTgHQCxWtICZstcsGhTnL0yzTcSn_nH52LY7sKRNg6BnFg",
+                            "width": 1328
+                        }
+                    ],
+                    "place_id": "ChIJZ8tR3WUiDTkRLNfWP1IcBFY",
+                    "rating": 3.9,
+                    "reference": "CnRrAAAAUD4RpKkrGKRenVF176K9Y_3ngs5X6H-VRbWOgE9COosVbepjzZ4-KQOmAvLFDNSa0yU1edhvr8RHF3Yw3eBRhPKeCRKU6FV6od2fVHwXOsblpgk31WFC5MKIoI2qCcmqNK_zGXCtZzisW2t3972DrRIQB2fdgLGaeyRAp_sf8K58cBoUBQdOQe0tQLpEJCKoTo0_RdsLaEY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ndian Oil Petrol Pump, Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.411183,
+                            "lng": 77.07216799999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2929f448446d3f7c4084862baa216cdd8b1ef401",
+                    "name": "HP PETROL PUMP - OMERA FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvRae9G4iDTkRebs2Lxlawy4",
+                    "reference": "CnRvAAAA_TRceC7nmmzPUxn5rETos5EcK3OEQgXbmhG3olFwh-liFjnBlwVD_A2Vw7MgsRN4vo05ZI7mo6BPywtAb3TKXHQIq5UDhovju_Y8XBIWIxhu5Yjh6fQLW3Cxdo-295kT8N2zDJd_p_6f8mrwbiinKxIQYo2FZ9Ct3W8gV7TyuRSTQBoUZfFEloTUGZum9c0-CE-dL74DcH8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vill Tigra Southern, Dwarka Expressway, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4116274,
+                            "lng": 77.0728709
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41174155,
+                                "lng": 77.07320510000001
+                            },
+                            "southwest": {
+                                "lat": 28.41158935,
+                                "lng": 77.0727595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c98ffd209acdbccbc9dd410adfb7700c35629f9",
+                    "name": "Omera Fuel Station - Hindustan Petroleum",
+                    "place_id": "ChIJ3yChh24iDTkRkTyZhqYRCNA",
+                    "reference": "CoQBfAAAAIuz6gHBlPbpbB7_S2b69XTcGOQ9vXy2IC7I_rt3Ir1WvxbtiBIUJMNhWMxzjNQ0qaCPLp7igIklH7_ElQjVvWyyk07V8IVYRkTzZXrBUUvOh0JVISnsCBifoa-IB45wZC4D100jRnf4AE3Ya328rcbNzuuWUH9UkBOAwtx57sb_EhA8qaKwowk2aet3by6K3AXwGhSYZZHCaMD6JNLq1UNjZBQ6_X2KLw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, The Close South, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.422017,
+                            "lng": 77.0755502
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a8cd3d8910b0e30b3cf79d3c16935c3f1aabc490",
+                    "name": "Essar Cng Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJr2QjQnQiDTkRxHnEcrzHLF8",
+                    "rating": 4.1,
+                    "reference": "CnRhAAAACiGnwuLM0HPoDpJLuSB9270g1EBp1oQRt5gFDAP0XlRSyHuIdW5X4LAkSPoNgf1fDi2FzaR-Og2_4id1IvgKqPwZuQ3qEtkUL0Zk1MrcnP5j91CetWyez4CSclGtTyVIJGq_-NV86fp_u_trrUqhNBIQ4Giyn-p0QsAE66EK2-eMdBoUZxwn93ScIj5Vx1utzMAZ6YsRGqU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sushant Lok III Extension, Sector 57, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4180814,
+                            "lng": 77.0506896
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d7ab6c035740a1a29378e72bf0df41bf9e85b399",
+                    "name": "Indian Oil: Pace City Auto",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJs9UmEB8YDTkRCyFaLVnqSFM",
+                    "reference": "CnRtAAAA6SpvIp3T3z9Q6qA0Gjf1oMOZjSyaDUxfVwbDAGQbsTsrNL6Ej7a3IkotxgMzlqd2-U-jlFnI6XnsEUh2GlXbs8BkSdYAuUYEcGqA1ufOO_VFZ_it3-sVmgiS-Iw77j-U8of8nYvpuOgHPGf6WTJh4RIQPNxjX8ci1Fk0yiGfJHI40xoU9oO5Rj-ll7NS8EHwRKsEG-AsG3U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector-37, National Highway 8, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4088552,
+                            "lng": 77.066415
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40933939999999,
+                                "lng": 77.06649305
+                            },
+                            "southwest": {
+                                "lat": 28.40869380000001,
+                                "lng": 77.06618085
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b43b74d733029ef2b6c19651f8fe4efd524d37b8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdWLJwmUiDTkRqyu0CTGdqt8",
+                    "rating": 3.9,
+                    "reference": "CnRqAAAAY-7eTOhblRyfipBYGwRU_hwdu1LSgaz3HJUi5WC_HQFclkOhltoloPpS_gTAWVMhwUMKJLt_UuLLVKQ-LxGo7531IS49FhDdoYmc1zMLR0xFiTmO5xAPYA0K_YqCuQJH7tGX2clF_50XtiM1pxBfMhIQdz17HRxS-LEH2sei3-1YfhoUqi2B_lbFk4jxad3E_f7iVH3H9NE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4128738,
+                            "lng": 77.0792858
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "70c8d0c832842f62fedd56053de7120fdcd44380",
+                    "name": "IndianOil Filling Station",
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAO-lNbcd2fgVIX7H0f80PjNBHa5SzJ1mFRBhWaCcn0r-ouoALz6tCbbVbylEAzHZCYQEQSYaUx-gvKqVBnGISXQZjWloMFNQX2mppAYrzjUBoI3KapO-fSSQpHGgfriCw-MmI0CoJZp-wjqLX89UDQgQ2rY3RfTvSHVvmStfGovvEhD8Ffw2zPLbiPp8n-9C0UpVGhQIr4NyJtch1oxICqebORsT9nbMNA",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJayScLW0iDTkRvT_cTBknqiE",
+                    "rating": 4.3,
+                    "reference": "CnRsAAAAWAgamefwYj1XGDL6x_0jcj1gFA7IQ3ozP2CONFgkftherUbVpFm_UXQVmdkkPFzHyR7VeJn3hxgqP1mIEz43C1r32pRgCcGvymm71LD65LEY0IgB18LMpdjIr7KydNUP36lh-bYtMM1XQ58hzRjmchIQg0LgipuJwEPxU6aDoEwqoRoUF9cZ6RUZOZgfVMTVCpRN68KCJZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.416286,
+                            "lng": 77.08912699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acc2dc7af0980d028c13998bb892252fff5f27e9",
+                    "name": "HP Petrol Punk - Navyug Fuels",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJxpu4iP8Yeh-S5RW9yAPjOVmDeRcncOGpvCY-Z8vv0fdv_kT7lbiYIe-bhuEViFHs2fz9juwbMOHQ8GUTyT9JDxZqU8Xr_rTkxvs7cohLTnSONxP4dp6PjAQ3r8L7MAB2aHV6kRmDskh--mBJqfld-RVJyjkPxCsJ50wngCVZVaEhBBXgqk7fJrvJ63uidtad7xGhQUaVUVX9c4YCsQ0dBT77-P-jgyug",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJEQXl5Q8iDTkRLshWkHUP1M4",
+                    "reference": "CoQBcQAAAA3R6NuwSq7CutA_NryjuQOy92d-oJaESnEr9hdd5CgTZWAQ45gL4Lry0y5LzP7AvWyMgOCXLPZmi-VK1yQ9RLGOKKXND26D1T7cJZgt8Lg4Xz0uh5mfrrKyOH4aQzC7-kRYFD8mUi4DoA5acv13kvzqDJoe26KuMnzMRmTW1VdVEhCCn9EzN5wWYVx5GbRFmxzEGhRY_40kkRL-uufwklDIn1BOVgcVtQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SEC 62, Southern Periferal Road, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4181374,
+                            "lng": 77.04263949999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41821855,
+                                "lng": 77.04276625000001
+                            },
+                            "southwest": {
+                                "lat": 28.41811035,
+                                "lng": 77.04259725
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "525b38cf812442ace6ef50d342e9f1b360bb896d",
+                    "name": "Indian Oil Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 3456,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107341324679798062633/photos\">mayank yadav</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGEcZnzQWYkNA_wv32sV6Ia_rdPAunDaNwqn3e4dolJlmAG1YNFyb8pCzWr-PnkdeLyDPIvnDYfEXPBYylsgEmDpNt7kFmt18cFZ1CoTOa6y6vhBw5nygGbTvg_2LSZv5grZB3bZKIpRjoeYJbksQdtRuTMupYcH-IwqV-rFEe3BEhDwgOiT2OdyZPhoVOXYF-bJGhT-pi6fJurd8AhnbV5oC0L3ly68wQ",
+                            "width": 4608
+                        }
+                    ],
+                    "place_id": "ChIJnVO7j5wiDTkRKzhcVHvPT0M",
+                    "reference": "CnRpAAAAbsnu2e4r-tjXNVT-p2443vEnmwaaOdqK_-ASZ6B-s6hzbThpqnwljhewdOkTmcl_EWqsAC9FKSmiqoX815_HwnvmfxXoTbjdPl2_rLfGB-vesTHDIFyfwYXLhrgNasmxqK8CugFU0QxfTSj5tPUf5xIQvx-V4mJh0TAynXdB18yeuhoUq-7RRuVeGFUIe_E_CUnEG6is5gk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A101, Sohna Road, Block A, South City II, Sector 49, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.397195,
+                            "lng": 77.07477800000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "608e8b5577068946946d6bb33206ba9d3bf8252d",
+                    "name": "Modern Fuels",
+                    "place_id": "ChIJ__w6sEYiDTkRGs7KZ7a4qD4",
+                    "reference": "CmRfAAAALpGw26n05hAYR7-Brd_H5Tp7vvtC3afobrXbqji4ekPLBAPfj3CI2NI9XXH53Dkm2f7y9BkCv2dYeSUfzII1TPlRcToX_0hZNOD-w2VXrhYPngITorQJjdbd7nS8ixFOEhAFGRmSR6kTC-eJTg4gljDWGhTnbBtRJz8C8SxBDTodC3N3u2gxPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Medawas, Sector 64, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4089327,
+                            "lng": 77.0664115
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40931685,
+                                "lng": 77.06647345
+                            },
+                            "southwest": {
+                                "lat": 28.40880465,
+                                "lng": 77.06622565
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d223d1e51ad69fd4609f64b5d4836d1976be0cf9",
+                    "name": "24 Seven Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 747,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103944329941705334575/photos\">Pramod Kr</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAND7SWPtUiDsrOM88IuvGdoeL-wwn3DN77GbdFH2tssg-NLVKpqwpHjXSGUrDwGTvWXZjAKC7_Ctmg5-c2RuzS0yz1IqHdjZpgQtsWPl8iWZ9VqW4mDmMQ3j8byd3HMhE5fGsRhqz64CoTkDQ3vPxB07OW4I2K2wHFwGQ0hSdb2nEhAVum8bnkhqanm2JwueSfCrGhSxs_uJRoDZ7bZdWUSGLRgZv1W0Aw",
+                            "width": 1328
+                        }
+                    ],
+                    "place_id": "ChIJZ8tR3WUiDTkRLNfWP1IcBFY",
+                    "rating": 3.9,
+                    "reference": "CnRrAAAAs8BE4XERdAOBlBnPXUUTT0QjstUUDVOmwvp-hJLhWI8CyS1i7cRNRiOVyW6BCggCVnYUdzB1Bm_6dA1t6ZDsvkl6h4Tb600w9HSWHoyaxd3JyPeT0ojqbhzDLndycTBcKa5fwYqd_Ss_SyX66k7DwBIQltP0s9Xb5TqJy1uyEE8fPBoUsH294_0_mEpQ5188V2nKOZdNlyQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ndian Oil Petrol Pump, Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.411183,
+                            "lng": 77.07216799999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2929f448446d3f7c4084862baa216cdd8b1ef401",
+                    "name": "HP PETROL PUMP - OMERA FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvRae9G4iDTkRebs2Lxlawy4",
+                    "reference": "CnRvAAAA7VWNk8Q4wKiVGRv-A8ahbE_3PEvVzYSB79a-MY8EkqoFwkX6uVrRIjmOMmmSBzoIca8wuANdm6jGJayLqDSfRctsrZ12R2OM9PNmydpyUhZJhUHBGCqXylN4YRMnH__gAdQaDikSiPOSj-bWS8c1vRIQ265NwiF0gF8j75r_SqiMLxoUe2rMOPTZ7ZhnY6L-xjLHqr8Dptk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vill Tigra Southern, Dwarka Expressway, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4116274,
+                            "lng": 77.0728709
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41174155,
+                                "lng": 77.07320510000001
+                            },
+                            "southwest": {
+                                "lat": 28.41158935,
+                                "lng": 77.0727595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c98ffd209acdbccbc9dd410adfb7700c35629f9",
+                    "name": "Omera Fuel Station - Hindustan Petroleum",
+                    "place_id": "ChIJ3yChh24iDTkRkTyZhqYRCNA",
+                    "reference": "CoQBfAAAAHtyvxZAWkN2kIPjHfY7Rga8ZkVqqCNL3Tvsjgpp7PdKICy3W_maa8FjJAVUVFcKriMFZ7wOCXrnU8mIO-qsIrZLRIn8DZwhUMGDu5hBDxsLgnI3K7MxUynmfSVsvs-F4Lv-TOCCr9jn8SC0xwxZ0y4ONHMR28KWCOGluEMAtJjdEhCCuuvJJx1HYqRgHeVjsD4jGhRbZQDD8zTyMXFEmqKtuR4e3NITnw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, The Close South, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.422017,
+                            "lng": 77.0755502
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a8cd3d8910b0e30b3cf79d3c16935c3f1aabc490",
+                    "name": "Essar Cng Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJr2QjQnQiDTkRxHnEcrzHLF8",
+                    "rating": 4.1,
+                    "reference": "CnRhAAAATc7OpAKZS31WbSiYQSV88_jsA0QB1HB1LVmYuO6GEgtLfaHlan2DvQdmz_DDI5UGL7zuNXKJBYr0vSJ8ezZ8meeANUsHWnV9nBD4DwmS57Vrzkj4cu6tkKv2zscYVwVfFHhZaCF4qpUqEFWj-noQnxIQxJDjO_hbLUldztksa_fTLRoUb29veERpHAl1VHU5yerim23yykg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sushant Lok III Extension, Sector 57, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4180814,
+                            "lng": 77.0506896
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d7ab6c035740a1a29378e72bf0df41bf9e85b399",
+                    "name": "Indian Oil: Pace City Auto",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJs9UmEB8YDTkRCyFaLVnqSFM",
+                    "reference": "CnRtAAAAAgngDB0643R-XZBIYK1KoW8rA7LW-Yyn-2VTedyBmNO_TpzQlVKrQ1wZqTF8GsZYmvmzejGDpN4QNgVN1lm93QKzdeVNU-x3N04w0fa44XpeEQPWO8zJe1c3xSL2H-fm5ZKy-2k5qHl4GnMp-wPrZxIQOd4gHhjSHlDQAYQHxo-oQRoUzeSAdUBoeAkQNj7Z2oiRxNEBj7U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector-37, National Highway 8, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4163147,
+                            "lng": 77.0432246
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dcb555ea6f5d7ccc89a8cb4e380eed778c12a0a8",
+                    "name": "TAPTS, TARAPUR",
+                    "place_id": "ChIJoWBnaZsiDTkRCkTluDfR5R0",
+                    "reference": "CnRhAAAAs7FhnA5MK3A5vfqUmzBlA_AuNUNiTgNOBfeAiRFdHlFeRkkrNnfmzZyCpu3wyF-NDcWi9AGEUo82qvCt04wg2wCnau3rxFOYmzlRsd1aeAMueuStGLUerG9a5nQeNYf6ouoaBvT28U9xanoRyALAcBIQwLr9FyVMESWHU5mPNHkiLRoUCwQ7vwn_lUTozoD1vwhAM6Pre4w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No. P34, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.418239,
+                            "lng": 77.04256090000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7c430526963892a21d0bd00816e9fd134c7b2a68",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJhX76jpwiDTkRZVFEPYTM-6I",
+                    "reference": "CmReAAAAQudPKL0nKQ1cPmffCfREDhUD8sQedO6-Qs36GYoXQD8e1zLhng4UV9ZyXyw7XYfodvT2f5wq0x-LhCW746AkrRIRe7J6_sFiug5YAb4cIXMa2bvdmkipT84n0kZ2p5wDEhBrBLTuJzMBkXGEBX5ThlSzGhR0wTXcrsKCY3uHtaU7rxCS04IVVQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Park Hospital, Sec-47, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4174341,
+                            "lng": 77.0415951
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41757059999999,
+                                "lng": 77.04161565
+                            },
+                            "southwest": {
+                                "lat": 28.4173886,
+                                "lng": 77.04153344999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8c10eb532423b929110a0067a649b4bc91cc5107",
+                    "name": "Indian Oil Gas Station",
+                    "place_id": "ChIJ1ZsXeZwiDTkRQnoY9Qvmnaw",
+                    "reference": "CnRqAAAAfDvPpght9AZtSDoeL6oMAfVLl_SzGmKB0V0N_RJYsxVZwuyOjLdG4-LI_NFNG28LKLnezYSDxxD-SC0hSqRWlLkgpXButF8Yj-iRl0L-Gsj2BzLTaqioOZnHGeFpwYksiMrkiBkgDs4L-aKVDYoK0hIQZJA8EGO1ccHnP-Dj4BidghoUFVhcQrjThzb6uA8IEXQquwsSE7o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sohna - Gurgaon Road, Block S, Sector 49, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4336897,
+                            "lng": 77.0847361
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.43374855,
+                                "lng": 77.08476434999999
+                            },
+                            "southwest": {
+                                "lat": 28.43351315,
+                                "lng": 77.08465135
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a3c8bee5746b033fb6990ac7db514fd324d6123b",
+                    "name": "Bhavi petro ksk",
+                    "place_id": "ChIJdT_l8KMYDTkR9nsolW6winI",
+                    "reference": "CnRiAAAA48-NHKNULzzkFBHTvko8Jip34hmeO-7hcLlYlL1Bcb3CqTqVtCtPoEBUd6cU5n3kgS-XSM3Hrju35gqda5PfwlI6WgM3LSUepvMYQ6TovUouLYMjSPTk-bQozgofo2Jtt3o-XRAD_kF-iT5b82ZyvxIQUsiERitT12SV1yZMaPiQBxoU6LlypwxSZrGfZod7Mrce7K0LxIA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Wazirabad Road, Wazirabad, Sector 52, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQCAAEAAIaCwZTGdtIr0L1OTP2NLLFxu_GWpAE0irYCr8FGblCRZQxsAhgcmICv0MVH__tqkSKf6iW07jutYyDHZ_z7CaLXfi8mRWN9_Ziw_ASuOWUr5k-JigIAOvcLpeALfa8e5C_Vvl0WBqkOBD2Rhhl7fUdhqJbOFLTSPd_zpQ04AlFdql9PvEoO2m0XKJeOCumE4fuO2sHOB0GAstRvzlASFqolOWLawZ4QrsY8YqAvIhPco2lKvY9wH9VFqCxAKUpXNTmPLRGYMQ-6SXLKEWPMmVD8cMMvGrkubJF9LwfAYKvyKHMSnmsd_vReeIY_LwiJZSdPvCM4DuKcHwMdOFEj2KsSEGTgqll0TE-qj1lwpus1p0AaFNSSja1Xpr73ntF-RpHkInSqooa8",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4088552,
+                            "lng": 77.066415
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40933939999999,
+                                "lng": 77.06649305
+                            },
+                            "southwest": {
+                                "lat": 28.40869380000001,
+                                "lng": 77.06618085
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b43b74d733029ef2b6c19651f8fe4efd524d37b8",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJdWLJwmUiDTkRqyu0CTGdqt8",
+                    "rating": 3.9,
+                    "reference": "CnRqAAAAfY8HHLgUxZIuLojvRt_5Z_HTce3kgnoI0STmkmTByAOcu-WJAeuIJ755myVWxbHWEg1ZSiqWly6vLsa6TMI_7onR739xl8-LK2DZsV26EPYU5yLPk-hIoW6DTWcaKhp1wHABDY9LVxIx_JvvOVzCNRIQHepETlrz8lAxddcprLPbkRoUHlIyXXBoawFX9NoC3wwyQCXFB9k",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.416286,
+                            "lng": 77.08912699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "acc2dc7af0980d028c13998bb892252fff5f27e9",
+                    "name": "HP Petrol Punk - Navyug Fuels",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABu6epXHMfjaN4JG7mrho2ufxVAExox6o7zoRqgyCFMKASdc6xyQS9S8ibZAvj1GbjlE6seNm9M60pnX1EiFsTV3TCMXXf8dUG_Ww451Zt0h1L0FwyZDoKAFL8Y0gYdMNhNAiGGa9cmV7xFvv-0SEqTkQuLTqWr9TWJfKo6GhQb-EhB81Yf9-kBCWLJuknBDq-awGhQpp1_aBiu6t7B56Sp984ipbtI81w",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJEQXl5Q8iDTkRLshWkHUP1M4",
+                    "reference": "CoQBcQAAAIS0egubhG622-f3HuujzEhc4ktTcmQLpcoIKNfBhw2SsbmsFgzruK-_TlWptKwno4RviZtcb5BtX2qqCaLEejEEHi64_URBR605C-fYc8k_pl0fFCIkq6EZPeLI7kSQQFrhVhW-6CRWLQwo-eUBjNbl71rOWmdQ8DXgbaFBAansEhBAPn4u9-SIfOU7Q-BMQICAGhT6jGYgI4ILE2RaL-_MPZZBT7_nOg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SEC 62, Southern Periferal Road, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4128738,
+                            "lng": 77.0792858
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "70c8d0c832842f62fedd56053de7120fdcd44380",
+                    "name": "IndianOil Filling Station",
+                    "photos": [
+                        {
+                            "height": 2610,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106758376422052773514/photos\">Dinesh Shenoy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAIk75I2IqXx6KVCSDrV-16bm5VjoAEoOZDA4E36YBeU1QW2C8U8xK1xJxzx0pUpKqEerTNyTsfOdKYZ3LhRiInZbFIqKabjlsG0MN41pR7v3kIaiQGrjyLIOd4d4oX0W_YNr-JQHk-dooWgiSvjR9wq3SpiEdUt6h4xH7f806Sf3EhDl2tNcPhrK5T40PLB4DOBRGhSpYU9jnJ5pvrjKRRQnrUX_S69KFg",
+                            "width": 4640
+                        }
+                    ],
+                    "place_id": "ChIJayScLW0iDTkRvT_cTBknqiE",
+                    "rating": 4.3,
+                    "reference": "CnRsAAAAjbKFPhLfH0EylgkcoQAQ914ZnAZ3-pgsF1_vh9zKNhlu27pxGIAd0YAfjva5nKy5zfOCxlHAWXVBUVYU_ttn3GG5I6UFim2MSFGWkH8m84fieay7TVcoSjbg7jXubsko8SeQ79B96k1SQY-9btWwahIQPOGx_pyYCvS0DbN0xZflZRoUMoyNNBiU1Q-hLah6-YLD4xAe2hI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4181374,
+                            "lng": 77.04263949999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41821855,
+                                "lng": 77.04276625000001
+                            },
+                            "southwest": {
+                                "lat": 28.41811035,
+                                "lng": 77.04259725
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "525b38cf812442ace6ef50d342e9f1b360bb896d",
+                    "name": "Indian Oil Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 3456,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107341324679798062633/photos\">mayank yadav</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABIrSk5FU0J7_EUU1eOdcsrW7Wj2v5LEUHulZFRKKSwpdSIHfSXlxhxxQ8kGalL4NXWO7PpiDi-QCsmPAdiJ7PCCaDyRzvPnfHVSJsAWOUU1kk6Y6H8OxRu7Lap8EDhgU56-pWeXBtAK6qKX-qKpdA_fOvV9dPp1n4i3JJdo9sU7EhDfDCE1u8CGw2_opb2fuNS_GhSlv-6QqcqLq6R9nIhSd7-z1_dp-A",
+                            "width": 4608
+                        }
+                    ],
+                    "place_id": "ChIJnVO7j5wiDTkRKzhcVHvPT0M",
+                    "reference": "CnRpAAAAJJYrG4QPrDY82kA0BRCtN7Y48nkFaBrGaah8jpdeUzOfr68vl6uoxcTq7zNQ4AChvVTVz-3HmXcexYKeZn_u2zp5s8dBYcfmq11UuBS6zGdhJeARHsKtBzMtAFmQCTJQJ8S0nc4ULBKzztal2hN58BIQ5gOXW0E_FR2KHU961R2CgxoUqLq7sxUK7QANfcqmVTnf2EduPHk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A101, Sohna Road, Block A, South City II, Sector 49, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3651647,
+                            "lng": 77.0597872
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3652015,
+                                "lng": 77.05992985
+                            },
+                            "southwest": {
+                                "lat": 28.3650543,
+                                "lng": 77.05935925000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2ceea0193f816fdea938ebe41ddb54f45c34fbb0",
+                    "name": "Indian Oil Fuel Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 780,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113930272156317339354/photos\">Manoj Kumar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABDXuK9FOuXaLUs-BCl0Ic2qZ7hNhR1PrOV8w_S8U3-NWkgI7Zhq7-54DY0U2_CKnsDHEdm3HHCVThoK18B4npM_4u1YnTBxp3qUsubxnARMKKeGi9vqNqIVP9uZ0o4NXwO6uZmZrwIn33kMvWQjB5WB_VP-R-mAoTCxe0rZSeXIEhC0ZqG8WskNxCdj8X7YXtLFGhQr-D2BW7HWAkpwk23nk_3TQAaQ_g",
+                            "width": 1040
+                        }
+                    ],
+                    "place_id": "ChIJ4w8wTqYjDTkR2Uij8NNaKOY",
+                    "rating": 3.8,
+                    "reference": "CnRrAAAAuy0uiuQm3G2kro0iqnM-rM800poM0nXXA8VuRMTQPiprfHTzn8Kx_8EpszVTd6kUeL0Vw7NrvhPeMX0WJ6gSasTJhFbMEaOpnD1agGODlAfI938w2sizbN-Hj9HKA5qE661HRkToAHxII_w_CrE2XRIQ_P-tchXScattGiunnYBIWRoUrNhHavThQUu0_b4EKHtywk8u7hk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sohna Road, Bhondsi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4330179,
+                            "lng": 77.0485669
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "721e585a1e097916f50fcb6cf37c6a8c0c37e282",
+                    "name": "Bharat Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1305,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112702733349406982255/photos\">Pallav.S Bhatnagar</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHLDsKHmFoQpzLb2H-5MdEnoWQBCzAWyuMwhPQWBa8HeUaHLKqkIFjp8kwh9WyhhdLfnMxI8wwTq2l1p9LmRPwISvoYGET-y6O_A29bWQAedcvx4hA_V8GsW6ZYbzKgg8j7UFpey5ZgrIHhM2Zb50iw1r8mTvraKuaIYyfWPDe6REhBtZ_6E6LZreEfQTCexjfyGGhRWsTx0GxxpdQFtwrzhs5bNVrOo7w",
+                            "width": 1974
+                        }
+                    ],
+                    "place_id": "ChIJkViIGXsYDTkRMjqvB_TTBqU",
+                    "rating": 3.2,
+                    "reference": "CnRmAAAA1JLP55Bgkb6yS8-HLSoM0AY-kLpoHMBOqxHf588rFHLkYDraJ7lXo17ikC2LHQFp575Vraaf_9NjCY9CS6TgonBx_AZIuQUlpz-viQyCP9Ej2loejyjjKV_ov-a3rZuEfwrnq25eCHkMnpwx71tcFRIQzzyu5s-kU8RKdK-EhLihJxoUZXE3xZRgepw394mENP7KJsTcoVY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 47, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4250835,
+                            "lng": 77.03761589999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "30cd19f6b7f16f3398f38efe283ef41a2026b02a",
+                    "name": "Indian Oil Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3200,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/111250198257735974672/photos\">Parag Agrawal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAEUuyOpMMraEIZp6mP2IFBlmT2QqWRx8RtLslNFrIKh1v68ioYJNpXGLtqqOWTkiVDIkIAW5w0PdWeAcAhCbRIKjVsgeO2yN9JVC2qmp5N8QzWGVKfcyqK723nSmF0qcW5EKDGIt_vqzlpuROfEuSQ99Q9HaJhZ_p8S8fCGu_FBVEhA2Sn8wqxE6a3m8gcsSYdy0GhQrvg2C_b1kT83S6_P_Tk-hJqdrGg",
+                            "width": 2400
+                        }
+                    ],
+                    "place_id": "ChIJeS3C9nUYDTkRcseqwFGua-k",
+                    "rating": 4.1,
+                    "reference": "CnRqAAAAlySA3P2ZtFNKV3g5tmCz12HDq-JuiXvAJfC3BBVl04UZv8CU4VETHh88fJTokLBuJp7scQpY2YdmZ3shT2EWnKdCsekaCw59Q4PX7GbnffKFPtw_tyy4SXoFdxZdK-xsr2YX3S7e9Q4DwPPOc_m2bRIQ3uyg87BjWRApQC40IWDRZxoUwqvt0-p4LPmtjVwvUaWO7AfcUss",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "ILD Trade Centre, Sohna Road, Tikri Village, Sector 48, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4318977,
+                            "lng": 77.0997082
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d75771feee3d31a75eaa0b943a86c77806e2e777",
+                    "name": "CNG Station",
+                    "photos": [
+                        {
+                            "height": 2368,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112911106861475868688/photos\">HIMANSHU ARORA</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADj5DMHp4iNu91ITSSDzYQVdfNGqRrMAYvj-vhFj-sAOJoPZmbzhFidzAKBOlodpHAf0mcs5Wk1AwxF1l7KQEoWp3Pmw-sEcAiCGj7WXhH5rSN6YruKzN8W4C7FuqQBAgFAVyNfeODJOkBkzArvm-zegI2MRhbciiLb0IvjhqgmJEhDiEbFvTdIvgji3zp99Kdi7GhRq-HlWIyTjeOLzmi3urocVZZCySw",
+                            "width": 4224
+                        }
+                    ],
+                    "place_id": "ChIJDUANB6sYDTkRDrRa1G7F65M",
+                    "reference": "CmRfAAAAve24HsWfVE6P2T0kZkUpda5e6AZakO3GTKJ6DKCcURYqIJAM6lL83E5GgTz5LilLUIC6c3ci_pdztojLw94aBKJWhCjUCbolqT0WHduXnF-QdE3tdppZWdh_CaH6eRLcEhDhcOm4zv-T8sR-XLomu7dKGhSaC-Fe9SA2f6-teTpZ8r4nU9w_ZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 53, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4364541,
+                            "lng": 77.0504389
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "13f7bad7bbea05c102ef02aa7890da28037b980c",
+                    "name": "Indian Oil Petrol Pump",
+                    "place_id": "ChIJhTwUoWQYDTkRrFjvkEd3zMk",
+                    "reference": "CnRqAAAAA1ScJgWKxQMBwMZF4YDtaWgaKWqhABr2XMn40zeYVojLL_4vE61h9idor8euX9HEn1Qdnhcd0-1UzsidY2QgaWkkSYbXHLp3hPT88yD32uxCka8H77mPZAr_Uno8kHMaKhPRiidIUvIe1y6Q-wRNvRIQD81BRdV60lNoMb0Iww_GPRoUXJZykvXXVDv9tNfdRMrVEBgleJY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.397195,
+                            "lng": 77.07477800000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "608e8b5577068946946d6bb33206ba9d3bf8252d",
+                    "name": "Modern Fuels",
+                    "place_id": "ChIJ__w6sEYiDTkRGs7KZ7a4qD4",
+                    "reference": "CmRfAAAAIqISEWyg4a5Z3bHOO-QhtIfJPaxXTupV7Y81_z5anTvajAJiE8zbSpx_DHPbPdh6hSUoTjTDfftBYZy8FSNfThErSGekps5WH5gikTktnA3NJAbqASaPsYb5kzxBP72QEhAWRpOwwcV72tucsE58Mle_GhRUX6L8PhkCfWflP18ZQ8nuBj_91A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Medawas, Sector 64, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4089327,
+                            "lng": 77.0664115
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.40931685,
+                                "lng": 77.06647345
+                            },
+                            "southwest": {
+                                "lat": 28.40880465,
+                                "lng": 77.06622565
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d223d1e51ad69fd4609f64b5d4836d1976be0cf9",
+                    "name": "24 Seven Filling Station",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 747,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103944329941705334575/photos\">Pramod Kr</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAC6GORdwpiFz-dDud2xuVOPw87HcaZf8SvrIf8LsRYuqRKG4cBPfyIXRzbnuBx1nORFbxdLWwY5RQ0xRNMQdrawROafE-W9iQgT0ZnVoapjIR0UoVq-YKjeAIru0km5XTMKDvH7QP5hl6T-GHwKSH3ueb2W_5f24UxLI0snUA9JvEhD1eCXiPwi7k8eRLVqVYLjIGhRYbptpKmT_YUicqmFOLyvE17gDzg",
+                            "width": 1328
+                        }
+                    ],
+                    "place_id": "ChIJZ8tR3WUiDTkRLNfWP1IcBFY",
+                    "rating": 3.9,
+                    "reference": "CnRrAAAA5yuH0Y7Gtbj--7AhQOObCh4e7wAF6VJkavkVllGOMWDmmevS3PwEM1GdGjBbPa7A8tbxL6MqsSoLRIOHs0lAgbjUvy2_OvSU9bLfk4iTMRjdNalHftFFcqOlyo4I7eJlkHhRNM9HsQCu03D1VcotJRIQQWlMRrbaz-0qOM0hgOP8XBoUQlfqoGUA4FyNaF4bklxxZi-mgNs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ndian Oil Petrol Pump, Golf Course Extension Road, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.411183,
+                            "lng": 77.07216799999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2929f448446d3f7c4084862baa216cdd8b1ef401",
+                    "name": "HP PETROL PUMP - OMERA FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvRae9G4iDTkRebs2Lxlawy4",
+                    "reference": "CnRvAAAAJDQyg6ipPqRJyralVcFnHfqKF0ZgiV-jIiRD5V07L0qOhQpLXIkN_nYvgV0qA_DA1WQLroviIKvhrgIQsTGtGVjomDp57XyN1z6NKDfXdoXILi9opZn1gIxYzjZkuazCSmfgPbS5zQ_RvQDjaORBUxIQhMCrzSHuYDQeMPlmeyM3ThoUX5WifX3-ivufN4_eaiCEDgzcjcw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vill Tigra Southern, Dwarka Expressway, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4116274,
+                            "lng": 77.0728709
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41174155,
+                                "lng": 77.07320510000001
+                            },
+                            "southwest": {
+                                "lat": 28.41158935,
+                                "lng": 77.0727595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "0c98ffd209acdbccbc9dd410adfb7700c35629f9",
+                    "name": "Omera Fuel Station - Hindustan Petroleum",
+                    "place_id": "ChIJ3yChh24iDTkRkTyZhqYRCNA",
+                    "reference": "CoQBfAAAAHE1H-I9Q8v1wxUOFPzQ2SIb8ZWSkBzYCOhwxhHO2_M5_JaA8QUXb8J4N9-CtX0IQTBXdNStF8M8l9F0OUyr6gHPF2p0FqQr2AKSd5GSzYp80-09ZhHe3wQK-tqkpXxjMURtISDzVxq7Y1YBwSuh9t8Pzqibu-2s-l7zNOykG3MREhDoIwbclKbaWe5Mgm9_JKAQGhQu3OleaR_IbadXNr8iVVWODhvvcA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Golf Course Extension Road, The Close South, Sector 65, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.422017,
+                            "lng": 77.0755502
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a8cd3d8910b0e30b3cf79d3c16935c3f1aabc490",
+                    "name": "Essar Cng Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJr2QjQnQiDTkRxHnEcrzHLF8",
+                    "rating": 4.1,
+                    "reference": "CnRhAAAAGCKhJeOfj6kZFa3LOhYsOFEtoNYk6vRuIQ-0X4Z_1RX1PCCklAUqFPqyj1nsFpBDiIiHJUDXAVLnToZKT3paePTA2c584nPLs_7Ovoy2JsBhtH_koshQsBIWIYatvpTxyTR-77Y36kRtIGWzDtV71RIQjU8SVnNr2HmoXLnwUVhBsBoU9K_QelNEJEkaWox0bGLrXNY04zE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sushant Lok III Extension, Sector 57, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4180814,
+                            "lng": 77.0506896
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d7ab6c035740a1a29378e72bf0df41bf9e85b399",
+                    "name": "Indian Oil: Pace City Auto",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJs9UmEB8YDTkRCyFaLVnqSFM",
+                    "reference": "CnRtAAAAiYQkp4qT_Vdmt2pRUPi0XZTPLlR5kv6MNOSXil4oCbPR62AnPNsgPJ9WFWOo-W9Vofekf0M03Aya1F_4UGoxeZ3cOjv5jt8g7VTduVinmTx2LeFxpq9QJbOImM90W09_SFoFW0xqG9EaDQg50qlW6xIQMh23DCtCR_sN1Vg7eUgMnhoUMI7WCimRt10gIDMj0v7g_N7w8_M",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector-37, National Highway 8, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4163147,
+                            "lng": 77.0432246
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "dcb555ea6f5d7ccc89a8cb4e380eed778c12a0a8",
+                    "name": "TAPTS, TARAPUR",
+                    "place_id": "ChIJoWBnaZsiDTkRCkTluDfR5R0",
+                    "reference": "CnRhAAAAAFxm9yt7MwSp0ZhJ2ZQximclPEzB1d2827p7kG4BF5q9M2wVpdaBzqI_JosvRtLYIPOfWubTvk6dpwmGSMOPJRUdLh5cPBE9CccUr5A79vrEjrQcW21cpc4uEMB5todee3Hox53oHgRfrd76mXKWjhIQQM9UbeAsJOVnyjDx9x_jLhoU4SkL0p00hUimya2R7x9DYgPEuFc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot No. P34, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.418239,
+                            "lng": 77.04256090000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7c430526963892a21d0bd00816e9fd134c7b2a68",
+                    "name": "Indian Oil",
+                    "place_id": "ChIJhX76jpwiDTkRZVFEPYTM-6I",
+                    "reference": "CmReAAAAaiebhPlG9FgYNdfRfD4dIDqmk4tYDMag_P6CM-9ySCG67etmkmcKdjAy9CXlfLpMV2zpOBe31hcxw5KN0FIycoNyh_RHCxBzQDDkE5tNePhl7z24o1KGpl1MGk9J2j-2EhDDkSB8pKRai4vcwqPU90mbGhS7IK4kC84IXKkf0uBARiYjPELtfg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Park Hospital, Sec-47, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4174341,
+                            "lng": 77.0415951
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.41757059999999,
+                                "lng": 77.04161565
+                            },
+                            "southwest": {
+                                "lat": 28.4173886,
+                                "lng": 77.04153344999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8c10eb532423b929110a0067a649b4bc91cc5107",
+                    "name": "Indian Oil Gas Station",
+                    "place_id": "ChIJ1ZsXeZwiDTkRQnoY9Qvmnaw",
+                    "reference": "CnRqAAAAWiGRrfXvdXXc5RC_OpzYgpCP3pxiS5PnIzPNwphaLT7izV8zUlEBrYesXPP1RwsFbgV-KrOXHxgTPyGeOmvqNfPF9keN43JpVM0yB-6Ai7FndXG--7Ao5QnuywrowUOsXsOSIIw2BkbVgaNEUu_DRBIQNp1RV28Yz8k_4_9UQbX1FRoU-WGkFnQDBMOIUQTC9bVKNLVyso8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sohna - Gurgaon Road, Block S, Sector 49, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4336897,
+                            "lng": 77.0847361
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.43374855,
+                                "lng": 77.08476434999999
+                            },
+                            "southwest": {
+                                "lat": 28.43351315,
+                                "lng": 77.08465135
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "a3c8bee5746b033fb6990ac7db514fd324d6123b",
+                    "name": "Bhavi petro ksk",
+                    "place_id": "ChIJdT_l8KMYDTkR9nsolW6winI",
+                    "reference": "CnRiAAAApCwEEI1qAR5PDWu_F-onKmftSo-ZCDpC073o5XuS5pa-HuXdU23qZpIZOvLnL0ruUlklhOybCkxVdo_j1EUfUSo5STfJr3G-ndqEUwgs37bDgoTfF4H4wyzbK9fNCL2lGu4fIVTkJWEDlWrGS34EyxIQrCnm9QcmOV7gXRZ1zxUL7xoUYyssH5Ijx-Jj-1S3xIJ5mLE1Xtw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Wazirabad Road, Wazirabad, Sector 52, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4317308,
+                            "lng": 77.09875269999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "4cd0dbef21f68cdf1dcddd77c17853e9e8c0a146",
+                    "name": "HP Petrol Pump",
+                    "place_id": "ChIJwyKasasYDTkRtJUm8Hvbbgg",
+                    "reference": "CnRhAAAAetwXG2gJwuKqNsyKHb7zooKTv1xdKScn_jizC3Inlwb9OZjO9ckHeHzF3f6A6xzyR8dUitROd6HgiCGtsofAxoRFYvU59sS7CsG0PE4Jr4nJGasfz2UH4jCOpddHwz9dQ53_XBQDGUQoNbXe0HKLqRIQjlVwuFE2zmY4QCjflhaRARoUFKMguGZS0173uiGyrIoffQ-YBHM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "IILM Institute, Sector 53, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.434599,
+                            "lng": 77.0493188
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4347316,
+                                "lng": 77.0493861
+                            },
+                            "southwest": {
+                                "lat": 28.4345548,
+                                "lng": 77.04911690000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "73127520f6765ad4068ae0e2bfef6d1582001ec8",
+                    "name": "Baktawar Chowk",
+                    "place_id": "ChIJnzBqP3sYDTkR91-hjyeRgEU",
+                    "rating": 4.1,
+                    "reference": "CnRhAAAAy11KWgq5tChw5C7beGsOCAzq7nmznKW24oh_872K03x5oxL8LQIORkDBKjKTyW7xx1sow0S3Y6PvWh2P-dVLQHxpEHQNj0aehHWX0eRcr6WRh2NPcS0y4MmjMvP9B_AuoDphjbZVKLYMVgI4oofQNxIQtAtRtTibnoFMgAkN4HyWshoUq74TTNAC5A4pDwjT6OWKl39HYXc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Netaji Subhash Marg, Sector 47, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.431915,
+                            "lng": 77.0994209
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4319885,
+                                "lng": 77.09946575
+                            },
+                            "southwest": {
+                                "lat": 28.4316945,
+                                "lng": 77.09940595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "7d2aa65695ec54cec33b7926b74b5225faaa5585",
+                    "name": "HP PETROL PUMP - HP HIRA FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJY7eXqasYDTkRllGUsbq6tTQ",
+                    "rating": 3.9,
+                    "reference": "CoQBcQAAAH7eoQ2XSIvbD3I_si3Vi205xChJORAre5WQTDiGtLblr_15E-4tPsPeyixJEbVEUkl51GlTEMezWLMium8ewzY2mB7JE5RxJIFX9vnMoBA_1CYWfJljwFXV4YfB2D_xvC_AANjr2bM-G2eEHp5CNI_8SQyWgk-sJXW9w2AFMUFsEhDsu1Lce6Mkb9njJ2CECzv6GhT1dAsg02ij3yDpcMY3fZKYJn2jdA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Gurgaon, Jalvayu Towers, Sector 53, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4385443,
+                            "lng": 77.0900573
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "e6e476b5aaafcabbdb4a5d42423133eee0ef6e68",
+                    "name": "Shree Deep Petrol Pump",
+                    "place_id": "ChIJ4_j9TqUYDTkRAr_gF9ey-lI",
+                    "reference": "CnRpAAAAwF3_6kLuUD2W03QJU47yg9HSiureDdsSo23m3Ct5N5ZoJgyuC5DbaiMFrkuFKYnPrV33eDLRdCnqqitJrJjMfMJo7Ei1S4PZNW-ixGBTIR2vrnkj6E2t0BMTvWg6Dh6vfCM2BNUyGamuunqfuoMLvhIQQSgn46P-xvrWidOi67cEihoUgh0LzhnmC4T2zwnibQmDlfwqQzM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gurgaon,, Sector 52A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4388273,
+                            "lng": 77.0897461
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fd2bbd4504db23b585db6cc2a827f8de293a4efd",
+                    "name": "Indian Oil Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2988,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102987497867214587112/photos\">Nikunj Amipara</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAKpJGRGvSAd0PqX4UvG_EvXhz56awfggPMEVHooU46tRsdrbiifZjHMG5ypQxmg8StTaUqxk46WiwnjsnxYn1JzPwI-5_O0oGq4FIVtAYxxcceBK6jTWdmfEXEhX5V7ZjOlgAqzKWnx5lK79Leo6NoHH8xLY8mCX0BHth14jPw3BEhAnUAH0nDQBt4g9Gr1167ASGhSzUFsvFyh-FsANhGwdK5gYeKG9ng",
+                            "width": 5312
+                        }
+                    ],
+                    "place_id": "ChIJU1GkS6UYDTkRD2z_6eyvURU",
+                    "rating": 4,
+                    "reference": "CnRpAAAA9bxIVcam-AquVyBkNzCk_2iseApXnMdUEGHBWdQ7xN5b5C_gfG9TdxwqhkXry4BYwSouiycZikZi8GjET4icPXkZQNpMqNOQ7ypwqThb7nTIc__jfZkGL0oSUtPfxVTAy-tW2cknwRK1ZNcOhKH26xIQzxwiEBXbpu0QOcphu7Q5_RoU9k3LJhKF2WiOecrTjztvaFWXN9w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 52A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4390346,
+                            "lng": 77.0897126
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b7e0d1694d9417df15951112220162a64cf3ed93",
+                    "name": "SHRI DEEP PETROLEUM (Indian Oil Petrol Pump)",
+                    "place_id": "ChIJJ67VSqUYDTkRp7pIYEMJ2ds",
+                    "rating": 4.3,
+                    "reference": "CoQBgAAAADIZVb59nBoQ6wGB_kmQb0igo0Y0LMYGqfCXg_juxXt2qItqDIjEmp2RJTJUN8-4VN_PBys79aeLZW0rmvNCMifdxEXABZLa0Kv7CgjemceMb21DEiJJMdej1VvxASO_t_Xx9N7g6l11gak8q9IJvRIsesqK_Dsx8jXSfgEsGo1wEhBLG5bYY3ed5x106Drom6_uGhQhyqdlrOfarKKjVzGEj8PgsKz7ZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 53, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4274489,
+                            "lng": 77.0341588
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5e6e8bd80649acb56a3ef40af7959635839b724a",
+                    "name": "Hindustan Fuels - HPCL Petrol Pump Gurgaon",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2257,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100546760103489620767/photos\">Hindustan Fuels</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAGMvI4C_Nq6gT7I-EMX9OJCPT1iho5sV5OBzgZ6evwfdMYBkKphCPbDelD__7CN7NHITmwWoZPgmArjUFNSgnlGWOMg8H4LHzTfvi1fPsHIYWcgmO3mDzNau22cQ_fcEjcoJcugoQDuU04Nf8skl8j0qJKwLXT_Afc_04ajD8YkCEhD6H77rOn6gmJ6wfgpPzI-zGhSkeDQdkY7Y-e-1kv49geZZ_qvApA",
+                            "width": 3829
+                        }
+                    ],
+                    "place_id": "ChIJNZxer3QYDTkR9an35VKxIq0",
+                    "rating": 4.5,
+                    "reference": "CoQBfgAAAADUz56guVnLQNhxHf3LD8FhIkw4VIhvd8J_8QWJekSo04ivJko6b6QEptPMTOUR-f9KX9na_0C_0CP4C6K6QysvaPF7QFJwKjkyrW51k2NDYiE-0K-IeCsxDeiERV-AW-gPR-xeQpv1vYYobpdFtNmBJ0HuEKVO1GV28JoV4aicEhB4pVU3SgqHyFXzxCUMkuTzGhTwM9Z-dLdUsVzdSh2h-VaQBA4U1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "HP Petrol Pump, Sector-48, Subhash Chowk to Hero Honda Chowk, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4301714,
+                            "lng": 77.03615090000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4301958,
+                                "lng": 77.0362712
+                            },
+                            "southwest": {
+                                "lat": 28.4300982,
+                                "lng": 77.03611080000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "1eeb590a9929ce0725916cd60d7d9ef56571d5c1",
+                    "name": "24 Hour filling station zxxxxc",
+                    "place_id": "ChIJj2FQCHMYDTkRlcDTd_5cWT4",
+                    "reference": "CoQBcQAAAGgZb00_GlflBbwdLNKZ3y0UfjWiAUYa1D4yuCeICnzheLwk-wwpIR40g15cWH__GTxWDRCocSxG10KKUyC7E_ceSdgSnE7JsavMDu6I0G3mzzY28M0H4mMFTXO3lLWWKzdWpWWQ6Z1fTsfz9-BaHo90Y3WEgS3bWHMnfIuE-N46EhDgUYdiEW7cWpGMVqbMR6WXGhTq6K88XNU4fwaSGDkrL9bwTiGSMw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "354/3, Sohna Road, Islampur Village, Sector 33, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4424405,
+                            "lng": 77.085804
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "aff2866fdb4a74f79079e24b7f9684dd0a9df0ec",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJzctSjrsYDTkRJPWtrH9Fgnw",
+                    "reference": "CmReAAAAyvB-wbP9SuByPAg5QCQmgYjM_fyOhbb5ibgBzVsdWwNU5RdghVxpWfDUzW3XGIoMmlXquJYEn_qiAARy8k7T3WQjaHq3gx5CA95-bL1_7-Wdc3emA7qlsfM1QM8UEPg-EhDoccbXi-PRMMkOoqY_01tCGhRKCzjpt9_eMeRc1i7qECwxY4iphA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gurgaon,, Sector 52A, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

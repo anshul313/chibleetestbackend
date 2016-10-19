@@ -60,15 +60,36 @@ client.ping({
 exports.getvendors = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-  vendor.find({
-    coords: {
-      $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
-      $minDistance: 0,
-      $maxDistance: req.body.radius,
-    },
-    category: req.body.cat,
-    subCategory: req.body.subcat
-  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
+  var coords = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
+  // vendor.find({
+  //   coords: {
+  //     $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
+  //     $minDistance: 0,
+  //     $maxDistance: req.body.radius,
+  //   },
+  //   category: req.body.cat,
+  //   subCategory: req.body.subcat
+  // }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
+  vendor.aggregate([{
+    $geoNear: {
+      near: {
+        type: "Point",
+        coordinates: coords
+      },
+      distanceField: "distance",
+      distanceMultiplier: 1000,
+      maxDistance: 5000,
+      query: {
+        category: req.body.cat,
+        subCategory: req.body.subcat
+      },
+      spherical: true
+    }
+  }, {
+    $skip: 0
+  }, {
+    $limit: 5
+  }], function(err, data) {
     // console.log('Data : ', data);
     if (err) {
       return res.status(400).send({
@@ -132,7 +153,8 @@ exports.getvendors = function(req, res) {
               rating: totalRating,
               bookmark: bookmark,
               serialnumber: doc['serialnumber'],
-              keyword: doc['keyword']
+              keyword: doc['keyword'],
+              distance: doc['distance']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -428,7 +450,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 20; k++) {
+  for (var k = 21; k < 46; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/noida/ATM/NoidaATM' +

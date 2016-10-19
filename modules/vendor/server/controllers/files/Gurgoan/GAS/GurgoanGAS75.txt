@@ -1,0 +1,695 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4240144,
+                            "lng": 76.93026069999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4241388,
+                                "lng": 76.93032369999999
+                            },
+                            "southwest": {
+                                "lat": 28.4236412,
+                                "lng": 76.93023969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3b72479f2f17f571bc38355e9abde030bec08a02",
+                    "name": "Vijay Fuels",
+                    "place_id": "ChIJs0UqBBAWDTkRNNibk1LY7WQ",
+                    "reference": "CmReAAAAiq0elvqhP7wTmQ9aG_t9G9PhtZxvDPN8yd9RIk8n8OtZCzKc7rgNquVv2uNWzWCXIADorkjPAxkqhA--amsY-t7SX_H8HQ8OnOWc0ZofjlZw-OEEsSxPYFqtWESNIHm4EhBYCdrvHO1tM8UKP5yazS2MGhS65jai9BoUnKa0uWTGHquwzqrwGQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "State Highway 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4241748,
+                            "lng": 76.9319558
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "196db2355772411bb71af7eb88402b9986158599",
+                    "name": "B.P Petrol Pump",
+                    "place_id": "ChIJZ5AdehAWDTkRHu9OYMJVa-w",
+                    "reference": "CnRjAAAAA0Ed0BybyE2Q-RmFUgOgvU1FzCdqCpRhhs7W1dMrGQmQgbALJrKGcKeL7rzzojQewEe1jpjvj0S1CXwrJpui5dXn7xmcGqi4o2D_ESET-NQEM_fOyf0fWYe5jUKPJ9i8SKupx8NmSuEdfxT7CNtkYRIQ3LLGazBILVWzVYIr-x_B5RoUrJ_tFMWth95J1g1wSBSrP7p89N8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4225788,
+                            "lng": 76.9232643
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.42263129999999,
+                                "lng": 76.92327329999999
+                            },
+                            "southwest": {
+                                "lat": 28.4224213,
+                                "lng": 76.9232613
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2aa45d90b1b29ae84349fe350c7c49d0e3bdac20",
+                    "name": "B.P. Petrol pump",
+                    "place_id": "ChIJl12yBAYWDTkRAJ3OBROKeSk",
+                    "reference": "CnRjAAAAslh3W_EOXqK4wR7dpk-wNQvoi8qb1i2lG7UHtkp4EfW7EcS93_ZMk9a0jhDDkjxjlyI1zIeMALMhYnYX-zNhiR0FzCbCLMcy32xZ3li_HTUfsG_pPWqVrszXvied_uG7iWcdXSOTKFv1T6_lNg5JRxIQgJNJkwPOYHI1hXKgxNcFrBoUn3eL74a-_Q7CrCVCN8BR94J6CTk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.47235,
+                            "lng": 76.92935899999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3ca4fb84d820fff530f2583cefad598728bfbd4d",
+                    "name": "HP PETROL PUMP - R C FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdfX8fZoWDTkRXxJJsfEXaQ4",
+                    "reference": "CoQBdwAAAJHTtde5rKQTfXSTh0IdJBPd-aJ1LKctLffS8a_VsLWNnv88yWRFFU6Eyk77ozRh2AxxZH6p-rcpT2_JGtwqNasXjmv08SmnZ_8JWieHMOa_eoGr23ZZ4t7tDFo0jzn90AXRhsvRmZUWAWNmRpu0OYcszVnsNEKL2n6NU52WFk1AEhBd419Q5edGKdPtfXqT-3c8GhQoZvDNlfp-hx3sA7VYgW-TH7gdEQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Hpcl Petrol Pump Sultanpur Lake Road Village, Budhera, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4724358,
+                            "lng": 76.926458
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4725778,
+                                "lng": 76.92645815
+                            },
+                            "southwest": {
+                                "lat": 28.4720098,
+                                "lng": 76.92645755000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ed57f089a255e6670c40f4caece5596bcb4a1a28",
+                    "name": "RC Filling Station",
+                    "place_id": "ChIJfYavrpsWDTkRzSj2NqP_kXI",
+                    "reference": "CnRlAAAA-7FRVmaVE_BgVWnl5UL_X3TX0_CT9duq_Yn50gVZhWxFdvvYz6LP6HbokkK2ClgJ_v5zdUVffinYJkxlU7pF4vzzLJxfDCOqQ8fjHS87Ub7vdezXsf5osXt6fVRlovhouzAdYlQ9orYeBv_HIZKHiBIQ1BRpIbzTm5Jt73BO2PUfaRoUuCBfA6Nqsz8h-Cf-iaCmsD6yOzg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Basai Road, Budhera, Chandu"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4201174,
+                            "lng": 76.9087493
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fbb36b88fea01807b0955b556fe7be6e6ce0becc",
+                    "name": "H.P. Petrol pump",
+                    "photos": [
+                        {
+                            "height": 1280,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106953099864477708423/photos\">mukul raghav</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJ5l1W2hdRpQKNtdAa7n-dD63y1rZGVquGWFbAxVjbzcpN8QE33TXb8AybrKXwZMMDdJRMOnOPt1bUVC2vwSmvpgCiSBWXU7w3qWFbvGWYIg_oIIXOvuPumJBbl8-LK0ya2YkKKzQR2gN5IHZUbz4zVcdEf44ZfuFoq8Cnt0Smn5EhB3c2Q2ECqKoc0bIGCH7EXCGhQH2iapcXaJwHBQq-XWlLlM9oDqoQ",
+                            "width": 960
+                        }
+                    ],
+                    "place_id": "ChIJiRQg6PoVDTkRQTi--P0D8qI",
+                    "reference": "CnRkAAAASSAxt01h_sMHbpnuz3Ct8eR6ngJ2axBC9zTZFTN0kG8tU5scCkj5m9JEQgGjquDIcxau0uSPis1ro3ipIkgDVQps-qg62Y_LmYSf9aVJ6l7T3hcquKIMOqkmEo4bFFzG1dsS1f6TVJQIJbkxlq4k4RIQ_eetzX2lcVCC9YG_aXJdnhoUNDcxmgdDqOqLAO3JSrGPCbIxNHI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4240144,
+                            "lng": 76.93026069999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4241388,
+                                "lng": 76.93032369999999
+                            },
+                            "southwest": {
+                                "lat": 28.4236412,
+                                "lng": 76.93023969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3b72479f2f17f571bc38355e9abde030bec08a02",
+                    "name": "Vijay Fuels",
+                    "place_id": "ChIJs0UqBBAWDTkRNNibk1LY7WQ",
+                    "reference": "CmReAAAAes_jlmZkCiMMfg9MzGkaX5qHk77hTMJXvu4DSy4eNtEd2rfYlxyuG1UsutT-MIdY9D_EaAaPz_a6B2ve1mle0sW9DFUndIVRTZMUATc95a-Kh99S-ZhO1Ou4RA90MZv1EhD-0RbW2y4tOBawK5B0IJXMGhQRz6d2_BV2-VKG5H3gfyaTDm7vLA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "State Highway 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4241748,
+                            "lng": 76.9319558
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "196db2355772411bb71af7eb88402b9986158599",
+                    "name": "B.P Petrol Pump",
+                    "place_id": "ChIJZ5AdehAWDTkRHu9OYMJVa-w",
+                    "reference": "CnRjAAAAq03CJQSvahfX3CW6GT7sVzpQGhMI28GDQt99LKXC6tfJ3NasEsz-mMPNR2V6rVNXhaIpYJJRb85l__Ob1iRlrsocYh7CI2UkbXeAUnMuWmrCkMaWIauGaViUVepdK8FeAK0jawImxruppBkxQv9JehIQeo-6TvKEoiM7KOnz17Z-axoU_zUiadEabn61HM9JpAyahKHYUEI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4225788,
+                            "lng": 76.9232643
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.42263129999999,
+                                "lng": 76.92327329999999
+                            },
+                            "southwest": {
+                                "lat": 28.4224213,
+                                "lng": 76.9232613
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2aa45d90b1b29ae84349fe350c7c49d0e3bdac20",
+                    "name": "B.P. Petrol pump",
+                    "place_id": "ChIJl12yBAYWDTkRAJ3OBROKeSk",
+                    "reference": "CnRjAAAAo4SdJQ-5NSiotUFh4EJRosMOpCoopnn_9nGEb2sOl60kcsUqAv6vHL-xcWXO0LrLCs2y122ldIhnCldkkB_dHMqLssOpse6oLqOj8yunASzybhifba0rnG7gq6kA_De2A2UOcfsXaWM5wU7m4yupthIQLLM3hXi0bTslCEP-jh0dnhoU_cXjVhFAUJpXQF8QrvpHXLqigfg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.47235,
+                            "lng": 76.92935899999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3ca4fb84d820fff530f2583cefad598728bfbd4d",
+                    "name": "HP PETROL PUMP - R C FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdfX8fZoWDTkRXxJJsfEXaQ4",
+                    "reference": "CoQBdwAAAL2_T3nLF78OJL73YOCb-8OISXkLiwbTZwNXjT7KsraBOS1PMX5CrJSE6r3bOL7qaZJeStmGfWcpFFtxXzbZJSD4XEttH8HkVD_nCVvc_7dHo8sVdqE1gTjimE4z5hNE17iLCiwzOIJkgOq1SGgx2eL2yA2vzRbvo5SPy8RLgsUGEhA8Au7VhfZtqjgSDpFHAPaxGhQq9o8SIBFxFTrbLoFAcGbd8KPAQw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Hpcl Petrol Pump Sultanpur Lake Road Village, Budhera, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4724358,
+                            "lng": 76.926458
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4725778,
+                                "lng": 76.92645815
+                            },
+                            "southwest": {
+                                "lat": 28.4720098,
+                                "lng": 76.92645755000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ed57f089a255e6670c40f4caece5596bcb4a1a28",
+                    "name": "RC Filling Station",
+                    "place_id": "ChIJfYavrpsWDTkRzSj2NqP_kXI",
+                    "reference": "CnRlAAAAK5LyhvlXXqu5VVJxZCgT2GShr6OpMPmITLJR4efj6tCvGa9tuTCQ-jfSbqI8kKRusehPA63vv5EOSqyaVTHZDnmT7ZGjMHXOjh089BZO16vfdUObgLMAnJGV3fVG4La58AyfXGrqAFRR4_TnIuOR_RIQd4OWUH7_BiV1L3sBKrt8YxoUOmdzHjb106-AyqdupqZK51JIN6A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Basai Road, Budhera, Chandu"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.420164,
+                            "lng": 76.908416
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d8af071dda7a981a4d8a4c0647b05f044f209d43",
+                    "name": "HP PETROL PUMP - MAA SANTOSHI FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvYnrwfoVDTkRmIepGEekiHk",
+                    "reference": "CoQBgAAAAKYTDYYMgo0rfeoHe7dnBIYj3AYJOVniFiH4SOePnM4wgr_QmC0ssVAXpshoiyGfw0ad6Ut7UjGJrWk-3vzlLX7BK0jhaU5-IvV_BfiLcwj-ooXBCMV6tti4XB2oGosTnMjYBbMLLX9W8XYVoGb4cmdAdWr5mb0ZENT59fCLD4fuEhCuC4W4sWek6cg9kl1VUG1SGhQj0gBU0jRH04W9LXXlVcikvCrQsA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Wazirpur Gurgaon-pataudi Road Haryana, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4245794,
+                            "lng": 76.898014
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f79aa1dbe351917b60fb1e530a56b133d82c95d7",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJOw9Mn5MVDTkR_YSMF5K0C3E",
+                    "reference": "CmReAAAAHKqRY_xu-5aeA5dof0nJF7qSTEFYg6CytC-joevzb0gIM3baAtgPoP1PE1ZOSDQ29gILpZ2r6GzH8K6DN5nnZ-oLZQubJgqYbi44OgYjJTklurBpq_q7qkl6YPXNh2IoEhBnVBxaBxv_U46n4tCFNSSSGhQ5qzfo-qB14GCrkDtNfYmqBuTPrQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Dhanawas, Sector H7, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.424429,
+                            "lng": 76.896829
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8646365654664ddb2cba8e37496ffca635949b19",
+                    "name": "HP PETROL PUMP - ROYAL AUTO FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVXa46-wVDTkR3Vj8iZpkxUs",
+                    "reference": "CoQBdAAAALadGFn9MVXXQQ_y4OwEEu0-AlIqRVt__XM6AwTQUkrCXbmCe06y0SyZCmaIa1UOONAFNZWFhPRwaQRogQp_SYjWtn4SkwHFkRBHtdMv_PWEus2B5uQ0mbboXc5AaxtqZcSceSUJAO0QiJI5yUe2zyl5ZbehfdugDN_xE8vrUaOwEhA_ojOQjfuCSqcX6STeUewhGhR3uYF5k9T-DPXnKIP_3S7apXCsTA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village - Dhanawas Near Railway Crossing Wzirpur Farukhnagar Road, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4201174,
+                            "lng": 76.9087493
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "fbb36b88fea01807b0955b556fe7be6e6ce0becc",
+                    "name": "H.P. Petrol pump",
+                    "photos": [
+                        {
+                            "height": 1280,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106953099864477708423/photos\">mukul raghav</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANh3MC3PmZ0gtS0-8eVaei8bhBO6Wmoj73Vgwd0vBfTPg83wW_FIx7NgEyNZClV_lePhQME3MqiAYnXvfH_N_OO9_BQaPcY3BaU6c6dj_yTVC-ZBPImXFScKzZd08xd6Gfdw7rSDxhqJvF_hZ-KhdJ7LUHLjjWDsf-LvJVt7mvY7EhB_pNXdB0Bmw8JgnDDRJNb_GhTwZkWJR6_wGbzEbih6Kq9MJVfuew",
+                            "width": 960
+                        }
+                    ],
+                    "place_id": "ChIJiRQg6PoVDTkRQTi--P0D8qI",
+                    "reference": "CnRkAAAA9Sg0w4PevLMzPu5C3bC21IkmwzPl6z4P4-IspK1r0oKUZFKplk8jJDUL61knd3jZj2cXGgj8Okz4KjfaSoAiZT0eB9CQZc1Gtcw1LagC7PuxFQEMt41DlSD0K2UMjlSGIz2H-KvJX_9cex9JapGYyhIQ_G8ZSCAapO9waAxhuHdl8BoUZw-L9Ns9-hpD8fzTWkX8Jjf3NhE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4272296,
+                            "lng": 76.88337059999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "030aedaf016217337014a60d89d598baf39e92bb",
+                    "name": "A TO Z ON WHEELS PVT LTD - Gurgaon",
+                    "place_id": "ChIJIQ_r1pkVDTkRA5Xfq7N-luY",
+                    "reference": "CoQBdgAAANTRn2GuDuTzlCMiBfmdR5oH9wwcV6m2X-adFFykCStcVzq71ywiGSYjD-Jb01GKxBw8MkXdqXi754edjL_8z2ee-3hI0VtyIZgwbbf-1WIgRaQZZaAffn5y2WHVP4XD-EYvM4gxZxMz_YwAjDklASlqtxwyeqVlWNes6zkGcz89EhBRG4GIw8vqcKtlWN3YbiiKGhSkoQsH3X-dghZJcoaUSD9SRZgRVA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector H6, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4240144,
+                            "lng": 76.93026069999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4241388,
+                                "lng": 76.93032369999999
+                            },
+                            "southwest": {
+                                "lat": 28.4236412,
+                                "lng": 76.93023969999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3b72479f2f17f571bc38355e9abde030bec08a02",
+                    "name": "Vijay Fuels",
+                    "place_id": "ChIJs0UqBBAWDTkRNNibk1LY7WQ",
+                    "reference": "CmReAAAAzNmh1aJTTOBhfQscG7i2K_lTG6QCwDGsGgM2UCon-BkznihTLFaEfKRWgpdDKOyl_d7EpfuOMhccwVt6bzywtn_caaFv4s5jDGVUOuxRrVF1S2KFPipayQc_OeA7LxB1EhDhimIOBmc5kYA3TpMeaeXJGhROW8XR5LecAu43qD6xa_f_tiwxWQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "State Highway 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4241748,
+                            "lng": 76.9319558
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "196db2355772411bb71af7eb88402b9986158599",
+                    "name": "B.P Petrol Pump",
+                    "place_id": "ChIJZ5AdehAWDTkRHu9OYMJVa-w",
+                    "reference": "CnRjAAAAJcELwq9-zehToHggGrmIR61nmUjFwJPrHod4WOPGrJW0TwDPU-BWtfm4us_RKytC5HDrgBzCOBE-aTV296ZCxkbUdLoyn1wwAZSkg6HSTWCi2Wiv2e7XutYBM4jFXHPFHM1c-KR9OkfMuHz4qWgopxIQHwl0yNGQzsb2wadO21L57hoUogetTateUbTdDjTBbxYGxXizevE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4225788,
+                            "lng": 76.9232643
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.42263129999999,
+                                "lng": 76.92327329999999
+                            },
+                            "southwest": {
+                                "lat": 28.4224213,
+                                "lng": 76.9232613
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2aa45d90b1b29ae84349fe350c7c49d0e3bdac20",
+                    "name": "B.P. Petrol pump",
+                    "place_id": "ChIJl12yBAYWDTkRAJ3OBROKeSk",
+                    "reference": "CnRjAAAAHVZj3K3S53yyuUVwg_JDkUXe4P4TwooekMiValynhz_D2RVvNIZF_Bs4Z-tryfIa0gN6iuLuf9IoXVVwTSneupUTwLH7j2Chm0FtoiTSYn6JgIbIjl3f89Ardm7dNjbJbsKXr5tZKDqTI1SSxIBw2RIQxpOHxFjoNS6s9LQbU-n57hoUYpk_mDaLct2RKsnF9qz_ux87r4A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.47235,
+                            "lng": 76.92935899999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3ca4fb84d820fff530f2583cefad598728bfbd4d",
+                    "name": "HP PETROL PUMP - R C FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdfX8fZoWDTkRXxJJsfEXaQ4",
+                    "reference": "CoQBdwAAAKbelgQ5fg2XjSywGtr7Zibe06xsciQgh9hoNbac5rubWWmM2zH1ZP3FvOqKcsfhhxr1naoJtpgF3AjbrrEEDaYTnW59SWiMcENiW9BW-QqCdIru0PiO4og08bEQR267brHPU6Xk8rKb_1AdIxVqB3bpi7k2T33UrzMlrMYz6V0fEhC8gHVGNxk-CZ1VtUJ5brPXGhSS8maMFWcIZ_zCVojCUMFQWorg3g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Hpcl Petrol Pump Sultanpur Lake Road Village, Budhera, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4724358,
+                            "lng": 76.926458
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4725778,
+                                "lng": 76.92645815
+                            },
+                            "southwest": {
+                                "lat": 28.4720098,
+                                "lng": 76.92645755000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "ed57f089a255e6670c40f4caece5596bcb4a1a28",
+                    "name": "RC Filling Station",
+                    "place_id": "ChIJfYavrpsWDTkRzSj2NqP_kXI",
+                    "reference": "CnRlAAAAP0KLyDjcZDTrqqyU0N1GvrIFCT_9_6UiNKX8xHl4jMYPXelIobjDP-_GwafI3zBReWs7h-2Fu2X0VY6KzEJsDWDYe2WqCzvt66IX5q2MW6ZxXHv1QZyomGno3EJBramvXKNzpMqw1T4Tdv2qRdIBThIQ_6Nvlkmm8G9WJPK1BAAE7hoUFM1MV9nTDVY9lf3Kz3XcS2P_T1k",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Basai Road, Budhera, Chandu"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.420164,
+                            "lng": 76.908416
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d8af071dda7a981a4d8a4c0647b05f044f209d43",
+                    "name": "HP PETROL PUMP - MAA SANTOSHI FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJvYnrwfoVDTkRmIepGEekiHk",
+                    "reference": "CoQBgAAAAKl73O1xEbW9os-jq8eTeq3s9LKHEG0IzIFTWdGozZDRpAzXKkRyxftQXHobr9lYrfCWQWI9xQByPNzihGXyIYcWceIPiCh3jPFwKX4btQYIZoJ6FTlQ13oAkAItYyb5O5_RfQImNwdFf1at8S3nR8hFb8KLFtrwtGvs32vlT2QrEhBeDo8NVDVgICWCxRS0y7lIGhQtZzGkBN0GTvWc3x3phc-NMQubNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Wazirpur Gurgaon-pataudi Road Haryana, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4245794,
+                            "lng": 76.898014
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "f79aa1dbe351917b60fb1e530a56b133d82c95d7",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJOw9Mn5MVDTkR_YSMF5K0C3E",
+                    "reference": "CmReAAAAqPvO9TvZxpfBKI5CVn31l0Jkzk0AUZlsAAye_7yJeQpm5EwprZnU_xup017FNs2ZIvYjN7LG6iqqhn8ee4DSeVm0IOVEhAISUTGEWBBWBugcFIESzbhqNloquflp2XD_EhAZxvCeycXsyDiBqhoJOmxJGhTj2ITTduXJHDcvQesUbuOgC6D-Rw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SH 15A, Dhanawas, Sector H7, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.424429,
+                            "lng": 76.896829
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "8646365654664ddb2cba8e37496ffca635949b19",
+                    "name": "HP PETROL PUMP - ROYAL AUTO FUELS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVXa46-wVDTkR3Vj8iZpkxUs",
+                    "reference": "CoQBdAAAAK8wYPO_FwyjXi9OjY5LAFTtijerKrywK5ffenPDY3-fUeSj5afEKgqoEA41aW6Z-LA2Sj-yWsHhfVwkeaLMBpPPXwjh_ewzTQ2rFuedaCHkpxr5FmQpAjn33aFPE3QA3P-QVbQEslG3WO1gln3M9qu1NBWrUqdFFOOhhMclPluTEhDO7DmTkC_p62KW7XLBqlwcGhSM9A9fNi3dEmR3whtVqLIWzmmBoQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village - Dhanawas Near Railway Crossing Wzirpur Farukhnagar Road, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4729094,
+                            "lng": 76.9594334
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "b02c63837755ef5bb1f562562feb993f1e18c4e6",
+                    "name": "Petrol Pump",
+                    "place_id": "ChIJWSqrT-MWDTkRY_0y18NAJc0",
+                    "reference": "CmRfAAAAoZxJ-6LlmAPAlCgoB2Wif2sQeJO31rEYrPz5n3meGPNBmW1OzWmzx8NjPpUCTI6A7-pwjPgPLsMoaRA9JOu-s9LKA3RqDoP2HqSofKTBjDo6dGZST5ReQ46vSNgAZ5LCEhBBi7tpwCAzbelk5dvWgh9JGhQnrY2ND76T3xB-PTRxJFXfh3NB_g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dhankot"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.428647,
+                            "lng": 76.882132
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c10ed2eaecfa2c5ed22c0cf91e61e542394aed40",
+                    "name": "HP PETROL PUMP - SURJIT FILLING STATION",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ88KyQJgVDTkROXl3lKSoZHI",
+                    "reference": "CoQBegAAAPls23-jH5pgLRnlw7knqjEYSfa3JQ4cNt_x2mklcF2ZVhn_Tqlj1VlbwakMV_ApVTBjYRuaCmRgKoUX4zE73Woj9TUT8nR4-Nuyt7r_YfNa87oJdJpOhYZNUKtBmaQOozgDOyut3ZQBRUo1G1stfQTDaD9rdVOQeJAI1Cl2olMtEhAZ24o6LgbIh0saWTf40enSGhSSXo9F7YSZwq2mZpOFWGhSrWW1Sw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Village Khentawas Wazirpur-farrukhnagar Road Gurgaon, Haryana, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

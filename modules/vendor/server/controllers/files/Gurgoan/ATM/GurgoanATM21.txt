@@ -1,0 +1,101 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4831229,
+                            "lng": 76.9087364
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4831511,
+                                "lng": 76.90875235
+                            },
+                            "southwest": {
+                                "lat": 28.4830383,
+                                "lng": 76.90868855000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                    "id": "402079b14b91217429e064baee8867ab1656d6e4",
+                    "name": "HDFC Bank ATM",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ12hIsZgXDTkRK-6KETpvXsQ",
+                    "reference": "CnRhAAAAcoP88y9kW8Dpa6439bJLRdLa0yFzIiVG9KCcmH55RRGjd2s4qBclTaW-zTOeXX9-zSsqJmYxpCU7AhKRgwW8Lb_k4wfQn86uR5Bx7H1GeUfY5JA_rnA8mG9kVEPiEphJgtfQ3Z-hA7KyM81uEqAIgRIQCjg1mUkIjv2FUgVxt243shoUNa7LnBaDMXuIFO6K-hyinUFylyY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "atm",
+                        "finance",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kishan Nagar, Basai Rd, Vikas Nagar, Sector 10, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4831229,
+                            "lng": 76.9087364
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4831511,
+                                "lng": 76.90875235
+                            },
+                            "southwest": {
+                                "lat": 28.4830383,
+                                "lng": 76.90868855000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                    "id": "402079b14b91217429e064baee8867ab1656d6e4",
+                    "name": "HDFC Bank ATM",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ12hIsZgXDTkRK-6KETpvXsQ",
+                    "reference": "CnRhAAAAZFscSnM4utjZgYijigxN7K-v6Eo43rjvqNpC9OOtE6eh9lpD3Z6rYFu08SI8gZ-gnh9fDuyz-NA1p-ppp4DY4TuOZHEY-P9BSvZlaE5hNnLWKsy7EfwTDWw_LfN0sLOlQaJ0ImOQRgblSuTQ3zo0QhIQiJcjVXuch5FKTexl6WtkYxoUoFlJL3NCwV_Zlh231tQv9uY9E74",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "atm",
+                        "finance",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kishan Nagar, Basai Rd, Vikas Nagar, Sector 10, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

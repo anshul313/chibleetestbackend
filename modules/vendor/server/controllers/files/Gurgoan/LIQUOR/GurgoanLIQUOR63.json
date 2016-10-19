@@ -1,0 +1,800 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3582229,
+                            "lng": 76.93934589999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.35826849999999,
+                                "lng": 76.93939909999999
+                            },
+                            "southwest": {
+                                "lat": 28.3582077,
+                                "lng": 76.9391863
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e66adbe57693ec5108c74bee3abf2bb54b797d6",
+                    "name": "Shyam Gas Repair",
+                    "place_id": "ChIJ-0LMszc8DTkRLP8RsffDgvE",
+                    "reference": "CnRkAAAA1n5paGcVhIXZ19pjqLuQom0yALhgI66xt-GPA2wXtZfwFl1yJ2nDR0PqnM9vziv3op1oprlpc1cNedqY93afZH4PcDKCI0ZQHmdsfTjFb_Pb3wYwzBGQ1LtggFYQP8uqaSHxBvhGXCli1Cm3hDengBIQkl0_jZJH8GWIWPMK10dASRoUV6nQZ_2AG0yGzQYdo6sOV5Ionzs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3428104,
+                            "lng": 76.9377258
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3428215,
+                                "lng": 76.93815074999999
+                            },
+                            "southwest": {
+                                "lat": 28.3427915,
+                                "lng": 76.93758414999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3d0477261197a94a29e51acbacf9df4155f280a9",
+                    "name": "Indian Oil Coco",
+                    "place_id": "ChIJH4m2mRU8DTkR6D76JKJ8HAY",
+                    "reference": "CnRiAAAA0ASDlY56WVuzUIR70smxtBJkDd5AjoU_W2_chuZJ_0XBsrrCM6Jh_FFFr-Kkd4o9D986wUwamhDlN3HomIo_yhtGYe-v53AryIaRBpKYNFFxOP2htg4CU9DlAqr4uXUSWXm1Gg7aPOm53UkMms9AzBIQZ05Ggs3maHSHsk5hne7t-RoUURxDCwY1qG3CAbQANUFfGcjAKNg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, IMT Manesar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3582229,
+                            "lng": 76.93934589999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.35826849999999,
+                                "lng": 76.93939909999999
+                            },
+                            "southwest": {
+                                "lat": 28.3582077,
+                                "lng": 76.9391863
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e66adbe57693ec5108c74bee3abf2bb54b797d6",
+                    "name": "Shyam Gas Repair",
+                    "place_id": "ChIJ-0LMszc8DTkRLP8RsffDgvE",
+                    "reference": "CnRkAAAA9JwABxtIJlYSHpbPsQejTk4ypyl4dtoLTkgYbAOQmkDcI3rraJdBroFiFUpTGc0PKqlX1WDcakzlD8JfAd0ubOUxIAWuoMLBRfImBljSw-cr23eCsvJsEsQiT556UvMHsjSG09FmXQEP9rI9rHVD_xIQOhK2IVdQDa20WiDQ1GxumRoUAVa8FStsT_c8I7cmj_tvnGI4qdU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3428104,
+                            "lng": 76.9377258
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3428215,
+                                "lng": 76.93815074999999
+                            },
+                            "southwest": {
+                                "lat": 28.3427915,
+                                "lng": 76.93758414999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3d0477261197a94a29e51acbacf9df4155f280a9",
+                    "name": "Indian Oil Coco",
+                    "place_id": "ChIJH4m2mRU8DTkR6D76JKJ8HAY",
+                    "reference": "CnRiAAAAqALgHQL2z9AfzGEDlKDHvsS3Geh5Hngb68fOnQXEc152zl3nohcklShNWHi6bebL0JqTOFRwKwo5PwfyB8q81u57ujgEaq797nxh4CLZeWzmTNegp2ywwX4jhjHa_nsYeHck6hmZdGmLcYdCi8WJehIQZa-xgKV1bnn0aS2cS4eLNRoUMV6HDa8teRZ9vj0sYCLUkBv6n6o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3675234,
+                            "lng": 76.94225039999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5bcae59e06748fd822bda9185ba95ebb29c9edb0",
+                    "name": "Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2161,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112323136099806962416/photos\">ASWANTH T P</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADQ53zUb7bFwPcrPpzMplR1TSjNoQdSqiVfskmk0irR71GLFQ_XSE2sc35OA3eO8Nvyu3TtHyy-Ek9SwCveIoXkyfEGVxAhgB9lm5lutnzoBQdPM9qymWlCm4UGCfq33oKCrWVvxYNGpAYJF3kz0MDMAHUWJSqS5DzIcjnu37nfFEhDFGL0UFXFE__wGCo5ZV9uZGhRbcS2Sqc97sFVC__Ae0fx_u3JdXw",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJOWqUTLU9DTkR67uZD2hmOxM",
+                    "reference": "CmReAAAAIfhWS6yQ4umgwI4Obb3ItMPeLlqeqvG-iF9ZVQ_5oflHDDOc_FUfofxTdh6bvZaG8f_FnbIwLr0HaeVnxly-ltT7GssSPxQN8TvprkVS-Ail8bB3vtb-g3usGkOIUnXOEhBGIKCmnKZUTd666x3tI6gzGhTy_-NqfZS_DPdHuUTJwRjd9FFGYg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3751524,
+                            "lng": 76.95500129999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3756441,
+                                "lng": 76.95511015
+                            },
+                            "southwest": {
+                                "lat": 28.3749885,
+                                "lng": 76.95467475000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "b1bc35af0385ac1e970be2587f26e78383170969",
+                    "name": "Verma Oil Company",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 540,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106744646427780426144/photos\">pankaj verma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHppl5lOf057nMYHgatXAz3Tw9awWRHv68rk0eYp5KSd6CXyvhLwMjGCG8vUgyoXPTP7_R8O_xRSEveUQ8E_Nw9bfR0OCHXv7M9s8AXYPX3Yt7UqCqeozhmtGYET7ZJIr9WZ9vRmTLbIpP9cvB0oSj7ApoL9qy9Mrl8dIMMvgpf4EhDdGXA3hWafH0N5Y-LnWss8GhR9St_CR8PptpJ5wB_aAu2eMF_0uA",
+                            "width": 540
+                        }
+                    ],
+                    "place_id": "ChIJ6eMCZa49DTkR4ujQM8Xpp2s",
+                    "reference": "CnRkAAAAN--85umK8NDUo287BkPglCXWE0nVntpQnAzDh0Tc1UcmTXRzNX8RGplsFy3im1E5csl_rEA4BkaYAR99OmcI1GPx0_xiJSoOTNCz36I_eNhJRo1_AK1al5TIZCm-N6l2_5QwmEw02Bea3nMJoGSMpBIQRH6oaTfhkhK-dlZqF6uYDRoUmx7QKR0WYl7l54RWRvvauMkvj3c",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.375311,
+                            "lng": 76.955148
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "784474be962b25a8c045190d0d13fdf90a073604",
+                    "name": "HP PETROL PUMP - VERMA OIL CO.",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_834ZK49DTkRIg-ens1Fhaw",
+                    "reference": "CoQBcgAAACjL53O7N4UHOLIE57Y-CigWdpYFxDju71D83fFUX3KSgr9Io-WIsDElqteHe6ShooqtKpN4xY8K6cZkgwwxcpd6ydb4u4kn_VdhWd8iJv7NEQj8S0F3_FC6r5UEEMMeVYoarU4bNmyYjHfxJJbj-_xSrK9Gkzsq4poIionVw5KJEhBBRU4U6GRPHLgadQeKfv84GhTL03d14x091f_WyzxnuoL17xXFyA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "KM 46, Near Macdonalds Village Nakhrola Tehsil & District Gurgaon, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3762389,
+                            "lng": 76.95678769999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.37660914999999,
+                                "lng": 76.95697565
+                            },
+                            "southwest": {
+                                "lat": 28.37607454999999,
+                                "lng": 76.95663145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ca0955535e0165643271cd0f8840b8fbbdf220",
+                    "name": "Hansalaya Service Station, IOCL Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBzKo6649DTkRqbcw-OSov1A",
+                    "reference": "CoQBfgAAAF-ZjSl-pYG9tYa3Y8MMuIyfngvYEEdOobfvuxhoRb7c0zhX2ABm8oEXK_rXKIisrwv1d-ELcxPMt5rpmxc0YH1dbo6yl2c0NaH08tJbsjJtBL5qdzc52bmlp0s4cbBtEeKsI8a4Ab8Qb6oR1FU8o8NQjV7HIGmvrhVE-t98P_NYEhDvJmKyAn94VQ8e7PCMKzl3GhQyPCatDM2x_13Kz5ud6GJ40C-ULQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3582229,
+                            "lng": 76.93934589999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.35826849999999,
+                                "lng": 76.93939909999999
+                            },
+                            "southwest": {
+                                "lat": 28.3582077,
+                                "lng": 76.9391863
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e66adbe57693ec5108c74bee3abf2bb54b797d6",
+                    "name": "Shyam Gas Repair",
+                    "place_id": "ChIJ-0LMszc8DTkRLP8RsffDgvE",
+                    "reference": "CnRkAAAAsCh4149BqhcsqNlO84-U8SnemtUqYmIg4CQSqqWtqZ174ddfxSYsTosOWzZu-skavif_LZl2e6gU0PvbCvERKWhyKZHUPWEoQgSkt4yiWQJWffdKnKNFk5ah3F8tNUBryCtwn--tmSbsb6hpyA482xIQdOJK_JGcxZAPR6zBURGEzxoU7r-4XQ7gx4Or1jZMhFbXyIqg8FI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3428104,
+                            "lng": 76.9377258
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3428215,
+                                "lng": 76.93815074999999
+                            },
+                            "southwest": {
+                                "lat": 28.3427915,
+                                "lng": 76.93758414999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3d0477261197a94a29e51acbacf9df4155f280a9",
+                    "name": "Indian Oil Coco",
+                    "place_id": "ChIJH4m2mRU8DTkR6D76JKJ8HAY",
+                    "reference": "CnRiAAAAPEusUVj3djT8zwzWHeM544luMdDMwEFe9XXbXh8jB9dnHmp8_64bQXAB4JrbTTREnBbtDRAXHDtCIylDT1b4UQfF53-kKoUBMLTSoPSNAO4L_GN-bF-eJQkvqiC4tgso8xBQ4_-O2qYzD1rhcfyYEhIQJ01z7rY4746vSXxXb9NSHBoUZvfxf9JLv-bE9ttuibG_pLDX01I",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3675234,
+                            "lng": 76.94225039999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5bcae59e06748fd822bda9185ba95ebb29c9edb0",
+                    "name": "Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2161,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112323136099806962416/photos\">ASWANTH T P</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAIMJ5d8eyQ6Qr5yCM-bOVskETG8lhiptOkwf03BZALPrNOh2CCfqv5zf6DxhZjXtSQTljmsH1oJ-ESz_ucut7ry_7pkovnJuCbYveE3m7keEweTGdjYJhFErUkuXcr5-D1ZJaZ3za_uh-af7VEGkDOVsMHJYXZ4oyOWYjRBV0XCnEhCcjD2xB7MYwFh-VzPpGh13GhStwzUqEnvU4KrciqaloEKVkbn4AQ",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJOWqUTLU9DTkR67uZD2hmOxM",
+                    "reference": "CmReAAAAPDNXRZTt_sCyteSlAa9idJpReIbo--nYL88KskLgflKlFfWVCSJmPbbgyUGlP1UoO2m0pv1GGBSNmjGChKEVaUC52qd7HH0_aBjPSIeAxsQfTZ_dguqSK88zwGlGY8dzEhCR4-jq0qXvK_vQj6mfUJqiGhSszO8NZVTc1vwAQqIoYzmNB66qyQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3751524,
+                            "lng": 76.95500129999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3756441,
+                                "lng": 76.95511015
+                            },
+                            "southwest": {
+                                "lat": 28.3749885,
+                                "lng": 76.95467475000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "b1bc35af0385ac1e970be2587f26e78383170969",
+                    "name": "Verma Oil Company",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 540,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106744646427780426144/photos\">pankaj verma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHU8J5VIQ8Y8j1nffTKpJs5XgorXRnml2i1m__Z22yvsbCWFBlG0noBTxLhrmCKM-KOrOn2IF6FUUG7ijLf-wxvwCkEvtEIpFtN0xNz-PxCLRz3bX_nnqxv-p7QC1Rxe-2ASXZeje54-rqh1upeQHP3-AV14WIi8gwYqj9325DH_EhCg71tgZELQfW01n8jC9f9pGhRBUqeSeM7YqZztDWMUR-gPoJczAw",
+                            "width": 540
+                        }
+                    ],
+                    "place_id": "ChIJ6eMCZa49DTkR4ujQM8Xpp2s",
+                    "reference": "CnRkAAAA-glxrGSjn1RUVCsTNhr0Hequqc4dfzWuDxLe3evQ9xc-tjsdEo-8TueXMtjEVazbhaWr0Jr2v_V3BlXw1xB5WvHjz2Tk9XQ9EvXcmAPgNN9kJgQt0ivw3NZGPkurvlv0Op7Kjg8jT7pTqzUHzVl3IBIQIDtN_ATp1eDSwM34s6L_2BoUtDeoUDDNOmBDCV_Aqoj9fN5vpJs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.375311,
+                            "lng": 76.955148
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "784474be962b25a8c045190d0d13fdf90a073604",
+                    "name": "HP PETROL PUMP - VERMA OIL CO.",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_834ZK49DTkRIg-ens1Fhaw",
+                    "reference": "CoQBcgAAAHFZT6GSDWPegEUyvS6jKrt2F-_Gn0JFj8jbVj2TlVX70NZan62iXLYqUJZTd8fJ_gcPpuqpyWsmhZ5dKPtwS-gA5jR8HeBnzpWvkQZPAqqskCNGEvkgz4P3LQPWdk_1ah4xlqXhQn_1ajS5wW_3u9UJ_E4kNnHLRPcL3saN5pTGEhDHYRI0qoJeb4-pIchBexHKGhQEaBuxTviaDQQUUheAf7R_xAao8A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "KM 46, Near Macdonalds Village Nakhrola Tehsil & District Gurgaon, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3762389,
+                            "lng": 76.95678769999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.37660914999999,
+                                "lng": 76.95697565
+                            },
+                            "southwest": {
+                                "lat": 28.37607454999999,
+                                "lng": 76.95663145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ca0955535e0165643271cd0f8840b8fbbdf220",
+                    "name": "Hansalaya Service Station, IOCL Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBzKo6649DTkRqbcw-OSov1A",
+                    "reference": "CoQBfgAAAJNRNitVIAQMdi5oUtUWUc2OgwJ1fM_YhVfDNeSrpl4hXqWH3DgaZiiO4cH2lrlGBZ8C8uYE0ZXmulkuxj2HTI1-1Fpe4TLj9bpmctZMyjvo8_GDXa1kClwPYPpETmsQKoGf2cz0G8aeMyjUJF9s_N3M96udVN1awHYwmB80u4jWEhCeER2TkN5waEOZpqT05h8rGhTAmyhfle7MT-oh51pr5fMlQvd27A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3819403,
+                            "lng": 76.9676989
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.38207169999999,
+                                "lng": 76.96773205000001
+                            },
+                            "southwest": {
+                                "lat": 28.3818965,
+                                "lng": 76.96759945000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "984d4f61f5b4f708564c58540338971c2e32c713",
+                    "name": "Petro Mal Filling Station",
+                    "place_id": "ChIJO72uhQg9DTkRQs4w9dQf3cE",
+                    "rating": 3.9,
+                    "reference": "CnRtAAAAKFElRIBjba5lx_bU31CuDuqi5Cx0zT52lVC7xcd2xdhfUmkgfr5ByMzXmMNKDZXpMMSRhFUyCzmhDEIfR4iig7buzHBuYXy4N9P_iHPoeqX2KwaeVpmKP7p73YD6qa6Z0Yf9FCtICYenya4-WqyaYhIQqNd-v5_wLnepM_Kop4-_iBoUMsHsXvHKwybrhKDfU5fyDGn2KT8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Sector 78, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.364625,
+                            "lng": 76.918657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d0d5cd9ce78d3ebf86e3cb499c2e0548ec300769",
+                    "name": "HP PETROL PUMP - ADHOC MOTIRAM & CO",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJexDerio8DTkRKQ7_acFsI24",
+                    "reference": "CoQBdgAAAAK56Kj3ji_GX8WuGglWrY0sCrZsWXEiOeAEI5CGbBmpMURAyBvxjnMLSJv0d3rk3rkSVEtI43X_UJhjESrcrX5OYZEAFzxeTJIGvjYRyQPt41bs8LCW7ye8UBNaYjkCbacD1usxxP19hZCFVkJqNIW-DVLfCquSnQoMizRyXRXaEhDxfit7HdfS-4X_ZH1onwigGhRiFqOD0fWd2xCttBorHfRV8oThxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot NO 10 Sector-3, Hsiidc Industrial Estate IMT Manesar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3582229,
+                            "lng": 76.93934589999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.35826849999999,
+                                "lng": 76.93939909999999
+                            },
+                            "southwest": {
+                                "lat": 28.3582077,
+                                "lng": 76.9391863
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2e66adbe57693ec5108c74bee3abf2bb54b797d6",
+                    "name": "Shyam Gas Repair",
+                    "place_id": "ChIJ-0LMszc8DTkRLP8RsffDgvE",
+                    "reference": "CnRkAAAA6Bao08JeBOVlfE__KcLG-oKDOwMvPI_K4bXG1HvcniZ5WdbjnzFX5MDl0ektrplYyFu11sgg1dC9xgS4ewbAv7nhnwKqKpFh5Lf7NQVK6sH1fSwKcWI7zQN_50NVVz_wGtfyqniXgFj5s6_rFs6jkBIQxKuMHpX6C5Vi_9zmz89TnhoUJSA-bLeoUbps4AfNDNkJUqIsQ_g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3428104,
+                            "lng": 76.9377258
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3428215,
+                                "lng": 76.93815074999999
+                            },
+                            "southwest": {
+                                "lat": 28.3427915,
+                                "lng": 76.93758414999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "3d0477261197a94a29e51acbacf9df4155f280a9",
+                    "name": "Indian Oil Coco",
+                    "place_id": "ChIJH4m2mRU8DTkR6D76JKJ8HAY",
+                    "reference": "CnRiAAAA0ligNULg-LZRxbyT2Sh81tML9fILcEfKntGyqlG1reKjYKso1Cv2u4ZJXOIijTY6wLC-aXzB3YSIVUJAXuYvRkT0mjtsnWdXPH_Ed5A_RJSF0suVZoBdyttIA8iDfZJHpHnOel5MqbERyh2_69FH_hIQ2Ktgr2xgzDYxW8aaoXT4_RoUmEHaMNWcZOEOmdBkWFyD8HQs_Ag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3675234,
+                            "lng": 76.94225039999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "5bcae59e06748fd822bda9185ba95ebb29c9edb0",
+                    "name": "Petrol Pump",
+                    "photos": [
+                        {
+                            "height": 2161,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112323136099806962416/photos\">ASWANTH T P</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKVYwE2FsxIhGftdtnJ2olinbg2VJINqQrN9nT4Z7pd8go-qHeBePnesRm2x3GnsMwXelxU3pt_T5REV0m2ZkvSwxaB_5YbR5-ocp32xQbT-A69uJ7BDJuJsk1PI-aOy8dgZnX0lQLIYzaOGsBff7fZiDRbAuy1r1m5uc0thpCF8EhDUkEkHoQVM9ZHcARtz5UgWGhS2QbIRa5Po9VnFgTB7ydHOYajnBA",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJOWqUTLU9DTkR67uZD2hmOxM",
+                    "reference": "CmReAAAAQ0Z22LHkaXmWuq_17HC95KEASaqV2-q6cL1biNF7GnNVB-jvaDnD-X-glgABMulqJ4iFXoIXOe-zfXz8KlAow9DWISO3q66nryvHY4xrdeRuiP3oOysyHD6MPwhIv-EiEhCQg5ng-wU6NljUHJHOpDaiGhQY9eYOlRt01cnUqbaYq9203Og1UA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3751524,
+                            "lng": 76.95500129999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.3756441,
+                                "lng": 76.95511015
+                            },
+                            "southwest": {
+                                "lat": 28.3749885,
+                                "lng": 76.95467475000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "b1bc35af0385ac1e970be2587f26e78383170969",
+                    "name": "Verma Oil Company",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 540,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106744646427780426144/photos\">pankaj verma</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHHd1oeqFdOb01nXpbUYNSf7rqQqVd0hrm2nd9ePvcIWsuy1pMX7JQUvmNykG8UMxF64STnjlc_IXZUBrjeefKJuzjOB5ZgUbDMHm2VTC-NYGNxpmPKJvUNVaztvZhSe0xx9yxyAGtfr1bMwxxOHzCZkXRx0slMutU-LI6i2J82CEhAek6Y2gFn1I_5t4woBgcDVGhRPFEdAWuGj9VLDHoTlEX4WFDTZOA",
+                            "width": 540
+                        }
+                    ],
+                    "place_id": "ChIJ6eMCZa49DTkR4ujQM8Xpp2s",
+                    "reference": "CnRkAAAAuAUIrTmFdT7hH29x-FfSaUfOsENVr6CalTFupwarjS3RwTqv1CExHnlbOsSeVi7lGgs4x5EnJk_EnrQMH4gd1ou-X35Xk67Zk4SI8MHEek6sRQLFxCCyk5mAKVIs-QB59ta9IwS28gDINdURiELB3hIQp_qLuhuzlRkah6FhuRasOxoU25xDX8WZTzvzJqNU1JG2v9WQVuk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.375311,
+                            "lng": 76.955148
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "784474be962b25a8c045190d0d13fdf90a073604",
+                    "name": "HP PETROL PUMP - VERMA OIL CO.",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_834ZK49DTkRIg-ens1Fhaw",
+                    "reference": "CoQBcgAAAN6UHGvQuSvYHe8JqcnVfXf-5VlVIaZXQFHR8DjaTVNMGnD3KY7FhNPEw68KHlKJT8n970yPYazlRTDtTdISI3pAQiNkQz8a2xlg2rGFBXwQ7eLN2uYnr3xVbrStsLP5-up4JlJVCeeCzQBsNFQzAaxtvYy8_dc2LC2B7pyeh7TuEhCKMO2l7sjRcH4-7zdlFj-bGhTilCzsocCU-uwjb1vq-DO8JflVkA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "KM 46, Near Macdonalds Village Nakhrola Tehsil & District Gurgaon, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3762389,
+                            "lng": 76.95678769999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.37660914999999,
+                                "lng": 76.95697565
+                            },
+                            "southwest": {
+                                "lat": 28.37607454999999,
+                                "lng": 76.95663145
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "c7ca0955535e0165643271cd0f8840b8fbbdf220",
+                    "name": "Hansalaya Service Station, IOCL Petrol Pump",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBzKo6649DTkRqbcw-OSov1A",
+                    "reference": "CoQBfgAAAKmEtritgAQUUwR-jkiXTq2DSyZM7Jh5WwQ1ss9QvpPu-AJJeG8FhlS4FcINqzHh11QwlX-er_57W_jwfxTITEfzeQLp0iZ8_5OopHuEOjfRWcKGhY2I5gG6tk7P6q9xC74OTbEdxwYQ3CiRGHNhRNBoJx4ENGd4GtzpYzcmMkezEhDdi-GftPqe1XD58tIeyaRlGhTVjMratYGdSvVIY9NhAnB0rg9KCw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH 8, Sector 80, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3819403,
+                            "lng": 76.9676989
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.38207169999999,
+                                "lng": 76.96773205000001
+                            },
+                            "southwest": {
+                                "lat": 28.3818965,
+                                "lng": 76.96759945000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "984d4f61f5b4f708564c58540338971c2e32c713",
+                    "name": "Petro Mal Filling Station",
+                    "place_id": "ChIJO72uhQg9DTkRQs4w9dQf3cE",
+                    "rating": 3.9,
+                    "reference": "CnRtAAAAy-JKD2-PamzwZqyvGbziNcR0LhXunQIGvBIFUjYKOEJRLtqP49zqyqN2GeK57ytOdcVUqkcBVP5QcXxS1qRp5XverYz4TU7vmvysXradmiBYjLsXgHL5aQTuKsj4wEnaYgRzXYAuqF22Zf86SGB5YBIQeq0Z5siyXh3AeGfLz23MmBoUfmsqTe1OTlQUai89Zc0Kefx8Em4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 8, Sector 78, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.364625,
+                            "lng": 76.918657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "d0d5cd9ce78d3ebf86e3cb499c2e0548ec300769",
+                    "name": "HP PETROL PUMP - ADHOC MOTIRAM & CO",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJexDerio8DTkRKQ7_acFsI24",
+                    "reference": "CoQBdgAAANNIqd-PTpXOVrc5V8TUkwUzBAwY1__06tuyga3pVu5YsC3XNBw_TC4L0ocYLfUI5F4P-PbVT5xibNFigpY1RkidhLYZIC1nqFPtIi-MshBOkFbK8ffJx-z-JNhI0VWIpJkEZoD4HHuePCg9KJFOyY9BxvZZ_dsCrBqN_jnsRBM8EhD3twMay4oD6dtUET0LSDlwGhQJGiTzso9ilQWzBWnGZicZ5VgXgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot NO 10 Sector-3, Hsiidc Industrial Estate IMT Manesar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3904661,
+                            "lng": 76.97782269999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/gas_station-71.png",
+                    "id": "2546760980aaf8ad13af6e6701cc3a0711f6f565",
+                    "name": "Assam Oil Petrol Pump",
+                    "place_id": "ChIJ6WlSWhI9DTkRkT0MIZZOJjM",
+                    "reference": "CnRoAAAAE_6l3ozEHicUx7QyR1ozMC0jfwZj4R_7qy9r4uS-BZKGh-rf2Nszjm82A_4E6EVozjbeKjKZ-0rbEW4ARsib_sj427npf5IsYqSfVIecialKuLyPf8zOp9Ema1WcbaqDUSOkCYLfFPVUWIx5YKna1hIQljDNwFGRRgrZPImKvniONxoUIhLGpO47-yedbsMFD5Sd3UckBGM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "gas_station",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 77, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

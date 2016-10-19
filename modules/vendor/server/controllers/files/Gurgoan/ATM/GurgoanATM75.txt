@@ -1,0 +1,65 @@
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4831229,
+                            "lng": 76.9087364
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.4831511,
+                                "lng": 76.90875235
+                            },
+                            "southwest": {
+                                "lat": 28.4830383,
+                                "lng": 76.90868855000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/atm-71.png",
+                    "id": "402079b14b91217429e064baee8867ab1656d6e4",
+                    "name": "HDFC Bank ATM",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ12hIsZgXDTkRK-6KETpvXsQ",
+                    "reference": "CnRhAAAAvevcPOfPqd8X5OC4uDJDXvmTf1iCRT4WYM47RjYhyP8Hb3WNCKHVz8qEqQ_mRSlKmis3O9w7vNh3WletoqAhKBxV9EQNVxVp3W9h4fd34Gj5AH0ih34bbWmlgleaU1JmrDa9IA04_NAjpwHFgkg8VRIQU2ptLJvWHPXZiqPcuoedURoUnoBheRbYKqOBcDRtl8Sj53wnwPE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "atm",
+                        "finance",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kishan Nagar, Basai Rd, Vikas Nagar, Sector 10, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
