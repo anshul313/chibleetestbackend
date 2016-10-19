@@ -428,10 +428,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 31; k++) {
+  for (var k = 1; k < 98; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Gaziabad/Sheet2/PHYSIOTHEERAPIST/GaziyabadPHYSIOTHEERAPIST' +
+      'files/noida/ATM/NoidaATM' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
