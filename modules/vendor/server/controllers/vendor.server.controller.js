@@ -60,35 +60,15 @@ client.ping({
 exports.getvendors = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-  var coords = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
-  // vendor.find({
-  //   coords: {
-  //     $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
-  //     $minDistance: 0,
-  //     $maxDistance: req.body.radius,
-  //   },
-  //   category: req.body.cat,
-  //   subCategory: req.body.subcat
-  // }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
-  vendor.aggregate([{
-    $geoNear: {
-      near: {
-        type: "Point",
-        coordinates: coords
-      },
-      distanceField: "distance",
-      maxDistance: 5000,
-      query: {
-        category: req.body.cat,
-        subCategory: req.body.subcat
-      },
-      spherical: true
-    }
-  }, {
-    $skip: 0
-  }, {
-    $limit: 5
-  }], function(err, data) {
+  vendor.find({
+    coords: {
+      $nearSphere: [parseFloat(req.body.lng), parseFloat(req.body.lat)],
+      $minDistance: 0,
+      $maxDistance: req.body.radius,
+    },
+    category: req.body.cat,
+    subCategory: req.body.subcat
+  }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
     // console.log('Data : ', data);
     if (err) {
       return res.status(400).send({
@@ -152,8 +132,7 @@ exports.getvendors = function(req, res) {
               rating: totalRating,
               bookmark: bookmark,
               serialnumber: doc['serialnumber'],
-              keyword: doc['keyword'],
-              distance: doc['distance']
+              keyword: doc['keyword']
             });
             finalresult.push(obj);
             callback(err, obj);
