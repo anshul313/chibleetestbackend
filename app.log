@@ -221,3 +221,14 @@ ReferenceError: data is not defined
 
 2016-10-19T11:05:28.852Z - info: 127.0.0.1 - - [19/Oct/2016:11:05:28 +0000] "POST /v2/getvendor HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
 
+2016-10-19T11:51:02.927Z - info: 127.0.0.1 - - [19/Oct/2016:11:51:02 +0000] "GET /v2/getsuggestion/ATM HTTP/1.1" 200 151 "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T05:41:47.566Z - error: uncaughtException: listen EADDRINUSE 0.0.0.0:8081 date=Thu Oct 20 2016 11:11:47 GMT+0530 (IST), pid=24244, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=140582912, heapTotal=110163552, heapUsed=81581344, loadavg=[1.9404296875, 2.0302734375, 1.96875], uptime=258683
+Error: listen EADDRINUSE 0.0.0.0:8081
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at net.js:1395:9
+    at nextTickCallbackWith3Args (node.js:453:9)
+    at process._tickCallback (node.js:359:17)

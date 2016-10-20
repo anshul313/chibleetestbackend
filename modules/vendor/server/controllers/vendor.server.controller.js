@@ -445,7 +445,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 21; k < 46; k++) {
+  for (var k = 47; k < 70; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/noida/ATM/NoidaATM' +
@@ -1208,7 +1208,11 @@ exports.getsuggestion = function(req, res) {
     area: 1,
     _id: 0
   }).exec(function(err, resp) {
+    console.log(resp);
+    for (var i = 0; i < resp.length; i++) {
+      var temp = resp[i].tag.split(',');
 
+    }
     var uniqueArray = removeDuplicates(resp, "tags");
     res.json({
       err: false,
