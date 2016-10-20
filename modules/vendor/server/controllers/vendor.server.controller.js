@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 71; k < 95; k++) {
+  for (var k = 1; k < 35; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Gurgon/PHARMACY/GurgoanPHARMACY' +
+      'files/Gurgon/PHYSIOTHEERAPIST/GurgoanPHYSIOTHEERAPIST1' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -486,8 +486,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Health',
-                subCategory: 'Pharmacy',
+                category: 'Wellness',
+                subCategory: 'Physiotherapy',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
