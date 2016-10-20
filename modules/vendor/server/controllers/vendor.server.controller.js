@@ -445,7 +445,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 35; k++) {
+  for (var k = 36; k < 70; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/Gurgon/PHARMACY/GurgoanPHARMACY' +
