@@ -1,0 +1,3717 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.519319,
+                            "lng": 77.036074
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5193553,
+                                "lng": 77.03624305
+                            },
+                            "southwest": {
+                                "lat": 28.5192101,
+                                "lng": 77.03601765
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "68234634e4c2c4eeb213c05a346a3a7a722b7055",
+                    "name": "Tirupati Pharmacy",
+                    "place_id": "ChIJgyQYgyEaDTkRVqG5S_QEto8",
+                    "reference": "CnRlAAAARJQx3ff5WeK3-XYd5Q9nHQTvauyvEmhS4eu2iun1UnQTxW3ajVQjv7oPB6UwWVA-MnDAOsKwIxPCJtft2tUSVa4H0PpsrEeN2n8Jc5dH_KOFX1bkYTBZA6TyE_c12FE_IgofDhBjq-j3RWjW1FgVHhIQDEuAthO-684tTLtDraPx-xoUoCIHTHPlTdiMnLVg15jRgM0N1GY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhati Complex,Phase-1, Bajghera Road, Sector 110A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51733,
+                            "lng": 77.036903
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51782549999999,
+                                "lng": 77.03704004999999
+                            },
+                            "southwest": {
+                                "lat": 28.51584350000001,
+                                "lng": 77.03649184999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ece1a95425acd803b62f4bdf05232fb9986ca265",
+                    "name": "Fusion Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTda58CAaDTkRmxPy3O2rZ6w",
+                    "reference": "CnRjAAAALWh3R1Kh7MsKsMVCbgu2zGo5G5REzF0w6Fjik7Sj8xk62SuAguTbHm7QAF53IWL5URcLhPq5AAk0iDSJBs0O9BWV-GHbWGJOTxGkAu-V_iabeicx9V0JOjrGvPzbm0u7_wBDIEDoU10DJLDy4N_PYRIQjaqPemN0qcUR1CRPc18VvRoU3C9bti4Cs688vRlCNurrRmaci7A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.3, Opp H.Block, Near O.B.C. Bank, Main Palam Vihar Road, Bijwasan, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAEtCH7jV5UZH7FLG9T6Da6M_tpb1dmSV3UPD7DYAiMCGCroYFjh5juIxxtCujPgT-m1pJFsX6iiadCoNt-aOyh-n6KClvXV2gOW3zQxpEAJKoQmOj_W6tc5EZigKfDb7dUWIQ0aXbtHTAkQrkIUeVY5bHDs-l4-YaweT_w9PHZcr_Y3cBot_9WgZ5Y6msHjWeP_2iFdfesB954L95gqIArntaxl5aJNBBzUICtMF31uVwddJJK0ZE_RppAaoh4CeQNMQkGDvcuGLVfa7iDggehLoZKWT_Ov-HWYog-R_RlkcrITv7d6Qa2Q6hnQ8G6ZdigC2vLdkoVzd7dommZnREl0SENIs3VPc5R5GsZeFTZH5d_waFKAWlemuEqfVSxmvZcrtTLSuu-_a",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.509096,
+                            "lng": 77.031778
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8c2c29082d936b9562232dd1311fb8d34a68c7c2",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJA4eGlvQZDTkRLN7eFw6WF_8",
+                    "reference": "CnRlAAAA8O9TSQNY1D4Mt3Y1eslOI3kqDG3bfrWtNkhCmCymQHvynwpz4BYK-X39xwA_1mmxT6neUqUhyMi0h3IKBnJopu-aS0eZB7YbrDwgPuLZI9NpoN8IqSz4ut3O7YcG8lJLSFjw2g_PpkwfUsRFgsoaeBIQP-Ygw-3PChhau3yQOXVRQBoU3LVrVQw498jLI0IRTm07_xuhhMQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C- 112, Palam Vyapar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5115393,
+                            "lng": 77.042141
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1a45effa3432be201a1ea1cb23bdba12dafaf7fa",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJVojE1BclQnhd9VOEkpHLdts302CUybjR4ONjgnQNu4ldCg4zYz-9gz1n5nqKY8cie5CVapkmfCtywsEHbKIRN-j_0WB1Fisz6fyFGtYYqxSiEWDgohkoNCl7XeCgnRzmg1ZgugKt69K5vyFM6_zlJ5TqH3RDqdeHgm1Fw0g-9CEhD4jzRNWHOZ-S8-J2DfKqk-GhS8F5n-D2ZRgZOiZjE7SqmVuLIdkg",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRUAvAokZDTkRsQSvC5y08eM",
+                    "reference": "CnRlAAAAC2SLnggwEkGJ1QF-6NmUbFpKLFzLzRpp8HDyW2q6LQNe0Hh_OzUDwoLuZLySO6qre9WRCiZN6BD3r0upZ9a1XYkphZFrPpQj0dRVLevQJbMIe-LwZ1LtjLjB8OfVGbI9GqYO2f48PVb4PFr40yuLDRIQfPpQuaqmhTtn-QvqK-246hoUDPVny49DJ7mRsr6A72CNUfDnLwI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 21, GF, Ansal Plaza, Palam Vihar, Ansal Plaza, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50887849999999,
+                            "lng": 77.03125550000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b8f872557bc156db73482222aa3cf8e50debb511",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJn6Pbj_QZDTkRGqt91NJ2Fss",
+                    "reference": "CnRjAAAATLgHAkfeAUH0wftR1tCkPx_qm2hf1tX4DXPS05hkdHImk0o3ODdOBSf5TTOsrDnJbckkiM7MUDqF7KBKxaxpmOLKRftf42GlwHMbaUI0cJ9QfWVvzJCYtH4yA591VLKbUVaeaX7diE1qsxUsbyvO_xIQjLn6Jzj19XutOzVkt9lt7RoUEKKR2LqDUJnGpQg3A5EFkHiYd14",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra C Block, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5088336,
+                            "lng": 77.031657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b3608ac64962a0ff22158ac82b09b5195fa8ed17",
+                    "name": "98.4",
+                    "place_id": "ChIJq01UhfQZDTkR02XV6Mh9BGY",
+                    "reference": "CmRXAAAAr20EByrE6iM1Q5R9pcAUSzlgD_5pjwT7fBBfcaU8fpNHEcRKwlbrwoneHbOB8C10NgTCnchKDseCrMoSB9Z-jWiCv0w_GRYS0snVANA9XWG0kD_WuHy2NoHssB3TFLeTEhAYZk74MlsyQzv_tu_DYE8YGhS_Pv85wZNbasXkVhBiu48Fhuv2bw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-154, Palam Vyappar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5085332,
+                            "lng": 77.0314164
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "944c84cfae28d152b5d2ebe2df9dd1e5d9ec242a",
+                    "name": "98.4 Chemist",
+                    "place_id": "ChIJY6oGm_QZDTkRoiEiee30njw",
+                    "reference": "CmRfAAAAToYg_UoHUGsZVLUjKXZI7XthNMD8EAzYDP3RV8OQYzMPQJ0M0tqs6ILZS-N-e6DWId_FAy-q2Yyan_x8glrS9eKDdfdF3Xr1yvq7mIRKS5h3JKRRRu1u45gTCGE6l0SqEhBmGcjeVoRD4roHuz7J7iZhGhR5uH5BtKZW0ia3fX9CVuzsajbZFA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra, C Block, Palam Vihar, Choma, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50852,
+                            "lng": 77.031257
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50853635,
+                                "lng": 77.03159640000001
+                            },
+                            "southwest": {
+                                "lat": 28.50851455,
+                                "lng": 77.0302388
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1bb37ee1fabd68d70406fd739bc839867ae5103e",
+                    "name": "Viva Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJta7UhPQZDTkRC5Zvkf-Lh4o",
+                    "reference": "CmRgAAAAqgt61KK-RdlsIb_uhXjR9QUNzs9Hq9sicXMUtCCK43Fb_FGIur1GwR8hS3geClRWcyVbkvJv9VrLGiQ52L5hG6eUKJdxV75sVcZq_w0Gbk_f0KjgUtVIFN6XbWU2axKFEhCY_-wYRMxZZgOFFpi_p_A2GhTUEdst1TFwtB89V878_AEyeFc80A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyakar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508086,
+                            "lng": 77.03112399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6bf44992d2a55fd0dd58e9d77a5841e1e725b1ab",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 360,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAIBZjtzx0DHvHPvYS8o31J9J_IjcQpFUgybGpqeLuts8B-gUNZd86MW2wv5JpQjGHclGJHD-VtxKIHNrG2nFZULUs_twozTxXnQ-s92jj3zmqZzuaqxggfLKUHc3u8sElxXClmib-1dbHLSx0htFFsLjuEav8mLBDOMhH7hMO_CWEhBTYS5c3N6MCf3WV4-uuGpoGhQFD3CFgbK9R4cFXh5FDDi_KjapaQ",
+                            "width": 460
+                        }
+                    ],
+                    "place_id": "ChIJPWDtgvQZDTkRtz25qBwxM7k",
+                    "reference": "CmRbAAAACifbvJaGyjd3uDLG7gRf7Tu-1xJ4ec6aPMSkNpvw4bh2gYl4YoWYakLhJ8xRyYxl842NZrFW1jXP-nUb0zLGJVj8W2jd5Shtb2u7AgCkmc72Acjt8MaMpdqwd7E_m7QXEhA4mpJgEnSqemlzUA8kc4h2GhQDLJRCbbVfevqfOaTL5djo21fZew",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. S-5, Palam Vyapaar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508376,
+                            "lng": 77.026468
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5095184,
+                                "lng": 77.02691324999999
+                            },
+                            "southwest": {
+                                "lat": 28.5079952,
+                                "lng": 77.02513225
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e8dfd2e004673ff3fc6d04e754cb941ba1f53b00",
+                    "name": "Patanjali Ayurvedics",
+                    "place_id": "ChIJh3W8ufYZDTkRGLbcdXHAUmo",
+                    "reference": "CnRnAAAAsLva6eSPHLWYkEo1uAhR3ie2MBaesIeNQrJfwzKPqco1jeH_FKQdtTjEpoHm102G-MEqxPwC544ayRxwCGciwuLvx_3wnOOc_KPyvc9jHTYFI0EOEG6yIvTbmYovV-4cPFVw5zrtakoZ-REn6lAl3RIQLFJ73LlZgMAOCfYWG8hiIhoUtcWAip3kJv5d3Tnhb9cKU0R_ZuU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Nihali Colony, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.519319,
+                            "lng": 77.036074
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5193553,
+                                "lng": 77.03624305
+                            },
+                            "southwest": {
+                                "lat": 28.5192101,
+                                "lng": 77.03601765
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "68234634e4c2c4eeb213c05a346a3a7a722b7055",
+                    "name": "Tirupati Pharmacy",
+                    "place_id": "ChIJgyQYgyEaDTkRVqG5S_QEto8",
+                    "reference": "CnRlAAAA0nR_SFdR4bMjZWhhbwdUe7933TOmscdjrGNKMT0kWVvPF-T4jJdDcAq8uJ1xjIcH_CgveOhBufktIGg70OSfEqnDz5Yu4U_PAiQVMCqoT4VBNPcu-q7MzP-BL5usQ61rBlh2dBqSQ0iLLHWJLZIh9BIQ6uWmI2HEUUwHtUeMiAnRxRoUHpansqQEIpXDrUP418OvFKUP-NE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhati Complex,Phase-1, Bajghera Road, Sector 110A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51733,
+                            "lng": 77.036903
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51782549999999,
+                                "lng": 77.03704004999999
+                            },
+                            "southwest": {
+                                "lat": 28.51584350000001,
+                                "lng": 77.03649184999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ece1a95425acd803b62f4bdf05232fb9986ca265",
+                    "name": "Fusion Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTda58CAaDTkRmxPy3O2rZ6w",
+                    "reference": "CnRjAAAAKovkYoRNPWA9wfU_9fk1xfGadQMXylgPxR0-8ti935oqqXZG1OsLB4svAdq4_IgzfcgbBCHd-EN1_K9kdh6Rrc9VMsRqgozhJjd0f39x81ARyqEM_YC4HLzM8YSNtzDiuS2Nqd08TbsLQwKL3dYR5xIQJj7WAsUmTAsEtfl5wyYJPxoU60j7FTmYVFkKHt-mCoIKtadc35A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.3, Opp H.Block, Near O.B.C. Bank, Main Palam Vihar Road, Bijwasan, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4c84fa410709d8fd47a60c6d9866917f64feafeb",
+                    "name": "Arya Medical Store",
+                    "place_id": "ChIJ____z4kZDTkROuJDHrkucf4",
+                    "reference": "CnRmAAAASORYC9uAToUqAKwDcmJs1QcAY8mct6lwrLf-byYpi09aDCWCiNEMdU-Ei3rUIBPQe7LKvOMmP5UE_MudJqP8LMGT1xZAMIKFssuRFZHX5wn7_0t8ZDdqNPFHwSjuiRrixWgXz_zyyyp-Wngm393dyRIQBb0vegBNfTG4nYNSA01nhxoUMSUzMu3QkUpsaCi8wOqKJXNrg2w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "H-block, Near Durga Mandir, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2a9c9416229d199c36cc8ba4b0d42cd3b414d4c",
+                    "name": "A S Medical Store",
+                    "place_id": "ChIJ____z4kZDTkRUrL0cJM9Gog",
+                    "reference": "CnRlAAAA_wG4A7N43bAIrXr6RLdofKNVPSty_0b0S_TcnBzR1PE53HvO34dpRg-AtQQLDMf90xy8q1ijUKmx1EfX3oWJT2MZ5sY9ckB1HdJKLPCnqvs9l5URvmEIeEwu_8awYfVulcR5cESy4pVoTq5p2M4FrxIQKlpNOvR1HaD5sEywLsqlVRoUvbrK1KLez1GCiXvgxJ33JyLJjKg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-113 Sector-23, Shopping Centre, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5128959,
+                            "lng": 77.0410553
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7967992931b01df3ba06a0daddf8134981880813",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBZtfuYkZDTkRcLm66NOqopY",
+                    "reference": "CnRjAAAAECBlwVycsccd5gGhhmaZcSpaGJ7y-0mI95H1g1GwRtk81e9kh2XUtxxwX7n-UGHTegUIYjhr6bW9dLz9lZidPCNErXf3m6dW60d7r0G6o4UWpVOdXT57vqrZZcHOwNOMWExoUzcbDDvYQTJNJrC88RIQZruAVMJtlFZrZKCJgAjVTxoUiL0EGGiqCjspvcDKqICAZOR7i8o",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.: S-96, Vyapaar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51084299999999,
+                            "lng": 77.02853999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51088615,
+                                "lng": 77.02870229999999
+                            },
+                            "southwest": {
+                                "lat": 28.51071355,
+                                "lng": 77.02848589999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a17d86a5ed752b2638398316cda92ec710aedd6c",
+                    "name": "Jafar Khan Pharma Shop",
+                    "place_id": "ChIJgS2yzfUZDTkRUz_NbiINntY",
+                    "reference": "CnRqAAAATPvChXlunFoVu-Qzzheps5RZKDQ9VbfF7X0FxH4x5v7n_wK3L9-Afi9giro1_aEEaoUyYKx2Isdh5jzYi5alDMeElKBDjf1vy6ac3ze0OYT1Azy6u6anwgKJKiO9XWzKbdMGD9YEWdM0hEa2VHcRYxIQAU9raRWkDp5XeQZSP9g-ghoUnGB5swweb01LZ_3hhpaxszPa13A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510813,
+                            "lng": 77.025736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb35ba4568e30414cd1d4b591508354512d9aded",
+                    "name": "Vibhuti Medico",
+                    "place_id": "ChIJszW6W_YZDTkRqUQ5YUxpU0c",
+                    "reference": "CnRhAAAAIN2WnGVpHj04bT7lEnNdGZSKFla54VJekiZwAMe-NzFExemMkMKAIZFEO0JOIPdpvXdf02jJbHaa1onV5Xyyzg4x6rkIq8aSqx5Ul144JcfSIuJoUQqX-IQeYioC34C47Fsaw2fQlZgCSIw2rS59BhIQWvXDd13HurQvYWc7tJXkpBoUBbugwMjSOEljc7SxbPPLTe4_XEo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Chowk, New Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510081,
+                            "lng": 77.026699
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5101643,
+                                "lng": 77.02673490000001
+                            },
+                            "southwest": {
+                                "lat": 28.5100503,
+                                "lng": 77.0266017
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5474a1fe425ee1a20dfa6befa035452d899fbf5d",
+                    "name": "Shivam Medicose",
+                    "place_id": "ChIJEw0zifYZDTkR9nRw_xa4NR4",
+                    "reference": "CnRiAAAAvOyD_Cmg4npR2kxMr2926q2ln45dkTSoH9KpWvxcHLKNAZEcalNZfWa1YIpa6PkgfotXi4eTsLRYXW61vj412bfY1qSj1Q5ND5K3yT9cJaReJM5QSau12troaVQ8_-Bs5UUYuO0MmHui7O3cDGWsvRIQsj2YAk_PFjuot98JFV8xpxoUM-q1c6fUFYBjU2fPpcrBM_89lTk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5101599,
+                            "lng": 77.02593519999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51021225,
+                                "lng": 77.02620835
+                            },
+                            "southwest": {
+                                "lat": 28.51014245,
+                                "lng": 77.02584415
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e81f1b38df845039fd356930310cab7eee065038",
+                    "name": "Dev Pharmacy",
+                    "place_id": "ChIJo2rN9fYZDTkRlleBaOqGlLc",
+                    "reference": "CmRgAAAAiYWVLRK22VMechAzXB3Xbk2WtjWHh3P7HMbF2k7ZeGJfwuTesgsyreVo7ELGzog27Q9etwJQFGaZejEzOYOvVneL5s3PTXwImnqRngrvCFLOR-mPzQPcXm-ttjOthKrtEhBjHwlh7w-Jd5Luekz-BL8_GhRs9RQ8JgmiFoFKJvtZjtf1iqlTOg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508735,
+                            "lng": 77.031058
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50874655000001,
+                                "lng": 77.03129570000002
+                            },
+                            "southwest": {
+                                "lat": 28.50873115,
+                                "lng": 77.0303449
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2530e60c3a01dcb1adcaba33ebe26b5c6b1c7c94",
+                    "name": "Simran Medicose",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOYJ5j_QZDTkR1zErKi9pXDY",
+                    "reference": "CnRiAAAAivfcPiw1zWfoSEYtwl_g_NoL8VD0re9oVN-iOeN4ZykDBt8ua8y6Inc8tg0aYFrn7ud8Mlo4HvzL1FPhyrsZ4eaJqtfb0fHr5m7WaRV3aKT_sGVXGXO7Nkw9D4IkOyEdH_Y4owGmPG1dikDgpDJS5RIQo-CGMkJuifNnGmKCBzWDmRoULinYEHMGPI2hEbclIfrSS4R6LpE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vaykar Kendra, Main Palam Vihar Road, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508707,
+                            "lng": 77.031244
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "27edb689a4d1a91a1bfa7d316ac2a71c643d5fd9",
+                    "name": "The Medicine Shopee Network",
+                    "place_id": "ChIJq01UhfQZDTkRmArzeTYhLdU",
+                    "reference": "CnRvAAAAAs4PFO1OZbrwnZhgKOoRKNd3wzi2DwovsoSvK-7srBQrWAeDxYyfq8Ut6chi5_10dnvpiqMZb4r1aha8vb7yWis-LvQ9FUTf-SUBJsL6uCpka7QI2K3xpUdcIZuoLyTpNlaTYGiJRA6tHRjJcfXNExIQyu5XdGZyuUakPh8pke7o7xoUsRXor2HsTlnk9Wj0HBFscMjoOJo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-156 Palam, Vyapar Kendra, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508636,
+                            "lng": 77.031375
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50907335,
+                                "lng": 77.0314494
+                            },
+                            "southwest": {
+                                "lat": 28.50732395,
+                                "lng": 77.03135019999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "173678671404fd47cd292cfb0580d6f4bb8363d7",
+                    "name": "Pasricha Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102305699560685182023/photos\">Pasricha Pharmacy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHS9G6H2woXVMffzQh1T0xGdiN3VoZbd1gGp0DT8mTjU9pBSei1erT7O8nYrMjNSFozogvtkZs17hJymNJWHUm6IURrPgXHzPxlCUjs3dAJ9vD-4EMhiHT7hrQPHNF-nnQCLtB_E7o8iQ1EnMgsUjoD_kDPHRIPp1Z_hWhDt0kM_EhAjMK8dS7kqZ5QwTZ6W3E2pGhTmU5J-el_RyiRsT1RE8vAMIuZEcw",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJNb5XmvQZDTkR3u543xuyNiE",
+                    "reference": "CnRkAAAARf9vA150buoXni7uC4t-Md1mBRd4lWh8o9aJ4wLsmj1Fnj04BUJmsHHSNf6jIJl5V9s3CK8lrLTeTd1-n_OOK3fYk4Her07lwXYLPWOlVPPoiXgKGOgSRV2IO-8yv466QsTnCz7IKliTIs46ZLk5_xIQI5_lCvD6U8XnUm9QdmKOXRoUH5SNetnB8ykJNFbP-jH_9yngcnU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-158,Palam Vyapar Kendra, Palam Vihar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAANio7PZm0T1NR2VBDetutxrHRRszSaQKnBi4ySSfk3CHYtFfETN8hhKjW7_zEvdRjMt-v2Zd3DvbqA6zIMQTb902BelQj49I5UQBJjsd1Z_OaAl2fnLMCHTpfH5atRBze4M3kgWU_h2UKeyhydocIZXEMEBiM_UY4WHXrH8LDreLepiIdOgVp1bXxDSvvTzbXR9SshVZFvvst9enBrmSQpwboq6Bc7YIJzyBOAIaj3s-9_9zJ3hGqYigA0jQpm3nR1vNtrFCOYTmuPNG7Zi730z7LPWYnvVnrAKPAGXe9gDNzKxfUWIn55_ZorrBhILvL9aS45GJNcuH6HuoHL3ZnfASEFWpb8lFNuSe4SSNmdQLyxIaFJQJkaYbMTGODddNsWS63cc_WNg2",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.509096,
+                            "lng": 77.031778
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8c2c29082d936b9562232dd1311fb8d34a68c7c2",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJA4eGlvQZDTkRLN7eFw6WF_8",
+                    "reference": "CnRlAAAA9LT8dUwvSQjs7QdYc7vCNqMGapp4z3h5yHJtUZNHlc6PDWWtho-PbewsXxR8uTakpErueehSj3YJ9erIrY0M5yNxyKsgq509Mp4zVMUNzr4Bs1z9-h_m2QUtkXmW9vP3-GLH2NXAZUVVi5oNrFXOaRIQ-RSnHqi_9vh3_8Qi6sy6IxoUHZZhRA1KK7bq1k1uxEjouJnYkAk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C- 112, Palam Vyapar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508376,
+                            "lng": 77.026468
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5095184,
+                                "lng": 77.02691324999999
+                            },
+                            "southwest": {
+                                "lat": 28.5079952,
+                                "lng": 77.02513225
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e8dfd2e004673ff3fc6d04e754cb941ba1f53b00",
+                    "name": "Patanjali Ayurvedics",
+                    "place_id": "ChIJh3W8ufYZDTkRGLbcdXHAUmo",
+                    "reference": "CnRnAAAAvA52JobrAF5kW981xvOvha0lEyibj7jrmAiDSPFFunfeIurLwegYHIigJqvZb4ndnwXwiNc9J7pJVnPwwOXD4hexCIvr30Gkvo00FxYEqz0f_iuLEsc9lkyie6r2MT1YYIcceqDZs3gBaexL5ppniBIQcUJYEpfIT0dhLk3dvG3_6hoUUGn-TuHabamaXDavIMQ4Fh4cS8s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Nihali Colony, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508086,
+                            "lng": 77.03112399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6bf44992d2a55fd0dd58e9d77a5841e1e725b1ab",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 360,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAALeYU-39jTZ0LLaCft7VMyIxmssrmj2rXaYPIRFILd7gjc9t3Cnsa3L4qRUysvb5UFUA1g_wBtYYp6e5aWux7d07cyQa_OSPhrrdfdCbEsUjJFl_aYv3_PvhiW9QqZUNvIE-YYcDzSoF1YlaeiNFl0RNQLzGHtCwoggK6V0fB8TtEhA0ThMyG3PzeWkHIEYExVRUGhRPv-Sh1MHzHTnVQJNr7bp9ucQ-AA",
+                            "width": 460
+                        }
+                    ],
+                    "place_id": "ChIJPWDtgvQZDTkRtz25qBwxM7k",
+                    "reference": "CmRbAAAAXeXOw0Zpg1K8emZ9U2uHBI2oGREUaqVAnLEChXnisxjLftyOZat6ZrxaXhqqTnF70NTR_fcg4-a-OTByQ47J51thkW-kzgKwdrAIvRuya62hbqRsB5gTa0cKKZXIuU82EhD6AoCWRff9L-CBE2gE7zmbGhQyJvsOqXa5K_sMlYCjl2f__b0a-Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. S-5, Palam Vyapaar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5115393,
+                            "lng": 77.042141
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1a45effa3432be201a1ea1cb23bdba12dafaf7fa",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJwLv4OtxNxJB3M8CsY2RIftSjyFxLOn_Je4s3vCtmzvOsMoeL3zailBxFz1fCKQiIA6Agdmn6N3utvA-0HtIbQFszJmNnBX9GL4Qd6H48nrr6hHoX1aKP6HPyRv7gZXVSf04vJodZrKwllSgTjnlcqo0AHfmMBgjJExUDXSn4YUEhAIHW9Q-9O8gLRxzH9v-GrDGhTZWt-40MeNTcW899LgrhDmRbBkiw",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRUAvAokZDTkRsQSvC5y08eM",
+                    "reference": "CnRlAAAAdp5o6jKTEh_6S0ZUdciQOoupOU1uj2UOVzfZliXRgm2sHGUqLTzM0hk8AruUF0FOgS-M5wgAenEcwXAnG0AQUso6aI7NbmRdQ2SA2nPPtDbkDgK4aM6ABU3BooBKcbRsGLcqDFqxNCbZYDtZvwEm0hIQzDv0FolNK1OjPxO2DENG9BoUdNN7Juz-C_qWSsbk9BBToJKioxw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 21, GF, Ansal Plaza, Palam Vihar, Ansal Plaza, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50887849999999,
+                            "lng": 77.03125550000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b8f872557bc156db73482222aa3cf8e50debb511",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJn6Pbj_QZDTkRGqt91NJ2Fss",
+                    "reference": "CnRjAAAA5Mb6svohI_3zeO_qQT7S4iK5HiaNf2ddB-Tkvi2o3VOePsGsmF1MCyQP8kxZAM17LMDNeequOFnJDUhD7WaEjMuefnPdeb8luZEa6KXJY-Cgd-6eqSbxkS_Qp6mvnebqhbrt2y8kQdBYVbX_UuzX2RIQmWeah08-N6mmgIWRpiGw1hoUzgiaQiqwoCr95uUR7ZhgKsmIarc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra C Block, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5088336,
+                            "lng": 77.031657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b3608ac64962a0ff22158ac82b09b5195fa8ed17",
+                    "name": "98.4",
+                    "place_id": "ChIJq01UhfQZDTkR02XV6Mh9BGY",
+                    "reference": "CmRXAAAAYARNCRsIYHsGsyVIuANXB_7_AFsaGn19ZmCKb2D3hM9T7NnMwWE6PVc2uHFN3ibvTyWKjE8GbwL8iEUuTW3vhrHBUv_1rqIrylezKWZttvdqAkfCnchmHOc1F5Th3DcEEhASFbFaYBSZPPjyY2luAQ7fGhRy02QKU9ZH2uRnb-J1EWr2CFU2tQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-154, Palam Vyappar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5085332,
+                            "lng": 77.0314164
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "944c84cfae28d152b5d2ebe2df9dd1e5d9ec242a",
+                    "name": "98.4 Chemist",
+                    "place_id": "ChIJY6oGm_QZDTkRoiEiee30njw",
+                    "reference": "CmRfAAAAJ_oRWiid3N1cLfT2ml7St_1bnXS4xkb7pzeyKOtvxxEWCkLGi-GyS3d5tI9O3DLbAnA8Mbk5GcBRLwB4KmpgKOKUcKEnjQPgSjqubduGaQ_YpcTF5lb8b7IwOjwdeLfnEhBgR6j8mqV3sDj63D-Q1tymGhSp7CKitum-iEDD6Yqpw9pEm92kgg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra, C Block, Palam Vihar, Choma, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50852,
+                            "lng": 77.031257
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50853635,
+                                "lng": 77.03159640000001
+                            },
+                            "southwest": {
+                                "lat": 28.50851455,
+                                "lng": 77.0302388
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1bb37ee1fabd68d70406fd739bc839867ae5103e",
+                    "name": "Viva Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJta7UhPQZDTkRC5Zvkf-Lh4o",
+                    "reference": "CmRgAAAArZ30s0uBFWwah5krM4wdxEcttaR3wjF2FGpv2-oeKBZ5nZR1Vl1bL6ZUCCfjkUXldK1tYJdT3FwslQN509a-dWow6rVfiotlXUObssfVbFfF8eeufuu8n1PKDs1E49hMEhC3A1w6-PL83SzQB8WlUHm_GhRAm2nSxZ1LYxnQkDOy9Q8YSuaIgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyakar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5076558,
+                            "lng": 77.02766
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5d35350b57560751ffc4d45a332a6b4e7dd120bd",
+                    "name": "Flourish Medicos",
+                    "place_id": "ChIJq6qqqvYZDTkRMjCcwXY17yQ",
+                    "reference": "CnRjAAAAjVzCvIhbJ_82u0hJ_3TqtAPWpDwmKeJDO8cK3y3hT33pQersIGJKMN6wELHyf_a9VEQuwHraF3vHITZHeP63R1bd1-wnhBlobuRLI-3lxdOD59MAM8-lrT37CDqSL41reRKLyRYYZlzaK11L4Yw0UBIQKb7EgPCKNb-gnF0n3sDn3xoU_ZMNxWgSus9TeqpQIDoURYfMr2s",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 71, Huda Market, Sector - 23, Gurgaon, Near Om Sweets, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5105942,
+                            "lng": 77.04905839999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c4b3765384dda1b6a721457131612e5c5957cf0b",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKDujV8X8E_Q6vR_K4uA_XANN6vY8hIwTktWSDkho_F5ChA1alSg1ZzJd6BPhyFGFB-mgAYOSLGwJNuJ0k2MylVJF9tUx40YpU0pEYJx35HQz8fn4Yw1BYGxM-7YI-eg3Q8Js3DJ7CMDhNLD_KJu-Yo6odmcL-v3byXnwK7WCFI4EhATpRHf9RdWNL-dWy3u_bj3GhTB0VQf7oRGTTIWRJTH0y5CfP29yg",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJ4awrkYYZDTkRdjK2DnyyTR4",
+                    "rating": 3.3,
+                    "reference": "CnRiAAAAmrCxa4TZ_2JeBUMhsySyW_eVxl0_1YDdyJTzBEoxHvflgB2WWFdWBSSkPg_Cl7vRdyB4pSCjaG7TepIINgE16xQLlQnD8so2BKznUWfRdDe3q8cimJu-zWaB5gH7tkvmp3uyv3OMUtCsaRDqOPN7ExIQ24gE2swTV7Faid59LCezPhoUO4yVax4yJgpUqYZHqmOphS5t2aA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 3, Sector 23, Huda Market, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5024258,
+                            "lng": 77.0293617
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50249059999999,
+                                "lng": 77.0293877
+                            },
+                            "southwest": {
+                                "lat": 28.5024042,
+                                "lng": 77.02928370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "808927380d18f5d430cdec6f87fe2d469b4416c1",
+                    "name": "Helpline Pharmacy",
+                    "place_id": "ChIJ_wEZdPIZDTkRge2H0s1wfhI",
+                    "reference": "CnRkAAAAWvG76JTfNOhrIKUCMdLng8WRKsZJrT6P0bdtLzseQOfjQn8jzoyQwz6kMTAyCyLnkMkEQ90_V1PN2tkGaGWct88sf-fMf_O_dJkbiZxE6UUM8BmHHOooqOgBJP-FCgTNx8dBkBg_tMJims_pdSiSPxIQ4LnkO8SaPqEtjZX4gGQg0RoU8UqDYjCP9H3KeAJmIKeK3hhMRw8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Carterpuri Road, Dharam Colony, Palam Vihar Extension, Alla Wardi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5437993,
+                            "lng": 77.01634489999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f9b9ed01b9b9a42401fde13bd71667a3ff84d5f1",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ3558KnEaDTkR1RZ72KQcLdw",
+                    "reference": "CnRjAAAA8ndlEvbzW_Lq30noc77ZyTWtsElBAg5GCid1iJ5H6f4kB3ieHGVAckJtUP0S01Mj1EUqwfc-WEF5xPOpuF144iolrNW-s7n_Uu66dTrnfEa0-_i3dL7y7R2CyZ_13d_YWvi_x55qn-EJ4lXf-SSlLhIQskyGRtoC1aC71fbaBla4GBoUxLQ9my1rZPTGD_DOd0dKCbWTQvU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Booth NO.-158,, Sector 31, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.519319,
+                            "lng": 77.036074
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5193553,
+                                "lng": 77.03624305
+                            },
+                            "southwest": {
+                                "lat": 28.5192101,
+                                "lng": 77.03601765
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "68234634e4c2c4eeb213c05a346a3a7a722b7055",
+                    "name": "Tirupati Pharmacy",
+                    "place_id": "ChIJgyQYgyEaDTkRVqG5S_QEto8",
+                    "reference": "CnRlAAAAIcrEzKtl9doB-pOTRPH5HNAjRRyS42aIw3gxxtVDfGfOQ8lMI1FVZvci1SJIIVcd-SZj4q-b3NdYjNUmOihme6kTqFzgF090f_bPLwUr8Tphvqa40x7eoSRFHKZxXKe9t2lLCl861fmfeKB60kOlfBIQA3cW4Vs50uxaH9SYjpovpRoUkUix8q8nNRAyYjYL71T1Xunb_PU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhati Complex,Phase-1, Bajghera Road, Sector 110A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51733,
+                            "lng": 77.036903
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51782549999999,
+                                "lng": 77.03704004999999
+                            },
+                            "southwest": {
+                                "lat": 28.51584350000001,
+                                "lng": 77.03649184999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ece1a95425acd803b62f4bdf05232fb9986ca265",
+                    "name": "Fusion Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTda58CAaDTkRmxPy3O2rZ6w",
+                    "reference": "CnRjAAAAapv-FjNQsQ-jwT_HLft8mdUZncdnhpQDiZgUtsaMQdWW4qKxxT0Qa61W-rj__9bTS9DdvsIPTrQTujfVKU_ODfoY_gwS5E-MMqqIdwxZi2WNZ3mWWEctm7C6_78Wsx3VuLaTKNNVusm6fsw2-IgbkxIQk8c86JrkEM3uPDp8Fv6b2RoUKknCAFCpyj56tyhRy6wOT-MEBzE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.3, Opp H.Block, Near O.B.C. Bank, Main Palam Vihar Road, Bijwasan, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4c84fa410709d8fd47a60c6d9866917f64feafeb",
+                    "name": "Arya Medical Store",
+                    "place_id": "ChIJ____z4kZDTkROuJDHrkucf4",
+                    "reference": "CnRmAAAAoHQ1ck1uvjh_WXcCeKMhqkDH9KqfffGRy6WtawPrRfVgMHH-_hX36lpfWVwCJt0Mocp20YY5RaED3ESFxWK5SzMvXDxdsfQE5Sz-C7SRtwp-XiY4H_teNh9qPvbkNSQEZzbRFNn_0dJlXRmpXs74jBIQpn-J30XfYd0HUpav14nyIBoUs-XcOv3WBcPaE27jaL-vhk7qloI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "H-block, Near Durga Mandir, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2a9c9416229d199c36cc8ba4b0d42cd3b414d4c",
+                    "name": "A S Medical Store",
+                    "place_id": "ChIJ____z4kZDTkRUrL0cJM9Gog",
+                    "reference": "CnRlAAAAtrPCArztPOkntTeaiOx8oLbDXqG9DiIYnmoOiSH2jG2ReDfN8VyJbIapVTPQX0nQjauso4_5YWQc_PoOnLZAj7FivADKHuCIvVBM3tkXqg-BekToE2JWtKeBbu0-1_m1h1bjOe-xCeaY2ogKzCheuRIQ4l9Y2B5XYEst98WlrEPo-hoUIcW3hFQbg4Ur0zuiGy3V7BMGFA0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-113 Sector-23, Shopping Centre, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5128959,
+                            "lng": 77.0410553
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7967992931b01df3ba06a0daddf8134981880813",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBZtfuYkZDTkRcLm66NOqopY",
+                    "reference": "CnRjAAAAYpwfm2gO3n2i5uzzZy4M2gc9CYmCtg3qidWGoh2QG8a3Fnt5V4CKDqeAKjmALh1iyAdco5TQu5cADHL7xNp9qttS0MjXso8uR0sqFHWNF4kVLdtyK7C54T12WfYPjIYFa0RxY7l4SLeOzRItbM4_gRIQnnCpnZ2guiJyWYYPUjCU4BoU8yuBdixJm-3yPGjLiS-bmFCDI-M",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.: S-96, Vyapaar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51084299999999,
+                            "lng": 77.02853999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51088615,
+                                "lng": 77.02870229999999
+                            },
+                            "southwest": {
+                                "lat": 28.51071355,
+                                "lng": 77.02848589999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a17d86a5ed752b2638398316cda92ec710aedd6c",
+                    "name": "Jafar Khan Pharma Shop",
+                    "place_id": "ChIJgS2yzfUZDTkRUz_NbiINntY",
+                    "reference": "CnRqAAAAesixgzRLxnDCGRWy9dBB_2qatVuHB9TZ8qRENI-PtCf7YO_5W8_cK2P00G5d7sKJW7vShnnNvtw_c29JIGqTaobOZOr_8kvbdETcv15KPtUNMiEqRUZmoeG0vy6RlkeKAfNu-dVJlzaPq5EUMOg0tRIQdr18z5jnCcRkR46J790V5hoUF4nDQmuidL_yb5whzheHjksfFxE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510813,
+                            "lng": 77.025736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb35ba4568e30414cd1d4b591508354512d9aded",
+                    "name": "Vibhuti Medico",
+                    "place_id": "ChIJszW6W_YZDTkRqUQ5YUxpU0c",
+                    "reference": "CnRhAAAA7Sz05UKKESInilKu2sJ4KQjJy-XCrP7hxvNSHkLFC0RGIk--FCJhlG8N_X8xv9O1_3tUElv3vogIAlTj6HBfK3Cv4-Nx54IJ5azk2cz2CyqlbCqUdeRnoKYLhvYnabwWK7Lfxt9dSiEdoVxZtE7zNBIQIwYkgCc1qyRjD8bxqxUitBoUcyPOpl2pjgGM03BCQGJ8NC0Blbo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Chowk, New Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510081,
+                            "lng": 77.026699
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5101643,
+                                "lng": 77.02673490000001
+                            },
+                            "southwest": {
+                                "lat": 28.5100503,
+                                "lng": 77.0266017
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5474a1fe425ee1a20dfa6befa035452d899fbf5d",
+                    "name": "Shivam Medicose",
+                    "place_id": "ChIJEw0zifYZDTkR9nRw_xa4NR4",
+                    "reference": "CnRiAAAAcLuHorOlVrMFRY5h6VwNPWerXVuNIep2d6UqoBPHl00OC7ptqo7XWnqZAhjIHIIvuV45td5TgbcrNESAPb8y7z8x6089YUZMGLPIoLx0je42epF9ff_uF3CrQO_wh1bzIAewKywtuPsj-VbU6-F-ZhIQpl7bQkmUh-rhpCjYryR_ZxoU1rAl6kWut_VwkH6pvk67W1IpnMY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAPKQxc4QBiaox5L8cQ4P4pXUq7yc0Z3hAc45G7syz9EScWjC15FbNx3kLjRl-n4db8k2EAo7iNyNCMfR86mBNaB_qRgAmIdBfP3rMH25TOoSjZTLKd2oQ1LAzHoH6LYsfr3ezUVKtBK2zhMsM54yTMtWR5gE2DsdYMyH3yIu0v7yyabOgIzMYxzl2McoFmvMAa1w8ULwB4D3Cg_kiEocPQipNoMRtMJrI8WotKKpILzCNAvT3b0jweJO2pBs556DwJZ05eb38PojEqbpmnuMlI6GLKol8UDt6NlEbVScHoERJFwTKbMnAI33H6HW4Qji_VxV0EosIQm_4MQzeyu0DzcSEDfMq8tP3Be1UGFkvRQFtoEaFODYCjcYy2NJkrE6QC_fRAmakU00",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.509096,
+                            "lng": 77.031778
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8c2c29082d936b9562232dd1311fb8d34a68c7c2",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJA4eGlvQZDTkRLN7eFw6WF_8",
+                    "reference": "CnRlAAAAwYHpTzVssO7gnRdPiZKgEecHwmDnfsxgf4C310V_jI9c7h4OLAo5R3QdXqDT3XJ-FRyfvEazjo8m1wu0522LJiG8mE-HEEiSvmrNAL_DWF5QyL19AlBLBBizowd4swGi7wKPi2dEwvT4UPrw_LONdxIQKvFYltHxZwG7yrPNLrIfXBoUjjOpD8L-wkHb-mCg1Uph6MbNmW4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C- 112, Palam Vyapar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508376,
+                            "lng": 77.026468
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5095184,
+                                "lng": 77.02691324999999
+                            },
+                            "southwest": {
+                                "lat": 28.5079952,
+                                "lng": 77.02513225
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e8dfd2e004673ff3fc6d04e754cb941ba1f53b00",
+                    "name": "Patanjali Ayurvedics",
+                    "place_id": "ChIJh3W8ufYZDTkRGLbcdXHAUmo",
+                    "reference": "CnRnAAAAbwbfBxg3mEFkX3R91pTZcE5AUqoWYaHVBdTn6flF6x4FJX1D4lOxlcM0vq2E-LY4C35N46d_ooPQ2fczzBqXFh6YKsY41AouYh0W76R00-5BHDU6fwcNY3Eq8RGkgWy_t2TqrYI0J3kr921l0280hhIQEGnDV0hEaJa40QCQIdV8YxoUoA3cl3oQQgdNP7soZC6ts-1homU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Nihali Colony, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508086,
+                            "lng": 77.03112399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6bf44992d2a55fd0dd58e9d77a5841e1e725b1ab",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 360,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAwBHaoSggrrNGP4lPmOI5mra7w4g0VOUhIinJjxIiB7B-adx3c4X-eSFes-0wWIkdUnd4avPp5WsPHGEr7dTbMNF1EgKxGcs5WTm2OeaU-7BAo3ERR8pYXm4dTW851Vlf0sNUk8i8_YCgIf3yQrTf4dEoupd8mWrg-qCHEHd-JuEhCABCVtNGzitFZUJcgpaCCiGhS8GuC85UuQIEaqEXiSBR7l9MEiRw",
+                            "width": 460
+                        }
+                    ],
+                    "place_id": "ChIJPWDtgvQZDTkRtz25qBwxM7k",
+                    "reference": "CmRbAAAA7G9AwXwLKVZgoRA0obzrOZ50oKEtnWvhjFn7SXWvJUaMHwqgpayEvuGuiwvO92piWR-HvbZ5ho7QbL7KqKhG-oUAWdvksnaVrfHGr4eU9JNREwisadkBow1qm_UqSI4SEhC9yeIvfXbQtxAx-VYL0bONGhT3V_P-1Ufr41iZ2Xqow0su29_qEQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. S-5, Palam Vyapaar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5024258,
+                            "lng": 77.0293617
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50249059999999,
+                                "lng": 77.0293877
+                            },
+                            "southwest": {
+                                "lat": 28.5024042,
+                                "lng": 77.02928370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "808927380d18f5d430cdec6f87fe2d469b4416c1",
+                    "name": "Helpline Pharmacy",
+                    "place_id": "ChIJ_wEZdPIZDTkRge2H0s1wfhI",
+                    "reference": "CnRkAAAAM5MfNqUUFSp8A2EhG8uESN4jjM8hox_xNlDct_pA9pqZfn89H7bYyPk80XPqxuen6jMMQcjGIn8XdW2VMsDv_MWGrWyblnNwPERnRl7500w4tw6mlqKlanmoHYAZYe59DnVfPwH-9vWJg7RIrpAtwBIQ6ZRILq-JMtC8o2MVgRFYcRoU0U-qcrlawNI-mDK_l81gJyJ9oIc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Carterpuri Road, Dharam Colony, Palam Vihar Extension, Alla Wardi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5115393,
+                            "lng": 77.042141
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1a45effa3432be201a1ea1cb23bdba12dafaf7fa",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKlLEdHdndWyJorIRERAJ3oWnWZZvl8YcrHnBJAqWARNZMWBqUUZvlKvL72QkUE2CgyUqf-MGdS6suzYmTQHvbh4JU3v0kDKkHRELbGjntg6nYqo76xjQXwYIBpFYxtrFF_Iw_7qKfskLjEJpW_rOrk67coUZFsNzfgrbmbdGdeDEhAxvBYTCZ0EFG4lI18f6KTsGhQVwwCUY_XkTjkDON5tJt494EJQrg",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRUAvAokZDTkRsQSvC5y08eM",
+                    "reference": "CnRlAAAApQj-phGHljv062eWsOej59n7qHStTHFNYw5EGgqGnYK4uabe0jTLpDYKCsK-dVW-a9SYEW5geLOt6oOreA9Hv9E3_HHfb7rFXE8m_s2AAzNy5EIY62VI0SRXhGRFI9XtHWXLDIrLGNpqBUoKIbFUsRIQ07-ps1tSCSp7WMTxzAyFhhoUIEaB0Jsnj7D5KHDEb8GvQ4-rZGU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 21, GF, Ansal Plaza, Palam Vihar, Ansal Plaza, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50887849999999,
+                            "lng": 77.03125550000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b8f872557bc156db73482222aa3cf8e50debb511",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJn6Pbj_QZDTkRGqt91NJ2Fss",
+                    "reference": "CnRjAAAApT80oFkVeppZMj9DOvxst0rNs5Q-tp2NpwLdB6rT8bbDN5UK4cD-Ngwcxp55dZ6PjBoI9dOvtwmfbpvZUYmhisf4aZ8iAFyPQ7AEwi4KxklA7fXQZV3zjFIR5gJZoZ3p_xjvgNkBHReXaKBo4UvglxIQvFE2EthPZ1GU4jjfXmDLQRoUXrcdKmkB8GjPpVIGLBf2QP8nnUA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra C Block, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5088336,
+                            "lng": 77.031657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b3608ac64962a0ff22158ac82b09b5195fa8ed17",
+                    "name": "98.4",
+                    "place_id": "ChIJq01UhfQZDTkR02XV6Mh9BGY",
+                    "reference": "CmRXAAAAXSEwiuetvc0ra0vbDdjwSUe_Z2rBV3pSJhFMKD82_9J3h9D0ikzHvjbyjofcCo6TIp4LD1brPar11mXMHy3sa6c1MuwiY9sPX4hN0tHP4yx1dYBSj1FICzqHMzavpRNJEhD44JPzOn45V_NK5bmawvauGhQCFQAqJ0bGEC75jzq2vt4qhQj9Eg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-154, Palam Vyappar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5085332,
+                            "lng": 77.0314164
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "944c84cfae28d152b5d2ebe2df9dd1e5d9ec242a",
+                    "name": "98.4 Chemist",
+                    "place_id": "ChIJY6oGm_QZDTkRoiEiee30njw",
+                    "reference": "CmRfAAAAqjr3YpPlx60dod4MUtQO4ds7szpXepRkn4RM0LDPVAHinguh4bTLJhdNq_7HltDhOhEOGFJMjzR8MJHu3KGaDT6JJbIoFx_CdW2NLQ7ZhWRxVmQxQ9Sw8picVqMmC5P4EhAfbVDCsJ-mJtDJdt6U2g5bGhSukQvpWVkFvwon0xo4aCDQDDZsBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra, C Block, Palam Vihar, Choma, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50852,
+                            "lng": 77.031257
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50853635,
+                                "lng": 77.03159640000001
+                            },
+                            "southwest": {
+                                "lat": 28.50851455,
+                                "lng": 77.0302388
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1bb37ee1fabd68d70406fd739bc839867ae5103e",
+                    "name": "Viva Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJta7UhPQZDTkRC5Zvkf-Lh4o",
+                    "reference": "CmRgAAAAfkg5cUIZ3zPmIvhoUCgIZr5vaqj7Gr2GzLaeseZoLlvDDybAdUOgQuvBfEryPhFrA1BFtHqF-PlauXdHk3R5ZghZL49SkYlJNZ1PKeHB3nPywS0MRiu7Ivs8go6L44J5EhA80WuF_tpArJYACq2ifJqmGhQjMHmEO09auu5Gl-nStJSFpeVYoQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyakar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5076558,
+                            "lng": 77.02766
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5d35350b57560751ffc4d45a332a6b4e7dd120bd",
+                    "name": "Flourish Medicos",
+                    "place_id": "ChIJq6qqqvYZDTkRMjCcwXY17yQ",
+                    "reference": "CnRjAAAAPN2cAV7c3-Rdwc411WIGX18TWbfiZD7lwHvHSa9KqMr6PE0LivQJ3MwU5AHI5iJ8iVrT8xTlUXSsjNpWPU8xt4a4AdC6YMb9TBa4BPGMTAgEbOM6XrXdWOqQ2xRfBTMqw7ohQkt9fzu3tynmANLB5RIQoN1iC13KczWSdimrqGSmnRoUtDBE3NlUANtw6XCbs_Zh9qta96A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 71, Huda Market, Sector - 23, Gurgaon, Near Om Sweets, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5105942,
+                            "lng": 77.04905839999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c4b3765384dda1b6a721457131612e5c5957cf0b",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPWucgFwwKRt-ndhAVuSxRzU8Eob2UxRedj0nJ12NJd8M86VHXQPNoq1LefgX1WuNLxSD3Ng9nafBDgxpI14ZwG4sG21YaMHIhXydzId6C7S8zGlBoXPU0vFu4AIHi6wtmyHwCm0uQ0S7cVb-tGE2O1SwORrjV8h2T2hXw0mp0yAEhBtKsTWOTSeA7z9YPoxVJYQGhRoL0MJ0kttWR--KeVCVHrvFFqGeQ",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJ4awrkYYZDTkRdjK2DnyyTR4",
+                    "rating": 3.3,
+                    "reference": "CnRiAAAAv6ZdwsgkpwII9l_C_x29_DkPoFtPzJ3B2vjXSin9DoW2XLODrHISfF4bkWQ2DC68h_uRuaBLJzX51kbNNG8x1IVoTOVRsRmUW5ii5LFSNq_50KSY-FmESwLIEHY1tCh3YvzJ6YDhOCk9AP9LbdxB9BIQWSC4A_IcEcGe-aqJyWeZ-RoUnudzfgoCZZ7oeyBvj06hIRD2vAY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 3, Sector 23, Huda Market, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5437993,
+                            "lng": 77.01634489999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f9b9ed01b9b9a42401fde13bd71667a3ff84d5f1",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ3558KnEaDTkR1RZ72KQcLdw",
+                    "reference": "CnRjAAAAK4zH6mz30JLweEE6r5Z4iPXbmrKZUHC6gQvKbQnvSTxeYb3csa-IoI_7gAoVRjM-K8fo2sWU8J0RWzBXkVHIk86JPvUwdLKQ00ATSO7rpQ2W_rQJfWy0edsmPKwpxMO_sUGm6FJGQtqnly2Y6Pph0RIQI76WmfBDQJqabqa1LZEaTxoU6oKdBqh0Ao4TmHjVAT39Bl7PNTc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Booth NO.-158,, Sector 31, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.519319,
+                            "lng": 77.036074
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5193553,
+                                "lng": 77.03624305
+                            },
+                            "southwest": {
+                                "lat": 28.5192101,
+                                "lng": 77.03601765
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "68234634e4c2c4eeb213c05a346a3a7a722b7055",
+                    "name": "Tirupati Pharmacy",
+                    "place_id": "ChIJgyQYgyEaDTkRVqG5S_QEto8",
+                    "reference": "CnRlAAAAUJPZRA8nihPXofCOztOxflYKYJZQ6LTdkkkzs30-Orti8KkAG8RvYo7ShnEpAtpCymX1UFympetHpBT_ZnSC4dbEADbFCKLC85rJM3Es5CjzxTFEt4thiuecQk4b27DvReog_9QDnJ_f0ZhUIlqEchIQxauhDU_D0YH9bsQuoAFpmBoURjG-W22oW2E8pws1zx-FFgn42tE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhati Complex,Phase-1, Bajghera Road, Sector 110A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51733,
+                            "lng": 77.036903
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51782549999999,
+                                "lng": 77.03704004999999
+                            },
+                            "southwest": {
+                                "lat": 28.51584350000001,
+                                "lng": 77.03649184999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ece1a95425acd803b62f4bdf05232fb9986ca265",
+                    "name": "Fusion Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTda58CAaDTkRmxPy3O2rZ6w",
+                    "reference": "CnRjAAAAFLP_KOpZSEkrRbaCn2BoIn5Q66phx3hIuBrOo8u-EzstYgiz5URa4ZSI6G4gaSGShW2r60D80rK0y7EvWYOyzO99s_ygKgbGandykQ0m_obNCMcDGIYWHG-pCzAL3kMLyyNfa__l6D_YkA_rVLn4DBIQ53pGqnCiTNxjYtL4JPgAWRoU958an0DfxMu23KOFxGdyvacItK0",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.3, Opp H.Block, Near O.B.C. Bank, Main Palam Vihar Road, Bijwasan, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4c84fa410709d8fd47a60c6d9866917f64feafeb",
+                    "name": "Arya Medical Store",
+                    "place_id": "ChIJ____z4kZDTkROuJDHrkucf4",
+                    "reference": "CnRmAAAAXAAgL7SDI9auJUrZTgiqtVfLXCSPGvS3r1mZq75HxaZJDajTbOK40YTPrYl03FpdxxgFJ3g1AOEvLtUVDrkVKRYX6B2d_PZxs_voCSA8Bx2Eo0m0fMsXSpjVEdcZKlDy3K68n-wOCYkZWaZYsj6FjRIQ5d--IP9FDjrYrW9MKIUqPxoUa0kpT-AbKbx-4Jaxoljsv3qNtj4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "H-block, Near Durga Mandir, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2a9c9416229d199c36cc8ba4b0d42cd3b414d4c",
+                    "name": "A S Medical Store",
+                    "place_id": "ChIJ____z4kZDTkRUrL0cJM9Gog",
+                    "reference": "CnRlAAAAV_67R6utUD9NNaGcT4hHmYygBfeTsiTRwXVncXW4e1ILfrf9SJ7gajzTbA-oOusl4_-CCx0qkfSgnjb4UBuEeJ4GJbg184SDaeTAb-O6wUlcFdy6VNJghq9HnBQK64kUY401riEWCPfq5Zes0hB9WxIQl7YlNvXrpXPhZGZp4LZkMRoUp2vjUY9tsBQwcMxyiE41MdhM_Zk",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-113 Sector-23, Shopping Centre, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5128959,
+                            "lng": 77.0410553
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7967992931b01df3ba06a0daddf8134981880813",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBZtfuYkZDTkRcLm66NOqopY",
+                    "reference": "CnRjAAAANyob0OtMi5f-Fs02LT92R1NRUuP4vOMjZY1e3Jgv-U8zi8-pF7ae0tGnx5px_CQ03lKsTizPF6ajUAJbUdrVLW_GyLF32V1QxE4x_hLG1mOUPcjGvz-aGVrlEbzJ9_i9uw6kebxotn5Gbwrv5R3gxRIQS-e6d-0y4j_R9YmvsnzaIBoUYJHj0xX-ib13bsQ3n0S24hCaAVM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.: S-96, Vyapaar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51084299999999,
+                            "lng": 77.02853999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51088615,
+                                "lng": 77.02870229999999
+                            },
+                            "southwest": {
+                                "lat": 28.51071355,
+                                "lng": 77.02848589999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a17d86a5ed752b2638398316cda92ec710aedd6c",
+                    "name": "Jafar Khan Pharma Shop",
+                    "place_id": "ChIJgS2yzfUZDTkRUz_NbiINntY",
+                    "reference": "CnRqAAAATBtjQ4L41W2HjbJau9H7CanpK5GSJAEteJtf5usggs1SZPGpz57w_Kw91h_lYdALY5w_FCrG2CwOKlZDNr3de9V_NL2D-7UuSz72xnof18QcAS8_tUQBy6tZrIIvRxNndiVMlgSrHNhS2veFqu5kWhIQOCXcIMeNOgq3XYo8UxSirRoUvI--SkA_kOXO2Bc948Lnv9FXyI4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510813,
+                            "lng": 77.025736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb35ba4568e30414cd1d4b591508354512d9aded",
+                    "name": "Vibhuti Medico",
+                    "place_id": "ChIJszW6W_YZDTkRqUQ5YUxpU0c",
+                    "reference": "CnRhAAAAE5Bo413_sdiMOsqOVhUr9RQle9wNlHNTJxJI31mVAEtreV9wNkyN33dBKQKcEWAjIggoAlagGH6rmpOtvUAZuFvTEAkPvorI5Mm1GMGn3iPyz0YoWqyADqe1RKpvC6qXMPfqjUmqg9rqAd_O5cW0dBIQrJsaGMKqK_KvJzvK-vyHHBoUjyyqd97xs8dO6xARKB9zkcaRxWE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Chowk, New Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510081,
+                            "lng": 77.026699
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5101643,
+                                "lng": 77.02673490000001
+                            },
+                            "southwest": {
+                                "lat": 28.5100503,
+                                "lng": 77.0266017
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5474a1fe425ee1a20dfa6befa035452d899fbf5d",
+                    "name": "Shivam Medicose",
+                    "place_id": "ChIJEw0zifYZDTkR9nRw_xa4NR4",
+                    "reference": "CnRiAAAAL1_1SAtYiyl41ovA5Xi8tp1wPsn2ZeOd7iomri3pPIKIyBYHibNCM7fndf78jLeE8sdBVObB8Nrj5IVHjt8qeMviZKMDMse1KCPe4wq6g6AQq1j6vzaMi8Pez4bQ57Yw0YzqXzynYl5OGRWULtQA1BIQEWDf-4YJEWOjwW2LIbYbjxoUwFEAaehuPpEmZ9EMwiw5TcE_Obw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDnQEAAHwDph_tp-kaI_tuvhXBkaua1w77zCnHHK-3boTqfchbhhgQmLxDYWr0zi8euwJ0Pd-ZoZ0T03mO-t-LkglajstqDoUlyAn9gh0i7bE8UUGGxVJ2lF9N52EH3DlpYoL6Pzf5dxJK6r1aKyKtu2qytwcTI3fWE6JAlvNfMeJpdiJfRDRteaO4blVdQgMVewWF7DK4JzHvJSpzeysaLdDFRGjtXzWrHEDQ9kEMkf27nB1GvloA3Tv4Mg2c3H0bjcGYmPoP3QVItm58cSvN1bsWKwHvH1QZwe6p5miZ2gvCuMBLZ8u_tPRFMa6SVSTBlUgum9_ohfDfMFmKiQBW9uiBqfnELlAnGIzlIfM1GcAD6aCKAh_NhT_Y6jsuF3esUMbOo2cDwBSplSdVg1FmYHC7XyiYUhHFQ8FYHpDIriZzm1g9lvAAFVrinAoui0kxjfdGIID8aQsSAjEA2MDIGnQqGIV3qv2KqOEUvQM2EDXfp8_WLhjQWPRHq0k6NnnE53GlfcM3qplm4gwIjQJzDA2y6Qo0U3fUrQYU7RQgSOJbcEFIEhAZCfCwWJeuBKg7A1vW1phnGhSoVWM6a5WI58eOqWyaLL9dp8PZnw",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5101599,
+                            "lng": 77.02593519999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51021225,
+                                "lng": 77.02620835
+                            },
+                            "southwest": {
+                                "lat": 28.51014245,
+                                "lng": 77.02584415
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e81f1b38df845039fd356930310cab7eee065038",
+                    "name": "Dev Pharmacy",
+                    "place_id": "ChIJo2rN9fYZDTkRlleBaOqGlLc",
+                    "reference": "CmRgAAAA3hidqo07mXpHsfIaSuPKzg_Z6cOwDg0HTCFIG7K9zk7YeS4JjSRvqVtj5fpghx3I0wZoGo7muYM5Ycurqdm6-AJgRb48rRiD8nv8MqJGkguajG61DkMsyCkaqzM3s9kaEhBzoTICaz28jdep9TJky8JXGhRMqe2rlWmvGARKlite1Mce2P9pPw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508735,
+                            "lng": 77.031058
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50874655000001,
+                                "lng": 77.03129570000002
+                            },
+                            "southwest": {
+                                "lat": 28.50873115,
+                                "lng": 77.0303449
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2530e60c3a01dcb1adcaba33ebe26b5c6b1c7c94",
+                    "name": "Simran Medicose",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOYJ5j_QZDTkR1zErKi9pXDY",
+                    "reference": "CnRiAAAAQt650JSNJA45qPA1odCxRmekY1z5Ipd5qPGMKQY7BTQcHhqS6Y72Ws6NcM5PNFP344DVPMlu0Dwu9yc7y7Wh_xfJ7I_K1b1hFizfxNAEng4Kr7dzOJjmzydMy57IjsPMV3dOtpZUD4uKSNt4ZRlBfBIQ6kQ-xEEvScHBNodbEetPmBoUb6vrKWUodSLlcM3Wk6XLPi0NIyQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vaykar Kendra, Main Palam Vihar Road, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508707,
+                            "lng": 77.031244
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "27edb689a4d1a91a1bfa7d316ac2a71c643d5fd9",
+                    "name": "The Medicine Shopee Network",
+                    "place_id": "ChIJq01UhfQZDTkRmArzeTYhLdU",
+                    "reference": "CnRvAAAAukcCJtA0uar8Wg-mAsCMWhJs2aU24rnB9QxlpqP5GddJH5IMFHiEuybXXIW9HPFY_EmGkqJ2-ieg5XlRAXbq_gmrnjrZZYQ_Tw35oQ8ieH48QlGMeTypRFwtVB1bdPI798Ezgg8cz_qMrbXCUU7MmRIQMqcXEc4kLbb6VsuvBjQysBoUBXDKIQNatXwWT1YyJf7JhOrz8U8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-156 Palam, Vyapar Kendra, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508636,
+                            "lng": 77.031375
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50907335,
+                                "lng": 77.0314494
+                            },
+                            "southwest": {
+                                "lat": 28.50732395,
+                                "lng": 77.03135019999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "173678671404fd47cd292cfb0580d6f4bb8363d7",
+                    "name": "Pasricha Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102305699560685182023/photos\">Pasricha Pharmacy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPBtum0X1MT-UikdeSd7F3deZ2iuMdRwuuQwm4rfsyhb9VmoJmotZXlHWjZgD0jqoPZUAGp1qWK_ZZyfIqqwV1VeG8-QH4QFwbkm5Bp9Z8f5MLwHINKa_9mECaK0mY71M3avJjnQs_yXdpvK_zQsfPW8AVNxVUnUNM-BBU3evXXCEhBRJINFMf994UlX8iuVHBulGhQxGlT9z5DcHWmNMZJjO0jwUUNYWg",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJNb5XmvQZDTkR3u543xuyNiE",
+                    "reference": "CnRkAAAAHF6kokzN458bIIRj5SWTUhm_TaynJ3K7k6_IU4CpLB4kqoLow3rTLHfy-wzOCCXlGSPPeXBVJtk8BH5RYfrzX1-Aw350po0rEbYP7oJ4rOq1sWWvpU4FxwuRtMmpQU_J2gidvh5yRQa9_NsVS3ArmhIQWRPHDBuLWn6fTXQIAscimRoUoflKWDg4kx3zGCB3ecvJluR7aXE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-158,Palam Vyapar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50863309999999,
+                            "lng": 77.03116539999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2924854aae616e202962e19bb58b53ab7f976147",
+                    "name": "98.4 Your Chemists for Life-Palam Vihar",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 560,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABTsdLQan-mvuGkH-0AG01nyB1dAx8b5iJXC20uBUSDD3pRX2UyMb1haHkgopl1_bZ-DD5_IZ6nfSlD2blW5rDYz1-8xssN_6cHOinMV190u3WxcR_k0jMfDZ1_bOcbXG98s8LPucFIe62L09WsvASjqhXU1HH64zGtjj4Ue7TTjEhBDiBZDWZjE1P49gUNJTNa0GhTSipRQU7Vk97ZNqCdRcFg5DYGmeA",
+                            "width": 750
+                        }
+                    ],
+                    "place_id": "ChIJkWJqhfQZDTkRmGDnIWl9T08",
+                    "reference": "CoQBegAAAFdmYwp4388sS4oRqL2UjXVjPqttU_wHebxPp8SWKJFtN3-I6x3I3DM0j2mfDlPjasVz4eSWlbUwIh32KsOREIUN_xJyz7aGd-mU4mDXfvhVqoV7oo8qddsFHRY5TOLdvA2GLBmwIkS29gMkjIjEXt8PCMBo1Gdha7_rVJmHDIZGEhAGw0yHftdI2AnW9xd89qESGhT0p_zN_3z8SqShplGSByvUNJRIvA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vihar, Sector 2, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50848899999999,
+                            "lng": 77.03113499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50850250000001,
+                                "lng": 77.03141374999998
+                            },
+                            "southwest": {
+                                "lat": 28.50848449999999,
+                                "lng": 77.03029875000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e310922f09b9247c72389aa25a492bf45e20b06b",
+                    "name": "Passicha Pharmacy",
+                    "place_id": "ChIJiXXlhPQZDTkR_GYAzAk5SwY",
+                    "reference": "CnRkAAAA0CakPul2vqbjXeM4N3IRwOcmPRgxdyPywHy0sLW74iGSHfOCDkNV6tJuzPMSHX_q0Oqm1k7kRgGt7RcxiZBBI788wYTUxTU9UamJxGbljuLDKZNbIspBkJTxq2J_tJJz7u8EDqKx0oh1qah_pBEgnhIQI6uy2OMyWv7rYJCs5QpUkBoUsCXulFUElSpPCsj3qibB8x5YJHY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Palam Vihar Road, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5084855,
+                            "lng": 77.03040659999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f1d83534a1de75600a316d1daad0eccb25f9aeff",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpVwPffQZDTkRflHLtoS2CgM",
+                    "reference": "CnRiAAAA4wsOnV7d2FGUDXS1MoBHp3hz45VaVTMmD7loJNMVrJoIzyX_Iiy1WtwbRqKjmpIQIZ99XNLqdIQGMp4owLnVfjtFfcFkKo2_p4HlCr4KaIvF2dQ-o5MopE9nqi1UWlMo7vvoTtt35Y7M0dkDdLlTJhIQDE86A739Nt2vIHWmBRxi_xoURk1aIpsP_6jyfF-Vj7bUdWeyhmM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.-3, Ground Floor, & 23A Market, Sector 23, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508212,
+                            "lng": 77.03120299999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "85331b06cf58ded6d121b47e793e60652112c793",
+                    "name": "Sarvesh Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdf1bgvQZDTkRlUqmYV74dfw",
+                    "reference": "CnRjAAAAxGUBZiCL7VivIKfSp0PYTkMMRGgV2TvfYjC3QYbXXlnV0s9PwSTJWMg_YPQSuQtDhHPwM2G1SkD-G_eNPb1TMo4MydVT64jIQA9shXDgO0aoJfNU9317VkpF9GvQ019pvdBDXxqepnwP8ow1CNIorhIQnvP0RcQM4L6UB2M6uoAWHRoUOHkQ_3-eM4ou1K-VrIWmMKTpapY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-30,,Vyapar Kendra, Palam Vyapar Kendra, Chauma Road, C Block, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5092367,
+                            "lng": 77.02554889999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50927895,
+                                "lng": 77.025701
+                            },
+                            "southwest": {
+                                "lat": 28.50910995,
+                                "lng": 77.02549819999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ad9cd2db940afa488f1b237dbb3ea1eb83c59a7d",
+                    "name": "New Shivam Medicos",
+                    "place_id": "ChIJg6226PYZDTkRL-sGCYzPT-w",
+                    "reference": "CnRmAAAA6kwpMj31EkEuBO_ttxRX45wKxh_zNHSuIEQYiFqBtQjpGQ205NRJ07Sp5izfr9FBsqRcHJpdgRZiD0RCRVw5Lw6FPiQZfXOGdV-GsiAev3gYLgWP3SQpEh8AD-ZoUrkhc87pdBu2dMZOtQzQZTh1BxIQbsi0M5euG5nOMHKleK6hxhoUd5JFItkXsJhja_IbTwvWrXJ8BQ4",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508168,
+                            "lng": 77.031194
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.508183,
+                                "lng": 77.03150555
+                            },
+                            "southwest": {
+                                "lat": 28.50816300000001,
+                                "lng": 77.03025935
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "efd52deb2474f29a4ae69503ff177af42305fa59",
+                    "name": "New Simran Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_8_YgvQZDTkROrLMY6s8fXI",
+                    "reference": "CnRlAAAAjQ97IlHpX4gUVp-6c8_C5NJdMVAaLOsIeAZFjgZUaCUXJh5-fIA1EMPebAF_RkH1e6Q1L5JF9dsmPSNGHwZNnDg1HrBZldGGAl-6-7HqjvW2YNl_QrwlI5mboQBVQaQR6RoInnzc0Mhcf9jM-VRUCRIQJgqoz8gOpOaFfIGbKvi8rxoUFnMOU49zVm1GbLK634FtBonUSqc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A- 13, Palam Vyapar Kendra, Main Palam Vihar Road, Pocket E, Sector 2, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533004,
+                            "lng": 77.05055
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3da09ea91937c903e9e84a4274199a3d568043cb",
+                    "name": "Laxmi Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 899,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103797423292607783224/photos\">Laxmi Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACLqgDBQgJZj-t0tB5yVZI9KS_fcSL8SzMc91ogphrj72ctkp4K5lU5KAZ5NdoOlnmLo7BIpFXYAeY4uberwtaknMZVyrXnWxWtT6ub6vPksHPp43q21t5LBLNZJJbfiE0uLlfoL23xpWi8tpLwK5bpupuJOES85denaUTTeYen_EhB0VakpRUszjF8zM0Tohuu_GhTFMyhRnWMLuuExErX1ia8wlfLWnQ",
+                            "width": 1600
+                        }
+                    ],
+                    "place_id": "ChIJUQ2zezMaDTkRTlM8MOtxdCA",
+                    "reference": "CmRgAAAA_sw7K9BS3teHcInlU3KA5i10_eKYyC2QmwVMxeU0CktXd6HrWITseqZeVqQeHFYuNwDqv-OP6PU1k7pq89dg-_YO4eVvemYxFDsDfmggMF6Fns1vM9BKcsaZyKaM5boWEhBiD71-cLyLbQq7EcV90m-BGhQ_sj9VALQm0eYP2j5wrHATX8N2-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Plot No.1,khasra No.294 Main Road Bijwasan, New Delhi -61 Ph 9810740804, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533237,
+                            "lng": 77.05061599999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bdac7f06f0fc4e54c1c8da8992ff2c1825b95ef8",
+                    "name": "Castern Madicos",
+                    "place_id": "ChIJD3PsqTYaDTkRwCitdvjTgJ4",
+                    "reference": "CnRjAAAAwpgWalnDeiq81OIZ5-CjMS6imoL02U0r_u91TF9heyMVyEWCyVU-Kp8J2AWmGrhdTYCCRxIvyqNwWNW3R0aStZybiW_F4hnjfQG-RPDuhTASyaO0_8klnbSyd_7aKQzk6TvZoTYtAMdUSS4ilNvFrxIQ3cKdkGxHFIcvtFFwUL0hXhoUToAzxHDbyDbWys6b4eDDoo66bdY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Nayak Pura, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5082958,
+                            "lng": 77.0247447
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50840485,
+                                "lng": 77.0247864
+                            },
+                            "southwest": {
+                                "lat": 28.50825785,
+                                "lng": 77.0246248
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3dd99092b9e9a6493a6d03f7bfdb0da426ff88fd",
+                    "name": "Annu Medical Store",
+                    "place_id": "ChIJpWxwJ_cZDTkRZazdKvaW7l4",
+                    "reference": "CnRlAAAAObySWyaEomvDGe_npicbtoLZOTdoklOuYkprVGk-yCN0AmIosuPM75Yk6P3ELqypC_RmJQZ3tcxEl2w0BW2LxxeRIRwV-mxCO-RpndLdajrbhccA4OZuihBXMJdE_CPx0mfxhyiOezaPx3_yxQZpYRIQx0WksG4TeCcwOhxLmWVPEhoUTis5_QWFupPJ4XbnJNv18FaVrmE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533208,
+                            "lng": 77.051414
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.53325265,
+                                "lng": 77.0514317
+                            },
+                            "southwest": {
+                                "lat": 28.53307405,
+                                "lng": 77.05136089999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1ec0ca5814ae82021b5435825cd0628e513e1e5f",
+                    "name": "Sanjeevani Medicos",
+                    "place_id": "ChIJhxOoCDQaDTkREVV6BCq6krI",
+                    "reference": "CnRmAAAAu78q-RLz2XxgKlSoVs-zsyVRShr4o2XIEJTXXhnaY4Z1RpuzlEqz_wVLB5TYFyXrvNF28ktotD-MErjHVnrsC7UlcTGWjWhp0-OZ2yuKBr6RuH7GV0-SnzRucOlA8iAyFSYCIjkFI-RoigbQimIfVhIQ577o8xrQxpxbXwfJZmgmoxoUiUE7nOJQFIwrbGiv7xVgo1uHJ44",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Najafgarh Kapashera Road, Nayak Pura, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5437704,
+                            "lng": 77.0301123
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "03eca7a1a78867b2167bbf379cf2fe384403b599",
+                    "name": "Ramdev Arogya Kendra",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ99SwDGkaDTkRl-c-n3yhBNw",
+                    "reference": "CnRoAAAANBgpYz-zCzZXq-bgKXAJYr-SmVvS_oqNVFxxTc3CtVrjgus8oe3zNcOqzaSTjHhERrLUmaJxwdu5iqn0M34Sbc_ZE1JFfzxrqxL-f9CU2lcRl6_ci19tvsxQjuQfieCplE0MSI93zt_YZDlGogUIyxIQ20zJJjNCv8Ad6T6NN_hjWRoUGBn-QnjddLmb8xWZPwgXOGrUDBQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Unnamed Road 110061, Bamnoli Village, Sector 28 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53204,
+                            "lng": 77.052562
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cb24c8482675d661f01cd0c951ec026d71d54135",
+                    "name": "Pal Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/114962181280861014117/photos\">Pal Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMxvFN9YcAUsBwo4ZPNOzg8me5YWMX9gC9oV-85KezWxpLbovziPZ1h3Ui3s78Ky52qdW1UYydQdzYx1eWw3OzuUzggUFvMPqQNLNbAqyyk2Y37g9YZdRFC0b8sCvYQZPuFwtjP4orvE6t7DWaZ1hZqrP0BVx-p7q4J5aw-BVxgaEhDRlo7ckUub5HAu0PTnz1VkGhS2ia9DF7Qx19hbdW2kCDlPqXOuNA",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJ0RI-kDMaDTkR-v_Ut4ZY2j0",
+                    "reference": "CmReAAAAeQtJ244Ei1ty7wNYI91yRFC_huOydK02SKcc-BPz3l8UEY5qTsfabySO6Krt_XJtGYcio4UFLHBRu3MRzXE4C2k1AyN0mj1-PX8saRdrqHMLBVymCvLwYFyxOGw4KNoUEhALc5bCsF0WU06khO4YSVkPGhSZyZ4uJH0CQBlYrAbGgNd1kxgQ2w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "H.No.-644, Khasaara No.290/2, New Palam Vihar Road, Bijwasan"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.532664,
+                            "lng": 77.05364999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1ccae0523491954ce8aacf7e58b7aad62e7b2529",
+                    "name": "Yamini Opticals & Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110605892576671777871/photos\">Yamini Opticals & Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAPIm6SZVUhP-jdzhHWkzPzoUw6iXy0iR5pLfhPqKmdH9jt46XIyMDNVpnT_pFW7DIDvAVkNJBFUjegO0wUrfnwvobWv0MYmElJq-hVnhhTFVQ4ZsKY7Exb8VETv65YyQGhn8Esh-6x2HYrPa1YzuXiLPv-j63i9d7-Gb2zSCkIDoEhAYHsOT78sROilT3lwghwLbGhTxTnfat_3UqyCK7Ljy-amGMxx9aA",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJeaGsezMaDTkRV6PPz7Bynyo",
+                    "reference": "CnRsAAAAuQGJ_JS6Eu9pnW9SIOWb2BvsaG3YPwhrEXa89SGuiz5btKxZW2M4FIJ6BNL4l4TjLDS-MYDqRMz-5LawrOSYnB4PaC2LmWEdKFlCxBQ5QUSsAnrQ2D2bu6KPgaVl8WD6751zs3mBKh6DYWBMs_84XxIQlTe1TaGM5nFW10iepJNMdRoU-1S1jIAaKNIY8_UvKUVjk0LQ17U",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road, Bijwasan"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.536918,
+                            "lng": 77.051012
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "56078ff0e0dacf0382984c86686191c564ecd2cc",
+                    "name": "Rana Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJW_aa3jUaDTkRKMNSaG5vFpA",
+                    "reference": "CmRgAAAAOq5hKDIK4pKruTmPvvqjYcP9zwo2uw6_IKjOi0R-Af-azX0KK7Mz6OLvXkIoYGBme5Y-jkcAWGamemAB3VQU2o2cV4ozKopSYOY2tc3fssCPEhyX8Nklf3URU1ZZHwDbEhCYAG9UW1txh3TR_XdHQrTJGhRCix0RA1lD80ZDGlooyxGoSRaYEA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Bijwasan, Sector 27 Dwarka, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.532542,
+                            "lng": 77.053795
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b232947aa2dcba322daa995fa2d98a7ab3d63270",
+                    "name": "Gaurav Medical",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 528,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/106871803952092986764/photos\">Gaurav Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHfDYb04WlmT55svDDz3gvkNa-YOZRuvGWNeuC342bGKuXWhs8iwghluoxLb8hxXMXhpD3aaFDcXTC4o6BqqaJONXttPqjtlgzJUJBJPTm-kqWiIGL2WuYEemfvVvcVen2K-GyMekrbKUDbHjhFi7zwCV_dcLYSViDZ-_XAfZe8KEhAAdMW8Hz3hCN8bE-DW3gZ7GhSseGBrQD6lbyFtRybeC622wQ9MmA",
+                            "width": 529
+                        }
+                    ],
+                    "place_id": "ChIJYVyleTMaDTkRzz-SpFmQn0U",
+                    "reference": "CnRhAAAA8G2VuZVRKIKghaW6hmwySGjO5G-d1VyVGMV6C6gC8oVUCRyo5FJlSMUQAjymDFlES3Py_kcWPae2Nb4nFrgzPkGIlcDfzGg84FHJ-esSxA7--hW5shO7bV754C1NI1YwJi6Dh_sLZ2q8kYUSMsO3_xIQNqBbxnS9xGnXHdXjUXmYWRoUmpfMjmwm8QAph738iBA_QQRrtTA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Harijan Basti, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.511336,
+                            "lng": 77.04914099999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "dbae8d4262de1c2cf4095c4990d3c4fed4f83558",
+                    "name": "Unique Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/115014221943004699799/photos\">Unique Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJGtp5G9Mvg1zwld_X4VKzBCNvEA6-kwcPEx9hOETWSfPHVQNAqIDnymlwWcOnQvPhNE-7S4-GQoJMXqDhDpVFM1nT17tzvb8cHQaNTzoI509cFUMbYLvMeFLmerYQq0eI_GtMgSfFwuxAzy9bzYVIY1R_xBfkDQKtMXhQYE-KHgEhAF8sVb6x_PXEDM8N6fpjKbGhRi1pqZ_QlIfi4UOvuX3Oep5rixsw",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJtyle7YYZDTkRRlbOB5C47r8",
+                    "reference": "CnRiAAAAFeUGTw0IKf9RCKNN_XbKNA9-dn100_Oed9AdSHg7AF8t04FckTTlgvny7g7zHfvx5EgbSGY5_NZOIDwzabmB4uUm0gqiVHHSvy3ofSam9DIlBCxfAzNaoQjyr9eUJDnnMQw-YLHeZbwc2IuvzWTdMxIQtSNblg6_6urQb6wz0Mu--BoUBw0l-l4nVrzKCTFebqSgD_Lxs24",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 129, Sector 23, Huda Market, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAMhiPYBJ0w6IIGpT-ouzCCL__VE3N3MqQ6s7Ldr_lgMePENITPqifjpXRh9O9XDuaXlUFps0g793kXz5dityw5L5Dp1PH7OAaywHU6gqF8pkO9ynjV9vdOHuxpBBmP_bcBNQ0yaSmIl4zGD-qjps7o-DCIQDOEzkyGkBvaa5Z7c9SQxblW_Gy_N4s_qA3YcTkjl_qZiGDt4cbO4_SZtglLIyA8VZ-y8FYWxa9j04mfw-EBxSb2uf8sK6-uF_EiQ3fMxj1q8Oz68GSIWOt_jjCoCwglbr_wr75L9yRiLGe87M2KWoYsG4VLZSqrWHgxQb6KaJVbUXKrx4l729-xnkJSgSEHtAU1Vnlo01wumhmOrF7J8aFAGofaWEEA8dWDGP5WSaetoCbPoE",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5153419,
+                            "lng": 77.0774175
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "08410f1d6999c0fbc4a0ccbc7c55eedca8aecf09",
+                    "name": "Satguru",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 320,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109033407353709784964/photos\">Agarwal Packers And Movers Gurgaon Storage</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANYpypabPZPu9h_L2E91f8LvFpKsQXSyE_oYPSUez2GL9le_2tMIJ7BF0m7qFZaXUuW7Fb-cX50itz3x-AyZz8zuYFWvTj8gbPS8mPmAzE2rrChaaGdW-EW-ycqKf-FD15_kF5MRnzd47NUOeIuWbR4a0EvIgFJM0EcNRP2cUgU5EhArilkHfSmbYalURU9SpgjvGhQEnDD3E-VQ9WrtUY_wuk5RRENNzQ",
+                            "width": 320
+                        }
+                    ],
+                    "place_id": "ChIJh-u8WGAZDTkR2gMBirJ-dug",
+                    "reference": "CmRbAAAA2SQoRRmXysS70HJGmTh6O7NX6H3ptTxumZrceAe-WBZhvwoS91B8Tl4LJiGt6pGgNsha5sBrlGN_BmHWICXFykmKqujL_7VYiKFPMLnsg8Z40pXAV6-sCH9Oya3iBEGJEhBZVUprBVzwBskJ-rNE6U6nGhSOLsI2GvFTj2tbyLrcqv5r63iMbw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Near Bajaj Showroom, Rao Complex Palam Road, Dundahera, Sector 20, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.509096,
+                            "lng": 77.031778
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8c2c29082d936b9562232dd1311fb8d34a68c7c2",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJA4eGlvQZDTkRLN7eFw6WF_8",
+                    "reference": "CnRlAAAAdbzwKm99IC5qmo7Y9wguTkcGLdVZc04coDBSOSdH3_2dLymZxV-4zInkujbzytCv2AKyVt6_bH_uyOO-csEocFHTBx52eYOVJ0YBEadMb0I8HM7poVk58yD0b8IkVTHbIkvlW7xNQGS6qN3CvSSZvBIQkeGcIZ835bggfx4ZUpeqPhoU_AASBG2a0xoN97ChMNZ3gjeVSDs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C- 112, Palam Vyapar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508376,
+                            "lng": 77.026468
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5095184,
+                                "lng": 77.02691324999999
+                            },
+                            "southwest": {
+                                "lat": 28.5079952,
+                                "lng": 77.02513225
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e8dfd2e004673ff3fc6d04e754cb941ba1f53b00",
+                    "name": "Patanjali Ayurvedics",
+                    "place_id": "ChIJh3W8ufYZDTkRGLbcdXHAUmo",
+                    "reference": "CnRnAAAAjCmxsUkoJoSF1C5zqnRlXJpFbsi7RyMw6SrrJ0dGykLVvTazpLmwqUeIKGNAQPVIVPEI-T8N3638z5wxzO0-lYlkmVMWE8htIfJ-uwOrvrxqBM4RN10oPg04l6hJ3kfIkpQ6NMwCgUZEciTSFyvNNRIQk_jQCmZevx7px3Jy0tHGuxoUfAjqSpu2nPD6UAocz0Z-D_GIfeo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Nihali Colony, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5024258,
+                            "lng": 77.0293617
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50249059999999,
+                                "lng": 77.0293877
+                            },
+                            "southwest": {
+                                "lat": 28.5024042,
+                                "lng": 77.02928370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "808927380d18f5d430cdec6f87fe2d469b4416c1",
+                    "name": "Helpline Pharmacy",
+                    "place_id": "ChIJ_wEZdPIZDTkRge2H0s1wfhI",
+                    "reference": "CnRkAAAAzwE3npx9WloEkgdxX4CP-Ox-H6wavKMC1S384uo_UirfJ05gmkikHS7mUd0dCi3ZyNn1UWmhVeHdyiphb4SRrTYbOxKRH4WYrU2SuPyLQexQp5mxdCgf0EUMKF2qfnYVH-QPDNHWGSmgr1nD6G2NnRIQWqPNHp9bDLxmqP94HWnasBoUacgn_hLkEEm9yzDkemU39oXV-pA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Carterpuri Road, Dharam Colony, Palam Vihar Extension, Alla Wardi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508086,
+                            "lng": 77.03112399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6bf44992d2a55fd0dd58e9d77a5841e1e725b1ab",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 360,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADjw_rJDODfksmlXQlgNGi_E9qDGO1pcUgiDKd8MNVUbCyVP_lCypIfLb0aDH9WUXRJRRejNX0u56IPJj1I_BVMrL7VHOJqfQ22q7S0p4wCvMN6YLUhHJzgXf94k27PQAQNaED8o_x7LryLMmYchSF42U8b4IWYOZv_je6wdMwdsEhCMzBBQAkMlClLNSUM6EQR-GhQ4XqgWN7h7HxKhxbrAIdjKfHKXEA",
+                            "width": 460
+                        }
+                    ],
+                    "place_id": "ChIJPWDtgvQZDTkRtz25qBwxM7k",
+                    "reference": "CmRbAAAAr3tE1y8SLC2qYJtTc6JZbouqFnl41Lf2Cbht_9BX5NjWOG3BdsEBpHVa7o9RaGwM8OTlA5hsXbQdWrGjRJEeoK1XiLy-pjQfDzTEtFx05IbT0-jiJPXhPN6llcjdE1X2EhD2uX1_mdUxqgYRgooFFUmsGhTjrPWTvPgLTxFMLiPO64rrDSVsjg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. S-5, Palam Vyapaar Kendra, Chauma Road, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5115393,
+                            "lng": 77.042141
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1a45effa3432be201a1ea1cb23bdba12dafaf7fa",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3120,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAKH3v0abIbeqnbmPL0etKAnYXs2KU6goy1eVVvDuQ3gyIAH07dmQLT8Q2ISdBxBCe76z9w5V5SepcxY0NhWPzW5mh2ZPp_B9nZZi6fBobbL2PolLGze8BwevvmyONprvP-UfL1FubdLA3taS7mOgTLjU4FdtdkZUpIyvPHbGP864EhDLDKgksSSBjJWotqILXsuYGhTYU2sn8eySYkel0y97irPAsUmnyg",
+                            "width": 4160
+                        }
+                    ],
+                    "place_id": "ChIJRUAvAokZDTkRsQSvC5y08eM",
+                    "reference": "CnRlAAAAHA7j0DiFrW6U1TDYxR6DXZ_Aak-FGv0jPGriL2tKnwoEzT4_XZjOhaPe0u72TknIQSwPHMPko8hGqm9ZojW7_Vg47wkAcJhrC4lNjQJM77Nr0EuS0USbFkGUhqCv8Ebj-SCJ-dx2sC-wWNFVcYVajhIQfmBmL9QBbvAXIr7pw5HgihoUZARMagfF5UuoTZkV95Ds8cStvqM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 21, GF, Ansal Plaza, Palam Vihar, Ansal Plaza, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50887849999999,
+                            "lng": 77.03125550000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b8f872557bc156db73482222aa3cf8e50debb511",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJn6Pbj_QZDTkRGqt91NJ2Fss",
+                    "reference": "CnRjAAAAuMLegaUHpU6-mnEOH9YQhvgTUySlMR5M0PkSRUS2IQRhmuZeMwmzfSgTE7uSOscdkfYpgKhHR0iLi1enSYDLKBg6oRz8OLaTxX4DO8Dd-RyLjNaYgQaOkJWwX9oaEtAHnnGUNiUs86xDlUttlfAqVhIQcxImhVnXulj36d7Tw1NsNBoU3ciAl6H_HFFWu0OEhYXXM1ycvaI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra C Block, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5088336,
+                            "lng": 77.031657
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b3608ac64962a0ff22158ac82b09b5195fa8ed17",
+                    "name": "98.4",
+                    "place_id": "ChIJq01UhfQZDTkR02XV6Mh9BGY",
+                    "reference": "CmRXAAAAEr1rq63LUUDgtNkYkA3pPMVlJN5TT2hnRkaPpQl0yHo1mS00ZK2a1J8KV_RlGLQKFnyW5s5Fm_WZrltxASyPMvXzhT3C7NyKI8EDL8Lo8z1zNM671K1g4QFE8cu8o6O5EhDmcqshkwrOGUvCLBoMqXsLGhS8avxlF1kO4weS66aQEwRXvOcYZQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-154, Palam Vyappar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5085332,
+                            "lng": 77.0314164
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "944c84cfae28d152b5d2ebe2df9dd1e5d9ec242a",
+                    "name": "98.4 Chemist",
+                    "place_id": "ChIJY6oGm_QZDTkRoiEiee30njw",
+                    "reference": "CmRfAAAAZQlYe2PVU6AIeg8xgxawesGWS6_J9ggTUOY7CVo3gVddvD8_xLLIn72bDdpqKYjA3mCvmZYenvXy4VJ4eZ4xvHq6D61i7-o9D2hYZy0fKSZyRH1WWQX2JIictRqMixWvEhC9Gdr36jQ7mYJ0KNRoZtBuGhRCi09I7lSl_t6WbUmrt_V0fTaf1w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vyapar Kendra, C Block, Palam Vihar, Choma, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50852,
+                            "lng": 77.031257
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50853635,
+                                "lng": 77.03159640000001
+                            },
+                            "southwest": {
+                                "lat": 28.50851455,
+                                "lng": 77.0302388
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1bb37ee1fabd68d70406fd739bc839867ae5103e",
+                    "name": "Viva Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJta7UhPQZDTkRC5Zvkf-Lh4o",
+                    "reference": "CmRgAAAAUBOhkXQscEuh4_HTUSd2UkrqiY_yDM5UnMiwretO-yfRLQVEBTUiPhZOkJVMP7HUHe5OZ_1BmM0vkjl9HzepvZbSQHMyo_oNgWeTb-PomnvSPd1ldV0cNWgMFSOPcUOZEhAzEokct_Yv7SceJdpDZGKbGhSY8YvNzcWN5eC4hrDERPa7vgmrUg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyakar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5076558,
+                            "lng": 77.02766
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5d35350b57560751ffc4d45a332a6b4e7dd120bd",
+                    "name": "Flourish Medicos",
+                    "place_id": "ChIJq6qqqvYZDTkRMjCcwXY17yQ",
+                    "reference": "CnRjAAAAzjBQbu3JSNfltvp1FjcjUj7QF-vPPtjVm8v8Z07qdb_5wRF2WeZMjolF7SXZL1dJ_ZIT59fubv_W1GcRCkKZX0xsACNKI6v30ksqsGsijEUpOLiXvgaxyUg2ztmRGNbVH_ec0FpdCBGvQh0yRgIMOhIQ_oNonzNN1AxrNBUDnX3CxxoUve0o_HO9jSGZlXqtbn9FKg-5GBo",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 71, Huda Market, Sector - 23, Gurgaon, Near Om Sweets, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5105942,
+                            "lng": 77.04905839999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c4b3765384dda1b6a721457131612e5c5957cf0b",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAHGOIsK9coQIdIBXTv0-Z5tj4PBLSZtnvQsUutS4aYZyjJ1HZQIf2FV_lyknKRY1Co4MytWF30weNEE4ocorpJS-YMe0nlYHQz03zFEYC5kc6OhTdJtYi6qd3zw7ynSEROx7gPoLMAAVvmgT9SwtGGzEcWSSD9dJnLlFnK6SwkUEhAjLv7nY5fvbOPZ6ba24fn6GhSp-Bi-O1XmVBL74WigiLhoTp7MFA",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJ4awrkYYZDTkRdjK2DnyyTR4",
+                    "rating": 3.3,
+                    "reference": "CnRiAAAA6UEVMC-SxEK5kmTDE4IGuduk4LSH2tEx_P6-QMm0JgRcWKMvYtf0R81RflI6OarWpZclQ8Qx8erEw4XLAOcthWAQ59WvY7PAD9Q3SEi4-fPObio8RwuVMe5uyAFtFXjkzkrRuT_lDMzlgc8RN7-E8xIQs0IW5N_nGMZpbimqeWepdxoUI6qcohWgnSLhB-Zax7f5MME_DME",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 3, Sector 23, Huda Market, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5437993,
+                            "lng": 77.01634489999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f9b9ed01b9b9a42401fde13bd71667a3ff84d5f1",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ3558KnEaDTkR1RZ72KQcLdw",
+                    "reference": "CnRjAAAAZ8qD19gjZZuoD6AO9DrvWhypMXLwFbN7UXLZmLRl6eXIT7t2_6-1C_K62RMtIdKUMtGZSwEhUDmZWV_rMMp55SGCFe98WK2NC_pOU2Z34oTcxqnIVI6kdNxIpBJX5uDxyKohkq6znMdPppSYKikBZRIQm_oDbsQEjwQOsTsZwxFYrxoUPqpyCnRsIWstxD8eXrsIL_Ly-Mw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Booth NO.-158,, Sector 31, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5124967,
+                            "lng": 77.0751331
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5125615,
+                                "lng": 77.07517325
+                            },
+                            "southwest": {
+                                "lat": 28.5124751,
+                                "lng": 77.07501264999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2b288a93b3a14f40439ffed9f1b27f28fef6cdfc",
+                    "name": "Me-Owe Mart Patanjali",
+                    "place_id": "ChIJUfiJNWEZDTkRue4CLc8cdRc",
+                    "reference": "CnRoAAAA1_Cki8INasMzf68BNg1IlP7rmx0qBQv6KO-AxWFGhmYiIZucu-_erzgH2W1Uw3mSxYLRd0NuDSR0BVQOXnQP8Wvd1qf7IKy7ZInpnDISXZ8LXaSIueVHBjb5_IDFGNgs33E20w0aDHdaGWi4-4zs7hIQGUDNZnWfISHim0KaCJwEOxoUHM4vRalTzstyXmHjvzb_6ODvNeg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Old Delhi Gurgaon Road, Sector 20, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5634493,
+                            "lng": 77.0551551
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6d040f58af08889f5bb3257b979f3baa365487ac",
+                    "name": "Religare Wellness Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJV8Stsv8aDTkReMNWnEUAQU8",
+                    "reference": "CnRtAAAAemrydq9g5_MeG9w4ixP7_FcqXaqi-j6dukJCGM9ZS4Nf3df7PERbdTl0c1MrwL26noWaIgGKeWyTV16j9gm-tcl6fjKqw8xYqllKErioCtBcPWEmPTptsXwgUIoS69UwZDahEXURO6UyQZbqSeXWcBIQf8uwGBu6z7K_esvtOHYQBxoU5PfDCzbiU4oH4OhIQOpj9hd_uaA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. G- 22,Vardhman Plus City Mall, LSC, Road Number 226, Dwarka sector 23, Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.524122,
+                            "lng": 77.08205600000001
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5241826,
+                                "lng": 77.08205780000002
+                            },
+                            "southwest": {
+                                "lat": 28.52394019999999,
+                                "lng": 77.08205059999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "89965d2b08de1e58a78d72e8761ddad35e194f7e",
+                    "name": "Krishna Medical Store",
+                    "place_id": "ChIJKfZr1OAbDTkR8TKql6D2hug",
+                    "reference": "CnRpAAAAHbJxRx0hGYJ1YfTvMtQd8IO5R6Z6JRFHP2sx9E8Niv8WL4esjiBQzDYEkfmMiiyz3139yhGb2nk70uqz-C-U0YqPGoK-Pe610dG9QUKhvnPPuqu-54a7mfDib5d_kZRtxcV0uesHkqESq9vKdySfqhIQpjpzhmPEffHqnDfvQYwFLxoUy_sOQpbIY5jC29t2QGNh7ZBAcls",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Opposite Fun N Food Village, Gali Number 1, Kapashera, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.564575,
+                            "lng": 77.054405
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2d2669912984304e5c1fba15daa37fe11a0f03a9",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 611,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104012458131814096757/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAMlwNS9eTsU0xFMOuiH80RN3BiiPvvDo0h3kfATmHl9WShMi4cRbCSMQppQ2r4Dw0ZyV-Ae_c5ofpM3_Ih1FkSYzwMSU5nQseLfmzSURyDFqGUa5YwZTJenKiw4kwzMVG989l1E3GBUcxbItK9mTq4teRawRYNCAMZCblajYB7tcEhAqVFTMkmcAY2u0GIDxar83GhS1f7uENXBVXnAmIB0aXUnAgnLyDQ",
+                            "width": 612
+                        }
+                    ],
+                    "place_id": "ChIJMVRprf8aDTkRIf8c3ZXcwNA",
+                    "reference": "CmRbAAAA80fknk5_S5DZ_SXNI6sSUwNmTGBRzqzykqCqbDKsGXXybajuFiRa-Jxg1ToTgpS7iJJvw7_2h9ZpFhYd4VYGWHsJWTF-XlzPS3qH-loYSmIr_Paa3JwGys-qywoNF1E4EhDW01ekKefbOehfdduI0EgQGhSbQBskIIPcq8fRu43xNvsx1JkLhA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "G 54,Gf,Vardhman Plus City Mall,Lsc,Sec 23,Dwarka, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.522219,
+                            "lng": 77.0827005
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f61a4455236cbf87c5acf6af0ce7163c3252334a",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJk8VYA-EbDTkR_3DAAzGvvSQ",
+                    "reference": "CnRkAAAA0JdOJalr7Jaz9njwLvh1RL0feXqrH-tv-SJYYjHz3ifzHAuXi-ZXfXCKiQWWP2y28Qgzw0n8oKNqDJA5I1b-lSVIzZbpCG57TFd1RQYxUhRzLbAEeKGl2nE4XdzlA44QKuAx75hgBS782nDCOOyFZhIQZD24bEvFlIMyYccJhti2iRoUA0XrudtmcUTNx146V8ilV2ldLzU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "IN-19B, SHA International Departure, T3 International Terminal, Indira Gandhi International Airport, T3 Intl Departure (IN-19B), Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.519319,
+                            "lng": 77.036074
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5193553,
+                                "lng": 77.03624305
+                            },
+                            "southwest": {
+                                "lat": 28.5192101,
+                                "lng": 77.03601765
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "68234634e4c2c4eeb213c05a346a3a7a722b7055",
+                    "name": "Tirupati Pharmacy",
+                    "place_id": "ChIJgyQYgyEaDTkRVqG5S_QEto8",
+                    "reference": "CnRlAAAArWn5o18okUhVhlz8HaCyIFHbkKSvIrP5y2QTTnZKqHzHHUpavOFHGDKQjqQT8EEDAMmaEWgr_t3lmc-yeTMeRLKXF_0PP8Y0xgyW93uXqSi6Uf8Wo39SFfxQcxuIhooiFGL4YDv8Rci0Uu2jhKUtohIQwllNQgPSnS-RDG5IQ__ABhoUlsXDukhprG_NfbaehFTvJ6Bm6pM",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bhati Complex,Phase-1, Bajghera Road, Sector 110A, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51733,
+                            "lng": 77.036903
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51782549999999,
+                                "lng": 77.03704004999999
+                            },
+                            "southwest": {
+                                "lat": 28.51584350000001,
+                                "lng": 77.03649184999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ece1a95425acd803b62f4bdf05232fb9986ca265",
+                    "name": "Fusion Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJTda58CAaDTkRmxPy3O2rZ6w",
+                    "reference": "CnRjAAAAQX9YpYlnbEZw60T59JzqToH-ME50W5Nn6m6YZdNokgn1P1i5bUlpPtmouecE0DjKoygg-4_AEviA8q0SedhMS-84PDQCCteokoXoKS3x2IVNfuepdJEHuh9Ie742fsG10U4thkojwFD7ZZUE9VwbcxIQZe9HqmXjEKp66yLEZbIYIRoUP1u2ey16TeTwWDzIpVDqsoRapE8",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.3, Opp H.Block, Near O.B.C. Bank, Main Palam Vihar Road, Bijwasan, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDnQEAAPWMu1pBI6G-wvgVWmr9lKmNAcqOgAqAs5llAThyOQ75JW06nKFQiuFv1WQNQvv3FfEGMHVKvL4umAk4Ur0y0yboQPYWlM4EvX6u2IE-jiarLFB0lodw1_b8R0yu4dXW5QTgWtSM9cb_MNcETyBoB-y0c7aBVqxlKQodGcGq7zBQnLZOtN-YqSwkNUFtYzjARqpw1p0JHH7NDoReaLa00cSjgbj2snjYNgD-_i2vSeS1sTmPaUJ1rQgBjVA-xGSozaYI4VD2U2wmKoo75JLANnC1dLlvypu56_qImCz46MfpMiQtO2P6M-y_z8356lp4SOmzR2ar38mANndY724miRJvWHb1jiOyDqRnh6_pPlSXTrCgcJGun4sC9O7i91M1UNtQx8fLI0888bA8nofEo-yKwbko8wZqkQyUJtczCb9dufS4bvVtbJNdv4u6utxDX0ovgI7Nf3l5cWNJX9BGHy6zrztjc1-kK9ZSHJhx-tPP2vmhMIKGcIBc7JSyMB9Fmzu1pYIa3NeZ1zIJF2aFT7ctTuj0hhDjhHNO4EfFl4baEhAM9pT3bya3QiyfYu5_SYRZGhRoHrIYin2yxDDZ2FuUcsIjG6wZ4Q",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4c84fa410709d8fd47a60c6d9866917f64feafeb",
+                    "name": "Arya Medical Store",
+                    "place_id": "ChIJ____z4kZDTkROuJDHrkucf4",
+                    "reference": "CnRmAAAAMbkPp4STkYuJ4PtFyHfVVHwA9wjsub1mBSXjZXGSsUrb9wJsL-O8jsn3hQhHTyUAdzBCzpsl2gWEuhJugGXUxvKnzcgwChYuoZGV-lyoYN6qZVCXcDatV9cDVpSSeVWU6ZGXjBrqJhlz2OG_o-RzKBIQltYWHwexsw9_yIpqs3qzrxoU7MfLqQo3BfdKfSH_-9TiUkrqoys",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "H-block, Near Durga Mandir, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5129305,
+                            "lng": 77.037736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2a9c9416229d199c36cc8ba4b0d42cd3b414d4c",
+                    "name": "A S Medical Store",
+                    "place_id": "ChIJ____z4kZDTkRUrL0cJM9Gog",
+                    "reference": "CnRlAAAAW03QKKGoxdFBvu3eVqJPFdLf1bY6vq818rW0PHpYqaSNLmQHvKXZy8qgGRGS4KukV2cY62lOD4qpu873gYXgW3dCvurUscyiylBQ5zm7FLWoWL3WuAOIl503WRDrba82D_2_MtwFGmzHyiRg9FmNFhIQctLPMIAYg-lNn87Bes9rwRoUP_kt78HtgzqOtRX3YCLkowVajis",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-113 Sector-23, Shopping Centre, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5128959,
+                            "lng": 77.0410553
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7967992931b01df3ba06a0daddf8134981880813",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJBZtfuYkZDTkRcLm66NOqopY",
+                    "reference": "CnRjAAAAsYXmx8HudLRlr2vOFouhPBB0YCrafMKIMokxVmH9YGqRCx80UjkMTVWjImQqaWG1x-x56qW-FhnBnN9W5OjhfZgYqXDcetEYY5NQnXY8NdbmMO6Opq_0QS6hgqVvqTmKnwBz8LGa9R39RDB2SzfhyxIQMk4U65QLlOnV16jn6XCA3hoU72SNM_SVPx7pDstbF7hGfJpSayE",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.: S-96, Vyapaar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.51084299999999,
+                            "lng": 77.02853999999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51088615,
+                                "lng": 77.02870229999999
+                            },
+                            "southwest": {
+                                "lat": 28.51071355,
+                                "lng": 77.02848589999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a17d86a5ed752b2638398316cda92ec710aedd6c",
+                    "name": "Jafar Khan Pharma Shop",
+                    "place_id": "ChIJgS2yzfUZDTkRUz_NbiINntY",
+                    "reference": "CnRqAAAA4lZaH6npuECcObGIFsS9vIeKB_XohQSj1xpXhBA9Modl2gi-0dXZj3myX_R7n-kki0YpMwnXGIaxur83wFuYKatseVW_LPmdVj_ze7PToJQzjw3ahTRVshUqZkMIvB7w2RFTx8Eb6fW4pygvOL6iPRIQ1XgVLNPP1l_OF1pVjkwRTRoUt9Gv46pBtEugNgD3HdTSeu562Wc",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510813,
+                            "lng": 77.025736
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bb35ba4568e30414cd1d4b591508354512d9aded",
+                    "name": "Vibhuti Medico",
+                    "place_id": "ChIJszW6W_YZDTkRqUQ5YUxpU0c",
+                    "reference": "CnRhAAAA8LKaXFxKsHcFHwKnX7NXQ0HBkiE9qLf-RlyEYMRf-8lu08xofbwuqcmvqsA-ZE3EsvF0yXUwi-LL37Lr3mmY3u8e5hCjwTHFhVBDN3duZCmUZyXNZvnZ6rxjMxurPE77YzV4b5Oznt1969ArqWoBrhIQcTfUK_GH_z81-aIB7Z_NGhoUH5Uj2mNLCAINZ_mQB5_oCK7j6cU",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Chowk, New Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.510081,
+                            "lng": 77.026699
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5101643,
+                                "lng": 77.02673490000001
+                            },
+                            "southwest": {
+                                "lat": 28.5100503,
+                                "lng": 77.0266017
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5474a1fe425ee1a20dfa6befa035452d899fbf5d",
+                    "name": "Shivam Medicose",
+                    "place_id": "ChIJEw0zifYZDTkR9nRw_xa4NR4",
+                    "reference": "CnRiAAAAFPxyRH9Lxwwyb-JByEjsMFL-DkVuenIIfIyScxIU7VRT7L10YYzXE-4Y7G0FkztVgOZK6v8KY2qinicsWco0aWlhL9xp0XJF-oR_T5ESr_xis8veqXVJZwOetW7ucXK8n78BSi_np2V7PQs9aqxuEhIQo2KbZydouTOPtCZxk14gvRoUiNJX1YN_fSvzww9OrRDH2pDNEBg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Chauma Road, Chandan Vihar, Sector 110A, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5101599,
+                            "lng": 77.02593519999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.51021225,
+                                "lng": 77.02620835
+                            },
+                            "southwest": {
+                                "lat": 28.51014245,
+                                "lng": 77.02584415
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e81f1b38df845039fd356930310cab7eee065038",
+                    "name": "Dev Pharmacy",
+                    "place_id": "ChIJo2rN9fYZDTkRlleBaOqGlLc",
+                    "reference": "CmRgAAAAgIuCNl7kGdxt7iKc-YUfNfXPrvZIFk_lDST2nTSB75bwpqxKGifdEoKXyhauRWj4iOaBsKI0Clbcbu5P-atNfM851yvQkzmbAgTNEjWpQqgUyZFXwy4bLlGu1R0pxtRsEhD9NZQtZsXWN5MC29PAn4kcGhQE3wI98d9fD9Eud4uxS7_xKq1EtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508735,
+                            "lng": 77.031058
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50874655000001,
+                                "lng": 77.03129570000002
+                            },
+                            "southwest": {
+                                "lat": 28.50873115,
+                                "lng": 77.0303449
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2530e60c3a01dcb1adcaba33ebe26b5c6b1c7c94",
+                    "name": "Simran Medicose",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOYJ5j_QZDTkR1zErKi9pXDY",
+                    "reference": "CnRiAAAAtnsGs1zv-VAnohjmRN7JGoaF7ruMKlPenW4G3CF2eyyHAJYy5Ntq03UGvrc9cOVlZPU0A8FUk8-dKurdCDW7oHu-DswFn9rfVqwaeNx-3JaS6Q2DSD9uQ8E_DKkwbBwTx7gzn3qeEBu7r6deEi0aqRIQ_2XevQSOScl71pcdQ6WQohoU0tQXD6ZkANpiMVQfe8WNGaJe5AQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vaykar Kendra, Main Palam Vihar Road, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508707,
+                            "lng": 77.031244
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "27edb689a4d1a91a1bfa7d316ac2a71c643d5fd9",
+                    "name": "The Medicine Shopee Network",
+                    "place_id": "ChIJq01UhfQZDTkRmArzeTYhLdU",
+                    "reference": "CnRvAAAAo1PYuySbLTIiFZL_hELdAvEU0w2z784RKn5uC6m2JOxn8fNhA585os2HcRQsaau5PrvANAIOcISZk11vcK2X6mqCJmnYGOAnvIkNfbDfCTnepxW3IedktgRWe2a4NG5Q4IMBjCCwHCPk4X9ym_8ttxIQd-h8RPLOxxxyYfmgc_3EpRoUzqXyJanoK4_5lPZEvOhlqDm9wvI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-156 Palam, Vyapar Kendra, Palam Vihar, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508636,
+                            "lng": 77.031375
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50907335,
+                                "lng": 77.0314494
+                            },
+                            "southwest": {
+                                "lat": 28.50732395,
+                                "lng": 77.03135019999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "173678671404fd47cd292cfb0580d6f4bb8363d7",
+                    "name": "Pasricha Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 300,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102305699560685182023/photos\">Pasricha Pharmacy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAL5r6G8UJc4St710dGOj1L4E5tK9HEmSOViBDC3xVPipKPJDmHXtipYQiui0-UPsP8qVnqLDLak7OBa4_K1cvdN6Gt8BEmu-IALXlylb0_4cSIqPuu1O2fIyWuvxeO3FCnN8c5mnGT2aMAltJCIwaRdSFViTBS7pdI-TZXYEfKTlEhCgASB0oY0oVLt_lp4N_Ix9GhQfjS7YGFe6leKvCf2AlgTA6_eCGQ",
+                            "width": 300
+                        }
+                    ],
+                    "place_id": "ChIJNb5XmvQZDTkR3u543xuyNiE",
+                    "reference": "CnRkAAAAlBE-nZX6LWOFQ0yik5kC8uQRbv-FRXhibWrp2qV4Kk5oDyEcuapRx498QCnNIQj_hqNXHkF4vc3RZKPUSs1XoldMKArjy7s0tmIJs1YTtNjf8WJOOp-9aXT0f7xQsOSOWSFXIaE2sDBqOQdc7GJsrBIQ_X-lX-2ofkqCPgBXioJzbhoU7E59A3VAlOapG4BKhCUmPhXvl3w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-158,Palam Vyapar Kendra, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50863309999999,
+                            "lng": 77.03116539999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2924854aae616e202962e19bb58b53ab7f976147",
+                    "name": "98.4 Your Chemists for Life-Palam Vihar",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 560,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101185985874319961417/photos\">Daksh Shah</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJC6QjqylHCuB4NjZStt8U7IZeOhrOsR_N4ylJ6b7HRedchSR3wTnbLlVUnOgG6ur-AfkP-rO2fElD4cUnRt67W24ASSddn1sVKo3tLRf-9CrU9asw7p6AUg51C33Fu5R_druv1cyIhYwLTfymYnYkL0VqUR7XyvMucU37k8nBUOEhC_5U3sWMMCS5XJa1m3fH_aGhRN140RX5ajBZsfhCHnsjgbotxElg",
+                            "width": 750
+                        }
+                    ],
+                    "place_id": "ChIJkWJqhfQZDTkRmGDnIWl9T08",
+                    "reference": "CoQBegAAAIAFOK_2vu21dTR1ZkLs7y5C8XeMwNOcU13Mb6VRC9TG-xmRW7dIz9Bg3WzEOd4IRoP5YRP9lYSjY9ayjyQpB2C2kXEU1T4BCsPdLJ48rK7BaIkIfhoS5P3-rG8gzwtmefL8jLZv-y5UBfpRHXAda2nXNlqahp8mhiRBtokicof_EhAwRy4mn4d-FNx5rJTymp_pGhR9SskmWs0hQzJRlYS-4Q9u7JAXBQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vihar, Sector 2, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.50848899999999,
+                            "lng": 77.03113499999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50850250000001,
+                                "lng": 77.03141374999998
+                            },
+                            "southwest": {
+                                "lat": 28.50848449999999,
+                                "lng": 77.03029875000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e310922f09b9247c72389aa25a492bf45e20b06b",
+                    "name": "Passicha Pharmacy",
+                    "place_id": "ChIJiXXlhPQZDTkR_GYAzAk5SwY",
+                    "reference": "CnRkAAAAIVA5uLeyou_-z7cXLMv4OXY_5UrwkXosPD1HBWrAUCJrMZBEJuzNR-Co06eOrUx1K_YDlHxdRKuIEygp0CF3_IYwKkwYrBPT2zs-UyNdlQRTp8CUhZ_nm5FlHdMu34OYzExxXsJfwJxn3Q5IGitmRRIQ9Kbeq4B-iCsnCzHMjQvOhxoUI_DI6qsmyiO8PARHKip4wGdLAVI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Palam Vihar Road, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5084855,
+                            "lng": 77.03040659999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f1d83534a1de75600a316d1daad0eccb25f9aeff",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJpVwPffQZDTkRflHLtoS2CgM",
+                    "reference": "CnRiAAAAt82KTMeaYNUVgh4LYZOZjsZQfHP8vUFBBU6oqeu8f_CnDgquhHCYpQXw83T_p6TrZd4cumj_hMtrMFRKpON6jXiP7PLTH6gENTCYN6qceCpHKUYRAerGThU6aa_G26_8s03UhnH5yQSVFtkuZJw9wRIQ33SsSYIwcDm2ERmpXi4ujxoUE4Jjho99SbMq2GAO2_kY5Q6iC4Y",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO.-3, Ground Floor, & 23A Market, Sector 23, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508212,
+                            "lng": 77.03120299999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "85331b06cf58ded6d121b47e793e60652112c793",
+                    "name": "Sarvesh Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdf1bgvQZDTkRlUqmYV74dfw",
+                    "reference": "CnRjAAAAEhD9-hlnGsbTC_PoHXJcAxOVYHjU2jT-UzplWvFW6pThQOJLrnlMB-qS7sCKAtpjKKm5U_sAiRBOqYL9Sd_i_aQLO77-7We9OYOYekG2pEtLlKOqIKGbk9LFJe0hF-emgG6oeSG62fB9Fj0zUEuAthIQhdccsE5_GZqHmhS-HFy6ThoUf-B48pNSnBPUn4QofdhtQwV1iVY",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-30,,Vyapar Kendra, Palam Vyapar Kendra, Chauma Road, C Block, Sector 2, Palam Vihar, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5092367,
+                            "lng": 77.02554889999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50927895,
+                                "lng": 77.025701
+                            },
+                            "southwest": {
+                                "lat": 28.50910995,
+                                "lng": 77.02549819999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ad9cd2db940afa488f1b237dbb3ea1eb83c59a7d",
+                    "name": "New Shivam Medicos",
+                    "place_id": "ChIJg6226PYZDTkRL-sGCYzPT-w",
+                    "reference": "CnRmAAAAyIHawCgMQYm0crvaGhAoWdOMURfpsttHxkdpyZfIIpIR0dwIOpqSBgK643-RcdBP_0OYfJZrOl_IWijOs7h3M6XEdHV8_n3mi04vTxvD7bYqaOqDweGrB1kFAqNUj61T5g9nnQ-9lAwT7Xsxl-rmhBIQYuaL3MItRA8V2IEo9mLjgRoUv5IyGvUBCbeLZjJqa1FUlBiLkPQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508168,
+                            "lng": 77.031194
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.508183,
+                                "lng": 77.03150555
+                            },
+                            "southwest": {
+                                "lat": 28.50816300000001,
+                                "lng": 77.03025935
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "efd52deb2474f29a4ae69503ff177af42305fa59",
+                    "name": "New Simran Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_8_YgvQZDTkROrLMY6s8fXI",
+                    "reference": "CnRlAAAAuDSvE9rpPK81i3lTOkiJRj8H8VHXF30q9rJwZRB8KzJGYMwU453fEEi4YpkTC-vXEc-m_2QlhcZaLRHRd4Pi9Mr2qwma9ZeJ-HhAaMk8s1gut4h1Yd-Jmc6PAgoWjYoJZxO4CMMIhT-K8mP5egFYYBIQp3vEbfD83gX9OiY4AR0YeRoU_Om1JjSiqWykFX9bO5rMlsPEaWg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A- 13, Palam Vyapar Kendra, Main Palam Vihar Road, Pocket E, Sector 2, Palam Vihar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533004,
+                            "lng": 77.05055
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3da09ea91937c903e9e84a4274199a3d568043cb",
+                    "name": "Laxmi Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 899,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103797423292607783224/photos\">Laxmi Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAADiTarVXG88fWXWIz-fa-Te9Bqf0KCKcUx75faDsj6gpOCG7I8QSNlTQ0cupCN4YuQqqOyanj-w96F8mK7vOifNxifUZPz6qfAYHKjENYacmjWTaYzZE3TpHVwFN7qVLvI_Szx2pdALin_p-OhZ6zhOk6-s0yeC1gGsoA81YJiYQEhBnweERHofl-4hSpWBU_CUQGhSuJe5xsc4ZmQhvh6EBgoMOVB985g",
+                            "width": 1600
+                        }
+                    ],
+                    "place_id": "ChIJUQ2zezMaDTkRTlM8MOtxdCA",
+                    "reference": "CmRgAAAAvJw235SkY64xexaeMlnjRGTyv7gk7Va4JC8R3zraAKg2yQVhFqCS4eY65wMmyoWmH-Pg1CrsUiLcimzQIf3OlfbjUPpsV0Tthp7GN65WNhJSul5GddbaLn4KLAd-5eNVEhCMQNoJbSJazWemR33ACTf0GhRMwkJUvhUczK3vPqW5AW1rv-tlSQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Plot No.1,khasra No.294 Main Road Bijwasan, New Delhi -61 Ph 9810740804, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533237,
+                            "lng": 77.05061599999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "bdac7f06f0fc4e54c1c8da8992ff2c1825b95ef8",
+                    "name": "Castern Madicos",
+                    "place_id": "ChIJD3PsqTYaDTkRwCitdvjTgJ4",
+                    "reference": "CnRjAAAAujosBRy_LMjdMsfMH2LinbAv2X9L2z_fY5Cdt7QMMiCkdpe3E3RsL5d5L_NmtOUJ99c2weD8qtWibsWGKiEIiQ3UWdBR31D37fk-9Kx3ZuqPmEYCG0VfiWd2ZF0w959K43mW108BPRcrtT0ysqQ9phIQu9nekPbHCamtoNzyHSFWJhoU3V9NazG6RK-KrIbpAI0Uo1kJ-QA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Nayak Pura, Bijwasan, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5082958,
+                            "lng": 77.0247447
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.50840485,
+                                "lng": 77.0247864
+                            },
+                            "southwest": {
+                                "lat": 28.50825785,
+                                "lng": 77.0246248
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3dd99092b9e9a6493a6d03f7bfdb0da426ff88fd",
+                    "name": "Annu Medical Store",
+                    "place_id": "ChIJpWxwJ_cZDTkRZazdKvaW7l4",
+                    "reference": "CnRlAAAAYpmEBNyAUiT7IRgyijMk_ldxhw9iXMEjSt-59i58CkbPdD4dOmrMsIBCSwzs3zvd4rvqa6vfK7ftxAxA4knEi86R27Uk9UOIbm74_SYJTvhWywxwm6AuQ1m9pPL-uKoZCL-Iikh1F6OVq0xKyzvawxIQoDs_rW08mUTT7pnDshs5PBoUDwDlaYFLezo5CiXC4H5S7nOkMbs",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Bajghera Road, New Palam Vihar, Sector 110, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.533208,
+                            "lng": 77.051414
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.53325265,
+                                "lng": 77.0514317
+                            },
+                            "southwest": {
+                                "lat": 28.53307405,
+                                "lng": 77.05136089999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1ec0ca5814ae82021b5435825cd0628e513e1e5f",
+                    "name": "Sanjeevani Medicos",
+                    "place_id": "ChIJhxOoCDQaDTkREVV6BCq6krI",
+                    "reference": "CnRmAAAA0VIf4C9DNaGpnOlpadmen5k_D2hdtqycVu9Dk5xANEsYd0SKPO6V871a8EiIXY6TNA25a1Pj3E9KBGQQeZa7fSVswo0Fb0G9ur1i-YBEi8VUWwElveqzGtecbI1W4_0HRP7XMXb-kTmZ5afFh8cvPRIQrI89nSZhwdc5xDxzyi8ULhoUQCXqwjIEN5rg0zNv8YKfoIRJzCI",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Najafgarh Kapashera Road, Nayak Pura, Bijwasan, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4725243,
+                            "lng": 76.9167689
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1cca2acfe52501379b8c7dd094cf93a861f82189",
+                    "name": "dr om prakash",
+                    "place_id": "ChIJ____PycUDTkR4wnehob08Qg",
+                    "reference": "CmRgAAAA9NDG1q77DJ2n8U9GO2oMFKCZkmhBjTtdyujBKB9HVwVkG-0MAMXEQsrsqln7zSeo_xim4gMY4tSJf2HnpsYpVs37mzvY0wU1abDpocpaNEpbXWObME8k1z5BsvLWWqArEhCX_wWrA7ZrDvDLr8S3gVBEGhQA3UwGluNariflkTnFmBk_KjHA_g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "510-a/21 om nagar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4725243,
+                            "lng": 76.9167689
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1cca2acfe52501379b8c7dd094cf93a861f82189",
+                    "name": "dr om prakash",
+                    "place_id": "ChIJ____PycUDTkR4wnehob08Qg",
+                    "reference": "CmRgAAAAWp1QJqcnWUuLX74gWLYTRfKT0wOm671IyTsyTUsXW45A7nuiQAIKz3t_9cAaCvi21qQKdxDCc_-dM9LTV4VUTLtS8dBK0n25qdgByAxUZtD6Q4iXyflbt_goIh9GARykEhAhAIt4BfLEdkrYZpGuSazBGhRmoPjZpYez0OfoYDHu2LMrXkqCQA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "510-a/21 om nagar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

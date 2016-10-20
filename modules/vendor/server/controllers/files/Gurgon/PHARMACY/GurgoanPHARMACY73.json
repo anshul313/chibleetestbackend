@@ -1,0 +1,115 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.406462,
+                            "lng": 76.92927499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7b8c92b99daddf3b19f0fde3eb067b85e055e7b6",
+                    "name": "ASHA MEDICOS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 323,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113364268458326918924/photos\">ASHA MEDICOS</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADz3R5be0BWoM-VwNpvCKckiTYL7tyTVflkJxpqbuqzus8bvunf2kgsTOQwADlfzJeADBp83j9u02p_uD4nzSg5b366nMJVimEAoWcro3Vhm2Vm9jvimKAjr4Ig7QcIVXN1_Neb0ahn1VsytbNdLFxZnu3msIhjLa6_x_dYsNSMeEhATSP3EucPRAkfR_LLuDzY1GhRDCbUNAnzS5IARkCwjbGpCUfib9w",
+                            "width": 324
+                        }
+                    ],
+                    "place_id": "ChIJ_Yx8-Pk9DTkRduFbFDNCcjE",
+                    "reference": "CmRRAAAAm31481JUYGS34WAn_qTaF1KXkIRsG2x9YGtBFJGLVGn6U8i5IAwoACn54d1tWiG9zO66Sm5A3mVES4l9G7Jkb7rtXfHPwhBSpeK8xicc78HqhUzWNjs4XZboRcxg5584EhA2BHjbk-pfka0lQA0C7zTKGhTLq_dGeaTpYsMEDDPwcP_D-Ms3Rg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No :- 03, DLF, New Town Heights, Sector - 90, Gurgaon, Gurgaon, Haryana, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.392873,
+                            "lng": 76.91469599999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5cad51963392677a84e667db8a159ad1b6a30ebb",
+                    "name": "Ashok Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJXYxn0As-DTkRvBh91ot4IPY",
+                    "reference": "CmRSAAAAw1VScm3MD686flbtM3eC9ivJeaynks2hwQj9AJgEP4Ert6DwVuoN4BUmbrcak79AfOcaHHcPQ0aNTmQezH0G7dAPnbcB6DWViGRpHrjcrNx6nmx1ieAO883y5XjNumz6EhCf5VkSRxnehnTqhBXul0oBGhTllrOX-mv_I-hjuakjfV4TsYGjtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH8 Road Village, Bangrola, Sanjeevani Hosipital, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4725243,
+                            "lng": 76.9167689
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1cca2acfe52501379b8c7dd094cf93a861f82189",
+                    "name": "dr om prakash",
+                    "place_id": "ChIJ____PycUDTkR4wnehob08Qg",
+                    "reference": "CmRRAAAAq2jC8Hs0nFEBzvI8oV39xKQ2QSNL64_8zXAVDxNrYo-6gWlsWJgfJfRN5fuIkl1iKGf5Ff6eCeejmmr4t8S-qh6_-MSE5qmFx5zeXUYil7oMWRYZH0ekbKaQxMOUk4IsEhCqV9kNQWxkw36HksFIhWjeGhSkXPtTgyN0d-4L_qDHlnisRVAPrw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "510-a/21 om nagar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

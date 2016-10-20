@@ -1,0 +1,112 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4725243,
+                            "lng": 76.9167689
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1cca2acfe52501379b8c7dd094cf93a861f82189",
+                    "name": "dr om prakash",
+                    "place_id": "ChIJ____PycUDTkR4wnehob08Qg",
+                    "reference": "CmRRAAAA49ynvDzTn1HW2RLq7TwvwJuCyHVFjmSjj3PL-q6kfQl5WnIQSeSfYFVFbI6TAUUbg-Ql2lbnH5HFqZa4EwHO-9NDydsmcHfUVtyrjVFRcmPcvxeXHzoZKlR-RWPXFiQlEhDZ-3cVFk97-1mUQ1G50un8GhRHOfqmMjKWoFEHWMRJ-5BV_-MFYw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "510-a/21 om nagar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4725243,
+                            "lng": 76.9167689
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1cca2acfe52501379b8c7dd094cf93a861f82189",
+                    "name": "dr om prakash",
+                    "place_id": "ChIJ____PycUDTkR4wnehob08Qg",
+                    "reference": "CmRRAAAAlsiynsyZ8VQ5H9iA6x89PfmuI3eEqi44zHUnnCHJBQM49flR1koAqUOFlkiA0KEB6edGmJV_hlkfEJKt11DkbRBESgjIrqmmlnmd2FbuBII-puNgrIWmUDFgmYYWu4PREhDy0BKT8IeiBiX-xQacu05UGhRVmBggLFBy9uJwzSvraBB4vkdGsg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "510-a/21 om nagar, Gurgaon"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.406462,
+                            "lng": 76.92927499999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7b8c92b99daddf3b19f0fde3eb067b85e055e7b6",
+                    "name": "ASHA MEDICOS",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 323,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/113364268458326918924/photos\">ASHA MEDICOS</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFklbwSUNvaqyra3WwFqSVcKlWUp1xsxLZkMZd4PNZMkBdTMLhBj9x8X6m6Rb-yJzWZMo89ORfKIYwa6hKf9bbsPbL_XnyE-sslN2isFKyPr85YJFXVp0m4RXiZkNZr2CyzwPtuYW9OtZ8TWIleYxoV0-BiwjjQcXFdt98uDQbfEEhA-CFVbiyXo7TLrBcVOIeRRGhRADaZ9nj_BnkidblQk3Dtt-EzRhA",
+                            "width": 324
+                        }
+                    ],
+                    "place_id": "ChIJ_Yx8-Pk9DTkRduFbFDNCcjE",
+                    "reference": "CmRRAAAAKvqnXH-0lKGZhw5gXv6PI1VNSFQ5fMZrWYd11JSD7-5UARSdV_plIyY_LYCh1TbQRFMXBJnHejPY66jzyRUCBJTtnC0qxPP7MjliIRtHeqH_C2qtedTbhZNuF3zFoSqTEhDHcuWDX-_OlGrGUVgfSBFkGhSWhHKbxkRbGwi-FKrdPdPA0wEJLw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No :- 03, DLF, New Town Heights, Sector - 90, Gurgaon, Gurgaon, Haryana, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

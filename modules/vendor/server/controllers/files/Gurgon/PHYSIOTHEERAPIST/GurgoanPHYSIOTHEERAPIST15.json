@@ -1,0 +1,92 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508253,
+                            "lng": 77.03092099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5082614,
+                                "lng": 77.03109524999999
+                            },
+                            "southwest": {
+                                "lat": 28.5082502,
+                                "lng": 77.03039824999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "01279dcba8c9e6096bae5f2891c683f01de9295e",
+                    "name": "Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOQulhfQZDTkRu8JtjOq-JRI",
+                    "reference": "CmRRAAAAtQdST9vQm4U5LRCbXNKenAkbeO7FgElx3uEEEPqRk73F3F4KpmeCzyUif7SJtoc1AqcNG3FcTdl3Gm8hpd3y-pYtq25bVLi5DSCnTuW-YYWoz7ff8U2QmlS_tCaLESNxEhBRMgknos_Jm8Vg8FoP6mfEGhQMwvgpnbhhYpTQEjmfEj9OLVRfEQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyapar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.481857,
+                            "lng": 77.023819
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "75592a4b2ccc14953eef8709e734c86f3a3ec312",
+                    "name": "ACTIV CARE MULTISPECIALTY CENTRE",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ20dx5MQZDTkRfT2V-kwFf_o",
+                    "reference": "CmRSAAAA06LZ0kcPsk-v_NKPXrDPn1if6dt39hjUMV9VzfUGQGU1Y4Y5fe2-eCfmaXHkbRkdkVdn4gopkHgHYrfsgOqzl6Myp8AVEFz95rUbr1aY20T-Zg-OcZcOMvQCNDlZrHUmEhB-K87_KCVXxtBG0U15F0NxGhT2InqhsxLv-76ZA2nd1DykdaKnFw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "doctor",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SHEETLA MATA ROAD OPPSITE SECTOR 5, GURGAON"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

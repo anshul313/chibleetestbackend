@@ -1,0 +1,53 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.3869831,
+                            "lng": 76.896143
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ffa18e781638deb9cf5284c7deb25a8ccd5d0ae1",
+                    "name": "Rx Pharmacy",
+                    "place_id": "ChIJf6iKQxU-DTkRbNmqVntnx7s",
+                    "reference": "CmRSAAAAAVFPYowgxEpXTrEdRTrGAqNaIaJJO1IFBZPtHXyD0pkY3iUZYnOTgiXh0sSQkYBap5AKcunmH_JzFz4yFCf66BNENvGJWac8byzG1I41_9SJX1M0tVG6LxrPjVZgl_-VEhChflLn3awKH5UfTA5I4p8NGhRFmhJ_ZM8Ct9WVBOfV2nwVHwSjPA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 14, IMT Manesar, Gurgaon"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

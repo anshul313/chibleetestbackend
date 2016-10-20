@@ -1,0 +1,128 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508253,
+                            "lng": 77.03092099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5082614,
+                                "lng": 77.03109524999999
+                            },
+                            "southwest": {
+                                "lat": 28.5082502,
+                                "lng": 77.03039824999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "01279dcba8c9e6096bae5f2891c683f01de9295e",
+                    "name": "Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOQulhfQZDTkRu8JtjOq-JRI",
+                    "reference": "CmRRAAAAB4N5OTl5_LXCWGzADQGs9GO4OLHGBEK54dRLBoew3l0TgJR70CFx2Og8XJGDiIos-n0y812EgaWysqOKk0SJjMQ2TNAdUwa9QdnAoUImnPC-X7TQcjksVqbdAKOh1EaWEhAoZ7yyHrtgBlM2M3lXn8YoGhQFnAY1i5GVoxLTABRyxbUF96JIOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyapar Kendra, Main Palam Vihar Road, Choma"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.508253,
+                            "lng": 77.03092099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5082614,
+                                "lng": 77.03109524999999
+                            },
+                            "southwest": {
+                                "lat": 28.5082502,
+                                "lng": 77.03039824999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "01279dcba8c9e6096bae5f2891c683f01de9295e",
+                    "name": "Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJOQulhfQZDTkRu8JtjOq-JRI",
+                    "reference": "CmRRAAAAy02UUPlfr_mSDZOqMiSQDugLmFq4Y1RaPO5Z2_0Pmk06C6kMTAYaD2zdYyZNcvRSlbYsU1Ad6mJo_oTxWI3R9UWzZpO3_AsIRK1Y52l2wL8JmOgNtj7wSQsMCmm4x9G_EhCjp4WBjCDBJ8Wc5mJ-pWCoGhSa2hyMnyBFu2mMkC6J9ANGQC_tWQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Palam Vyapar Kendra, Main Palam Vihar Road, Choma"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.532812,
+                            "lng": 77.054981
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "6c473c81170f8e53af091036d2592e6c2db54361",
+                    "name": "Physio Health Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJGQf2XTMaDTkRt0f_fUPXgz4",
+                    "reference": "CmRRAAAAHXIsi0iVtiGwFNI_CbpbMTGzklx5Xr3qATT9_9ol58AjtnAhWJNQtmKRqr1cXg9uLDU9GEP0ySc03XIil7ZJEpyHAVLMhkHPg5CaMRPNr8FkJwxR52zQVuhuxqFNKDJHEhBO3WjYYgAKhWu6wRrtEhzhGhRCUvTeWwAOx5bdQjLkaiiOyBNVzQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "doctor",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Main Road Bijwasan, Harijan Basti, Bijwasan, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
