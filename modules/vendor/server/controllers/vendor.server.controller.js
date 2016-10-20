@@ -907,6 +907,7 @@ exports.getVendorsByOpen = function(req, res) {
   var vendorIds = [];
   var finalresult = [];
   var asyncTasks = [];
+
   vendor.find({
     coords: {
       $nearSphere: [parseFloat(req.body.lat), parseFloat(req.body.lng)],
@@ -915,7 +916,6 @@ exports.getVendorsByOpen = function(req, res) {
     },
     "homeDelivery": true,
   }).skip(req.body.page * 10).limit(10).exec(function(err, data) {
-    // console.log('Data : ', data);
     if (err) {
       return res.status(400).send({
         message: errorHandler
