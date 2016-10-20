@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 51; k < 95; k++) {
+  for (var k = 1; k < 50; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/noida/LIQUOR/NoidaLIQOUR' +
+      'files/noida/PHARMACY/NoidaPHARMACY' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -486,8 +486,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Misc',
-                subCategory: 'Liquor Store',
+                category: 'Health',
+                subCategory: 'Pharmacy',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
