@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 47; k < 70; k++) {
+  for (var k = 1; k < 24; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/noida/ATM/NoidaATM' +
+      'files/Faridabad/ATM/FaridabadATM' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -487,8 +487,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Wellness',
-                subCategory: 'Physiotherapy',
+                category: 'Owl',
+                subCategory: 'Atm',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
@@ -1722,7 +1722,6 @@ exports.getBanner = function(req, res) {
     });
   });
 }
-
 
 exports.addBanner = function(req, res) {
   var name = req.body.name;
