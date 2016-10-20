@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 71; k < 95; k++) {
+  for (var k = 1; k < 35; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Gurgon/GAS/GurgoanGAS' +
+      'files/Gurgon/LIQUOR/GurgoanLIQUOR' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -487,7 +487,7 @@ exports.googleDataInsert = function(req, res) {
                 name: doc.results[j].name,
                 contact: '',
                 category: 'Misc',
-                subCategory: 'Petrol Pump',
+                subCategory: 'Liquor Store',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
