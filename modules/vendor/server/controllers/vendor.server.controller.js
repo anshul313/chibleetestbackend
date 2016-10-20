@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 71; k < 95; k++) {
+  for (var k = 1; k < 35; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Gurgon/ATM/GurgoanATM' +
+      'files/Gurgon/GAS/GurgoanGAS' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
@@ -486,8 +486,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Owl',
-                subCategory: 'Atm',
+                category: 'Misc',
+                subCategory: 'Petrol Pump',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
