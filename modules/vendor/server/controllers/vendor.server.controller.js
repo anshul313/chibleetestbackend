@@ -445,7 +445,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 71; k < 80; k++) {
+  for (var k = 81; k < 98; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/noida/GAS/NoidaGAS' +
