@@ -268,3 +268,5 @@ Error: Route.post() requires callback functions but got a [object Undefined]
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-10-20T09:24:34.839Z - info: 127.0.0.1 - - [20/Oct/2016:09:24:34 +0000] "GET /v2/googledatainsert HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
