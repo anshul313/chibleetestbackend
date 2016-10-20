@@ -1,0 +1,724 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4999533,
+                            "lng": 77.4142541
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d045f1ebff5aff8122edf926500410f1610a3748",
+                    "name": "Kanak Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJAQAAQFfoDDkRKHqyB8IY408",
+                    "reference": "CmRRAAAAQC2uMzNl1XJQXxUcvzOuqZotqtpR4t5oyectVIV8bTrXdNIuw99jIFaT9E1JIkwikTojT_jlYta6PWVXHE0YVAOwv6StXOWDMaPLbXk00fhQ0JNbSBr2x5RClMeBX-SpEhB4pAmzJpXFTpOiEwrWNzzNGhSbha0Q1PdmOY0VoDXsxQ0kYjXx9Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 142, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5060169,
+                            "lng": 77.4085923
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "784c970548addbe9813706b0891386904cb4b3f1",
+                    "name": "Felix Pharmacy",
+                    "photos": [
+                        {
+                            "height": 1728,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104612692168812249972/photos\">Nikhil Gupta</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANwKOLXTaE8il2_dZfkldg6XwEc8ln1Jy8kYkDaFtJkfIMb92W-ADdTJw3eSmSDYoKTqKpWVoxEX0rXoJrV6OHjvhs-FoplKbTk-UpF2ceTy6j87rXbYR1_KhGCJx4oUieWKOcc0zE_5ZdPXrH_2XDBlwgjSZtwYHGZB9bC00_krEhDvJ-lgkpnmy36xW-OY8K6TGhQcaDi7QL_mLV5kSF8dOSmhj0nGhQ",
+                            "width": 2298
+                        }
+                    ],
+                    "place_id": "ChIJmYBtXfboDDkRAIxNAxcbzOc",
+                    "reference": "CmRSAAAA4JHyr0o8r7TKtQqKIenu9nOrlujl_Ok70wf9xdHhEZNTwf583jD7_Vb_M5hIgvUNggVR9vec-ICPeNWvo9cRZ3TiPJc4uGUAw2DB0-SqaL6OLnn118UV_UX_gQR3L-9MEhA_wj3oyxTSLyJMLIm45LC1GhTcOitJm4BnOmiGTRn1mLohSQ-Iow",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH - 01,, Sector 137, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4999533,
+                            "lng": 77.4142541
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d045f1ebff5aff8122edf926500410f1610a3748",
+                    "name": "Kanak Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJAQAAQFfoDDkRKHqyB8IY408",
+                    "reference": "CmRRAAAAxyjHyZ1DuZYYuirUqMefy67d0oM5Wurz5nXjd13aLCdSS6mxfUsaiZ612iTGHmFbnz7EGD8jnqUP6NJ06GMso5b6Bl6kzX1dMUNG7UPPNLXI1CIAvEcg6ChXucUHnwwgEhDrOke_H7B9rOmfHXUCo6tCGhSKvdmuImYs8VqrlGC-0YkFrORiIg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 142, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5060169,
+                            "lng": 77.4085923
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "784c970548addbe9813706b0891386904cb4b3f1",
+                    "name": "Felix Pharmacy",
+                    "photos": [
+                        {
+                            "height": 1728,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104612692168812249972/photos\">Nikhil Gupta</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGtcaUytdoYPfs6Iz_IKxT6B8-yEJpiwCQ4xDStEe6Pa4EJ7c79HvjhcqgioKDLIuwe36ybxvTXheKVeSCku13gihnqsUMVhr_0WgOZRcOJkrlT5O2ovfGfG-0nn9kMalnv41lRqOedkbIwIRCb3NxmHIFkdyvqt0H56kuWET36mEhDWez7yjdqJeBlDw5-136znGhQMlSm3AkBaYaLzMSfU2_N6PgDnVg",
+                            "width": 2298
+                        }
+                    ],
+                    "place_id": "ChIJmYBtXfboDDkRAIxNAxcbzOc",
+                    "reference": "CmRSAAAAuGOfqGWrOszoK_PZji13kSq6AWc5yPe9VVTGo5Hjln11alP7liQwgl-tNkm_nObQwDJqEF839daPgL8sAslGv0HNIyhJMJsyU9KO1cCjHBneWisraqgMXRaXuxCZcm7gEhB7pv6kuSd9uTy98Vjww759GhRL1lHj86nisknvaCwLScY41zstwg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH - 01,, Sector 137, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5206899,
+                            "lng": 77.38424429999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e7e63982d8af8981d097bcb0c0d7fd618466e8b8",
+                    "name": "js chemist",
+                    "place_id": "ChIJZYPvMpnoDDkR-u9yNN1QauE",
+                    "reference": "CmRSAAAA3u2FDkGFQXLqoPuNAoeLadR7rx-PECWIYi56apEx50smQ-m6YYPj44mHTnnFXTMJYn_FLU7V5Jzil3goXuCtMU97vkqdQQPcFUou8L0WlhH3bKBGNHhMptPOE_BQHT7JEhCPzOEXIU7cK1fUafOavgm3GhR9h0W2lQw_f-i2rtLUh6yYEFTC7w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gejha, Sector 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.52163839999999,
+                            "lng": 77.3836898
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "05a1c9b4f17a854a0b825ac2a07b8f0ac1a5ff7d",
+                    "name": "Hacter Global",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1920,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112826205470275711029/photos\">md aamir</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAErWHAS6DpHCGbD0u2ErE1TeCVfxJdxGRJwIdAyZHWfkKTY3WvO797M_FvurFxLAl-wfHVt2Aya853VqnPQ6Txn4YasIcsxthtOZVQmcBC0LOsTGz3TD92UgXlSt1IgoKakhT1QGPyMMyzOKv1dk6ec8nIHfxfsExJ_oMZnyefz0EhDUh5cgK0P2pIL9rE7wCqmYGhTlCPiicFEsXiGveu_t9PmCWoJ6VA",
+                            "width": 2560
+                        }
+                    ],
+                    "place_id": "ChIJl2mZKZ_oDDkRGRcWLTEvuDM",
+                    "reference": "CmRRAAAA4OnT0WttdnyNB-2s0d0wlcuNFPvxojzBvrVKdvOLKi95Ic4JqJIuw8pdL6Xy6Ok3nilEQ3SZRfbNZF1c3q_JjnOKN957Gf-I839rL9RfKXwL__fim6amWJWidlK3RptyEhCzNM8V4XLjtgIvqwAf9QTEGhRSZBJXArUFlWlU-7zWF5qaZSigdg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gejha, Sector 93, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.525431,
+                            "lng": 77.38790999999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "cf19e30f75ddc8f457956749eb54a8539c50011d",
+                    "name": "Akash Madicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 596,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101045403171591972221/photos\">Akash Madicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAANSDH928xfzS7SbFR6AW7_2vA_xBvETTBSciyjVVCnIr4ulG4ztSUb1h9Fwt86e8NE7gWwd42I8j4YgB9LcDxyL3_bP0Uib8CLzjaeNYzkld9GGaSHwA8zVb_gkC82mUkg9JwTJnfXlljhOZ7fUS7xxMtSzt7I5j5id1u12Gl1cAEhCsyOenDtEIHfbE8UIQUj5SGhQqC65oeso5-LBJ3ZeQFRiVEoC77A",
+                            "width": 596
+                        }
+                    ],
+                    "place_id": "ChIJ1U9XnKLoDDkRG7Ze5HFY8eo",
+                    "reference": "CmRSAAAAaVzGKSoE4TDOhbFSUgf4lWCTq221F2rQWDYROn2HgOYgrC6NH9JrIgP-G0xkCevgvXRDhtMsaxyGXdNeygYfy0ffA_Tqg0cmg4_ABMb62cUM7uKTN-SctB52BLXG7CYEEhCNwC0f9DXcfElX1guqLxBmGhR_uM7NSvJ04xqMhDYTyChAu6voHw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "VDS market, Sec - 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5327165,
+                            "lng": 77.38669569999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "097f6cb09602d12be43435fcca67c02573dcd540",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1156,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112620344585324710874/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAI0RtaJ9f_kNmyMQ_bdxYl0KvpvUHB20I8XgmAhzljYsAwhbWO3zmqnOR_0BL7LezkE2bLQqKTb4AYEAKG3-f0Uwk9YaIDmUKMY8amr7Cxpk_Mq4_OqqUWef-L3kWnvisDIMIfai-_14zCaW79humY4THeoODMapR6mEeIEKvPhIEhBxeQoWDXaAHTYpdcpqohapGhRJclZjS3JEm90cY9HBn7M047FTIw",
+                            "width": 1152
+                        }
+                    ],
+                    "place_id": "ChIJ8f__j6boDDkRcdSlJ4dwlQE",
+                    "reference": "CmRRAAAAgtV7cniEaGHjjI6mJaKGPx8IPr524o8I07BQ9nVrOOg7j8pBGyFuDYM2SbXOQ8xUVkSEAYs6K9r7adw-ZPdiauIxSvo05BgmG-BcYaQ4YXJsLx_zmvEs3PT6NBMUdXSzEhAClUvLh83yC4I6SHLXUVXpGhSlZPZZuIRIjv6QwuIZRbSHUI3noQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Plot no-10,Block-A-2, Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5322026,
+                            "lng": 77.3836613
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cbf2ec586633c23fc0bcf3fb622f980723da594a",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJqyX-VqToDDkRsKPyi0ZHbfQ",
+                    "reference": "CmRSAAAAkOGGTJ_TSotFsUwxzPx9ggCnkbXqxfeo_LCdqBrRBlCJSgKEYEXBIWtv5kpiEXQMkKEjHGzURAOWsjfVwGJdLkLioVc6hcqHJJfHMVDoMipv7LohO377HrvvJfuRYF-BEhAGmlFUUhmXnhgN-Sb-lBF-GhSBddpvjfzGsvTYwcIDhqu38jwb_w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-2/12, SEC-110, Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5328813,
+                            "lng": 77.3868987
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5330016,
+                                "lng": 77.38695445
+                            },
+                            "southwest": {
+                                "lat": 28.5328412,
+                                "lng": 77.38673144999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "063465ec0146fa7a43e356fd32474f35bdf67aaf",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJeGN_6ToDDkR5VVjdevg5d8",
+                    "reference": "CmRSAAAAZGZZ5Vzd973utJBhFUlwsIdRbbJYMvI29E0FM1qsCN6FzqWrExyJu_2WhGIDHnBSeOVgYc-1c63B7IKDLzAUbL2aRbGcLafjrshrml52wb7964fbrd0PtTDuTBh7giKLEhDTyiU7c1tMPCGcy7alDYWQGhR0BiA0RLDQPYwcubop5maCt1ZR9A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "वरुण मार्ग, श्रमिक कुञ्ज, सेक्टर 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4999533,
+                            "lng": 77.4142541
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d045f1ebff5aff8122edf926500410f1610a3748",
+                    "name": "Kanak Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJAQAAQFfoDDkRKHqyB8IY408",
+                    "reference": "CmRRAAAA6_MQRDWifYB1FtQhpiPowYkFt3SVr9jGtIBaVW_-1h6HK_34qiSD-_RWIVPWvpuZiCl_SdTYCvQRk2RazY6VS9Sk-pE0SdQPpNkMRSEcrtLp_oMh0a8nUIB0oh_3ftfXEhAUo_ayLJ9aLroQwsjRH2pZGhSWW98uDMuMW0BnZbjLN9UABcxGBg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 142, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5060169,
+                            "lng": 77.4085923
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "784c970548addbe9813706b0891386904cb4b3f1",
+                    "name": "Felix Pharmacy",
+                    "photos": [
+                        {
+                            "height": 1728,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104612692168812249972/photos\">Nikhil Gupta</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAHN0_k6yBXwSmfnAkK3buc5vxkTkqGUSHPmnIS1xqzs5H7093DYMM6vx_uGACDyVHHMcocpLxfCOSpDY0nzud2sJhtHxeqADgwPxsukT3B1FgEBGpAd21A7FqVN0_WlrnSotxdBQlQRkrxUGNItIrGZkXmdNKE06cINmpWtsRxv5EhDKcwKibefrvMs2KvK3rYRNGhQDaGQIr28eYDym_0e_uuHqFxhjPA",
+                            "width": 2298
+                        }
+                    ],
+                    "place_id": "ChIJmYBtXfboDDkRAIxNAxcbzOc",
+                    "reference": "CmRSAAAAFqw7ThEf4OvzD4oX88t7Z3m9Nzz5su1mspA_tCWo_rufiir2F2tEokv8sRbXHAHrR-9TqAYpzOJzlnPJOgu7576ApqFxIYAtKnncidnUSUyPY8eaAhqZh0u4BCf6rjPBEhDRHPPCkmEuzeIEhloWHDaYGhTs0Nm0EppWtoEhbX0S5V2LieeiAg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "NH - 01,, Sector 137, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5206899,
+                            "lng": 77.38424429999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e7e63982d8af8981d097bcb0c0d7fd618466e8b8",
+                    "name": "js chemist",
+                    "place_id": "ChIJZYPvMpnoDDkR-u9yNN1QauE",
+                    "reference": "CmRSAAAA-WJRyDJMbZOr5fgGhC41UMp-2X0709X4c1eZN9hJLtKzVCwWizf0WcHdQo1faAh8w_ssraPg1vmwr8eicG4amdgMByeQjSbR86OGhOGC0fdtXszqqCqulDtpTCDD6Oq1EhDpalNDGHs__C1lU2p8qr0LGhQqeXQxCFphjt2Do9QgLKekdcUkWA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gejha, Sector 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.52163839999999,
+                            "lng": 77.3836898
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "05a1c9b4f17a854a0b825ac2a07b8f0ac1a5ff7d",
+                    "name": "Hacter Global",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1920,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112826205470275711029/photos\">md aamir</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFN7YTMZCs6Hjsyrnh8vvfRcVU4hUAswqnwvwrXrmLNiy9WxwedgNeaphvds39u_q1zPI7P-115Khox37vrvmqC8D0Leg5K0pW36gEM7MnDMEBO_FuHq7f7DhDQkwiAavT4uh2CBJmESNfyiTkLOUiqD2EEUg7mHN09LPCeDRLi8EhDHRIJErFHdoya_6tTm3tPXGhSDbxFnjS_7jKcgbxv9vnJORnW7zQ",
+                            "width": 2560
+                        }
+                    ],
+                    "place_id": "ChIJl2mZKZ_oDDkRGRcWLTEvuDM",
+                    "reference": "CmRRAAAA3tuw1Jf5s7u3-oHrFrBKvx7Orm-ZHFRaley24Oa7aXJJCNDX8NWKcd7attQVK3klNrgy0BqLaPO84HrutqLH1qivPAOIxeTayfnii03pImPvToH096HZHJx9pm3KLszDEhDGClngFlpMW-DPq13VabFCGhQaorDG6wlnBJ0xjdGB3jDp7stPbQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gejha, Sector 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.524669,
+                            "lng": 77.383561
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "242c4a6489e6da5db746b0ab3a2d75f97e03cba7",
+                    "name": "J.R.Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJu3uG_KHoDDkRiREeb6AILpo",
+                    "reference": "CmRSAAAAJjIgIF8wz9fxT7coNcWCamlNQA3HoTh5hclbSwB0qbNstu9ENvejh0dPt2lpanFkErIuSiZJkCKnK6qbj4nJuzRx-11aAW9rMGt-ZU4WOrHqDYFwQCr8Eg4Pp4T_zXX0EhDQswf9AfTKUIhtjYfAc8mAGhQt3V7OhV7z5bTlFnGL2Z7EYRQPqw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Kaushik Market Main Road, Gaon Gejha, Sector-93, Gautam Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.525323,
+                            "lng": 77.3836829
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "672664139fb9c4554b6f08c7c410c20c6500c2d7",
+                    "name": "Aarti Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJO4c-8aHoDDkR27TlIKV7nVs",
+                    "reference": "CmRRAAAACIyHgq27TTIQ4bLQkx1Z5mUMui48dY1HYKoRoRDv5BgZKDyIGJAxDnG5TbhbBZjSr-I6IDOJXb_OQ8HiMBTUnu-GNe0S70GvEKV_iraaOedGaZuScMxRgxcBZaIlElEnEhBKYoRr6WdLM7PCoZ91L6L2GhTEIN9ik5qoFm0WDPKK9ACHXkb-xw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 2, Near Shiv Mandir, Tyagi Market, Village Gejha, Sector 93, Buddha Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.52570099999999,
+                            "lng": 77.383427
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1591260fa2fe9f9b42f2ba9702d03d37f34ea109",
+                    "name": "Durga Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJdfij8qHoDDkRDxx8ZQC7V_0",
+                    "reference": "CmRSAAAA1wEc9GNmC3JQs0zGFvPngMs7uGvA2MVNn91btTxLYxx0PV2PDNOBc_htapMtzFSYYu5ccAaTybTGmVkWJnfbQMSRDBsHI9EyGpoQKl2k8Vwl5JBRJF68g-snOHTuZHV2EhDDx6mQeMKtlFtQODIWXuRbGhR9EYtiqLMKHXv_5hmCVBVLa3igbA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gejha Road, Village Gejha, Sector 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.52722099999999,
+                            "lng": 77.383771
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "8bae5a55e3fb34ec679402459cf778aea93d1b9b",
+                    "name": "Harshit Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJixz_gaHoDDkRN9I_zcvPQ9s",
+                    "reference": "CmRSAAAAgUr0fcDSvuff7XMcuZYUcrZgFd-b4KGIgp0d-ggPjYFNQslUCnOu-EHQ5PodnMxAfN5m3hAJV-sw0-sziTjBi9pqqUBpXw4QzClP2xfidQCcVoTnxFBRJ-4QnL__krVfEhBPYpPqfxZ5WXaBO7_f2psiGhTs_5I2UB8bLE4QU8bwYk4HtPMvvw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tyagi Market, Gejha Road, Village Gejha, Sector 93, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5293772,
+                            "lng": 77.3912953
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "11fc10b2d668a8a51527d5be81d37bceae6d8765",
+                    "name": "Tyagi Medical Store",
+                    "place_id": "ChIJq6qq6rzoDDkR2_V0mXjZn-s",
+                    "reference": "CmRSAAAAMElNA5bkAX9STTMrU4pg4BXENZJMeq3oVJmemmR9hzAtxh1jGnKS0E_Ss9IPiqOhhA-vN3RkfkJmGeFrIXwBK3hDZUIyb0GNS4gwT8O0ObkC6HC0ORvDnURUGxf62v8PEhDNkKaueBbNzmmEbEuoWl1JGhTRdXqbVk0SoDzjuQbjY6eWMN1Sew",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "No. 5, Sector 82, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.52954069999999,
+                            "lng": 77.4134423
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "63035f51b83879db26165cfeb85a799846ee8813",
+                    "name": "J.B.B.S MEDICAL STORE",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJNzwTL93oDDkRLUIjoU6DbVU",
+                    "reference": "CmRRAAAAx1V-uSdRtoBYwIXiHCIa_FPO47z6_U0ZRC5DxAUyP4HxJHfhRLt42MeGM_8Jcx3Bv99eTdcs3NnVqF_NYuQ9ulynqWkLla8OSOEAPYSd_0VX4X0Bn5tfyorC_EgulbXJEhA1d1ACQcJp28sVfB8jVHkdGhRtNNwZaMUONOYYZ7j1ipZH9Tf0rQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Nayagaon, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5290529,
+                            "lng": 77.4149036
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5291147,
+                                "lng": 77.41496745
+                            },
+                            "southwest": {
+                                "lat": 28.5290215,
+                                "lng": 77.41487125000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "92366a5b8c0a28835d131e897d4c8d91bc3f8622",
+                    "name": "Shiv Medical Store",
+                    "photos": [
+                        {
+                            "height": 4128,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/109090228623057263083/photos\">masood shamsi</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANKN9cQXelWlRCKjCoU4Kma2N7X5j06eDXm67CLaUedJxfVRdEpYvfPrA8Cng_sUfAl0ZRjvJ66QmhU_4zyM2FmctlXTRJKxaUNx6AJBXrBQ6pK0nr6NpyR5f51CHeeHiDx1mMAnwoUnnGirc2ZrKg0o26QV-GXoky8PJjOW3Gt8EhD_ELjRCXh513IuWK33ejfQGhTQ5ZUqv4aLJr0KrisSGkM8GUnS-g",
+                            "width": 2322
+                        }
+                    ],
+                    "place_id": "ChIJ1VgZEt3oDDkRWj-Hluc3Ns8",
+                    "reference": "CmRSAAAAN7WDUFnYKG4mk3PfiR66ZIqoFp3OSP_O1p4e1GtJo5OUIugFjmTxpnxJSbG7Y1VscodEs0roJNFNUQre5BhSXcq_CO3WuJrYWEa0sf3Wk9y_2fiB_6cseEYDZH_ZbXyBEhBZThjMO-_-iL10X06hjjh6GhTBBZoK2rmbKHQmh_z-CwsBoER_Rw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gali Number 3, Nayagaon, Sector 87, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53336599999999,
+                            "lng": 77.3873189
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "06b939ff9479adad749bc37a5ec602209b75aef5",
+                    "name": "Satya Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 805,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103767433384866228722/photos\">Satya Medical Store</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAABPI4Cjt9TdQ0n07QeQrEXPzlHAiK2JJ08UP9F0K6SP_jMdxsdoTy3vIigfu5F6upviSAMPVasplLgN8bNL5Kw5Wqi5rXBL42kYsiAuQb-87feY2_72MBH8m1XRbxmmp4JRjnzDbVyQJbQr1dhMyNUG4PMl8HqobMO99r7ODtuW6EhDC-9xUxYMbjDYXzCCsYhXTGhSiLCi9CCFsDlRch10fz3yLc3nt3A",
+                            "width": 807
+                        }
+                    ],
+                    "place_id": "ChIJv6FT4J7lDDkRSxwlms6F-S0",
+                    "reference": "CmRRAAAAt0T6-4E6QERoF4OdHeGW2KJrJ6rULJiBiY7baYZKiOmvzV6HHwnawDB4cF9pb7Sc-Iin4jGPiyNZVTQnaVqPggypNtDIkm-iGHntVb8jyR1uFqdbP8CQfdzUT7-uy3TWEhBsPcPVjfzTT1iAIN9tIl9lGhTx9KHX9vgBvOAvBK3GlQTurNsTqg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.A2/24, Mian Market, Opposite Kendriya Vihar 2, Sec-110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5329639,
+                            "lng": 77.3869658
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "e1f75b94179a2cfb522b482a2b863d73c4122522",
+                    "name": "Jay Cee Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 911,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110927393737591210308/photos\">Jay Cee Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHGMLYSeBhsmnGMlhBZVZfs8LF0YNih1xgOw9J8iWJj8XOr4bJBcDeWY2EP7dNQjJKmKAWnZ5t2uyET8a1wioVxuH8TVoXUinnZAZF_BU2gdszsm9UUeAA4n55rXXYTU8V7YQftzkGs7aBsfoe9xd1vLcpyEOmM1mCHADPt9SmV_EhDI5UH7VvOi3679N1VPptVtGhSS3ZxJaRHwaFpB_Vh-jwGujRcWjA",
+                            "width": 913
+                        }
+                    ],
+                    "place_id": "ChIJ__-__6ToDDkRg2NxuvmLA0I",
+                    "reference": "CmRRAAAAYUfktnWA6kMsBYekOJaBG_cjdtT85YSE4kCQ-w4PnLjvOt2tpkO9C2Gqk6TJvNROtrfOP33s1Sj01t8ygoV8-mgDko-l6QqXHT5hOHfCfyH4T3wYoYmZgpbG4O7B4jdIEhAUIENBjCBFEt4xag1OOsxfGhT08r99Sw96EKGJg5qhF0fRlvFZfw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "13, Sector 110, Opposite Kendriya Vihar,, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

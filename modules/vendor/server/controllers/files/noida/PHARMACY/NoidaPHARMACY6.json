@@ -1,0 +1,3377 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6207641,
+                            "lng": 77.3639293
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38246c7d7271251a6e9e3bf910491cf8c72daa13",
+                    "name": "Vansh Medicos",
+                    "place_id": "ChIJe7TgZFzlDDkR1aFZp-wQNWY",
+                    "reference": "CmRRAAAAoYALICnZ8RdqdgdXzedHxkT44VTjxygBXFNbeiXCckYq1jxE7EwLOnt1usCY-UYf2me7LSSxJ4LIsFdDZae6_NB4e7I3tcgwo4hYOCOn1Ex0W9E22CMFGVhN1lOGAPVEEhBCmrYIfgviQbMEgGPIep39GhT8K98RTi07UY9WI5nrZZKVxzZmWg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62,Gautam Buddh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633708,
+                            "lng": 77.36540099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.634395,
+                                "lng": 77.36625844999999
+                            },
+                            "southwest": {
+                                "lat": 28.63347899999999,
+                                "lng": 77.36282865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ed8b69e1b21b133733a79402b25761eca997c129",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 865,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102290246670056516871/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMO7nJJvtN-8j7wnEH6AC18w05vdJ4u73Sas4f7KQbKHlV2qmqG9ejtZdfV_IjQTXsowCToiTu0RHc9zS_axEmI1omit9gRr5Co50UTf8ovGSFGs1LFGO65-mnKyeHVpIzWIX_gc8M2uOahNN2B71NZBKFiVY41Ke6CuYN62rEyfEhALoKGoupa2hcAl7Px_m6ARGhTuf3N_AgMiqsMCO3P39xtmHd7WmA",
+                            "width": 865
+                        }
+                    ],
+                    "place_id": "ChIJuXIx_kzlDDkRbkyL-PAad94",
+                    "reference": "CmRSAAAA8AejDwXdj4JdeAWu8dviWWPNi1POM_63gfhGsUZNQsQR27OiXUxrYw-jgGDHnSwOgUY30556Nzhk-6TBtxABx1L6EEvvg6fecSWvQw0Z6rGScOKalgXnMACLouCAbN6kEhChEeFLL8BSjDcSEUHBswgUGhTcyW8twFuC8odz7TfQWI90U1dubQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-708, Amrapali Green, 1/3 Vaibhav Khand, Indirapuram, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAKySg2kPJkMQFZPTqIWKiy1hy57ljY7eGU4uz77RXaTYgsQ8x496Vs1MdCzBgC_inz2ZSDNp3rXVwrMk8ztbGanIa2CCgYeugnVXlyEeW4LIWivjlChq3hV0YgQci_CkRCwFB4vhHj0ff2F4ML7n8Ns3vl6tJb_IGJyo0hBbfVdHGHBzsqefEi9r2Ld34oZhM17ddVETScrGuXjRpy0QT2yMcmO1O2XzIImzXr0MvCanoVth6rgfi_SVXeEWUZv89NRXWolNNEGVIxhjlBBu1I5Az0t9mB4rD2zx1fTVE5nGzKgqg_VGcbYpGeAiXUZRNAdHJKAFS1lYsK_8TsbxXq8SEB5T1KIrmt7dJrt-3L9ZAA4aFF_vFqrtJhV5z6wv3QwnYFNvSAPg",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344383,
+                            "lng": 77.36399639999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e45edf5a2ca3519f1dec95aec144adf431696b4",
+                    "name": "Fortis Healthworld",
+                    "place_id": "ChIJtQ2yqk3lDDkRjEpaNxCGl6A",
+                    "reference": "CmRSAAAAJvb3yS2XzWyQyZvNtLhgH29e9n_hcj_yAqVMauQ6lpn57EzMYPcI3pZwHnJlQ5ZLP_rZDo3jN2M3ubp3wRjL_9QB6YO-SieioSEv7e8ojXXOOLB5d4qoijpkP3VEvi8TEhDlb2wHEqKInFkQQNVNQ15_GhRSHzWlLD29jphqbTSEHWsWgTsv4g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. LG-13, Amrapali Green Market, Outer Circle, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6189362,
+                            "lng": 77.3729593
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fe3ae70fa245a147c9f50c9aeeb6ea1ffe8a5421",
+                    "name": "Fortis Pharmacy",
+                    "place_id": "ChIJvWN9nF7lDDkRPlCgq8ya3-E",
+                    "reference": "CmRSAAAAYGnnYYg3VOHvbiLw6Ia32dWsEzvWC5KsK-UcXIO8PvQp6qfJZAehHFCiQ1Bq0Wj73QHnemwOUI8T6By58KX3MOPxsYednJdwaijwl_FxjT8gBXRcnTHRn2DxRB9CVlHFEhB1_myB_CA9sHJZPHANKTz-GhQhepEK12u7z4yfBSSP6T4mErmdFA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C/O. Fortis Hospital, B-22, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6207641,
+                            "lng": 77.3639293
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38246c7d7271251a6e9e3bf910491cf8c72daa13",
+                    "name": "Vansh Medicos",
+                    "place_id": "ChIJe7TgZFzlDDkR1aFZp-wQNWY",
+                    "reference": "CmRRAAAA7VDNC7zdsW27C_JrG4YrZ4GMzSYbgxh-OcSuBr_lkjxjYW_rsHrY3KkC_ufbdytUGqVPGf1QPUNzl0bO-cOdw3_GNshwz60GfzbRGzQCaM_TbIl5U_gWZnCqPNsy7y9TEhAn9ol0EMXqO1HuXFma2DI7GhTISCMrjoHLZFxE-YuqMxcLBrqkXw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62,Gautam Buddh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349467,
+                            "lng": 77.3615075
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "432018e82356effe5d25dc3c6de2307c4460b6f7",
+                    "name": "VIVA - Your Family Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJPSjfnEzlDDkRlyBdDTNSwCo",
+                    "reference": "CmRRAAAAxT_wXWCApfdjjCxdtSiJsNdX_Vwy_aFL0xW1AnyOjVB4rJanbzrf-tJHxwPkP13LkRsi6ZGB-b9PdWxcZe1Y6E4eeGAO0LFJvuRnsOhc9X2YeJkvg3s9sMgKYZ0ZymMXEhDvHYnlR-C8MhnL8DnArsupGhS7rsMb49igEY2974iGuksiTei_IA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mahagun Mansion, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345237,
+                            "lng": 77.3699941
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38e1d537e6606993a5f140db8d3292c3932c849c",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJ_U9HrVPlDDkRDFBehJL3Bl0",
+                    "reference": "CmRRAAAAl6w2MKNJGXIgAuKGLR6TPavCpSYejBykpQ_WcaJq0UJVZEyFEABLlnsw7q0rA9uZHiHo4JdfR62Z4eqx5e0kCwvIvSSTa48DbvwxmoMGKq2JaFVD1qRUUe5ljWhQbA7TEhCdErjkzLr1cXEViKeFOzuAGhQAJhwhdX3jtatKDQZf-9Bxuy4Djw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gulmohar Road, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141835,
+                            "lng": 77.3714009
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "88be4f47cd69ba21b0c827f30574f8416352ef94",
+                    "name": "Fortis Healthworld",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI57vQmflDDkRRZrTEAIBc6s",
+                    "reference": "CmRSAAAAzgBg-ABYvY_kFf2FAIYjIwV6cDYHKAn_96eoxu3CACFXxTS7yZMExzwbuy3TbveVL7Vm8101N5RZGwyF0AWV353rHaeN7VR15ix60YBnyjw3CHzgfHb3JH_fIDBPvjHaEhDSe3bVMLHo3dRJ-Brw8aXMGhQXeCuYZTdjngYTJsjPO6lRBILzPg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.22, Block C-58/15A, TOT Mall Shopping Complex, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349774,
+                            "lng": 77.3615277
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccd2428d2ac458b254cc198c59f6903ab85dc800",
+                    "name": "Neelkanth Chemist Shop",
+                    "place_id": "ChIJgShem0zlDDkRhRomSajPh0E",
+                    "reference": "CmRRAAAAmfhkV-_U0xf86syX6gnJ1vX68V6xs4QSrlNY7gECIlrubWwAklZgkv1ZyNBT5O7lHtkNe5yOpLKCYCLqaIMDX5ustQH8ItaWpipHz_AnNWqMArDBBJEvgsWkOaupVtDsEhCwoS6AtH-R3wPEa12Xq_s0GhQYoR6ySiUyU6AlQFM5vcMkAvZtMA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633708,
+                            "lng": 77.36540099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.634395,
+                                "lng": 77.36625844999999
+                            },
+                            "southwest": {
+                                "lat": 28.63347899999999,
+                                "lng": 77.36282865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ed8b69e1b21b133733a79402b25761eca997c129",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 865,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102290246670056516871/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAC-dEBgjJuelamlEgRp-ICcdVcdmr_kHYmBQ1kOgRm0_8bn6O1R94KzYiKp9XZjRStTCy0g54oPvU7zmzhT-NtbQIF-6qDsotvFuj5W3SfjPUC6_Zr4eODPUVAuVL0su8uc2fprbkcei0lp8w4NKAcYlqFwUri0qRifcxnCLhRmSEhBoVvjD2bIzrTNDjSe4_g-UGhRdGaLdlCxXxPL15wKUUphPhjk9Uw",
+                            "width": 865
+                        }
+                    ],
+                    "place_id": "ChIJuXIx_kzlDDkRbkyL-PAad94",
+                    "reference": "CmRSAAAA9-AzssHXCJ7NOsC0dUuKa0ABuvwDVGqN0xn_N-4pgbTGfnWeezUoQHeEdBDYsrGBU93csDcHEFAzjKuzZShabFVL2KG7EkGz_26qx6It_kdfyrfn0KRUBTffjTgw4Xn_EhDUbNfLwL-W9i06fV9df_cnGhRBwqz7MSwVKeBqaXVQuhRY0EitJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-708, Amrapali Green, 1/3 Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.634356,
+                            "lng": 77.36969789999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4dac6ecb1b8637a4610d0cdbeb2929c850f398f5",
+                    "name": "Guardian",
+                    "place_id": "ChIJVQzrrFPlDDkRrlSp-1l9fLo",
+                    "reference": "CmRSAAAA5OSaWesdFwwYwiFROvK_gB6HIsOto2k_jtCKh_owqwQIHPARgDDIA835ANOIh01rcMsPR1hcz1eEVpCbDhkh_yuzDV-IXadUvqczh6Sr6V7_iF4s9HP7f7fXWb0ljvaxEhD6Tzt-19-B3TjNvjjo5JdiGhRvxY84cq38mSUL7pdF7hTSozUqzA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 34,35,36, Lower Ground Floor, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345195,
+                            "lng": 77.3640597
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d8154851453f54bae463f245b8b96621b8e74487",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJg6Dl_0zlDDkRyrVYNFm-6A0",
+                    "reference": "CmRRAAAAR3Qy31FZRcnyH0x9L8WMmH6kAzSsoGwjfwsHPnFFMej8_NyppwcWICZSqy0sVv4PFCoGRLYNbSTGdYmF4X3lm8Sn-4fl_7l_Y5DfuhYld2SeKpG3KlO0IOSd-6bgCCWMEhAkc7Ex2Td7-qRapPJmPzjdGhTX1Mu9HBwiM9oETvu7siW-qcxWUg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No UG-10,11, Amrapalli Green, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344973,
+                            "lng": 77.3607111
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fb134979d3cb6b9c2d53c0df960aad97d2b78614",
+                    "name": "Gaurdian Pharmacy",
+                    "place_id": "ChIJwUqWe0vlDDkRjNDSzC2pU-k",
+                    "reference": "CmRSAAAAmvw_Qyuo0uKcLa6lVUH3ULZq9iARo1Rhg6oAX7WlsQu3Ftf_4aikY06WXxTuM4muL6Yo2Ai_DU4qzUEOVOW6nHbo-HuATQrBShTkYOtEqyBYUVwMVUm5UVnjAYPmfJEFEhABDDI7fVuxojnDhSzqlcbtGhTgKlNOUOcqkGjnmHOle7StyxmlZA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6341364,
+                            "lng": 77.3700092
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccef45a2f929f80fd8c08b160fb3bed0eece65e4",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVW9mOlPlDDkRe3k79fCGGPE",
+                    "reference": "CmRSAAAAvIJ2ZjAiuMybITo9P_pu-M8jlkSC6SAONEeujSM0GV4naEcik2Qd0gE9GsnbFtd5UOPTNRNH_U3y1on4jiTF3a__HI5fge_HanF7ezmKpjalEjIFz0XPEslPnBcLEhRVEhBnK1T6TwufH8T9QkRMGCB4GhTKH5ltLW4krx6olj5iV_8kFoQ_Gw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 34,35,36, LGF, 9 Vaibhavkhand, Shipra Mall, Indirapuram, Shipra Mall, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.62401,
+                            "lng": 77.377225
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "91ab28217d4b8af0bc18460e48d62633f97fdf58",
+                    "name": "Wellmed International Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJt1U0iljlDDkR2uhM2-EfW04",
+                    "reference": "CmRRAAAAbDmTncjqRpVQzGxfMEDM44YDZSsf89vBE8CkKyb-g0oXY07ChxWWls4_WxSaxUnBglHFinjsf1xKmWEp92hVRgMN4sMF4ySA2eGTniCyeAOjO9tjCcrWdNmgj83y6hd1EhB8n3QD2oH87ecaA9onR2QWGhQHw3FbWXru2XnS4gfeNnv_Ikp2Ew",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-54, Sector-63, Sector 63 Noida, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.611927,
+                            "lng": 77.361125
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "2244249d99a5b506429dd02a08c7020ac2f7350d",
+                    "name": "Global Drugs",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJF4n7J2rlDDkRwHMerrqPKAc",
+                    "reference": "CmRRAAAAfKrP70LIGazZzdhvQyDS7cB8ZIGC5JANOxI63KocKWrxeUPOKgknK-jDUmRoko0NANuAKjLaKVTYXpAEOkG3e0QDym87ru9tWKjnjRgGZsFJ9WZb8WM8AlMGp7m66jxFEhDmRuxd8bEGg6_7ctAieOQaGhSmcKhaz0k-6aqXtRGF5nImbX-gsA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-102,Sector -65, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6367262,
+                            "lng": 77.362623
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f08bfd533c583fdb9f3955992cb17a2669151f79",
+                    "name": "Medplus",
+                    "place_id": "ChIJSVLkyUzlDDkR2IK_DFavdIg",
+                    "reference": "CmRSAAAA_LNRN_uHeOUYX3EpVlH9lHGRieGSqbUYH1lCIy0QwgEw6wrXn9sUL5LDfOQ3gXhY4VzS_w4EIOYgFrRby2UJnlGpQybgt0ogBVsayTpdnLhdaX6yJiHv387vtSj57XF4EhBZ_94RNXv77r1E27kAqvYiGhRrL8T3qU6S4Legi1508m9IKuKTuw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Inner Cir, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6355718,
+                            "lng": 77.3743916
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "945de592b9118d16d4c3944efa4ec38d401b8c16",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJC3It9FTlDDkROUJn5asgRG8",
+                    "reference": "CmRRAAAA7UDqp7HLx16WJVwvYIjQY5G7BRNz2VRYVG8o1nAMw6suGD_6Eeapd1UcchMZ9Pxni6SUrIz-XnlM6DdS0Aqij3p_Yre-0n4VRSjXS6W4Pg4t8ubarClKWmmJIeGCQA07EhBDzcbgluvX5UN1cPMoa316GhRq9CZrQYOFO7mzpvqpVh-lhH3f3Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141058,
+                            "lng": 77.3714559
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38a2a182676b52adf64c549707518bb87751011d",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110789818667977786664/photos\">Pankaj Jain</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAJj6dYVT4sVOS7XF04-7wB2q5DT2TG6jGsDAUfp7-e5ZYONhqMaQFGDFs0Q3W9Y_BcxYFXLqm6jb-d_W_87FeRQV7ZmyA-i_xelgoXqIJsuunFQZe4F9us76EdpauEFZTW2_cFs_mtnJ6iXoGdgmzydEFjQKG021zkb3r4RVoyxLEhBigGH2jka8jkFaqc7bBseSGhRhQldp6moriWy1meHKYO9xQQPk-w",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJV9DG60TlDDkRxh4TfG9x2rk",
+                    "reference": "CmRSAAAA8R5qvnWAapSnQTYX8C8kD4I9wL3kXdSrLygEmMmIohXHxBEfUMx8_cEzlHTUhqd7C5RuE1Rj36nwGUaUGqTZxnULsab6xkeKuOv5GhaNc2fXazrQbgvSPJqWm6yKN-RzEhDJb7X6-yThN1VrPvn-TuL8GhT_qBNpjw-GTtYkG9CwSzEErppcoA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. PG –2 & 27, T.O.T. Mall, C-58/15-A, Noida, Uttar Pradesh, Rajat Vihar, Khora Colony, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6271878,
+                            "lng": 77.3500364
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "74ab8b9d91ca210674cfc510f70eb6f95ec3b07e",
+                    "name": "Chandni Dawakhana Khora",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM-qAKTflDDkRzGZqaD2xabA",
+                    "reference": "CmRSAAAAh58vT9plMRhm02iuluJ_iTCJBG5g0IaUYSA0RTHV-XSCAFRiZUZjKF7m368x9xtNym-nLTAeb2pWhdQJeSFQS5IIU1GbIPRtWqp50h6RX4x0YUthAS5BMF7kufe-3ivwEhDhCPSwnf2-2M7x8M7accHBGhRoQXRdc5Q3qQslbWmhctXZiKviJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "himalya enclave,, Makanpur Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616516,
+                            "lng": 77.352719
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "40d57e9eb5f6a0c1bfbdfed4cd20db5c19e6fa9d",
+                    "name": "Himalaya Medical",
+                    "place_id": "ChIJM7csAj_lDDkR7UQDg3-KBRg",
+                    "reference": "CmRRAAAAtAIfGDDV0Pqw3rQCJ8V58fEEAAj7_ZYuQnKW8HAzJ6LfsZBtR6lQVkJVAfIPHrEYxh13eXHce9E892Ww2l6wT7MUEJjcazOPaE6yrPg8dgW9peA1ST79ygToC0TE7lhSEhB8djD5RKvYV3y2TWYiF-ULGhTrEv_UDZ89TqP_PSkgG90F-yLhsw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Galli Number 5, Khora Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639236,
+                            "lng": 77.361015
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6393887,
+                                "lng": 77.36104094999999
+                            },
+                            "southwest": {
+                                "lat": 28.6387779,
+                                "lng": 77.36100635
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "49487a3f94c0befcecbd0443be4961f642907e37",
+                    "name": "RX Pharmacy",
+                    "place_id": "ChIJWRysibT6DDkRz5ReFN4992g",
+                    "reference": "CmRRAAAAYk6lSex5XcH3yxcKXvKlMxoxO8H1s7De4LvWdxBSN8PG1b6nRYSzFn9t3aAOVXGvvi1mLmJjdsZ3figohjjrYoyjcwbtXYhAX6DyIV2Qdg-IFI8kwztHLskkg_1C9Oe3EhB_UnaJSJvwltUk8s9W9QoJGhRC-rYAYXZeNxh2xFDXbHl6keIgjQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.15, Ground Floor, Raj Hans Premier Mall, Plot No.414, Doctor Sushila Naiyar Marg, Orange County, Ahinsa Khand 1, Indra Puram, Ghaziabad"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAF1wbCT7ZzlaVWa-hFpFi9ib2Nv0Pdj0jinO0A8M9PTrpU3LwQOhZ6sYIByYMeC9B8ny9op8CFAcCtk56B-dwceKVk1DhEyhM7DOq-2t5WQWoqwosY537G161cv0SyQNhNzsvc-y1xGpTsbZQzBwmY_oz5uBEk6pV1Gy7y9NCH29GEcgb0xqQ0dVixZIbnehRjFSsI9MP272q_Qq4jpKvgSLd1qOic1yRkxXjxOGsFFYI1exHDZpa_rZ_FepISTM0y7FPkuAWJr8xrknCHgh-GEc8h2O9JLd6DfeVqgKqbhsPt_V6QRJ49_cOTgFvD-Pa9ibV8E4D8utOKdkwZXqvnESEPyWIzQbrf9yvMQX2gb7WM4aFM9FDPhuTIccLS3a5pnqUicHfGIX",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344383,
+                            "lng": 77.36399639999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e45edf5a2ca3519f1dec95aec144adf431696b4",
+                    "name": "Fortis Healthworld",
+                    "place_id": "ChIJtQ2yqk3lDDkRjEpaNxCGl6A",
+                    "reference": "CmRSAAAAj0mhFHVFp1vhO8XibjvP5S9764aAsnmOLy6j_MTLxEJgtDI-6wB2sSmC9lonItcAA-4HkVi4Hdj4YuJehS-KjCyEyoX1oaZBIV5mjc20LtVRY23ze-0rGoukzU02Li3CEhDoxbhCLmWhf4GWZd9dcgwBGhQ79vEtPwbTtmQcTBxrRV6LTsEyJQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. LG-13, Amrapali Green Market, Outer Circle, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6189362,
+                            "lng": 77.3729593
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fe3ae70fa245a147c9f50c9aeeb6ea1ffe8a5421",
+                    "name": "Fortis Pharmacy",
+                    "place_id": "ChIJvWN9nF7lDDkRPlCgq8ya3-E",
+                    "reference": "CmRSAAAA3EvFziE1i8xiI8Ccs8YYwWHsFdPCq6YEq8f4tIrzhzB80SKkY9EI4VvvnV6GMvbeCStn0yheJLddrnTeThjyglEq4_X-mxIjSdQoKcCZAlXUieX4J6Zp58bubp49yeVEEhCvmkC4hOWZ7SGEi-QFuoHeGhSJmZtjUK9MvmEihtp06Mb9_jWAsQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C/O. Fortis Hospital, B-22, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.611927,
+                            "lng": 77.361125
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "2244249d99a5b506429dd02a08c7020ac2f7350d",
+                    "name": "Global Drugs",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJF4n7J2rlDDkRwHMerrqPKAc",
+                    "reference": "CmRRAAAA5MQpFoX4gQKgkcTQW4ZyuFpQDvXKAMP96N1MuHL9N82Cah6VSx_TrIkgNJ38L9_KL6GkYkh1lUlQbaHqxpC7r3fcVgPzW2lVsjwszSwsfbpb6oTbCB__qeqFJpc6k7mIEhDrqG4z-pyBmllHzb3jz2uoGhSCIl-SQrPkAE_AqEVrvi2pF6h-aA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-102,Sector -65, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141835,
+                            "lng": 77.3714009
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "88be4f47cd69ba21b0c827f30574f8416352ef94",
+                    "name": "Fortis Healthworld",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI57vQmflDDkRRZrTEAIBc6s",
+                    "reference": "CmRSAAAAqonjNuVyC-dIvEKtSziggVysNkdK-dOSZh0zo7k2Zzcvy924VTfW0hVaA2-f17Tebov0HgZOZz1HpcqUjOtow9qVTzOc-1vjfy2G9WPFkYATK-leEeJKrBPbQvbM-dL7EhDw00vCz1OV4WRQDPg1mxPWGhSOxLCR1xXKeL2muzRY1vEYzchHvQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.22, Block C-58/15A, TOT Mall Shopping Complex, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6355718,
+                            "lng": 77.3743916
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "945de592b9118d16d4c3944efa4ec38d401b8c16",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJC3It9FTlDDkROUJn5asgRG8",
+                    "reference": "CmRRAAAAjix4Ha-zGsoNVC9mI6NRMAC3eaybNdTPNVkpsFQ4sqaVxVGfH5v1W-wLobklW1TOxaCKxrHF7PWET_buxcxEqlwdEWK0aVUKNesOP2RFQzrrYlXc_PRrq97vKmF5CkXWEhCGRydKsaKfBTE8AcCEXzWsGhRh7JBAbqULqC53JBhsE50a86ZLOg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345237,
+                            "lng": 77.3699941
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38e1d537e6606993a5f140db8d3292c3932c849c",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJ_U9HrVPlDDkRDFBehJL3Bl0",
+                    "reference": "CmRRAAAAPGHxJtXBRzMZySo-IL_iE8383pAQZ8oI_PBIvoUv_NTIXlDS3H9wmGiNzPwYGjKW5Cu_xY9gjiF1C2iFBvJ6LXHDjG-_q-SMz1ZNqrrwB3LKW_fxA22zzSTjHGqckOGkEhAwlbOcieQ-zexoOoPeAYBDGhRmhHQ9liqTjib11LlbbsP5v79CCA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gulmohar Road, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349467,
+                            "lng": 77.3615075
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "432018e82356effe5d25dc3c6de2307c4460b6f7",
+                    "name": "VIVA - Your Family Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJPSjfnEzlDDkRlyBdDTNSwCo",
+                    "reference": "CmRRAAAAdQ24REVgG483VhyYvqd3lpmYlAeAJVvf9oS4fzsZrNFsi-cz7-gSzTjT1WX-5RnRdl2V0StRMLaPbFF_HInlg-wVlVmFpQElsf4zWbW-UScxoN9b8v4b-leyIXnMnNHsEhDtkZ8JvGdziJqmzq1ZVA3iGhSo84_0g6NWyyNDBf5h-ZXJPigNhg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mahagun Mansion, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6207641,
+                            "lng": 77.3639293
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38246c7d7271251a6e9e3bf910491cf8c72daa13",
+                    "name": "Vansh Medicos",
+                    "place_id": "ChIJe7TgZFzlDDkR1aFZp-wQNWY",
+                    "reference": "CmRRAAAAzxNFNogE2mobb78tsYvKHkm7-JaqZsF6qfVkKHp9SCIWpWTkyRBv1jdicAg2Vu3ql59ry1DqAHOrwu5kmT3PAOajFhNlr4GBwTR7Wm7JUCsihl0iV1iKYCaU62xDfv9bEhDq_V9Tu2TWZTAfIKALAQ8FGhSIpXr6iaFkhqbq8PAwhZl3myZvog",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62,Gautam Buddh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345925,
+                            "lng": 77.3494577
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7809ff11141efe7153eb5f4d393d6e00b608eafa",
+                    "name": "Delhi Pharmacy",
+                    "place_id": "ChIJrVJOXjPlDDkRwNRdEJroNZA",
+                    "reference": "CmRSAAAACuGOFq9oZyr9dInu1HOjzaLTHtqUp1IoQWj09w4j5rih2TBm_SjuAwHkkW7-4gvz-rgutxhGLXmKLGHgIXUMZ3rR57PgIpg0x4yZu1VzImzkPcpLyCIKW_mCzEooopJZEhDCNYcpTnTAHoJmKGoC6l_7GhTgAku-Kx-xRFIgl5yVRO62-eJRzQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349774,
+                            "lng": 77.3615277
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccd2428d2ac458b254cc198c59f6903ab85dc800",
+                    "name": "Neelkanth Chemist Shop",
+                    "place_id": "ChIJgShem0zlDDkRhRomSajPh0E",
+                    "reference": "CmRRAAAAu4039nqEEDB0BUOaVOMiqMlFYVngKi-LZDPzirKilcp6O6lDmqf3lqphOM_TBx8Nn-IDpInVYg0uwu5F07_5cw2agfUE4ynOuUUSOetHm_XsIJE6bZ_CLx4QK_fPLz9KEhD6e30j4eTnc9M-Dz5u2mUDGhSYrj3ZiIE6PuTr6I7lpb_ZqShF9A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.634356,
+                            "lng": 77.36969789999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4dac6ecb1b8637a4610d0cdbeb2929c850f398f5",
+                    "name": "Guardian",
+                    "place_id": "ChIJVQzrrFPlDDkRrlSp-1l9fLo",
+                    "reference": "CmRSAAAAzXQbDdtVuRbs0aO_N2mUjWDYT1IqCSZ4R272xPbg-p588-iaq7Lt4iBc4aXyyQUKdNUcOWW45LGUcFgM3EV5r-F4i5sF8iC8l-zlvTbm5bBuXPRLE24TezZhpeULmBNyEhAD_CmiaOgvSQEysJXp-jPtGhRCsDwysMDuM8saXiYS0YffesA5sA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 34,35,36, Lower Ground Floor, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633708,
+                            "lng": 77.36540099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.634395,
+                                "lng": 77.36625844999999
+                            },
+                            "southwest": {
+                                "lat": 28.63347899999999,
+                                "lng": 77.36282865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ed8b69e1b21b133733a79402b25761eca997c129",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 865,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102290246670056516871/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAABEKYnRTzKdERBSgdWXMuIzARcRAwPGNoHYfiBxmuojpGu5d-cahTl61tmQJkSQIJd_NIXUWB6FIYYI5svWEioitSEidpoOBM_0IHovOQjjVoaU9E6RLOm_SBnrKkBQfzR5Gt_ilCFjOtBfm3hIGo6vlezLhqWyVuu4Vko7FarHQEhBUrXO1ExJV5_EAhE4wnW5yGhT8zNtR5gy3QUX46d5vGybuS-PHOQ",
+                            "width": 865
+                        }
+                    ],
+                    "place_id": "ChIJuXIx_kzlDDkRbkyL-PAad94",
+                    "reference": "CmRSAAAAIsuJI0wfqBdJTrPDY7F4FRAIC-whLxTZwLiZ6SV_g3qQMPlPVfUfhTNSlxHD2byjziplJRdMlVUL1n_m5MxHjHQMK1vyEfi9Y9_WylKPTzDImpyIFK-wioM8Fj-2vMQqEhBEAnwieycfZ7w3efv6r1uKGhQ4YEq49iRex5Xk2HWg_afAGFgW1g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-708, Amrapali Green, 1/3 Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345195,
+                            "lng": 77.3640597
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d8154851453f54bae463f245b8b96621b8e74487",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJg6Dl_0zlDDkRyrVYNFm-6A0",
+                    "reference": "CmRRAAAAWKpsloZd3AJea9A66oQMrzI5YMfLSuQt8fUb-8vOghuC1KhSsgmVXdWQyjP_EgTT0zHXmhoRQTVs5Dd0OLdD6WkBO3_JvF6swVJhaJeGCzQpEFz1IY5yav2kmkkF4OyAEhAOQY1tuOEpO_lNFc30oSotGhRlft2gufaEYdALah6bkqaB19NsnQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No UG-10,11, Amrapalli Green, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344973,
+                            "lng": 77.3607111
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fb134979d3cb6b9c2d53c0df960aad97d2b78614",
+                    "name": "Gaurdian Pharmacy",
+                    "place_id": "ChIJwUqWe0vlDDkRjNDSzC2pU-k",
+                    "reference": "CmRSAAAAppb6Kkhv6CNviyGJxjHG0XbXzAQfRW1qj4hbe7WqA_baOEKCDlxSIWCVs06DqXG-fW4AmYaS10aeg1G1r7u-M6AUu3vRWI3kUePDBKJrur6W2V1BjfMsUOjsTNXDuu72EhCsbxT3MLmij3AXm0UIJmehGhTSS2bqo4aImcEpxle6nLwZ612Bqg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6341364,
+                            "lng": 77.3700092
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccef45a2f929f80fd8c08b160fb3bed0eece65e4",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVW9mOlPlDDkRe3k79fCGGPE",
+                    "reference": "CmRSAAAAjbDkxTvuxBvgJoQAOyCAjzLqRnvDia573fQIY_6aQzIZ_IT_iltn8kpD_NvYTAlfj_0gaURQnL7yry0IFY_0Lt42FUbMiV6aaCjLiWlEE2E2EY5V86iwKvxT7ALEhRDrEhCs4UshGmGXCXD7YFlfgYV7GhSN22vMvyjD74zmFq0QtSRDBakn-Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 34,35,36, LGF, 9 Vaibhavkhand, Shipra Mall, Indirapuram, Shipra Mall, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.62401,
+                            "lng": 77.377225
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "91ab28217d4b8af0bc18460e48d62633f97fdf58",
+                    "name": "Wellmed International Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJt1U0iljlDDkR2uhM2-EfW04",
+                    "reference": "CmRRAAAA7UydBjecjz6gBkWHMZ3D_liDHRa1-nNXXZi9CB5-IvmYMCw2QYMh9zck7FJ8hf0CjlvjkIPToKBeKQaoqWgt4iHU7u6Ids5dVptT8dzo7HvXc236KzgTYOgjURHD-Dv9EhAjM-dbOcicRT8trXBmnA4lGhQnobwAAbuvP-0vl87cupmp62qV9Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-54, Sector-63, Sector 63 Noida, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6367262,
+                            "lng": 77.362623
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f08bfd533c583fdb9f3955992cb17a2669151f79",
+                    "name": "Medplus",
+                    "place_id": "ChIJSVLkyUzlDDkR2IK_DFavdIg",
+                    "reference": "CmRSAAAA27uvmVo7lI034waO1MvwWWHHiHlz5rp_XwBKT7eKSDpllvgvQrhRKDA_HoHFj7nNeRs_CPTt6N9AjK7Zi8wn4_tsTS7mnA6LL8OtywE8vOC_wWR0kwY9nw5AY7p-5MKiEhD0fK3XG6S92oNX7GbYrSbyGhS3wq_MNM2vws6AZJe1KyTnhsKUhA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Inner Cir, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141058,
+                            "lng": 77.3714559
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38a2a182676b52adf64c549707518bb87751011d",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110789818667977786664/photos\">Pankaj Jain</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAGjSYWi04jTXXmZRYkqwNXS19_tbxK0uIgFGvCPjzNlAaghlV_RnUFB1HYtQrzrsoBNFKO1dhbZxABJIBY4g5zZR72-SQ5fr87lL6hhAGU6-AsmWLayTmrGfehuPriygIOzRTWdE7e_2wCbMLWYjxSimiQyH92WB1SVPmtWegOo8EhDQftYWAjCyvGr3q9_8d_LMGhRffgn34xgNWjQDtNQPZ4zU5hxOAQ",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJV9DG60TlDDkRxh4TfG9x2rk",
+                    "reference": "CmRSAAAAibB7hoj1EY8AbgKNOrdWO-7fbrLYbA4Ss3pBTQz7x66MT6reVeQT8TLFuPCZvvSjWU-O4UhNJce5FOE9Wjwwl7-tT5KQs65uMRqPrcBEubxVVFc0iZpLidI4g6Hg8ppuEhDLRZlEKflHeqvo3qb1oH1rGhT4eO65UAqsui1NLyCtSkghbZITnw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. PG –2 & 27, T.O.T. Mall, C-58/15-A, Noida, Uttar Pradesh, Rajat Vihar, Khora Colony, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6271878,
+                            "lng": 77.3500364
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "74ab8b9d91ca210674cfc510f70eb6f95ec3b07e",
+                    "name": "Chandni Dawakhana Khora",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM-qAKTflDDkRzGZqaD2xabA",
+                    "reference": "CmRSAAAAKrjQoEQc3-qEn8uLr8Vmy6HwD-7DFQVqX7SA_jz6j6J-1OFCG4WXJAIzFlUQy9Cvg_kMRJMVvBHIAo-VId0VV1gKLb2wwnlHchIp2IP15qITE6sAb8q3nuxJb8yC_YQbEhBKklJHqAQkP6cabOnObwI9GhSueGcMkpg4CMMAJlBE4DVH2ZayWA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "himalya enclave,, Makanpur Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616516,
+                            "lng": 77.352719
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "40d57e9eb5f6a0c1bfbdfed4cd20db5c19e6fa9d",
+                    "name": "Himalaya Medical",
+                    "place_id": "ChIJM7csAj_lDDkR7UQDg3-KBRg",
+                    "reference": "CmRRAAAAcMR8oUkxqY6l-jzewHRtt7D7ktKUzr64CpZcI7fiB41j3TgCh03AfqrdeYL1bMwhlkty91rLhaSHl705lHNsojWXBCD2p-gCSmI06Oj2KNiFduYdHnp-_o-SsKKweAmyEhBs6IuYkvxGQ2KGrZkpEFFRGhTg3tmLGVunSHInVC5EF5cdgpurUw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Galli Number 5, Khora Colony, Sector 62A, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAF0GasKqqkzk-pLb-382HlyH2pGuFYyT1vbBydMbiVLuo2uLtztBG41C4szK9Qc3XqXwtwQt73cMeesb27i8gliBMTiyl1TgkFyWkWAB2UU4d3LW9HUMmyoicx_0L-PyIUgtJPsNkdodDyjyT0JWbxvBLOaYT620i2OTL96BlrswJsuWFpB-cOPLiV-bRiGy-yVp7cq9JCD6npnKcJHblBYPHQ6nJGymz0F-vq-liuqkDuDihwxj5hxlekxKYa3IbdkRqA6blcXevOl5tjdph-rtfROqQWNwSzIFOsjAdNAudf9orI2zPWohmyKFXJrygPoQyZAtjkNsK50WghOCpcQSECF-a2ASEfetI1DpkZtUymwaFKElVNcEENnlNBeLnSB3PgXUeLxy",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344383,
+                            "lng": 77.36399639999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e45edf5a2ca3519f1dec95aec144adf431696b4",
+                    "name": "Fortis Healthworld",
+                    "place_id": "ChIJtQ2yqk3lDDkRjEpaNxCGl6A",
+                    "reference": "CmRSAAAAaf5sFI0UDkAcQ0LzBgwGDMZnGnPy7eahheDDI-f6dpN-NuAf1x_5JDEzLMeZxZk0gBPckUuutlWTIewEbFKgC7ayBzOSWdqkR-FnAXU8S9WDh_9lP-XhIIuMeFWU7fj3EhCsO4kqHcAwvMSc19uwwauKGhR22BJGZnO6HO6FZgACKZCnJQkDJA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. LG-13, Amrapali Green Market, Outer Circle, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6189362,
+                            "lng": 77.3729593
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fe3ae70fa245a147c9f50c9aeeb6ea1ffe8a5421",
+                    "name": "Fortis Pharmacy",
+                    "place_id": "ChIJvWN9nF7lDDkRPlCgq8ya3-E",
+                    "reference": "CmRSAAAAhXpFmz-4bPBB5yJIfaWyjvfanpM8bE3NMBjMri3F5SlyXpiqu_ykvyr3xXF6C8m1FkPsXD97bZr3rEQcGPr2BiJiS5FUr6KfEEvvKsWov6ndZF4k1LwELgtPFE9ZBcyqEhDIjo6TDZnnTYbUpBMHOLkSGhRI6TcqxrPjfdaxCyU65pOWNITSKA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C/O. Fortis Hospital, B-22, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.611927,
+                            "lng": 77.361125
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "2244249d99a5b506429dd02a08c7020ac2f7350d",
+                    "name": "Global Drugs",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJF4n7J2rlDDkRwHMerrqPKAc",
+                    "reference": "CmRRAAAAS7iYO7XxSUJvkpAauO8f2HVAyojRpSqJTHURh_aSm1N7S3-4irKHsEYZGKci2_C6dLlQEc13_xhnzB7adbNDkUV7W895YX2Rs_74aRKNf4IHyjU95EBISn_UHYYHd05xEhBf5HR5RCRZLdq8a_7C0ia5GhQ_VUgmEJGZ3m_q4cNgUlWdUuf_oA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-102,Sector -65, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141835,
+                            "lng": 77.3714009
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "88be4f47cd69ba21b0c827f30574f8416352ef94",
+                    "name": "Fortis Healthworld",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI57vQmflDDkRRZrTEAIBc6s",
+                    "reference": "CmRSAAAAxzEIG83xRdnSfnfY7I7yfXGS3S00_Y6Tz-miB1g2IQO2mPG1glVg4FAvCDXSxOnfR7DwBF40hQc0_-KWcGbYmw3tJwEGLhN4iDY5J0kwH5iiwB9jhUh2zlJFNmyjorbkEhBziwdEgKTLxSP9qlTBpIiYGhR_M28Ih1P3UY0uACeeCv4DrNURRQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.22, Block C-58/15A, TOT Mall Shopping Complex, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6355718,
+                            "lng": 77.3743916
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "945de592b9118d16d4c3944efa4ec38d401b8c16",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJC3It9FTlDDkROUJn5asgRG8",
+                    "reference": "CmRRAAAA6ltJn4oCwww_ZE-NsoCIu8XmeAa9AN5xEpTF0wyXpL1pb9aey1MIDVQerHXT_SkwQfTp0PYYP-aSUazgkWR8THFwcuqty5AgBr9M2hg5gB9D1lrol_yTTA5KTy0aLAXuEhAS7yoUar-sqa9xN-4y7flrGhSydBMo0c0V6qccih4OugwAQ9zPbA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6402141,
+                            "lng": 77.38195
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "383befad23f6093af22c7b2395ea06a5472ac551",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ0b-AyAHwDDkRg9AzCwwXqSM",
+                    "reference": "CmRRAAAAUBmeCsv61eLvWQQpSvE1FAT1BDjcCP9QC1HmvR5xnEblN-HWackhcG1OY91k5deaL1eiZdZuAWvyXVkaWsBKO0ORN8KzVR-0pCq3CSnX6TNIaecPQUDSruiduCGGKwH_EhB7V501pAAFX5feTsO5jJpQGhSg6PqgyUAOCHCF4jUlfJI0KC1xTA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ashiana Greens, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345237,
+                            "lng": 77.3699941
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38e1d537e6606993a5f140db8d3292c3932c849c",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJ_U9HrVPlDDkRDFBehJL3Bl0",
+                    "reference": "CmRRAAAA2jiZNJ408yjX6a7n6qxffqkGwsVHfmj88jMSQpYt3bUrM1gdSaHr3IRSc9N9QCvDnjDgL_Z19yLRe3s8THHzF-xV_v-NasJvIWAG3-Px7hDrnHPJItKXI-v4gm4q6STZEhCjKVUZMLWtENlyaHfRHOXJGhRIvgouHlkKI-KDThlFiq7EJZCOUg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gulmohar Road, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349467,
+                            "lng": 77.3615075
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "432018e82356effe5d25dc3c6de2307c4460b6f7",
+                    "name": "VIVA - Your Family Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJPSjfnEzlDDkRlyBdDTNSwCo",
+                    "reference": "CmRRAAAA5PBpurwwhVenghQ6YUfq-Mq79lhK2pxor20yoUopgdvnh1y0b7AsfKJ-CSbQWTWyniwOgVIKWFNbLyOamAO_D9-eFpEuFxnREXoZh63g5Q4CWGvppt1kv9Q0Q64aEEOYEhDFGjz52b0ZTS0FUth-cIIkGhRj2Kl2dFI9fORoUdJk-ljbSACBPg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mahagun Mansion, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345925,
+                            "lng": 77.3494577
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7809ff11141efe7153eb5f4d393d6e00b608eafa",
+                    "name": "Delhi Pharmacy",
+                    "place_id": "ChIJrVJOXjPlDDkRwNRdEJroNZA",
+                    "reference": "CmRSAAAA4XJDKSEG3qsxKKxB1krRHtqymBDHvyTfosASKjS_-6zf6aT62G9bTypRWpHQ-jWvw0E8i8poTj7GsNE2Z81CpiOwfFDu7lCfIErMynL0_KNC56kBwsUIQYCpeTWnjOJLEhBsY1NaSxedpr9GJfZwFFPPGhQjGTzypAPMChpf5nkMGX5bBaIb1Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6207641,
+                            "lng": 77.3639293
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38246c7d7271251a6e9e3bf910491cf8c72daa13",
+                    "name": "Vansh Medicos",
+                    "place_id": "ChIJe7TgZFzlDDkR1aFZp-wQNWY",
+                    "reference": "CmRRAAAAwaP32Fzs7i8GajjUIwIYkDWbUin3eezqSjdMQROUvva9jiVMJK9lfbffkNh9kf5l_LXo3lDfYCYKrzhw__N9DsbTivsdssn9aXw4ppBYtwAM_NV9A09UZqJ5tPtd4J-vEhDkrCaJTiIoGcMBHMvrJWf7GhSmM8ZqxYLi8ErOXs_5IQ7he0b68A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62,Gautam Buddh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349774,
+                            "lng": 77.3615277
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccd2428d2ac458b254cc198c59f6903ab85dc800",
+                    "name": "Neelkanth Chemist Shop",
+                    "place_id": "ChIJgShem0zlDDkRhRomSajPh0E",
+                    "reference": "CmRRAAAA2H8vOdn-TAhvxsOj87jJh3JDhhzOIsV66U15VcupdZv5V-XpILJFhbyvxNetptkezwaS4a9zjQjdsxfBTvtkGR6tOB6pWG-2molpbfh_mLl8gkBCtOTYMU2RP2QRV_ZXEhARs193_42730qDTEHrBZwbGhSWtJjDf0vkXsCRhcvFbhxqm327UQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.634356,
+                            "lng": 77.36969789999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4dac6ecb1b8637a4610d0cdbeb2929c850f398f5",
+                    "name": "Guardian",
+                    "place_id": "ChIJVQzrrFPlDDkRrlSp-1l9fLo",
+                    "reference": "CmRSAAAA0jkxZHAfFIfwOXm_JEd5qsYVvMFL8q4cvXI3Jws5axPDomSm3b8Z1HmY-bM_cXbhoYy1-1OclAV7dlCjg6CzjtWJesTsaBpGOBAjzLH6uS8D7rM6MLJ8qAUl0mk_YtjlEhAjJb8y-1ysBSeGFJJo_BTdGhRlUvrB3A2PBAwR5UTEmYNhcZrI5A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 34,35,36, Lower Ground Floor, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633708,
+                            "lng": 77.36540099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.634395,
+                                "lng": 77.36625844999999
+                            },
+                            "southwest": {
+                                "lat": 28.63347899999999,
+                                "lng": 77.36282865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ed8b69e1b21b133733a79402b25761eca997c129",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 865,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102290246670056516871/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAJIBThGknGq1MnrBBx63ulQx-U8qGpOd1Q3KXclLalZbn8mdxWJWEtT62HipKnmrcL5Ipbzf9w12j7XMrQGJSr66-JTbmVrtqFsk-lKna2CDULmfFy9DjOEiXmHMY9TPrXEYMFAJ8oDuJ0rwoyl6L5s_NAtgJiFXLhQrSzLL1AkhEhCVgriZn7VLHj_y-Ne32MQxGhQIChIEwzJB9fB0rDX8Me7jn_Zhlw",
+                            "width": 865
+                        }
+                    ],
+                    "place_id": "ChIJuXIx_kzlDDkRbkyL-PAad94",
+                    "reference": "CmRSAAAAFuwrruR91pNViwSn_EXF7Yn9-pV4TTACTfOAr1u46ytH5mK2HmfWGl7xCr884xmKeGVw8lYTJGvpMLCwSqJfNJiAsWAoL0N1kib_MdB2D7zzM1bR3kPVS5Xo65WsEsGEEhCmebuyyBJ_SLugrONrc_x_GhQVDpMEOdnYcJJN7wPYn18d-N-h9w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-708, Amrapali Green, 1/3 Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345195,
+                            "lng": 77.3640597
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d8154851453f54bae463f245b8b96621b8e74487",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJg6Dl_0zlDDkRyrVYNFm-6A0",
+                    "reference": "CmRRAAAA8wtTTPxrDO0dE71sZOTqeLXGnujnRLCfz2SFEPwHwY6cP1kd0M3W3q9c78CwgRCkSvGfMnzxd4MV8oBRQ-HbsqG88nCo1BU0QDfsKQmsJB-2Up8TgqtTsdSzEeYp3MuWEhDe5DCjZ0SUvSGm07ZHTjRMGhRsKMLAsaUSeD-NaIGK2m3k0vHlcw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No UG-10,11, Amrapalli Green, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344973,
+                            "lng": 77.3607111
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fb134979d3cb6b9c2d53c0df960aad97d2b78614",
+                    "name": "Gaurdian Pharmacy",
+                    "place_id": "ChIJwUqWe0vlDDkRjNDSzC2pU-k",
+                    "reference": "CmRSAAAA9g9X5JyeescqrfTIG3dHGdGWFQXAiL3I3GorJ-FEHWqmfKGB5yxlE8m0BP5S-Wssot-hKAAQsVDwqRTtAER_FTZzetq4LnwVwbfcaghh3LCvriq32FQNz4jdGhJIn80VEhAXnjQ9HQyqJYCderRxG8ayGhRk80BFHh5Y_jJ_fifrftTxWrOKVQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6341364,
+                            "lng": 77.3700092
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccef45a2f929f80fd8c08b160fb3bed0eece65e4",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVW9mOlPlDDkRe3k79fCGGPE",
+                    "reference": "CmRSAAAAXIB5KK9ZqDp2b_FlfQfp10R3tMIvBTDhtuuiSmziBa0ujKm80wNKdGd9w7AaJdaQ9YnSHEZ9yyvadSFwzLqIpy8CjCuPd53MLBr3yK2HaM5trAnkUyA8UuVEbEP3bf3sEhAWhUeOoBh1oP-PQfCzVTWwGhSsAOsLz9Ym1EHhfPmAPT1BtMN1TA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 34,35,36, LGF, 9 Vaibhavkhand, Shipra Mall, Indirapuram, Shipra Mall, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.62401,
+                            "lng": 77.377225
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "91ab28217d4b8af0bc18460e48d62633f97fdf58",
+                    "name": "Wellmed International Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJt1U0iljlDDkR2uhM2-EfW04",
+                    "reference": "CmRRAAAA-oPgG0ubuptgOYOLLD-DEv58JOHyvdZEz2XcEpZlW46yviQ-8OX3O5qyi8zB3jVKzy2G37s9zwiKQZi2sAW6DyyUaVDkFXirn0xMYGdeCuNZzTLzPbJLn4znH4qV71dtEhChqG_KFqQDSl-T4Aqrcn9qGhSYR-gMR5FmkKo2lIh3Ml1U6bU-pg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-54, Sector-63, Sector 63 Noida, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6367262,
+                            "lng": 77.362623
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f08bfd533c583fdb9f3955992cb17a2669151f79",
+                    "name": "Medplus",
+                    "place_id": "ChIJSVLkyUzlDDkR2IK_DFavdIg",
+                    "reference": "CmRSAAAAxo8U0pKjTCXfGMz5S_eRxDtDjrfQIac0En9Jyh5oPO6MnCYKNKrQZkydAmHcUBhuGV5W54dUwlEfUaqxNKlS7klCusFlZNKl3JaOwk9ckG4p3Fl0aM6ClP5W4KtkWTWmEhC64aD5Qp9zmOEbHnYKvy_1GhSpmBxJxhZlc_NsO3N3-V0KQ2marg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Inner Cir, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141058,
+                            "lng": 77.3714559
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38a2a182676b52adf64c549707518bb87751011d",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110789818667977786664/photos\">Pankaj Jain</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHP7syeJ30ZHT8pynVC5sJw1PbpAoJhkKkbz6Y2ypeQZ5pSqzvz8HuIjAb226-cnndldD3QPTsh42CzlvIYT_i2OaFybzXKebd8hOU5Oyg1FePt0hpLlmAxxQrdYokHskKKJYSibF1w7wuWtHIT84CSYgiSJKjmJHfI4PAaR8SA-EhDJTvfItA3mQAiVg9euXUdAGhQMO1aFwN4m_9jKp8pqALfuPBURmw",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJV9DG60TlDDkRxh4TfG9x2rk",
+                    "reference": "CmRSAAAAUtF4yPb5pKcX_-arp46KD5tA5Y0UAE6uuDHQdcJ6qsGJ1euLh6w5_pANCXQ0qvJ4xpydO0TVs9jMaUg2T85xpYC8nvEOEzhNXuTslZYNhkVmqZXbr9sHkh7_cTYdP1WgEhCZvbkCM9Pq8GTtqhgTlDCRGhTJs_pB1qPb8rVckhL9zf23G2gQIw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. PG –2 & 27, T.O.T. Mall, C-58/15-A, Noida, Uttar Pradesh, Rajat Vihar, Khora Colony, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6271878,
+                            "lng": 77.3500364
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "74ab8b9d91ca210674cfc510f70eb6f95ec3b07e",
+                    "name": "Chandni Dawakhana Khora",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM-qAKTflDDkRzGZqaD2xabA",
+                    "reference": "CmRSAAAAs2gIUEYcQMTYJkCY1A5MvgDLRky8d5MTSL7ZMjPX7dg6LlwHXtA2ekZ5zOvfTkR4_Dlm2gSYlVDEmXbjA5iCXHGz7N-lFI1q7udl6IWS4pvzIvXSCxMDuGnC0womFUTKEhBDMgj4icZBX3khmrd8WtQEGhR6Y5o73R2q-n2ortXfn7iyRrvzHg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "himalya enclave,, Makanpur Colony, Sector 62A, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDnQEAAAt6c2g9bOo7h6P-LkcP2JSdrgsMNw5hTkPy3Vd2nBdoWQPBc72hEYslhjLs195qSpoetkyPig94EqkQmgCO7Kxy-aU3rKpIFXKBr0bqvQP8lQmCE_A6k1GZxLSnPWfRrvQCNmJnku6SaNhgkA9ddqkqo8hGCt3qfJgs8V5J_Rj2zCg3KVYf_DTXBM4bo7iS4D1ZGLhTtMfJjxJZBygfe1glZyVw-bU60Rcp_1TyhXE1i0lsR-0bEyXCCjBvI6xUgvZ_N3iwV1MnsGVAk60fQNdyeEjMWdvldSgKOt7Wwe660miv9ZoO1e1IwgfIqEbCz8ERAFLvLdIajpCOPq2GmHzQ1ZumCpj6l7rK-3yCgPLKdwGw3ihDsUmDZdI40TI07V5EHqZgypH2nysbYzgic2nvG9FqeJm2RSZex4E0zfpv7RxmQdUhHh1pRXdlAfXNKhevjKe4DuULkK_wioMERbchjHVnQCniqEYpCl5RCvo16dn47DPhcMMSswgXoB7x5NRAFAhZs9_TTdPiJ3oYv0o7zkAwn4D1EdzswiCpeDrpEhDb0PqME8Y5-rcYjaVv4fx6GhR1O64IRBg8lPxYJtRDPMxXDpUEyA",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616516,
+                            "lng": 77.352719
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "40d57e9eb5f6a0c1bfbdfed4cd20db5c19e6fa9d",
+                    "name": "Himalaya Medical",
+                    "place_id": "ChIJM7csAj_lDDkR7UQDg3-KBRg",
+                    "reference": "CmRRAAAArX36gDQsVEhLZXdSxG9m_i7mXpvvd4jYJTozBfgLk4krcVjz6lAQ-5ThDm-oKyyBFTrWCew3hbPWKgAT6fPKQak2eWPxgGnpLd26ryU74NI3AzNXU1inyJnZTYqywt4zEhDsWgiPaPEgj8v69nY5tRVcGhTbsyNCxEvv6Ops7WQ6iRgEP8InyA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Galli Number 5, Khora Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639236,
+                            "lng": 77.361015
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6393887,
+                                "lng": 77.36104094999999
+                            },
+                            "southwest": {
+                                "lat": 28.6387779,
+                                "lng": 77.36100635
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "49487a3f94c0befcecbd0443be4961f642907e37",
+                    "name": "RX Pharmacy",
+                    "place_id": "ChIJWRysibT6DDkRz5ReFN4992g",
+                    "reference": "CmRRAAAAgYuqgoxjnQMyPQqx5wHhVVo3AyQYexulIaWaSVEOpG9xhmMZkATB_keTn0XPOPhA9msHyB7wcJjEL99zZf5z2Jub9dTWs4RCFmksDE98Iy18KOozEFhrat7SLQbbxLNnEhCs4hiYXMcO7_im12LO-pI0GhQewbfxFVFgyXz9C3UTvrBz9kStYA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.15, Ground Floor, Raj Hans Premier Mall, Plot No.414, Doctor Sushila Naiyar Marg, Orange County, Ahinsa Khand 1, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612478,
+                            "lng": 77.355342
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6126265,
+                                "lng": 77.35561404999999
+                            },
+                            "southwest": {
+                                "lat": 28.6124285,
+                                "lng": 77.35452584999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "fac7556f425e0e0cbf004c0b75b72d2fd68145d2",
+                    "name": "Shiva Medicos",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJNz7U8xTlDDkRJdBKRvnzNLc",
+                    "reference": "CmRSAAAA7Try814HtB5bxpAg2H2q1ZJpMlcAMmYjhN8WivsvRw1ko2kVJ9iOqSMQqZKjXcj3_dR4H-yTCpypR6Z6qGMNYeIGUh8bzNYivYZSBjCMqSeJlVubzVBQeguaxwjOJaWfEhCNgUaALOhNlaim2HQN97IRGhRhIhSOwd9uQNzHqTytEPl4QBFTOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "G 39A, near labour chowk, sec, Sector 58, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.61438799999999,
+                            "lng": 77.352488
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b19e1118427907a8d1982f111fe193696cefed5a",
+                    "name": "Arora Associates",
+                    "place_id": "ChIJoZm5ND7lDDkRHkkYhyENbDA",
+                    "reference": "CmRRAAAAn-GzRds_efKLonUN7k9mOc2TVsy6gyZnTEDd__u24QqVJbt4OXjspQxIeUla2efVVsTaKcBXjpPsVD9JoP0vX2Y3eHt-ijuuhM_orQhRVIrXgq-UBOlMSdBiYYt8HqNqEhDB4Iys7yaobxFfDIu_cx6tGhT--0zU8qrqJf6vARnsYV2oJOkcFA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "RN-41,, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6218242,
+                            "lng": 77.3460691
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62188200000001,
+                                "lng": 77.34611515
+                            },
+                            "southwest": {
+                                "lat": 28.62177879999999,
+                                "lng": 77.34603295000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "aeb09f0979d494a9993be29e66d9374c134075bf",
+                    "name": "raj medical store",
+                    "photos": [
+                        {
+                            "height": 483,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104719433224600787176/photos\">Harish Rajput</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAALM2u3dn1zJVYQ62cz1kHJiQw--df8_NN5L4RQnsehVx4haMEtgegUPUDR9L0P7kIWUeMn5nadNyjQNoVsKEbk9IFmhkALGeWdqhRw2zFwkWh6AQlsb3_xCUDHSBSnf3C53GjhtA-d4D3sxRSQmmLnCrjNds3LzcEhxxYdCePtyMEhCnQywmFYxPKaaNf0smBNttGhTM5kgxQS0UXEz9Y5cgo5jVXzZt1A",
+                            "width": 644
+                        }
+                    ],
+                    "place_id": "ChIJta-pCjDlDDkRqrcJE2aoyUA",
+                    "reference": "CmRRAAAAK5RIFeOX7EqaYxrPuE2dFv_sQhyCakCKtX5t6iozLsnvKkfVqI4wYbkc3BudJ6mJK4yOKOB8zTT30_Fk5L4nUgEvMmCcJy8gVGGzJEaLpIZjSkt8_ffe6cy5jLYZsU1OEhBO4_gYwNS422gM8FLBL1igGhT01qbZhDDLDnVBJWVyuCZ2KWTuYA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mangal Bazar Road, Khora Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6382115,
+                            "lng": 77.37792189999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63826235,
+                                "lng": 77.37869274999998
+                            },
+                            "southwest": {
+                                "lat": 28.63819455,
+                                "lng": 77.37766494999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a1a2edf8485cdbd0bedf649da21e6b5ae93a1742",
+                    "name": "Radhika Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 829,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112335855473353747044/photos\">Radhika Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAOKXUmEhRdQv6MG45ZqqVC5WGpq2OhtxYK8MJCGfcZs7aPIvwWLXhb_Fo1HmbYx1wel3w0T0BcukJmkcMnVa6Jz03-ru1nQMCotFVtcFJeAaZLyt7SljVFn7-I-HHFOSoPeZk1B0JfWSgCb0yVSTRZ88JI9cj6X0CWCQP9iP_9wuEhDVUJoIqrQu040ZPrxjED4mGhSIoQQbKd8njlEU0S-RJQNB0k2_Ag",
+                            "width": 827
+                        }
+                    ],
+                    "place_id": "ChIJ6V9sTFXlDDkRtchmnihHoHw",
+                    "reference": "CmRRAAAAu9KWufkXut9oAlDzeHbBZXnEiXcuM1fZUCtLwka3q4qAnkDzD_WO0l2DLpHL29c98HFJiw1QYv9tbTvt7oiNF0fyVm9k77bauA4uOcvOuf7Ybqep4hbDeFoiyKis_zadEhCiopkXAayfP67EBGlrA6OUGhTI0z2mUMFYWIasg6wDkmVn9k7kAg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "R.T.G-151, Royal Tower Shopping Complex, Mohan Nagar Link Road, Shipra Suncity, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6097022,
+                            "lng": 77.3528678
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60973404999999,
+                                "lng": 77.35292435000001
+                            },
+                            "southwest": {
+                                "lat": 28.60963065000001,
+                                "lng": 77.35284254999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a2a43f3a0552e9f52cf2e12978abfbd7e7873af9",
+                    "name": "Patanjali store",
+                    "place_id": "ChIJIVX8-RTlDDkRB6cpb4KPfJc",
+                    "reference": "CmRSAAAAPt4ZmxY30YvWP6bqL4iXtWntkF2i8Ba9XxQLc5jK1y1ETaKmLeybkQF07M5AmSpC9bz3L_-DedwKae0AwCyhECzKBHdI9LD98jG9WCrKkZvXdiGfRjFMs1qb-8UUb1U5EhDSlA5bbD3c89RipEG461fiGhTT4327dDQ6_STZ2LQXsNTt2Q6-uA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-60, Bishanpura Main Road, Block C, Sector 57, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.640792,
+                            "lng": 77.376813
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6414814,
+                                "lng": 77.37748454999999
+                            },
+                            "southwest": {
+                                "lat": 28.6387238,
+                                "lng": 77.37658915
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3c2f9af7618d7f7f36f2780e9f113b898652f217",
+                    "name": "My Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103217858371607426066/photos\">My Pharmacy</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAHAU5UUeDB9m9HyFrmdXWxIYJYUNn6wFBINL3LBUxylwC6zxk4-mtTH5kF5fIYo-ehmzurN7UtrbQG-No6txslnm0vPGyTxORtt1TWdihaIk14qXSZ40bYIrIv0qPqx67-i6rfbFowCfdoMl7ysOpu5E1Il_LE5Q0USb1KYW0GQVEhC7UbZpRQjeysrGSESjAO_gGhQJLCnxlCUIubrySNOTThSeSzI0_g",
+                            "width": 768
+                        }
+                    ],
+                    "place_id": "ChIJeUnwlar6DDkRfUS4gArqbEI",
+                    "reference": "CmRRAAAA-8g6-rHYqyPuQig01b9WpaglXOGN4M7riTri66AznUNC_Xp3LVl2TeTtaCWBVKXjNGo1hPKcOn66F_XYPwJrVxXVthk0Uc-jDV0kuDqM586tljs89YxhhG94a4gKG-xrEhAHOuGThOG2Q1rJRScDD4ahGhT9MF_50fk4VWj-GGD3Z1mmoz40VA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SC-170,, Indirapuram, Doctor Sushila Naiyar Marg, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616868,
+                            "lng": 77.384832
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c40e489e8e5707a262fce6167fb79b8f51e2ae3b",
+                    "name": "Anand Kayakalp Pharmacy Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJQw0oUPPvDDkRu3RAf_uhRTg",
+                    "reference": "CmRRAAAA0UfkK3HcwGbrRQknwiXjedxQ0nGSZ7HYQKi-PG3tBhqGtantfJCS3v2gN8Ir7-iGxH3F5BJGs7kNc64paHNpyTKcdrWjwoX37SoE1tQgBFpn5nHvlyH_3NS9XEqsbpxkEhBcS-J6ASipRLx4zbCUO80bGhRQZC_nsiw3B7CMprc76sfktMQ_jg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-C-88,Industrial Area, Lohia Road, C Block, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6380919,
+                            "lng": 77.34643890000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f2ddf0ba32a0fd4a3ee82282eece32800b7064c",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJ63gHBM36DDkRmxOlSgN5ADo",
+                    "reference": "CmRRAAAAvlVcNEystKWjpnyhkjqbC8H06jR_zVUdbCgWxLrmqVvb2IGAo60fFAbHenC7DGZIJWFEZdWe3kIUaSfSsFXjJrVSwSv3TS02EQ1PiW_HwLWx0KT2IN5bdjhzzOD_EP-QEhC-b9MXXiJ4-kCqd8bX_HrsGhSB6g5rZjmuR_G8IuLC0TYGRi2QlA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand 3, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6382155,
+                            "lng": 77.3463276
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "29c5cd0a082f2bce36c9350ab0cd8b76c70b55a7",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ37sBs36DDkRCC7vZnpaCDU",
+                    "reference": "CmRRAAAAzOOMem6-THemaslE4X2gfoO9GSkoZhFRyIrDPuaJDjBDJguG5nLIaRTyrIky2jNe7vOoNE30-wRIMRTTlraWpLDMMY00fR1t45l6BYSkoXbr7DEqg1PkbCvvh-W--R-BEhAeYkdyCNMv_KFeEKonfOAfGhTIXUnwAszSowqtP1KlwjeflC0ASg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6452421,
+                            "lng": 77.3705614
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ff3df04e0751e47f7372cc04529d39a044a3c6ee",
+                    "name": "Apple Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJSme7a76DDkRWq0Mh00LzBc",
+                    "reference": "CmRRAAAAB2iRNEmM1pOMJMiV9zkVx0kb2YkHMVcMV9E7I1QwKki8YNx1bKCEBidu-3IqgQqxnQjvRx2_HMudlJ4a20W8QuSFdTpPuFu_WdVP9-l2jfvM16R23-lH8uSY-VbGJKV3EhDiVvJRK6IVvUxNi0k3EzYxGhQxdYQtF186vO0U8qymWMvVYu8miA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "137, Niti Khand 2, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.642348,
+                            "lng": 77.3504257
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "be2c4a1253fdf38608b5d01c36787d5fcbcf6d66",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbVAgTMn6DDkRmaDFwWL8Flo",
+                    "reference": "CmRRAAAA02b4IbTPJ-zQ4YOZ2U4DZ9a0Ru7RyE5rirEJMO4o7soh6N-JHyN5vzj770CMG6n86VexuM-4ExesL1fC0bhKZ1bm-ns2NqnG5WbpI2UTlPYtb6hxSkXV4p8ZySYLgBzeEhDOuToStdoJdHLyZg0xH1CkGhS8snrRaMz2Fsa_59V3W-pH1fHfBw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. - 2, Abhay Khand - Ii,, Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6403741,
+                            "lng": 77.34162169999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f485be8dbca2ed406febc8726fec611030ca4ba",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJG8QGL9L6DDkRN_bvIzw4Ih0",
+                    "reference": "CmRRAAAAWZkwDk1Jq0GIiIF8a8RNtfeqAGrgoDYLKXWbt5s8xoEPQHCLMiVj86lLxPo-yN2oC0wHQoL2-bptCC7LiPuPJS7W2e9E8wdfRypWM6_zEB1Xn_kVpuXp1K2fJ544sqo4EhDgWYFZqu2rQZOJo1etAVU2GhSTXfPCjq7vLstYKIIsS9TJeHtByg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 2, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6057875,
+                            "lng": 77.3485857
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cdcf8a5f6662fdc38a9bd9f9ea5e0b11b244d4e4",
+                    "name": "Neelkanth Medical Store",
+                    "place_id": "ChIJyzr1QRHlDDkREm3jCBdIqZ0",
+                    "reference": "CmRSAAAAfns8Hk-UHMtkP6rG9Mscwx9vfgAeh5hfN5TcgEtrXHKvOPxDxfw-b8YS-ctZ2XcU7obfGTjhP6QBtdBrW-hXMCMM3Q-nCUekLSy88Bm72sLaTe79_B9PqM66Rv6R-4rmEhBkY8XvsBbxVUXokq82vMr1GhQVuHr_qXBANX7rRvnPKj88fadQ6Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-169, Block B, Sector 55, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6437907,
+                            "lng": 77.3822809
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4899a2bf7d2de5e7b4689d67a839bd97f04e21e3",
+                    "name": "Apollo pharmacy",
+                    "place_id": "ChIJVVXFOwHwDDkR46r7z5RkPbY",
+                    "reference": "CmRSAAAAQqOVh6ZnBtJiafid3dSsjzLu9N0KvyGQ4K38LWFgQIoHblBFPl76o35hOdnV-MNPDq5pUvsme2cmFODxthj6hRhgx7EnYZPEVIzEQ96cqCaxnMvo8MhXs3yWCc3ngOe4EhB-X2LluX3RuUn2L28nwtVrGhSithU0QckO3dWcozNWXn_A0V492w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Exotica Elegance, Judges Enclave, Ahinsa Khand 2, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.646375,
+                            "lng": 77.347334
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7f651b3d4926d21b10d8e45c57f3fd00bca7f34c",
+                    "name": "Santosh Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 800,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102389110890364430572/photos\">Santosh Medical Store</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADZaIjZF1x0wAwM9twHobp0iTOyf2KmpJFnol7mOf60uiTkoe3lx3M0dQ0uusbiEkZF9mFXbiJ1LABvTBP6zhwlbecFsPBxivzVCWyiL9DoPJ59XlkCnjREFeqTeMUQiR04oa8bNJwIYizYCBimkli2pr2MZKT4C03xH3b2qNI41EhArvulBuC5xKEoAkDGXHC6rGhQcbDtz1rPOfFxQ4RWXawUewsu-MQ",
+                            "width": 800
+                        }
+                    ],
+                    "place_id": "ChIJazNddc_6DDkR9esw99XDI_E",
+                    "reference": "CmRSAAAAtIYiFDG-QfH6ricGLBNvYnfjCPFKE-8kUy675o-Gcua3xIs5hR8JKjDpihcRjZ20zFrqhzcdTPk6SVSc2_iO5E04GiBEH3GBBvbNCjtkpW7wYtUTVlj63etl7aWrg2M3EhCcHdP9XiGCOGlWFo4ueFTpGhTXgnXKvSUfsUVVDP9AbtKlndSY-w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 2, Plot No. 535, Opp. Tewari Eye Centre, Sector-5, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644778,
+                            "lng": 77.34468199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64625444999999,
+                                "lng": 77.34530734999998
+                            },
+                            "southwest": {
+                                "lat": 28.64428585,
+                                "lng": 77.34280595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6321f7d82375bfa645b18edefcf899659fbe1da7",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJB0qo3ND6DDkRhlc3cPmZbiM",
+                    "reference": "CmRRAAAAvClnLt7arDOd5441_tJ5xIJVz-IbY7VGU3zyDZ6t6YZlLHkD4tpbk8Mb4X_p3NveiqbUkIdtlKPp0OtnvShaHuxTXR_kxVd4q6W6B8zFzRfOABkACnDxP2P3a8wgaG41EhD46VnHRGc1S2js6e4zWsDZGhR8HTQKXM7NogfmRKzhSog61ZaJ-g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No: 5/24, Kaling Marg, GDA Market, Sector 5, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63483,
+                            "lng": 77.33662400000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "0161d57d1103d7838a44aa5b846ea25fe7d508fd",
+                    "name": "Neel Kanth Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN0_wytT6DDkR6Esp7fLw1e8",
+                    "reference": "CmRSAAAAhQZpxlFqwxkEahUQmpoD0DgyUERJc4qMF_qMAnJjitiaA6iqofmbm4Ru_9qKkLhVBW0NQ0bnsOXE-_icjzv7EnnLCNns9rkyQCo7Q34CRypL33mYDy-l_AtUBaYZlLC7EhBK_cuEKc8hP8aDbH4m9ADZGhS_W2sEBenPuFubitkFYJpTBTOOug",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "28, Nipun Plaza, Sector-1, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5971879,
+                            "lng": 77.3647134
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e4955a4924d15731f3288f1cf087396cdeb927d",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJjZms0nDlDDkRWW_dHsICHx4",
+                    "reference": "CmRRAAAAz5Xlnu0nJt1OvcPjs3xxF8C6n2eG8_5UdiaJBU3m0_VoHYGW2k5RG316K9hpGTPyVT9PMWB5EbnWYnEYPkEIJHIzzHIpQV0eMfb8fG--KepgWgjg5Zx_jttrBqWFNEvIEhADtxb_ZJelKvxxOsI9vip3GhRnAwVpLP29AnSuf44_IRENBnRoqQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "366, Sector 61, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CoQC_QAAAEcyPV0KAS_GpaQ_3L7sitnm55gbSyR2zwoZD7aACo6m-VcM_GsNxW9WPSv80f18g3-0iVE2rudhzJlw0x8_pUTZu9p7sl9EEqQWgKLCDtZc7wk2JqlZSg4rRBwB2GPs3Kd2gGT-xKy690R7NyHsKKar8iLdRdson_MrxZqO54f0J8ZsA-pmxDSIX8UqLFaeTCMuoGp8_vE9nJqMyI6SquCBCmzTt5hzgyWsMYsCtVD3j8rcMVPDVmwx94PBX0TF5UBnFFOeIeRFTDa_G6oqbZNZiarArP8LEVbvSqPrl6-Ry2xT_-N6iyd4755JrAnCBPZRGAUtbm6bodt1R2HSzoISEFRlqHZWQ6IXim8-ayl04s8aFOTTT9RSHkwGf7t_ZU4nRDaowLkR",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344383,
+                            "lng": 77.36399639999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e45edf5a2ca3519f1dec95aec144adf431696b4",
+                    "name": "Fortis Healthworld",
+                    "place_id": "ChIJtQ2yqk3lDDkRjEpaNxCGl6A",
+                    "reference": "CmRSAAAA5DQ361X-b7YG2n1IgIURBWVZ8U0CRhKmXzX0CD0247pZZUYsYQx-EKuxHyAeV_gp61msCEZKUKkahr1GV0oKMrSqMRExdmKQRVx3SnjvMc1b_a6oXiLQMgm4Y8wCZphQEhCN3nxK17TcWbK1FEJmwTamGhQ8t-gtm1Yct96GN35UJe26nWOlag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. LG-13, Amrapali Green Market, Outer Circle, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6189362,
+                            "lng": 77.3729593
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fe3ae70fa245a147c9f50c9aeeb6ea1ffe8a5421",
+                    "name": "Fortis Pharmacy",
+                    "place_id": "ChIJvWN9nF7lDDkRPlCgq8ya3-E",
+                    "reference": "CmRSAAAAUSz2LoYWPM8TYvZJmXgSw5DMt_31r-qruSHU_RJvUHUlAaF8F06hcOm3wSx7W95s6fxsDizUjnlGaaChRR8aktIrOXnXO7zVkzYRz6R59nZO9WLq2n05JOHDSebb2ZAnEhAz2Fsin1IpzdOA7qGj1WrNGhRmkfiCtFwkH4_xCPXr42qZjgezxg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C/O. Fortis Hospital, B-22, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.611927,
+                            "lng": 77.361125
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "2244249d99a5b506429dd02a08c7020ac2f7350d",
+                    "name": "Global Drugs",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJF4n7J2rlDDkRwHMerrqPKAc",
+                    "reference": "CmRRAAAA5oVVuk6rSQDy73zoSb-zEEWDRmAHTJ-RdxtLRVgze8I4rk5lfzS6spvfr6dARibXx3KSXKUvEf1bare6dj2PFxc2IoyuW7AQlIG6paI2MU24BSrzlcbRdRE88kjYtemaEhBAWgmYerTjwwn3hMh27neaGhSzUIftGyvf6VQ8_mNoZ9dbeAG8aQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-102,Sector -65, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141835,
+                            "lng": 77.3714009
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "88be4f47cd69ba21b0c827f30574f8416352ef94",
+                    "name": "Fortis Healthworld",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJI57vQmflDDkRRZrTEAIBc6s",
+                    "reference": "CmRSAAAAPvHhA9-pqYNunMj1qE4dFsaXYfVOI88EOFVTlE3_zyY04Tg_T-mQDRSjgEuoE2rnO3TGWtP_omj3h0aTQLx3Rk1eFzy1Yrw_EyzTLR2wvIJG4dKhX4e9s80ltaoWHWZ1EhCMMkmdXQOKA8qTOdFx5AjHGhQiBtLc_upx9RB3Hxk1AayIX_-vgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.22, Block C-58/15A, TOT Mall Shopping Complex, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6402141,
+                            "lng": 77.38195
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "383befad23f6093af22c7b2395ea06a5472ac551",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ0b-AyAHwDDkRg9AzCwwXqSM",
+                    "reference": "CmRRAAAAGzX5fAPqpPKetyN8zT8hs5EKxLvzcniQE73F5A0mmfjs5-ZsFpZYzOFnI1KV-nz3iPqflrHcSGDiqujtzDVLKQz9O5kZek_47ZdOIMOQ9Pux_Cg7Tg9yQXITLEVSWmy5EhBTnsmuIEOLdPvo9EZkFrjLGhSfZO-vLsEMyNWd8LbkifjyI7Lkrw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ashiana Greens, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6355718,
+                            "lng": 77.3743916
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "945de592b9118d16d4c3944efa4ec38d401b8c16",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJC3It9FTlDDkROUJn5asgRG8",
+                    "reference": "CmRRAAAAxQj8SOatQxFHgLqSXFFE8Ut1pIsOMjvvyfPsh8fi2KV1IG-hWVGAWUnIMPUpKMXuS00IWrlhi_g2z7fAx84f8r39f7rsYZ-067OXqZUUok0hiFMP8WHSyMcHYaWb96RYEhAqPQdudft7htwWD5TESBDpGhRQROyy__V9guDXsgnfhIlMTEev2A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345237,
+                            "lng": 77.3699941
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38e1d537e6606993a5f140db8d3292c3932c849c",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJ_U9HrVPlDDkRDFBehJL3Bl0",
+                    "reference": "CmRRAAAAi0_qQibqm35hZ7P-aXHnpCv-LwfaieHyiNAKx8qzRxE43pPPA99Q8rntxjRHfEhFlhhd-lSPWGpDk3OP_zIpxS3gPz9ha0fPN3WK6B5XEN5EsSh6YwTyvb2HI_qqPQYyEhA3o1HR_rADWjy3Y_2-Hh60GhTMZTAT4Q3xof0WtPvafUcu03njEQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gulmohar Road, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345925,
+                            "lng": 77.3494577
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7809ff11141efe7153eb5f4d393d6e00b608eafa",
+                    "name": "Delhi Pharmacy",
+                    "place_id": "ChIJrVJOXjPlDDkRwNRdEJroNZA",
+                    "reference": "CmRSAAAA8aS9xzKm0uv1Rcz5QxDCn5PZfhz5i1_liCj9iSB2N-rohOOyyg1Cf_2ZtZ9XDGavM-Wi5P9HU3DqOBdTOj6DhmLC-6VWx5HnWQGIB6G10P40V1STtL8jGWRXpnXt3JM8EhD7HL0K14qXfQoiTLm1aVIQGhR6cAEbNo3xjE5dnZcDD9b68FDKXA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349467,
+                            "lng": 77.3615075
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "432018e82356effe5d25dc3c6de2307c4460b6f7",
+                    "name": "VIVA - Your Family Chemist",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJPSjfnEzlDDkRlyBdDTNSwCo",
+                    "reference": "CmRRAAAAMIJpRC6JXAcMQj8S49iz2clktgs3wt5kLIQ3JqlLhFXrrjiFBMmjyvd2ZHBgx0GVmyCBbMd5EwHRIFax1jFCiyfqONCkZubYomJjVme13Nc_lJGEJDVVDdbyo8b69m6HEhCZL2BuKijDMQ26EuYl6ig-GhQQijjnAxFJdvGwiLEFER0jOtStVA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mahagun Mansion, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6207641,
+                            "lng": 77.3639293
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38246c7d7271251a6e9e3bf910491cf8c72daa13",
+                    "name": "Vansh Medicos",
+                    "place_id": "ChIJe7TgZFzlDDkR1aFZp-wQNWY",
+                    "reference": "CmRRAAAASsyuGT14_KuLSuLir4jUh4MADIV7ZiA1Mmd0TwL6xJw8Rv43Y3Ea7INYM9DJ3ZVswRUnd8g9tuCm0McLuClGVlYB7eELCfhS_aX-SoZWEiIazHbE0L-3vs1te-8asjNMEhAShIA9VriIWR61jK0-24hCGhRHew6_DU-enTD3Hu0lj6JGWN_4qw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62,Gautam Buddh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6349774,
+                            "lng": 77.3615277
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccd2428d2ac458b254cc198c59f6903ab85dc800",
+                    "name": "Neelkanth Chemist Shop",
+                    "place_id": "ChIJgShem0zlDDkRhRomSajPh0E",
+                    "reference": "CmRRAAAA0Vgb9S_kfuaUgdxOzLWZ-V8bdy1OEY5PwTlEQ8tMec5P8zX4E2aFBPB1cqDkTl6CcXJzfK1dDNXZIwIL8EYHnronE5ojni6W-sdlKKU0v61l8cByrbNaQ3HbIP_PJKI2EhA1Zq6hs_o7NtiCnImvKJqEGhT7fL3RBjZcGM-TJFpuGJjB0HOBVA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.634356,
+                            "lng": 77.36969789999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4dac6ecb1b8637a4610d0cdbeb2929c850f398f5",
+                    "name": "Guardian",
+                    "place_id": "ChIJVQzrrFPlDDkRrlSp-1l9fLo",
+                    "reference": "CmRSAAAA6uCpZaewchFiHB723Ep_A6RZa7gfT26Qb5u25CaHkRgyNRbj9qBGVkU4Z2VVks0Rm0k5a_E40l0_7M8d36PVm-Dq5x7ctJO4cdPYQK8-dsu_FtNfgSN31sNji_2wd03vEhDegHM2chmo5dg8Di3dhf30GhS-VYAr4kbGGwgkE4LqFABUuiObMQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 34,35,36, Lower Ground Floor, Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6403741,
+                            "lng": 77.34162169999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f485be8dbca2ed406febc8726fec611030ca4ba",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJG8QGL9L6DDkRN_bvIzw4Ih0",
+                    "reference": "CmRRAAAAHtzczRWilTznaOf-ONe3gl8Z7RrhkNV46TGG21TWNfJqtpwc7ZMdRwJlUosWIo1PsoE9UqhLni95QS9p85mUOgF1yF2RPawMzdCbwQUcyUVE9ZuN6jEuuHQ1h6W9DSGKEhD2eZhYVatG5clqzv-VeG4PGhSKVBo6AoNODMhnEgPTanwZynK-Ag",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 2, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.633708,
+                            "lng": 77.36540099999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.634395,
+                                "lng": 77.36625844999999
+                            },
+                            "southwest": {
+                                "lat": 28.63347899999999,
+                                "lng": 77.36282865000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ed8b69e1b21b133733a79402b25761eca997c129",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 865,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102290246670056516871/photos\">MedPlus</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAM6BEjknmHA2hQzXU9fY0mmkHiBCekOfCiwp_SksDUNxZEJfWteKq4gMwv90c2AB87hLBwC-LsQvTtv-zVi7ZaIRHsdx0LPIEWwWR1bwansDGGsWQ04KifrZeDTHJ0J8I5j3X6ybdG1VlhvaM0mwAgRNoS0Fj8lqs7xrHI4wFNT0EhDkW2RFw15B2Epnf6dlU97mGhS8-o4Ew0MCYlCbSSDi-cigCrwseA",
+                            "width": 865
+                        }
+                    ],
+                    "place_id": "ChIJuXIx_kzlDDkRbkyL-PAad94",
+                    "reference": "CmRSAAAAp92gas7FyMGYvojBb6V6VKDPBaeAAScYo4277P5R4P5y1Z90G6Pz7B8cbAz4qHJ_dkyWZmzePJdkvKIRaIScpFROPlOoSSArvBHO0jTW_6amoIHi_ltOSZ43k-sM1xZIEhAqWygDQpane6AZ6HI604FLGhRCatULBG7EC6rtz4pJMW8rXB9nIA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "A-708, Amrapali Green, 1/3 Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6345195,
+                            "lng": 77.3640597
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "d8154851453f54bae463f245b8b96621b8e74487",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJg6Dl_0zlDDkRyrVYNFm-6A0",
+                    "reference": "CmRRAAAAsdZLo_cQbdvp6Dxd63zEtTg99kajvpzSErjEo36QGeYeZgkn5Nk5G67o9eyeClNSWiCONvAXgot3PYO3R4N5cAHvZTPe4LvDfze8td3Y4o193V01whufsa0HP96QxiaBEhBPn6xH7JsPmC6n0ERuuzxWGhR6-quOpfMhzxEwmG7qDqYdqXy0fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No UG-10,11, Amrapalli Green, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6344973,
+                            "lng": 77.3607111
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "fb134979d3cb6b9c2d53c0df960aad97d2b78614",
+                    "name": "Gaurdian Pharmacy",
+                    "place_id": "ChIJwUqWe0vlDDkRjNDSzC2pU-k",
+                    "reference": "CmRSAAAALvHL1YArE0P5NpIVyUp9yGG-J3bK_xN1O9sKuCvcyw985hsPzhOApYDntyIJbrSHdL70he6vtAJt6LVuEzO7IwNO7Lw8qvyyUeLYz130NQbXs9-LrGu17a3wOJsMPb6cEhBCL7Uhart3I9C1ePVhlGZLGhTyU1HcCHCmLNJQZAg3U0uuvrNi7Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Vaibhav Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6341364,
+                            "lng": 77.3700092
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ccef45a2f929f80fd8c08b160fb3bed0eece65e4",
+                    "name": "Guardian Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJVW9mOlPlDDkRe3k79fCGGPE",
+                    "reference": "CmRSAAAAlQkdUrEazoSkQIIJ1i42HWSJ6uFbr0SiBSzssik-JlB_CD8Kgfmlz-k4F5QSJKzuqo8wXN_Mv9NqtemMfBf7ZSY81RcEjzfwTHcBQFgEtBMjPyueFlo-fTHewVwtbQQhEhCYh2E-7vSYxk5TWFROsCZmGhQGCVcY9a_aASw21JEkin3FrIIn2A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. 34,35,36, LGF, 9 Vaibhavkhand, Shipra Mall, Indirapuram, Shipra Mall, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.62401,
+                            "lng": 77.377225
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "91ab28217d4b8af0bc18460e48d62633f97fdf58",
+                    "name": "Wellmed International Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJt1U0iljlDDkR2uhM2-EfW04",
+                    "reference": "CmRRAAAAT0ab-4rA3m77-F7bgOA9AoaKEGHnSrE2LiuNhdJHuPnHiD3DIYxUpf8eQ4uH2QwfrNSGHCsaYjLyVWUCb36aAbgxIkFvOgFwmdHeBeQXL6IrL2vQz58bBoFJSpdpgT94EhDW-D_uSvGPCDjT3e6H-nx-GhSqrO-3Pb0aVL9dQ5qq8vpXuDulQg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-54, Sector-63, Sector 63 Noida, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6367262,
+                            "lng": 77.362623
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f08bfd533c583fdb9f3955992cb17a2669151f79",
+                    "name": "Medplus",
+                    "place_id": "ChIJSVLkyUzlDDkR2IK_DFavdIg",
+                    "reference": "CmRSAAAAFeCeya4VcC8sQOzJVv8v5js9t36qZBDYtX_vpcPAyFDQ2Mlp5BEYBg8DixeXdGpIZsN4y-JyorpIQS-TyZUS3d5c80-0Kn9P4gNGglPHHE-4qHGpeywFP5fnq-Pmm75CEhCmTayjGf2gL-7yeWBPtV12GhT3IBW_vkBCyEkRSHbzQpunqWLIEg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Inner Cir, Vaibhav Khand, Indirapuram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6141058,
+                            "lng": 77.3714559
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "38a2a182676b52adf64c549707518bb87751011d",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1600,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/110789818667977786664/photos\">Pankaj Jain</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACO7ylJ-H6ElqT8kHT2DA-iNkvWBlgX-SAHBVv058Z_E0Ydx-8eU19XWZj_qKfDZHsJnURSGogvrSoBMjgWMu6NWAEJFGAb68u7d9ASnhkmA6L5aFO18X3zcyGfPyJsy2FiWYa4qNYEUqyLoTxlAAhZ9QNB0ltfoWBhdJy2hCvYOEhAWd4TxJoHnGVKuoO4twk01GhT-j83uSwa7TX9Dx74EzdtbDOKBGg",
+                            "width": 900
+                        }
+                    ],
+                    "place_id": "ChIJV9DG60TlDDkRxh4TfG9x2rk",
+                    "reference": "CmRSAAAABejpXY-7BiRQqQWyzq-bCw6r-WAqconFJ6fGy27xt98oqPlzPySumE39ODvFQF1iWMh9N053AvIVCQC04gnwnndEcl1nABdPB90pUapjHraj1T6a6jGTNp9HHaZkOAOLEhBrpSwuijsumkTB6qIuBv4gGhRsBT2uo7BqcbDcAlCjSz2qsU6ymQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop NO. PG –2 & 27, T.O.T. Mall, C-58/15-A, Noida, Uttar Pradesh, Rajat Vihar, Khora Colony, Sector 62, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "next_page_token": "CqQDnQEAADSPBDzFVmHAp5l_f95jrrTqwVnW4YymeNkRuFmv4F3qF7J_oNwvuZkbBNLRltAA2g5fn_PriVGiYRasgGv5t6lhuY8pgybUoqDRIkUXwfugDSVn-StOZYcgbi6PePtCOX7AaMSjAC0kUENYHvA-19Cae0f8Y_Ht3cLtXmPztQN-GU-WByMI9kSIJpVT1RSiHPGBmQh02YS1o5JRMq4GlQ0r93HuZ0qJ-oPdJBjrDQM8wzRtX39AsHA_wxgi-1mg16pbuplABcUlT5kj2OnykGTt0pytHqq_RjW9W9vuZGwJ1kP599oET8wH-MxdPpqT075mingLWrfyYrAV2Zt4QFbmjQR_N52qN8MAad_GcqJS4GjvPYOBw-IIAorT1Pzc6-Va6LEkSrWj08pj0zQ6C7lXv_4vBZ-f057dMrBV4uP2mpPb1JwyC6rjfFfr3NcUJ3O5JlDTqAXGK0RW2q1J2G8gUhgxgqvVyINGcn2G0KQStNfN1GXBJOs_6vKhkhWJnMAytyAJ5oMTRFBw2xp-Zcsyziwpq7MfU3zPQ8oDIdAEEhD7tEIWhmqi9OhnTm8Lj3fCGhQp0jV7V_EKWjwSCA56i3KYbzC_Wg",
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6271878,
+                            "lng": 77.3500364
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "74ab8b9d91ca210674cfc510f70eb6f95ec3b07e",
+                    "name": "Chandni Dawakhana Khora",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM-qAKTflDDkRzGZqaD2xabA",
+                    "reference": "CmRSAAAA0m_uyENsbdhEYCLgHqFhtXzrzR9HXTyf9Z0WfaPxLo5aNfZrJrQJCvMINMUYCio5yMHrSMNUSrtTKc7N4ul4Vtv4DnOlC3zvlcFOLp_OxQCm44hoOguCo_Hl-8pufMz8EhDnjaqi_nSvbeFAQYxyk2DgGhSngLoWjzlYbiXqMbcATJh-hWh21g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "himalya enclave,, Makanpur Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616516,
+                            "lng": 77.352719
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "40d57e9eb5f6a0c1bfbdfed4cd20db5c19e6fa9d",
+                    "name": "Himalaya Medical",
+                    "place_id": "ChIJM7csAj_lDDkR7UQDg3-KBRg",
+                    "reference": "CmRRAAAA0EDIAAcFPSthJyi8rH8vE-Rb7hhrOyHUipZaTVwnJO63p82ZP8ErRI_R6C7dVCZZA2lJGyMm1enKkFp2zVbGA2GHr6cbqofIZzMa9qzGQ-V9_5Ta2uvshTJ3Tzm8jhNuEhA2I02gjJkqzIvIhIgRuH6eGhQz6WfHuT9-qt4c21uqvv8f6Z5cIQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Galli Number 5, Khora Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.639236,
+                            "lng": 77.361015
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6393887,
+                                "lng": 77.36104094999999
+                            },
+                            "southwest": {
+                                "lat": 28.6387779,
+                                "lng": 77.36100635
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "49487a3f94c0befcecbd0443be4961f642907e37",
+                    "name": "RX Pharmacy",
+                    "place_id": "ChIJWRysibT6DDkRz5ReFN4992g",
+                    "reference": "CmRRAAAAtg5xEVSzWxa_ingVTKopNzAh3YY9sbHXKem65UiSPdqOqhtNIk1bQjwk03vGj2Kpm7VFx4WONy6AMABBHmOgcyRDyRIylv0KpGSDLfqSPBhW_KN1iyj353YSTkeQ3WprEhClbfItVdVN83d5pHuesYXqGhRWuy7WJNDvoR9RlKKVKocJdr8sHg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.15, Ground Floor, Raj Hans Premier Mall, Plot No.414, Doctor Sushila Naiyar Marg, Orange County, Ahinsa Khand 1, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.612478,
+                            "lng": 77.355342
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6126265,
+                                "lng": 77.35561404999999
+                            },
+                            "southwest": {
+                                "lat": 28.6124285,
+                                "lng": 77.35452584999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+                    "id": "fac7556f425e0e0cbf004c0b75b72d2fd68145d2",
+                    "name": "Shiva Medicos",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJNz7U8xTlDDkRJdBKRvnzNLc",
+                    "reference": "CmRSAAAAkB4eN0Pz9kfP9yLCuGyD51Ub_YNSpibK-sr-HDjhDJzDY8w1SQssuPUTPGCvEaOMXjcEBT4-dl98hOMwFsjBwr-4GgyknnzWiim95cBepli9wyCjJv0IyA99sXzfA7rwEhA72ZeXHc3ywFv3uForOLZqGhSrtMyjpnZIZ5n5Fi5A8ZiU3_wlpA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "hospital",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "G 39A, near labour chowk, sec, Sector 58, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.61438799999999,
+                            "lng": 77.352488
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b19e1118427907a8d1982f111fe193696cefed5a",
+                    "name": "Arora Associates",
+                    "place_id": "ChIJoZm5ND7lDDkRHkkYhyENbDA",
+                    "reference": "CmRRAAAAKbJ1dLNLVqa9RqAWFXTyLkOyzljUPiJlqBUajQgP23llVvDfag6L42EI8EMICA3sJXW0YaGrMTHM2SNZ0SU6dj-fitm2QXvqBYvLJsXYxeoSwp1twgvbIQs3apSvBJUdEhCQQ6R1lZdN1EeeoPozvCncGhTYGXX48SOABxdBZM6_1oUN32nlWQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "RN-41,, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6218242,
+                            "lng": 77.3460691
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.62188200000001,
+                                "lng": 77.34611515
+                            },
+                            "southwest": {
+                                "lat": 28.62177879999999,
+                                "lng": 77.34603295000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "aeb09f0979d494a9993be29e66d9374c134075bf",
+                    "name": "raj medical store",
+                    "photos": [
+                        {
+                            "height": 483,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104719433224600787176/photos\">Harish Rajput</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAANTwz9PHFBheLAEYWZyBbDXOC0ceS-3frTTHMJK3R-SXjb2gSP3yMjUktk5dqR9YrMcqgfaqX_SH8GfUMOpDU-YH3Ur59HoXypY4DlULTP9CCmXqASdN3qYDCVbdWd-fBrBdR4pkWxmWYEMmySxnyjaSDA_7zVvr10vixGtElwrIEhDRUEuQYOtsuqyhkQy82ae4GhQX0lLMYfelQoaIloZ9aEqCF1-IwQ",
+                            "width": 644
+                        }
+                    ],
+                    "place_id": "ChIJta-pCjDlDDkRqrcJE2aoyUA",
+                    "reference": "CmRRAAAAemfQ0mg4CZ3T7-mLhIjCSuQ00CIKVAApR4ZHgIEV8q-wyqhPWU56UMTlDn96grn5RWXPNTpLmaeF0ftyQEH2Jh5SXRv69nEAGAePUSP1Melab9LgnooPVFrT8BOZcU_7EhCnMivLQsav-At_aKLDIGLGGhRtU-VCBn1dghMGgkk1kzeiZecoGA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mangal Bazar Road, Khora Colony, Pratap Vihar, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6382115,
+                            "lng": 77.37792189999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63826235,
+                                "lng": 77.37869274999998
+                            },
+                            "southwest": {
+                                "lat": 28.63819455,
+                                "lng": 77.37766494999998
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a1a2edf8485cdbd0bedf649da21e6b5ae93a1742",
+                    "name": "Radhika Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 829,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112335855473353747044/photos\">Radhika Medicos</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAOrwn6aXbc8jBKNqrJnwecB3JNdYkwOqLHSJxDy79WJsjuoGnuZOxP1jx8mkqyXKXWlEC4lWg1AYfxyJCkfWG-_yVEaUvIoJPLwGaT-ZYbWBnz0QBJR0Qvq6EPdl_WDd_HbkdlAuvi83pV0LSzYFhKdMzbSz6K7RHM7El-WDocnWEhCmH8zP18kQY6_28ZmMrG2EGhRTV1NpzImG2-ljF0Bur0SXm6UWtA",
+                            "width": 827
+                        }
+                    ],
+                    "place_id": "ChIJ6V9sTFXlDDkRtchmnihHoHw",
+                    "reference": "CmRRAAAAzRwIKeEdvamj8w6nTDypADfSHMOJ_JSEVZdNC63UxOs8jgB3ijSFwGe5qSfo4sKraHXt7ZF3G8Jm0BQNHYQh28DRUT8bGQ0dBVWpltgEXWFVfcOika_j4PLUBTRsoD1JEhDL4QC58AIEk1mwgWyPDvW7GhQuEXNGC5rrCA2nWL4CqPiAMCAc3w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "R.T.G-151, Royal Tower Shopping Complex, Mohan Nagar Link Road, Shipra Suncity, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6097022,
+                            "lng": 77.3528678
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.60973404999999,
+                                "lng": 77.35292435000001
+                            },
+                            "southwest": {
+                                "lat": 28.60963065000001,
+                                "lng": 77.35284254999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a2a43f3a0552e9f52cf2e12978abfbd7e7873af9",
+                    "name": "Patanjali store",
+                    "place_id": "ChIJIVX8-RTlDDkRB6cpb4KPfJc",
+                    "reference": "CmRSAAAAPQpHLN9MpSpto2GTq0SknqMLilwvWasSu44rgw0_ADJhumEnYn1rz4K5x2voRi8sVyOJwfT45CKrKafDAqkPLLtMPUfmydolJUF19QYQABOn01GEO8GWKAEbcHQU9GwFEhBYbksvorpdd58FZ18iqPGJGhQ2ngxuLW8GCtrF_P74bvQQrOO4Qw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-60, Bishanpura Main Road, Block C, Sector 57, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.640792,
+                            "lng": 77.376813
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6414814,
+                                "lng": 77.37748454999999
+                            },
+                            "southwest": {
+                                "lat": 28.6387238,
+                                "lng": 77.37658915
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "3c2f9af7618d7f7f36f2780e9f113b898652f217",
+                    "name": "My Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 768,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103217858371607426066/photos\">My Pharmacy</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAEgXp9fC0rKZ8rN8BtakfmcQEME66Ntp-PV_t5k3ZRapGcAO0A4r2p6chSGry6UB6jXKuvM5TkxZAfmNFwU5kZyXNCUBQp-0rz_-yXK5k5SifIqczLxtgQULcJo2P3LOgOCqoFMsfChRrM-NqzUPIT2IZBw8bLJP9kHuIwLyijxGEhDpsvvBckephyFR7PfAy87hGhSj7KKjVPey4smZvg9IeuT4B3S6cA",
+                            "width": 768
+                        }
+                    ],
+                    "place_id": "ChIJeUnwlar6DDkRfUS4gArqbEI",
+                    "reference": "CmRRAAAAE3R88D9hgp_KLqUbZzzOXwTS1hgD0pL0RoH-jX-glY74iu-Jw7HGNtxGDqcK7u_j2z8eoHcHvAcnyNF90BHoElT8P6OP6B8wFIAgDgJ2gIVUdNsHpCkCtEOn_p716l3kEhD_ajtUObUXgfPq5IHhUBKsGhRmrtoOiE79MnjLzZendFMtDo8KMg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "SC-170,, Indirapuram, Doctor Sushila Naiyar Marg, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.616868,
+                            "lng": 77.384832
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "c40e489e8e5707a262fce6167fb79b8f51e2ae3b",
+                    "name": "Anand Kayakalp Pharmacy Private Limited",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJQw0oUPPvDDkRu3RAf_uhRTg",
+                    "reference": "CmRRAAAAnlw1e3SzqHaWMGBVBwLt0LpcfKCLaD5wB7P0KhatGMXAagm0AMJIRIraQ5xTvYLnVl3zeCplinqdDDDIwn195hqg0814VFTJ3G6Y0I9AY1SRt4VlA9-S3CW-x0GgLZQwEhDoB5NkwgTNm9DfY7spLsEMGhQWj-AvrdlIl0xziim8bsZeBOlZTw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No-C-88,Industrial Area, Lohia Road, C Block, Sector 63, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6380919,
+                            "lng": 77.34643890000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "2f2ddf0ba32a0fd4a3ee82282eece32800b7064c",
+                    "name": "Apollo Pharmacy",
+                    "place_id": "ChIJ63gHBM36DDkRmxOlSgN5ADo",
+                    "reference": "CmRRAAAAx-YSSn9ItFdtXrfFKQQw8HfogWc12MYSowqeTyedrQyVfyzzbmxPd_6000-XgjW8efsWTBqOX52tg45Jc5rLR7mOjXtLmrpjSP-MkdGpPYva0wOy59ziaMb6oNX5uACDEhDQ5Dh87kEGXzkSJhpAPkPPGhScM9Az2e2g-dxn3w5qhTUgGiYO4Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand 3, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6382155,
+                            "lng": 77.3463276
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "29c5cd0a082f2bce36c9350ab0cd8b76c70b55a7",
+                    "name": "MedPlus",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJ37sBs36DDkRCC7vZnpaCDU",
+                    "reference": "CmRRAAAAMm5B0-OTiWEHhu6a68ieCwaRSZ_oMcMfVfzajQxkQVC39MsvY_L4dpVpSHPx5PSret_EZpB4z-18TYlAvKOKOI5F1YuCI1dbRfJv12cI42SQGta9jii8qAotZoYrpNNUEhDwztBvLvvmSTRS4Z5UGBGaGhTLFYx_uS2QqZjhe8EPg3qi_OHrFA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6452421,
+                            "lng": 77.3705614
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ff3df04e0751e47f7372cc04529d39a044a3c6ee",
+                    "name": "Apple Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJJSme7a76DDkRWq0Mh00LzBc",
+                    "reference": "CmRRAAAAoSVIT6vqFis5LLLJ4vI1UdyqRB7aI62ILjZE6pMAwqVGEcVM77N1BXANNR2d4fmkKPrFi3Dq8mu4Tk8nBDJcyDs3l1TY5keeyn06yvdcMlqx3YlInV_crD68Qj_r2NpREhDXtQNhtQUBDee6okINhEXVGhTjYLo_RNHakiSty5MWKAKG6WIHKg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "137, Niti Khand 2, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.642348,
+                            "lng": 77.3504257
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "be2c4a1253fdf38608b5d01c36787d5fcbcf6d66",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJbVAgTMn6DDkRmaDFwWL8Flo",
+                    "reference": "CmRRAAAAE2ULdTsiwVKep7TOi1vd9rfVBuNf3VUzzcdO9GjnEiZB2Bdk-VRCNC0nshS-CLfVpX3BmYUJJdJYrOKaLS6aO2BlJBmKfJzL-sSRc97DzCie04FH0asNBhVGHk4M_upEEhC--dkmsI27vWXY-vLEuhxcGhScBQ0YyHkJR_2F4K6vSH7TunB5Fg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. - 2, Abhay Khand - Ii,, Abhay Khand, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6057875,
+                            "lng": 77.3485857
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "cdcf8a5f6662fdc38a9bd9f9ea5e0b11b244d4e4",
+                    "name": "Neelkanth Medical Store",
+                    "place_id": "ChIJyzr1QRHlDDkREm3jCBdIqZ0",
+                    "reference": "CmRSAAAA8RaWX7qvn5l-SkqGETB0Z-zPsaQS6ceF-locqt-BbU88axFjFVQdnDK23yGvz0UAxB6vjhWMMczq6fZnZFvd-B46dIyZQEfcn4zkSnoHhOX3GLEkBrh9DOZVVK2mX3pgEhBMgP_VVFLKZGGeRr21_9p3GhSRMUBdW_LeSPyNdGElSDwSjycgGg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-169, Block B, Sector 55, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6437907,
+                            "lng": 77.3822809
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "4899a2bf7d2de5e7b4689d67a839bd97f04e21e3",
+                    "name": "Apollo pharmacy",
+                    "place_id": "ChIJVVXFOwHwDDkR46r7z5RkPbY",
+                    "reference": "CmRSAAAAQASCQarYekb9JVT-IP37o1CFriLIaORRO6ixAFVig5tvU5bhbfzWLdSe21rG0KgZIL5E6ylHXiv5-34Jg0yc56YYsfNJrC4ipyl9HJxj4esPN-ajKijOgTKA_B-AraBzEhAQgWVUBN57HeV2yWbk42jbGhRkPNkAg_9dIotjsazWFaQGn-oSgA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Exotica Elegance, Judges Enclave, Ahinsa Khand 2, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.646375,
+                            "lng": 77.347334
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7f651b3d4926d21b10d8e45c57f3fd00bca7f34c",
+                    "name": "Santosh Medical Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 800,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102389110890364430572/photos\">Santosh Medical Store</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFkRI1cvp5oafvJb3CPM3jGmsUhy4hjZW9dBbe385M-pX2zugM8Ptp8zI8B8PNNf327q5926IgqA0mEB1y-TsH6ZuvQ_F8Ee1GWqoCJhM1T-Y0F7Py-CIk0Yyz_XFay98wP4lzAW1TeEGxPt_Ir-IKNGcvfizK3fGIAQ6OipwKnkEhCUnu8UbPSKKufRcwGJmP20GhTs8OGO7ruxe3ULi7kC7FFCfwLmog",
+                            "width": 800
+                        }
+                    ],
+                    "place_id": "ChIJazNddc_6DDkR9esw99XDI_E",
+                    "reference": "CmRSAAAArc-UoLltG55w9Qmr9Vxn1kIqDnKa22ZjtB837J5CE8Wttf5O2vQPZFA37B30J_gY7ajPzOrMkUuuw9AEKcOR4oBZRSv5d4mHv6HUuPK--orEA_ULkNlfD9i-3Sob2gpeEhDHxlJoO9q2Cqc5olxm4n0hGhQ6N2Hq3szSh1tD0GDE8GG9Ej1SMA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No. 2, Plot No. 535, Opp. Tewari Eye Centre, Sector-5, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.644778,
+                            "lng": 77.34468199999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.64625444999999,
+                                "lng": 77.34530734999998
+                            },
+                            "southwest": {
+                                "lat": 28.64428585,
+                                "lng": 77.34280595
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "6321f7d82375bfa645b18edefcf899659fbe1da7",
+                    "name": "Apollo Pharmacy",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJB0qo3ND6DDkRhlc3cPmZbiM",
+                    "reference": "CmRRAAAAHij_aR4K8vao_8A17s1vbE-_MZpB-eP2iGN9J_Hz_SO07kQrEmG-NEWEECPh5yEsd5_qr1qhiyPZx7TXRK3rQ4rjO5lT7flVeLATmYVCRQVjQGRgQFjndg3_77LvTFftEhAJKhhIwTdiogHBPMTYjjytGhTckgj9j-suX00SkNfayuOWfFs39g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No: 5/24, Kaling Marg, GDA Market, Sector 5, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.63483,
+                            "lng": 77.33662400000001
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "0161d57d1103d7838a44aa5b846ea25fe7d508fd",
+                    "name": "Neel Kanth Medicos",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN0_wytT6DDkR6Esp7fLw1e8",
+                    "reference": "CmRSAAAATWqRnWK_Nza4igGb2p-lo5VlFh-rev0wqoOU3BEik_az7iFif2W5FKDMu5vJMz44_IkB0yxLOvG6JJhA4IzlkaavGI-ZSDTkRMR458CA-yx-CSQ4Mw2HWa0aQHm2RP5TEhBI1Sa0VBihnOg5EpTVxpbTGhQXCY9trZ3cyQ0LJsdRq5nqi3GD2w",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "28, Nipun Plaza, Sector-1, Vaishali, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5971879,
+                            "lng": 77.3647134
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7e4955a4924d15731f3288f1cf087396cdeb927d",
+                    "name": "Guardian Pharmacy",
+                    "place_id": "ChIJjZms0nDlDDkRWW_dHsICHx4",
+                    "reference": "CmRRAAAAM_fwmJr0rfR8M21EA99F_sZwq5CwCpdBclk75YYVarhMli_HwuF5oC4JMxNE4xmmJffcvT6sFx_gRv4RW8-daGw_TiaiCPi_NKP1am9tMKhczP5Cmmg3_ETbvgIAWPZHEhCpVUFX_veqbTGw_BtLi-pIGhSCK3S7W4cCzted46c-XSvSdk-ELQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "pharmacy",
+                        "health",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "366, Sector 61, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "INVALID_REQUEST"
+        }
+    ]
+}

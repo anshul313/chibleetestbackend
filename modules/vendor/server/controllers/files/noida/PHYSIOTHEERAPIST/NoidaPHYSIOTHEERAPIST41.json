@@ -1,0 +1,112 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.557452,
+                            "lng": 77.368329
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "e845e4fb88f490b62f06de4e985f104a6579191b",
+                    "name": "Samvedana Physiotherapy & Rehabilitation",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4000,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100687152468690491140/photos\">Amit Aggarwal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMSy0QCd9yscrW6fjPqTeq51e7oquQxebL8lHj4fvTWYC0muocr4f88ZjBZrj_DiZhH4WaMKfd-RepM03sIyMVm3A1WjkBWFKXj6cvSss3akD9pPS4RBIYv0xgTUHTJ78oIIOKrFswEJDTizeVZmTOWGqK7M_B4JilkQra-nX1Q2EhAlimEBUNd582460UY5ULYRGhQW2bAAI65d4ew0GSCSc68-GfYX9g",
+                            "width": 6000
+                        }
+                    ],
+                    "place_id": "ChIJB9rKCvDlDDkRO6NT9INrI7A",
+                    "reference": "CmRSAAAAkCNbFZW_5SGkVJuRZOu9dSWwFDR0xaJ6Tnh1T5RPDy6MgmlM5aMWDua_u0OJGaIS6sMqcQY7HE09esGsF01OhqkvT8J0dC5hMzTyiWKHEBG4lhwuKARsGN7EqULI2OJCEhBnxWxwZUeyNu_jxsmEGBVrGhQMfabJPurTzTr0IyPFeLiMm5DpRw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "samvedana hospital B-206A, Sector 48, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4853236,
+                            "lng": 77.32266919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "75653bc8c1badc9c071366c3e9ca63ee558ff85f",
+                    "name": "THAKUR KUNJ",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_0_qawXnDDkRISV9bh9MlIU",
+                    "reference": "CmRSAAAAwRzufbxdOIq6pikaDWjd2CpVLlXTrEOFgpqkzf8uw5rbX3foR5iNfM7pt--Klv_zgA7psqJiUZWfX2GXCljb5ioKph0QMr7TNXW7cIovA3hognyfeK2Tk5ic1YEzrDYpEhCkHRqQ8sJ3hRIMh4HsmP2YGhQ74aZIJ9gRXDft9rGuztViHXwBgQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sehatpur, Faridabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4850118,
+                            "lng": 77.3224814
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "7dd8b617b3d30bb56ce6a151add8246141bfb904",
+                    "name": "Anve Home Physiotherapy",
+                    "place_id": "ChIJESBIaAXnDDkRvU_a7Uxv5n4",
+                    "reference": "CmRRAAAAjyDUCPAfsZp54r18HvGdJ0hjSFoAf3m5mr8AY3yJjMIs-WqMD5kWscJFrG4PPDtvCiFOcLPeYtbAn8OZnNMJWNcf6KIbDlkdjs-Nyw2pCHYkubdCDuqHwWRgJz93WWE5EhB_-aLoBYz9e9cNFSOD6-ddGhQ08GMlJ77qs_Oa2op_R5FQbs-Lsg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Unnamed Rd, 121009, Saraswati Colony, Sector 91, Faridabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

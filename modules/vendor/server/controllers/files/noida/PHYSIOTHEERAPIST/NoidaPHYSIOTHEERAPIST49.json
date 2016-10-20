@@ -1,0 +1,66 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.557452,
+                            "lng": 77.368329
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "e845e4fb88f490b62f06de4e985f104a6579191b",
+                    "name": "Samvedana Physiotherapy & Rehabilitation",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4000,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100687152468690491140/photos\">Amit Aggarwal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFuYTDu9-6gJPNfOv4nDIULu2W6RHzbcM4Zho6UONI0TorjW8sTtiZD-slB8wHU2rhwwff9gUitxQI6_OI7Zqyzh5SCDydobJHi_odhxG7SsYCDmt_u3Y22m3X1NH0t869SplkBPWngZKSvznmrR5b7rKrKzFX-5vSi0qRRWCJTxEhCAnNY-zSi0OuM35D-ZQkllGhTHdAVYoMTtCeNYlrNgQhc4dHqR1w",
+                            "width": 6000
+                        }
+                    ],
+                    "place_id": "ChIJB9rKCvDlDDkRO6NT9INrI7A",
+                    "reference": "CmRSAAAAr5jVXvRgVpTzquFUf66rY-nnIyuFlcCz8XlDwHOSv5uALTm_l0yNa-8gNMdZ1ZTiYYwhaoHIPEL9Eby5Dm46568x0ym4ewOHJBoG2r4zkUPfZkMcgV8D_28LcYBnPWjwEhA1mh8_tV_zVBR_6Qi3cNVRGhTcpwtFYXD49-CgHCWRP1EkJLTesw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "samvedana hospital B-206A, Sector 48, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

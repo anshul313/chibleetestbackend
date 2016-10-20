@@ -1,0 +1,915 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5956016,
+                            "lng": 77.3993311
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "93596df97407c78867fbad83bb88cdede62fb274",
+                    "name": "Dr. Abhishek Gupta",
+                    "place_id": "ChIJkzeoxZ_vDDkRwJKo-oOlb4c",
+                    "reference": "CmRSAAAAyX88gCQEbcmS6ADgz3O6ahHV4vTWzzfWshYvoOQvibl8Xq6WS4TbZet_AqJ4oZai4H0mCgxde3-2i4dVeb-d6YPVno2yeO_CZJ85tY16b7Ch2uRxnjgSkV0YgCAvc3KHEhAAxHiSMG9Dh_xnIRFNUaxCGhSrSkVZz8Q6RaZsbLFQ6uZ-9Saflg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 122, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5845382,
+                            "lng": 77.3695984
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58458275,
+                                "lng": 77.36964730000001
+                            },
+                            "southwest": {
+                                "lat": 28.58448415,
+                                "lng": 77.36955809999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "daf7e4b0b20570b914b26d604f721734a55c51ba",
+                    "name": "Physical Therapy & Fitness Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6nq9YTlDDkR15FI4uNvo9E",
+                    "reference": "CmRSAAAAon973JWjMiOC6GG3RuzE-_OsXQs1nDDrw2EP-QPwqRjMj4M0vOn55e4vJ91qM3bUb6wnOKCYHUFdDT044X31mI4Gu2wxaS-c_EvTTLUEL8Tq3oxESCpMKtbKnLv6kxOVEhCMrbHhtHC5qMtZ2ALwhaPcGhS1uYVx-qJmg8zgx55zMb0GP5AsIQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Shashi Kant Marg, Sector 51, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.578117,
+                            "lng": 77.3622194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "52b7bf47d73a7bd971e5fea7df4de0cdb5ad1a6a",
+                    "name": "CADENCE PHYSIOTHERAPY CLINIC",
+                    "photos": [
+                        {
+                            "height": 764,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104416121502513233185/photos\">CADENCE PHYSIOTHERAPY CLINIC</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAOfbrKlANTznRX4AufJczUD2iM4-kVYUAxgxbdTIR7ebxiIyLr6qbEzF4JAwY5nipvQtec_TqecMm7RtXSEUXGd4uqW0woIfXhudVJsprgQbBS44g5FHoelh9Xj2MopbaDf_sFzv863uZlPLL4M0ITfD4su9XgpKb62IMRkvyO0OEhDCIF1M-Oqy5cs5_mSRE26cGhTf2n4Qwvq12YthhlxjJkqLB712uA",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJq6qqapDlDDkRAUgSkxpgNfA",
+                    "reference": "CmRSAAAAPjOEN-gOzwYT10Vjd-nSEX6EX9JN4HUt_GmfHQKo7QzQO79dM5GH-zvSuxTFzgOnA_ct4MobH9Zu0bxhq_QGLJByYPmKxcCXl78JXAHPNGQ9aBrU2asXU911jfNPit_xEhCo2wWc9fYjSVrsJp6Q5_XeGhQcZg8h-CVzPtNQtprut4epiQFVIw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "F-47 Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.57070599999999,
+                            "lng": 77.36368
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "47643f038ca124a78e51b64fcdfd6bfbd859ddaa",
+                    "name": "The Yogaguru",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2048,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103556243901873729792/photos\">The Yogaguru</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAEPbu_N-Kuq5-vVncZ4lky4UxDGwKYtOXH79aWfr6aLXwIxkWrcGF-9SPP9L6Fp7gsCjRc2EzoTMPHo6vkL9OMqrCEVPAWAiZ-KzUDkmKwS0QjlMjO-MD7nVE46QKtWVdzYuipaJ3kkd_ioONDkJBeX6EAPBgLtaqcixbSObbOXLEhCDwbuzhGLZ7dt2OV34eHPEGhSSijlIZiQU8Vc-D02IaQdXNZeDRg",
+                            "width": 1103
+                        }
+                    ],
+                    "place_id": "ChIJYbSIWlHkDDkRZpwLxFgEp6o",
+                    "reference": "CmRSAAAAIeOKoYWA6OH8YQ-3rDrIsLcYVXbVpcJ1Jc4AyDhnoYezfmNAa1V81mrQYDVYfXvYzfBnkhyjmZjABjuB6lWwYQRECmWH6TaojjqCh5VKL9bo_LNjU_wy2jb9VVWxPDf4EhDY5Ftkx8-UyzYv-nsxWhouGhQlKWp_-OissW-yGPpFfYarXbGbsw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "gym",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "f 1, Sector 50, Gautam Budh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5956016,
+                            "lng": 77.3993311
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "93596df97407c78867fbad83bb88cdede62fb274",
+                    "name": "Dr. Abhishek Gupta",
+                    "place_id": "ChIJkzeoxZ_vDDkRwJKo-oOlb4c",
+                    "reference": "CmRSAAAA76H99ToZwOklvkOVRclRVrI4dd_kIMl5JokDJ-9__8MNmUUfLp7fveoob7fI6BAoW3kIZvPK7lgHnzl5j_HVempjjXUfRRwfu4O-PIUH0Mxv9OuU9uUEHxQHnkN9ZHmtEhCGesWl25Bv26BcGBJs3G0DGhSyHET4IlxPh3MX60bHrlzsDdGMUg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 122, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5845382,
+                            "lng": 77.3695984
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58458275,
+                                "lng": 77.36964730000001
+                            },
+                            "southwest": {
+                                "lat": 28.58448415,
+                                "lng": 77.36955809999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "daf7e4b0b20570b914b26d604f721734a55c51ba",
+                    "name": "Physical Therapy & Fitness Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6nq9YTlDDkR15FI4uNvo9E",
+                    "reference": "CmRSAAAAOzgHbvoxicJmteG3XtL-rdAjPS8VKYcSikkOYuaTcbvRWTr9tfWoaNojXmxNsXd8jNhSjsPvEBcOmNMf1a7wjiTeJxIvLRLNNPSuaTfB9SBcTddm7Xn01fnZySOq2cKzEhCBGX2eZfYtvf_MAHDV9r-4GhS9Qd-O3nn8O23RQZb6MhhoPgB1cQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Shashi Kant Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58980899999999,
+                            "lng": 77.36259
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "13a5fb08ba1d17b2f154be2c2abc8a879b5faa99",
+                    "name": "MMJ Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 984,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105646500213862764652/photos\">MMJ Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACzVt7gjAHqKD0zDN5spO6KM8c-qX2Ip3XvgPBK9M_Q0w1Jil3Fd52Jz6gjj59EqfPpG5DTrVwAKeS4iH1JOG1A8vcJ5xkXQY3703FTaxUCW6b79QGhSeczTyJ9QTzeF_uQwdILRo3qISGoBw2ZzIU7XDWRbwpuUlAo7ehWTNXvcEhBf-m8sSE9B0rfA5KjMyTtdGhTShyGFVoVUkBZ3T5pe73vKCc0MzQ",
+                            "width": 982
+                        }
+                    ],
+                    "place_id": "ChIJvaqq6p3lDDkRDWrlqaoGsMU",
+                    "reference": "CmRSAAAAS5hTfubN7rmozIbFe2uk9_bKPwQy_KlggAxlCyqE2eEv2HJURje-JpcwZ9iEMznYFSXmqY8CsXK5Ud9xIiQuQerfD6QCuNVjlod_Wsl0dilCEVJ2QFUZm007lgEX61_7EhBn3CXV8CtiZw4WYf6PVo3GGhQCkRecRJ4FzWZppYXqqB0-4PtVww",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-42 Kanchanjunga Shopping Complex Sector-53 Noida, Sector 53, Sector-53"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.585802,
+                            "lng": 77.35498299999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58595089999999,
+                                "lng": 77.35541004999999
+                            },
+                            "southwest": {
+                                "lat": 28.5853553,
+                                "lng": 77.35484064999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "ba386f772c414fa365f121f6cc443fa923ec72f4",
+                    "name": "Vikalp Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1552,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101834073134626078172/photos\">Vikalp Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAEaf7Ke1bXEaePEFztAo5ArBFMWBzL8vVir1KMUsohhlW6Sx81pKqQmRHhF423onQT4d5C0zCrfQFS9vzTDAB3xiE4hlNsMuo2pgZIo3LuUSFQsGC1miHmZQszwXkAOKnKZaGBm8NhSt-XShSQfe9sBdf-iLC114I_CjyyX7jL_hEhBAWXQzSmRiaL0UPPPEJ-hlGhTtPhmVM139mq-rPYmZSywyXIsSog",
+                            "width": 3221
+                        }
+                    ],
+                    "place_id": "ChIJVWKV5KHlDDkRcXM7riA_3KA",
+                    "rating": 4.3,
+                    "reference": "CmRSAAAA7A3o_XPZ0hXlM_JpVNhK06yf0G70NhTFl6LyyWS9V7fc70vo9jd29xsrMBsY2cXLeT18T24-G8UyJAW3zrWsChyQqVvGSJlfufX7B0YF7Q2-itEQrxpCXrKCv_zKzYkKEhBunW6LepnhWfY_esBo_oLlGhQzb1n6YYYkmj3J3s5juJMNkNsYcw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "# A-95,Block A,Sector 33, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.578117,
+                            "lng": 77.3622194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "52b7bf47d73a7bd971e5fea7df4de0cdb5ad1a6a",
+                    "name": "CADENCE PHYSIOTHERAPY CLINIC",
+                    "photos": [
+                        {
+                            "height": 764,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104416121502513233185/photos\">CADENCE PHYSIOTHERAPY CLINIC</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAOpBL0ZSAEIi55rAdNsuCGUx9-RCSsU2q-lmEw46oYlysAt9P7jHuByrrAFD3EvEwPYgV4Yu85DWKa5wbce9kWh8ErfvRSRZCDBxl0ZtOQKe45tK_pPb2gnCqeLTZI8wVoYhzy5W4cTvTFX0rkvVg7qgEO1Q3VlbXjfGAEGY02hjEhC4-YdE_EjaLiefVWH1RscdGhR5HP8KabeJsnqnMipQrcqnyQ4szg",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJq6qqapDlDDkRAUgSkxpgNfA",
+                    "reference": "CmRSAAAA-Vv0TzgKKE3kROuN_qu_eiqsAfKE8xTNDKcMCtT0A6N1Y8cEDC3k4ezFlZ9MkfD5m4AI7mgOkA6tWhZbv8GhHYDm_IpwClaxyOS7V8E5Mvw4a4j8VYuo4PSU7HCA-_Z2EhDSFm3jUNCGhuc6Hwkd2odAGhT29kPw25xkNMe_KPcE9Zu8mAmUhQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "F-47 Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.57070599999999,
+                            "lng": 77.36368
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "47643f038ca124a78e51b64fcdfd6bfbd859ddaa",
+                    "name": "The Yogaguru",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2048,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103556243901873729792/photos\">The Yogaguru</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAACKp0pKX7lJq_w2j_vmPrr3T0_CMFBVr4N8D4UbGtzmnwFPZ_6903wXPpp2o-9Ib75Piq0MmwePTFmBtPiuC09l73j9pWYTxVg07AivgzzjX9EukD08auohCZwTuOnj8-u8RMHpBsSOWnmpn_pc3P-N3S8az64MOi_QOcjnyTA0OEhDKeWxCQLpbI-1fwcExeTOBGhRcj-LexS0_OeDMyP2RqMM301SvoQ",
+                            "width": 1103
+                        }
+                    ],
+                    "place_id": "ChIJYbSIWlHkDDkRZpwLxFgEp6o",
+                    "reference": "CmRSAAAAxf9ZLpkW-MleXGDW_WJ3_qtRUgN4FkZRIAXQZ77Z1bkeZUVb6J-t0_l7yloAPlldnNCia8zirXuqoqCRwEf4FjjBhSpES4WUj0BzGjB9BaOEvdKEIg_v13qOT6d5_Tx9EhDMSqoaGlTTuDfccNTXjEyyGhTqnnbkkdPgDi3kB-qa-dFA-mAIdg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "gym",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "f 1, Sector 50, Gautam Budh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.557452,
+                            "lng": 77.368329
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "e845e4fb88f490b62f06de4e985f104a6579191b",
+                    "name": "Samvedana Physiotherapy & Rehabilitation",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4000,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100687152468690491140/photos\">Amit Aggarwal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAK4bAUToFM7ES70kFMHyoyWviIAFC650EZC0uRU22qvmu_x14z8JVuv2lfQd3fGXo5hruQS0Gr22dFMTUgUUvG8_GFtpWkoIyRwBGLMnOpT8TFbH1ZevVxVL2FHVy97pdYP-1d4zlYYr0AAxzt7hMWZkG11MEh18nVK42YLCJQyaEhAHCG2VEkkyjTKR8PE9VAQrGhTT0bFqZ-YJBkdFE1_wqhrAvnl5Qg",
+                            "width": 6000
+                        }
+                    ],
+                    "place_id": "ChIJB9rKCvDlDDkRO6NT9INrI7A",
+                    "reference": "CmRSAAAALO5j_ud6B9GckCw9mP0rmQLH--rB1zwWsXOQRLW4pnthiaUk1P8qr6Pc7D7W_u8jkh3nAK_ln5z-DHe-Eu-ocJn_smjE4nboI71nxI8lNkZXFzTUbIhpAVbNW6qocfmuEhA3lm9MWpA211jBEM-yN2nbGhSqj1RfC3xhHf5ujbVZ-4nuWzFhZg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "samvedana hospital B-206A, Sector 48, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5956016,
+                            "lng": 77.3993311
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "93596df97407c78867fbad83bb88cdede62fb274",
+                    "name": "Dr. Abhishek Gupta",
+                    "place_id": "ChIJkzeoxZ_vDDkRwJKo-oOlb4c",
+                    "reference": "CmRSAAAAC1hd06wOZGMDjipSWsUqwhIbDGStAhAFxq2SAbmXGZ_wEytINw1c5SgkxYi2JFz6Sf7_z7EoWV5PD4M7f9QUEOeUcGi3kfHLMq10JwQ7bXCRrbklkslQsrsizwzFDKjBEhBi2X8j57RAwor5NUdQZhgTGhQbUVEk6d_m_FP5eyw2ZWh70gnSOA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 122, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5845382,
+                            "lng": 77.3695984
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58458275,
+                                "lng": 77.36964730000001
+                            },
+                            "southwest": {
+                                "lat": 28.58448415,
+                                "lng": 77.36955809999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "daf7e4b0b20570b914b26d604f721734a55c51ba",
+                    "name": "Physical Therapy & Fitness Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6nq9YTlDDkR15FI4uNvo9E",
+                    "reference": "CmRSAAAANnNa0hZqjri9SiknFTHL8eCxEmVzOi2LEXzI9yd4NeTt0INMVXLTAnvi5C7Kkc-9iYLeMn8bS64o1UzaB9C5wbcoP4UrValBgwYgQk4x1aHCfYmoBUTbJS_IwabcRbi2EhBSMkRq_EhOWpiJKxnR-5EZGhTVtqGDPWJeYdNGDfIHonAaWd3qtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Shashi Kant Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58980899999999,
+                            "lng": 77.36259
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "13a5fb08ba1d17b2f154be2c2abc8a879b5faa99",
+                    "name": "MMJ Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 984,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105646500213862764652/photos\">MMJ Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFJbNE0ziIVj33poKt6KHbY6FJIblE7I4HUeUjPHSEseeXh1mOBR8aklG7iOhNideyJlj7yGe4jWmv--I7B4e3kHtiu2EzvJGR-C3Tr8mfUk60ipA_p2GyxPjBIIZTs4ihVVO2zMHY9fqDE3yhasIDhlh-sqyiKfa_EFTmLtNqBTEhBqt8QpBD8iWZ69Fuy4mhueGhRMDYFir91zDdkNp-AvpUp5ugR3tQ",
+                            "width": 982
+                        }
+                    ],
+                    "place_id": "ChIJvaqq6p3lDDkRDWrlqaoGsMU",
+                    "reference": "CmRSAAAAdz3VLXNPhL-Aw4cCa3PBKPT7V3LZSb13TXg1J8kazkzRDmOWzP8HgBrVolmfw9p3o624VaRT-gK7r3q_1y5L9AwTPBa6VOGk33ULSXx6Yfbf2g1XjjxnF8lU4HQ4aslaEhBU_hnE5Qyfn4O_mKsfrfcBGhRJP10ckCbH-Gndpiy-4ixnAZDJzA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-42 Kanchanjunga Shopping Complex Sector-53 Noida, Sector 53, Sector-53"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6144437,
+                            "lng": 77.3715995
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "60722c49cc3804ed084f12815eeae12269985d30",
+                    "name": "Balaji Physiotherapy",
+                    "place_id": "ChIJo_PRX2flDDkRbAVu6ZbUyqk",
+                    "reference": "CmRSAAAAwTrFspwzQbDSQn435_rokhN6OF9bp6xfuKogOfhLdjnvwmZMjKmnJ4gbENMWuaf1YFS-7hYaHCwDPi4ERNw2J0Txe6-X_QB2JBeEUtV4ksaXUJ7hQ8WHynlO-oNPdg-REhA8XDComWVWp1G2l4VE-iuNGhTSZONo3rITD9TiNPo_GmdT5LM9SQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.585802,
+                            "lng": 77.35498299999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58595089999999,
+                                "lng": 77.35541004999999
+                            },
+                            "southwest": {
+                                "lat": 28.5853553,
+                                "lng": 77.35484064999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "ba386f772c414fa365f121f6cc443fa923ec72f4",
+                    "name": "Vikalp Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1552,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/101834073134626078172/photos\">Vikalp Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAAv3iq8MF4oZEd9HmOk1d2otQkkJBV884RnNwX0zQzY2vG6Xamo2ypgmRkYUjDXerkFUZrrPrMfbnrXJRzsG-1r5mQuVmoAF7DqP5MScDrHkZmWia1gYpGYIDKqLYAOLf4WG8I_AkMJTxRRRooLOAuieva6g45U1ndC05SzHimSPEhBpKBxWTxtdpyyk0C3jBCK6GhQETzL7ikuPP90QjbhaCyOYcU8aBw",
+                            "width": 3221
+                        }
+                    ],
+                    "place_id": "ChIJVWKV5KHlDDkRcXM7riA_3KA",
+                    "rating": 4.3,
+                    "reference": "CmRSAAAAPlEZsqzbYz0Ra7PKcMSUuNXKOJoAfPwV-gHsB3PDt2-nb1xVgvhyu971xTim3ChLx5VI18fH-Pj7j7ql45PNTaX0VpPsouCTB_qa7MSpgl5W4n9CbDqZrd_7YqBPvT5zEhDn_LPLxDoi-4gQMUiIEGljGhQvrINJ0ysUzb9Cw2DHzk3Kp-DBQQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "# A-95,Block A,Sector 33, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.578117,
+                            "lng": 77.3622194
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "52b7bf47d73a7bd971e5fea7df4de0cdb5ad1a6a",
+                    "name": "CADENCE PHYSIOTHERAPY CLINIC",
+                    "photos": [
+                        {
+                            "height": 764,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/104416121502513233185/photos\">CADENCE PHYSIOTHERAPY CLINIC</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAIKLC9LC75sKH4bCt9ljKSYZGNca7yytvQRx7NkPntSpGVwvbWL1AUHoEuXY71r4msG28ac0I0eJibX_k-x0ZFiXdKXJA-ChGJkvu02teaRkjn5kB3FmEo0wHlDWrFwMQGrCMDz3Y3An_1MI4kfQiR2XN4gMvGY8ENSBCSrO1gXjEhDclnfwlmBQmGljh50EdsTJGhT13Tr2Dh1VrTOMcU-4tURb5bGpAQ",
+                            "width": 2048
+                        }
+                    ],
+                    "place_id": "ChIJq6qqapDlDDkRAUgSkxpgNfA",
+                    "reference": "CmRSAAAAi-MmdZDCnzyb0TVggIuFYJO9Cxkb6HxZqi0Whr3pgDKmsUkCtxHT6MMc0g9fdXkzMzlwOPJWs9DgPvrjAVig6XdBMMn1dcvJjx2bMFre9Zz8TPxEp3ukWelQXLFxhF0ZEhBmhcs54kgouafjMZNHxnkCGhQP6rCu3egDAhHaE-0wHl_M7gLxtQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "F-47 Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.57070599999999,
+                            "lng": 77.36368
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "47643f038ca124a78e51b64fcdfd6bfbd859ddaa",
+                    "name": "The Yogaguru",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2048,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103556243901873729792/photos\">The Yogaguru</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAL39-WFgkB8uvcKEk9oRSAJ2K1Evt331oYpeq6JUyvjWT5R4T3kiivxWK-7YVoweqnqpcJoMcmCdJiptOppcWJMY_2Ofz5k_qqKcRt1241IFYjp9clIo9GYmQgiHohw6gJ_3JKWvLPYpD_fLqM3oB1bgxXE8h53-BWYaGuopyRztEhB0OVsCH-vjumfOwA-amWo6GhREd1Xt_yveGSOHYsiGHWy3tqFDRA",
+                            "width": 1103
+                        }
+                    ],
+                    "place_id": "ChIJYbSIWlHkDDkRZpwLxFgEp6o",
+                    "reference": "CmRSAAAAQ_TgJjyl79M7VLcFdluQ1pONyCvYADuaIZ3xQBTWGboRqmcJIAoJmEz1YkglNhMfj02Ldi328UfaDtY5G754aa4Axm4rUjts1qNBoiU7bDV-KFh6buse74eRcdcUtH3VEhDuyC_8V9NKXUWd7kX7ZQHCGhT-w_6chMT1fMeFh_9R26sWtfOVXg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "gym",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "f 1, Sector 50, Gautam Budh Nagar, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.557452,
+                            "lng": 77.368329
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "e845e4fb88f490b62f06de4e985f104a6579191b",
+                    "name": "Samvedana Physiotherapy & Rehabilitation",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4000,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/100687152468690491140/photos\">Amit Aggarwal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGYcsPAbCGC_MsJx-udowIJ_WAS7_q_hdCtnlYmqh6kehXt2pz3qcJBAEJdVlvey4SBHvrOXYo8lbedGPr-wWeiKIKchSZqNt9t0rVLKVTa3WB78IVCWRc49VGxa-Q_J3xE7cd4MfqJoWV53iZ-JRQY78xlQ8rXIdR4lhtmbfc2rEhARt2uyBqpbUiqN2GXwUmv9GhREw6kFEfCXZcI4IQOnz9mQP5uafw",
+                            "width": 6000
+                        }
+                    ],
+                    "place_id": "ChIJB9rKCvDlDDkRO6NT9INrI7A",
+                    "reference": "CmRSAAAAEourReKxlaoJ5kaf0YtgeekI2zzT1-5KIh3R2goP3V5jrildhz6L83yO31wdIbDgkhnrU00IxN6YAHWYH5_KRQkq4dEdVgmcPOCD_zPGz6s1evU791lc0Yot3LxWVDz-EhC4UUVbRYuofENx0pOp-mIyGhRb-s61llFImrqLMyE2WS6q6Q84gA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "samvedana hospital B-206A, Sector 48, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5956016,
+                            "lng": 77.3993311
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "93596df97407c78867fbad83bb88cdede62fb274",
+                    "name": "Dr. Abhishek Gupta",
+                    "place_id": "ChIJkzeoxZ_vDDkRwJKo-oOlb4c",
+                    "reference": "CmRSAAAApgdOcTPsMGitmtfTKyB0enqrkRkS8RpHN8jFvhGuqBqyfIQUCoOtOrud7PgpEG8-AdFtAbPwIdSaGOaQDqEKbQXW7KFwlQ2nR_6io9CnFf8NWLTtSVFcYZzI-0MseWPrEhAnZqGQmrDzt7UHbnDvWuuZGhTzn7Wm-LG_nh3cAd7jFhXaZGfzmg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 122, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5845382,
+                            "lng": 77.3695984
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.58458275,
+                                "lng": 77.36964730000001
+                            },
+                            "southwest": {
+                                "lat": 28.58448415,
+                                "lng": 77.36955809999999
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "daf7e4b0b20570b914b26d604f721734a55c51ba",
+                    "name": "Physical Therapy & Fitness Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJM6nq9YTlDDkR15FI4uNvo9E",
+                    "reference": "CmRSAAAAks7IIz4V6kZ1FW0lYslx4PMyDm3jPPwYfhJ3oyOzgkAuUs8_tl9VEQFJssP3L83GtuoCT-QiijiPQSdssetHBt20v7KRElFIA39tYRWnVIy4og5_DkY4An5DQAGobqn8EhDPqvtk5OZAqPzP-OAShm3FGhTBKU73SRsR98YridpLDvnRxUxiMA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Captain Shashi Kant Marg, Sector 51, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.58980899999999,
+                            "lng": 77.36259
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "13a5fb08ba1d17b2f154be2c2abc8a879b5faa99",
+                    "name": "MMJ Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 984,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/105646500213862764652/photos\">MMJ Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAPm1eNW5NswR0OknmnHePjY8HziR_meHmxiCB1kxPYNSRc3dtlPrNHF3jvSfbAXMXYn68QIxGyMphmv_FGuEH0RgUHR-NkSnd6svDAdjwK8jIg50wGYtQdskm3hUrzr1SZ1sPfVmeN-VXOYRIUlSJ5Yu5psHdCrC0AZS9JAKtDZdEhANWoCPUXNQ6s6SPVOvIK5FGhRuBvMx24Cx8TvTZ0wC9DZvjqlH_g",
+                            "width": 982
+                        }
+                    ],
+                    "place_id": "ChIJvaqq6p3lDDkRDWrlqaoGsMU",
+                    "reference": "CmRSAAAAciWYMlBKxdgGnJszolMlsN-A2fuMWNq9AsNeMwhJaclDTJ13o-8WXt3c-xKDvg07qHr8Ydr-rFVCgvP2DDaN8YkTFnhjp76WxRRHYSKKgKMxKg0GUrczAogsnsgeTNigEhArEJjt6VBHA9EW-OLxo8q4GhTSkOpt-rM6AQNlh5mm27rBeNlzhg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "S-42 Kanchanjunga Shopping Complex Sector-53 Noida, Sector 53, Sector-53"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6144437,
+                            "lng": 77.3715995
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "60722c49cc3804ed084f12815eeae12269985d30",
+                    "name": "Balaji Physiotherapy",
+                    "place_id": "ChIJo_PRX2flDDkRbAVu6ZbUyqk",
+                    "reference": "CmRSAAAAiZCRjjomQDLaRSJniz-aHnaCJFI7xZ_3A8CVrn_1Z0oI0a0YIqm3hKgtuGpOnhamMyIT0USiTvvVMeKpQBVVT9ZeOFDeizez_Eu3Rdl4S6NFBPJFFCFi2n0Iiaupo-nTEhCgA0C3X1S7mGKPpJZbaGT3GhQavi2k6yo9a_FJtpf-MzOBhTa_CA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5999448,
+                            "lng": 77.34466239999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "a36ee31f4bc7514ba0d56314bc634d1e87fa8ae4",
+                    "name": "Vian Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 2136,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/102714497415821724923/photos\">Vian Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAGTsti8KhhuUILspFxskAb48gDT77CqgrT0q6FAbQe1VH6A1eEkNmmn5qjEhikX3ThdPhsVUNKwYG24eclWw7V5rTkbuTYo4M5LhKaJZ2hexU4lAMxDj8f8Gfe9P9Txft8gSCTD_mGmazaP5HKtoogc9fjUfwMmPWRG61UYso5a5EhCIlJ1hTZTTSc-AGbbIiPleGhRtDHSBIs3RDc6Q4WUJmd3Eh-3cjA",
+                            "width": 3216
+                        }
+                    ],
+                    "place_id": "ChIJSUL-7Q_lDDkRCXwQVS2PtaY",
+                    "rating": 5,
+                    "reference": "CmRSAAAArjpifGSWC3QMGwDOASL-yuy3oomUjWsqvAFO55txUyvSJ-zKxhOQnDYT-Yu0vOGxxMrUY8CJfTgmvU9gy-rY2o-TXOH_Rn03Es6H-UwvoDv73U35_hnxFU2xBAtpipUzEhCBUk3ULTWbl3Aza4X7wAGpGhTEHrX951FcuQOSY5vpeP8sLVwUHw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-44, Sector 56, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.613575,
+                            "lng": 77.352025
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "784184365f51700e177ee7d1465800eb8d7fb3c1",
+                    "name": "Mata Kaushalya Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJIQbULj7lDDkRvQtVvY87Cgo",
+                    "reference": "CmRRAAAAj5ztGN_uZqefkLAC-kD2VwDZFvi6cH8OzkVgJve6Mwj9N3urRdmTRAfJSybIiGPkyWgRC-lq7TiaP0_tk1F9v3FDupO5imtNttChEAGDhINJ5qUJieiH6ZrquID07J8sEhDWoeumWbCl6ZFRAbZkQ6yGGhSgRjUJQmWc5rVjBME2hh1fKkHVew",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "doctor",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "New Kavita Place Road, Rajiv Vihar, Gaziabad, Khora Colony, Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.594743,
+                            "lng": 77.340869
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "85838aa70b0fd941c5b48770078770a1ecb188e4",
+                    "name": "Physiotherapy Care",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJd1IAgQblDDkR1_q-2OZV78c",
+                    "reference": "CmRSAAAA-Uwu-ju0avpktiJcXB93AqXH-6W4pyenTc21T9e4Q3s8bHlmDnvfJZKh-yP85YZJjg-JDRxV4E1M2FU1e-KXYnBCl-WEnKLgRoLMsjaMTRfyKCDyALIXs-M_IGizCCRCEhAC1MWBfEPNUOjQp2sH3VEeGhQ27bl-d_1aUUEV2XMXVVdT3ylKDA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-339, Sector 92, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.572214,
+                            "lng": 77.342145
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "1d13896e6898ea1c1d553ec8d12527b688500b85",
+                    "name": "MMJ Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 1047,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107546156825280815044/photos\">MMJ Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAFnxeDzFPagJteUDuXCIyS6vwgsBaFLqI-a0Eu_Evr2XdCiym3R00ynrdhiAlvuV1VMbCeTiKm6YOmWqVTBkjE-c6XojzdmVgH6wESPdblxLbYSzDjrDamuFsjyi_DW0z20Lgjow57MJLBaf5uzZp0d1iogM3KXFVvxckwObtvlYEhDrkhfBRefwOMpPSM7CfRQFGhRkCqn2k7DvmUFckS-r4w-a1PBmPA",
+                            "width": 1044
+                        }
+                    ],
+                    "place_id": "ChIJU9Vjy7DlDDkRkKo1p0NDPw4",
+                    "reference": "CmRRAAAAuN_Ys3MgreyYuGT-oNuze0KsysBQ05IWtvi93wPpRPn0br6wc60WePTCheEe5hoDTabvaVl-wdjoJi-Y0oREzcprOxKdZ5Q0kpnehEzfVwxlP4G25MC2cOskDU2zY3fUEhACNgx9a7zK8LeIytTRT6C1GhSG2uZ9kEX0Trgnkv8dKekqyWSVJg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "B-80 Noida, Sector 30"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5807957,
+                            "lng": 77.33674189999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "1d4087da7592be2e12f06b1f4e62d5336d195364",
+                    "name": "Arogya Physiotherapy and Rehabilitation Centre",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ1w8nSKzlDDkRjBtLPXW224w",
+                    "reference": "CmRSAAAA-OryhM_yNZr1q9iCygnumjhQsZu1xalNcch8npuTV84ej-E4F383hq38Gs13FsLcuU3NUJTcgYGxAUm9UjJGdmugLSF5AR0mHWBsRynO6xl6785XIQ7eVNr5BoNeGZjyEhBWkGZtswePQz6jNQJKJ77jGhTwkfk_sSO08GJg-IWF-OktGOd58Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-97, Sector 26, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

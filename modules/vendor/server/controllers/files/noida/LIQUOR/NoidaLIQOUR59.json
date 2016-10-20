@@ -1,0 +1,75 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAAFzKnEp6W5bOTGoAqPVmAsNYopQwxHaN0wr64HHoV3GkLkPOfu_l2Cm3nQ0r0rRgtdWS4UHhIr1JLKG5EHBVzQOP_oBsHYOeIfoeNaQf00W8S6ARjlMKxGWMopTfV1ly_EhAGvMCAjE-0HI-kzpdz7onwGhSxqn0KJtRb8e3Aj-ikRBvQYq28gw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5338421,
+                            "lng": 77.3876812
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "9a47449ebd15e456c81308a77870fbf5fa0b9a8e",
+                    "name": "Wine Shop",
+                    "place_id": "ChIJS5PRBKXoDDkRUwGA2xagKaE",
+                    "reference": "CmRSAAAA_k9ER_xJblgijB5UXcX5S61k_3XcAZRqqhF_eO2uw771IGJNl3w7girRYL4Lj-Fhlc-_BjnBeK1bywuG8ad2tJKI2v-0mSUiqG802jyDdpvTKHt2gatiZVfusBC264ooEhACIlabwxGOy5SG7N69zYHDGhQkqJwkzf8lKL6Rsud4UX5UgLABPw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "201304, Shramik Kunj, Sector 110, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

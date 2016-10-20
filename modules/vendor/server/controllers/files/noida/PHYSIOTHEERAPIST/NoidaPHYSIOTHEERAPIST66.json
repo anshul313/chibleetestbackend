@@ -1,0 +1,77 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4853236,
+                            "lng": 77.32266919999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "75653bc8c1badc9c071366c3e9ca63ee558ff85f",
+                    "name": "THAKUR KUNJ",
+                    "opening_hours": {
+                        "open_now": false,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ_0_qawXnDDkRISV9bh9MlIU",
+                    "reference": "CmRSAAAAYkBl9hnKxXMZ_ZkQ-R9T7njS6EwkoLAZkoW0mfB4k23bTQ5E8X7ey_0HzKwwUKffmR5VVzwj-3-jhW7hfTY27G31gyeZlWdt4WIJXWEb_Nllhk0jeexIDzb28rSVJ3OgEhCohaACOnRnXqbBz7PesIspGhQVhMvttELeGnF6aMwnAcBUpsfRUw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sehatpur, Faridabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.4850118,
+                            "lng": 77.3224814
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "7dd8b617b3d30bb56ce6a151add8246141bfb904",
+                    "name": "Anve Home Physiotherapy",
+                    "place_id": "ChIJESBIaAXnDDkRvU_a7Uxv5n4",
+                    "reference": "CmRRAAAAFdODHeAb8BP2zmFasv44LswECwE5Qq00H7tM3nfQUrIlwa7eS5rwY5ygdYiSSIDzTAo_N-IQ9jbvbjhgMvGxJYBbSzQVddJa1-Fr5XsbDRdC2_L4_fb_D7keFvYBZ9cYEhCZS9ClA1IM1vtC_X2VAVXNGhT1O1ey4s_ijA-Yk38uwb3f32n_Pg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Unnamed Rd, 121009, Saraswati Colony, Sector 91, Faridabad"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

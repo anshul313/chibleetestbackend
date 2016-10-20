@@ -1,0 +1,53 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAAtB9CmagxT2mjoIlBf4ex-iKFbMF2E5uKrmffh-Nciobw66y2jn-PcQo3-vhevKxpPkgDlDbs8U6FHKgTzkBKoSsnnmTQcs3ha22gIcXHyC-nTuKeYN1yxp4sCUSDGBnuEhB0U2P5t-2ezjqa409-FS_AGhQ_gcphPE6p3ENihfvde1Q5T0ifNQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

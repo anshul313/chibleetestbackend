@@ -1,0 +1,74 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.451369,
+                            "lng": 77.50912699999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ef6ce6ec9371fbf134220a6927927f76971a51f6",
+                    "name": "Wine Shop",
+                    "place_id": "ChIJH72Hlc7BDDkRU0DkiXU8d20",
+                    "reference": "CmRRAAAA_JfTeTleYHveDbNN3UBB7eDLzyQMDNb4cZ4SLpIUSgcpHmLJ-jcUwp0pyPemPkBuC2dLNrWsZUcuQB-Q3ED9Up6HOuJDLIJIdG0cfvx9Cmjb5VzKu2eOEZ6DdZ60BGhOEhB3L5nTrzUfR1mDI3smMAEKGhRQtj2N4x0_5PCvVUybUqHWo8pBtA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Ansal Golf Links 1, Greater Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.46607850000001,
+                            "lng": 77.5079495
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "541fedda72ca2386a5c875adea270d93e1546a3a",
+                    "name": "Govt. Wine Shop",
+                    "place_id": "ChIJ-eAZMdbBDDkR4zH9RQniZkM",
+                    "reference": "CmRRAAAALurKKQ989XzNSLrUPhCkearRxFR4roZeHzfDsAIbn7cKElnmVk2-YIF23LgffkGkmuDTcfNMquG0klet4yINFHBCeCHGADfgwBp5d_yjfDm9VrLO_3739pDXRxzMMMdIEhCrz6VL5dnU4F7bNCOqe_FmGhTgXTYMZuHLIBLD73gEyZWaliopEw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tugalpur"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

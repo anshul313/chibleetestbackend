@@ -445,17 +445,16 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 81; k < 98; k++) {
+  for (var k = 1; k < 95; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/noida/GAS/NoidaGAS' +
+      'files/noida/LIQUOR/NoidaLIQOUR' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
       jsonData['result'].forEach(function(doc) {
 
         asyncTasks.push(function(callback) {
-
           if (doc.results.length > 0) {
             for (var j = 0; j < doc.results.length; j++) {
               var vicinityArea = doc.results[j].vicinity.split(

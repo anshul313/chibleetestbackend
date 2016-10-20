@@ -1,0 +1,833 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6076081,
+                            "lng": 77.3733321
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "03925e426a07ae00be3241b0e724418aa67aaf08",
+                    "name": "Whisky and Beer Shop",
+                    "place_id": "ChIJB-9HjmPlDDkRwScdVadaMlM",
+                    "reference": "CmRRAAAAK_FmTKI4is3e--GdSUI93snp2VHMlWHBEvP4zDjq2qiu6YfN6dYzdz2hv3GPx2OO_6Acfu7vO-7EEpuim9RHEyGFt0HjyN0O5HuO3s7prXvL4Qif59WSysRw79n-JmvfEhC9ryfp1dOmZXAwaUJrb7UYGhSh0KAA9dDQBP352vKcX4j5Bj53HQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mamura, Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6094412,
+                            "lng": 77.3783505
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1aece76ef0533aa0860164fd7c05c87a703ba067",
+                    "name": "Model Shop",
+                    "place_id": "ChIJGRV7B2LlDDkRAfeVChV2-4I",
+                    "reference": "CmRSAAAAf1fMl-iTxld9ENOffkJCjpJaH0w25UjM_pL7NxFJrX3fLT5Eu4qkCZaKhJzd0gXtj1Dj8OaJevTd6dou4KsYF28sB75aS7TwDsvG3s4vwAFpyWPZrLnrd-r9vfdOWzHTEhDhir3nlv2E4vms_EgARByhGhTKgC2HpWqeUHjc1nFGYl0ugId5mQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 66, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6076081,
+                            "lng": 77.3733321
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "03925e426a07ae00be3241b0e724418aa67aaf08",
+                    "name": "Whisky and Beer Shop",
+                    "place_id": "ChIJB-9HjmPlDDkRwScdVadaMlM",
+                    "reference": "CmRRAAAAwb_9t-592AlAqCbmuEXHbDEB7i0PgCXnn9qw313UGzuomDpeT9YYGcdr38Ap8K5rPNjdRwoARpt0XM5jZOjZCY8nfwAG3FuArPeqzHclsJK8LxVqPk1ZyJ29aQODHqB6EhBKNTs9Sm9bh0tdt6TxQJ8sGhT3jfFC8yq6Wk670zq28DgQ5DzGZg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mamura, Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6094412,
+                            "lng": 77.3783505
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1aece76ef0533aa0860164fd7c05c87a703ba067",
+                    "name": "Model Shop",
+                    "place_id": "ChIJGRV7B2LlDDkRAfeVChV2-4I",
+                    "reference": "CmRSAAAARP4jQX3_py80HlntGXzvWz83nHqETwbSdnqCS4uPp3ozYehrhlEVCrnhsWjVVYPMKC2CBmUq8hs9SOeCsGa0SRWGX4FEWNVc4A1fZ8hPyZSxroK3Yfc_Q0JW21LetYVCEhAIc40-2CfYQdFphz0oyxI1GhTxl_HlY_-lskefCin31s3rYQlgvA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5887706,
+                            "lng": 77.3606533
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b5547c5b28e19fccc449727dfe28d07d96a33f99",
+                    "name": "English Wine & Beer Shop",
+                    "place_id": "ChIJRW9Qep7lDDkRS02VrPjk-ts",
+                    "reference": "CmRSAAAAMcUH0YwG5poqvuwe_DeHaThocuZ6RdkcrjJh4YzISx7BqEsHKfAoKRVWgpiwtEUZTcneUKlzoz0VX22-GmpBYS1VcEzyyZ4fkG1h-Hi6cOMSnOBeAzYFSpXd10aCULNQEhAGPan42yVhuazqLXdjKF91GhSVOAxBkIzBVkxgq0xWspzJimsPrA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 53, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6181109,
+                            "lng": 77.3698982
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6181988,
+                                "lng": 77.37041690000002
+                            },
+                            "southwest": {
+                                "lat": 28.6178472,
+                                "lng": 77.3697253
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f45d2c91b195e7a1a4579bcac4160c371a6808b",
+                    "name": "Beer & Wine shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN6CmU1zlDDkRNSx-zWKGxs0",
+                    "reference": "CmRSAAAAc30f3irexGuwTNeUkIer6cxqJJXcQPNaHnyWbJIi3gODdwCzZSuhnEUtVFxxPANKLdtSfD6c0w47CQqbMqRB7KXhIEI4hMqAb4vpxdVbcwO_Cr9maoSNwa-_U8y7geiDEhDGRj1yD9iC7W4Srsie92tHGhQUOf8cTq23_EdgYWgNkbclKq7HHg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-26, 56/25, BHA Millenium Road, C Block, Phase 2, Industrial Area, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5944323,
+                            "lng": 77.35049839999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5944851,
+                                "lng": 77.35065245
+                            },
+                            "southwest": {
+                                "lat": 28.5942739,
+                                "lng": 77.35044705000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "159001f085ac7861d8ee9dacc8cd30254636d087",
+                    "name": "Wave Beer Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJafAj6AvlDDkREe-GuSus08g",
+                    "reference": "CmRSAAAA8j1yKJb6dkAlVDReGKwx7ArV4vW_eQbZ6iMga9x1OMNbaOsTw8DBPpCh913EEmuvIr-9nuB7WohONyc6GU_OhdpP5N4demyUoirdg9AGdgQnE0rHbCXiV9xQGy6v091oEhDKTL_iwgvs3eImdJOXeG7bGhQqO6uPAyF_teM4phyWCXRXLWkn_A",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tulsi Marg, Sector 22, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6076081,
+                            "lng": 77.3733321
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "03925e426a07ae00be3241b0e724418aa67aaf08",
+                    "name": "Whisky and Beer Shop",
+                    "place_id": "ChIJB-9HjmPlDDkRwScdVadaMlM",
+                    "reference": "CmRRAAAALQOyablR7E56qhJdqoLe0JG9tJVi89X4T3PBOKfmYKPwzeFzzv3JEaLTC9wCDFU6GDuSsfG2AQWaeXfM__pDRzifM34RRvjfwQc7W6ctBIlEeStQ30o_f1eSpK2DapiDEhC0AmNMTJBQgTSA1lgY4IC9GhTqTaRHBzLic3TqDDYAXcfcG607bA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mamura, Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6094412,
+                            "lng": 77.3783505
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1aece76ef0533aa0860164fd7c05c87a703ba067",
+                    "name": "Model Shop",
+                    "place_id": "ChIJGRV7B2LlDDkRAfeVChV2-4I",
+                    "reference": "CmRSAAAAdRLa7UXQkZBJ995Lo5fITPOXcMIksdDCGSBnBcuR9Aq83eh1yTCQAx1TSp4di7C1lgFe6w34cY2UCPOi9dAC6n7YA6RpptlUaE_KmTK7bDY1uzKoEuTmoYBzIvCU_LkxEhDkWYSAOvhqYOKFn_2DZP1bGhSJEgsX4-gdnr6DoOt4iTG22tEd8Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5887706,
+                            "lng": 77.3606533
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b5547c5b28e19fccc449727dfe28d07d96a33f99",
+                    "name": "English Wine & Beer Shop",
+                    "place_id": "ChIJRW9Qep7lDDkRS02VrPjk-ts",
+                    "reference": "CmRSAAAANaj-odGP9LhzaeaMv5420bXBg7sQR35Cgm6n1I71Oys5qFoO8TgnpzPj8hk_-FZXjZsvTnlOPRwvo4JeRca4c-uK7XnXrnoncLv4ihUjpZjvhmcBtjQkhXKedBnQfyMiEhBr--zd7nugzR68SlxmoghGGhQT3kblGyguSP1jRWoI9T9eSxx2tA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 53, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6181109,
+                            "lng": 77.3698982
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6181988,
+                                "lng": 77.37041690000002
+                            },
+                            "southwest": {
+                                "lat": 28.6178472,
+                                "lng": 77.3697253
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f45d2c91b195e7a1a4579bcac4160c371a6808b",
+                    "name": "Beer & Wine shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN6CmU1zlDDkRNSx-zWKGxs0",
+                    "reference": "CmRSAAAAErWejn-BcXIVdYScoSJmo7CqziCa6vIXA8X9bhnjtIiae97jogNEWmQENGwrKVvskIV8T1t_5rftAlFrJus32eKjTmvVpISfVsJ0dfLR7ybT2-QUzW6ebWKxnzQ7yw-mEhD9zuDtNRi1YAshJtTWlYnmGhSnWTBSuFX3962pgF8mqxW2ccuYmA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-26, 56/25, BHA Millenium Road, C Block, Phase 2, Industrial Area, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5944323,
+                            "lng": 77.35049839999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5944851,
+                                "lng": 77.35065245
+                            },
+                            "southwest": {
+                                "lat": 28.5942739,
+                                "lng": 77.35044705000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "159001f085ac7861d8ee9dacc8cd30254636d087",
+                    "name": "Wave Beer Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJafAj6AvlDDkREe-GuSus08g",
+                    "reference": "CmRSAAAAUAAhEFiXBbPh_yO8EqFL-bDhUYqwYYAGoyciKKyiwhL56WGPXdPqFXpBcQac5sj7iaEEW4pd-S4bfCGk5-lu05NY4Qh5ggNhaeS7-4CodLOR5Er9s8jGaVse_ImapyqwEhBna9OSwWJ4i6s7M_ZmE6TdGhQ_OCXGfyQXGnj9BeXskXGzgPX_wQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tulsi Marg, Sector 22, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6092257,
+                            "lng": 77.3510845
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5a59944a6158de0a9285617076843e4871ac8f29",
+                    "name": "Model Shop",
+                    "photos": [
+                        {
+                            "height": 4160,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112757210634903071520/photos\">ravi bansal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAADzaSRPAODjHcfOoAbCbNJazQ76RSW1U26Rnfkqj2MSKFukwxiBItHz9IaMpzOYp7YafJekGY1azlRCGrj9PCi3GyqpF26ujM2DM_Eo3cvkxtZWKphZu_89ejpC3P9Zl_Roo1WomHxFIZTc7mufiK6LA4dFC-lVUlvomQNyZPzD3EhAgfGo_nWLJ4popgSM-a_cBGhR_XQu5Ii14UOJK6PRoXgHqGbSyJw",
+                            "width": 3120
+                        }
+                    ],
+                    "place_id": "ChIJL6CmOBTlDDkRZtvwHNo3gyw",
+                    "reference": "CmRRAAAAPFiZzoCzZI6wX1IHAQCGKjWe623E8tOrBbCc6iQNpRibauTooNVJCxOjOe4o_PM5tap7STUjT-bDfGv2w1z9-fiW5h4lOoX-wuN57bvC38PG3F_6wt13yjQU7bVkC6sGEhCZrs5U2RdjXNrWF-wO7WaZGhSY9Zl7rw_QjHHtfXTqQ7txYFtb3Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5707385,
+                            "lng": 77.3622008
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5710529,
+                                "lng": 77.36253379999998
+                            },
+                            "southwest": {
+                                "lat": 28.5706337,
+                                "lng": 77.3620898
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ca0dcc8a91a435a1e2ccc15a93aa1d85a945788c",
+                    "name": "Beer Shop - Sector 50",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3006,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107736606570439768643/photos\">Prashant Roy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAMHDasDZms6UkwWDMFn0Htazg_-cvA7SRTPMtbcrSswLkxSxxV3sN95JnRfRQzBuYoxcCOTfdBit4WVevMr3oQbzVHUJndVHqwLlbz45BW2aC8W2g1Pu1cMnptd60CfSaAsAPr34cmgy49kyR_QTadK9KlJWhYuRaWkAM6BDvik5EhAXpeJUCcy_8VZOIp-GY2A6GhQHemrdVf5dZ7NQtGG6mIkByiznZQ",
+                            "width": 5344
+                        }
+                    ],
+                    "place_id": "ChIJ4R4cdJPlDDkR6d06Q5eBoQg",
+                    "reference": "CmRRAAAAFAiBy7bjneNSeq4LSRF8_4dkfPG2tU_3ZOim5n3i3rwVyGrxlT8s8VeJAKCN8r8JHtE_DvNL5-RBTEnqXVnGEOxihf_YGkAI8bLy8GhiDzQ2UYuZnpyDCLswmXh0bEkSEhBDOuqkkCW3puDAdHxGx3imGhQu5ZTLIKiiiTnqfihllph_WqDhVg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.B1/21, Jain Road, B Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5952779,
+                            "lng": 77.34296359999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59536775,
+                                "lng": 77.34300185
+                            },
+                            "southwest": {
+                                "lat": 28.59524795,
+                                "lng": 77.34284885
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7a678d2dccc6e14b63ca5397cb2c0b3ff89f3c01",
+                    "name": "English Wine & Beer Shop",
+                    "place_id": "ChIJYZ1P4gXlDDkR24Jj-iFsFPw",
+                    "reference": "CmRSAAAA4NNhpZIfyw_7vyrLm-5jeHX5q4IxUa74NfXWQVsrnrMR7C13K5WhzXwN0YW3CUC2EA9NCo1Y3WZ_Mhj3IdGsjO9Wv1McDAKmUz0bqYR_m04OLuGNDCHz4roJ2rOHH1HuEhDFQa099-Ha5sWvJl-hJfD7GhQg0IFWnl9sOQb9IlpI9vHz29T4Iw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Amaltash Marg, Raghunathpur, Sector 22, Noida"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6076081,
+                            "lng": 77.3733321
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "03925e426a07ae00be3241b0e724418aa67aaf08",
+                    "name": "Whisky and Beer Shop",
+                    "place_id": "ChIJB-9HjmPlDDkRwScdVadaMlM",
+                    "reference": "CmRRAAAAMYr05yEgDVaauN6wGcI45zJbaYqpolmB63BNOYGyBkCiRAspJiGLBdJ1XMxeqdtocjWQ0DsTp9T9h9Kvbf98E6EMH6I5evh5CiEgcJwy3_-Eg4ZjrpVBJv8CfrVoSoLEEhCJOBKkSpvYz6bUjA-JID1ZGhQcrVf0HS6HdrbB3vSsGhKb3li2zw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mamura, Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6094412,
+                            "lng": 77.3783505
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1aece76ef0533aa0860164fd7c05c87a703ba067",
+                    "name": "Model Shop",
+                    "place_id": "ChIJGRV7B2LlDDkRAfeVChV2-4I",
+                    "reference": "CmRSAAAASekMEe0TirWtVnof8CVwhIgmm9SEojp5JeifaHWwnEVE3JwTiyri_npmkhMLGtMzEmxEjd0njZEpZtw5BTgqijehTtNxrbDRNL1T2zCrmCWpmIBcfIF0ECz23AkbPIYMEhDYd1Fx16Y8TzE1pjskONnvGhQpxZS4y1V1KrDid2rWVB4ubX17yQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 66, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5887706,
+                            "lng": 77.3606533
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b5547c5b28e19fccc449727dfe28d07d96a33f99",
+                    "name": "English Wine & Beer Shop",
+                    "place_id": "ChIJRW9Qep7lDDkRS02VrPjk-ts",
+                    "reference": "CmRSAAAAIrmmKO_IRlhwU-Ymld849RyHWuqho82KxFEat_qTaxBPkLfVTBG8A1JCGcmaaq6zyOooUkUFiuWRohIsIonNWpW48eMXdHI5ZpXjmeK7sHWW0F8zDHCYNHe0Oy0S3DaWEhDlFsPUroGsseRALE5A3WgqGhRqi74BfKjJD_Fm6jDx-MuzOyVUAA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 53, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6181109,
+                            "lng": 77.3698982
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.6181988,
+                                "lng": 77.37041690000002
+                            },
+                            "southwest": {
+                                "lat": 28.6178472,
+                                "lng": 77.3697253
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5f45d2c91b195e7a1a4579bcac4160c371a6808b",
+                    "name": "Beer & Wine shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJN6CmU1zlDDkRNSx-zWKGxs0",
+                    "reference": "CmRSAAAAa_zQZ7tCQzIh4MMaBnSEGMjOWFedvZ4aK252JcG2ebIoQjJerXdWeGR7J4LDBdErrKmq5OYRSzjruSY9tvXIQi_Ad5wG4CKMHiXT6_M72-rYzHp0RKVz3lk3pyCIm57DEhA1bKT5lndGCQtkavDYVGOHGhRKkiEvrNOENFJX2Qc_FPaAm9_OIA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "C-26, 56/25, BHA Millenium Road, C Block, Phase 2, Industrial Area, Sector 62, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5944323,
+                            "lng": 77.35049839999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5944851,
+                                "lng": 77.35065245
+                            },
+                            "southwest": {
+                                "lat": 28.5942739,
+                                "lng": 77.35044705000001
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "159001f085ac7861d8ee9dacc8cd30254636d087",
+                    "name": "Wave Beer Store",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJafAj6AvlDDkREe-GuSus08g",
+                    "reference": "CmRSAAAArzLeFW7ER65h6rY-Sv2VTWOu51C9X7V4Yqus5E-imoR2xzDZQX8ji9k3GXt86L_GAbvSq1egHDqhMFKzaUjDGWTezyGY_RsIgFzCdDtmsABm9VtaSg_LLSk8ZJ8lRipOEhCFA4izLVB8EYlJsxawlTmQGhQoTgcyEAjI_6j62RkLZCb4VUtZWA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Tulsi Marg, Sector 22, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6092257,
+                            "lng": 77.3510845
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5a59944a6158de0a9285617076843e4871ac8f29",
+                    "name": "Model Shop",
+                    "photos": [
+                        {
+                            "height": 4160,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112757210634903071520/photos\">ravi bansal</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAACzoB8HP7hpp_6fTNCL6j86cgSOLEg24m3EY4zhLTKAT5TZy0m1Sb9AXKD18Kj-y6NO_Yfwp4AVcXwIXaLc4HR7G4Us3HCicdtYY7Pm-ww4KELLqFnEAn0zN69kjJhqLcmWB-PD3QKnyVi37wWIO3hjRhT6OwS9jVQKMrwahn9e8EhAHIfmJmCBXCmqvYlmAsNSgGhR0_e-TTb04NdpM6pwB7g9BIWtHpg",
+                            "width": 3120
+                        }
+                    ],
+                    "place_id": "ChIJL6CmOBTlDDkRZtvwHNo3gyw",
+                    "reference": "CmRRAAAAGkq_lg2x07NDR4D5ewsBIJtDd8R4XsHOALINHxDAWrNNBszNnEqNtc_bdgj0Ex6A6UEZVMYLdOOuburcj7uK_-L9nsEq082FXXhW-yQnkR18Od6ZrlJ-Kre6lrE-ZBRWEhC44jsMcqYelbTHONRQrzAUGhSjsCDuIcEHn7oM5XQxhkyfS-F-dA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 62A, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5707385,
+                            "lng": 77.3622008
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.5710529,
+                                "lng": 77.36253379999998
+                            },
+                            "southwest": {
+                                "lat": 28.5706337,
+                                "lng": 77.3620898
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "ca0dcc8a91a435a1e2ccc15a93aa1d85a945788c",
+                    "name": "Beer Shop - Sector 50",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 3006,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/107736606570439768643/photos\">Prashant Roy</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAFfR6zlmJ0Krc7gqWwGH-CVnNl7qaWMr4xQ5kjUbiLTKSJPLPxgGYKDiN3578bIIVASczHdZvzr-TlQe4hJ1PI_UMG1aq0InZo8KtmhiFDxADKC8DxUoyLUGgwTO-ewcWWmd67CXad14dFi1PSL0TBfjBJM0gyMBvjoafAyv5YAgEhBnSVoIFRDDQcihIn7MLXpCGhQrHl7hWJxIifO_fXN55yRD985pjg",
+                            "width": 5344
+                        }
+                    ],
+                    "place_id": "ChIJ4R4cdJPlDDkR6d06Q5eBoQg",
+                    "reference": "CmRRAAAAT3KTxK7G3xt0Pt4iXIcTFHBTLawp8SQtirk_O0CxBND9_zh9rDPx9hlgrL5shL1apQIvceMqtIzxQ5fOIEO7DYZW2tYXMVNtbcYg7oGhIx2ziG2fkar8omj87EEhGvTTEhA284n5HhwTL5ym_yRfVeVNGhQb0ZB5OMuTToaMQtrXhms_TTpQOw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.B1/21, Jain Road, B Block, Sector 50, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5952779,
+                            "lng": 77.34296359999999
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.59536775,
+                                "lng": 77.34300185
+                            },
+                            "southwest": {
+                                "lat": 28.59524795,
+                                "lng": 77.34284885
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "7a678d2dccc6e14b63ca5397cb2c0b3ff89f3c01",
+                    "name": "English Wine & Beer Shop",
+                    "place_id": "ChIJYZ1P4gXlDDkR24Jj-iFsFPw",
+                    "reference": "CmRSAAAA-tZIf9sHpN7kiIZSHy1_NlqynErwrggKMhBWOvfCiyHWrKOP7peiXT6w1a1s32LjEEAARf8p2LKjP7J3EkdQ_JkDqT2ju76CNnJzwJl9N8Luq7wiNBgJyTdKXRQH5o7gEhDpYgDonKYFxJ2vmWo8IyI7GhQFI4e701lD2mxV_qaqGJSKs1YHYA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Amaltash Marg, Raghunathpur, Sector 22, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6132993,
+                            "lng": 77.33621839999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "b7b0e00cac5ed440aed37203dcfb97a67450b2f3",
+                    "name": "Wine Shop",
+                    "place_id": "ChIJlSHl1CHlDDkRuOajUntN6v4",
+                    "rating": 3.8,
+                    "reference": "CmRSAAAAHH7uLgbabg-h4R8EeoxGBC-TjZU5IAdlG3dsqeDHEDYpWMEtPhJevbmsJutv6_xfUM_1jZ0bC9SryV9XvKTU-S0QJ9HAxwbFV112wpVUjcmrIXgBPcwL0vaTR46aW91qEhBTZxVovHt47YPbKqCTek8RGhRWRLye2ekrJc1-O4lsIujCie8G8g",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Gharoli Road, Gharoli Dairy Farm, Mayur Vihar Phase III, Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6326695,
+                            "lng": 77.3569821
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.63267935,
+                                "lng": 77.35701945
+                            },
+                            "southwest": {
+                                "lat": 28.63263995,
+                                "lng": 77.35687005
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "f2799210eb690aee6967d2142060ac5ed7eddf56",
+                    "name": "Wine and Beer Shop",
+                    "place_id": "ChIJNXuPQUrlDDkR4f7k7qWipGQ",
+                    "reference": "CmRRAAAAvaQ0A80F6gw2lBnfTVQMh3ag1HRYcNV7k221eQ_hbUxbO37cPmSo6OG2x-QRSzvkRU3PmUtd2v0HdmCY6elZ7eNSfl1ksoFQeOmWEGKAZl6WBYcDOKKAZujhzj6-0vwrEhBf-rewYB-NnJ_0LwPVCBJjGhT4DPyNI4oSzoCsuzPHh0vkMPNRRQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "National Highway 24, Indra Puram, Ghaziabad"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.592016,
+                            "lng": 77.333643
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "90e1ae7c33b4b0cfe75f9f5f4e51bd5964b02f7c",
+                    "name": "Tirupati Wine Traders",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "place_id": "ChIJ8-GSyAHlDDkRglSh5KiRW9A",
+                    "reference": "CmRSAAAAEvtJHPZao4CoQQ1ZjAoyTPs2dVTBJ-AboRYi1_m8hLvjAMUf8jDAzeu4CFqdEke6Ov4q-SqnaskAl7lgeCOKVysQ2-dQyY3obQ4zWKsQxlElMaEe0c0Yhvnr8FuVcbJZEhCI1oVCb4uwhCWRZADH9oHeGhQI0LHTooYL4Oeb7p-uLfexG9enQw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Shop No.D-171, I-Area, Block D, Sector 10, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6167982,
+                            "lng": 77.33847949999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "9609b837226922bc1ff22d0fb3ffb1c4a30fae8f",
+                    "name": "Chilled BEER",
+                    "place_id": "ChIJ6fJx4yPlDDkRPcD0ywAo8Yg",
+                    "reference": "CmRSAAAAYglbZfLkj8RQxB9zt5h-FYCoIp2VCmQx1AULbZiw99dZyNEcDFDrrC3S8KyzxYQLbNo_AxW51e5H9y-6N5YEuB4faUo_oaSjALYuz0vCFeFS9FHrfrvP2BZiBHlQGZfZEhBYTdE8Wjp74u1fnPiOf0_lGhS2RWRYtYuCv6Q5IS9R3v9edGufLA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Mayur Vihar III, Gharoli, New Delhi"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.6047743,
+                            "lng": 77.3324911
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "1647b9d4c726386e8f1168ecbd4e535d0cd160e1",
+                    "name": "Wine and Beer Shop",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 4096,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/103564687643604107042/photos\">sumitt gupta</a>"
+                            ],
+                            "photo_reference": "CoQBdwAAAER0uXNKjZrTu4IXTI6UfKK1lyi6Ny1YWdg9Vvnka8a7JDDdLGaTaho5RMhjI1h5iIzHENI-VOy-DfHRiyGg9GcFlWRADIdkln8vvCBcJrEY6SZinDirZfIdfLIS8krufesTRk6t40y08BRRtEiPjZK4zo2gLgWFhIQgof26bhMqEhDiLEAz5biMdXEAwGGpJQfKGhR9yqGVrztL96kgYzlHqIKXsOphwA",
+                            "width": 2304
+                        }
+                    ],
+                    "place_id": "ChIJwcfUDeLkDDkRgLU8j2hBtoE",
+                    "reference": "CmRSAAAA47zEhxqg2TvmhGpChkHueom64ZTNCRjMVM239nafOGcFRa0lhJPA55yAMiGRIqLbv6i6Tiy1OmrZacFBXq9U5D16bioevdvekI_cFG9mO6alTltEDTIqn2zWZog_VNEyEhBEx3t3JP90R2tuJlaZCj-8GhTLGA9osHz0eveQR9menRNI_Ib0gg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "New Kondli, Mayur Vihar Phase III, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.53276349999999,
+                            "lng": 77.38675119999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "a0cd287e408986c8fa86914841273fd1c89f6015",
+                    "name": "Approved Model shop.",
+                    "place_id": "ChIJD2PvVqToDDkRk0BgN1VK1Qo",
+                    "reference": "CmRRAAAAwnwgyF0QiZi5ixltKIvzfbRLvN5_Z_TTLOje5evTmEba1J2uxCFq66qXF6ErFV2kqHSvzYJXNglhSJUG9ZcoUp6k9FgZVveuCBhWoxSm8AFoHHF6FslynSnLOl6iLjiEEhDRCBDH5De1XEH9KXMHlRgDGhQy7w6QDsnOBHicWcRU24TFedW9OA",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Sector 110, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5423299,
+                            "lng": 77.3865782
+                        },
+                        "viewport": {
+                            "northeast": {
+                                "lat": 28.54239364999999,
+                                "lng": 77.38666009999999
+                            },
+                            "southwest": {
+                                "lat": 28.54229545,
+                                "lng": 77.38653370000002
+                            }
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "5bf58b94f2849594b5aa4cca2bb0dc4ba9e90c91",
+                    "name": "Model Shop",
+                    "place_id": "ChIJdSfALqzoDDkRL8ImlwBmFbo",
+                    "reference": "CmRSAAAAs2TMYLQv35UqRVi63yNT1LbJxwOF_PNqOivI8ZaLmGA5sNrv2xeF97gD7pBOBU1ykn85hW3z_Iwe-kwl--cj09VEpxsSV0ougFvV0QRfMic2Cb5k5kEAevHn_zBGO0A6EhC7dyjDleAzaDt3aOjRWzVaGhTFnT_T_F5ggRywukNH_E9gSrN_gw",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Dadri Main Road, Bhangel, Sector 102, Noida"
+                },
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5338421,
+                            "lng": 77.3876812
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                    "id": "9a47449ebd15e456c81308a77870fbf5fa0b9a8e",
+                    "name": "Wine Shop",
+                    "place_id": "ChIJS5PRBKXoDDkRUwGA2xagKaE",
+                    "reference": "CmRSAAAADXeAbhif2TFN8dxuOMXuSMVADzj16Hsxy1thqDeEDu49fiqBiGS7nq34qcXafBmvkSmC_r__OP9Tn3OQG9-xQaqQ-LUfHsfqyxjv_6uJQet-5qbFHctZ5hAKubTNOJ9hEhDGrTG27Um0h1AxLRLdBsgnGhRE-5t2AXnTMpOpBABJGqIOWt6w4Q",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "liquor_store",
+                        "food",
+                        "store",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "201304, Shramik Kunj, Sector 110, Noida"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}

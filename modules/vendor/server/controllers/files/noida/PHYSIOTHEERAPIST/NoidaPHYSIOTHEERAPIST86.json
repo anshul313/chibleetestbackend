@@ -1,0 +1,102 @@
+
+{
+    "result": [
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [],
+            "status": "ZERO_RESULTS"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5199,
+                            "lng": 77.45872399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "b98042fa7fa53a7749177673db87db5d2f7db311",
+                    "name": "MNS Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 337,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112545781568146795162/photos\">MNS Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAKDW70BxopYRk26QD3JJ8Yy0jfr5JBFnmMr-T2lm-Ii0J75BJX_26o-R4JP_wciEivuv0omCbMwstA9fqleYStX8FhrVZXEfYpIMVG_aPuahclHyJLUCIpac17xoCCjjhGGHxSlavhw4tongBuRJghhV2l-nWsl4pLIH0VAX6KF2EhDjkOFTDE_avl1DgM5QFY4cGhRBZEAi3HebzYTkRkzCdZHOpgijmA",
+                            "width": 337
+                        }
+                    ],
+                    "place_id": "ChIJraqqqnrpDDkRTU9-Zo7UECo",
+                    "reference": "CmRRAAAAEoh4ALe0oedE5c0vvVpcBsVIdnfD03PlzI1nx8QWKy6bWpL20hWUAQ9C51OwhQgEGGjaDA04XGZ-Y8qZ4DTDQqxj2ltQViQSDf2jIcdidyF_TC8ulyrpYHNGjVpLYS2DEhCiFS9JrRqpFcxN0uX04rP5GhTSQ25HZreMiK8U8gPB-taf6rTLUQ",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Jamia Nagar, Zakir Nagar Okhla, New Delhi"
+                }
+            ],
+            "status": "OK"
+        },
+        {
+            "html_attributions": [],
+            "results": [
+                {
+                    "geometry": {
+                        "location": {
+                            "lat": 28.5199,
+                            "lng": 77.45872399999999
+                        }
+                    },
+                    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                    "id": "b98042fa7fa53a7749177673db87db5d2f7db311",
+                    "name": "MNS Physiotherapy Clinic",
+                    "opening_hours": {
+                        "open_now": true,
+                        "weekday_text": []
+                    },
+                    "photos": [
+                        {
+                            "height": 337,
+                            "html_attributions": [
+                                "<a href=\"https://maps.google.com/maps/contrib/112545781568146795162/photos\">MNS Physiotherapy Clinic</a>"
+                            ],
+                            "photo_reference": "CoQBcwAAAPbaFo2DeONnQArpwArpbW8U7lnOqxgEv4wVBiKV4MpsR10c5v47R_8PTD37BuWZ6rC5fYerylA0mRG9QUjt_OGXlsSc4ElC93q9KgE96A2L_urqNTuPVT8tGZDIdBw_6Qsew850gCcgszhxq4TSmKa2lLcD2Cbk37LRdAldKUdpEhC0309QbhyjfrqAjsFY6NwwGhQLr3yKoEa-5aJFF82yf1Zwwuv57Q",
+                            "width": 337
+                        }
+                    ],
+                    "place_id": "ChIJraqqqnrpDDkRTU9-Zo7UECo",
+                    "reference": "CmRRAAAAJDkXIjwP8QqTZr4JbDwazIKKby5Kp_yabMQDinn34gmrX4hXMnb_dg2UgTgiXAFwOhWRxdHKk1GEG5RY03ErCBUyc0YT7c-QTbTrFfBHMrHxAH0JX-hKMGtM-UPD2XB3EhBCRTBAy4lvZr4j0NxAxb-8GhQ0IrihGff4YONK7INN3Bn3Vtp9dg",
+                    "scope": "GOOGLE",
+                    "types": [
+                        "physiotherapist",
+                        "health",
+                        "point_of_interest",
+                        "establishment"
+                    ],
+                    "vicinity": "Jamia Nagar, Zakir Nagar Okhla, New Delhi"
+                }
+            ],
+            "status": "OK"
+        }
+    ]
+}
