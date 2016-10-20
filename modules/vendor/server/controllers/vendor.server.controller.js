@@ -445,10 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 24; k++) {
+  for (var k = 1; k < 20; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Faridabad/ATM/FaridabadATM' +
+      'files/noida/ATM/NoidaATM' +
       k + '.json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
