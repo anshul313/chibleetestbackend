@@ -304,3 +304,51 @@ Error: listen EADDRINUSE 0.0.0.0:8081
     at net.js:1395:9
     at nextTickCallbackWith3Args (node.js:453:9)
     at process._tickCallback (node.js:359:17)
+2016-10-21T09:28:07.408Z - info: 127.0.0.1 - - [21/Oct/2016:09:28:07 +0000] "GET /v2/getsuggestion/food HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:32:35.285Z - info: 127.0.0.1 - - [21/Oct/2016:09:32:35 +0000] "GET /v2/getsuggestion/food HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:32:42.428Z - info: 127.0.0.1 - - [21/Oct/2016:09:32:42 +0000] "GET /v2/getsuggestion/chai HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:33:05.804Z - info: 127.0.0.1 - - [21/Oct/2016:09:33:05 +0000] "GET /v2/getsuggestion/chai HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:33:54.901Z - error: uncaughtException: missing ) after argument list date=Fri Oct 21 2016 15:03:54 GMT+0530 (IST), pid=36987, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=109649920, heapTotal=78577248, heapUsed=50187712, loadavg=[2.0283203125, 2.17333984375, 2.00439453125], uptime=359014
+SyntaxError: missing ) after argument list
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:272:5
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:271:30)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:337:8)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-10-21T09:34:05.285Z - info: 127.0.0.1 - - [21/Oct/2016:09:34:05 +0000] "GET /v2/getsuggestion/chai HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:40:44.211Z - info: 127.0.0.1 - - [21/Oct/2016:09:40:44 +0000] "GET /v2/getsuggestion/chai HTTP/1.1" 200 23 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T09:46:14.236Z - info: 127.0.0.1 - - [21/Oct/2016:09:46:14 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T10:00:23.699Z - info: 127.0.0.1 - - [21/Oct/2016:10:00:23 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T10:03:03.809Z - info: 127.0.0.1 - - [21/Oct/2016:10:03:03 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T10:20:40.706Z - info: 127.0.0.1 - - [21/Oct/2016:10:20:40 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 151 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T10:22:04.225Z - info: 127.0.0.1 - - [21/Oct/2016:10:22:04 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 151 "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T10:28:11.283Z - info: 127.0.0.1 - - [21/Oct/2016:10:28:11 +0000] "GET /v2/getsuggestion/atm HTTP/1.1" 200 151 "-" "PostmanRuntime/2.5.2"
+

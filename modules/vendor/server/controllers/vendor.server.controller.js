@@ -1207,11 +1207,6 @@ exports.getsuggestion = function(req, res) {
     area: 1,
     _id: 0
   }).exec(function(err, resp) {
-    console.log(resp);
-    for (var i = 0; i < resp.length; i++) {
-      var temp = resp[i].tag.split(',');
-
-    }
     var uniqueArray = removeDuplicates(resp, "tags");
     res.json({
       err: false,
