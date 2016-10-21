@@ -161,8 +161,24 @@ var bannerSchema = new Schema({
   }
 });
 
+var tagSchema = new Schema({
+  name: {
+    type: String
+  },
+  tags: [{
+    type: String
+  }],
+  cat: {
+    type: String
+  },
+  subcat: {
+    type: String
+  }
+});
+
 module.exports = mongoose.model('bannerSchema', bannerSchema);
 module.exports = mongoose.model('contactCallHistory', contactCallSchema);
 module.exports = mongoose.model('bookmarkUsers', bookmarkSchema);
 module.exports = mongoose.model('cleanvendor', vendorSchema);
 module.exports = mongoose.model('vendorcomments', commentSchema);
+module.exports = mongoose.model('tagschema', tagSchema);

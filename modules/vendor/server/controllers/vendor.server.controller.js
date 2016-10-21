@@ -33,6 +33,7 @@ var async = require("async");
 var xlsxj = require("xlsx-to-json");
 var JSONStream = require('JSONStream');
 var es = require('event-stream');
+var suggestTag = mongoose.model('tagschema');
 
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
@@ -445,11 +446,11 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 51; k < 60; k++) {
+  for (var k = 1; k < 100; k++) {
 
     fs.readFile(path.resolve(__dirname,
-      'files/Gurgon/PHYSIOTHEERAPIST/GurgoanPHYSIOTHEERAPIST1' +
-      k + '.json'), 'utf8', function(err, data) {
+      'files/atm/atm_(' +
+      k + ').json'), 'utf8', function(err, data) {
 
       var jsonData = JSON.parse(data);
       jsonData['result'].forEach(function(doc) {
@@ -486,8 +487,8 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Wellness',
-                subCategory: 'Physiotherapy',
+                category: 'Owl',
+                subCategory: 'Atm',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
@@ -1696,7 +1697,6 @@ exports.temp = function(req, res) {
       data1.push(obj[i].address);
   });
   parser.on('end', function(item) {
-    console.log('data 1 : ', data1);
     console.log('end'); // whatever you will do with each JSON object
     // data1.push(obj.address);
   });
@@ -1733,6 +1733,62 @@ exports.addBanner = function(req, res) {
     res.json({
       error: false,
       data: docs
+    });
+  });
+}
+
+exports.autosearch = function(req, res) {
+  var asyncTasks = [];
+  var count = 1;
+  vendor.find({}).skip(req.query.page * 1000).limit(1000).exec(function(err,
+    document) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler.getErrorMessage(err)
+      });
+    }
+    document.forEach(function(docs) {
+      asyncTasks.push(function(callback) {
+        var tags = [];
+        var tag = docs.tags.split(',');
+        for (var j = 0; j < tag.length; j++) {
+          var trimtag = tag[j].trim()
+          var uppertag = trimtag.toUpperCase();
+          tags.push(uppertag);
+        }
+        for (var j = 0; j < tag.length; j++) {
+          var data = new suggestTag({
+            name: tags[j],
+            tags: tags,
+            cat: docs.category,
+            subcat: docs.subCategory
+          });
+          suggestTag.findOneAndUpdate({
+            name: data.name
+          }, {
+            '$set': data
+          }, {
+            upsert: true
+          }, function(err, result) {
+            if (err) {
+              callback(err, true);
+            }
+            console.log("successfully inserted : ",
+              count++);
+            callback(null, true);
+          });
+        }
+      });
+    });
+    async.parallel(asyncTasks, function(err, docs) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler.getErrorMessage(err)
+        });
+      }
+      res.json({
+        message: 'done'
+      });
     });
   });
 }

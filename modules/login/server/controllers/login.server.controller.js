@@ -525,3 +525,33 @@ exports.temp = function(req, res) {
   //   console.log(docs);
   // });
 }
+
+
+exports.test = function(req, res) {
+  var q = 0;
+  var data = {};
+  var data1 = [];
+
+  var JSONStream = require('JSONStream');
+
+  var stream = fs.createReadStream(path.resolve(__dirname,
+      'test/test1/1.json'), {
+      encoding: 'utf8'
+    }),
+    parser = JSONStream.parse();
+
+  stream.pipe(parser);
+  parser.on('data', function(obj) {
+    console.log(obj); // whatever you will do with each JSON object
+    var latitude = obj.latitude;
+    var longitude = obj.longitude;
+    var address = obj.longitude;
+    // for (var i = 0; i < obj.length; i++)
+    // console.log('object[i] : ', obj[i]);
+    // data1.push(obj[i].address);
+  });
+  parser.on('end', function(item) {
+    console.log('end'); // whatever you will do with each JSON object
+    // data1.push(obj.address);
+  });
+}
