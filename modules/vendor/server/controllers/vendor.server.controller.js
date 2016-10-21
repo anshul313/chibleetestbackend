@@ -446,7 +446,7 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 100; k++) {
+  for (var k = 1; k < 30; k++) {
 
     fs.readFile(path.resolve(__dirname,
       'files/atm/atm_(' +
