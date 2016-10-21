@@ -81,4 +81,7 @@ module.exports = function(app) {
   app.route('/v2/addbanner')
     .post(vendors.addBanner);
 
+  app.route('/v2/temp')
+    .get(vendors.temp);
+
 };

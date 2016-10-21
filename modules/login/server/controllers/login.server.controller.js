@@ -152,7 +152,10 @@ exports.subcategory = function(req, res) {
 
 exports.areas = function(req, res) {
   var finalResult = [];
-  vendor.find({}, {
+  var area = req.query.text
+  vendor.find({
+    'area': new RegExp(area, "i")
+  }, {
     area: 1,
     latitude: 1,
     longitude: 1,

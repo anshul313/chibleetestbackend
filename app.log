@@ -270,3 +270,37 @@ Error: Route.post() requires callback functions but got a [object Undefined]
     at process._tickCallback (node.js:349:13)
 2016-10-20T09:24:34.839Z - info: 127.0.0.1 - - [20/Oct/2016:09:24:34 +0000] "GET /v2/googledatainsert HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
 
+2016-10-20T15:18:12.013Z - info: 127.0.0.1 - - [20/Oct/2016:15:18:12 +0000] "GET /api2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T15:19:07.216Z - info: 127.0.0.1 - - [20/Oct/2016:15:19:07 +0000] "GET /api2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T15:19:12.133Z - info: 127.0.0.1 - - [20/Oct/2016:15:19:12 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T15:20:32.128Z - info: 127.0.0.1 - - [20/Oct/2016:15:20:32 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T15:21:48.560Z - info: 127.0.0.1 - - [20/Oct/2016:15:21:48 +0000] "GET /v2/temp HTTP/1.1" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-10-20T15:22:24.020Z - error: uncaughtException: Invalid JSON (Unexpected "\n" at position 27811 in state STOP) date=Thu Oct 20 2016 20:52:24 GMT+0530 (IST), pid=29927, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=171397120, heapTotal=138013792, heapUsed=113150000, loadavg=[2.650390625, 2.7177734375, 2.6279296875], uptime=293522
+Error: Invalid JSON (Unexpected "\n" at position 27811 in state STOP)
+    at Parser.proto.charError (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:78:16)
+    at Parser.proto.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/jsonparse/jsonparse.js:139:23)
+    at Stream.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/index.js:23:12)
+    at Stream.stream.write (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/JSONStream/node_modules/through/index.js:26:11)
+    at ReadStream.ondata (_stream_readable.js:542:20)
+    at emitOne (events.js:77:13)
+    at ReadStream.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at ReadStream.Readable.push (_stream_readable.js:111:10)
+    at onread (fs.js:1739:12)
+    at FSReqWrap.wrapper [as oncomplete] (fs.js:576:17)
+2016-10-20T15:24:23.895Z - info: 127.0.0.1 - - [20/Oct/2016:15:24:23 +0000] "GET /v2/temp HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-10-21T08:02:21.640Z - error: uncaughtException: listen EADDRINUSE 0.0.0.0:8081 date=Fri Oct 21 2016 13:32:21 GMT+0530 (IST), pid=36219, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=141148160, heapTotal=110163552, heapUsed=81763480, loadavg=[2.39599609375, 1.9384765625, 1.88232421875], uptime=353521
+Error: listen EADDRINUSE 0.0.0.0:8081
+    at Object.exports._errnoException (util.js:873:11)
+    at exports._exceptionWithHostPort (util.js:896:20)
+    at Server._listen2 (net.js:1250:14)
+    at listen (net.js:1286:10)
+    at net.js:1395:9
+    at nextTickCallbackWith3Args (node.js:453:9)
+    at process._tickCallback (node.js:359:17)
