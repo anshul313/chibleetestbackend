@@ -87,4 +87,7 @@ module.exports = function(app) {
   app.route('/v2/autosearch')
     .get(vendors.autosearch);
 
+  app.route('/v2/datacorrect')
+    .get(vendors.dataCorrect);
+
 };

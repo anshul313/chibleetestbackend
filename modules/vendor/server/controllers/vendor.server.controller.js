@@ -374,7 +374,6 @@ exports.addvendor = function(req, res) {
         homeDelivery = true;
       }
 
-
       // var vendorContact = ;
 
       var vendorData = new vendor({
@@ -446,12 +445,10 @@ exports.googleDataInsert = function(req, res) {
   var l = 0;
   var asyncTasks = [];
 
-  for (var k = 1; k < 30; k++) {
-
+  for (var k = 70; k < 97; k++) {
     fs.readFile(path.resolve(__dirname,
-      'files/atm/atm_(' +
-      k + ').json'), 'utf8', function(err, data) {
-
+      'files/noida/PHARMACY/NoidaPHARMACY' +
+      k + '.json'), 'utf8', function(err, data) {
       var jsonData = JSON.parse(data);
       jsonData['result'].forEach(function(doc) {
 
@@ -487,16 +484,16 @@ exports.googleDataInsert = function(req, res) {
                 serialnumber: doc.results[j].id,
                 name: doc.results[j].name,
                 contact: '',
-                category: 'Owl',
-                subCategory: 'Atm',
+                category: 'Health',
+                subCategory: 'Pharmacy',
                 address: doc.results[j].vicinity,
                 area: area,
                 latitude: doc.results[j].geometry.location
                   .lat,
                 longitude: doc.results[j].geometry.location
                   .lng,
-                openingTiming: '0',
-                closingTiming: '24',
+                openingTiming: '1 am',
+                closingTiming: '12 pm',
                 imageUrl: doc.results[j].icon,
                 saveTime: new Date().getTime(),
                 multiTime: false,
@@ -1199,16 +1196,16 @@ exports.getsuggestion = function(req, res) {
     return new_arr;
   }
 
-  vendor.find({
-    'tags': new RegExp('^' + req.params.inp, "i")
+  suggestTag.find({
+    'name': new RegExp('^' + req.params.inp, "i")
   }, {
     tags: 1,
     category: 1,
     subCategory: 1,
-    area: 1,
+    name: 1,
     _id: 0
   }).exec(function(err, resp) {
-    var uniqueArray = removeDuplicates(resp, "tags");
+    var uniqueArray = removeDuplicates(resp, "name");
     res.json({
       err: false,
       data: uniqueArray
@@ -1690,17 +1687,18 @@ exports.temp = function(req, res) {
 
   stream.pipe(parser);
   parser.on('data', function(obj) {
-    console.log(obj); // whatever you will do with each JSON object
-    console.log(obj.length);
-    for (var i = 0; i < obj.length; i++)
-    // console.log('object[i] : ', obj[i]);
+    // console.log(obj); // whatever you will do with each JSON object
+    // console.log(obj.length);
+    for (var i = 0; i < obj.length; i++) {
+      // console.log(obj[i].address);
       data1.push(obj[i].address);
+    }
   });
   parser.on('end', function(item) {
     console.log('end'); // whatever you will do with each JSON object
-    // data1.push(obj.address);
+    console.log('data : ', data1);
   });
-  // console.log('data : ', data1);
+
 }
 
 exports.getBanner = function(req, res) {
@@ -1740,7 +1738,7 @@ exports.addBanner = function(req, res) {
 exports.autosearch = function(req, res) {
   var asyncTasks = [];
   var count = 1;
-  vendor.find({}).skip(req.query.page * 1000).limit(1000).exec(function(err,
+  vendor.find({}).skip(req.query.page * 10000).limit(10000).exec(function(err,
     document) {
     if (err) {
       return res.status(400).send({
@@ -1791,4 +1789,131 @@ exports.autosearch = function(req, res) {
       });
     });
   });
+}
+
+function distance(lat1, lon1, lat2, lon2, unit) {
+  var radlat1 = Math.PI * lat1 / 180
+  var radlat2 = Math.PI * lat2 / 180
+  var theta = lon1 - lon2
+  var radtheta = Math.PI * theta / 180
+  var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(
+    radlat2) * Math.cos(radtheta);
+  dist = Math.acos(dist)
+  dist = dist * 180 / Math.PI
+  dist = dist * 60 * 1.1515
+  if (unit == "K") {
+    dist = dist * 1.609344
+  }
+  if (unit == "N") {
+    dist = dist * 0.8684
+  }
+  return dist
+}
+
+exports.dataCorrect = function(req, res) {
+  var q = 103696;
+  var count = 1;
+  var l = 0;
+  var asyncTasks = [];
+  for (var k = 1; k < 2; k++) {
+    fs.readFile(path.resolve(__dirname,
+      'files/data/1-10000/' +
+      k + '.json'), 'utf8', function(err, data) {
+      var jsonData = JSON.parse(data);
+      console.log('doc : ', jsonData);
+      jsonData.forEach(function(doc) {
+        console.log('doc : ', doc);
+        asyncTasks.push(function(callback) {
+          var location = doc.address;
+          var url =
+            'https://maps.googleapis.com/maps/api/geocode/json?address=' +
+            location;
+
+          var options = {
+            method: 'GET',
+            url: url
+          };
+          // console.log('options : ', options);
+          request(options, function(error, resp,
+            body) {
+            if (error) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    error)
+              });
+            } else if (!body) {
+              return res.status(400).send({
+                message: 'No data find'
+              });
+            } else {
+              var data = JSON.parse(body);
+              // console.log(data);
+              // var data1 = new Object({
+              //   "address": doc.address,
+              //   "lat": data.results[0].geometry.location.lat,
+              //   "lng": data.results[0].geometry.location.lng
+              // });
+              console.log(doc.latitude);
+              console.log(doc.longitude);
+
+              var dist = distance(doc.latitude, doc.longitude,
+                data.results[0].geometry.location.lat, data
+                .results[0].geometry.location.lng, 'K');
+              if (dist < 3) {
+                var vendorData = new object({
+                  _id: doc['_id'],
+                  name: doc['name'],
+                  contact: doc['contact'],
+                  category: doc['category'],
+                  subCategory: doc[
+                    'subCategory'],
+                  address: doc['address'],
+                  area: doc['area'],
+                  latitude: doc['latitude'],
+                  longitude: doc['longitude'],
+                  closingTiming: doc[
+                    'closingTiming'],
+                  openingTiming: doc[
+                    'openingTiming'],
+                  imageUrl: doc['imageUrl'],
+                  saveTime: doc['saveTime'],
+                  multiTime: doc['multiTime'],
+                  others: doc['others'],
+                  tags: doc['tags'],
+                  coords: doc['coords'],
+                  homeDelivery: doc[
+                    'homeDelivery'],
+                  remarks: doc['remarks'],
+                  shopNo: '',
+                  landmark: doc['landmark'],
+                  status: doc['status'],
+                  rating: totalRating,
+                  bookmark: doc['bookmark'],
+                  serialnumber: doc['serialnumber'],
+                  keyword: doc['keyword']
+                });
+              }
+
+              vendor.findOneAndUpdate({
+                serialnumber: doc.serialnumber
+              }, vendorData, {
+                upsert: true
+              }, function(err, doc) {
+                if (err) {
+                  console.log('error : ', err);
+                }
+                console.log('insert successfully : ',
+                  count++);
+              });
+              callback();
+            }
+          });
+        });
+      });
+      async.parallel(asyncTasks, function() {
+        res.send('success');
+      });
+    });
+  }
 }
