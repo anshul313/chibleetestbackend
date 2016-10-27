@@ -1690,7 +1690,9 @@ exports.getUserComments = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId)
   comment.find({
     commentUserId: req.user._id
-  }, function(err, result) {
+  }).sort({
+    commentTime: -1
+  }).exec(function(err, result) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
