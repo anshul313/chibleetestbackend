@@ -106,7 +106,7 @@ exports.login = function(req, res) {
 
 exports.category = function(req, res) {
   db.collection('category').distinct('category', function(err, docs) {
-    doc.sort();
+    docs.sort();
     if (err) {
       res.json({
         error: true,
