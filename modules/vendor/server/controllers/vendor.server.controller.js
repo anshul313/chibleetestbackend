@@ -1200,8 +1200,8 @@ exports.getsuggestion = function(req, res) {
     'name': new RegExp('^' + req.params.inp, "i")
   }, {
     tags: 1,
-    category: 1,
-    subCategory: 1,
+    cat: 1,
+    subcat: 1,
     name: 1,
     _id: 0
   }).exec(function(err, resp) {
