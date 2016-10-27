@@ -160,7 +160,7 @@ exports.areas = function(req, res) {
     latitude: 1,
     longitude: 1,
     _id: 0
-  }).exec(function(err, docs) {
+  }).limit(20).exec(function(err, docs) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
