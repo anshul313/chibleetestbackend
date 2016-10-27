@@ -1214,20 +1214,140 @@ exports.getsuggestion = function(req, res) {
 }
 
 exports.vendorByTags = function(req, res) {
+  // var finalresult = [];
+  // var asyncTasks = [];
+  // var subcat = req.params.subcat;
+  // var tag = req.params.tag;
+  // var area = req.params.area;
+  // var cat = req.params.cat;
+  // var limit = 10;
+  // var skip = limit * parseInt(req.params.page);
+  // console.log('subcat : ', subcat);
+  // console.log('tag : ', tag);
+  // console.log('area : ', area);
+  // console.log('cat : ', cat);
+  //
+  // vendor.find({
+  //   'tags': new RegExp(tag, "i"),
+  //   'area': new RegExp(area, "i"),
+  //   'category': cat,
+  //   'subCategory': subcat
+  // }).skip(skip).limit(limit).exec(function(err, data) {
+  //   if (err) {
+  //     return res.status(400).send({
+  //       message: errorHandler
+  //         .getErrorMessage(
+  //           err)
+  //     });
+  //   }
+  //   console.log(data);
+  //   data.forEach(function(doc) {
+  //     asyncTasks.push(function(callback) {
+  //       var bookmark = 0;
+  //       var vendorId = doc['_id'].toString();
+  //       bookmarkUsers.find({
+  //         bookmarkUserId: req.user._id
+  //       }).distinct('bookmarkVendorId', function(err,
+  //         bookmarkvendorIds) {
+  //         comment.find({
+  //           vendorId: vendorId
+  //         }, function(err, result) {
+  //           if (err) {
+  //             return res.status(400).send({
+  //               message: errorHandler
+  //                 .getErrorMessage(
+  //                   err)
+  //             });
+  //           }
+  //           var totalRating = 0;
+  //           for (var i = 0; i < result.length; i++)
+  //             totalRating += result[i].commentRating;
+  //           if (totalRating > 0)
+  //             totalRating = totalRating / result.length;
+  //           var temp = [];
+  //           for (var i = 0; i < bookmarkvendorIds.length; i++)
+  //             temp.push(bookmarkvendorIds[i].toString())
+  //           if (_.includes(temp, doc['_id'].toString()))
+  //             bookmark = 1;
+  //           // var q = bookmarkvendorIds.indexOf(doc['_id'])
+  //           var obj = new Object({
+  //             _id: doc['_id'],
+  //             name: doc['name'],
+  //             contact: doc['contact'],
+  //             category: doc['category'],
+  //             subCategory: doc[
+  //               'subCategory'],
+  //             address: doc['address'],
+  //             area: doc['area'],
+  //             latitude: doc['latitude'],
+  //             longitude: doc['longitude'],
+  //             closingTiming: doc[
+  //               'closingTiming'],
+  //             openingTiming: doc[
+  //               'openingTiming'],
+  //             imageUrl: doc['imageUrl'],
+  //             saveTime: doc['saveTime'],
+  //             multiTime: doc['multiTime'],
+  //             others: doc['others'],
+  //             tags: doc['tags'],
+  //             coords: doc['coords'],
+  //             homeDelivery: doc[
+  //               'homeDelivery'],
+  //             remarks: doc['remarks'],
+  //             shopNo: '',
+  //             landmark: doc['landmark'],
+  //             status: doc['status'],
+  //             rating: totalRating,
+  //             bookmark: data['bookmark'],
+  //             serialnumber: data['serialnumber'],
+  //             keyword: data['keyword']
+  //           });
+  //           finalresult.push(obj);
+  //           callback(err, obj);
+  //         });
+  //       });
+  //     });
+  //   });
+  //   async.parallel(asyncTasks, function(err, result) {
+  //     if (err) {
+  //       return res.status(400).send({
+  //         message: errorHandler
+  //           .getErrorMessage(
+  //             err)
+  //       });
+  //     }
+  //     res.json({
+  //       error: false,
+  //       data: finalresult
+  //     });
+  //   });
+  // });
+
   var finalresult = [];
   var asyncTasks = [];
-  var subcat = req.params.subcat;
-  var tag = req.params.tag;
-  var area = req.params.area;
-  var cat = req.params.cat;
-  var limit = 10;
-  var skip = limit * parseInt(req.params.page);
-  vendor.find({
-    'tags': new RegExp(tag, "i"),
-    'area': new RegExp(area, "i"),
-    'category': cat,
-    'subCategory': subcat
-  }).skip(skip).limit(limit).exec(function(err, data) {
+
+  var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
+
+  vendor.aggregate([{
+    $geoNear: {
+      near: {
+        type: "Point",
+        coordinates: coordinates
+      },
+      distanceField: "distance",
+      maxDistance: 5000,
+      query: {
+        'tags': new RegExp(req.body.tag, "i"),
+        'category': req.body.cat,
+        'subCategory': req.body.subcat
+      },
+      spherical: true
+    }
+  }, {
+    $skip: (req.body.page * 10)
+  }, {
+    $limit: 10
+  }], function(err, data) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -1263,14 +1383,15 @@ exports.vendorByTags = function(req, res) {
               temp.push(bookmarkvendorIds[i].toString())
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
+
+            var distanceinkm = doc['distance'] / 1000;
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
               name: doc['name'],
               contact: doc['contact'],
               category: doc['category'],
-              subCategory: doc[
-                'subCategory'],
+              subCategory: doc['subCategory'],
               address: doc['address'],
               area: doc['area'],
               latitude: doc['latitude'],
@@ -1285,16 +1406,16 @@ exports.vendorByTags = function(req, res) {
               others: doc['others'],
               tags: doc['tags'],
               coords: doc['coords'],
-              homeDelivery: doc[
-                'homeDelivery'],
+              homeDelivery: doc['homeDelivery'],
               remarks: doc['remarks'],
               shopNo: '',
               landmark: doc['landmark'],
               status: doc['status'],
               rating: totalRating,
-              bookmark: data['bookmark'],
-              serialnumber: data['serialnumber'],
-              keyword: data['keyword']
+              bookmark: bookmark,
+              serialnumber: doc['serialnumber'],
+              keyword: doc['keyword'],
+              distance: distanceinkm
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -1306,8 +1427,7 @@ exports.vendorByTags = function(req, res) {
       if (err) {
         return res.status(400).send({
           message: errorHandler
-            .getErrorMessage(
-              err)
+            .getErrorMessage(err)
         });
       }
       res.json({
