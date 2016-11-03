@@ -2040,7 +2040,7 @@ exports.dataCorrect = function(req, res) {
 exports.webvendorbytag = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-  var skip = (parseInt(req.query.page + 1) * 10);
+  var skip = (parseInt(req.query.page - 1) * 10);
 
   vendor.find({
     'tags': new RegExp(req.query.search, "i")
@@ -2128,9 +2128,14 @@ exports.webvendorbytag = function(req, res) {
             .getErrorMessage(err)
         });
       }
-      res.json({
-        error: false,
-        data: finalresult
+      vendor.find({
+        'tags': new RegExp(req.query.search, "i")
+      }).count(function(err, count) {
+        res.json({
+          error: false,
+          data: finalresult,
+          totalCount: count
+        });
       });
     });
   });
