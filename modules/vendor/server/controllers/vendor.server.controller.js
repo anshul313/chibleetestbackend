@@ -2040,8 +2040,7 @@ exports.dataCorrect = function(req, res) {
 exports.webvendorbytag = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-  var skip = (parseInt(req.query.page) * 10);
-  console.log(typeof skip);
+  var skip = (parseInt(req.query.page + 1) * 10);
 
   vendor.find({
     'tags': new RegExp(req.query.search, "i")
