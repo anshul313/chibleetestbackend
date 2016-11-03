@@ -90,4 +90,7 @@ module.exports = function(app) {
   app.route('/v2/datacorrect')
     .get(vendors.dataCorrect);
 
+  app.route('/v2/webvendorbytag').all(util.userAuthenticate)
+    .get(vendors.webvendorbytag);
+
 };

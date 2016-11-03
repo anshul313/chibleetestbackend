@@ -345,97 +345,88 @@ exports.addvendor = function(req, res) {
   var i = 0;
   var q = 37594;
   var count = 1;
+  var asyncTasks = [];
 
-  var stream = fs.createReadStream(path.resolve(__dirname,
-      'output5.json'), {
-      encoding: 'utf8'
-    }),
-    parser = JSONStream.parse();
-
-  stream.pipe(parser);
-
-  parser.on('data', function(data) {
-    for (i = 0; i < data.length; i++) {
-      var add = data[i]['Address'];
-      if (add === "") {
-        add = data[i]['Address_raw'];
-      }
-      if (data[i]['Latitude'] === "-")
-        data[i]['Latitude'] = 0;
-      if (data[i]['Longitude'] === "-")
-        data[i]['Longitude'] = 0;
-
-      var tags = data[i]['Tags'].split(',');
-      var coordinate = [];
-      coordinate.push(data[i]['Longitude']);
-      coordinate.push(data[i]['Latitude']);
-      var homeDelivery = false;
-      if (data[i]['Home Delivery?'] != "No") {
-        homeDelivery = true;
-      }
-
-      // var vendorContact = ;
-
-      var vendorData = new vendor({
-        serialnumber: data[i]['S.No.'],
-        name: data[i]['Name of vendor'],
-        contact: data[i]['Contact'].toString(),
-        category: data[i]['Category'],
-        subCategory: data[i]['Sub-category'],
-        address: add,
-        area: data[i]['Location'],
-        latitude: data[i]['Latitude'],
-        longitude: data[i]['Longitude'],
-        openingTiming: data[i]['Open_timing'],
-        closingTiming: data[i]['Close_timing'],
-        imageUrl: data[i]['Image'],
-        saveTime: new Date().getTime(),
-        multiTime: data[i]['Multi'],
-        others: data[i]['Others_raw'],
-        tags: data[i]['Tags'],
-        coords: coordinate,
-        homeDelivery: homeDelivery,
-        remarks: data[i]['Remarks'],
-        shopNo: '',
-        landMark: add,
-        status: 1,
-        keyword: data[i]['TAGS']
-      });
-
-      var query = {
-        serialnumber: data[i]['S.No.']
-      };
-
-      client.index({
-        index: 'cleanvendors',
-        type: 'Document',
-        id: ++q,
-        body: vendorData
-      }, function(error, response) {
-        console.log('index created');
-      });
-
-      vendor.findOne(query, function(err, doc) {
-        if (err) {
-          console.log('error : ', err);
+  fs.readFile(path.resolve(__dirname,
+    'files/8000/14.json'), 'utf8', function(err, data) {
+    var jsonData = JSON.parse(data);
+    jsonData.forEach(function(doc) {
+      // console.log('doc : ', doc);
+      asyncTasks.push(function(callback) {
+        var add = doc['Address'];
+        if (add === "") {
+          add = doc['Address_raw'];
         }
-        if (!doc) {
-          vendorData.save(function(err1, docs1) {
-            if (err1) {
-              console.log('error : ', err);
-            }
-            console.log("succesfully saved : ", count++);
-          })
+        if (doc['Latitude'] === "-")
+          doc['Latitude'] = 0;
+        if (doc['Longitude'] === "-")
+          doc['Longitude'] = 0;
+
+        var tags = doc['Tags'].split(',');
+        var coordinate = [];
+        coordinate.push(doc['Longitude']);
+        coordinate.push(doc['Latitude']);
+        var homeDelivery = false;
+        if (doc['Home Delivery?'] != "No") {
+          homeDelivery = true;
         }
+
+        var vendorData = new vendor({
+          serialnumber: doc['S.No.'],
+          name: doc['Name of vendor'],
+          contact: doc['Contact'].toString(),
+          category: doc['Category'],
+          subCategory: doc['Subcategory'],
+          address: add,
+          area: doc['Location'],
+          latitude: doc['Latitude'],
+          longitude: doc['Longitude'],
+          openingTiming: doc['Open_timing'],
+          closingTiming: doc['Close_timing'],
+          imageUrl: doc['Image'],
+          saveTime: new Date().getTime(),
+          multiTime: doc['Multi'],
+          others: doc['Others_raw'],
+          tags: doc['Adwords Keywords'],
+          coords: coordinate,
+          homeDelivery: homeDelivery,
+          remarks: doc['Remarks'],
+          shopNo: '',
+          landMark: add,
+          status: 1,
+          keyword: doc['Adwords Keywords']
+        });
+
+        var query = {
+          serialnumber: doc['S.No.']
+        };
+
+        vendor.findOne(query, function(err, docs) {
+          if (err) {
+            console.log('error : ', err);
+          }
+          if (!docs) {
+            vendorData.save(function(err1, docs1) {
+              if (err1) {
+                console.log('error : ', err);
+              }
+              console.log("succesfully saved : ",
+                count++);
+            })
+          }
+        });
       });
+    });
 
-    }
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(err)
+        });
+      }
+    });
   });
-  parser.on('end', function(item) {
-    console.log('data 1 : ', q);
-    console.log('end'); // whatever you will do with each JSON object
-  });
-
 }
 
 exports.googleDataInsert = function(req, res) {
@@ -1384,7 +1375,8 @@ exports.vendorByTags = function(req, res) {
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
-            var distanceinkm = doc['distance'] / 1000;
+            var distanceinkm = doc['distance'] /
+              1000;
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
@@ -1860,57 +1852,58 @@ exports.addBanner = function(req, res) {
 exports.autosearch = function(req, res) {
   var asyncTasks = [];
   var count = 1;
-  vendor.find({}).skip(req.query.page * 10000).limit(10000).exec(function(err,
-    document) {
-    if (err) {
-      return res.status(400).send({
-        message: errorHandler.getErrorMessage(err)
-      });
-    }
-    document.forEach(function(docs) {
-      asyncTasks.push(function(callback) {
-        var tags = [];
-        var tag = docs.tags.split(',');
-        for (var j = 0; j < tag.length; j++) {
-          var trimtag = tag[j].trim()
-          var uppertag = trimtag.toUpperCase();
-          tags.push(uppertag);
-        }
-        for (var j = 0; j < tag.length; j++) {
-          var data = new suggestTag({
-            name: tags[j],
-            tags: tags,
-            cat: docs.category,
-            subcat: docs.subCategory
-          });
-          suggestTag.findOneAndUpdate({
-            name: data.name
-          }, {
-            '$set': data
-          }, {
-            upsert: true
-          }, function(err, result) {
-            if (err) {
-              callback(err, true);
-            }
-            console.log("successfully inserted : ",
-              count++);
-            callback(null, true);
-          });
-        }
-      });
-    });
-    async.parallel(asyncTasks, function(err, docs) {
+  vendor.find({}).skip(req.query.page * 10000).limit(10000).exec(
+    function(err,
+      document) {
       if (err) {
         return res.status(400).send({
           message: errorHandler.getErrorMessage(err)
         });
       }
-      res.json({
-        message: 'done'
+      document.forEach(function(docs) {
+        asyncTasks.push(function(callback) {
+          var tags = [];
+          var tag = docs.tags.split(',');
+          for (var j = 0; j < tag.length; j++) {
+            var trimtag = tag[j].trim()
+            var uppertag = trimtag.toUpperCase();
+            tags.push(uppertag);
+          }
+          for (var j = 0; j < tag.length; j++) {
+            var data = new suggestTag({
+              name: tags[j],
+              tags: tags,
+              cat: docs.category,
+              subcat: docs.subCategory
+            });
+            suggestTag.findOneAndUpdate({
+              name: data.name
+            }, {
+              '$set': data
+            }, {
+              upsert: true
+            }, function(err, result) {
+              if (err) {
+                callback(err, true);
+              }
+              console.log("successfully inserted : ",
+                count++);
+              callback(null, true);
+            });
+          }
+        });
+      });
+      async.parallel(asyncTasks, function(err, docs) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler.getErrorMessage(err)
+          });
+        }
+        res.json({
+          message: 'done'
+        });
       });
     });
-  });
 }
 
 function distance(lat1, lon1, lat2, lon2, unit) {
@@ -1918,8 +1911,9 @@ function distance(lat1, lon1, lat2, lon2, unit) {
   var radlat2 = Math.PI * lat2 / 180
   var theta = lon1 - lon2
   var radtheta = Math.PI * theta / 180
-  var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) * Math.cos(
-    radlat2) * Math.cos(radtheta);
+  var dist = Math.sin(radlat1) * Math.sin(radlat2) + Math.cos(radlat1) *
+    Math.cos(
+      radlat2) * Math.cos(radtheta);
   dist = Math.acos(dist)
   dist = dist * 180 / Math.PI
   dist = dist * 60 * 1.1515
@@ -1980,8 +1974,10 @@ exports.dataCorrect = function(req, res) {
               console.log(doc.longitude);
 
               var dist = distance(doc.latitude, doc.longitude,
-                data.results[0].geometry.location.lat, data
-                .results[0].geometry.location.lng, 'K');
+                data.results[0].geometry.location.lat,
+                data
+                .results[0].geometry.location.lng,
+                'K');
               if (dist < 3) {
                 var vendorData = new object({
                   _id: doc['_id'],
@@ -2025,7 +2021,8 @@ exports.dataCorrect = function(req, res) {
                 if (err) {
                   console.log('error : ', err);
                 }
-                console.log('insert successfully : ',
+                console.log(
+                  'insert successfully : ',
                   count++);
               });
               callback();
@@ -2038,4 +2035,104 @@ exports.dataCorrect = function(req, res) {
       });
     });
   }
+}
+
+exports.webvendorbytag = function(req, res) {
+  var finalresult = [];
+  var asyncTasks = [];
+  var skip = (parseInt(req.query.page) * 10);
+  console.log(typeof skip);
+
+  vendor.find({
+    'tags': new RegExp(req.query.search, "i")
+  }).skip(skip).limit(10).exec(function(err, data) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var bookmark = 0;
+        var vendorId = doc['_id'].toString();
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+
+            var distanceinkm = doc['distance'] /
+              1000;
+            // var q = bookmarkvendorIds.indexOf(doc['_id'])
+            var obj = new Object({
+              _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc['subCategory'],
+              address: doc['address'],
+              area: doc['area'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
+              saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc['homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
+              rating: totalRating,
+              bookmark: bookmark,
+              serialnumber: doc['serialnumber'],
+              keyword: doc['keyword'],
+              distance: distanceinkm
+            });
+            finalresult.push(obj);
+            callback(err, obj);
+          });
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(err)
+        });
+      }
+      res.json({
+        error: false,
+        data: finalresult
+      });
+    });
+  });
 }

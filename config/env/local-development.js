@@ -12,7 +12,6 @@ module.exports = {
   db: {
     // uri: 'mongodb://localhost:27017/chiblee',
     uri: 'mongodb://chiblee:chiblee1212@54.169.192.5:12528/chiblee',
-    // uri: 'mongodb://localhost:27017/chiblee',
 
     options: {
       user: '',
