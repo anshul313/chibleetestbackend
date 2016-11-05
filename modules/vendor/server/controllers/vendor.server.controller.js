@@ -75,8 +75,8 @@ exports.getvendors = function(req, res) {
       query: {
         category: req.body.cat,
         subCategory: req.body.subcat
-      }
-      // spherical: true
+      },
+      spherical: true
     }
   }, {
     $skip: (req.body.page * 40)
@@ -1331,8 +1331,8 @@ exports.vendorByTags = function(req, res) {
         'tags': new RegExp(req.body.tag, "i"),
         'category': req.body.cat,
         'subCategory': req.body.subcat
-      }
-      // spherical: tru
+      },
+      spherical: true
     }
   }, {
     $skip: (req.body.page * 40)
