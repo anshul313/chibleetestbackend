@@ -80,7 +80,7 @@ exports.getvendors = function(req, res) {
     }
   }, {
     "$sort": {
-      "distance": -1
+      "distance": 1
     }
   }, {
     $skip: (req.body.page * 40)
@@ -1340,7 +1340,7 @@ exports.vendorByTags = function(req, res) {
     }
   }, {
     "$sort": {
-      "distance": -1
+      "distance": 1
     }
   }, {
     $skip: (req.body.page * 40)
