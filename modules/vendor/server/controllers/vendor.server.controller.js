@@ -66,7 +66,10 @@ exports.getvendors = function(req, res) {
 
   vendor.aggregate([{
     $geoNear: {
-      near: coordinates,
+      near: {
+        type: "Point",
+        coordinates: coordinates
+      },
       distanceField: "distance",
       maxDistance: 100000,
       query: {
@@ -1322,7 +1325,10 @@ exports.vendorByTags = function(req, res) {
 
   vendor.aggregate([{
     $geoNear: {
-      near: coordinates,
+      near: {
+        type: "Point",
+        coordinates: coordinates
+      },
       distanceField: "distance",
       maxDistance: 100000,
       query: {
