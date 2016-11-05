@@ -68,7 +68,7 @@ exports.getvendors = function(req, res) {
     $geoNear: {
       near: {
         type: "Point",
-        coordinates: coordinates
+        coords: coordinates
       },
       distanceField: "distance",
       maxDistance: 100000,
@@ -1323,7 +1323,7 @@ exports.vendorByTags = function(req, res) {
     $geoNear: {
       near: {
         type: "Point",
-        coordinates: coordinates
+        coords: coordinates
       },
       distanceField: "distance",
       maxDistance: 100000,
