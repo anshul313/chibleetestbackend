@@ -79,6 +79,10 @@ exports.getvendors = function(req, res) {
       spherical: true
     }
   }, {
+    "$sort": {
+      "distance": -1
+    }
+  }, {
     $skip: (req.body.page * 40)
   }, {
     $limit: 40
@@ -165,9 +169,10 @@ exports.getvendors = function(req, res) {
             .getErrorMessage(err)
         });
       }
+      var result = _.orderBy(finalresult, ['distance'], ['asc']);
       res.json({
         error: false,
-        data: finalresult
+        data: result
       });
     });
   });
@@ -1422,9 +1427,10 @@ exports.vendorByTags = function(req, res) {
             .getErrorMessage(err)
         });
       }
+      var result = _.orderBy(finalresult, ['distance'], ['asc']);
       res.json({
         error: false,
-        data: finalresult
+        data: result
       });
     });
   });
