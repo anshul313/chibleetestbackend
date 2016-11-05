@@ -71,7 +71,7 @@ exports.getvendors = function(req, res) {
         coordinates: coordinates
       },
       distanceField: "distance",
-      maxDistance: 5000,
+      maxDistance: 100000,
       query: {
         category: req.body.cat,
         subCategory: req.body.subcat
@@ -79,9 +79,9 @@ exports.getvendors = function(req, res) {
       spherical: true
     }
   }, {
-    $skip: (req.body.page * 10)
+    $skip: (req.body.page * 40)
   }, {
-    $limit: 10
+    $limit: 40
   }], function(err, data) {
     if (err) {
       return res.status(400).send({
@@ -1326,7 +1326,7 @@ exports.vendorByTags = function(req, res) {
         coordinates: coordinates
       },
       distanceField: "distance",
-      maxDistance: 5000,
+      maxDistance: 100000,
       query: {
         'tags': new RegExp(req.body.tag, "i"),
         'category': req.body.cat,
@@ -1335,9 +1335,9 @@ exports.vendorByTags = function(req, res) {
       spherical: true
     }
   }, {
-    $skip: (req.body.page * 10)
+    $skip: (req.body.page * 40)
   }, {
-    $limit: 10
+    $limit: 40
   }], function(err, data) {
     if (err) {
       return res.status(400).send({
