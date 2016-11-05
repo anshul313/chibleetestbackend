@@ -82,6 +82,10 @@ exports.getvendors = function(req, res) {
     $skip: (req.body.page * 40)
   }, {
     $limit: 40
+  }, {
+    "$sort": {
+      "distance": 1
+    }
   }], function(err, data) {
     if (err) {
       return res.status(400).send({
@@ -1338,6 +1342,10 @@ exports.vendorByTags = function(req, res) {
     $skip: (req.body.page * 40)
   }, {
     $limit: 40
+  }, {
+    "$sort": {
+      "distance": -1
+    }
   }], function(err, data) {
     if (err) {
       return res.status(400).send({
