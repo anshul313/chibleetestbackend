@@ -38,24 +38,24 @@ var suggestTag = mongoose.model('tagschema');
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 
-var elasticsearch = require('elasticsearch');
-var client = new elasticsearch.Client({
-  host: 'localhost:9200',
-  log: 'trace'
-});
-
-client.ping({
-  // ping usually has a 3000ms timeout
-  requestTimeout: Infinity,
-  // undocumented params are appended to the query string
-  hello: "elasticsearch!"
-}, function(error) {
-  if (error) {
-    console.trace('elasticsearch cluster is down!');
-  } else {
-    console.log('All is well');
-  }
-});
+// var elasticsearch = require('elasticsearch');
+// var client = new elasticsearch.Client({
+//   host: 'localhost:9200',
+//   log: 'trace'
+// });
+//
+// client.ping({
+//   // ping usually has a 3000ms timeout
+//   requestTimeout: Infinity,
+//   // undocumented params are appended to the query string
+//   hello: "elasticsearch!"
+// }, function(error) {
+//   if (error) {
+//     console.trace('elasticsearch cluster is down!');
+//   } else {
+//     console.log('All is well');
+//   }
+// });
 
 
 exports.getvendors = function(req, res) {
