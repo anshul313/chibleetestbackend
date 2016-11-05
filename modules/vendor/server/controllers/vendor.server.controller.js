@@ -79,10 +79,6 @@ exports.getvendors = function(req, res) {
       spherical: true
     }
   }, {
-    "$sort": {
-      "distance": -1
-    }
-  }, {
     $skip: (req.body.page * 40)
   }, {
     $limit: 40
