@@ -1334,7 +1334,6 @@ exports.vendorByTags = function(req, res) {
       },
       spherical: true
     }
-
   }, {
     $skip: (req.body.page * 40)
   }, {
