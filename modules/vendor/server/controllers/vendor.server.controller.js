@@ -71,6 +71,8 @@ exports.getvendors = function(req, res) {
         coordinates: coordinates
       },
       distanceField: "distance",
+      minDistance: 0,
+      maxDistance: 1000,
       query: {
         category: req.body.cat,
         subCategory: req.body.subcat
