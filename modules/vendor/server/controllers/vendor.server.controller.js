@@ -34,7 +34,7 @@ var xlsxj = require("xlsx-to-json");
 var JSONStream = require('JSONStream');
 var es = require('event-stream');
 var suggestTag = mongoose.model('tagschema');
-
+var geolib = require('geolib');
 
 // var elastic = require('../../../../config/lib/elasticsearch.js');
 
@@ -64,6 +64,7 @@ exports.getvendors = function(req, res) {
 
   var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
 
+
   vendor.aggregate([{
     $geoNear: {
       near: {
@@ -71,6 +72,9 @@ exports.getvendors = function(req, res) {
         coordinates: coordinates
       },
       distanceField: "distance",
+      minDistance: 0,
+      maxDistance: 100000000,
+      num: 10000000,
       query: {
         category: req.body.cat,
         subCategory: req.body.subcat
@@ -89,6 +93,7 @@ exports.getvendors = function(req, res) {
             err)
       });
     }
+    console.log(data.length)
     data.forEach(function(doc) {
       asyncTasks.push(function(callback) {
         var bookmark = 0;
@@ -118,7 +123,13 @@ exports.getvendors = function(req, res) {
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
-            var distanceinkm = doc['distance'] / 1000;
+            var distanceinkm = geolib.getDistance({
+              latitude: doc['latitude'],
+              longitude: doc['longitude']
+            }, {
+              latitude: Number(req.body.lat),
+              longitude: Number(req.body.lng)
+            }) / 1000;
             // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
