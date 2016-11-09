@@ -1093,11 +1093,11 @@ exports.getBookMark = function(req, res) {
   var asyncTasks = [];
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
-  console.log(req.user._id);
+  // console.log(req.user._id);
   bookmarkUsers.find({
     bookmarkUserId: req.user._id
   }).distinct('bookmarkVendorId', function(err, bookmarkvendorIds) {
-    console.log(bookmarkvendorIds);
+    // console.log(bookmarkvendorIds);
     vendor.find({
       _id: {
         '$in': bookmarkvendorIds
