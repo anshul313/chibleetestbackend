@@ -1180,9 +1180,10 @@ exports.getBookMark = function(req, res) {
                 err)
           });
         }
+        var result = _.orderBy(finalresult, ['distance'], ['asc']);
         res.json({
           error: false,
-          data: finalresult
+          data: result
         });
       });
     })
