@@ -1,0 +1,794 @@
+2016-11-07T18:59:20.932Z - info: 127.0.0.1 - - [07/Nov/2016:18:59:20 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-07T18:59:28.080Z - info: 127.0.0.1 - - [07/Nov/2016:18:59:28 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "PostmanRuntime/2.5.2"
+
+2016-11-07T18:59:35.174Z - info: 127.0.0.1 - - [07/Nov/2016:18:59:35 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-07T21:12:09.387Z - info: 93.174.93.136 - - [07/Nov/2016:21:12:09 +0000] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 200 2159 "-" "Mozilla"
+
+2016-11-08T04:44:26.354Z - info: 127.0.0.1 - - [08/Nov/2016:04:44:26 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-08T05:34:02.603Z - info: 127.0.0.1 - - [08/Nov/2016:05:34:02 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:34:24.248Z - info: 127.0.0.1 - - [08/Nov/2016:05:34:24 +0000] "GET /v2/subcategory/Health HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:34:44.360Z - info: 127.0.0.1 - - [08/Nov/2016:05:34:44 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:36:43.556Z - info: 127.0.0.1 - - [08/Nov/2016:05:36:43 +0000] "GET /v2/getsuggestion/a HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:36:44.758Z - info: 127.0.0.1 - - [08/Nov/2016:05:36:44 +0000] "GET /v2/getsuggestion/at HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:36:44.996Z - info: 127.0.0.1 - - [08/Nov/2016:05:36:44 +0000] "GET /v2/getsuggestion/atm HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:37:35.329Z - info: 127.0.0.1 - - [08/Nov/2016:05:37:35 +0000] "GET /v2/getsuggestion/a HTTP/1.0" 304 - "http://www.chiblee.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:37:36.381Z - info: 127.0.0.1 - - [08/Nov/2016:05:37:36 +0000] "GET /v2/getsuggestion/at HTTP/1.0" 304 - "http://www.chiblee.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:37:44.942Z - info: 127.0.0.1 - - [08/Nov/2016:05:37:44 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 304 - "http://www.chiblee.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:38:00.179Z - error: uncaughtException: Key must be a buffer date=Tue Nov 08 2016 00:38:00 GMT-0500 (EST), pid=9547, uid=0, gid=0, cwd=/root/chibleetestbackend, execPath=/usr/bin/nodejs, version=v6.9.1, argv=[/usr/bin/nodejs, /usr/lib/node_modules/pm2/lib/ProcessContainerFork.js], rss=93835264, heapTotal=75833344, heapUsed=61791176, loadavg=[0.009765625, 0.0458984375, 0.052734375], uptime=1012107
+TypeError: Key must be a buffer
+    at TypeError (native)
+    at new Hmac (crypto.js:91:16)
+    at Object.Hmac (crypto.js:89:12)
+    at /root/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:72:30
+    at Query.<anonymous> (/root/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at /root/chibleetestbackend/node_modules/kareem/index.js:259:21
+    at /root/chibleetestbackend/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+2016-11-08T05:40:00.084Z - info: 127.0.0.1 - - [08/Nov/2016:05:40:00 +0000] "POST /v2/login HTTP/1.0" - - "http://www.chiblee.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:50:06.427Z - info: 127.0.0.1 - - [08/Nov/2016:05:50:06 +0000] "GET /v2/getsuggestion/a HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:50:07.256Z - info: 127.0.0.1 - - [08/Nov/2016:05:50:07 +0000] "GET /v2/getsuggestion/at HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:50:07.552Z - info: 127.0.0.1 - - [08/Nov/2016:05:50:07 +0000] "GET /v2/getsuggestion/atm HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T05:59:11.233Z - info: 127.0.0.1 - - [08/Nov/2016:05:59:11 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T05:59:13.491Z - info: 127.0.0.1 - - [08/Nov/2016:05:59:13 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T05:59:15.847Z - info: 127.0.0.1 - - [08/Nov/2016:05:59:15 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:00:00.818Z - info: 127.0.0.1 - - [08/Nov/2016:06:00:00 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:00:21.029Z - info: 127.0.0.1 - - [08/Nov/2016:06:00:21 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:00:47.759Z - info: 127.0.0.1 - - [08/Nov/2016:06:00:47 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:00:53.716Z - info: 127.0.0.1 - - [08/Nov/2016:06:00:53 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:01:08.937Z - info: 127.0.0.1 - - [08/Nov/2016:06:01:08 +0000] "GET /v2/subcategory/Owl HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:01:11.094Z - info: 127.0.0.1 - - [08/Nov/2016:06:01:11 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:01:36.634Z - info: 127.0.0.1 - - [08/Nov/2016:06:01:36 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:01:42.981Z - info: 127.0.0.1 - - [08/Nov/2016:06:01:42 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:01:51.218Z - info: 127.0.0.1 - - [08/Nov/2016:06:01:51 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:19.278Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:19 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:25.289Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:25 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:27.787Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:27 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:32.306Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:32 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:37.202Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:37 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:41.953Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:41 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:02:45.752Z - info: 127.0.0.1 - - [08/Nov/2016:06:02:45 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:01.043Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:01 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:02.705Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:02 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:07.356Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:07 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:10.836Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:10 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:14.419Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:14 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:18.221Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:18 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:23.393Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:23 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:27.563Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:27 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:31.770Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:31 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:36.570Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:36 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:45.636Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:45 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:49.596Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:49 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:53.299Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:53 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:03:57.840Z - info: 127.0.0.1 - - [08/Nov/2016:06:03:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:01.730Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:01 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:08.303Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:08 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:12.089Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:12 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:17.824Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:17 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:22.590Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:22 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:27.015Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:27 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:34.881Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:34 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:39.057Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:43.533Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:43 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:47.769Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:47 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:52.292Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:52 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:04:57.194Z - info: 127.0.0.1 - - [08/Nov/2016:06:04:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:05:04.311Z - info: 127.0.0.1 - - [08/Nov/2016:06:05:04 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:05:08.726Z - info: 127.0.0.1 - - [08/Nov/2016:06:05:08 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:05:13.046Z - info: 127.0.0.1 - - [08/Nov/2016:06:05:13 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:05:17.325Z - info: 127.0.0.1 - - [08/Nov/2016:06:05:17 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:05:21.497Z - info: 127.0.0.1 - - [08/Nov/2016:06:05:21 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:06:12.327Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:12 +0000] "POST /v2/login HTTP/1.0" 200 89 "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:12.515Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:12 +0000] "GET /v2/getbanner HTTP/1.0" 200 588 "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:19.176Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:19 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:26.030Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:26 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:29.221Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:29 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:29.903Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:29 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:34.530Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:34 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:37.134Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:37 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:44.993Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:44 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:06:55.352Z - info: 127.0.0.1 - - [08/Nov/2016:06:06:55 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:07:00.603Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:00 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:07:06.498Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:06 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:07:12.166Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:12 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T06:07:27.076Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:27 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:07:32.850Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:32 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:07:37.116Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:37 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:07:43.479Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:43 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:07:48.466Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:48 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:07:53.114Z - info: 127.0.0.1 - - [08/Nov/2016:06:07:53 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:08:00.023Z - info: 127.0.0.1 - - [08/Nov/2016:06:08:00 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:14.943Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:14 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:25.533Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:25 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:33.634Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:33 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:40.484Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:40 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:45.958Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:45 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:09:56.284Z - info: 127.0.0.1 - - [08/Nov/2016:06:09:56 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:10:39.523Z - info: 127.0.0.1 - - [08/Nov/2016:06:10:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:10:44.196Z - info: 127.0.0.1 - - [08/Nov/2016:06:10:44 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:10:49.230Z - info: 127.0.0.1 - - [08/Nov/2016:06:10:49 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:10:57.447Z - info: 127.0.0.1 - - [08/Nov/2016:06:10:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:11:02.194Z - info: 127.0.0.1 - - [08/Nov/2016:06:11:02 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:11:09.823Z - info: 127.0.0.1 - - [08/Nov/2016:06:11:09 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:11:15.499Z - info: 127.0.0.1 - - [08/Nov/2016:06:11:15 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:11:20.314Z - info: 127.0.0.1 - - [08/Nov/2016:06:11:20 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:13:02.051Z - info: 127.0.0.1 - - [08/Nov/2016:06:13:02 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:26.461Z - error: uncaughtException: Key must be a buffer date=Tue Nov 08 2016 01:24:26 GMT-0500 (EST), pid=9547, uid=0, gid=0, cwd=/root/chibleetestbackend, execPath=/usr/bin/nodejs, version=v6.9.1, argv=[/usr/bin/nodejs, /usr/lib/node_modules/pm2/lib/ProcessContainerFork.js], rss=86794240, heapTotal=71639040, heapUsed=63442280, loadavg=[0, 0, 0], uptime=1014894
+TypeError: Key must be a buffer
+    at TypeError (native)
+    at new Hmac (crypto.js:91:16)
+    at Object.Hmac (crypto.js:89:12)
+    at /root/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:72:30
+    at Query.<anonymous> (/root/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at /root/chibleetestbackend/node_modules/kareem/index.js:259:21
+    at /root/chibleetestbackend/node_modules/kareem/index.js:127:16
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickDomainCallback (internal/process/next_tick.js:122:9)
+2016-11-08T06:24:33.050Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:33 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:38.855Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:38 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:42.002Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:42 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:47.761Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:47 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:54.127Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:54 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:24:59.987Z - info: 127.0.0.1 - - [08/Nov/2016:06:24:59 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:04.604Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:04 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:10.773Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:10 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:15.693Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:15 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:20.499Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:20 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:25.074Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:25 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:29.078Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:29 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:32.973Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:32 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:36.665Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:36 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:41.970Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:41 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:25:48.419Z - info: 127.0.0.1 - - [08/Nov/2016:06:25:48 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T06:26:26.362Z - info: 127.0.0.1 - - [08/Nov/2016:06:26:26 +0000] "POST /v2/login HTTP/1.0" - - "http://www.chiblee.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-08T07:05:06.865Z - info: 127.0.0.1 - - [08/Nov/2016:07:05:06 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T07:05:19.916Z - info: 127.0.0.1 - - [08/Nov/2016:07:05:19 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:34:38.136Z - info: 127.0.0.1 - - [08/Nov/2016:08:34:38 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:34:45.609Z - info: 127.0.0.1 - - [08/Nov/2016:08:34:45 +0000] "GET /v2/getaddednewvendor HTTP/1.0" 200 27 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:34:49.105Z - info: 127.0.0.1 - - [08/Nov/2016:08:34:49 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:34:55.495Z - info: 127.0.0.1 - - [08/Nov/2016:08:34:55 +0000] "GET /v2/getcontactcallhistory HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:35:01.306Z - info: 127.0.0.1 - - [08/Nov/2016:08:35:01 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:35:03.022Z - info: 127.0.0.1 - - [08/Nov/2016:08:35:03 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:35:08.378Z - info: 127.0.0.1 - - [08/Nov/2016:08:35:08 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:36:12.459Z - info: 127.0.0.1 - - [08/Nov/2016:08:36:12 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T08:36:14.073Z - info: 127.0.0.1 - - [08/Nov/2016:08:36:14 +0000] "GET /v2/getcomments/580092e846087d47b7d35790 HTTP/1.0" 200 52 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:34:20.779Z - info: 127.0.0.1 - - [08/Nov/2016:09:34:20 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/3.00)"
+
+2016-11-08T09:39:53.674Z - info: 127.0.0.1 - - [08/Nov/2016:09:39:53 +0000] "POST /v2/login HTTP/1.0" 200 89 "-" "okhttp/3.4.1"
+
+2016-11-08T09:39:55.109Z - info: 127.0.0.1 - - [08/Nov/2016:09:39:55 +0000] "GET /v2/getbanner HTTP/1.0" 200 588 "-" "okhttp/3.4.1"
+
+2016-11-08T09:40:01.509Z - info: 127.0.0.1 - - [08/Nov/2016:09:40:01 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T09:40:08.092Z - info: 127.0.0.1 - - [08/Nov/2016:09:40:08 +0000] "POST /v2/login HTTP/1.0" 200 89 "-" "okhttp/3.4.1"
+
+2016-11-08T09:40:08.693Z - info: 127.0.0.1 - - [08/Nov/2016:09:40:08 +0000] "GET /v2/getbanner HTTP/1.0" 200 588 "-" "okhttp/3.4.1"
+
+2016-11-08T09:44:16.746Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:16 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:18.231Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:18 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:20.366Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:20 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:26.481Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:26 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:33.132Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:33 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:39.234Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:47.687Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:47 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:44:48.784Z - info: 127.0.0.1 - - [08/Nov/2016:09:44:48 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:46:56.754Z - info: 127.0.0.1 - - [08/Nov/2016:09:46:56 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:47:15.387Z - info: 127.0.0.1 - - [08/Nov/2016:09:47:15 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:47:16.063Z - info: 127.0.0.1 - - [08/Nov/2016:09:47:16 +0000] "GET /v2/subcategory/Food HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:47:46.715Z - info: 127.0.0.1 - - [08/Nov/2016:09:47:46 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:47:51.460Z - info: 127.0.0.1 - - [08/Nov/2016:09:47:51 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:47:56.047Z - info: 127.0.0.1 - - [08/Nov/2016:09:47:56 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:05.129Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:05 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:18.204Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:18 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:25.459Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:25 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:30.132Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:30 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:36.583Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:36 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:39.959Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:43.488Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:43 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:48.709Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:48 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:57.653Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:57.655Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:48:57.684Z - info: 127.0.0.1 - - [08/Nov/2016:09:48:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:05.492Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:05 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:12.050Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:12 +0000] "GET /v2/areas?text=G HTTP/1.0" 200 398 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:12.286Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:12 +0000] "GET /v2/areas?text=Gu HTTP/1.0" 200 555 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:12.819Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:12 +0000] "GET /v2/areas?text=Gur HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:18.513Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:18 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:19.475Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:19 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:30.297Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:30 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:38.330Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:38 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:38.575Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:38 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:39.217Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:56.298Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:56 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:49:58.357Z - info: 127.0.0.1 - - [08/Nov/2016:09:49:58 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:50:06.485Z - info: 127.0.0.1 - - [08/Nov/2016:09:50:06 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:17.440Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:17 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:30.185Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:30 +0000] "GET /v2/subcategory/Food HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:33.039Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:33 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:43.045Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:43 +0000] "GET /v2/getsuggestion/F HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:43.255Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:43 +0000] "GET /v2/getsuggestion/Fo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:43.427Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:43 +0000] "GET /v2/getsuggestion/Foo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:43.714Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:43 +0000] "GET /v2/getsuggestion/Food HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:53:48.365Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:48 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:00.000Z - info: 127.0.0.1 - - [08/Nov/2016:09:53:59 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:04.191Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:04 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:19.658Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:19 +0000] "GET /v2/getsuggestion/%20 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:22.914Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:22 +0000] "GET /v2/getsuggestion/%20S HTTP/1.0" 200 23 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:23.435Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:23 +0000] "GET /v2/getsuggestion/%20 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:25.663Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:25 +0000] "GET /v2/getsuggestion/%20F HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:25.929Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:25 +0000] "GET /v2/getsuggestion/%20Fo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:26.057Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:26 +0000] "GET /v2/getsuggestion/%20Foo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:26.215Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:26 +0000] "GET /v2/getsuggestion/%20Food HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:29.971Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:29 +0000] "GET /v2/getsuggestion/%20Foo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:30.509Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:30 +0000] "GET /v2/getsuggestion/%20Fo HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:30.549Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:30 +0000] "GET /v2/getsuggestion/%20F HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:30.655Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:30 +0000] "GET /v2/getsuggestion/%20 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:32.674Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:32 +0000] "GET /v2/getsuggestion/%20 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:33.229Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:33 +0000] "GET /v2/getsuggestion/%20S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:33.479Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:33 +0000] "GET /v2/getsuggestion/%20Sh HTTP/1.0" 200 23 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:33.871Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:33 +0000] "GET /v2/getsuggestion/%20Sho HTTP/1.0" 200 23 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:34.004Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:34 +0000] "GET /v2/getsuggestion/%20Shop HTTP/1.0" 200 23 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:38.890Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:38 +0000] "GET /v2/getsuggestion/%20Sho HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:39.419Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:39 +0000] "GET /v2/getsuggestion/%20Sh HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:39.538Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:39 +0000] "GET /v2/getsuggestion/%20S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:39.560Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:39 +0000] "GET /v2/getsuggestion/%20 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:46.505Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:46 +0000] "GET /v2/getsuggestion/S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:46.657Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:46 +0000] "GET /v2/getsuggestion/Sw HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:50.534Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:50 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:54:53.043Z - info: 127.0.0.1 - - [08/Nov/2016:09:54:53 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:02.496Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:02 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 615 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:04.660Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:04 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:12.906Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:12 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:19.213Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:19 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:22.275Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:22 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:25.763Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:25 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 775 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:27.659Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:27 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:32.797Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:32 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 615 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:34.937Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:34 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:40.246Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:40 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 715 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:55:44.317Z - info: 127.0.0.1 - - [08/Nov/2016:09:55:44 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:58:53.748Z - info: 127.0.0.1 - - [08/Nov/2016:09:58:53 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:58:57.486Z - info: 127.0.0.1 - - [08/Nov/2016:09:58:57 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:00.607Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:00 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:08.914Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:08 +0000] "GET /v2/getsuggestion/S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:09.092Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:09 +0000] "GET /v2/getsuggestion/Sw HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:10.304Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:10 +0000] "GET /v2/getsuggestion/Swi HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:18.331Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:18 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 913 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:39.000Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:39 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:43.227Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:43 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T09:59:49.101Z - info: 127.0.0.1 - - [08/Nov/2016:09:59:49 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:05.889Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:05 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:20.140Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:20 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:26.472Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:26 +0000] "GET /v2/getsuggestion/S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:26.787Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:26 +0000] "GET /v2/getsuggestion/Si HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:27.198Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:27 +0000] "GET /v2/getsuggestion/Sif HTTP/1.0" 200 23 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:42.586Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:42 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:51.041Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:51 +0000] "GET /v2/getsuggestion/Sw HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:51.047Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:51 +0000] "GET /v2/getsuggestion/S HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:51.392Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:51 +0000] "GET /v2/getsuggestion/Swi HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:01:55.775Z - info: 127.0.0.1 - - [08/Nov/2016:10:01:55 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:01.901Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:01 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:15.062Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:15 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 732 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:23.229Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:23 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:28.049Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:28 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:33.249Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:33 +0000] "POST /v2/vendorbytag/ HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:37.302Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:37 +0000] "GET /v2/subcategory/Shopping HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:39.783Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:39 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:44.232Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:44 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:50.781Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:50 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:55.404Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:55 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:02:58.913Z - info: 127.0.0.1 - - [08/Nov/2016:10:02:58 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:03:04.133Z - info: 127.0.0.1 - - [08/Nov/2016:10:03:04 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:00.703Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:00 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:41.853Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:41 +0000] "GET /v2/addbookmark/580095f646087d47b7d3945d/0 HTTP/1.0" 200 45 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:43.202Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:43 +0000] "GET /v2/addbookmark/5800919d46087d47b7d33e8f/0 HTTP/1.0" 200 45 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:44.406Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:44 +0000] "GET /v2/addbookmark/58008f9f46087d47b7d2fcc3/0 HTTP/1.0" 200 45 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:45.485Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:45 +0000] "GET /v2/addbookmark/580092e846087d47b7d357bc/0 HTTP/1.0" 200 45 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:48.764Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:48 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:50.546Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:50 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:51.861Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:51 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:54.125Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:54 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:57.597Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:04:59.329Z - info: 127.0.0.1 - - [08/Nov/2016:10:04:59 +0000] "GET /v2/getcomments/580093b946087d47b7d36bd5 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:05:01.570Z - info: 127.0.0.1 - - [08/Nov/2016:10:05:01 +0000] "GET /v2/getcomments/580093b946087d47b7d36bd5 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:05:31.573Z - info: 127.0.0.1 - - [08/Nov/2016:10:05:31 +0000] "GET /v2/getcomments/580093d046087d47b7d372d4 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:05:39.269Z - info: 127.0.0.1 - - [08/Nov/2016:10:05:39 +0000] "GET /v2/getcomments/580093ca46087d47b7d370fb HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:05:45.807Z - info: 127.0.0.1 - - [08/Nov/2016:10:05:45 +0000] "GET /v2/getcomments/5800930846087d47b7d3631f HTTP/1.0" 200 52 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:06:08.921Z - info: 127.0.0.1 - - [08/Nov/2016:10:06:08 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:06:32.267Z - info: 127.0.0.1 - - [08/Nov/2016:10:06:32 +0000] "GET /v2/areas HTTP/1.0" 200 842 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:06:39.231Z - info: 127.0.0.1 - - [08/Nov/2016:10:06:39 +0000] "GET /v2/Category HTTP/1.0" 200 137 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:12:07.098Z - info: 127.0.0.1 - - [08/Nov/2016:10:12:07 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:12:12.179Z - info: 127.0.0.1 - - [08/Nov/2016:10:12:12 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:12:15.034Z - info: 127.0.0.1 - - [08/Nov/2016:10:12:15 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:12:16.512Z - info: 127.0.0.1 - - [08/Nov/2016:10:12:16 +0000] "GET /v2/getcomments/5800962e46087d47b7d3a08c HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:13:02.436Z - info: 127.0.0.1 - - [08/Nov/2016:10:13:02 +0000] "POST /v2/addcomment HTTP/1.0" 200 46 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:13:03.001Z - info: 127.0.0.1 - - [08/Nov/2016:10:13:03 +0000] "GET /v2/getcomments/5800962e46087d47b7d3a08c HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:13:24.369Z - info: 127.0.0.1 - - [08/Nov/2016:10:13:24 +0000] "GET /v2/getcomments/5800927946087d47b7d34dd8 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:14:19.468Z - info: 127.0.0.1 - - [08/Nov/2016:10:14:19 +0000] "GET /v2/getcomments/5800927946087d47b7d34dd8 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:19:42.475Z - info: 127.0.0.1 - - [08/Nov/2016:10:19:42 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:19:46.617Z - info: 127.0.0.1 - - [08/Nov/2016:10:19:46 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:19:48.695Z - info: 127.0.0.1 - - [08/Nov/2016:10:19:48 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:19:54.334Z - info: 127.0.0.1 - - [08/Nov/2016:10:19:54 +0000] "GET /v2/getcomments/5800962e46087d47b7d3a08c HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:20:08.331Z - info: 127.0.0.1 - - [08/Nov/2016:10:20:08 +0000] "GET /v2/getcomments/5800927946087d47b7d34dd8 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:23.937Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:23 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:26.285Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:26 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:27.738Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:27 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:29.551Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:29 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:30.995Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:30 +0000] "GET /v2/addbookmark/5800962e46087d47b7d3a08c/1 HTTP/1.0" 200 46 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:31.550Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:31 +0000] "GET /v2/addbookmark/580095f646087d47b7d3945d/1 HTTP/1.0" 200 46 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:35.116Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:35 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:42.511Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:42 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:44.878Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:44 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:47.474Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:47 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:48.785Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:48 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:50.846Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:50 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:21:56.991Z - info: 127.0.0.1 - - [08/Nov/2016:10:21:56 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:22:50.517Z - info: 127.0.0.1 - - [08/Nov/2016:10:22:50 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T10:22:59.321Z - info: 127.0.0.1 - - [08/Nov/2016:10:22:59 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T11:38:33.052Z - info: 94.102.49.174 - - [08/Nov/2016:11:38:33 +0000] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 200 2159 "-" "Mozilla"
+
+2016-11-08T13:08:17.536Z - info: 127.0.0.1 - - [08/Nov/2016:13:08:17 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:08:19.559Z - info: 127.0.0.1 - - [08/Nov/2016:13:08:19 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:08:24.811Z - info: 127.0.0.1 - - [08/Nov/2016:13:08:24 +0000] "GET /v2/subcategory/Misc HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:08:26.591Z - info: 127.0.0.1 - - [08/Nov/2016:13:08:26 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:08:30.455Z - info: 127.0.0.1 - - [08/Nov/2016:13:08:30 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:09:06.091Z - info: 127.0.0.1 - - [08/Nov/2016:13:09:06 +0000] "GET /v2/getcomments/580c97f746087d47b7d3deb1 HTTP/1.0" 200 52 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:09:19.115Z - info: 127.0.0.1 - - [08/Nov/2016:13:09:19 +0000] "GET /v2/getcomments/580c980446087d47b7d3deda HTTP/1.0" 200 52 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:09:22.393Z - info: 127.0.0.1 - - [08/Nov/2016:13:09:22 +0000] "GET /v2/getcomments/5800d95346087d47b7d3b2a3 HTTP/1.0" 200 52 "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:09:52.224Z - info: 127.0.0.1 - - [08/Nov/2016:13:09:52 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:09:57.405Z - info: 127.0.0.1 - - [08/Nov/2016:13:09:57 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:10:08.342Z - info: 127.0.0.1 - - [08/Nov/2016:13:10:08 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T13:10:36.844Z - info: 127.0.0.1 - - [08/Nov/2016:13:10:36 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0; Scale/2.00)"
+
+2016-11-08T15:10:15.620Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:15 +0000] "GET /v2/getbanner HTTP/1.0" 200 588 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:15.667Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:15 +0000] "POST /v2/login HTTP/1.0" 200 89 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:31.656Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:31 +0000] "GET /v2/getsuggestion/dho HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:31.969Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:31 +0000] "GET /v2/getsuggestion/dhob HTTP/1.0" 200 222 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:32.098Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:32 +0000] "GET /v2/getsuggestion/dhobi HTTP/1.0" 200 131 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:37.217Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:37 +0000] "POST /v2/vendorbytag HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:44.817Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:44 +0000] "GET /v2/areas HTTP/1.0" 200 842 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:47.300Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:47 +0000] "GET /v2/areas HTTP/1.0" 200 842 "-" "okhttp/3.4.1"
+
+2016-11-08T15:10:59.649Z - info: 127.0.0.1 - - [08/Nov/2016:15:10:59 +0000] "POST /v2/vendorbytag HTTP/1.0" 200 - "-" "okhttp/3.4.1"
+
+2016-11-08T15:11:13.255Z - info: 127.0.0.1 - - [08/Nov/2016:15:11:13 +0000] "GET /v2/subcategory/Entertainment HTTP/1.0" 200 577 "-" "okhttp/3.4.1"
+
+2016-11-08T15:11:21.970Z - info: 127.0.0.1 - - [08/Nov/2016:15:11:21 +0000] "GET /v2/subcategory/Entertainment HTTP/1.0" 200 577 "-" "okhttp/3.4.1"
+
+2016-11-08T15:11:28.844Z - info: 127.0.0.1 - - [08/Nov/2016:15:11:28 +0000] "GET /v2/subcategory/Entertainment HTTP/1.0" 200 577 "-" "okhttp/3.4.1"
+
+2016-11-08T17:14:57.404Z - info: 127.0.0.1 - - [08/Nov/2016:17:14:57 +0000] "POST /v2/login HTTP/1.0" 200 89 "-" "okhttp/3.4.1"
+
+2016-11-08T17:14:58.844Z - info: 127.0.0.1 - - [08/Nov/2016:17:14:58 +0000] "GET /v2/getbanner HTTP/1.0" 200 588 "-" "okhttp/3.4.1"
+
+2016-11-08T19:24:18.931Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:18 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:24:26.206Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:26 +0000] "GET /v2/subcategory/Owl HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:24:29.261Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:29 +0000] "POST /v2/getvendor HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:24:33.528Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:33 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:24:41.924Z - info: 198.16.54.122 - - [08/Nov/2016:19:24:41 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+
+2016-11-08T19:24:42.879Z - info: 198.16.54.122 - - [08/Nov/2016:19:24:42 +0000] "GET /HNAP1/ HTTP/1.1" 200 - "http://139.59.16.92:8081/" "Mozilla/5.0 (Windows NT 5.1; rv:9.0.1) Gecko/20100101 Firefox/9.0.1"
+
+2016-11-08T19:24:45.818Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:45 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:24:56.454Z - info: 127.0.0.1 - - [08/Nov/2016:19:24:56 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-08T19:25:01.740Z - info: 127.0.0.1 - - [08/Nov/2016:19:25:01 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T01:38:04.542Z - info: 93.174.93.136 - - [09/Nov/2016:01:38:04 +0000] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 200 2159 "-" "Mozilla"
+
+2016-11-09T02:32:04.502Z - info: 127.0.0.1 - - [09/Nov/2016:02:32:04 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-09T04:41:26.164Z - info: 127.0.0.1 - - [09/Nov/2016:04:41:26 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-09T04:54:23.949Z - info: 127.0.0.1 - - [09/Nov/2016:04:54:23 +0000] "GET /v2/subcategory/Daily%20Needs HTTP/1.0" 403 36 "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0"
+
+2016-11-09T05:22:18.691Z - info: 127.0.0.1 - - [09/Nov/2016:05:22:18 +0000] "GET /v2/subcategory/Owl HTTP/1.0" 304 - "http://www.chiblee.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.109 Safari/537.36"
+
+2016-11-09T07:15:42.063Z - info: 127.0.0.1 - - [09/Nov/2016:07:15:42 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:15:46.121Z - info: 127.0.0.1 - - [09/Nov/2016:07:15:46 +0000] "GET /v2/subcategory/Entertainment HTTP/1.0" 200 577 "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:15:48.707Z - info: 127.0.0.1 - - [09/Nov/2016:07:15:48 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:15:51.476Z - info: 127.0.0.1 - - [09/Nov/2016:07:15:51 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:15:53.149Z - info: 127.0.0.1 - - [09/Nov/2016:07:15:53 +0000] "GET /v2/addbookmark/5800962e46087d47b7d3a08c/1 HTTP/1.0" 200 46 "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:16:27.193Z - info: 127.0.0.1 - - [09/Nov/2016:07:16:27 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:16:44.279Z - info: 127.0.0.1 - - [09/Nov/2016:07:16:44 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:16:46.277Z - info: 127.0.0.1 - - [09/Nov/2016:07:16:46 +0000] "GET /v2/getcontactcallhistory HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:16:48.305Z - info: 127.0.0.1 - - [09/Nov/2016:07:16:48 +0000] "GET /v2/getusercomments HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:17:06.078Z - info: 127.0.0.1 - - [09/Nov/2016:07:17:06 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T07:17:08.095Z - info: 127.0.0.1 - - [09/Nov/2016:07:17:08 +0000] "GET /v2/getaddednewvendor HTTP/1.0" 200 27 "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T08:10:45.217Z - info: 127.0.0.1 - - [09/Nov/2016:08:10:45 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T08:13:41.404Z - info: 127.0.0.1 - - [09/Nov/2016:08:13:41 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T08:21:03.489Z - info: 127.0.0.1 - - [09/Nov/2016:08:21:03 +0000] "GET /v2/getbookmark/0?lat=28.590531&lng=77.3093485 HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-09T08:21:17.607Z - info: 127.0.0.1 - - [09/Nov/2016:08:21:17 +0000] "GET /v2/getbookmark/0?lat=%2228.590531%22&lng=%2277.3093485%22 HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-09T09:22:00.848Z - info: 127.0.0.1 - - [09/Nov/2016:09:22:00 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:22:05.984Z - info: 127.0.0.1 - - [09/Nov/2016:09:22:05 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 200 25 "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:24:28.311Z - info: 127.0.0.1 - - [09/Nov/2016:09:24:28 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:25:17.170Z - info: 127.0.0.1 - - [09/Nov/2016:09:25:17 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:25:18.674Z - info: 127.0.0.1 - - [09/Nov/2016:09:25:18 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:25:23.912Z - info: 127.0.0.1 - - [09/Nov/2016:09:25:23 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:26:12.668Z - info: 127.0.0.1 - - [09/Nov/2016:09:26:12 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:27:30.355Z - info: 127.0.0.1 - - [09/Nov/2016:09:27:30 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:28:54.616Z - info: 127.0.0.1 - - [09/Nov/2016:09:28:54 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:30:28.494Z - info: 127.0.0.1 - - [09/Nov/2016:09:30:28 +0000] "GET /v2/getbookmark/0 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:30:45.580Z - info: 127.0.0.1 - - [09/Nov/2016:09:30:45 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:34:31.036Z - info: 127.0.0.1 - - [09/Nov/2016:09:34:31 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:35:06.611Z - info: 127.0.0.1 - - [09/Nov/2016:09:35:06 +0000] "POST /v2/0?lat=37.785834000000&lng=-122.406417000000 HTTP/1.0" 404 64 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+
+2016-11-09T09:35:59.631Z - info: 127.0.0.1 - - [09/Nov/2016:09:35:59 +0000] "GET /v2/0?lat=37.785834000000&lng=-122.406417000000 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 9.3; Scale/2.00)"
+
+2016-11-09T09:38:18.343Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:18 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:38:33.938Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:33 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:38:39.290Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:39 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:38:40.835Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:40 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:38:43.546Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:43 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:38:47.857Z - info: 127.0.0.1 - - [09/Nov/2016:09:38:47 +0000] "GET /v2/addbookmark/580095f646087d47b7d3945d/1 HTTP/1.0" 200 46 "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:39:21.239Z - info: 127.0.0.1 - - [09/Nov/2016:09:39:21 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:41:05.762Z - info: 127.0.0.1 - - [09/Nov/2016:09:41:05 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+
+2016-11-09T09:41:53.534Z - info: 127.0.0.1 - - [09/Nov/2016:09:41:53 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+
+2016-11-09T09:42:26.312Z - info: 127.0.0.1 - - [09/Nov/2016:09:42:26 +0000] "GET /v2/getbookmark/0?lat=28.590531&lng=77.3093485 HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-09T09:43:30.413Z - info: 127.0.0.1 - - [09/Nov/2016:09:43:30 +0000] "GET /v2/getbookmark/0?lat=%2228.590531%22&lng=%2277.3093485%22 HTTP/1.0" 200 - "-" "PostmanRuntime/2.5.2"
+
+2016-11-09T09:44:02.035Z - info: 127.0.0.1 - - [09/Nov/2016:09:44:02 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+
+2016-11-09T09:44:10.591Z - info: 127.0.0.1 - - [09/Nov/2016:09:44:10 +0000] "GET /v2/0?lat=28.583526975204&lng=77.314326406274 HTTP/1.0" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+
+2016-11-09T09:46:06.096Z - info: 127.0.0.1 - - [09/Nov/2016:09:46:06 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:46:24.442Z - info: 127.0.0.1 - - [09/Nov/2016:09:46:24 +0000] "GET /v2/getbookmark/0?lat=28.583695512458&lng=77.313991566332 HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:47:17.478Z - info: 127.0.0.1 - - [09/Nov/2016:09:47:17 +0000] "GET /v2/getbanner HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:47:19.287Z - info: 127.0.0.1 - - [09/Nov/2016:09:47:19 +0000] "GET /v2/subcategory/Utilities HTTP/1.0" 304 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+
+2016-11-09T09:47:22.568Z - info: 127.0.0.1 - - [09/Nov/2016:09:47:22 +0000] "POST /v2/getvendor HTTP/1.0" 200 - "-" "Chiblee/2.1 (iPhone; iOS 10.0.1; Scale/2.00)"
+

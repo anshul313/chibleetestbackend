@@ -1093,11 +1093,11 @@ exports.getBookMark = function(req, res) {
   var asyncTasks = [];
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
-  console.log(req.user._id);
+  // console.log(req.user._id);
   bookmarkUsers.find({
     bookmarkUserId: req.user._id
   }).distinct('bookmarkVendorId', function(err, bookmarkvendorIds) {
-    console.log(bookmarkvendorIds);
+    // console.log(bookmarkvendorIds);
     vendor.find({
       _id: {
         '$in': bookmarkvendorIds
@@ -1123,6 +1123,15 @@ exports.getBookMark = function(req, res) {
               totalRating += result[i].commentRating;
             if (totalRating > 0)
               totalRating = totalRating / result.length;
+
+            var distance = geolib.getDistance({
+              latitude: parseFloat(req.query.lat),
+              longitude: parseFloat(req.query.lng)
+            }, {
+              latitude: parseFloat(doc['latitude']),
+              longitude: parseFloat(doc['longitude'])
+            });
+            var distance = distance / 1000;
 
             var obj = new Object({
               _id: doc['_id'],
@@ -1154,9 +1163,9 @@ exports.getBookMark = function(req, res) {
               rating: totalRating,
               bookmark: 1,
               serialnumber: doc['serialnumber'],
-              keyword: data['keyword']
+              keyword: data['keyword'],
+              distance: distance
             });
-
 
             finalresult.push(obj);
             callback(err, obj);
