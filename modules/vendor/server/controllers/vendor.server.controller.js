@@ -1124,6 +1124,15 @@ exports.getBookMark = function(req, res) {
             if (totalRating > 0)
               totalRating = totalRating / result.length;
 
+            var distance = geolib.getDistance({
+              latitude: parseFloat(req.query.lat),
+              longitude: parseFloat(req.query.lng)
+            }, {
+              latitude: parseFloat(doc['latitude']),
+              longitude: parseFloat(doc['longitude'])
+            });
+            var distance = distance / 1000;
+
             var obj = new Object({
               _id: doc['_id'],
               name: doc['name'],
@@ -1154,9 +1163,9 @@ exports.getBookMark = function(req, res) {
               rating: totalRating,
               bookmark: 1,
               serialnumber: doc['serialnumber'],
-              keyword: data['keyword']
+              keyword: data['keyword'],
+              distance: distance
             });
-
 
             finalresult.push(obj);
             callback(err, obj);
