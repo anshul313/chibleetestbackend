@@ -147,6 +147,10 @@ var vendorSchema = new Schema({
   },
   keyword: {
     type: String
+  },
+  homeDelivery: {
+    type: Boolean,
+    default: false
   }
 }, {
   strict: false

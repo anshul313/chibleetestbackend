@@ -184,6 +184,133 @@ exports.getvendors = function(req, res) {
   });
 }
 
+exports.getOwlVendor = function(req, res) {
+  var finalresult = [];
+  var asyncTasks = [];
+
+  var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
+
+  vendor.aggregate([{
+    $geoNear: {
+      near: {
+        type: "Point",
+        coordinates: coordinates
+      },
+      distanceField: "distance",
+      minDistance: 0,
+      maxDistance: 100000000,
+      num: 10000000,
+      query: {
+        category: 'Owl',
+        subCategory: req.body.subcat,
+        night: true
+      },
+      spherical: true
+    }
+  }, {
+    $skip: (req.body.page * 40)
+  }, {
+    $limit: 40
+  }], function(err, data) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    console.log(data.length)
+    data.forEach(function(doc) {
+      asyncTasks.push(function(callback) {
+        var bookmark = 0;
+        var vendorId = doc['_id'].toString();
+        bookmarkUsers.find({
+          bookmarkUserId: req.user._id
+        }).distinct('bookmarkVendorId', function(err,
+          bookmarkvendorIds) {
+          comment.find({
+            vendorId: vendorId
+          }, function(err, result) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            var totalRating = 0;
+            for (var i = 0; i < result.length; i++)
+              totalRating += result[i].commentRating;
+            if (totalRating > 0)
+              totalRating = totalRating / result.length;
+            var temp = [];
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
+            if (_.includes(temp, doc['_id'].toString()))
+              bookmark = 1;
+
+            var distanceinkm = geolib.getDistance({
+              latitude: doc['latitude'],
+              longitude: doc['longitude']
+            }, {
+              latitude: Number(req.body.lat),
+              longitude: Number(req.body.lng)
+            }) / 1000;
+            // var q = bookmarkvendorIds.indexOf(doc['_id'])
+            var obj = new Object({
+              _id: doc['_id'],
+              name: doc['name'],
+              contact: doc['contact'],
+              category: doc['category'],
+              subCategory: doc['subCategory'],
+              address: doc['address'],
+              area: doc['area'],
+              latitude: doc['latitude'],
+              longitude: doc['longitude'],
+              closingTiming: doc[
+                'closingTiming'],
+              openingTiming: doc[
+                'openingTiming'],
+              imageUrl: doc['imageUrl'],
+              saveTime: doc['saveTime'],
+              multiTime: doc['multiTime'],
+              others: doc['others'],
+              tags: doc['tags'],
+              coords: doc['coords'],
+              homeDelivery: doc['homeDelivery'],
+              remarks: doc['remarks'],
+              shopNo: '',
+              landmark: doc['landmark'],
+              status: doc['status'],
+              rating: totalRating,
+              bookmark: bookmark,
+              serialnumber: doc['serialnumber'],
+              keyword: doc['keyword'],
+              distance: distanceinkm,
+              night: doc['night'],
+            });
+            finalresult.push(obj);
+            callback(err, obj);
+          });
+        });
+      });
+    });
+    async.parallel(asyncTasks, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(err)
+        });
+      }
+      var result = _.orderBy(finalresult, ['distance'], ['asc']);
+      res.json({
+        error: false,
+        data: result
+      });
+    });
+  });
+}
+
 exports.vendorByArea = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
@@ -1512,14 +1639,14 @@ exports.getContactHistory = function(req, res) {
       }
     }
   }], function(err, docs) {
-    console.log('docs : ', docs);
+    // console.log('docs : ', docs);
     var d = new Date();
     d.setHours(0, 0, 0, 0);
     var midnighttime = (+d);
-    console.log('midnighttime : ', midnighttime);
-    console.log('error : ', err);
+    // console.log('midnighttime : ', midnighttime);
+    // console.log('error : ', err);
     async.forEach(docs, function(doc, callback) {
-      console.log('doc : ', doc._id.contactCallVendorId);
+      // console.log('doc : ', doc._id.contactCallVendorId);
       vendor.find({
         _id: doc._id.contactCallVendorId.contactCallVendorId
       }, function(err, vendor) {
@@ -1546,7 +1673,7 @@ exports.getContactHistory = function(req, res) {
               err)
         });
       }
-      console.log('finalResult : ', finalResult);
+      // console.log('finalResult : ', finalResult);
       res.json({
         error: false,
         data: finalResult
