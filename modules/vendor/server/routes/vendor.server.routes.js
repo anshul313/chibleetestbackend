@@ -9,8 +9,12 @@ var loginPolicy = require('../policies/vendor.server.policy'),
 
 module.exports = function(app) {
 
+
   app.route('/v2/getvendor').all(util.userAuthenticate)
     .post(vendors.getvendors);
+
+  app.route('/v2/getowlvendor').all(util.userAuthenticate)
+    .post(vendors.getOwlVendor);
 
   app.route('/v2/getelasticvendor/:input/:area/:page').all(util.userAuthenticate)
     .get(vendors.getelasticvendor);
