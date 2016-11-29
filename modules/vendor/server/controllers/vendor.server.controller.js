@@ -780,11 +780,11 @@ exports.getcomments = function(req, res) {
     });
     async.parallel(asyncTasks, function() {
       var ascending = underscore.sortBy(finalResult, 'commentTime');
-      var result = ascending.reverse();
+      finalResult = ascending.reverse();
       res.json({
         error: false,
         data: {
-          result: result,
+          result: finalResult,
           totalRating: totalRating
         }
       });
@@ -1897,6 +1897,8 @@ exports.getUserComments = function(req, res) {
       });
     });
     async.parallel(asyncTasks, function() {
+      var ascending = underscore.sortBy(finalResult, 'commentTime');
+      finalResult = ascending.reverse();
       res.json({
         error: false,
         data: {
