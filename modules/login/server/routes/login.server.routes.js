@@ -12,6 +12,9 @@ module.exports = function(app) {
   app.route('/v2/login')
     .post(login.login);
 
+  app.route('/v2/loginweb')
+    .post(login.loginweb);
+
   app.route('/v2/category').all(util.userAuthenticate)
     .get(login.category);
 

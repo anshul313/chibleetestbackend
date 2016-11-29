@@ -482,63 +482,64 @@ exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
   var q = 37594;
-  var count = 1;
+  var count = 73077;
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-    'files/8000/14.json'), 'utf8', function(err, data) {
+    'files/Night6.json'), 'utf8', function(err, data) {
     var jsonData = JSON.parse(data);
     jsonData.forEach(function(doc) {
       // console.log('doc : ', doc);
       asyncTasks.push(function(callback) {
-        var add = doc['Address'];
+        var add = doc['address'];
         if (add === "") {
-          add = doc['Address_raw'];
+          add = doc['address'];
         }
-        if (doc['Latitude'] === "-")
-          doc['Latitude'] = 0;
-        if (doc['Longitude'] === "-")
-          doc['Longitude'] = 0;
+        if (doc['latitude'] === "-")
+          doc['latitude'] = 0;
+        if (doc['longitude'] === "-")
+          doc['longitude'] = 0;
 
-        var tags = doc['Tags'].split(',');
+        // var tags = doc['tags'].split(',');
         var coordinate = [];
-        coordinate.push(doc['Longitude']);
-        coordinate.push(doc['Latitude']);
+        coordinate.push(doc['longitude']);
+        coordinate.push(doc['latitude']);
         var homeDelivery = false;
-        if (doc['Home Delivery?'] != "No") {
+        if (doc['homeDelivery'] != "No") {
           homeDelivery = true;
         }
-
+        count++;
         var vendorData = new vendor({
-          serialnumber: doc['S.No.'],
-          name: doc['Name of vendor'],
-          contact: doc['Contact'].toString(),
-          category: doc['Category'],
-          subCategory: doc['Subcategory'],
+          serialnumber: count,
+          name: doc['name'],
+          contact: doc['contact'].toString(),
+          category: doc['category'],
+          subCategory: doc['subCategory'],
           address: add,
-          area: doc['Location'],
-          latitude: doc['Latitude'],
-          longitude: doc['Longitude'],
-          openingTiming: doc['Open_timing'],
-          closingTiming: doc['Close_timing'],
-          imageUrl: doc['Image'],
+          area: doc['area'],
+          latitude: doc['latitude'],
+          longitude: doc['longitude'],
+          openingTiming: doc['openingTiming'],
+          closingTiming: doc['closingTiming'],
+          imageUrl: '-',
           saveTime: new Date().getTime(),
-          multiTime: doc['Multi'],
-          others: doc['Others_raw'],
-          tags: doc['Adwords Keywords'],
+          multiTime: false,
+          others: doc['others'],
+          tags: doc['tags'],
           coords: coordinate,
           homeDelivery: homeDelivery,
-          remarks: doc['Remarks'],
+          remarks: doc['remarks'],
           shopNo: '',
           landMark: add,
           status: 1,
-          keyword: doc['Adwords Keywords']
+          keyword: doc['keyword'],
+          night: true
         });
 
         var query = {
-          serialnumber: doc['S.No.']
+          serialnumber: count
         };
-
+        console.log('count : ', count);
         vendor.findOne(query, function(err, docs) {
           if (err) {
             console.log('error : ', err);
@@ -549,7 +550,7 @@ exports.addvendor = function(req, res) {
                 console.log('error : ', err);
               }
               console.log("succesfully saved : ",
-                count++);
+                count);
             })
           }
         });
@@ -717,7 +718,9 @@ exports.getcomments = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId)
   comment.find({
     vendorId: vendorId
-  }, function(err, result) {
+  }).sort({
+    'commentTime': 1
+  }).exec(function(err, result) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -1943,7 +1946,7 @@ exports.temp = function(req, res) {
 
   var JSONStream = require('JSONStream');
 
-  var stream = fs.createReadStream(path.resolve(__dirname, 'new.json'), {
+  var stream = fs.createReadStream(path.resolve(__dirname, 'bnk_data.json'), {
       encoding: 'utf8'
     }),
     parser = JSONStream.parse();

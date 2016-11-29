@@ -24,6 +24,7 @@ var config = require('../config'),
   lusca = require('lusca'),
   multer = require('multer'),
   os = require('os');
+var passport = require('passport');
 
 
 
@@ -112,7 +113,7 @@ module.exports.initLocalVariables = function(app) {
 /**
  * Initialize application middleware
  */
-module.exports.initMiddleware = function(app) {
+module.exports.initMiddleware = function(app, passport) {
 
   app.use(function(req, res, next) {
     var op = 'OPTIONS';
@@ -172,6 +173,8 @@ module.exports.initMiddleware = function(app) {
   // Add the cookie parser and flash middleware
   app.use(cookieParser());
   app.use(flash());
+  app.use(passport.initialize());
+  app.use(passport.session()); // persistent login sessions
 
 };
 
@@ -266,10 +269,10 @@ module.exports.initModulesServerPolicies = function(app) {
 /**
  * Configure the modules server routes
  */
-module.exports.initModulesServerRoutes = function(app) {
+module.exports.initModulesServerRoutes = function(app, passport) {
   // Globbing routing files
   config.files.server.routes.forEach(function(routePath) {
-    require(path.resolve(routePath))(app);
+    require(path.resolve(routePath))(app, passport);
   });
 };
 
@@ -313,7 +316,7 @@ module.exports.init = function(db) {
   this.initLocalVariables(app);
 
   // Initialize Express middleware
-  this.initMiddleware(app);
+  this.initMiddleware(app, passport);
 
   // Initialize Express view engine
   this.initViewEngine(app);
@@ -334,7 +337,7 @@ module.exports.init = function(db) {
   this.initModulesServerPolicies(app);
 
   // Initialize modules server routes
-  this.initModulesServerRoutes(app);
+  this.initModulesServerRoutes(app, passport);
 
   // Initialize error routes
   this.initErrorRoutes(app);
