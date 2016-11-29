@@ -719,7 +719,7 @@ exports.getcomments = function(req, res) {
   comment.find({
     vendorId: vendorId
   }).sort({
-    'commentTime': 1
+    commentTime: -1
   }).exec(function(err, result) {
     if (err) {
       return res.status(400).send({
