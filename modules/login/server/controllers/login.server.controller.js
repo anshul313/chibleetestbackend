@@ -24,6 +24,8 @@ var AWS = require("aws-sdk");
 var crypto = require('crypto');
 var multer = require('multer');
 var dedupe = require('dedupe');
+var LocalStrategy = require('passport-local').Strategy;
+var FacebookStrategy = require('passport-facebook').Strategy;
 
 var elastic = require('../../../../config/lib/elasticsearch.js');
 
@@ -554,4 +556,8 @@ exports.test = function(req, res) {
     console.log('end'); // whatever you will do with each JSON object
     // data1.push(obj.address);
   });
+}
+
+exports.loginweb = function(req, res) {
+
 }
