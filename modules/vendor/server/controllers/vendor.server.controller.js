@@ -35,8 +35,8 @@ var JSONStream = require('JSONStream');
 var es = require('event-stream');
 var suggestTag = mongoose.model('tagschema');
 var geolib = require('geolib');
-
-// var elastic = require('../../../../config/lib/elasticsearch.js');
+var underscore = require('underscore')
+  // var elastic = require('../../../../config/lib/elasticsearch.js');
 
 // var elasticsearch = require('elasticsearch');
 // var client = new elasticsearch.Client({
@@ -720,7 +720,7 @@ exports.getcomments = function(req, res) {
     vendorId: vendorId
   }).sort({
     commentTime: -1
-  }).exec(function(err, result) {
+  }).find(function(err, result) {
     if (err) {
       return res.status(400).send({
         message: errorHandler
@@ -728,6 +728,7 @@ exports.getcomments = function(req, res) {
             err)
       });
     }
+
     var totalRating = 0;
     for (var i = 0; i < result.length; i++)
       totalRating += result[i].commentRating;
@@ -778,10 +779,12 @@ exports.getcomments = function(req, res) {
       });
     });
     async.parallel(asyncTasks, function() {
+      var ascending = underscore.sortBy(finalResult, 'commentTime');
+      var result = ascending.reverse();
       res.json({
         error: false,
         data: {
-          result: finalResult,
+          result: result,
           totalRating: totalRating
         }
       });
