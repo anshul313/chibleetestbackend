@@ -160,7 +160,8 @@ exports.getvendors = function(req, res) {
               bookmark: bookmark,
               serialnumber: doc['serialnumber'],
               keyword: doc['keyword'],
-              distance: distanceinkm
+              distance: distanceinkm,
+              gcmId: doc['gcmId']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -288,6 +289,7 @@ exports.getOwlVendor = function(req, res) {
               keyword: doc['keyword'],
               distance: distanceinkm,
               night: doc['night'],
+              gcmId: doc['gcmId']
             });
             finalresult.push(obj);
             callback(err, obj);
@@ -388,7 +390,8 @@ exports.vendorByArea = function(req, res) {
               rating: totalRating,
               bookmark: data['bookmark'],
               serialnumber: data['serialnumber'],
-              keyword: data['keyword']
+              keyword: data['keyword'],
+              gcmId: doc['gcmId']
             });
             finalresult.push(obj);
             callback(err, obj);
