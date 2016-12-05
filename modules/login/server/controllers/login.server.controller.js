@@ -56,7 +56,16 @@ exports.login = function(req, res) {
       }, {
         $set: {
           lastLogin: new Date().getTime(),
-          lastLocation: coords
+          lastLocation: coords,
+          pushToken: req.body.pushToken,
+          name: req.body.name,
+          username: req.body.username,
+          email: req.body.email,
+          sim: req.body.sim,
+          platform: req.body.platform,
+          model: req.body.model,
+          deviceId: req.body.deviceId,
+          appVersion: req.body.appVersion
         }
       }, function(err, result) {
         if (err) {
