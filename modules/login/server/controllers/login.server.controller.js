@@ -67,11 +67,12 @@ exports.login = function(req, res) {
         }
         res.json({
           error: false,
-          // data: {
-          //   authToken: data.authToken,
-          //   id: data._id
-          // }
-          data: authToken
+          data: data.authToken
+            // data: {
+            //   authToken: data.authToken,
+            //   id: data._id
+            // }
+
         });
       });
     } else {
@@ -103,11 +104,12 @@ exports.login = function(req, res) {
         }
         res.json({
           error: false,
-          // data: {
-          //   authToken: authToken,
-          //   id: result._id
-          // }
           data: authToken
+            // data: {
+            //   authToken: authToken,
+            //   id: result._id
+            // }
+
         });
       });
     }
