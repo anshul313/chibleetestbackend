@@ -76,12 +76,10 @@ exports.login = function(req, res) {
         }
         res.json({
           error: false,
-          data: data.authToken
-            // data: {
-            //   authToken: data.authToken,
-            //   id: data._id
-            // }
-
+          data: {
+            authToken: data.authToken,
+            id: data._id
+          }
         });
       });
     } else {
@@ -113,12 +111,10 @@ exports.login = function(req, res) {
         }
         res.json({
           error: false,
-          data: authToken
-            // data: {
-            //   authToken: authToken,
-            //   id: result._id
-            // }
-
+          data: {
+            authToken: authToken,
+            id: result._id
+          }
         });
       });
     }
@@ -154,7 +150,7 @@ exports.subcategory = function(req, res) {
       subCategory: 1,
       _id: 0
     }).toArray(function(err, docs) {
-      // console.log(docs);
+      console.log(docs);
       var data = docs[0].subCategory.sort();
       if (err) {
         res.json({

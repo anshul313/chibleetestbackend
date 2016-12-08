@@ -27,3 +27,92 @@ Error: connection timeout
     at _runOnTimeout (timers.js:524:11)
     at _makeTimerTimeout (timers.js:515:3)
     at Timer.unrefTimeout (timers.js:584:5)
+2016-12-07T07:14:42.777Z - info: 127.0.0.1 - - [07/Dec/2016:07:14:42 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T07:32:30.595Z - info: 127.0.0.1 - - [07/Dec/2016:07:32:30 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T07:38:02.911Z - info: 127.0.0.1 - - [07/Dec/2016:07:38:02 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T07:58:41.105Z - error: uncaughtException: docs[0].subCategory.sort is not a function date=Wed Dec 07 2016 13:28:41 GMT+0530 (IST), pid=37029, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=131211264, heapTotal=101908064, heapUsed=74349976, loadavg=[2.05517578125, 2.181640625, 2.33837890625], uptime=762676
+TypeError: docs[0].subCategory.sort is not a function
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:158:38
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:844:16
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at setCursorDeadAndNotified (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:496:3)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:633:7)
+    at Cursor.next [as _next] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:674:3)
+    at fetchDocs (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:839:10)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:863:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:664:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:575:7
+    at Object.queryCallback [as cb] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:238:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-12-07T08:00:40.946Z - info: 127.0.0.1 - - [07/Dec/2016:08:00:40 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T08:00:48.822Z - info: 127.0.0.1 - - [07/Dec/2016:08:00:48 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" 200 48 "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T08:21:55.590Z - error: uncaughtException: docs[0].subCategory.sort is not a function date=Wed Dec 07 2016 13:51:55 GMT+0530 (IST), pid=37029, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=28131328, heapTotal=103959904, heapUsed=81567720, loadavg=[1.50634765625, 1.92529296875, 2.0625], uptime=764070
+TypeError: docs[0].subCategory.sort is not a function
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:158:38
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:844:16
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at setCursorDeadAndNotified (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:496:3)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:633:7)
+    at Cursor.next [as _next] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:674:3)
+    at fetchDocs (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:839:10)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/cursor.js:863:7
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at nextFunction (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:664:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:575:7
+    at Object.queryCallback [as cb] (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:238:5)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2016-12-07T08:23:55.323Z - info: 127.0.0.1 - - [07/Dec/2016:08:23:55 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" - - "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T08:26:52.421Z - info: 127.0.0.1 - - [07/Dec/2016:08:26:52 +0000] "GET /v2/subcategory/Utilities HTTP/1.1" 200 206 "-" "PostmanRuntime/2.5.2"
+
+2016-12-07T09:14:18.060Z - error: uncaughtException: connection timeout date=Wed Dec 07 2016 14:44:18 GMT+0530 (IST), pid=37029, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=20336640, heapTotal=76114272, heapUsed=74196920, loadavg=[4.0078125, 2.68359375, 2.24658203125], uptime=767213
+Error: connection timeout
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at listener (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:260:16)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/pool.js:271:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:175:10)
+    at Socket.g (events.js:260:16)
+    at emitNone (events.js:67:13)
+    at Socket.emit (events.js:166:7)
+    at Socket._onTimeout (net.js:332:8)
+    at _runOnTimeout (timers.js:524:11)
+    at _makeTimerTimeout (timers.js:515:3)
+    at Timer.unrefTimeout (timers.js:584:5)

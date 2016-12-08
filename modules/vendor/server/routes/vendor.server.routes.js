@@ -25,7 +25,7 @@ module.exports = function(app) {
   app.route('/v2/vendorbyarea/:subcat/:area/:page').all(util.userAuthenticate)
     .get(vendors.vendorByArea);
 
-  app.route('/v2/addvendor').all(util.userAuthenticate)
+  app.route('/v2/addvendor')
     .post(vendors.addvendor);
 
   app.route('/v2/getcomments/:vendorId').all(util.userAuthenticate)

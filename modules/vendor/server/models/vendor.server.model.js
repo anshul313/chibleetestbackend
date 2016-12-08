@@ -136,11 +136,8 @@ var vendorSchema = new Schema({
   shopNo: {
     type: String
   },
-  landmark: {
+  city: {
     type: String
-  },
-  status: {
-    type: Number
   },
   userId: {
     type: Schema.ObjectId
@@ -149,6 +146,34 @@ var vendorSchema = new Schema({
     type: String
   },
   homeDelivery: {
+    type: Boolean,
+    default: false
+  },
+  gcmId: {
+    type: String,
+    default: ''
+  },
+  isStationary: {
+    type: Boolean,
+    default: false
+  },
+  isMobile: {
+    type: Boolean,
+    default: false
+  },
+  isWalletInterested: {
+    type: Boolean,
+    default: false
+  },
+  speciality: {
+    type: String,
+    default: ''
+  },
+  offDays: {
+    type: String,
+    default: ''
+  },
+  isActive: {
     type: Boolean,
     default: false
   }
