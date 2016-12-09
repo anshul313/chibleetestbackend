@@ -244,7 +244,6 @@ exports.subcategory = function(req, res) {
       subCategory: 1,
       _id: 0
     }).toArray(function(err, docs) {
-      console.log(docs);
       var data = docs[0].subCategory.sort();
       if (err) {
         res.json({
