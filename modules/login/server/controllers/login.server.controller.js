@@ -123,6 +123,98 @@ exports.login = function(req, res) {
   });
 };
 
+exports.loginnewuser = function(req, res) {
+  var latitude = 0.0;
+  var longitude = 0.0;
+  if (req.body.latitude) {
+    latitude = req.body.latitude;
+  }
+  if (req.body.longitude) {
+    longitude = req.body.latitude;
+  }
+  var coords = [parseFloat(latitude), parseFloat(longitude)];
+  user.findOne({
+    deviceId: req.body.deviceId,
+    email: req.body.email
+  }, function(err, data) {
+    if (err) {
+      res.json({
+        error: true,
+        data: err
+      });
+    } else if (data) {
+      // console.log(data);
+      user.update({
+        deviceId: req.body.deviceId,
+        email: req.body.email
+      }, {
+        $set: {
+          lastLogin: new Date().getTime(),
+          lastLocation: coords,
+          pushToken: req.body.pushToken,
+          name: req.body.name,
+          username: req.body.username,
+          email: req.body.email,
+          sim: req.body.sim,
+          platform: req.body.platform,
+          model: req.body.model,
+          deviceId: req.body.deviceId,
+          appVersion: req.body.appVersion
+        }
+      }, function(err, result) {
+        if (err) {
+          res.json({
+            error: true,
+            data: err
+          });
+        }
+        res.json({
+          error: false,
+          data: {
+            authToken: data.authToken,
+            id: data._id
+          }
+        });
+      });
+    } else {
+      var authToken = crypto.createHmac('sha256', req.body.deviceId).update(
+        req.body.email).digest('hex');
+      var newuser = new user({
+        name: req.body.name,
+        authToken: authToken,
+        username: req.body.username,
+        email: req.body.email,
+        sim: req.body.sim,
+        pushToken: req.body.pushToken,
+        platform: req.body.platform,
+        model: req.body.model,
+        deviceId: req.body.deviceId,
+        imageUrl: req.body.imageUrl,
+        appVersion: req.body.appVersion,
+        profileType: req.body.profileType,
+        lastLogin: new Date().getTime(),
+        signUpDate: new Date().getTime(),
+        lastLocation: coords
+      });
+      newuser.save(newuser, function(err, result) {
+        if (err) {
+          res.json({
+            error: true,
+            data: err
+          });
+        }
+        res.json({
+          error: false,
+          data: {
+            authToken: authToken,
+            id: result._id
+          }
+        });
+      });
+    }
+  });
+};
+
 exports.category = function(req, res) {
   db.collection('category').distinct('category', function(err, docs) {
     docs.sort();

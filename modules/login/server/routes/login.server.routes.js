@@ -12,6 +12,9 @@ module.exports = function(app) {
   app.route('/v2/login')
     .post(login.login);
 
+  app.route('/v2/loginnewuser')
+    .post(login.loginnewuser);
+
   app.route('/v2/loginweb')
     .post(login.loginweb);
 
