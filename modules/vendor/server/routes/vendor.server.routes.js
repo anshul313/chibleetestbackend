@@ -97,4 +97,11 @@ module.exports = function(app) {
   app.route('/v2/webvendorbytag').all(util.userAuthenticate)
     .get(vendors.webvendorbytag);
 
+  app.route('/v2/commentedit')
+    .post(vendors.commentEdit);
+
+  app.route('/v2/commentremove')
+    .get(vendors.commentRemove);
+
+
 };

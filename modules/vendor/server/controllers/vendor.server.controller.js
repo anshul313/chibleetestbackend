@@ -489,7 +489,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-    'Json/sohaib (38969-39968).json'), 'utf8', function(err, data) {
+    'Json/sohaib 5k (48538-49537).json'), 'utf8', function(err, data) {
     var jsonData = JSON.parse(data);
     jsonData.forEach(function(doc) {
       // console.log('doc : ', doc);
@@ -2304,6 +2304,76 @@ exports.webvendorbytag = function(req, res) {
           totalCount: count
         });
       });
+    });
+  });
+}
+
+
+exports.commentEdit = function(req, res) {
+  var commentId = new ObjectID(req.body.commentid);
+
+  comment.findOne({
+    _id: commentId
+  }, function(err, data) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(err)
+      });
+    }
+    var vendorId = new ObjectID(data.vendorId);
+
+    var milliseconds = (new Date).getTime();
+
+    var newcomment = {
+      commentText: req.body.commentText,
+      commentRating: req.body.commentRating,
+      commentUserId: data.commentUserId,
+      vendorId: vendorId,
+      commentAddress: data.commentAddress,
+      commentUserName: data.commentUserName,
+      commentUserImageUrl: data.commentUserImageUrl,
+      commentTime: milliseconds
+    };
+
+    comment.update({
+      _id: commentId,
+    }, {
+      $set: newcomment
+    }, {
+      upsert: true
+    }, function(err, result) {
+      if (err) {
+        return res.status(400).send({
+          message: errorHandler
+            .getErrorMessage(
+              err)
+        });
+      }
+      res.json({
+        error: false,
+        data: 'successfully updated'
+      });
+    });
+  });
+}
+
+exports.commentRemove = function(req, res) {
+  var commentId = new ObjectID(req.query.commentid);
+
+  comment.remove({
+    _id: commentId,
+  }, function(err, result) {
+    if (err) {
+      return res.status(400).send({
+        message: errorHandler
+          .getErrorMessage(
+            err)
+      });
+    }
+    res.json({
+      error: false,
+      data: 'successfully removed'
     });
   });
 }
