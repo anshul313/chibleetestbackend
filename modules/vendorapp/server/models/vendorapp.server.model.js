@@ -7,6 +7,7 @@ var mongoose = require('mongoose'),
   Schema = mongoose.Schema;
 require('mongoose-double')(mongoose);
 var SchemaTypes = mongoose.Schema.Types;
+var bcrypt = require('bcryptjs');
 
 
 var vendorSchema = new Schema({
