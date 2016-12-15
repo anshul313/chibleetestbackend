@@ -1617,6 +1617,8 @@ exports.addNewVendor = function(req, res) {
               "registerTime": new Date().getTime(),
               "keyword": req.body.tags
             }
+          }, {
+            upsert: true
           },
           function(err, data) {
             if (err) {
