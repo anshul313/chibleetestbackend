@@ -1578,6 +1578,7 @@ exports.addNewVendor = function(req, res) {
       });
     } else {
       if (filename == "") {
+        console.log('filename1 : ', filename);
         var remark = '';
         if (!req.body.remarks)
           remark = req.body.remarks;
@@ -1587,41 +1588,40 @@ exports.addNewVendor = function(req, res) {
           multitime = Boolean(req.body.multiTime);
         var homeDelivery = Boolean(req.body.homeDelivery);
 
+        var vendordata = new vendordetail({
+          "multiTime": multitime,
+          "latitude": parseFloat(req.body.latitude, 10),
+          "longitude": parseFloat(req.body.longitude, 10),
+          "mobileNumber": req.body.contact,
+          "subCategory": req.body.subCategory,
+          "category": req.body.category,
+          "remarks": req.body.remarks,
+          "name": req.body.name,
+          "address": req.body.address,
+          "fromTiming": req.body.openingTiming,
+          "toTiming": req.body.closingTiming,
+          "imageUrl": image_url,
+          "area": req.body.area,
+          "shopNumber": req.body.shopNo,
+          "landmark": req.body.landmark,
+          "isHomeDelivery": homeDelivery,
+          "status": 0,
+          "tags": req.body.tags,
+          "userId": req.user._id,
+          "registerTime": new Date().getTime(),
+          "keyword": req.body.tags
+        });
+        console.log('vendordata : ', vendordata);
+        console.log('req.user._id : ', req.user);
         vendordetail.update({
             "userId": req.user._id,
             "name": req.body.name
-          }, {
-            '$set': {
-              "multiTime": multitime,
-              "latitude": parseFloat(req.body.latitude, 10),
-              "longitude": parseFloat(req.body.longitude, 10),
-              "coords": [parseFloat(req.body.longitude, 10),
-                parseFloat(req.body.latitude, 10)
-              ],
-              "mobileNumber": req.body.contact,
-              "subCategory": req.body.subCategory,
-              "category": req.body.category,
-              "remarks": req.body.remarks,
-              "name": req.body.name,
-              "address": req.body.address,
-              "fromTiming": req.body.openingTiming,
-              "toTiming": req.body.closingTiming,
-              "imageUrl": image_url,
-              "area": req.body.area,
-              "shopNumber": req.body.shopNo,
-              "landmark": req.body.landmark,
-              "isHomeDelivery": homeDelivery,
-              "status": 0,
-              "tags": req.body.tags,
-              "userId": req.user._id,
-              "registerTime": new Date().getTime(),
-              "keyword": req.body.tags
-            }
-          }, {
+          }, vendordata, {
             upsert: true
           },
           function(err, data) {
             if (err) {
+              console.log('error : ', err);
               return res.status(400).send({
                 message: errorHandler
                   .getErrorMessage(
@@ -1651,45 +1651,40 @@ exports.addNewVendor = function(req, res) {
           multitime = Boolean(req.body.multiTime);
         var homeDelivery = Boolean(req.body.homeDelivery);
 
+        var vendordata = new vendordetail({
+          "multiTime": multitime,
+          "latitude": parseFloat(req.body.latitude, 10),
+          "longitude": parseFloat(req.body.longitude, 10),
+          "mobileNumber": req.body.contact,
+          "subCategory": req.body.subCategory,
+          "category": req.body.category,
+          "remarks": req.body.remarks,
+          "name": req.body.name,
+          "address": req.body.address,
+          "fromTiming": req.body.openingTiming,
+          "toTiming": req.body.closingTiming,
+          "imageUrl": image_url,
+          "area": req.body.area,
+          "shopNumber": req.body.shopNo,
+          "landmark": req.body.landmark,
+          "isHomeDelivery": homeDelivery,
+          "status": 0,
+          "tags": req.body.tags,
+          "userId": req.user._id,
+          "registerTime": new Date().getTime(),
+          "bookmark": 0,
+          "others": '-',
+          "keyword": req.body.tags
+        });
         vendordetail.update({
             "userId": req.user._id,
             "name": req.body.name
-          }, {
-            '$set': {
-              "multiTime": multitime,
-              "latitude": parseFloat(req.body.latitude, 10),
-              "longitude": parseFloat(req.body.longitude, 10),
-              "coords": [parseFloat(req.body.longitude, 10),
-                parseFloat(
-                  req
-                  .body.latitude, 10)
-              ],
-              "mobileNumber": req.body.contact,
-              "subCategory": req.body.subCategory,
-              "category": req.body.category,
-              "remarks": req.body.remarks,
-              "name": req.body.name,
-              "address": req.body.address,
-              "fromTiming": req.body.openingTiming,
-              "toTiming": req.body.closingTiming,
-              "imageUrl": image_url,
-              "area": req.body.area,
-              "shopNumber": req.body.shopNo,
-              "landmark": req.body.landmark,
-              "isHomeDelivery": homeDelivery,
-              "status": 0,
-              "tags": req.body.tags,
-              "userId": req.user._id,
-              "registerTime": new Date().getTime(),
-              "bookmark": 0,
-              "others": '-',
-              "keyword": req.body.tags
-            }
-          }, {
+          }, vendordata, {
             upsert: true
           },
           function(err, data) {
             if (err) {
+              console.log('error : ', err);
               return res.status(400).send({
                 message: errorHandler
                   .getErrorMessage(
