@@ -1455,18 +1455,113 @@ exports.getContactHistory = function(req, res) {
   });
 }
 
+// exports.addNewVendor = function(req, res) {
+//   var bucket_name = 'chiblee';
+//   var filename = "";
+//   var filename = new Date().getTime() + ".jpg";
+//   console.log(filename);
+//   var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
+//     filename;
+//
+//   var storage = multer.diskStorage({
+//     destination: function(req, file, callback) {
+//       callback(null, './')
+//     },
+//     filename: function(req, file, callback) {
+//       callback(null, filename)
+//     }
+//   });
+//   var uploadfile = multer({
+//     storage: storage,
+//     size: 1080 * 10 * 10 * 10
+//   }).single('file');
+//   uploadfile(req, res, function(err) {
+//     if (err) {
+//       return res.status(400).send({
+//         message: errorHandler
+//           .getErrorMessage(
+//             err)
+//       });
+//     } else {
+//       var readStream = fs.createReadStream('./' +
+//         filename);
+//
+//       s3Upload(readStream, filename, res);
+//       var remark = '';
+//       if (!req.body.remarks)
+//         remark = req.body.remarks;
+//
+//       var multitime = false;
+//       if (req.body.multiTime)
+//         multitime = Boolean(req.body.multiTime);
+//       var homeDelivery = Boolean(req.body.homeDelivery);
+//
+//       var vendordata = new vendordetail({
+//         "multiTime": multitime,
+//         "latitude": parseFloat(req.body.latitude, 10),
+//         "longitude": parseFloat(req.body.longitude, 10),
+//         "coords": [parseFloat(req.body.longitude, 10),
+//           parseFloat(
+//             req
+//             .body.latitude, 10)
+//         ],
+//         "mobileNumber": req.body.contact,
+//         "subCategory": req.body.subCategory,
+//         "category": req.body.category,
+//         "remarks": req.body.remarks,
+//         "name": req.body.name,
+//         "address": req.body.address,
+//         "fromTiming": req.body.openingTiming,
+//         "toTiming": req.body.closingTiming,
+//         "imageUrl": image_url,
+//         "area": req.body.area,
+//         "shopNumber": req.body.shopNo,
+//         "landmark": req.body.landmark,
+//         "isHomeDelivery": homeDelivery,
+//         "status": 0,
+//         "tags": req.body.tags,
+//         "userId": req.user._id,
+//         "registerTime": new Date().getTime(),
+//         "bookmark": 0,
+//         "others": '-',
+//         "keyword": req.body.tags
+//       });
+//       vendordetail.update({
+//           "userId": req.user._id,
+//           "name": req.body.name
+//         }, {
+//           '$set': vendordata
+//         }, {
+//           upsert: true
+//         },
+//         function(err, data) {
+//           if (err) {
+//             return res.status(400).send({
+//               message: errorHandler
+//                 .getErrorMessage(
+//                   err)
+//             });
+//           }
+//           res.json({
+//             "error": false,
+//             "result": "successfully inserted"
+//           });
+//         });
+//     }
+//   });
+// };
+
 exports.addNewVendor = function(req, res) {
   var bucket_name = 'chiblee';
-  var filename = new Date().getTime() + ".jpg";
-  console.log(filename);
-  var image_url = "https://s3-ap-southeast-1.amazonaws.com/chiblee/" +
-    filename;
-
+  var filename = "";
+  var image_url = '';
   var storage = multer.diskStorage({
     destination: function(req, file, callback) {
-      callback(null, './')
+      callback(null, "./")
     },
     filename: function(req, file, callback) {
+      console.log("file", file.originalname)
+      filename = new Date().getTime() + ".png"
       callback(null, filename)
     }
   });
@@ -1482,73 +1577,132 @@ exports.addNewVendor = function(req, res) {
             err)
       });
     } else {
-      var readStream = fs.createReadStream('./' +
-        filename);
+      if (filename == "") {
+        var remark = '';
+        if (!req.body.remarks)
+          remark = req.body.remarks;
 
-      s3Upload(readStream, filename, res);
-      var remark = '';
-      if (!req.body.remarks)
-        remark = req.body.remarks;
+        var multitime = false;
+        if (req.body.multiTime)
+          multitime = Boolean(req.body.multiTime);
+        var homeDelivery = Boolean(req.body.homeDelivery);
 
-      var multitime = false;
-      if (req.body.multiTime)
-        multitime = Boolean(req.body.multiTime);
-      var homeDelivery = Boolean(req.body.homeDelivery);
-
-      var vendordata = new vendordetail({
-        "multiTime": multitime,
-        "latitude": parseFloat(req.body.latitude, 10),
-        "longitude": parseFloat(req.body.longitude, 10),
-        "coords": [parseFloat(req.body.longitude, 10),
-          parseFloat(
-            req
-            .body.latitude, 10)
-        ],
-        "mobileNumber": req.body.contact,
-        "subCategory": req.body.subCategory,
-        "category": req.body.category,
-        "remarks": req.body.remarks,
-        "name": req.body.name,
-        "address": req.body.address,
-        "fromTiming": req.body.openingTiming,
-        "toTiming": req.body.closingTiming,
-        "imageUrl": image_url,
-        "area": req.body.area,
-        "shopNumber": req.body.shopNo,
-        "landmark": req.body.landmark,
-        "isHomeDelivery": homeDelivery,
-        "status": 0,
-        "tags": req.body.tags,
-        "userId": req.user._id,
-        "registerTime": new Date().getTime(),
-        "bookmark": 0,
-        "others": '-',
-        "keyword": req.body.tags
-      });
-      vendordetail.update({
-          "userId": req.user._id,
-          "name": req.body.name
-        }, {
-          '$set': vendordata
-        }, {
-          upsert: true
-        },
-        function(err, data) {
-          if (err) {
-            return res.status(400).send({
-              message: errorHandler
-                .getErrorMessage(
-                  err)
+        vendordetail.update({
+            "userId": req.user._id,
+            "name": req.body.name
+          }, {
+            '$set': {
+              "multiTime": multitime,
+              "latitude": parseFloat(req.body.latitude, 10),
+              "longitude": parseFloat(req.body.longitude, 10),
+              "coords": [parseFloat(req.body.longitude, 10),
+                parseFloat(req.body.latitude, 10)
+              ],
+              "mobileNumber": req.body.contact,
+              "subCategory": req.body.subCategory,
+              "category": req.body.category,
+              "remarks": req.body.remarks,
+              "name": req.body.name,
+              "address": req.body.address,
+              "fromTiming": req.body.openingTiming,
+              "toTiming": req.body.closingTiming,
+              "imageUrl": image_url,
+              "area": req.body.area,
+              "shopNumber": req.body.shopNo,
+              "landmark": req.body.landmark,
+              "isHomeDelivery": homeDelivery,
+              "status": 0,
+              "tags": req.body.tags,
+              "userId": req.user._id,
+              "registerTime": new Date().getTime(),
+              "keyword": req.body.tags
+            }
+          },
+          function(err, data) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            res.json({
+              "error": false,
+              "result": "successfully inserted"
             });
-          }
-          res.json({
-            "error": false,
-            "result": "successfully inserted"
           });
-        });
+      } else {
+        console.log('filename : ', filename);
+        var readStream = fs.createReadStream('./' +
+          filename);
+
+        s3Upload(readStream, filename, req, res);
+        var image_url =
+          'https://s3-ap-southeast-1.amazonaws.com/chiblee/' +
+          filename;
+        var remark = '';
+        if (!req.body.remarks)
+          remark = req.body.remarks;
+
+        var multitime = false;
+        if (req.body.multiTime)
+          multitime = Boolean(req.body.multiTime);
+        var homeDelivery = Boolean(req.body.homeDelivery);
+
+        vendordetail.update({
+            "userId": req.user._id,
+            "name": req.body.name
+          }, {
+            '$set': {
+              "multiTime": multitime,
+              "latitude": parseFloat(req.body.latitude, 10),
+              "longitude": parseFloat(req.body.longitude, 10),
+              "coords": [parseFloat(req.body.longitude, 10),
+                parseFloat(
+                  req
+                  .body.latitude, 10)
+              ],
+              "mobileNumber": req.body.contact,
+              "subCategory": req.body.subCategory,
+              "category": req.body.category,
+              "remarks": req.body.remarks,
+              "name": req.body.name,
+              "address": req.body.address,
+              "fromTiming": req.body.openingTiming,
+              "toTiming": req.body.closingTiming,
+              "imageUrl": image_url,
+              "area": req.body.area,
+              "shopNumber": req.body.shopNo,
+              "landmark": req.body.landmark,
+              "isHomeDelivery": homeDelivery,
+              "status": 0,
+              "tags": req.body.tags,
+              "userId": req.user._id,
+              "registerTime": new Date().getTime(),
+              "bookmark": 0,
+              "others": '-',
+              "keyword": req.body.tags
+            }
+          }, {
+            upsert: true
+          },
+          function(err, data) {
+            if (err) {
+              return res.status(400).send({
+                message: errorHandler
+                  .getErrorMessage(
+                    err)
+              });
+            }
+            res.json({
+              "error": false,
+              "result": "successfully inserted"
+            });
+          });
+      }
     }
   });
-};
+}
 
 var s3Upload = function(readStream, fileName, res) {
   var bucket_name = 'chiblee';
