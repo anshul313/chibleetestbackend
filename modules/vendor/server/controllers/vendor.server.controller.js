@@ -598,7 +598,7 @@ exports.addcomment = function(req, res) {
 
   comment.update({
     commentUserId: req.user._id,
-    commentText: req.body.commentText
+    vendorId: vendorId
   }, {
     $set: newcomment
   }, {
