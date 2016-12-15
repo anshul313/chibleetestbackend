@@ -137,6 +137,30 @@ var vendorSchema = new Schema({
   remarks: {
     type: String,
     default: ''
+  },
+  latitude: {
+    type: Number,
+    default: 0
+  },
+  longitude: {
+    type: Number,
+    default: 0
+  },
+  status: {
+    type: String,
+    default: ''
+  },
+  tags: {
+    type: String,
+    default: ''
+  },
+  userId: {
+    type: String,
+    default: ''
+  },
+  keyword: {
+    type: String,
+    default: ''
   }
 });
 

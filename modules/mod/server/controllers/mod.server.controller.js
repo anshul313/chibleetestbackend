@@ -5,7 +5,6 @@ var passport = require('passport'),
 var methods = {};
 
 exports.modRegister = function(req, res, next) {
-  console.log('hello');
   var name = req.body.name;
   var email = req.body.email;
   var username = req.body.username;
@@ -92,7 +91,6 @@ exports.modLogin = function(req, res, next) {
     } else {
       // Remove sensitive data before login
       user.password = undefined;
-
       req.login(user, function(err) {
         if (err) {
           res.status(400).send(err);

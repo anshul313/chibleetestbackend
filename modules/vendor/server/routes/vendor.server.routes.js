@@ -16,9 +16,6 @@ module.exports = function(app) {
   app.route('/v2/getowlvendor').all(util.userAuthenticate)
     .post(vendors.getOwlVendor);
 
-  app.route('/v2/getelasticvendor/:input/:area/:page').all(util.userAuthenticate)
-    .get(vendors.getelasticvendor);
-
   app.route('/v2/addcomment').all(util.userAuthenticate)
     .post(vendors.addcomment);
 
@@ -33,9 +30,6 @@ module.exports = function(app) {
 
   app.route('/v2/getvendorsbyrating').all(util.userAuthenticate)
     .get(vendors.getVendorsByRating);
-
-  app.route('/v2/getelasticsearchbylatlng/:lat/:lon/:page')
-    .get(vendors.getelasticsearchbylatlng);
 
   app.route('/v2/getVendorsByHomeDelivery').all(util.userAuthenticate)
     .post(vendors.getVendorsByHomeDelivery);
@@ -84,9 +78,6 @@ module.exports = function(app) {
 
   app.route('/v2/addbanner')
     .post(vendors.addBanner);
-
-  app.route('/v2/temp')
-    .get(vendors.temp);
 
   app.route('/v2/autosearch')
     .get(vendors.autosearch);

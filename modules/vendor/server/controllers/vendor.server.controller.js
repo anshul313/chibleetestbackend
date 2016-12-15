@@ -35,35 +35,13 @@ var JSONStream = require('JSONStream');
 var es = require('event-stream');
 var suggestTag = mongoose.model('tagschema');
 var geolib = require('geolib');
-var underscore = require('underscore')
-  // var elastic = require('../../../../config/lib/elasticsearch.js');
-
-// var elasticsearch = require('elasticsearch');
-// var client = new elasticsearch.Client({
-//   host: 'localhost:9200',
-//   log: 'trace'
-// });
-//
-// client.ping({
-//   // ping usually has a 3000ms timeout
-//   requestTimeout: Infinity,
-//   // undocumented params are appended to the query string
-//   hello: "elasticsearch!"
-// }, function(error) {
-//   if (error) {
-//     console.trace('elasticsearch cluster is down!');
-//   } else {
-//     console.log('All is well');
-//   }
-// });
-
+var underscore = require('underscore');
+var vendordetail = mongoose.model('vendorDetail');
 
 exports.getvendors = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-
   var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
-
 
   vendor.aggregate([{
     $geoNear: {
@@ -93,7 +71,6 @@ exports.getvendors = function(req, res) {
             err)
       });
     }
-    console.log(data.length)
     data.forEach(function(doc) {
       asyncTasks.push(function(callback) {
         var bookmark = 0;
@@ -188,7 +165,6 @@ exports.getvendors = function(req, res) {
 exports.getOwlVendor = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
-
   var coordinates = [parseFloat(req.body.lng), parseFloat(req.body.lat)];
 
   vendor.aggregate([{
@@ -220,7 +196,6 @@ exports.getOwlVendor = function(req, res) {
             err)
       });
     }
-    console.log(data.length)
     data.forEach(function(doc) {
       asyncTasks.push(function(callback) {
         var bookmark = 0;
@@ -257,7 +232,6 @@ exports.getOwlVendor = function(req, res) {
               latitude: Number(req.body.lat),
               longitude: Number(req.body.lng)
             }) / 1000;
-            // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
               name: doc['name'],
@@ -359,7 +333,6 @@ exports.vendorByArea = function(req, res) {
               temp.push(bookmarkvendorIds[i].toString())
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
-            // var q = bookmarkvendorIds.indexOf(doc['_id'])
             var obj = new Object({
               _id: doc['_id'],
               name: doc['name'],
@@ -414,72 +387,6 @@ exports.vendorByArea = function(req, res) {
     });
   });
 }
-
-
-exports.getelasticsearchbylatlng = function(req, res) {
-  var coordinates = [77.15911, 28.7197545];
-  db.collection('cleanvendor').find({
-    // coords: {
-    //   $nearSphere: {
-    //     $geometry: {
-    //       type: "Point",
-    //       coordinates: [77.15911, 28.7197545]
-    //     },
-    //     $minDistance: 0,
-    //     $maxDistance: 5000,
-    //     distanceMultiplier: 3963.2
-    //   }
-    // }
-  }).toArray(function(err, result) {
-    if (err)
-      console.log('error : ', err);
-    console.log('result : ', result);
-  });
-}
-
-
-exports.getelasticvendor = function(req, res) {
-  var inp = req.params.input;
-  var area = req.params.area;
-  var page = req.params.page;
-  client.search({
-    index: 'cleanvendors',
-    type: 'Document',
-    size: 10,
-    from: 10 * (page - 1),
-    body: {
-      query: {
-        filtered: {
-          query: {
-            multi_match: {
-              "query": inp,
-              "fields": ["name", "category", "tags"],
-              "type": "phrase_prefix"
-            }
-          },
-          filter: {
-            "query": {
-              "match": {
-                "area": area
-              }
-            }
-          }
-        }
-      }
-    }
-  }).then(function(resp) {
-    var result = [];
-    for (var i = 0; i < resp.hits.hits.length; i++)
-      result.push(resp.hits.hits[i]['_source']);
-    res.json({
-      error: false,
-      data: result
-    });
-  }, function(err) {
-    console.log('Error : ', err);
-  });
-}
-
 
 exports.addvendor = function(req, res) {
   console.log('add vendor');
@@ -566,7 +473,6 @@ exports.addvendor = function(req, res) {
         });
       });
     });
-
     async.parallel(asyncTasks, function(err, result) {
       if (err) {
         return res.status(400).send({
@@ -579,7 +485,6 @@ exports.addvendor = function(req, res) {
 }
 
 exports.googleDataInsert = function(req, res) {
-
   var q = 103696;
   var count = 1;
   var l = 0;
@@ -656,14 +561,6 @@ exports.googleDataInsert = function(req, res) {
                 if (err) {
                   console.log('error : ', err);
                 }
-                // client.index({
-                //   index: 'cleanvendors',
-                //   type: 'Document',
-                //   id: ++q,
-                //   body: vendorData
-                // }, function(error, response) {
-                //   console.log('index created');
-                // });
                 console.log('insert successfully : ',
                   count++);
               });
@@ -1204,43 +1101,14 @@ exports.addBookMark = function(req, res) {
   }
 }
 
-// exports.deleteBookMark = function(req, res) {
-//   var vendorId = new ObjectID(req.params.vendorId);
-//   bookmarkUsers.remove({
-//     bookmarkUserId: req.user._id,
-//     bookmarkVendorId: vendorId
-//   }, function(err, result) {
-//     if (err) {
-//       return res.status(400).send({
-//         error: true,
-//         data: err
-//       });
-//     }
-//     vendor.update({
-//       _id: vendorId
-//     }, {
-//       $set: {
-//         bookmark: false
-//       }
-//     }, function(err, result) {
-//       res.json({
-//         error: false,
-//         data: 'successfully deleted'
-//       });
-//     });
-//   });
-// }
-
 exports.getBookMark = function(req, res) {
   var finalresult = [];
   var asyncTasks = [];
   var limit = 10;
   var skip = limit * parseInt(req.params.page);
-  // console.log(req.user._id);
   bookmarkUsers.find({
     bookmarkUserId: req.user._id
   }).distinct('bookmarkVendorId', function(err, bookmarkvendorIds) {
-    // console.log(bookmarkvendorIds);
     vendor.find({
       _id: {
         '$in': bookmarkvendorIds
@@ -1250,7 +1118,6 @@ exports.getBookMark = function(req, res) {
         asyncTasks.push(function(callback) {
           var bookmark = 0;
           var vendorId = doc['_id'].toString();
-
           comment.find({
             vendorId: vendorId
           }, function(err, result) {
@@ -1309,7 +1176,6 @@ exports.getBookMark = function(req, res) {
               keyword: data['keyword'],
               distance: distance
             });
-
             finalresult.push(obj);
             callback(err, obj);
           });
@@ -1629,7 +1495,7 @@ exports.addNewVendor = function(req, res) {
         multitime = Boolean(req.body.multiTime);
       var homeDelivery = Boolean(req.body.homeDelivery);
 
-      var vendordata = new Object({
+      var vendordata = new vendordetail({
         "multiTime": multitime,
         "latitude": parseFloat(req.body.latitude, 10),
         "longitude": parseFloat(req.body.longitude, 10),
@@ -1638,28 +1504,28 @@ exports.addNewVendor = function(req, res) {
             req
             .body.latitude, 10)
         ],
-        "contact": req.body.contact,
+        "mobileNumber": req.body.contact,
         "subCategory": req.body.subCategory,
         "category": req.body.category,
         "remarks": req.body.remarks,
         "name": req.body.name,
         "address": req.body.address,
-        "openingTiming": req.body.openingTiming,
-        "closingTiming": req.body.closingTiming,
+        "fromTiming": req.body.openingTiming,
+        "toTiming": req.body.closingTiming,
         "imageUrl": image_url,
         "area": req.body.area,
-        "shopNo": req.body.shopNo,
+        "shopNumber": req.body.shopNo,
         "landmark": req.body.landmark,
-        "homeDelivery": homeDelivery,
+        "isHomeDelivery": homeDelivery,
         "status": 0,
         "tags": req.body.tags,
         "userId": req.user._id,
-        "saveTime": new Date().getTime(),
+        "registerTime": new Date().getTime(),
         "bookmark": 0,
         "others": '-',
         "keyword": req.body.tags
       });
-      db.collection('addedvendors').update({
+      vendordetail.update({
           "userId": req.user._id,
           "name": req.body.name
         }, {
@@ -1713,7 +1579,7 @@ var s3Upload = function(readStream, fileName, res) {
 
 
 exports.getAddedNewVendor = function(req, res) {
-  db.collection('addedvendors').find({
+  vendordetail.find({
     userId: req.user._id
   }).toArray(function(err, docs) {
     console.log('docs : ', docs);
@@ -1814,7 +1680,7 @@ exports.getUserComments = function(req, res) {
 
 exports.deleteVendor = function(req, res) {
   var vendorId = new ObjectID(req.params.vendorId);
-  db.collection('addedvendors').remove({
+  vendordetail.remove({
     '_id': vendorId
   }, function(err, docs) {
     if (err) {
@@ -1842,35 +1708,6 @@ exports.convertExcelToJson = function(req, res) {
         console.log(result);
       }
     });
-}
-
-
-exports.temp = function(req, res) {
-  var q = 0;
-  var data = {};
-  var data1 = [];
-
-  var JSONStream = require('JSONStream');
-
-  var stream = fs.createReadStream(path.resolve(__dirname, 'bnk_data.json'), {
-      encoding: 'utf8'
-    }),
-    parser = JSONStream.parse();
-
-  stream.pipe(parser);
-  parser.on('data', function(obj) {
-    // console.log(obj); // whatever you will do with each JSON object
-    // console.log(obj.length);
-    for (var i = 0; i < obj.length; i++) {
-      // console.log(obj[i].address);
-      data1.push(obj[i].address);
-    }
-  });
-  parser.on('end', function(item) {
-    console.log('end'); // whatever you will do with each JSON object
-    console.log('data : ', data1);
-  });
-
 }
 
 exports.getBanner = function(req, res) {
