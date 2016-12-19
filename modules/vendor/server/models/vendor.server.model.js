@@ -27,9 +27,6 @@ var commentSchema = new Schema({
   commentUserImageUrl: {
     type: String
   },
-  commentAddress: {
-    type: String
-  },
   commentTime: {
     type: Number
   }

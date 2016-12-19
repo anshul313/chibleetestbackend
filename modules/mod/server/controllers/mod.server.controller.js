@@ -5,12 +5,20 @@ var passport = require('passport'),
 var methods = {};
 
 exports.modRegister = function(req, res, next) {
+<<<<<<< HEAD
     console.log('hello');
     var name = req.body.name;
     var email = req.body.email;
     var username = req.body.username;
     var password = req.body.password;
     var password2 = req.body.password2;
+=======
+  var name = req.body.name;
+  var email = req.body.email;
+  var username = req.body.username;
+  var password = req.body.password;
+  var password2 = req.body.password2;
+>>>>>>> 09cf269aac4d8a52f59f5bd6ccd00781183d7f97
 
     // Validation
     req.checkBody('name', 'Name is required').notEmpty();
@@ -89,8 +97,19 @@ exports.modLogin = function(req, res, next) {
     console.log('session thing :  ', sess);
     passport.authenticate('local', function(err, user, info) {
 
+<<<<<<< HEAD
         if (err || !user) {
             res.status(422).send(info);
+=======
+    if (err || !user) {
+      res.status(422).send(info);
+    } else {
+      // Remove sensitive data before login
+      user.password = undefined;
+      req.login(user, function(err) {
+        if (err) {
+          res.status(400).send(err);
+>>>>>>> 09cf269aac4d8a52f59f5bd6ccd00781183d7f97
         } else {
             sess.email = user.email;
             // console.log('user  :  ', user);

@@ -13,7 +13,7 @@ var AWS = require('aws-sdk');
 var crypto = require('crypto');
 var multer = require('multer');
 // var v2payload = require("v2payload");
-var vendor = mongoose.model('vendorDetail');
+var vendordetail = mongoose.model('vendorDetail');
 var vendorlocation = mongoose.model('Location');
 var user = mongoose.model('chibleeusers');
 var vendor = mongoose.model('cleanvendor');
@@ -101,7 +101,7 @@ exports.launch = function(req, res) {
             } else if (data) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
-              vendor.update({
+              vendordetail.update({
                   mobileNumber: req.body.mobileNumber
                 }, {
                   "$set": {
@@ -162,7 +162,7 @@ exports.launch = function(req, res) {
                 1) + 1000));
               var authtoken = crypto.createHmac('sha256', req.body.deviceID)
                 .update(req.body.email).digest('hex');
-              var vendorDetail = new vendor({
+              var vendorDetail = new vendordetail({
                 deviceID: req.body.deviceID,
                 email: req.body.email,
                 model: req.body.model,
@@ -223,7 +223,7 @@ exports.launch = function(req, res) {
 
           s3Upload(readStream, filename, req, res);
 
-          vendor.findOne({
+          vendordetail.findOne({
             mobileNumber: req.body.mobileNumber
           }, function(err, data) {
             if (err) {
@@ -235,7 +235,7 @@ exports.launch = function(req, res) {
             } else if (data) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
-              vendor.update({
+              vendordetail.update({
                   mobileNumber: req.body.mobileNumber
                 }, {
                   "$set": {
@@ -295,7 +295,7 @@ exports.launch = function(req, res) {
                 1) + 1000));
               var authtoken = crypto.createHmac('sha256', req.body.deviceID)
                 .update(req.body.email).digest('hex');
-              var vendorDetail = new vendor({
+              var vendorDetail = new vendordetail({
                 deviceID: req.body.deviceID,
                 email: req.body.email,
                 model: req.body.model,
