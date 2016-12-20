@@ -392,96 +392,98 @@ exports.addvendor = function(req, res) {
   console.log('add vendor');
   var i = 0;
   var q = 37594;
-  var count = 73077;
+  var count = 0;
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-    'Json/sohaib 5k (48538-49537).json'), 'utf8', function(err, data) {
-    var jsonData = JSON.parse(data);
-    jsonData.forEach(function(doc) {
-      // console.log('doc : ', doc);
-      asyncTasks.push(function(callback) {
+      'json/Firdaus (72133-73174).json'),
+    'utf8',
+    function(err, data) {
+      var jsonData = JSON.parse(data);
+      jsonData.forEach(function(doc) {
+        // console.log('doc : ', doc);
+        asyncTasks.push(function(callback) {
 
-        if (doc['Latitude'] === "-")
-          doc['Latitude'] = 0;
-        if (doc['Longitude'] === "-")
-          doc['Longitude'] = 0;
+          if (doc['Latitude'] === "-")
+            doc['Latitude'] = 0;
+          if (doc['Longitude'] === "-")
+            doc['Longitude'] = 0;
 
-        // var tags = doc['tags'].split(',');
-        var coordinate = [];
-        coordinate.push(doc['Longitude']);
-        coordinate.push(doc['Latitude']);
-        var homeDelivery = false;
-        if (doc['Home Delivery?'] != "No") {
-          homeDelivery = true;
-        }
-
-        var multiTime = false;
-        if (doc['Multi'] != "-") {
-          multiTime = true;
-        }
-
-        var night = false;
-        if (doc['night'] != "FALSE") {
-          night = true;
-        }
-
-        count++;
-        var vendorData = new vendor({
-          serialnumber: doc['S.No.'],
-          name: doc['Name of vendor'],
-          contact: doc['Contact'].toString(),
-          category: doc['Category'],
-          subCategory: doc['Sub-category'],
-          address: doc['Address_raw'],
-          area: doc['Location'],
-          latitude: doc['Latitude'],
-          longitude: doc['Longitude'],
-          openingTiming: doc['Open_timing'],
-          closingTiming: doc['Close_timing'],
-          imageUrl: '-',
-          saveTime: new Date().getTime(),
-          multiTime: multiTime,
-          others: doc['Others_raw'],
-          tags: doc['Tags'],
-          coords: coordinate,
-          homeDelivery: homeDelivery,
-          remarks: doc['Remarks'],
-          shopNo: '',
-          city: doc['City'],
-          status: 1,
-          keyword: doc['Adword Keywords'],
-          night: night
-        });
-
-        var query = {
-          serialnumber: doc['S.No.']
-        };
-        vendor.findOne(query, function(err, docs) {
-          if (err) {
-            console.log('error : ', err);
+          // var tags = doc['tags'].split(',');
+          var coordinate = [];
+          coordinate.push(doc['Longitude']);
+          coordinate.push(doc['Latitude']);
+          var homeDelivery = false;
+          if (doc['Home Delivery?'] != "No") {
+            homeDelivery = true;
           }
-          if (!docs) {
-            vendorData.save(function(err1, docs1) {
-              if (err1) {
-                console.log('error : ', err);
-              }
-              console.log("succesfully saved : ",
-                count);
-            })
+
+          var multiTime = false;
+          if (doc['Multi'] != "-") {
+            multiTime = true;
           }
+
+          var night = false;
+          if (doc['night'] != "FALSE") {
+            night = true;
+          }
+
+          count++;
+          var vendorData = new vendor({
+            serialnumber: doc['S.No.'],
+            name: doc['Name of vendor'],
+            contact: doc['Contact'].toString(),
+            category: doc['Category'],
+            subCategory: doc['Sub-category'],
+            address: doc['Address_raw'],
+            area: doc['Location'],
+            latitude: doc['Latitude'],
+            longitude: doc['Longitude'],
+            openingTiming: doc['Open_timing'],
+            closingTiming: doc['Close_timing'],
+            imageUrl: '-',
+            saveTime: new Date().getTime(),
+            multiTime: multiTime,
+            others: doc['Others_raw'],
+            tags: doc['Tags'],
+            coords: coordinate,
+            homeDelivery: homeDelivery,
+            remarks: doc['Remarks'],
+            shopNo: '',
+            city: doc['City'],
+            status: 1,
+            keyword: doc['Adword Keywords'],
+            night: night
+          });
+
+          var query = {
+            serialnumber: doc['S.No.']
+          };
+          vendor.findOne(query, function(err, docs) {
+            if (err) {
+              console.log('error : ', err);
+            }
+            if (!docs) {
+              vendorData.save(function(err1, docs1) {
+                if (err1) {
+                  console.log('error : ', err);
+                }
+                console.log("succesfully saved : ",
+                  ++count);
+              })
+            }
+          });
         });
       });
+      async.parallel(asyncTasks, function(err, result) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler
+              .getErrorMessage(err)
+          });
+        }
+      });
     });
-    async.parallel(asyncTasks, function(err, result) {
-      if (err) {
-        return res.status(400).send({
-          message: errorHandler
-            .getErrorMessage(err)
-        });
-      }
-    });
-  });
 }
 
 exports.googleDataInsert = function(req, res) {
