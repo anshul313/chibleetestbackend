@@ -396,7 +396,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Firdaus (72133-73174).json'),
+      'json/Sohaib 5k (48538-49537).json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);
@@ -470,6 +470,21 @@ exports.addvendor = function(req, res) {
                 }
                 console.log("succesfully saved : ",
                   ++count);
+              })
+            } else {
+              vendor.remove({
+                _id: docs._id
+              }, function(err1, docs1) {
+                if (err1) {
+                  console.log('error : ', err);
+                }
+                vendorData.save(function(err1, docs1) {
+                  if (err1) {
+                    console.log('error : ', err);
+                  }
+                  console.log("succesfully saved : ",
+                    ++count);
+                })
               })
             }
           });
