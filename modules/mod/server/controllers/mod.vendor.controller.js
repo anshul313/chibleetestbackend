@@ -153,6 +153,10 @@ exports.confirmVendor = function(req, res) {
           });
         });
       });
+    } else {
+      res.json({
+        message: 'vendor exists'
+      });
     }
   });
 }
