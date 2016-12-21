@@ -58,3 +58,509 @@
 
 2016-12-21T07:31:10.320Z - info: 127.0.0.1 - - [21/Dec/2016:07:31:10 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
 
+2016-12-21T07:38:28.807Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:28 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 200 841 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:38:28.905Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:28 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:38:28.942Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:28 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:38:29.585Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:29 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 200 841 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:38:29.620Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:29 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:38:29.675Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:29 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:38:46.431Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:46 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:38:46.487Z - info: 127.0.0.1 - - [21/Dec/2016:07:38:46 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:21.465Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:21 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:21.582Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:21 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:22.155Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:22 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:22.217Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:22 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:22.222Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:22 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:22.541Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:22 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:26.539Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:26 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:26.559Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:26 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:26.744Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:26 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:27.374Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:27 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:27.464Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:27 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:27.536Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:27 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:38.711Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:38 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:39.304Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:39 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:40:56.814Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:56 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:40:57.453Z - info: 127.0.0.1 - - [21/Dec/2016:07:40:57 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:44.771Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:44 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:45.168Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:45 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:45.809Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:45 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:45.843Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:45 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:46.197Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:46 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:46.872Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:46 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:50.789Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:50 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:50.993Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:50 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:51.091Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:51 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:41:51.714Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:51 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:52.124Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:52 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:41:52.441Z - info: 127.0.0.1 - - [21/Dec/2016:07:41:52 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:42:00.360Z - info: 127.0.0.1 - - [21/Dec/2016:07:42:00 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:42:01.206Z - info: 127.0.0.1 - - [21/Dec/2016:07:42:01 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:49:21.698Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:21 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:49:21.743Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:21 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:49:22.269Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:22 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:49:22.385Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:22 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:49:22.600Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:22 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:49:23.441Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:23 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:49:59.813Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:59 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:49:59.961Z - info: 127.0.0.1 - - [21/Dec/2016:07:49:59 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:50:00.051Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:00 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:50:00.528Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:00 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:50:00.552Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:00 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:50:00.605Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:00 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:50:12.541Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:12 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:50:13.196Z - info: 127.0.0.1 - - [21/Dec/2016:07:50:13 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:01.935Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:01 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:02.147Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:02 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:02.872Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:02 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:06.200Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:06 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:06.354Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:06 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:06.540Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:06 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:15.213Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:15 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:38.162Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:38 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:38.250Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:38 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:51:38.344Z - info: 127.0.0.1 - - [21/Dec/2016:07:51:38 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:17.614Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:17 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:17.859Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:17 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:18.077Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:18 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:19.165Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:19 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:19.897Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:19 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:19.944Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:19 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:21.473Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:21 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:21.729Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:21 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:21.760Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:21 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:22.025Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:22 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:22.132Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:22 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:22.257Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:22 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:31.316Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:31 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:31.670Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:31 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:53:47.819Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:47 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:47.927Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:47 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:48.246Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:48 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:55.335Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:55 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:55.445Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:55 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:53:55.450Z - info: 127.0.0.1 - - [21/Dec/2016:07:53:55 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:02.162Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:02 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:03.075Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:03 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:54:26.239Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:26 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:26.641Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:26 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:26.642Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:26 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:31.431Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:31 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:32.894Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:32 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:54:32.895Z - info: 127.0.0.1 - - [21/Dec/2016:07:54:32 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:39.401Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:39 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:39.446Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:39 +0000] "GET /v2/vendor-list HTTP/1.1" 200 369 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:39.771Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:39 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 369 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:41.016Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:41 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:41.135Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:41 +0000] "GET /v2/vendor-list HTTP/1.1" 200 369 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:41.137Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:41 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 369 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:42.776Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:42 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 200 842 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:42.811Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:42 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:43.906Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:43 +0000] "GET /v2/vendor-details-by-id?objId=5847b32505f33d8bf11e8c19 HTTP/1.1" 200 842 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:44.137Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:44 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:44.247Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:44 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:56:44.873Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:44 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:56.960Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:56 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T07:56:57.413Z - info: 127.0.0.1 - - [21/Dec/2016:07:56:57 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 27 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:57:42.711Z - info: 127.0.0.1 - - [21/Dec/2016:07:57:42 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T07:57:44.702Z - info: 127.0.0.1 - - [21/Dec/2016:07:57:44 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:00:10.529Z - error: uncaughtException: Unexpected token if date=Wed Dec 21 2016 13:30:10 GMT+0530 (IST), pid=95340, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=107171840, heapTotal=77545312, heapUsed=58437680, loadavg=[3.51611328125, 4.41015625, 4.44873046875], uptime=1133621
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:00:31.139Z - error: uncaughtException: Unexpected token if date=Wed Dec 21 2016 13:30:31 GMT+0530 (IST), pid=95383, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=106860544, heapTotal=79609184, heapUsed=52021008, loadavg=[3.40087890625, 4.33203125, 4.41943359375], uptime=1133642
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:00:35.802Z - error: uncaughtException: Unexpected token if date=Wed Dec 21 2016 13:30:35 GMT+0530 (IST), pid=95413, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=107421696, heapTotal=79609184, heapUsed=52074488, loadavg=[3.44873046875, 4.326171875, 4.41650390625], uptime=1133646
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:00:40.860Z - error: uncaughtException: Unexpected token if date=Wed Dec 21 2016 13:30:40 GMT+0530 (IST), pid=95425, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=107548672, heapTotal=77545312, heapUsed=58440624, loadavg=[3.49267578125, 4.3203125, 4.4140625], uptime=1133651
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:00:45.086Z - error: uncaughtException: Unexpected token if date=Wed Dec 21 2016 13:30:45 GMT+0530 (IST), pid=95435, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=107233280, heapTotal=78577248, heapUsed=58282784, loadavg=[3.29296875, 4.26513671875, 4.39404296875], uptime=1133656
+SyntaxError: Unexpected token if
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:02:28.573Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:28 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:02:28.605Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:28 +0000] "GET /v2/vendor-list HTTP/1.1" 200 368 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:02:28.730Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:28 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 368 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:02:30.110Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:30 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:02:30.141Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:30 +0000] "GET /v2/vendor-list HTTP/1.1" 200 368 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:02:30.250Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:30 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 368 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:02:31.790Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:31 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:02:33.642Z - info: 127.0.0.1 - - [21/Dec/2016:08:02:33 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:03:02.413Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:02 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:03:02.763Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:02 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:03:02.919Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:02 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:03:03.654Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:03 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:03:03.969Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:03 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:03:03.970Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:03 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:03:05.815Z - info: 127.0.0.1 - - [21/Dec/2016:08:03:05 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:04:09.725Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:09 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:04:09.813Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:09 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:04:10.069Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:10 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:04:13.747Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:13 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:04:14.549Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:14 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:04:33.378Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:33 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:04:33.631Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:33 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:04:33.741Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:33 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:04:43.646Z - info: 127.0.0.1 - - [21/Dec/2016:08:04:43 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:53:21.490Z - error: uncaughtException: Unexpected token . date=Wed Dec 21 2016 14:23:21 GMT+0530 (IST), pid=97982, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=110391296, heapTotal=81673056, heapUsed=49574160, loadavg=[3.26318359375, 3.1787109375, 3.423828125], uptime=1136812
+SyntaxError: Unexpected token .
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:53:39.814Z - error: uncaughtException: Unexpected token . date=Wed Dec 21 2016 14:23:39 GMT+0530 (IST), pid=98029, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=110309376, heapTotal=81673056, heapUsed=49603696, loadavg=[3.51806640625, 3.2353515625, 3.4384765625], uptime=1136830
+SyntaxError: Unexpected token .
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:373:25)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/mod/server/routes/mod.vendor.routes.js:8:9)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2016-12-21T08:54:13.135Z - info: 127.0.0.1 - - [21/Dec/2016:08:54:13 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:54:13.203Z - info: 127.0.0.1 - - [21/Dec/2016:08:54:13 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:54:13.515Z - info: 127.0.0.1 - - [21/Dec/2016:08:54:13 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:54:16.783Z - info: 127.0.0.1 - - [21/Dec/2016:08:54:16 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:55:20.081Z - info: 127.0.0.1 - - [21/Dec/2016:08:55:20 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:55:20.096Z - info: 127.0.0.1 - - [21/Dec/2016:08:55:20 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:55:20.230Z - info: 127.0.0.1 - - [21/Dec/2016:08:55:20 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:55:24.513Z - info: 127.0.0.1 - - [21/Dec/2016:08:55:24 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:56:11.234Z - info: 127.0.0.1 - - [21/Dec/2016:08:56:11 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:56:11.263Z - info: 127.0.0.1 - - [21/Dec/2016:08:56:11 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:56:11.535Z - info: 127.0.0.1 - - [21/Dec/2016:08:56:11 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:56:11.548Z - info: 127.0.0.1 - - [21/Dec/2016:08:56:11 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:57:08.839Z - info: 127.0.0.1 - - [21/Dec/2016:08:57:08 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T08:57:09.810Z - info: 127.0.0.1 - - [21/Dec/2016:08:57:09 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:57:09.871Z - info: 127.0.0.1 - - [21/Dec/2016:08:57:09 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T08:57:09.872Z - info: 127.0.0.1 - - [21/Dec/2016:08:57:09 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:00:27.342Z - info: 127.0.0.1 - - [21/Dec/2016:09:00:27 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:00:27.398Z - info: 127.0.0.1 - - [21/Dec/2016:09:00:27 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:00:27.740Z - info: 127.0.0.1 - - [21/Dec/2016:09:00:27 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:00:32.363Z - info: 127.0.0.1 - - [21/Dec/2016:09:00:32 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:00:33.379Z - info: 127.0.0.1 - - [21/Dec/2016:09:00:33 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:05:11.134Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:11 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:05:11.136Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:11 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:05:11.410Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:11 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:05:13.628Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:13 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:05:13.681Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:13 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:05:13.899Z - info: 127.0.0.1 - - [21/Dec/2016:09:05:13 +0000] "GET /v2/vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:08:15.969Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:15 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:08:16.049Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:16 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:08:18.790Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:18 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:08:18.973Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:18 +0000] "GET /v2/clean-vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:08:20.803Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:20 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:08:20.814Z - info: 127.0.0.1 - - [21/Dec/2016:09:08:20 +0000] "GET /v2/clean-vendor-list?filter=&limit=5&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:09:02.999Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:02 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:09:04.246Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:04 +0000] "GET /v2/clean-vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:09:06.117Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:06 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:09:06.118Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:06 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2016-12-21T09:09:07.884Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:07 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+
+2016-12-21T09:09:07.945Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:07 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
+

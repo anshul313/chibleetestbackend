@@ -10,10 +10,11 @@ exports.cleanVendorList = function(req, res) {
     console.log(req.query);
     var skip = parseInt(req.query.page) - 1,
         limit = parseInt(req.query.limit),
-        fieldName = req.query.name,
+        // fieldName = req.query.name,
         order = {
-            fieldName: 1
+            "saveTime": -1
         };
+    console.log('order  :  ', order);
     db.collection('cleanvendors').count({}, function(error, count) {
         db.collection('cleanvendors').find({}, {
             _id: 0,
