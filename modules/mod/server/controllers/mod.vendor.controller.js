@@ -1,8 +1,9 @@
 var app = require('../../../../config/lib/app.js');
 var db = app.db();
 var mongo = require('mongodb');
-
-
+var mongoose = require('mongoose');
+var vendor = mongoose.model('cleanvendor');
+var vendordetail = mongoose.model('vendorDetail');
 
 exports.cleanVendorList = function(req, res) {
   console.log('session email in vendor  : ', req.session.email);
@@ -96,7 +97,6 @@ exports.vendorDetailsById = function(req, res) {
 }
 
 exports.confirmVendor = function(req, res) {
-  console.log(req.body);
   var coordinate = [];
   coordinate.push(req.body.latitude);
   coordinate.push(req.body.longitude);
@@ -127,7 +127,6 @@ exports.confirmVendor = function(req, res) {
     keyword: req.body.keyword,
     night: false
   });
-
   var query = {
     serialnumber: req.body._id
   };
@@ -139,19 +138,21 @@ exports.confirmVendor = function(req, res) {
     if (!docs) {
       vendorData.save(function(err1, docs1) {
         if (err1) {
-          console.log('error : ', err);
+          console.log('error1 : ', err1);
         }
-        vendordetail.remove({
-          _id: docs._id
-        }, function(err1, docs1) {
+        vendordetail.update({
+          _id: req.body._id
+        }, {
+          isActive: true
+        }, function(err2, docs1) {
           if (err1) {
-            console.log('error : ', err);
+            console.log('error2 : ', err2);
           }
           res.json({
             message: 'succesfully updated'
           });
-        })
-      })
+        });
+      });
     }
   });
 }
