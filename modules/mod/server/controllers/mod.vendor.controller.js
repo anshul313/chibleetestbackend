@@ -140,6 +140,7 @@ exports.confirmVendor = function(req, res) {
                 if (err1) {
                     console.log('error1 : ', err1);
                 }
+
                 vendordetail.update({
                     _id: req.body._id
                 }, {
@@ -152,6 +153,10 @@ exports.confirmVendor = function(req, res) {
                         message: 'succesfully updated'
                     });
                 });
+            });
+        } else {
+            res.json({
+                message: 'vendor exists'
             });
         }
     });
