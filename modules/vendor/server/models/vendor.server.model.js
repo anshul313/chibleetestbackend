@@ -172,7 +172,7 @@ var vendorSchema = new Schema({
   },
   isActive: {
     type: Boolean,
-    default: false
+    default: true
   },
   platform: {
     type: String,

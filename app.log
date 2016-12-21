@@ -992,3 +992,32 @@ Error: Route.post() requires callback functions but got a [object Undefined]
     at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
     at nextTickCallbackWith0Args (node.js:420:9)
     at process._tickCallback (node.js:349:13)
+2016-12-21T06:26:55.743Z - info: 127.0.0.1 - - [21/Dec/2016:06:26:55 +0000] "POST /v2/confirm-vendor HTTP/1.1" 302 35 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:26:55.900Z - info: 127.0.0.1 - - [21/Dec/2016:06:26:55 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/confirm-vendor" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:28:15.842Z - error: uncaughtException: Cannot read property '_id' of null date=Wed Dec 21 2016 11:58:15 GMT+0530 (IST), pid=16213, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=123641856, heapTotal=104991840, heapUsed=86016936, loadavg=[2.42626953125, 2.1455078125, 2.12548828125], uptime=425249
+TypeError: Cannot read property '_id' of null
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/mod/server/controllers/mod.vendor.controller.js:146:20
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1980:15
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-21T06:28:58.806Z - info: 127.0.0.1 - - [21/Dec/2016:06:28:58 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:31:37.237Z - info: 127.0.0.1 - - [21/Dec/2016:06:31:37 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:33:19.123Z - info: 127.0.0.1 - - [21/Dec/2016:06:33:19 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:34:11.159Z - info: 127.0.0.1 - - [21/Dec/2016:06:34:11 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:36:48.023Z - info: 127.0.0.1 - - [21/Dec/2016:06:36:48 +0000] "POST /v2/confirm-vendor HTTP/1.1" 302 35 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:36:48.451Z - info: 127.0.0.1 - - [21/Dec/2016:06:36:48 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/confirm-vendor" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:37:19.746Z - info: 127.0.0.1 - - [21/Dec/2016:06:37:19 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:38:13.107Z - info: 127.0.0.1 - - [21/Dec/2016:06:38:13 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
+2016-12-21T06:39:57.191Z - info: 127.0.0.1 - - [21/Dec/2016:06:39:57 +0000] "POST /v2/confirm-vendor HTTP/1.1" 200 33 "-" "PostmanRuntime/3.0.5"
+
