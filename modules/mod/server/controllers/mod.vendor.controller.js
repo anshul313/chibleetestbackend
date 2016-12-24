@@ -6,17 +6,48 @@ var vendor = mongoose.model('cleanvendor');
 var vendordetail = mongoose.model('vendorDetail');
 
 exports.cleanVendorList = function(req, res) {
-    console.log('session email in vendor  : ', req.session.email);
-    console.log(req.query);
+    var query = {};
+    if (Object.keys(req.body).length && (req.body.name || req.body.contact || req.body.category || req.body.subCategory || req.body.address)) {
+        query["$and"] = [];
+        if (req.body.name) {
+            query["$and"].push({
+                "name": new RegExp(req.body.name, "i")
+            });
+        }
+        if (req.body.contact) {
+            query["$and"].push({
+                "contact": new RegExp(req.body.contact, "i")
+            });
+        }
+        if (req.body.category) {
+            query["$and"].push({
+                "category": new RegExp(req.body.category, "i")
+            });
+        }
+        if (req.body.subCategory) {
+            query["$and"].push({
+                "subCategory": new RegExp(req.body.subCategory, "i")
+            });
+        }
+        if (req.body.address) {
+            query["$and"].push({
+                "address": new RegExp(req.body.address, "i")
+            });
+        }
+    }
+    var order = {};
+
     var skip = parseInt(req.query.page) - 1,
-        limit = parseInt(req.query.limit),
-        // fieldName = req.query.name,
-        order = {
-            "saveTime": -1
-        };
-    console.log('order  :  ', order);
-    db.collection('cleanvendors').count({}, function(error, count) {
-        db.collection('cleanvendors').find({}, {
+        limit = parseInt(req.query.limit);
+
+    if (req.query.order.charAt(0) == "-") {
+        order[req.query.order.substring(1)] = -1;
+    } else {
+        order[req.query.order] = 1;
+    }
+
+    db.collection('cleanvendors').count(query, function(error, count) {
+        db.collection('cleanvendors').find(query, {
             _id: 0,
             serialnumber: 0,
             area: 0,
