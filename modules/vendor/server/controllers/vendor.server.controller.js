@@ -396,7 +396,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Sohaib 5k (48538-49537).json'),
+      'json/Noida (89060-89023).json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);

@@ -564,3 +564,13 @@ SyntaxError: Unexpected token .
 
 2016-12-21T09:09:07.945Z - info: 127.0.0.1 - - [21/Dec/2016:09:09:07 +0000] "GET /v2/vendor-list HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36"
 
+2016-12-25T18:53:02.445Z - info: 127.0.0.1 - - [25/Dec/2016:18:53:02 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-25T19:03:25.971Z - info: 127.0.0.1 - - [25/Dec/2016:19:03:25 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-25T19:15:02.715Z - info: 127.0.0.1 - - [25/Dec/2016:19:15:02 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T05:55:06.010Z - info: 127.0.0.1 - - [26/Dec/2016:05:55:06 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T06:00:34.037Z - info: 127.0.0.1 - - [26/Dec/2016:06:00:34 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
