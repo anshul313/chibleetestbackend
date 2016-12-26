@@ -95,8 +95,10 @@ exports.getvendors = function(req, res) {
             if (totalRating > 0)
               totalRating = totalRating / result.length;
             var temp = [];
-            for (var i = 0; i < bookmarkvendorIds.length; i++)
-              temp.push(bookmarkvendorIds[i].toString())
+            if (bookmarkvendorIds.length > 0) {
+              for (var i = 0; i < bookmarkvendorIds.length; i++)
+                temp.push(bookmarkvendorIds[i].toString())
+            }
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
@@ -220,8 +222,10 @@ exports.getOwlVendor = function(req, res) {
             if (totalRating > 0)
               totalRating = totalRating / result.length;
             var temp = [];
-            for (var i = 0; i < bookmarkvendorIds.length; i++)
-              temp.push(bookmarkvendorIds[i].toString())
+            if (bookmarkvendorIds.length > 0) {
+              for (var i = 0; i < bookmarkvendorIds.length; i++)
+                temp.push(bookmarkvendorIds[i].toString())
+            }
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
@@ -396,7 +400,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Noida (89060-89023).json'),
+      'json/Night 2.json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);
@@ -404,17 +408,17 @@ exports.addvendor = function(req, res) {
         // console.log('doc : ', doc);
         asyncTasks.push(function(callback) {
 
-          if (doc['Latitude'] === "-")
-            doc['Latitude'] = 0;
-          if (doc['Longitude'] === "-")
-            doc['Longitude'] = 0;
+          if (doc['latitude'] === "-")
+            doc['latitude'] = 0;
+          if (doc['longitude'] === "-")
+            doc['longitude'] = 0;
 
           // var tags = doc['tags'].split(',');
           var coordinate = [];
-          coordinate.push(doc['Longitude']);
-          coordinate.push(doc['Latitude']);
+          coordinate.push(doc['longitude']);
+          coordinate.push(doc['latitude']);
           var homeDelivery = false;
-          if (doc['Home Delivery?'] != "No") {
+          if (doc['homeDelivery'] != "No") {
             homeDelivery = true;
           }
 
@@ -431,28 +435,28 @@ exports.addvendor = function(req, res) {
           count++;
           var vendorData = new vendor({
             serialnumber: doc['S.No.'],
-            name: doc['Name of vendor'],
-            contact: doc['Contact'].toString(),
-            category: doc['Category'],
-            subCategory: doc['Sub-category'],
-            address: doc['Address_raw'],
-            area: doc['Location'],
-            latitude: doc['Latitude'],
-            longitude: doc['Longitude'],
-            openingTiming: doc['Open_timing'],
-            closingTiming: doc['Close_timing'],
+            name: doc['name'],
+            contact: doc['contact'].toString(),
+            category: doc['category'],
+            subCategory: doc['subCategory'],
+            address: doc['address'],
+            area: doc['area'],
+            latitude: doc['latitude'],
+            longitude: doc['longitude'],
+            openingTiming: doc['openingTiming'],
+            closingTiming: doc['closingTiming'],
             imageUrl: '-',
             saveTime: new Date().getTime(),
             multiTime: multiTime,
-            others: doc['Others_raw'],
-            tags: doc['Tags'],
+            others: doc['others'],
+            tags: doc['tags'],
             coords: coordinate,
             homeDelivery: homeDelivery,
-            remarks: doc['Remarks'],
+            remarks: doc['remarks'],
             shopNo: '',
             city: doc['City'],
             status: 1,
-            keyword: doc['Adword Keywords'],
+            keyword: doc['keyword'],
             night: night
           });
 
@@ -466,7 +470,7 @@ exports.addvendor = function(req, res) {
             if (!docs) {
               vendorData.save(function(err1, docs1) {
                 if (err1) {
-                  console.log('error : ', err);
+                  console.log('error1 : ', err1);
                 }
                 console.log("succesfully saved : ",
                   ++count);
@@ -474,13 +478,13 @@ exports.addvendor = function(req, res) {
             } else {
               vendor.remove({
                 _id: docs._id
-              }, function(err1, docs1) {
-                if (err1) {
-                  console.log('error : ', err);
+              }, function(err2, docs1) {
+                if (err2) {
+                  console.log('error2 : ', err2);
                 }
-                vendorData.save(function(err1, docs1) {
+                vendorData.save(function(err3, docs1) {
                   if (err1) {
-                    console.log('error : ', err);
+                    console.log('error3 : ', err3);
                   }
                   console.log("succesfully saved : ",
                     ++count);

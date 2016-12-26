@@ -1,0 +1,165 @@
+2016-12-26T07:30:12.835Z - info: 127.0.0.1 - - [26/Dec/2016:07:30:12 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T07:34:13.050Z - error: uncaughtException: Cannot read property 'toString' of undefined date=Mon Dec 26 2016 13:04:13 GMT+0530 (IST), pid=44693, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=102137856, heapTotal=102940000, heapUsed=83686192, loadavg=[1.6962890625, 2.08740234375, 2.10009765625], uptime=861218
+TypeError: Cannot read property 'toString' of undefined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:435:36
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:718:13
+    at async.forEachOf.async.eachOf (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:233:13)
+    at _parallel (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:717:9)
+    at Object.async.parallel (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/async/lib/async.js:731:9)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:493:13
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+2016-12-26T07:42:16.548Z - info: 127.0.0.1 - - [26/Dec/2016:07:42:16 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T07:55:31.552Z - error: uncaughtException: connection timeout date=Mon Dec 26 2016 13:25:31 GMT+0530 (IST), pid=44942, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=25042944, heapTotal=107055712, heapUsed=78018024, loadavg=[2.3603515625, 2.08935546875, 2.04833984375], uptime=862496
+Error: connection timeout
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at listener (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:260:16)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/pool.js:271:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:175:10)
+    at Socket.g (events.js:260:16)
+    at emitNone (events.js:67:13)
+    at Socket.emit (events.js:166:7)
+    at Socket._onTimeout (net.js:332:8)
+    at _runOnTimeout (timers.js:524:11)
+    at _makeTimerTimeout (timers.js:515:3)
+    at Timer.unrefTimeout (timers.js:584:5)
+2016-12-26T09:02:07.075Z - info: 127.0.0.1 - - [26/Dec/2016:09:02:07 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T09:05:16.768Z - error: uncaughtException: connection timeout date=Mon Dec 26 2016 14:35:16 GMT+0530 (IST), pid=46484, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=25964544, heapTotal=107055712, heapUsed=80026392, loadavg=[2.01220703125, 2.09814453125, 2.0302734375], uptime=866681
+Error: connection timeout
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at listener (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:260:16)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/pool.js:271:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:175:10)
+    at Socket.g (events.js:260:16)
+    at emitNone (events.js:67:13)
+    at Socket.emit (events.js:166:7)
+    at Socket._onTimeout (net.js:332:8)
+    at _runOnTimeout (timers.js:524:11)
+    at _makeTimerTimeout (timers.js:515:3)
+    at Timer.unrefTimeout (timers.js:584:5)
+2016-12-26T09:05:41.077Z - info: 127.0.0.1 - - [26/Dec/2016:09:05:41 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-26T09:11:13.243Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=119533568, heapTotal=106023776, heapUsed=84373960, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.702Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=123584512, heapTotal=106023776, heapUsed=86012512, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.706Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=123740160, heapTotal=106023776, heapUsed=86254680, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.708Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=123899904, heapTotal=106023776, heapUsed=86433920, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-26T09:11:13.758Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=124346368, heapTotal=106023776, heapUsed=86955960, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.823Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=124837888, heapTotal=106023776, heapUsed=87145768, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.829Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=124887040, heapTotal=106023776, heapUsed=87485008, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.832Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=125349888, heapTotal=107043680, heapUsed=87678552, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-26T09:11:13.835Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=125554688, heapTotal=107043680, heapUsed=87902840, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.839Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=125648896, heapTotal=107043680, heapUsed=88161632, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-26T09:11:13.840Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=125779968, heapTotal=108075616, heapUsed=88381408, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.842Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=125865984, heapTotal=108075616, heapUsed=88561776, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-26T09:11:13.920Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=126062592, heapTotal=108075616, heapUsed=88845816, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:11:13.926Z - error: uncaughtException: err1 is not defined date=Mon Dec 26 2016 14:41:13 GMT+0530 (IST), pid=46734, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=126218240, heapTotal=108075616, heapUsed=89054304, loadavg=[1.67578125, 2.01416015625, 2.0087890625], uptime=867038
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:478:21
+    at Immediate.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16)
+    at Immediate._onImmediate (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-26T09:49:52.399Z - info: 127.0.0.1 - - [26/Dec/2016:09:49:52 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
