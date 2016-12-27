@@ -95,10 +95,8 @@ exports.getvendors = function(req, res) {
             if (totalRating > 0)
               totalRating = totalRating / result.length;
             var temp = [];
-            if (bookmarkvendorIds.length > 0) {
-              for (var i = 0; i < bookmarkvendorIds.length; i++)
-                temp.push(bookmarkvendorIds[i].toString())
-            }
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
@@ -222,10 +220,8 @@ exports.getOwlVendor = function(req, res) {
             if (totalRating > 0)
               totalRating = totalRating / result.length;
             var temp = [];
-            if (bookmarkvendorIds.length > 0) {
-              for (var i = 0; i < bookmarkvendorIds.length; i++)
-                temp.push(bookmarkvendorIds[i].toString())
-            }
+            for (var i = 0; i < bookmarkvendorIds.length; i++)
+              temp.push(bookmarkvendorIds[i].toString())
             if (_.includes(temp, doc['_id'].toString()))
               bookmark = 1;
 
@@ -400,7 +396,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Night 2.json'),
+      'json/Night 9.json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);
