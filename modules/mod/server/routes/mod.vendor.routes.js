@@ -20,4 +20,7 @@ module.exports = function(app) {
 
     app.route('/v2/confirm-vendor')
         .post(mod.confirmVendor);
+
+    app.route('/v2/clean-vendor-details-by-id')
+        .get(mod.cleanVendorDetailsById);
 };
