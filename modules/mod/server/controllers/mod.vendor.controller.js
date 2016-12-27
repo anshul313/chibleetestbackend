@@ -48,7 +48,6 @@ exports.cleanVendorList = function(req, res) {
 
     db.collection('cleanvendors').count(query, function(error, count) {
         db.collection('cleanvendors').find(query, {
-            _id: 0,
             serialnumber: 0,
             area: 0,
             imageUrl: 0,
@@ -191,5 +190,14 @@ exports.confirmVendor = function(req, res) {
                 message: 'vendor exists'
             });
         }
+    });
+}
+
+exports.cleanVendorDetailsById = function(req, res) {
+    db.collection('cleanvendors').find({
+        _id: new mongo.ObjectID(req.query.objId)
+    }).toArray(function(err, result) {
+        // console.log('res ', result);
+        res.json(result[0]);
     });
 }
