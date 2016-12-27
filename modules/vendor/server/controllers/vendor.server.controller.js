@@ -64,6 +64,7 @@ exports.getvendors = function(req, res) {
   }, {
     $limit: 40
   }], function(err, data) {
+    console.log('err : ', err);
     if (err) {
       return res.status(400).send({
         message: errorHandler
