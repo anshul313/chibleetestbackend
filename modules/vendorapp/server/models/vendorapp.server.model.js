@@ -19,7 +19,7 @@ var vendorSchema = new Schema({
     type: String,
     default: ''
   },
-  mobileNumber: {
+  contact: {
     type: Number,
     default: 0
   },
@@ -147,8 +147,8 @@ var vendorSchema = new Schema({
     default: 0
   },
   status: {
-    type: String,
-    default: ''
+    type: Number,
+    default: 0
   },
   tags: {
     type: String,
@@ -162,6 +162,8 @@ var vendorSchema = new Schema({
     type: String,
     default: ''
   }
+}, {
+  strict: true
 });
 
 

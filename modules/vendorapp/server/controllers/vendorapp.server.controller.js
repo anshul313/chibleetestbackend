@@ -90,7 +90,7 @@ exports.launch = function(req, res) {
       } else {
         if (filename == "") {
           vendor.findOne({
-            mobileNumber: req.body.mobileNumber
+            contact: req.body.mobileNumber
           }, function(err, data) {
             if (err) {
               response.error = true;
@@ -105,10 +105,11 @@ exports.launch = function(req, res) {
                   mobileNumber: req.body.mobileNumber
                 }, {
                   "$set": {
+                    userId: req.body.userId,
                     deviceID: req.body.deviceID,
                     email: req.body.email,
                     model: req.body.model,
-                    mobileNumber: req.body.mobileNumber,
+                    contact: req.body.mobileNumber,
                     appVersion: req.body.appVersion,
                     paytmNumber: req.body.paytmNumber,
                     mobikwikNumber: req.body.mobikwikNumber,
@@ -131,6 +132,7 @@ exports.launch = function(req, res) {
                     OTP: parseInt(OTP),
                     speciality: req.body.speciality,
                     offDays: req.body.offDays,
+                    remarks: req.body.remarks
                   }
                 }, {
                   multi: true
@@ -163,11 +165,12 @@ exports.launch = function(req, res) {
               var authtoken = crypto.createHmac('sha256', req.body.deviceID)
                 .update(req.body.email).digest('hex');
               var vendorDetail = new vendordetail({
+                userId: req.body.userId,
                 deviceID: req.body.deviceID,
                 email: req.body.email,
                 model: req.body.model,
                 authToken: authtoken,
-                mobileNumber: req.body.mobileNumber,
+                contact: req.body.mobileNumber,
                 appVersion: req.body.appVersion,
                 paytmNumber: req.body.paytmNumber,
                 mobikwikNumber: req.body.mobikwikNumber,
@@ -193,7 +196,6 @@ exports.launch = function(req, res) {
                 isActive: false,
                 multiTime: req.body.multiTime,
                 remarks: req.body.remarks
-                  // ARN: endpointArn
               });
               vendorDetail.save(function(err, data) {
                 if (err) {
@@ -224,7 +226,7 @@ exports.launch = function(req, res) {
           s3Upload(readStream, filename, req, res);
 
           vendordetail.findOne({
-            mobileNumber: req.body.mobileNumber
+            contact: req.body.mobileNumber
           }, function(err, data) {
             if (err) {
               response.error = true;
@@ -236,13 +238,14 @@ exports.launch = function(req, res) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
               vendordetail.update({
-                  mobileNumber: req.body.mobileNumber
+                  contact: req.body.mobileNumber
                 }, {
                   "$set": {
+                    userId: req.body.userId,
                     deviceID: req.body.deviceID,
                     email: req.body.email,
                     model: req.body.model,
-                    mobileNumber: req.body.mobileNumber,
+                    contact: req.body.mobileNumber,
                     appVersion: req.body.appVersion,
                     paytmNumber: req.body.paytmNumber,
                     mobikwikNumber: req.body.mobikwikNumber,
@@ -264,7 +267,8 @@ exports.launch = function(req, res) {
                     imageUrl: image_url,
                     OTP: parseInt(OTP),
                     speciality: req.body.speciality,
-                    offDays: req.body.offDays
+                    offDays: req.body.offDays,
+                    remarks: req.body.remarks
                   }
                 }, {
                   multi: true
@@ -296,11 +300,12 @@ exports.launch = function(req, res) {
               var authtoken = crypto.createHmac('sha256', req.body.deviceID)
                 .update(req.body.email).digest('hex');
               var vendorDetail = new vendordetail({
+                userId: req.body.userId,
                 deviceID: req.body.deviceID,
                 email: req.body.email,
                 model: req.body.model,
                 authToken: authtoken,
-                mobileNumber: req.body.mobileNumber,
+                contact: req.body.mobileNumber,
                 appVersion: req.body.appVersion,
                 paytmNumber: req.body.paytmNumber,
                 mobikwikNumber: req.body.mobikwikNumber,
@@ -323,8 +328,8 @@ exports.launch = function(req, res) {
                 OTP: OTP,
                 speciality: req.body.speciality,
                 offDays: req.body.offDays,
-                isActive: false
-                  // ARN: endpointArn
+                isActive: false,
+                remarks: req.body.remarks
               });
               vendorDetail.save(function(err, data) {
                 if (err) {

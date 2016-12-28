@@ -1606,32 +1606,37 @@ exports.addNewVendor = function(req, res) {
         var homeDelivery = Boolean(req.body.homeDelivery);
 
         var vendordata = new vendordetail({
-          "multiTime": multitime,
-          "latitude": parseFloat(req.body.latitude, 10),
-          "longitude": parseFloat(req.body.longitude, 10),
-          "mobileNumber": req.body.contact,
-          "subCategory": req.body.subCategory,
-          "category": req.body.category,
-          "remarks": req.body.remarks,
-          "name": req.body.name,
-          "address": req.body.address,
-          "fromTiming": req.body.openingTiming,
-          "toTiming": req.body.closingTiming,
-          "imageUrl": image_url,
-          "area": req.body.area,
-          "shopNumber": req.body.shopNo,
-          "landmark": req.body.landmark,
-          "isHomeDelivery": homeDelivery,
-          "status": 0,
-          "tags": req.body.tags,
-          "userId": req.user._id,
-          "registerTime": new Date().getTime(),
-          "keyword": req.body.tags
+          userId: req.body.userId,
+          deviceID: req.body.deviceID,
+          email: req.body.email,
+          model: req.body.model,
+          contact: req.body.mobileNumber,
+          appVersion: req.body.appVersion,
+          paytmNumber: req.body.paytmNumber,
+          mobikwikNumber: req.body.mobikwikNumber,
+          gcmId: req.body.gcmId,
+          androidSdk: req.body.androidSdk,
+          category: req.body.category,
+          isStationary: req.body.isStationary,
+          isMobile: req.body.isStationary,
+          isWalletInterested: req.body.isWalletInterested,
+          area: req.body.area,
+          shopNumber: req.body.shopNumber,
+          address: req.body.address,
+          landmark: req.body.landmark,
+          fromTiming: req.body.fromTiming,
+          toTiming: req.body.toTiming,
+          name: req.body.name,
+          isHomeDelivery: req.body.isHomeDelivery,
+          registerTime: new Date().getTime(),
+          imageUrl: image_url,
+          speciality: req.body.speciality,
+          offDays: req.body.offDays,
+          remarks: req.body.remarks
         });
         console.log('vendordata : ', vendordata);
-        console.log('req.user._id : ', req.user);
         vendordetail.update({
-            "userId": req.user._id,
+            "userId": req.body.userId,
             "name": req.body.name
           }, vendordata, {
             upsert: true
@@ -1669,29 +1674,33 @@ exports.addNewVendor = function(req, res) {
         var homeDelivery = Boolean(req.body.homeDelivery);
 
         var vendordata = new vendordetail({
-          "multiTime": multitime,
-          "latitude": parseFloat(req.body.latitude, 10),
-          "longitude": parseFloat(req.body.longitude, 10),
-          "mobileNumber": req.body.contact,
-          "subCategory": req.body.subCategory,
-          "category": req.body.category,
-          "remarks": req.body.remarks,
-          "name": req.body.name,
-          "address": req.body.address,
-          "fromTiming": req.body.openingTiming,
-          "toTiming": req.body.closingTiming,
-          "imageUrl": image_url,
-          "area": req.body.area,
-          "shopNumber": req.body.shopNo,
-          "landmark": req.body.landmark,
-          "isHomeDelivery": homeDelivery,
-          "status": 0,
-          "tags": req.body.tags,
-          "userId": req.user._id,
-          "registerTime": new Date().getTime(),
-          "bookmark": 0,
-          "others": '-',
-          "keyword": req.body.tags
+          userId: req.body.userId,
+          deviceID: req.body.deviceID,
+          email: req.body.email,
+          model: req.body.model,
+          contact: req.body.mobileNumber,
+          appVersion: req.body.appVersion,
+          paytmNumber: req.body.paytmNumber,
+          mobikwikNumber: req.body.mobikwikNumber,
+          gcmId: req.body.gcmId,
+          androidSdk: req.body.androidSdk,
+          category: req.body.category,
+          isStationary: req.body.isStationary,
+          isMobile: req.body.isStationary,
+          isWalletInterested: req.body.isWalletInterested,
+          area: req.body.area,
+          shopNumber: req.body.shopNumber,
+          address: req.body.address,
+          landmark: req.body.landmark,
+          fromTiming: req.body.fromTiming,
+          toTiming: req.body.toTiming,
+          name: req.body.name,
+          isHomeDelivery: req.body.isHomeDelivery,
+          registerTime: new Date().getTime(),
+          imageUrl: image_url,
+          speciality: req.body.speciality,
+          offDays: req.body.offDays,
+          remarks: req.body.remarks
         });
         vendordetail.update({
             "userId": req.user._id,
@@ -1748,7 +1757,7 @@ var s3Upload = function(readStream, fileName, res) {
 
 exports.getAddedNewVendor = function(req, res) {
   vendordetail.find({
-    userId: req.user._id
+    userId: req.body.userId
   }).toArray(function(err, docs) {
     console.log('docs : ', docs);
     if (err) {
@@ -1758,9 +1767,11 @@ exports.getAddedNewVendor = function(req, res) {
             err)
       });
     }
+    var ascending = underscore.sortBy(docs, 'registerTime');
+    var finalResult = ascending.reverse();
     res.json({
       "error": false,
-      "result": docs
+      "result": finalResult
     });
   });
 }
