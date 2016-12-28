@@ -1632,7 +1632,9 @@ exports.addNewVendor = function(req, res) {
           imageUrl: image_url,
           speciality: req.body.speciality,
           offDays: req.body.offDays,
-          remarks: req.body.remarks
+          remarks: req.body.remarks,
+          latitude: req.body.latitude,
+          longitude: req.body.longitude
         });
         console.log('vendordata : ', vendordata);
         vendordetail.update({
@@ -1700,7 +1702,9 @@ exports.addNewVendor = function(req, res) {
           imageUrl: image_url,
           speciality: req.body.speciality,
           offDays: req.body.offDays,
-          remarks: req.body.remarks
+          remarks: req.body.remarks,
+          latitude: req.body.latitude,
+          longitude: req.body.longitude
         });
         vendordetail.update({
             "userId": req.user._id,
