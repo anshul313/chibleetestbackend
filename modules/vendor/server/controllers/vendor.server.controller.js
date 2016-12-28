@@ -1761,9 +1761,8 @@ var s3Upload = function(readStream, fileName, res) {
 
 exports.getAddedNewVendor = function(req, res) {
   vendordetail.find({
-    userId: req.body.userId
+    userId: req.user._id
   }).lean().exec(function(err, docs) {
-    console.log('docs : ', docs);
     if (err) {
       return res.status(400).send({
         message: errorHandler
