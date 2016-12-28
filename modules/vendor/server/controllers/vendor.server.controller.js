@@ -1762,7 +1762,7 @@ var s3Upload = function(readStream, fileName, res) {
 exports.getAddedNewVendor = function(req, res) {
   vendordetail.find({
     userId: req.body.userId
-  }).toArray(function(err, docs) {
+  }).lean().exec(function(err, docs) {
     console.log('docs : ', docs);
     if (err) {
       return res.status(400).send({
