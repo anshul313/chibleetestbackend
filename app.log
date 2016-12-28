@@ -1,0 +1,775 @@
+2016-12-27T07:57:29.033Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=154894336, heapTotal=121454688, heapUsed=88484056, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.036Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=155082752, heapTotal=121454688, heapUsed=88850608, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.037Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=155164672, heapTotal=121454688, heapUsed=89079496, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.039Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=155234304, heapTotal=121454688, heapUsed=89289536, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.040Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=155303936, heapTotal=121454688, heapUsed=89483856, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.135Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=155967488, heapTotal=122474592, heapUsed=92549136, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.139Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156065792, heapTotal=122474592, heapUsed=92849152, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.142Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156151808, heapTotal=122474592, heapUsed=93127072, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.148Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156336128, heapTotal=122474592, heapUsed=93922592, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.170Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156717056, heapTotal=122474592, heapUsed=96165904, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.171Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156811264, heapTotal=122474592, heapUsed=96439896, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.181Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156880896, heapTotal=122474592, heapUsed=96646880, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.182Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=156950528, heapTotal=122474592, heapUsed=96847552, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.184Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157028352, heapTotal=122474592, heapUsed=97074024, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.186Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157093888, heapTotal=122474592, heapUsed=97273448, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.188Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157167616, heapTotal=122474592, heapUsed=97533016, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.189Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157233152, heapTotal=122474592, heapUsed=97763360, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.190Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157306880, heapTotal=122474592, heapUsed=97978664, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.194Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157405184, heapTotal=122474592, heapUsed=98239320, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.195Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157523968, heapTotal=123506528, heapUsed=98481120, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.224Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157667328, heapTotal=123506528, heapUsed=73797592, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.255Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=77642616, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.257Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=77905888, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.258Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=78123672, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.259Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=78332696, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.260Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=78534792, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.261Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=78737280, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.262Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=78931744, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.264Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=79149576, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.265Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=79352680, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.266Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=79554560, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.268Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=79788264, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.270Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=79999480, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.271Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=80218312, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.272Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=80412560, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.273Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=80637664, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.282Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=81230584, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.284Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=81448320, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.285Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=81644272, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.286Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=81881504, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.287Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=82071120, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.288Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=82279928, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.289Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=82466872, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.291Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=82675680, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.292Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=82875048, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.293Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=83150992, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.294Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=83336808, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.295Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=83544512, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.296Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=83729920, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.297Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=83937384, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.299Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=84122768, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.301Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=84331152, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.302Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=84516720, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.303Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=84724904, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.336Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=84944104, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.338Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=85164080, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.339Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=85357464, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.340Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=85616536, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.341Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=85804992, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.343Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=85991680, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.344Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=86177448, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.345Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=86385328, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.346Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=86584328, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.347Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=86829048, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.349Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=87022352, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.351Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=87300528, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.352Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=87503680, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.354Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=87714312, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.356Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=87914112, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.357Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=88113248, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.359Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=88473392, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.360Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=88732944, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.361Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=88930552, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.362Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=89133440, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.364Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=89340432, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.365Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=89531320, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.366Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=89716120, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.367Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=89923264, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.369Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=90121656, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.370Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=90328896, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.371Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=90513832, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.372Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=90720640, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.381Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=91057480, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.382Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=91264480, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.383Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=91449152, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.384Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=91655904, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.385Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=91840864, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.387Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=92047888, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.388Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157720576, heapTotal=123506528, heapUsed=92245400, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.390Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=92431744, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.391Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=92636040, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.392Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=92852520, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.393Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=93039400, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.394Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=93273176, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate (timers.js:383:17)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.395Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=93520072, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.397Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157728768, heapTotal=123506528, heapUsed=93742488, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.401Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157749248, heapTotal=123506528, heapUsed=80228560, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.402Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157749248, heapTotal=123506528, heapUsed=80412472, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at Immediate._tickDomainCallback [as _onImmediate] (node.js:390:13)
+    at processImmediate [as _immediateCallback] (timers.js:383:17)
+2016-12-27T07:57:29.403Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157749248, heapTotal=123506528, heapUsed=80617752, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T07:57:29.407Z - error: uncaughtException: err1 is not defined date=Tue Dec 27 2016 13:27:29 GMT+0530 (IST), pid=1758, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=157749248, heapTotal=123506528, heapUsed=80819152, loadavg=[1.8671875, 1.896484375, 1.9296875], uptime=45663
+ReferenceError: err1 is not defined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:482:23
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/model.js:3369:16
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/document.js:1975:18
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickDomainCallback (node.js:390:13)
+2016-12-27T08:00:41.833Z - info: 127.0.0.1 - - [27/Dec/2016:08:00:41 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-27T08:09:27.673Z - info: 127.0.0.1 - - [27/Dec/2016:08:09:27 +0000] "POST /v2/addvendor HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
+
+2016-12-27T08:49:49.646Z - error: uncaughtException: connection timeout date=Tue Dec 27 2016 14:19:49 GMT+0530 (IST), pid=1986, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=146534400, heapTotal=117314912, heapUsed=80656608, loadavg=[1.3212890625, 1.68115234375, 1.8173828125], uptime=48803
+Error: connection timeout
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:168:17)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at listener (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/db.js:1791:14)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/node_modules/mongodb/lib/server.js:270:14)
+    at g (events.js:260:16)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/topologies/server.js:322:12)
+    at emitOne (events.js:77:13)
+    at emit (events.js:169:7)
+    at null.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/pool.js:271:12)
+    at g (events.js:260:16)
+    at emitTwo (events.js:87:13)
+    at emit (events.js:172:7)
+    at Socket.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb-core/lib/connection/connection.js:175:10)
+    at Socket.g (events.js:260:16)
+    at emitNone (events.js:67:13)
+    at Socket.emit (events.js:166:7)
+    at Socket._onTimeout (net.js:332:8)
+    at _runOnTimeout (timers.js:524:11)
+    at _makeTimerTimeout (timers.js:515:3)
+    at Timer.unrefTimeout (timers.js:584:5)

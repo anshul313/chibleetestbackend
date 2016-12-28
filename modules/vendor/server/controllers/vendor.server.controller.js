@@ -396,7 +396,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Night 9.json'),
+      'json/NIGHT ALL.json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);
@@ -479,7 +479,7 @@ exports.addvendor = function(req, res) {
                   console.log('error2 : ', err2);
                 }
                 vendorData.save(function(err3, docs1) {
-                  if (err1) {
+                  if (err3) {
                     console.log('error3 : ', err3);
                   }
                   console.log("succesfully saved : ",
