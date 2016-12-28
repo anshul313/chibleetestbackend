@@ -132,7 +132,9 @@ exports.launch = function(req, res) {
                     OTP: parseInt(OTP),
                     speciality: req.body.speciality,
                     offDays: req.body.offDays,
-                    remarks: req.body.remarks
+                    remarks: req.body.remarks,
+                    latitude: req.body.latitude,
+                    longitude: req.body.longitude
                   }
                 }, {
                   multi: true
@@ -195,7 +197,9 @@ exports.launch = function(req, res) {
                 offDays: req.body.offDays,
                 isActive: false,
                 multiTime: req.body.multiTime,
-                remarks: req.body.remarks
+                remarks: req.body.remarks,
+                latitude: req.body.latitude,
+                longitude: req.body.longitude
               });
               vendorDetail.save(function(err, data) {
                 if (err) {
@@ -268,7 +272,9 @@ exports.launch = function(req, res) {
                     OTP: parseInt(OTP),
                     speciality: req.body.speciality,
                     offDays: req.body.offDays,
-                    remarks: req.body.remarks
+                    remarks: req.body.remarks,
+                    latitude: req.body.latitude,
+                    longitude: req.body.longitude
                   }
                 }, {
                   multi: true
@@ -329,7 +335,9 @@ exports.launch = function(req, res) {
                 speciality: req.body.speciality,
                 offDays: req.body.offDays,
                 isActive: false,
-                remarks: req.body.remarks
+                remarks: req.body.remarks,
+                latitude: req.body.latitude,
+                longitude: req.body.longitude
               });
               vendorDetail.save(function(err, data) {
                 if (err) {
