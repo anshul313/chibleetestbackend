@@ -136,7 +136,7 @@ exports.confirmVendor = function(req, res) {
   var vendorData = new vendor({
     serialnumber: req.body._id,
     name: req.body.name,
-    contact: req.body.mobileNumber,
+    contact: req.body.contact,
     category: req.body.category,
     subCategory: req.body.subCategory,
     address: req.body.address,
@@ -172,19 +172,18 @@ exports.confirmVendor = function(req, res) {
         if (err1) {
           console.log('error1 : ', err1);
         }
-
-        // vendordetail.update({
-        //     _id: req.body._id
-        // }, {
-        //     isActive: true
-        // }, function(err2, docs1) {
-        //     if (err1) {
-        //         console.log('error2 : ', err2);
-        //     }
-        res.json({
-          message: 'succesfully updated'
+        vendordetail.update({
+          _id: req.body._id
+        }, {
+          isActive: true
+        }, function(err2, docs1) {
+          if (err1) {
+            console.log('error2 : ', err2);
+          }
+          res.json({
+            message: 'succesfully updated'
+          });
         });
-        // });
       });
     } else {
       res.json({
