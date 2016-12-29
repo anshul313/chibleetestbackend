@@ -145,7 +145,7 @@ exports.confirmVendor = function(req, res) {
     longitude: req.body.longitude,
     openingTiming: req.body.fromTiming,
     closingTiming: req.body.toTiming,
-    imageUrl: '-',
+    imageUrl: req.body.imageUrl,
     saveTime: new Date().getTime(),
     multiTime: req.body.multiTime,
     others: '',
@@ -190,6 +190,61 @@ exports.confirmVendor = function(req, res) {
         message: 'vendor exists'
       });
     }
+  });
+}
+
+exports.cleanVendorDetailsUpdateById = function(req, res) {
+  var coordinate = [];
+  coordinate.push(req.body.latitude);
+  coordinate.push(req.body.longitude);
+
+  var query = {
+    _id: new mongo.ObjectID(req.body._id)
+  };
+
+  vendor.update(query, {
+    '$set': {
+      serialnumber: req.body.serialnumber,
+      name: req.body.name,
+      contact: req.body.contact,
+      category: req.body.category,
+      subCategory: req.body.subCategory,
+      address: req.body.address,
+      area: req.body.area,
+      latitude: req.body.latitude,
+      longitude: req.body.longitude,
+      openingTiming: req.body.openingTiming,
+      closingTiming: req.body.closingTiming,
+      imageUrl: req.body.imageUrl,
+      saveTime: new Date().getTime(),
+      multiTime: req.body.multiTime,
+      others: req.body.others,
+      tags: req.body.tags[0],
+      coords: coordinate,
+      homeDelivery: req.body.homeDelivery,
+      remarks: req.body.remarks,
+      shopNo: req.body.shopNo,
+      city: req.body.city,
+      status: 1,
+      keyword: req.body.keyword,
+      night: req.body.night,
+      platform: req.body.platform,
+      isActive: req.body.isActive,
+      offDays: req.body.offDays,
+      speciality: req.body.speciality,
+      isWalletInterested: req.body.isWalletInterested,
+      isMobile: req.body.isMobile,
+      isStationary: req.body.isStationary,
+      gcmId: req.body.gcmId,
+      bookmark: req.body.bookmark
+    }
+  }, function(err, docs) {
+    if (err) {
+      console.log('error : ', err);
+    }
+    res.json({
+      message: 'succesfully updated'
+    });
   });
 }
 
