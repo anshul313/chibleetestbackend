@@ -201,6 +201,14 @@ exports.cleanVendorDetailsUpdateById = function(req, res) {
   var query = {
     _id: new mongo.ObjectID(req.body._id)
   };
+  var tag = '';
+  for (var i = 0; i < req.body.tags.length; i++) {
+    tag = tag + req.body.tags[i] + ',';
+  }
+  var keywords = '';
+  for (var i = 0; i < req.body.keyword.length; i++) {
+    keywords = keywords + req.body.keyword[i] + ',';
+  }
 
   vendor.update(query, {
     '$set': {
@@ -219,14 +227,14 @@ exports.cleanVendorDetailsUpdateById = function(req, res) {
       saveTime: new Date().getTime(),
       multiTime: req.body.multiTime,
       others: req.body.others,
-      tags: req.body.tags[0],
+      tags: tag,
       coords: coordinate,
       homeDelivery: req.body.homeDelivery,
       remarks: req.body.remarks,
       shopNo: req.body.shopNo,
       city: req.body.city,
       status: 1,
-      keyword: req.body.keyword,
+      keyword: keywords,
       night: req.body.night,
       platform: req.body.platform,
       isActive: req.body.isActive,
