@@ -116,8 +116,7 @@ var vendorSchema = new Schema({
     type: String
   },
   coords: {
-    type: [Number],
-    index: '2dsphere'
+    type: [Number]
   },
   homeDelivery: {
     type: Boolean,
@@ -179,7 +178,7 @@ var vendorSchema = new Schema({
     default: ''
   }
 }, {
-  strict: false
+  strict: true
 });
 
 var bannerSchema = new Schema({
