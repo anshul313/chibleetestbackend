@@ -176,9 +176,11 @@ var vendorSchema = new Schema({
   platform: {
     type: String,
     default: ''
+  },
+  night: {
+    type: Boolean,
+    default: false
   }
-}, {
-  strict: true
 });
 
 var bannerSchema = new Schema({

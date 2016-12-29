@@ -162,8 +162,6 @@ var vendorSchema = new Schema({
     type: String,
     default: ''
   }
-}, {
-  strict: true
 });
 
 
