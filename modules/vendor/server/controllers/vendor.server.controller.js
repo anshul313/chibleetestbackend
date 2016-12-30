@@ -396,7 +396,7 @@ exports.addvendor = function(req, res) {
   var asyncTasks = [];
 
   fs.readFile(path.resolve(__dirname,
-      'json/Deepak (Dec) (89024- 90150).json'),
+      'json/Deepak.json'),
     'utf8',
     function(err, data) {
       var jsonData = JSON.parse(data);
@@ -422,10 +422,9 @@ exports.addvendor = function(req, res) {
           if (doc['Multi'] != "-") {
             multiTime = true;
           }
-
-          var night = false;
+          var nightstatus = false;
           if (doc['night'] != "FALSE") {
-            night = true;
+            nightstatus = true;
           }
 
           count++;
@@ -436,9 +435,9 @@ exports.addvendor = function(req, res) {
             category: doc['Category'],
             subCategory: doc['Sub-category'],
             address: doc['Address_raw'],
-            area: doc['area'],
-            latitude: doc['latitude'],
-            longitude: doc['longitude'],
+            area: doc['Location'],
+            latitude: doc['Latitude'],
+            longitude: doc['Longitude'],
             openingTiming: doc['Open_timing'],
             closingTiming: doc['Close_timing'],
             imageUrl: doc['Image'],
@@ -453,7 +452,7 @@ exports.addvendor = function(req, res) {
             city: doc['City'],
             status: 1,
             keyword: doc['Adword Keywords'],
-            night: night
+            night: nightstatus
           });
 
           var query = {
