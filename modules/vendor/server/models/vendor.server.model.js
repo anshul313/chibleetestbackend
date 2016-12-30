@@ -74,7 +74,8 @@ var vendorSchema = new Schema({
     type: String
   },
   contact: {
-    type: String
+    type: String,
+    default: ''
   },
   category: {
     type: String
