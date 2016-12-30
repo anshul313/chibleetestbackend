@@ -20,8 +20,8 @@ var vendorSchema = new Schema({
     default: ''
   },
   contact: {
-    type: Number,
-    default: 0
+    type: String,
+    default: ''
   },
   paytmNumber: {
     type: Number,
