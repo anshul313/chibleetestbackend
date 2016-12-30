@@ -92,8 +92,12 @@ exports.vendorList = function(req, res) {
       fieldName: 1
     };
 
-  db.collection('vendordetails').count({}, function(error, count) {
-    db.collection('vendordetails').find({}, {
+  db.collection('vendordetails').count({
+    isActive: false
+  }, function(error, count) {
+    db.collection('vendordetails').find({
+      isActive: false
+    }, {
       isActive: 1,
       offDays: 1,
       speciality: 1,
@@ -173,9 +177,40 @@ exports.confirmVendor = function(req, res) {
           console.log('error1 : ', err1);
         }
         vendordetail.update({
-          _id: req.body._id
+          _id: new mongo.ObjectID(req.body._id)
         }, {
-          isActive: true
+          '$set': {
+            userId: req.body.userId,
+            deviceID: req.body.deviceID,
+            email: req.body.email,
+            model: req.body.model,
+            contact: req.body.mobileNumber,
+            appVersion: req.body.appVersion,
+            paytmNumber: req.body.paytmNumber,
+            mobikwikNumber: req.body.mobikwikNumber,
+            gcmId: req.body.gcmId,
+            androidSdk: req.body.androidSdk,
+            category: req.body.category,
+            isStationary: req.body.isStationary,
+            isMobile: req.body.isStationary,
+            isWalletInterested: req.body.isWalletInterested,
+            area: req.body.area,
+            shopNumber: req.body.shopNumber,
+            address: req.body.address,
+            landmark: req.body.landmark,
+            fromTiming: req.body.fromTiming,
+            toTiming: req.body.toTiming,
+            name: req.body.name,
+            isHomeDelivery: req.body.isHomeDelivery,
+            registerTime: new Date().getTime(),
+            imageUrl: '',
+            speciality: req.body.speciality,
+            offDays: req.body.offDays,
+            remarks: req.body.remarks,
+            latitude: req.body.latitude,
+            longitude: req.body.longitude,
+            isActive: true
+          }
         }, function(err2, docs1) {
           if (err1) {
             console.log('error2 : ', err2);
