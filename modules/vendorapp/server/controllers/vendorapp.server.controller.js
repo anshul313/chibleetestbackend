@@ -605,8 +605,8 @@ exports.vendortouserchat = function(req, res) {
         return (SendResponse(res));
       } else {
         if (result.success != 0) {
-          user.findOne({
-            pushToken: req.body.userGcmId
+          vendor.findOne({
+            gcmId: req.body.userGcmId
           }, function(err, doc) {
             if (err) {
               console.log('doc : ', doc);
