@@ -134,8 +134,8 @@ exports.vendorDetailsById = function(req, res) {
 
 exports.confirmVendor = function(req, res) {
   var coordinate = [];
-  coordinate.push(req.body.latitude);
-  coordinate.push(req.body.longitude);
+  coordinate.push(parseFloat(req.body.latitude));
+  coordinate.push(parseFloat(req.body.longitude));
 
   var vendorData = new vendor({
     serialnumber: req.body._id,
@@ -145,8 +145,8 @@ exports.confirmVendor = function(req, res) {
     subCategory: req.body.subCategory,
     address: req.body.address,
     area: req.body.area,
-    latitude: req.body.latitude,
-    longitude: req.body.longitude,
+    latitude: parseFloat(req.body.latitude),
+    longitude: parseFloat(req.body.longitude),
     openingTiming: req.body.fromTiming,
     closingTiming: req.body.toTiming,
     imageUrl: req.body.imageUrl,
@@ -171,6 +171,7 @@ exports.confirmVendor = function(req, res) {
     if (err) {
       console.log('error : ', err);
     }
+    console.log(docs);
     if (!docs) {
       vendorData.save(function(err1, docs1) {
         if (err1) {
