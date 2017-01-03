@@ -23,6 +23,8 @@ var secretKey = 'SJj91pWr7usAMrESbOEoCY9TRxVtPVpBn4q4M/dN';
 var chat = mongoose.model('Chat');
 var MongoClient = require('mongodb').MongoClient;
 var FCM = require('fcm-node');
+var app = require('../../../../config/lib/app.js');
+var db = app.db();
 
 
 
@@ -515,11 +517,11 @@ exports.vendortouserchat = function(req, res) {
         return (SendResponse(res));
       } else {
         if (result.success == 1) {
-          user.findOne({
-            pushToken: req.body.userGcmId
+          db.collection('cleanvendors').find({
+            gcmId: req.body.userGcmId
           }, function(err, doc) {
+            console.log('doc : ', doc);
             if (err) {
-              console.log('doc : ', doc);
               console.log(err);
               response.error = true;
               response.status = 500;
@@ -529,7 +531,7 @@ exports.vendortouserchat = function(req, res) {
             } else {
               var chatMessage = new chat({
                 vendorID: req.body.vendorId,
-                userID: doc._id,
+                userID: doc[0]._id.toString(),
                 messageText: req.body.messageText,
                 messageStatus: req.body.messageStatus,
                 insertionDate: new Date().getTime(),
@@ -596,6 +598,7 @@ exports.vendortouserchat = function(req, res) {
       }
     };
     fcm.send(message, function(err, result) {
+      console.log('result : ', result);
       if (err) {
         console.log(err);
         response.error = true;
@@ -605,11 +608,11 @@ exports.vendortouserchat = function(req, res) {
         return (SendResponse(res));
       } else {
         if (result.success != 0) {
-          vendor.findOne({
+          db.collection('cleanvendors').find({
             gcmId: req.body.userGcmId
           }, function(err, doc) {
+            console.log('doc : ', doc);
             if (err) {
-              console.log('doc : ', doc);
               console.log(err);
               response.error = true;
               response.status = 500;
@@ -617,9 +620,10 @@ exports.vendortouserchat = function(req, res) {
               response.userMessage = 'error occured';
               return (SendResponse(res));
             } else {
+              console.log('doc :', doc);
               var chatMessage = new chat({
                 vendorID: req.body.vendorId,
-                userID: doc._id,
+                userID: doc[0]._id.toString(),
                 messageText: req.body.messageText,
                 messageStatus: req.body.messageStatus,
                 insertionDate: new Date().getTime(),
