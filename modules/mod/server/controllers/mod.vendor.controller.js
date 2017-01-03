@@ -156,6 +156,7 @@ exports.confirmVendor = function(req, res) {
     tags: req.body.tags,
     coords: coordinate,
     homeDelivery: req.body.isHomeDelivery,
+    gcmId: req.body.gcmId,
     remarks: req.body.remarks,
     shopNo: '',
     city: req.body.landmark,
