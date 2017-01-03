@@ -489,7 +489,6 @@ exports.locationHistory = function(req, res) {
 exports.vendortouserchat = function(req, res) {
 
   if (req.body.platform != 'ios') {
-
     var sender = new gcm.Sender('AIzaSyB4P3z-0xUTn3vIVpfvEuuI3er4UCzPUM0');
     var message = new gcm.Message();
     message.addNotification({
@@ -517,7 +516,7 @@ exports.vendortouserchat = function(req, res) {
         return (SendResponse(res));
       } else {
         if (result.success == 1) {
-          db.collection('cleanvendors').find({
+          vendor.findOne({
             gcmId: req.body.userGcmId
           }, function(err, doc) {
             console.log('doc : ', doc);
@@ -531,7 +530,7 @@ exports.vendortouserchat = function(req, res) {
             } else {
               var chatMessage = new chat({
                 vendorID: req.body.vendorId,
-                userID: doc[0]._id.toString(),
+                userID: doc._id.toString(),
                 messageText: req.body.messageText,
                 messageStatus: req.body.messageStatus,
                 insertionDate: new Date().getTime(),
@@ -608,7 +607,7 @@ exports.vendortouserchat = function(req, res) {
         return (SendResponse(res));
       } else {
         if (result.success != 0) {
-          db.collection('cleanvendors').find({
+          vendor.findOne({
             gcmId: req.body.userGcmId
           }, function(err, doc) {
             console.log('doc : ', doc);
@@ -623,7 +622,7 @@ exports.vendortouserchat = function(req, res) {
               console.log('doc :', doc);
               var chatMessage = new chat({
                 vendorID: req.body.vendorId,
-                userID: doc[0]._id.toString(),
+                userID: doc._id.toString(),
                 messageText: req.body.messageText,
                 messageStatus: req.body.messageStatus,
                 insertionDate: new Date().getTime(),
@@ -679,7 +678,7 @@ exports.usertovendorchat = function(req, res) {
 
   var message = new gcm.Message();
 
-  var sender = new gcm.Sender('AIzaSyCpG_J5buAuWMM1p3f6geFVlCPJ5139o2Q');
+  var sender = new gcm.Sender('AIzaSyB4P3z-0xUTn3vIVpfvEuuI3er4UCzPUM0');
 
   message.addNotification({
     vendorGcmId: req.body.vendorGcmId,
