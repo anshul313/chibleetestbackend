@@ -296,3 +296,56 @@ TypeError: Cannot read property '_id' of undefined
     at process._tickDomainCallback (node.js:397:17)
 2017-01-02T08:44:02.696Z - info: 127.0.0.1 - - [02/Jan/2017:08:44:02 +0000] "POST /v2/vendortouserchat HTTP/1.1" - - "-" "PostmanRuntime/3.0.5"
 
+2017-01-03T06:32:29.980Z - info: 127.0.0.1 - - [03/Jan/2017:06:32:29 +0000] "POST /api/vendortouserchat HTTP/1.1" 404 34 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T06:33:35.065Z - error: uncaughtException: Cannot read property '_id' of undefined date=Tue Jan 03 2017 12:03:35 GMT+0530 (IST), pid=23618, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=80347136, heapTotal=80308576, heapUsed=76457392, loadavg=[2.822265625, 2.29443359375, 2], uptime=645460
+TypeError: Cannot read property '_id' of undefined
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendorapp/server/controllers/vendorapp.server.controller.js:626:31
+    at handleCallback (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at Collection.find (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/collection.js:355:44)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/modules/vendorapp/server/controllers/vendorapp.server.controller.js:611:41
+    at IncomingMessage.respond (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/fcm-node/lib/fcm.js:103:25)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+    at endReadableNT (_stream_readable.js:921:12)
+    at nextTickCallbackWith2Args (node.js:442:9)
+    at process._tickDomainCallback (node.js:397:17)
+2017-01-03T06:35:40.704Z - info: 127.0.0.1 - - [03/Jan/2017:06:35:40 +0000] "POST /v2/vendortouserchat HTTP/1.1" 200 323 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T06:37:15.492Z - info: 127.0.0.1 - - [03/Jan/2017:06:37:15 +0000] "POST /v2/vendortouserchat HTTP/1.1" 200 323 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T06:40:13.199Z - info: 127.0.0.1 - - [03/Jan/2017:06:40:13 +0000] "POST /v2/vendortouserchat HTTP/1.1" 200 323 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T06:43:13.328Z - error: uncaughtException: Schema hasn't been registered for model "vendorcomments".
+Use mongoose.model(name, schema) date=Tue Jan 03 2017 12:13:13 GMT+0530 (IST), pid=23907, uid=501, gid=20, cwd=/Users/anshulsharma/Desktop/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.4.7, argv=[/usr/local/bin/node, /Users/anshulsharma/Desktop/chibleetestbackend/server.js], rss=110198784, heapTotal=77545312, heapUsed=56651296, loadavg=[2.14013671875, 2.17724609375, 2.0908203125], uptime=646038
+MissingSchemaError: Schema hasn't been registered for model "vendorcomments".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongoose/lib/index.js:349:13)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/controllers/vendor.server.controller.js:13:22)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (/Users/anshulsharma/Desktop/chibleetestbackend/modules/vendor/server/routes/vendor.server.routes.js:8:13)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+    at Module.require (module.js:353:17)
+    at require (internal/module.js:12:17)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:275:9
+    at Array.forEach (native)
+    at Object.module.exports.initModulesServerRoutes (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:274:32)
+    at Object.module.exports.init (/Users/anshulsharma/Desktop/chibleetestbackend/config/lib/express.js:340:10)
+    at /Users/anshulsharma/Desktop/chibleetestbackend/config/lib/app.js:46:27
+    at /Users/anshulsharma/Desktop/chibleetestbackend/node_modules/mongodb/lib/mongo_client.js:210:11
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+2017-01-03T06:44:59.150Z - info: 127.0.0.1 - - [03/Jan/2017:06:44:59 +0000] "POST /v2/vendortouserchat HTTP/1.1" 200 323 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T06:55:52.125Z - info: 127.0.0.1 - - [03/Jan/2017:06:55:52 +0000] "POST /v2/vendortouserchat HTTP/1.1" 200 323 "-" "PostmanRuntime/3.0.5"
+
+2017-01-03T07:08:00.432Z - info: 127.0.0.1 - - [03/Jan/2017:07:08:00 +0000] "POST /v2/usertovendorchat HTTP/1.1" 200 499 "-" "PostmanRuntime/3.0.5"
+
