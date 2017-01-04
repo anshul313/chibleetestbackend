@@ -74,7 +74,8 @@ var vendorSchema = new Schema({
     type: String
   },
   contact: {
-    type: String
+    type: String,
+    default: ''
   },
   category: {
     type: String
@@ -176,9 +177,11 @@ var vendorSchema = new Schema({
   platform: {
     type: String,
     default: ''
+  },
+  night: {
+    type: Boolean,
+    default: false
   }
-}, {
-  strict: true
 });
 
 var bannerSchema = new Schema({

@@ -92,8 +92,12 @@ exports.vendorList = function(req, res) {
       fieldName: 1
     };
 
-  db.collection('vendordetails').count({}, function(error, count) {
-    db.collection('vendordetails').find({}, {
+  db.collection('vendordetails').count({
+    isActive: false
+  }, function(error, count) {
+    db.collection('vendordetails').find({
+      isActive: false
+    }, {
       isActive: 1,
       offDays: 1,
       speciality: 1,
@@ -130,8 +134,8 @@ exports.vendorDetailsById = function(req, res) {
 
 exports.confirmVendor = function(req, res) {
   var coordinate = [];
-  coordinate.push(req.body.latitude);
-  coordinate.push(req.body.longitude);
+  coordinate.push(parseFloat(req.body.latitude));
+  coordinate.push(parseFloat(req.body.longitude));
 
   var vendorData = new vendor({
     serialnumber: req.body._id,
@@ -141,8 +145,8 @@ exports.confirmVendor = function(req, res) {
     subCategory: req.body.subCategory,
     address: req.body.address,
     area: req.body.area,
-    latitude: req.body.latitude,
-    longitude: req.body.longitude,
+    latitude: parseFloat(req.body.latitude),
+    longitude: parseFloat(req.body.longitude),
     openingTiming: req.body.fromTiming,
     closingTiming: req.body.toTiming,
     imageUrl: req.body.imageUrl,
@@ -152,6 +156,7 @@ exports.confirmVendor = function(req, res) {
     tags: req.body.tags,
     coords: coordinate,
     homeDelivery: req.body.isHomeDelivery,
+    gcmId: req.body.gcmId,
     remarks: req.body.remarks,
     shopNo: '',
     city: req.body.landmark,
@@ -167,15 +172,47 @@ exports.confirmVendor = function(req, res) {
     if (err) {
       console.log('error : ', err);
     }
+    console.log(docs);
     if (!docs) {
       vendorData.save(function(err1, docs1) {
         if (err1) {
           console.log('error1 : ', err1);
         }
         vendordetail.update({
-          _id: req.body._id
+          _id: new mongo.ObjectID(req.body._id)
         }, {
-          isActive: true
+          '$set': {
+            userId: req.body.userId,
+            deviceID: req.body.deviceID,
+            email: req.body.email,
+            model: req.body.model,
+            contact: req.body.mobileNumber,
+            appVersion: req.body.appVersion,
+            paytmNumber: req.body.paytmNumber,
+            mobikwikNumber: req.body.mobikwikNumber,
+            gcmId: req.body.gcmId,
+            androidSdk: req.body.androidSdk,
+            category: req.body.category,
+            isStationary: req.body.isStationary,
+            isMobile: req.body.isStationary,
+            isWalletInterested: req.body.isWalletInterested,
+            area: req.body.area,
+            shopNumber: req.body.shopNumber,
+            address: req.body.address,
+            landmark: req.body.landmark,
+            fromTiming: req.body.fromTiming,
+            toTiming: req.body.toTiming,
+            name: req.body.name,
+            isHomeDelivery: req.body.isHomeDelivery,
+            registerTime: new Date().getTime(),
+            imageUrl: '',
+            speciality: req.body.speciality,
+            offDays: req.body.offDays,
+            remarks: req.body.remarks,
+            latitude: req.body.latitude,
+            longitude: req.body.longitude,
+            isActive: true
+          }
         }, function(err2, docs1) {
           if (err1) {
             console.log('error2 : ', err2);
@@ -201,6 +238,14 @@ exports.cleanVendorDetailsUpdateById = function(req, res) {
   var query = {
     _id: new mongo.ObjectID(req.body._id)
   };
+  var tag = '';
+  for (var i = 0; i < req.body.tags.length; i++) {
+    tag = tag + req.body.tags[i] + ',';
+  }
+  var keywords = '';
+  for (var i = 0; i < req.body.keyword.length; i++) {
+    keywords = keywords + req.body.keyword[i] + ',';
+  }
 
   vendor.update(query, {
     '$set': {
@@ -219,14 +264,14 @@ exports.cleanVendorDetailsUpdateById = function(req, res) {
       saveTime: new Date().getTime(),
       multiTime: req.body.multiTime,
       others: req.body.others,
-      tags: req.body.tags[0],
+      tags: tag,
       coords: coordinate,
       homeDelivery: req.body.homeDelivery,
       remarks: req.body.remarks,
       shopNo: req.body.shopNo,
       city: req.body.city,
       status: 1,
-      keyword: req.body.keyword,
+      keyword: keywords,
       night: req.body.night,
       platform: req.body.platform,
       isActive: req.body.isActive,
