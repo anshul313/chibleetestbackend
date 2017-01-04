@@ -349,3 +349,261 @@ Use mongoose.model(name, schema)
 
 2017-01-03T07:08:00.432Z - info: 127.0.0.1 - - [03/Jan/2017:07:08:00 +0000] "POST /v2/usertovendorchat HTTP/1.1" 200 499 "-" "PostmanRuntime/3.0.5"
 
+2017-01-04T06:55:39.065Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:39 +0000] "POST /v2/modlogin HTTP/1.1" 200 115 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:44.676Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:44 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:44.687Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:44 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:45.447Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:45 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:48.373Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:48 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:48.456Z - info: 127.0.0.1 - - [04/Jan/2017:06:55:48 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:55:50.399Z - error: uncaughtException: Cannot read property 'subCategory' of undefined date=Wed Jan 04 2017 12:25:50 GMT+0530 (IST), pid=87366, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=136466432, heapTotal=107055712, heapUsed=82648752, loadavg=[2.2373046875, 2.052734375, 2.09521484375], uptime=148452
+TypeError: Cannot read property 'subCategory' of undefined
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:247:25
+    at handleCallback (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/cursor.js:844:16
+    at handleCallback (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at setCursorNotified (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:506:3)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:572:16
+    at Object.queryCallback [as cb] (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:238:5)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2017-01-04T06:56:57.093Z - info: 127.0.0.1 - - [04/Jan/2017:06:56:57 +0000] "GET /v2/subcategory/undefined HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:00.261Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:00 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:00.321Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:00 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:02.202Z - error: uncaughtException: Cannot read property 'subCategory' of undefined date=Wed Jan 04 2017 12:27:02 GMT+0530 (IST), pid=87366, uid=501, gid=20, cwd=/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend, execPath=/usr/local/bin/node, version=v4.6.0, argv=[/usr/local/bin/node, /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/server.js], rss=138788864, heapTotal=109107552, heapUsed=84349664, loadavg=[2.01708984375, 2.01123046875, 2.0732421875], uptime=148524
+TypeError: Cannot read property 'subCategory' of undefined
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/modules/login/server/controllers/login.server.controller.js:247:25
+    at handleCallback (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/utils.js:96:12)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/lib/cursor.js:844:16
+    at handleCallback (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:156:5)
+    at setCursorNotified (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:506:3)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:572:16
+    at Object.queryCallback [as cb] (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/cursor.js:238:5)
+    at /Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:443:18
+    at authenticateStragglers (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:399:16)
+    at null.messageHandler (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/pool.js:421:5)
+    at Socket.<anonymous> (/Users/shweta/Documents/Aarvee/Projects/chibleetestbackend/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:294:22)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:153:18)
+    at Socket.Readable.push (_stream_readable.js:111:10)
+    at TCP.onread (net.js:536:20)
+2017-01-04T06:57:42.019Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:42 +0000] "GET /v2/subcategory/undefined HTTP/1.1" - - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:46.182Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:46 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:46.241Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:46 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:49.814Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:49 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:49.887Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:49 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:54.649Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:54 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:54.723Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:54 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:59.601Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:59 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:57:59.658Z - info: 127.0.0.1 - - [04/Jan/2017:06:57:59 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 200 778 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:58:14.985Z - info: 127.0.0.1 - - [04/Jan/2017:06:58:14 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:58:15.040Z - info: 127.0.0.1 - - [04/Jan/2017:06:58:15 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:59:02.842Z - info: 127.0.0.1 - - [04/Jan/2017:06:59:02 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:59:02.894Z - info: 127.0.0.1 - - [04/Jan/2017:06:59:02 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T06:59:03.419Z - info: 127.0.0.1 - - [04/Jan/2017:06:59:03 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:02:27.087Z - info: 127.0.0.1 - - [04/Jan/2017:07:02:27 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:02:27.156Z - info: 127.0.0.1 - - [04/Jan/2017:07:02:27 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:02:28.195Z - info: 127.0.0.1 - - [04/Jan/2017:07:02:28 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:02:41.649Z - info: 127.0.0.1 - - [04/Jan/2017:07:02:41 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:03:57.516Z - info: 127.0.0.1 - - [04/Jan/2017:07:03:57 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:03:57.520Z - info: 127.0.0.1 - - [04/Jan/2017:07:03:57 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:03:58.878Z - info: 127.0.0.1 - - [04/Jan/2017:07:03:58 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:05:24.814Z - info: 127.0.0.1 - - [04/Jan/2017:07:05:24 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:05:24.851Z - info: 127.0.0.1 - - [04/Jan/2017:07:05:24 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:05:25.562Z - info: 127.0.0.1 - - [04/Jan/2017:07:05:25 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:05:39.627Z - info: 127.0.0.1 - - [04/Jan/2017:07:05:39 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:05:50.298Z - info: 127.0.0.1 - - [04/Jan/2017:07:05:50 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:06:16.845Z - info: 127.0.0.1 - - [04/Jan/2017:07:06:16 +0000] "POST /v2/clean-vendor-list?limit=100&order=category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:06:25.702Z - info: 127.0.0.1 - - [04/Jan/2017:07:06:25 +0000] "POST /v2/clean-vendor-list?limit=100&order=-category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:07:13.919Z - info: 127.0.0.1 - - [04/Jan/2017:07:07:13 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:07:14.033Z - info: 127.0.0.1 - - [04/Jan/2017:07:07:14 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:07:15.525Z - info: 127.0.0.1 - - [04/Jan/2017:07:07:15 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:08:48.905Z - info: 127.0.0.1 - - [04/Jan/2017:07:08:48 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:08:48.988Z - info: 127.0.0.1 - - [04/Jan/2017:07:08:48 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:08:49.857Z - info: 127.0.0.1 - - [04/Jan/2017:07:08:49 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:09:00.140Z - info: 127.0.0.1 - - [04/Jan/2017:07:09:00 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:10:54.669Z - info: 127.0.0.1 - - [04/Jan/2017:07:10:54 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:11:04.415Z - info: 127.0.0.1 - - [04/Jan/2017:07:11:04 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:11:11.010Z - info: 127.0.0.1 - - [04/Jan/2017:07:11:11 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:11:49.591Z - info: 127.0.0.1 - - [04/Jan/2017:07:11:49 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:11:55.633Z - info: 127.0.0.1 - - [04/Jan/2017:07:11:55 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:12:22.501Z - info: 127.0.0.1 - - [04/Jan/2017:07:12:22 +0000] "POST /v2/clean-vendor-list?limit=100&order=category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:12:31.251Z - info: 127.0.0.1 - - [04/Jan/2017:07:12:31 +0000] "POST /v2/clean-vendor-list?limit=100&order=-category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:12:43.927Z - info: 127.0.0.1 - - [04/Jan/2017:07:12:43 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:12:43.976Z - info: 127.0.0.1 - - [04/Jan/2017:07:12:43 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:12:44.624Z - info: 127.0.0.1 - - [04/Jan/2017:07:12:44 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:15:45.676Z - info: 127.0.0.1 - - [04/Jan/2017:07:15:45 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:15:45.705Z - info: 127.0.0.1 - - [04/Jan/2017:07:15:45 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:15:46.581Z - info: 127.0.0.1 - - [04/Jan/2017:07:15:46 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:21.666Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:21 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:21.759Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:21 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:22.606Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:22 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:27.952Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:27 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:34.085Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:34 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:41.331Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:41 +0000] "POST /v2/clean-vendor-list?limit=100&order=subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:17:48.389Z - info: 127.0.0.1 - - [04/Jan/2017:07:17:48 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:19:38.402Z - info: 127.0.0.1 - - [04/Jan/2017:07:19:38 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:19:38.469Z - info: 127.0.0.1 - - [04/Jan/2017:07:19:38 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:19:39.409Z - info: 127.0.0.1 - - [04/Jan/2017:07:19:39 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:20:45.152Z - info: 127.0.0.1 - - [04/Jan/2017:07:20:45 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:20:45.498Z - info: 127.0.0.1 - - [04/Jan/2017:07:20:45 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:20:46.525Z - info: 127.0.0.1 - - [04/Jan/2017:07:20:46 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:21:10.407Z - info: 127.0.0.1 - - [04/Jan/2017:07:21:10 +0000] "POST /v2/clean-vendor-list?limit=100&order=name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:21:17.677Z - info: 127.0.0.1 - - [04/Jan/2017:07:21:17 +0000] "POST /v2/clean-vendor-list?limit=100&order=-name&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:21:37.738Z - info: 127.0.0.1 - - [04/Jan/2017:07:21:37 +0000] "POST /v2/clean-vendor-list?limit=100&order=contact&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:21:43.210Z - info: 127.0.0.1 - - [04/Jan/2017:07:21:43 +0000] "POST /v2/clean-vendor-list?limit=100&order=-contact&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:21:52.628Z - info: 127.0.0.1 - - [04/Jan/2017:07:21:52 +0000] "POST /v2/clean-vendor-list?limit=100&order=category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:22:01.413Z - info: 127.0.0.1 - - [04/Jan/2017:07:22:01 +0000] "POST /v2/clean-vendor-list?limit=100&order=-category&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:22:09.844Z - info: 127.0.0.1 - - [04/Jan/2017:07:22:09 +0000] "POST /v2/clean-vendor-list?limit=100&order=subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:22:20.126Z - info: 127.0.0.1 - - [04/Jan/2017:07:22:20 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:22:54.108Z - info: 127.0.0.1 - - [04/Jan/2017:07:22:54 +0000] "POST /v2/clean-vendor-list?limit=100&order=subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:03.957Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:03 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:04.001Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:04 +0000] "GET /v2/vendor-list?limit=5&order=name&page=1 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:04.699Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:04 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:04.774Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:04 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:05.521Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:05 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:18.890Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:18 +0000] "POST /v2/clean-vendor-list?limit=100&order=subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:30.901Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:30 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:23:45.319Z - info: 127.0.0.1 - - [04/Jan/2017:07:23:45 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=2 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:14.578Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:14 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=3 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:25.445Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:25 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=9 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:32.448Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:32 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=13 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:38.965Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:38 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=33 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:47.310Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:47 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=69 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:24:54.543Z - info: 127.0.0.1 - - [04/Jan/2017:07:24:54 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=100 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:25:01.076Z - info: 127.0.0.1 - - [04/Jan/2017:07:25:01 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=123 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:25:07.432Z - info: 127.0.0.1 - - [04/Jan/2017:07:25:07 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=154 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:25:15.424Z - info: 127.0.0.1 - - [04/Jan/2017:07:25:15 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=198 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:25:25.454Z - info: 127.0.0.1 - - [04/Jan/2017:07:25:25 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=241 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:05.177Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:05 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=296 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:13.868Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:13 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=477 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:20.541Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:20 +0000] "POST /v2/clean-vendor-list?limit=100&order=-subCategory&page=513 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:50.467Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:50 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:50.607Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:50 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:26:51.522Z - info: 127.0.0.1 - - [04/Jan/2017:07:26:51 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:06.800Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:06 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:06.802Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:06 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:07.831Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:07 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:18.847Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:18 +0000] "GET /v2/vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:18.867Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:18 +0000] "GET /v2/clean-vendor-details-by-id HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:27:19.907Z - info: 127.0.0.1 - - [04/Jan/2017:07:27:19 +0000] "POST /v2/clean-vendor-list?limit=100&order=saveTime&page=1 HTTP/1.1" 200 - "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:32:36.146Z - info: 127.0.0.1 - - [04/Jan/2017:07:32:36 +0000] "GET /v2/clean-vendor-details-by-id?objId=5864eeb88760562db6a35692 HTTP/1.1" 200 940 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
+2017-01-04T07:33:03.629Z - info: 127.0.0.1 - - [04/Jan/2017:07:33:03 +0000] "GET /v2/clean-vendor-details-by-id?objId=5860c56204034aad589c4b8c HTTP/1.1" 200 728 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:50.0) Gecko/20100101 Firefox/50.0"
+
