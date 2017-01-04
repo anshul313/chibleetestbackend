@@ -49,7 +49,6 @@ exports.cleanVendorList = function(req, res) {
         order[req.query.order] = 1;
     }
 
-    console.log('order :  ', order);
 
     db.collection('cleanvendors').count(query, function(error, count) {
         db.collection('cleanvendors').find(query, {
@@ -115,6 +114,7 @@ exports.vendorList = function(req, res) {
             isMobile: 1,
             isStationary: 1,
             category: 1,
+            subCategory: 1,
             model: 1,
             paytmNumber: 1,
             mobileNumber: 1,
