@@ -104,7 +104,7 @@ exports.launch = function(req, res) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
               vendordetail.update({
-                  mobileNumber: req.body.mobileNumber
+                  contact: req.body.mobileNumber
                 }, {
                   "$set": {
                     userId: req.body.userId,
@@ -835,6 +835,71 @@ exports.test = function(req, res) {
       console.log("Something has gone wrong!");
     } else {
       console.log("Successfully sent with response: ", response);
+    }
+  });
+}
+
+exports.forgetPassword = function(req, res) {
+  vendordetail.find({
+    $or: [{
+      contact: req.body.contact
+    }, {
+      email: req.body.email
+    }]
+  }, function(err, doc) {
+    console.log('doc : ', doc);
+    if (doc) {
+      vendordetail.update({
+        $or: [{
+          contact: req.body.contact
+        }, {
+          email: req.body.email
+        }]
+      }, {
+        "$set": {
+          gcmId: req.body.gcmId
+        }
+      }, function(err, data) {
+        console.log(data);
+        if (err) {
+          console.log(err);
+          response.error = true;
+          response.status = 500;
+          response.errors = err;
+          response.userMessage = 'error';
+        }
+        vendor.update({
+          contact: data.contact
+        }, {
+          "$set": {
+            gcmId: req.body.gcmId
+          }
+        }, {
+          multi: true
+        }, function(err, data1) {
+          console.log(data1);
+          if (err) {
+            console.log(err);
+            response.error = true;
+            response.status = 500;
+            response.errors = err;
+            response.userMessage = 'error';
+          } else {
+            console.log('doc : ', doc);
+            response.userMessage =
+              "Vendor login successfuly";
+            response.status = 200;
+            response.data = doc.OTP;
+            return SendResponse(res);
+          }
+        });
+      });
+    } else {
+      response.userMessage =
+        "Vendor does not exists";
+      response.status = 200;
+      response.data = {};
+      return SendResponse(res);
     }
   });
 }

@@ -15,6 +15,9 @@ module.exports = function(app) {
   app.route('/v2/login')
     .put(vendorapp.confirmOTP);
 
+  app.route('/v2/forgetpassword')
+    .put(vendorapp.forgetPassword);
+
   app.route('/v2/locationhistory')
     .post(vendorapp.locationHistory);
 
