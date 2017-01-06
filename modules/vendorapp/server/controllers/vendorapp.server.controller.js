@@ -401,40 +401,33 @@ var s3Upload = function(readStream, fileName, req, res) {
 =============================================*/
 
 exports.confirmOTP = function(req, res) {
-  var errors = req.validationErrors(true);
-  if (errors) {
-    response.error = true;
-    response.status = 400;
-    response.errors = errors;
-    response.userMessage = 'Validation errors';
-    return (SendResponse(res));
-  } else {
-    vendordetail.findOne({
-      OTP: req.body.otp,
-      contact: req.body.mobileNumber
-    }, function(err, data) {
-      if (err) {
-        response.error = true;
-        response.status = 500;
-        response.errors = err;
-        response.userMessage = "sever error";
-        return SendResponse(res);
-      } else if (!data) {
-        response.error = true;
-        response.status = 400;
-        response.errors = err;
-        response.userMessage = "OTP invalid";
-        return SendResponse(res);
-      } else {
-        response.error = false;
-        response.status = 200;
-        response.data = data
-        response.errors = err;
-        response.userMessage = "Thanks for Login";
-        return SendResponse(res);
-      }
-    });
-  }
+  console.log(req.body);
+  vendordetail.findOne({
+    OTP: req.body.otp,
+    contact: req.body.mobileNumber
+  }, function(err, data) {
+    console.log(data);
+    if (err) {
+      response.error = true;
+      response.status = 500;
+      response.errors = err;
+      response.userMessage = "sever error";
+      return SendResponse(res);
+    } else if (!data) {
+      response.error = true;
+      response.status = 400;
+      response.errors = err;
+      response.userMessage = "OTP invalid";
+      return SendResponse(res);
+    } else {
+      response.error = false;
+      response.status = 200;
+      response.data = data
+      response.errors = err;
+      response.userMessage = "Thanks for Login";
+      return SendResponse(res);
+    }
+  });
 }
 
 /*-----  End of confirmOTP   --------*/

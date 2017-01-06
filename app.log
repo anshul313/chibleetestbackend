@@ -97,3 +97,27 @@ Error: connection timeout
     at Timer.unrefTimeout (timers.js:584:5)
 2017-01-06T09:31:35.445Z - info: 127.0.0.1 - - [06/Jan/2017:09:31:35 +0000] "PUT /v2/forgetpassword HTTP/1.1" 200 83 "-" "PostmanRuntime/3.0.5"
 
+2017-01-06T10:45:21.629Z - info: 127.0.0.1 - - [06/Jan/2017:10:45:21 +0000] "PUT /v2/login HTTP/1.1" 302 35 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:45:21.889Z - info: 127.0.0.1 - - [06/Jan/2017:10:45:21 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/login" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:45:57.957Z - info: 127.0.0.1 - - [06/Jan/2017:10:45:57 +0000] "PUT /v2/login HTTP/1.1" 302 35 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:45:58.034Z - info: 127.0.0.1 - - [06/Jan/2017:10:45:58 +0000] "GET /server-error HTTP/1.1" 500 - "http://localhost:8081/v2/login" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:46:34.656Z - info: 127.0.0.1 - - [06/Jan/2017:10:46:34 +0000] "PUT /v2/login HTTP/1.1" 400 81 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:46:53.664Z - info: 127.0.0.1 - - [06/Jan/2017:10:46:53 +0000] "PUT /v2/login HTTP/1.1" 400 81 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:49:34.085Z - info: 127.0.0.1 - - [06/Jan/2017:10:49:34 +0000] "PUT /v2/login HTTP/1.1" 400 81 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:50:26.309Z - info: 127.0.0.1 - - [06/Jan/2017:10:50:26 +0000] "PUT /v2/login HTTP/1.1" 200 75 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:51:01.505Z - info: 127.0.0.1 - - [06/Jan/2017:10:51:01 +0000] "PUT /v2/login HTTP/1.1" 200 75 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:53:39.171Z - info: 127.0.0.1 - - [06/Jan/2017:10:53:39 +0000] "PUT /v2/login HTTP/1.1" 400 81 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:55:32.524Z - info: 127.0.0.1 - - [06/Jan/2017:10:55:32 +0000] "PUT /v2/login HTTP/1.1" 400 81 "-" "PostmanRuntime/3.0.5"
+
+2017-01-06T10:55:55.085Z - info: 127.0.0.1 - - [06/Jan/2017:10:55:55 +0000] "PUT /v2/login HTTP/1.1" 200 - "-" "PostmanRuntime/3.0.5"
+
