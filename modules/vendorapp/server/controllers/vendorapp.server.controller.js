@@ -409,9 +409,9 @@ exports.confirmOTP = function(req, res) {
     response.userMessage = 'Validation errors';
     return (SendResponse(res));
   } else {
-    userData = req.body;
-    vendor.findOne({
-      OTP: userData.otp
+    vendordetail.findOne({
+      OTP: req.body.otp,
+      contact: req.body.mobileNumber
     }, function(err, data) {
       if (err) {
         response.error = true;
