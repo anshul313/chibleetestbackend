@@ -103,64 +103,76 @@ exports.launch = function(req, res) {
             } else if (data) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
-              vendordetail.update({
-                  contact: req.body.mobileNumber
+              vendor.update({
+                  gcmId: data.gcmId
                 }, {
                   "$set": {
-                    userId: req.body.userId,
-                    deviceID: req.body.deviceID,
-                    email: req.body.email,
-                    model: req.body.model,
-                    contact: req.body.mobileNumber,
-                    appVersion: req.body.appVersion,
-                    paytmNumber: req.body.paytmNumber,
-                    mobikwikNumber: req.body.mobikwikNumber,
-                    gcmId: req.body.gcmId,
-                    androidSdk: req.body.androidSdk,
-                    category: req.body.category,
-                    isStationary: req.body.isStationary,
-                    isMobile: req.body.isStationary,
-                    isWalletInterested: req.body.isWalletInterested,
-                    area: req.body.area,
-                    shopNumber: req.body.shopNumber,
-                    address: req.body.address,
-                    landmark: req.body.landmark,
-                    fromTiming: req.body.fromTiming,
-                    toTiming: req.body.toTiming,
-                    name: req.body.name,
-                    isHomeDelivery: req.body.isHomeDelivery,
-                    registerTime: new Date().getTime(),
-                    imageUrl: '',
-                    OTP: parseInt(OTP),
-                    speciality: req.body.speciality,
-                    offDays: req.body.offDays,
-                    remarks: req.body.remarks,
-                    latitude: req.body.latitude,
-                    longitude: req.body.longitude
+                    gcmId: req.body.gcmId
                   }
                 }, {
                   multi: true
                 },
-                function(err, result) {
-                  if (err) {
-                    response.error = true;
-                    response.status = 400;
-                    response.errors = err;
-                    response.userMessage = "Server internal error";
-                    return SendResponse(res);
-                  } else {
-                    console.log("You are old User");
-                    response.error = false;
-                    response.status = 200;
-                    response.userMessage =
-                      "Vendor already exists";
-                    response.data = {
-                      otp: parseInt(OTP),
-                      isActive: data.isActive,
-                      vendorId: data._id
-                    };
-                    return SendResponse(res);
-                  }
+                function(err, results) {
+                  vendordetail.update({
+                      contact: req.body.mobileNumber
+                    }, {
+                      "$set": {
+                        userId: req.body.userId,
+                        deviceID: req.body.deviceID,
+                        email: req.body.email,
+                        model: req.body.model,
+                        contact: req.body.mobileNumber,
+                        appVersion: req.body.appVersion,
+                        paytmNumber: req.body.paytmNumber,
+                        mobikwikNumber: req.body.mobikwikNumber,
+                        gcmId: req.body.gcmId,
+                        androidSdk: req.body.androidSdk,
+                        category: req.body.category,
+                        isStationary: req.body.isStationary,
+                        isMobile: req.body.isStationary,
+                        isWalletInterested: req.body.isWalletInterested,
+                        area: req.body.area,
+                        shopNumber: req.body.shopNumber,
+                        address: req.body.address,
+                        landmark: req.body.landmark,
+                        fromTiming: req.body.fromTiming,
+                        toTiming: req.body.toTiming,
+                        name: req.body.name,
+                        isHomeDelivery: req.body.isHomeDelivery,
+                        registerTime: new Date().getTime(),
+                        imageUrl: '',
+                        OTP: parseInt(OTP),
+                        speciality: req.body.speciality,
+                        offDays: req.body.offDays,
+                        remarks: req.body.remarks,
+                        latitude: req.body.latitude,
+                        longitude: req.body.longitude
+                      }
+                    }, {
+                      multi: true
+                    },
+                    function(err, result) {
+                      if (err) {
+                        response.error = true;
+                        response.status = 400;
+                        response.errors = err;
+                        response.userMessage =
+                          "Server internal error";
+                        return SendResponse(res);
+                      } else {
+                        console.log("You are old User");
+                        response.error = false;
+                        response.status = 200;
+                        response.userMessage =
+                          "Vendor already exists";
+                        response.data = {
+                          otp: parseInt(OTP),
+                          isActive: data.isActive,
+                          vendorId: data._id
+                        };
+                        return SendResponse(res);
+                      }
+                    });
                 });
             } else {
 
@@ -194,7 +206,7 @@ exports.launch = function(req, res) {
                 isHomeDelivery: req.body.isHomeDelivery,
                 registerTime: new Date().getTime(),
                 imageUrl: '',
-                OTP: OTP,
+                OTP: parseInt(OTP),
                 speciality: req.body.speciality,
                 offDays: req.body.offDays,
                 isActive: false,
@@ -243,63 +255,75 @@ exports.launch = function(req, res) {
             } else if (data) {
               var OTP = String(Math.floor(Math.random() * (9999 - 1000 +
                 1) + 1000));
-              vendordetail.update({
-                  contact: req.body.mobileNumber
+              vendor.update({
+                  gcmId: data.gcmId
                 }, {
                   "$set": {
-                    userId: req.body.userId,
-                    deviceID: req.body.deviceID,
-                    email: req.body.email,
-                    model: req.body.model,
-                    contact: req.body.mobileNumber,
-                    appVersion: req.body.appVersion,
-                    paytmNumber: req.body.paytmNumber,
-                    mobikwikNumber: req.body.mobikwikNumber,
-                    gcmId: req.body.gcmId,
-                    androidSdk: req.body.androidSdk,
-                    category: req.body.category,
-                    isStationary: req.body.isStationary,
-                    isMobile: req.body.isStationary,
-                    isWalletInterested: req.body.isWalletInterested,
-                    area: req.body.area,
-                    shopNumber: req.body.shopNumber,
-                    address: req.body.address,
-                    landmark: req.body.landmark,
-                    fromTiming: req.body.fromTiming,
-                    toTiming: req.body.toTiming,
-                    name: req.body.name,
-                    isHomeDelivery: req.body.isHomeDelivery,
-                    registerTime: new Date().getTime(),
-                    imageUrl: image_url,
-                    OTP: parseInt(OTP),
-                    speciality: req.body.speciality,
-                    offDays: req.body.offDays,
-                    remarks: req.body.remarks,
-                    latitude: req.body.latitude,
-                    longitude: req.body.longitude
+                    gcmId: req.body.gcmId
                   }
                 }, {
                   multi: true
                 },
-                function(err, result) {
-                  if (err) {
-                    response.error = true;
-                    response.status = 400;
-                    response.errors = err;
-                    response.userMessage = "Server internal error";
-                    return SendResponse(res);
-                  } else {
-                    console.log("You are old User");
-                    response.error = false;
-                    response.status = 200;
-                    response.userMessage =
-                      "Vendor already exists";
-                    response.data = {
-                      isActive: data.isActive,
-                      vendorId: data._id
-                    };
-                    return SendResponse(res);
-                  }
+                function(err, results) {
+                  vendordetail.update({
+                      contact: req.body.mobileNumber
+                    }, {
+                      "$set": {
+                        userId: req.body.userId,
+                        deviceID: req.body.deviceID,
+                        email: req.body.email,
+                        model: req.body.model,
+                        contact: req.body.mobileNumber,
+                        appVersion: req.body.appVersion,
+                        paytmNumber: req.body.paytmNumber,
+                        mobikwikNumber: req.body.mobikwikNumber,
+                        gcmId: req.body.gcmId,
+                        androidSdk: req.body.androidSdk,
+                        category: req.body.category,
+                        isStationary: req.body.isStationary,
+                        isMobile: req.body.isStationary,
+                        isWalletInterested: req.body.isWalletInterested,
+                        area: req.body.area,
+                        shopNumber: req.body.shopNumber,
+                        address: req.body.address,
+                        landmark: req.body.landmark,
+                        fromTiming: req.body.fromTiming,
+                        toTiming: req.body.toTiming,
+                        name: req.body.name,
+                        isHomeDelivery: req.body.isHomeDelivery,
+                        registerTime: new Date().getTime(),
+                        imageUrl: image_url,
+                        OTP: parseInt(OTP),
+                        speciality: req.body.speciality,
+                        offDays: req.body.offDays,
+                        remarks: req.body.remarks,
+                        latitude: req.body.latitude,
+                        longitude: req.body.longitude
+                      }
+                    }, {
+                      multi: true
+                    },
+                    function(err, result) {
+                      if (err) {
+                        response.error = true;
+                        response.status = 400;
+                        response.errors = err;
+                        response.userMessage =
+                          "Server internal error";
+                        return SendResponse(res);
+                      } else {
+                        console.log("You are old User");
+                        response.error = false;
+                        response.status = 200;
+                        response.userMessage =
+                          "Vendor already exists";
+                        response.data = {
+                          isActive: data.isActive,
+                          vendorId: data._id
+                        };
+                        return SendResponse(res);
+                      }
+                    });
                 });
             } else {
 
@@ -333,7 +357,7 @@ exports.launch = function(req, res) {
                 isHomeDelivery: req.body.isHomeDelivery,
                 registerTime: new Date().getTime(),
                 imageUrl: image_url,
-                OTP: OTP,
+                OTP: parseInt(OTP),
                 speciality: req.body.speciality,
                 offDays: req.body.offDays,
                 isActive: false,
