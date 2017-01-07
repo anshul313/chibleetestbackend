@@ -671,7 +671,7 @@ exports.usertovendorchat = function(req, res) {
 
   var message = new gcm.Message();
 
-  var sender = new gcm.Sender('AIzaSyCpG_J5buAuWMM1p3f6geFVlCPJ5139o2Q');
+  var sender = new gcm.Sender('AIzaSyB4P3z-0xUTn3vIVpfvEuuI3er4UCzPUM0');
 
   message.addNotification({
     vendorGcmId: req.body.vendorGcmId,
@@ -840,7 +840,6 @@ exports.forgetPassword = function(req, res) {
       email: req.body.email
     }]
   }, function(err, doc) {
-    console.log('doc : ', doc);
     if (doc) {
       vendordetail.update({
         $or: [{
@@ -853,7 +852,6 @@ exports.forgetPassword = function(req, res) {
           gcmId: req.body.gcmId
         }
       }, function(err, data) {
-        console.log(data);
         if (err) {
           console.log(err);
           response.error = true;
@@ -870,7 +868,6 @@ exports.forgetPassword = function(req, res) {
         }, {
           multi: true
         }, function(err, data1) {
-          console.log(data1);
           if (err) {
             console.log(err);
             response.error = true;
@@ -882,7 +879,7 @@ exports.forgetPassword = function(req, res) {
             response.userMessage =
               "Vendor login successfuly";
             response.status = 200;
-            response.data = doc.OTP;
+            response.data = doc[0].OTP;
             return SendResponse(res);
           }
         });
