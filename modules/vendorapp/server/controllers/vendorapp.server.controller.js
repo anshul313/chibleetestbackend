@@ -438,11 +438,31 @@ exports.confirmOTP = function(req, res) {
       response.userMessage = "sever error";
       return SendResponse(res);
     } else if (!data) {
-      response.error = true;
-      response.status = 400;
-      response.errors = err;
-      response.userMessage = "OTP invalid";
-      return SendResponse(res);
+      vendordetail.findOne({
+        OTP: req.body.otp,
+        contact: req.body.mobileNumber
+      }, function(err1, data1) {
+        if (err1) {
+          response.error = true;
+          response.status = 500;
+          response.errors = err1;
+          response.userMessage = "sever error";
+          return SendResponse(res);
+        } else if (!data1) {
+          response.error = true;
+          response.status = 400;
+          response.errors = err1;
+          response.userMessage = "OTP invalid";
+          return SendResponse(res);
+        } else {
+          response.error = false;
+          response.status = 200;
+          response.data = data1;
+          response.errors = err1;
+          response.userMessage = "Thanks for Login";
+          return SendResponse(res);
+        }
+      });
     } else {
       response.error = false;
       response.status = 200;
