@@ -138,8 +138,9 @@ exports.vendorDetailsById = function(req, res) {
 
 exports.confirmVendor = function(req, res) {
   var coordinate = [];
-  coordinate.push(parseFloat(req.body.latitude));
   coordinate.push(parseFloat(req.body.longitude));
+  coordinate.push(parseFloat(req.body.latitude));
+
 
   var vendorData = new vendor({
     serialnumber: req.body._id,
