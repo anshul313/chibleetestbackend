@@ -438,54 +438,34 @@ exports.confirmOTP = function(req, res) {
       response.userMessage = "sever error";
       return SendResponse(res);
     } else if (!data) {
-      vendordetail.findOne({
-        OTP: req.body.otp,
+      response.error = true;
+      response.status = 400;
+      response.errors = err1;
+      response.userMessage = "OTP invalid";
+      return SendResponse(res);
+    } else {
+      vendor.update({
+        email: data.email,
         contact: req.body.mobileNumber
+      }, {
+        "$set": {
+          gcmId: req.body.gcmId
+        }
       }, function(err1, data1) {
-        if (err1) {
+        if (err) {
           response.error = true;
           response.status = 500;
           response.errors = err1;
           response.userMessage = "sever error";
           return SendResponse(res);
-        } else if (!data1) {
-          response.error = true;
-          response.status = 400;
-          response.errors = err1;
-          response.userMessage = "OTP invalid";
-          return SendResponse(res);
-        } else {
-          vendor.update({
-            email: data1.email,
-            contact: req.body.mobileNumber
-          }, {
-            "$set": {
-              gcmId: req.body.gcmId
-            }
-          }, function(err, data) {
-            if (err1) {
-              response.error = true;
-              response.status = 500;
-              response.errors = err1;
-              response.userMessage = "sever error";
-              return SendResponse(res);
-            }
-            response.error = false;
-            response.status = 200;
-            response.data = data1;
-            response.errors = err1;
-            response.userMessage = "Thanks for Login";
-            return SendResponse(res);
-          });
         }
+        response.error = false;
+        response.status = 200;
+        response.data = data;
+        response.errors = err1;
+        response.userMessage = "Thanks for Login";
+        return SendResponse(res);
       });
-    } else {
-      response.error = false;
-      response.status = 200;
-      response.data = data
-      response.errors = err;
-      response.userMessage = "Thanks for Login";
-      return SendResponse(res);
     }
   });
 }
