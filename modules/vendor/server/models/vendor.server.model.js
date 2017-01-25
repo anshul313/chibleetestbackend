@@ -181,6 +181,10 @@ var vendorSchema = new Schema({
   night: {
     type: Boolean,
     default: false
+  },
+  email: {
+    type: String,
+    default: ''
   }
 });
 

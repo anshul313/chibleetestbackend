@@ -167,7 +167,8 @@ exports.confirmVendor = function(req, res) {
     city: req.body.landmark,
     status: 1,
     keyword: req.body.keyword,
-    night: false
+    night: false,
+    email: req.body.email
   });
   var query = {
     serialnumber: req.body._id
