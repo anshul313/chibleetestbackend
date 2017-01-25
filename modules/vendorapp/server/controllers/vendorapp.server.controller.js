@@ -455,12 +455,28 @@ exports.confirmOTP = function(req, res) {
           response.userMessage = "OTP invalid";
           return SendResponse(res);
         } else {
-          response.error = false;
-          response.status = 200;
-          response.data = data1;
-          response.errors = err1;
-          response.userMessage = "Thanks for Login";
-          return SendResponse(res);
+          vendor.update({
+            email: data1.email,
+            contact: req.body.mobileNumber
+          }, {
+            "$set": {
+              gcmId: req.body.gcmId
+            }
+          }, function(err, data) {
+            if (err1) {
+              response.error = true;
+              response.status = 500;
+              response.errors = err1;
+              response.userMessage = "sever error";
+              return SendResponse(res);
+            }
+            response.error = false;
+            response.status = 200;
+            response.data = data1;
+            response.errors = err1;
+            response.userMessage = "Thanks for Login";
+            return SendResponse(res);
+          });
         }
       });
     } else {
